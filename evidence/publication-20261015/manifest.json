@@ -1,7 +1,7 @@
 {
-  "schema": "SQS-THC-PUBLICATION-MANIFEST/1",
+  "schema": "SQS-THC-PUBLICATION-MANIFEST/2",
   "round": "SQS-THC-PUBLICATION-20261015",
-  "generated_utc": "2026-10-15T11:27:14.780828+00:00",
+  "generated_utc": "2026-10-15T11:46:56.541187+00:00",
   "files": [
     {
       "path": ".gitignore",
@@ -25,8 +25,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 6086,
-      "sha256": "988f92954131405a9feb3d78e6bad10a07e0a1d49115c9fc1253a4ec25ac69c9"
+      "bytes": 6479,
+      "sha256": "fa17bc36285584e6a381ed99694474b20fc2391ede3956b15971068d2e777f92"
     },
     {
       "path": "S1_TASK_SELECTION_CARD.yaml",
@@ -742,6 +742,36 @@
       "path": "evidence/method-finalization/NEGATIVE_RESULT_w34_overnight_pullback_REJECTED.json",
       "bytes": 952,
       "sha256": "2da9118d6f4f1d3ff3b212887bd725373d0ef65108efa508e676fa239451598f"
+    },
+    {
+      "path": "evidence/publication-20261015/far_gate_review.md",
+      "bytes": 8096,
+      "sha256": "37edb779855f9ada3c466dbc8f4e9f695ad4567d81738b8faa49b6ea96d008b7"
+    },
+    {
+      "path": "evidence/publication-20261015/lane_mandate.json",
+      "bytes": 1886,
+      "sha256": "1a29f8151a9b7d8d15c9fe99eff317c3e80ac3c9413eff00862e577b1cff3d50"
+    },
+    {
+      "path": "evidence/publication-20261015/manifest.json",
+      "bytes": 168233,
+      "sha256": "96ad5eb4c3a227f651187ea279401f3550240ba326a6e9aa577ca2845daa30c9"
+    },
+    {
+      "path": "evidence/publication-20261015/plan.md",
+      "bytes": 8007,
+      "sha256": "56cbc4fed29dcbd8eeb6f040bcb2740bae0b2a124fe565079dd4eca164ba4401"
+    },
+    {
+      "path": "evidence/publication-20261015/PUBLICATION_EVIDENCE.md",
+      "bytes": 2877,
+      "sha256": "97f6a954f723cbe62c2a5e8be445a08a7b68c2c03f753d24cc7f5f90dc583403"
+    },
+    {
+      "path": "evidence/publication-20261015/toolchain_decl.json",
+      "bytes": 531,
+      "sha256": "f43a72d044957b27a622b6ffba62ba715e77be9056fb02e73fd7f4a5eb8e590c"
     },
     {
       "path": "evidence/rbwi-fullrun/AO_VERDICT_FULL_JOBCARD.json",
@@ -4428,12 +4458,12 @@
     {
       "path": "wiki/",
       "bytes": 68837251,
-      "reason": "66MB downstream derived knowledge-authoring markdown; the wiki generation receipts ARE published in evidence/wiki-daytrading and evidence/wiki-kb-rebuild"
+      "reason": "66MB downstream derived knowledge markdown; wiki generation receipts ARE published in evidence/wiki-daytrading and evidence/wiki-kb-rebuild"
     },
     {
       "path": "data_plane/data/",
       "bytes": null,
-      "reason": "283MB generated data layer (parquet + duckdb), .gitignored by design, re-derivable from TWSE source via data_plane/src/backfill_daily.py"
+      "reason": "283MB generated data layer, .gitignored by design, re-derivable via data_plane/src/backfill_daily.py"
     },
     {
       "path": ".venv-data/",
@@ -4443,43 +4473,35 @@
     {
       "path": "var/",
       "bytes": null,
-      "reason": "runtime dispatcher logs / runs / prompt fragments; .gitignored"
+      "reason": "runtime dispatcher logs / prompt fragments; .gitignored"
     },
     {
       "path": "實作執行/Shioaji API/",
       "bytes": null,
-      "reason": "broker API credential material (Shioaji API Key .txt + Sinopac.pfx); .gitignore line 23; NEVER published"
+      "reason": "broker credential material; .gitignore line 23; NEVER published"
     },
     {
       "path": "實作執行/SQS-THC_SOURCE_INVENTORY.json",
       "bytes": 40062640,
-      "reason": "40MB per-file digest list, .gitignore line 10; identity binding re-established in this manifest"
-    },
-    {
-      "path": "shioaji.log",
-      "bytes": null,
-      "reason": "protocol-level log at repo root; .gitignored"
-    },
-    {
-      "path": "__pycache__/, *.pyc, worktrees/",
-      "bytes": null,
-      "reason": "generated/scratch"
+      "reason": "40MB per-file digest list, .gitignore line 10"
     },
     {
       "path": "實作執行/var/",
       "bytes": null,
-      "reason": "governed round-runtime helper scripts, excluded by the product's own .gitignore line 8; identity/lineage carried in evidence/, not runtime scratch"
+      "reason": "governed round-runtime helper scripts, excluded by .gitignore line 8"
     },
     {
       "path": "shioaji.log",
       "bytes": null,
       "reason": "runtime protocol log, .gitignore line 22"
+    },
+    {
+      "path": "__pycache__/, *.pyc, worktrees/",
+      "bytes": null,
+      "reason": "generated/scratch"
     }
   ],
   "secret_scan": "PASS (0 hits)",
-  "files_git_commit_count_after_manifest_sync": 884,
-  "digest_form": "RAW filesystem bytes via hashlib.sha256 (line-ending CRLF→LF normalized by git text=auto on 'git add'; remote blob hashes use git's own hash-object form). Byte-identical check between remote and local staging is done at the git-blob level, NOT the raw-FS level, because the tree's checkin is what leaves the machine.",
-  "subject_head": "2c68fa25fe97904f063c3f26a05dc593ea8ab4a9 (staging tree, branch published-20261015, pre-push)",
-  "product_base_head": "9a70501ad4bbf315c675894a7a58c0f98bf18f47 (SQS-THC local HEAD as READ anchor; no product edit by this round)",
-  "readback_form": "Anonymous raw.githubusercontent.com read + sha256, per sampled artifact; plus anonymous GitHub contents API blob-sha compare per sampled artifact; both pass. classification: STALE_CDN_CONTENT possible on raw URL (raw may serve cached earlier rev); the GitHub API blob-sha route is authoritative."
+  "digest_form": "RAW filesystem bytes via hashlib.sha256; git blob-sha differs for CRLF text (text=auto normalization). Equivalence at subject HEAD via git hash-object.",
+  "readback_form": "Anonymous GitHub contents API blob-sha compare (authoritative) + raw CDN route (may serve stale)."
 }
