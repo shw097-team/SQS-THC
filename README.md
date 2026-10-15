@@ -1,3 +1,10 @@
+<!-- PUBLICATION-20261015: this branch is a candidate publication snapshot. -->
+
+> **Publication round** (2026-10-15): `shw097-team/SQS-THC` branch `published-20261015`. Full round ledger:
+> `evidence/publication-20261015/{PUBLICATION_EVIDENCE.md,manifest.json,plan.md,far_gate_review.md}`.
+> Claim ceiling: candidate publication only — NOT release, NOT production, live trading NOT_AUTHORIZED,
+> no LICENSE chooser added; licence/publication gate stays with the owner.
+
 # SQS-THC & TW-ICT FSDT-Stack
 
 > Cold-start landing page（新 Hermes / GPT / operator session 起點）。本頁是 landing page，
