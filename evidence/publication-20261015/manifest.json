@@ -755,8 +755,8 @@
     },
     {
       "path": "evidence/publication-20261015/manifest.json",
-      "bytes": 168233,
-      "sha256": "96ad5eb4c3a227f651187ea279401f3550240ba326a6e9aa577ca2845daa30c9"
+      "bytes": 168303,
+      "sha256": "21f1f0090b200834bb02c3992bd5065ba5512d993a672569346cf897a8213cb4"
     },
     {
       "path": "evidence/publication-20261015/plan.md",
@@ -4503,5 +4503,6 @@
   ],
   "secret_scan": "PASS (0 hits)",
   "digest_form": "RAW filesystem bytes via hashlib.sha256; git blob-sha differs for CRLF text (text=auto normalization). Equivalence at subject HEAD via git hash-object.",
-  "readback_form": "Anonymous GitHub contents API blob-sha compare (authoritative) + raw CDN route (may serve stale)."
+  "readback_form": "Anonymous GitHub contents API blob-sha compare (authoritative) + raw CDN route (may serve stale).",
+  "self_entry_seed_user": "AO2 FAIL finding (manifest self-entry stale): remediated by regeneration at final content state; self-entry then bound to the committed blob form"
 }
