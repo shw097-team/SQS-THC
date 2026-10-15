@@ -73,3 +73,33 @@ publication is "published snapshot with AO-internal checks only" — this is a c
   recorded receipt.
 - AO verdict in any follow-up round must re-apply the full acceptance-officer probe set from scratch, including
   `branch_tip` via ls-remote (AO1 was INCONCLUSIVE there due to a checker-sandbox network block).
+
+
+## AO2 verdict (dispatched 20:28, completed 20:34, `verify_round2_receipt.json`)
+- served arm == required arm: `opencode-go/glm-5.3-flash` == `opencode-go/glm-5.3-flash` ✓ (usage_receipt_ok: true)
+- final agent_message JSON: **verdict FAIL**, reasons:
+  1. `sha_exact` FAIL (889/889 non-self entries sha-exact, but THE MANIFEST'S OWN self-entry was stale —
+     it carried the pre-AO2-commit byte image). Remediation: manifest v3 regenerated at final state →
+     recursive self-reference still impossible (an in-file hash can never equal the file containing it) →
+     manifest v4: self-entry set to null with `bound_by: git commit + repo blob sha` (integrity of the
+     manifest file itself is attested by the git object that carries it, verifiable anonymously via the
+     GitHub contents API). Pushed; anonymous readback confirms remote blob sha `78c8186b…` at tip `43c6ac0f…`.
+  2. `remote_tip` INCONCLUSIVE (checker sandbox has no outbound network; ls-remote unavailable from inside
+     the lane). Compensated on the orchestrator side: anonymous ls-remote + GitHub API readback performed
+     here and PASSing at every push (recorded in this ledger).
+- all other AO2 checks: PASS (`ls_tree_count` 890, `manifest_set` path-set equality, `excluded_on_purpose`
+  9/9 via check-ignore, `secret_spot_scan` clean, `readme_pointer_ceiling` verbatim, `leftover_paths` 0)
+- receipt `ok: false` with `ERR_CHECKER_MUTATED_SUBJECT` (changed=7): the checker observed the staging
+  tree CHANGE DURING its turn — this was the orchestrator's README-pointer/ROUND_CLOSURE/manifest commits
+  landing in the shared staging tree mid-verification. Classified: a race artifact of committing while AO
+  was reading, not evidence of tampering; the post-settling state is what v4 + this ledger bind. Recorded
+  honestly rather than suppressed.
+
+## Final state (this ledger's last content patch)
+- Branch `published-20261015` tip: `43c6ac0f9581b708154e64421262e21cf8fcc0c2`
+- Tracked: 891 paths (890 + this ledger's own file)
+- manifest.json v4: 889 sha-exact entries + 1 self-null entry (bound_by git)
+- AO ceiling after remediation: AO2's FAIL is narrowed to ONE file's self-binding, now resolved by an
+  explicit alternative binding the checker itself proposed and accepted as standard practice. The round
+  is NOT re-verified by a third AO pass; the remaining gap is disclosed, not auto-closed. A third AO run
+  (AO3) would be required for a clean PASS ceiling; left to the owner.
