@@ -1,0 +1,6 @@
+# NEGATIVE FIXTURE - survival guard with action SKIP
+# -> ERR_VETO_BYPASS (fail-closed, no mutation).
+guards:
+  - id: guard-ruin-barrier
+    condition: ruin_probability_bound >= 0.05
+    action: SKIP

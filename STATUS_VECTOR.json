@@ -1,0 +1,50 @@
+{
+  "status_vector_id": "status-vector-ts014",
+  "schema_version": "1.0.0",
+  "spec_ref": "TS-014/SPEC-34",
+  "product_state": {
+    "product": "SQS-THC",
+    "work_order": "WO-TS-REF-14",
+    "domain": "package/materialization/readback",
+    "package_status": "LOCAL_PACKAGE_PASS",
+    "readback_status": "PASS_LOCAL_DETERMINISTIC",
+    "runtime_status": "NOT_RUN",
+    "production_pass": "NOT_CLAIMED"
+  },
+  "gates": [
+    {
+      "id": "GATE-G17",
+      "gate": "G17",
+      "name": "Release/Rollback/Readback",
+      "status": "PASS_LOCAL",
+      "note": "manifest+checksums+validator agree; local deterministic readback only; no production claim"
+    },
+    {
+      "id": "GATE-G18",
+      "gate": "G18",
+      "name": "NRTV/Replacement",
+      "status": "NOT_RUN",
+      "note": "out of scope for TS-014; required for SHADOW/PRODUCTION claims"
+    }
+  ],
+  "open_items": [
+    {
+      "id": "TT-TS014-001",
+      "severity": "BLOCKING",
+      "title": "runtime qualification NOT_RUN",
+      "detail": "validator exercised only in local deterministic tests; runtime/broker execution not performed"
+    },
+    {
+      "id": "TT-TS014-002",
+      "severity": "BLOCKING",
+      "title": "external readback receipts required",
+      "detail": "evidence/taskspecs/ts-014-{preflight,diff,tests,security,rollback}.json and handoff/ts-014-ack.ndjson are EXTERNAL_RECEIPT_REQUIRED"
+    },
+    {
+      "id": "TT-TS014-003",
+      "severity": "INFO",
+      "title": "manifest hash is detached",
+      "detail": "MANIFEST.json is the detached final delivery receipt; its own sha256 is recorded externally (git commit), never in-package"
+    }
+  ]
+}

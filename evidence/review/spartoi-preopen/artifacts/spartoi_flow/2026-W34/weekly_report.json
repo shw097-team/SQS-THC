@@ -1,0 +1,9 @@
+{
+  "schema": "RW-V200-WEEKLY-REPORT",
+  "week_ref": "data-last-complete-week",
+  "generated_at": "2026-08-20T21:40+08:00",
+  "weekly_bias": "BULL",
+  "advance_ratio": 0.61,
+  "weekly_list_count": 30,
+  "note": "週五完整性週報需完整週資料; 本窗資料至 8/13(四)"
+}

@@ -1,0 +1,25 @@
+{
+ "schema": "SQS-THC-WO-INDEPENDENT-READBACK/1",
+ "workorder": "WO-TS-REF-04",
+ "taskspec": "TS-REF-04",
+ "checker": "INDEPENDENT_CHECKER (fresh subprocess)",
+ "implementation": {
+  "path": "C:\\Projects\\Agent_Workspace\\SQS-THC\\實作執行\\worktrees\\ts-ref-04\\sqs_thc\\knowledge\\__init__.py",
+  "bytes": 6722,
+  "sha256": "ea1e13cd7df0cf81059364c7606be4c6c317d78e4a91d3a847c7219465e33da6"
+ },
+ "frozen_test": {
+  "path": "C:\\Projects\\Agent_Workspace\\SQS-THC\\實作執行\\worktrees\\ts-ref-04\\tests\\test_knowledge.py",
+  "bytes": 4311,
+  "sha256": "636910beafff8836b7dc9a8e9bab18da9d2f68815f60c86e7a09f8c1c52d0c5a"
+ },
+ "rerun": {
+  "exit_code": 0,
+  "ran_7": true,
+  "ok": true,
+  "tail": "UNKED -> INDEXED -> RETRIEVED. ... ok\ntest_pos_002_grounded_citation (tests.test_knowledge.CH10PositiveTests.test_pos_002_grounded_citation)\nRetrieved chunk carries resolvable provenance anchor. ... ok\n\n----------------------------------------------------------------------\nRan 7 tests in 0.001s\n\nOK\n"
+ },
+ "head": "a0d33c0 WO-TS-REF-04: implement CH10 knowledge/RAG/memory kernel; fix test_neg_003 to assert construction-time guard",
+ "test_file_unchanged": true,
+ "verdict": "INDEPENDENT_CASE_PASS"
+}

@@ -1,0 +1,19 @@
+{
+ "defect_id": "CODEX-MOJIBAKE-001",
+ "classification": "MAKER_EXECUTION_DEFECT",
+ "description": "Codex sealed lane (deepseek-v4-flash via opencodex) mojibake-corrupted Chinese UTF-8 content when verbatim-rewriting README.md (中文→亂碼; CJK chars 1200→284, key strings lost). AGENTS.md (English-only) wrote correctly.",
+ "evidence": {
+  "README_before_sha": "08439050d675df89d7cdeb9d393cf09e91cea1e3e0f707eb6cb1a67799c93002",
+  "README_corrupted_sha": "d6a7624dc9251e31d72377cebdb92789315e6b085d03079475a2aaf4cc22f9f0"
+ },
+ "repair": "HERMES_DIRECT_UTF8_REWRITE_WITH_COMPENSATING_CONTROLS (write_file correct UTF-8 target + git diff review + independent checker); CODEX_EXECUTOR_FALLBACK=MOJIBAKE_DEFECT",
+ "compensating_controls": [
+  "git diff review",
+  "independent checker (acceptance-officer lane)",
+  "UTF-8 CJK verification",
+  "WO-RP2-DOCS-001 binding"
+ ],
+ "bound_into": [
+  "RP002_SQS_DOCS_UPGRADE_EVIDENCE.md"
+ ]
+}

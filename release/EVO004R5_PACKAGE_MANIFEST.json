@@ -1,0 +1,8 @@
+{
+ "package": "release\\SQS-THC_EVO004R5_LOCAL_DELIVERY.zip",
+ "bytes": 413940538,
+ "sha256": "60795011ffc9577297fab730edd09ac51cea0e04d89f48c60453ca549e51648e",
+ "payload_files": 921,
+ "candidate": "SQS 77b4811 + HGK c16c40a",
+ "dataset_version": "DSV-2026-08-11-r1"
+}

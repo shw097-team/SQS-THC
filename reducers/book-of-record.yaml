@@ -1,0 +1,19 @@
+# BOOK-OF-RECORD REDUCER - reducers/book-of-record.yaml (TS-010 / ART-10, CH29 / MC-25).
+# The book of record is the SINGLE TRUTH ledger over execution facts: it is
+# append-only and immutable, reduced by a PURE DETERMINISTIC fold (facts
+# ordered by (ts, fact_id)). Projections are recomputable, never hand-edited;
+# a correction is a NEW event, never an UPDATE/DELETE. Any direct order
+# mutation - an order object fed to the reducer, or an update/delete of an
+# existing fact - is NACK'd with exact error ERR_AUTONOMOUS_ORDER_PATH
+# (fail-closed, no mutation, no broker write).
+reducer_id: book-of-record
+spec_ref: TS-010/CH29
+kind: pure_reducer
+single_truth: true
+append_only: true
+deterministic: true
+immutable: true
+source_schema: schemas/execution-fact.schema.json
+correction_mode: NEW_EVENT
+order_path: HITL_ONLY
+broker_write: false

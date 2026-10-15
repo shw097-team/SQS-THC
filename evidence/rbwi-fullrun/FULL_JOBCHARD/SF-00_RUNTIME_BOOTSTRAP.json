@@ -1,0 +1,48 @@
+{
+  "schema": "RBWI-SF-00-RECEIPT/1",
+  "sf": "SF-00",
+  "run_id": "RUN-RBWI-FULLRUN-20260820-001",
+  "candidate_id": "CAND-RBWI-20260814",
+  "outputs": {
+    "RuntimeContext": {
+      "run_id": "RUN-RBWI-FULLRUN-20260820-001",
+      "mode": "SIM",
+      "sod": "2026-08-20",
+      "timezone": "Asia/Taipei"
+    },
+    "RoleBinding": {
+      "accountable": "ROLE-RUNTIME-OWNER",
+      "maker": "ROLE-RUNTIME-OPERATOR",
+      "checker": "ROLE-SECURITY-TOOL-CHECKER",
+      "veto": "ROLE-AUTHORITY-VETO",
+      "human": "ROLE-HUMAN-OPERATOR"
+    },
+    "ToolAllowlist": [
+      "hermes",
+      "local-spec-store",
+      "wiki-readonly",
+      "duckdb-readonly",
+      "polars",
+      "backtest.duckdb"
+    ],
+    "ExplicitDeny": [
+      "broker_write",
+      "codex-writer",
+      "xq-write"
+    ],
+    "RunReceipt": {
+      "state": "STARTED",
+      "correlation_id": "RUN-RBWI-FULLRUN-20260820-001"
+    }
+  },
+  "states": "BOOTING->ACTIVE",
+  "gates": "GATE-01 PASS",
+  "sim_clock": {
+    "mode": "SIM_FASTEST_ACCEL",
+    "trade_date": "2026-08-20",
+    "dataset": "DSV-DAILY-2026-08-21-r1",
+    "note": "full-automatic sim per user decision 2026-08-21; intraday measured = qualification-proxy; no FDA/XQ realtime"
+  },
+  "financial_boundary": "LOCAL_PAPER_SIMULATION_ONLY",
+  "broker_write": false
+}

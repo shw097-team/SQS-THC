@@ -1,0 +1,18 @@
+# SECURITY POLICIES - security/policies.yaml (TS-011 / ART-11, CH32 / MC-26).
+# Each policy: id, policy. The security veto is fail-closed: least privilege
+# satisfied AND rights_basis approved AND high-risk action has scoped
+# approval_token AND supply chain ref verified; otherwise the action is
+# denied and quarantined. An empty policy list is a valid state; a policy
+# missing id or policy is rejected (field-naming error).
+spec_ref: TS-011/CH32
+policies:
+  - id: policy-least-privilege
+    policy: Every identity is granted the minimum permission scope required for its approved role; scope is denied by default and never granted by convenience.
+  - id: policy-high-risk-approval
+    policy: Any high-risk action requires a scoped approval token before execution; an expired, revoked or out-of-scope token denies the action with no mutation.
+  - id: policy-injection-quarantine
+    policy: Detected prompt injection, tool poisoning, secret exposure or confused deputy input is denied, quarantined and surfaced for review; it never reaches a tool boundary.
+  - id: policy-supply-chain-verification
+    policy: No tool or dependency is executed until its exact pin is resolved through a TOOL card; an unresolved pin blocks execution pending qualification.
+  - id: policy-secret-boundary
+    policy: Secrets never leave the trust boundary; no unscoped network access, no secret logging, no embedding of credentials in artifacts.

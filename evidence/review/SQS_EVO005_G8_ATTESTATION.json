@@ -1,0 +1,32 @@
+{
+ "schema": "HGK-EVO005-SUBJECT-ATTESTATION/1",
+ "attestation_version": "EVO005-ATTESTATION-1",
+ "captured_at_utc": "2026-08-11T11:42:27.639068+00:00",
+ "subject_digest": "e546cc2c4eacf0cb4bbb259d717c1728b89ac6c579de94262db0f450f36eefc1",
+ "active_oracle_version": "EVO005-ORACLE-V1",
+ "active_oracle_digest": "501732af709e3e789572c9edcba7b9fc01704c12cf743cdba081a613221d19ed",
+ "evidence_graph_root_digest": "32bf12225372442ab8b01126bdd4c2a6e67803cb4ff1f2d0c82b5e77b1723925",
+ "verifier_identity": "EVO005-INDEPENDENT-ORACLE-VERIFIER",
+ "verifier_version": "EVO005-VERIFIER-1.0",
+ "verifier_result": "PASS",
+ "claim_scope_verdicts": {
+  "PRODUCT_LOCAL_DELIVERY": "SQS-THC_TW-ICT_FSDT_STACK_LOCAL_DELIVERY_PASS",
+  "REFERENCE_PROJECT_EVOLUTION_COMPLETE": "HGK_REFERENCE_PROJECT_001_COMPLETE",
+  "KNOWLEDGE_BASELINE_READY": "PASS",
+  "VECTOR_PROVIDER_READINESS": "ADMITTED_DISABLED",
+  "GRAPH_PROVIDER_READINESS": "INSTALL_PROFILE_READY",
+  "PRODUCTION": "NOT_CLAIMED",
+  "LIVE_TRADING": "NOT_AUTHORIZED"
+ },
+ "package_artifact_identity": "SQS-THC_EVO005_LOCAL_DELIVERY.zip (bound in G9)",
+ "blocking_tt": 0,
+ "artifact_ids": {
+  "evidence/review/SQS_WAVE4_LEGACY_ADMISSION_PROFILE.json": "ART-cbc31fe87fc80735",
+  "evidence/review/SQS_WAVE4_LEGACY_DISPOSITION.json": "ART-bbf0ae963cc2b304",
+  "evidence/review/SQS_EVO004_R5_G4_CORPUS_ADMISSION.json": "ART-cfc90d1e5c7358b5",
+  "evidence/review/SQS_EVO004_R5_G5G6_COLD_START.json": "ART-9f54156958185a37",
+  "evidence/review/SQS_EVO005_G3G4_INTEGRITY.json": "ART-5e4b165260191c7b",
+  "evidence/review/SQS_EVO005_G5G6_RBWI_CALIBRATION.json": "ART-e46f06c83aa72f3d",
+  "evidence/review/SQS_EVO005_G7_VERIFIER.json": "ART-93f6d718bedc2e27"
+ }
+}

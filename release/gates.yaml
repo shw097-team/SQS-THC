@@ -1,0 +1,23 @@
+# RELEASE GATES - release/gates.yaml (TS-012 / ART-12, CH33 / MC-27).
+# Release integrity is gate-checked, not self-declared. Each gate carries
+# id, gate and required (evidence ids that must exist in
+# evidence/ledger.yaml). G17 (Release/Rollback/Readback) and G18
+# (NRTV/Replacement) are the release plane for this work order. Claiming
+# PRODUCTION without the required release AND NRTV evidence raises exact
+# error ERR_PRODUCTION_CLAIM_INFLATION (fail-closed, no mutation, no broker
+# write, no network).
+release_id: release-gates-ts012
+schema_version: "1.0.0"
+spec_ref: TS-012/SPEC-34
+gates:
+  - id: GATE-G17
+    gate: G17
+    required:
+      - EV-012-001
+      - EV-012-002
+      - EV-012-003
+  - id: GATE-G18
+    gate: G18
+    required:
+      - EV-012-004
+      - EV-012-005

@@ -1,0 +1,29 @@
+schema: SQS-ASSURANCE-PACK-MANIFEST/1
+consumer: acceptance-officer
+source_packs:
+  - id: TWICT_DOC21_INDEPENDENT_VALIDATION
+    source_locator: 知識庫/專業技術文檔/TW-ICT_FSDT-Stack_專業技術文檔/TW-ICT_FSDT-Stack_專業技術文檔_DOC-21_2026-07-31_r2.md
+    version_or_digest: RESOLVED_BY_READBACK_AT_SQP1
+    applicable_task_classes: [RESEARCH, BACKTEST, MODEL_CHANGE, DOMAIN_CHANGE_WHERE_APPLICABLE]
+    validators: [independent validation contract, counter-evidence, maker/checker SoD]
+    fixtures: [fixture-21-positive, fixture-21-negative]
+    negative_tests: [maker self-pass rejected]
+    domain_owner: TW-ICT domain owner
+    l2_consumer: acceptance-officer
+    applicability_predicate: research/backtest/model/domain-change tasks
+    rollback_or_prior_pack: DOC27 pack
+  - id: TWICT_DOC27_EVIDENCE_NRTV
+    source_locator: 知識庫/專業技術文檔/TW-ICT_FSDT-Stack_專業技術文檔/TW-ICT_FSDT-Stack_專業技術文檔_DOC-27_2026-07-31_r2.md
+    version_or_digest: RESOLVED_BY_READBACK_AT_SQP1
+    applicable_task_classes: [SQP1, S1, E1, E2, R1]
+    validators: [NRTV, evidence package readback, SoD]
+    fixtures: [fixture-27-positive, fixture-27-negative]
+    negative_tests: [summary-as-evidence rejected]
+    domain_owner: TW-ICT domain owner
+    l2_consumer: acceptance-officer
+    applicability_predicate: all Stage-3 gates
+    rollback_or_prior_pack: DOC21 pack
+invariants:
+  pack_missing_when_applicable: FAIL_CLOSED
+  maker_modifies_pack_for_own_candidate: FAIL
+  sqs_risk_substitutes_for_l2: FAIL

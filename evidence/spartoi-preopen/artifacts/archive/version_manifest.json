@@ -1,0 +1,51 @@
+{
+  "schema": "RW-V200-VERSION-MANIFEST",
+  "date": "2026-08-20",
+  "week": "2026-W34",
+  "generated_at": "2026-08-20T21:40+08:00",
+  "artifacts": [
+    {
+      "path": "spartoi-preopen\\spartoi_flow\\2026-W34\\weekly_pack.json",
+      "sha256": "603211518f47617420298d7feb69276680a7ebad53321ccc9c769b9992137a56",
+      "bytes": 11441
+    },
+    {
+      "path": "spartoi-preopen\\spartoi_flow\\2026-W34\\weekly_report.json",
+      "sha256": "58a8fb6991a66bd81442af29e11d3407263cf7092684f5c35ff4c4f10556fdfc",
+      "bytes": 290
+    },
+    {
+      "path": "spartoi-preopen\\dayflow\\2026-08-20\\daily_pack.json",
+      "sha256": "485f1dfe5a79c75f737fb6ccc526568283b667a27df55cc511f162bd89cc55c6",
+      "bytes": 3103
+    },
+    {
+      "path": "spartoi-preopen\\dayflow\\2026-08-20\\daily_report.json",
+      "sha256": "e3159bdb3a2aa2673734e0f71d78d1f0acf03300ccc559bfb0c6a606a406d41d",
+      "bytes": 672
+    },
+    {
+      "path": "spartoi-preopen\\dayflow\\2026-08-20\\feedback_to_method.json",
+      "sha256": "077ef71f58921d20c3cd1b358156743ca5d783dcc1668fc0ad1fbc50284c709a",
+      "bytes": 160
+    },
+    {
+      "path": "spartoi-preopen\\dayflow\\2026-08-20\\preopen_risk_report.json",
+      "sha256": "12a65d2873255e0338cae8e01048597baed3a950997ead729b8db87964baf138",
+      "bytes": 243
+    },
+    {
+      "path": "spartoi-preopen\\dayflow\\2026-08-20\\S1_final_list.json",
+      "sha256": "27dade3042944f93a7ddd3cb592e8e048a596020031c9055c2b25502496abfd4",
+      "bytes": 918
+    },
+    {
+      "path": "spartoi-preopen\\dayflow\\2026-08-20\\xs_watchlist.xs",
+      "sha256": "77ac04bed3db828ae63f558b2805ffb3200b31f39977f1961bed9ce3e3c273b2",
+      "bytes": 429
+    }
+  ],
+  "count": 8,
+  "replayable": "all evidence_ptr traceable; no compressed archive (small set)",
+  "storage_note": "SQS-THC/var/spartoi-preopen (gitignored run area)"
+}

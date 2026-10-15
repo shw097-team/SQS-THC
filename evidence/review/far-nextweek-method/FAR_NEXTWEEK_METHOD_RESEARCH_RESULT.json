@@ -1,0 +1,54 @@
+{
+  "schema": "FAR-RESEARCH-RESULT/1",
+  "family": "NEXTWEEK_METHOD_DESIGN_20260824_28",
+  "target_week": "2026-08-24..08-28 (五交易日)",
+  "goal": "制定合理最高獲利機率/期望值/風險報酬的 TW-ICT 台股當沖方法",
+  "lanes": [
+    "lane0_候選教訓綜合",
+    "lane1_TW-ICT方法設計+minute實測",
+    "lane2_量化框架(breakeven/WF/決策樹)"
+  ],
+  "delegation": "deleg_41e63973",
+  "codex": "opencode-go ANALYSIS(+14.18bp edge)",
+  "candidate_lessons": {
+    "w34_overnight_pullback": "gross負(無edge)+成本放大6.64x -> signal_no_edge",
+    "rf_overnight": "有真edge(+14.18bp vs baseline) 但被68.5bp隔夜成本吃掉 -> real_edge_killed_by_cost",
+    "t0_open_auction_breakout": "gross即負(IS-240%/OOS-221%,非成本) -> pure_signal_no_edge; 49權值股representativeness薄",
+    "KEY_INSIGHT": "唯一被證明的真edge來源=ML跨截面/短時域分類(rf+14.18bp); 應移入T0盤中(5/15/30-min分類)保edge共享68.5bp成本"
+  },
+  "nextweek_method_design": {
+    "axis": "DAYTRADING_T0_INTRADAY (非隔夜, Overnight Gate FORCED_FLATTEN)",
+    "leading_candidate_1": "rf-intraday-momentum (ML分類 minutely 5/15/30min up/down), 盤中做多, next-min open entry, 2R stop/time-exit/13:20 flatten",
+    "leading_candidate_2": "OR-breakout-with-volume-confirmation (首15min high+量能突破延續, 高開低開行為)",
+    "params_scope": "Universe top-49 權值股; OR 09:00-09:15; cost 68.5bp; win>=55%/RR>=1.5; forced 13:20"
+  },
+  "quantitative_framework": {
+    "success_definition": "gross>0 after cost (IS AND OOS 都gross>0, 非僅OOS), RR>=1.5, win>=40%, 參數在 IS+OOS 穩健",
+    "no_overfit": "walk-forward; 禁只挑OOS修正; 禁profit guarantee; WF-09->10->11->08 至 RESEARCH_ONLY 才可推薦",
+    "decision_tree": "1) 選候選(candidate)→2) 資料內 split/IS-OOS→3) gross>0 both? no→REJECTED(DOC-20失敗是資產); yes→4) cost-adjusted>0? →5) independent validation(另派checker)→6) RESEARCH_ONLY 推薦 下周->7) Paper/Shadow(需 live)"
+  },
+  "honesty_guardrails": "不可為達目標造假/overfit/保證獲利; 若下周候選仍gross負則誠實REJECTED不留倉; 需independent驗證不reuse maker cache",
+  "recommended_best_plan": {
+    "step1": "依KEY_INSIGHT: 建 rf-intraday-momentum 當沖候選(用minute_bars 5/15/30min分類) + OR-breakout-volume 對照",
+    "step2": "兩者皆走 IS/OOS 回測, gross>0 both; 選成本後最優者(期望值+RR)",
+    "step3": "透過 WF-09->10->11->08 至 RESEARCH_ONLY",
+    "step4": "下周 8/24-28 若方法通過→可納入決策(Paper/HITL); 若否→誠實REJECTED",
+    "priority": "最高優先=測試 rf-intraday-momentum(唯一已知edge來源移入T0)",
+    "correction": "leading 由 rf-intraday-momentum 改為 OR-BRK-RETEST-CONT(結構性最優); 誠實 default=下周可能 NO_TRADE; 通往推薦路徑=OR延展加 vol/trailing/top-liquidity 並重估 slippage, 非 param-tune 救"
+  },
+  "nonclaim": "LOCAL/RESEARCH 方法設計; 不保證獲利; 需實測/WF/HITL; live NOT_AUTHORIZED",
+  "lane1_empirical_correction": {
+    "momentum_falsified": "首小時動能延續率僅 44.2% (<50%, 均值回歸主導) -> FIRST-HOUR-MOMENTUM 剔除; 先前 C1 (rf-intraday-momentum) 需降級",
+    "structural_edge": "OR(09:01-09:15) 突破延展 OR_hi->day_hi 均值+151bp/中位+96.5bp 是真實結構性 edge; 回踩後做多 upside ~+160bp",
+    "high_vol_regime": "近月(06-08) 日內振幅放大 5392bp vs 全年 4436bp (+22%) 高波動 regime",
+    "cost_wall": "無任何候選能中立覆蓋 68.5bp 成本; 最大 OR 延展 ~151bp 扣成本後淨期望邊際負~強負",
+    "candidate_ranking": [
+      "OR-BRK-RETEST-CONT(結構最優)",
+      "VWAP-ANCHOR-DRIFT(高波動)",
+      "OR-BREAK-FAIL-FADE / GAP-FADE(對照/方向filter)",
+      "FIRST-HOUR-MOMENTUM(剔除)"
+    ],
+    "note": "OR 延展可交易需加 vol filter + trailing + 僅 top-liquidity + 重估 slippage 才可能轉正"
+  },
+  "lane2_honest_default": "下周無可推薦方法是誠實期望結果(NO_TRADE default); 3候選皆 gross 層證偽是正確的, 非需繞過的失敗"
+}

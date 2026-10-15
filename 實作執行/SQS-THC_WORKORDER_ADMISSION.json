@@ -1,0 +1,12 @@
+{
+  "schema": "SQS-THC-WORKORDER-ADMISSION/1",
+  "reference_project_id": "HGK-REFERENCE-PROJECT-001",
+  "admission_path": "SHARED_SPINE_API (workaround for lifecycle.admit_workorders req_id collision defect; signal EVO-SIG-32D2CAA8)",
+  "requirement": "REQ-REF-001 FROZEN (project-scoped, avoids REQ-001 collision)",
+  "taskspecs_admitted": 15,
+  "workorders_admitted": 15,
+  "source_binding": "P0-CIP SQS-THC_TW-ICT_FSDT-Stack 15 TaskSpec families (TS-001..TS-015)",
+  "writer": "codex",
+  "project_state": "EXECUTING",
+  "note": "Three evidence-backed lifecycle gaps captured as evolution signals: (1) admit_workorders REQ-{tail} idempotency/collision defect; (2) CLI project advance does not wire plan/admit; (3) register_requirement FK requires projects row which lifecycle start does not create. All bypassed via existing spine API without modifying frozen core."
+}

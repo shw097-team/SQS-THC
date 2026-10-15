@@ -1,0 +1,308 @@
+# RBWI canonical object manifest - 101 canonical typed objects (TW-ICT RBWI v3.0.0 r2).
+# WO-RBWI-FULLRUN-001 (GAP-RBWI-001/002/008) repair materialization.
+# Grouped by owner doc domain; every canonical object is wrapped in a ContractEnvelope
+# carrying the universal CONTRACT_STATE lifecycle (DRAFT/ACTIVE/EXPIRED/INVALID/REVOKED/BLOCKED/CLOSED).
+canonical_objects:
+  - id: OBJ-001
+    domain: DOC-00
+    state_machine: CONTRACT_STATE
+  - id: OBJ-002
+    domain: DOC-00
+    state_machine: CONTRACT_STATE
+  - id: OBJ-003
+    domain: DOC-00
+    state_machine: CONTRACT_STATE
+  - id: OBJ-004
+    domain: DOC-00
+    state_machine: CONTRACT_STATE
+  - id: OBJ-005
+    domain: DOC-00
+    state_machine: CONTRACT_STATE
+  - id: OBJ-006
+    domain: DOC-01
+    state_machine: CONTRACT_STATE
+  - id: OBJ-007
+    domain: DOC-01
+    state_machine: CONTRACT_STATE
+  - id: OBJ-008
+    domain: DOC-01
+    state_machine: CONTRACT_STATE
+  - id: OBJ-009
+    domain: DOC-01
+    state_machine: CONTRACT_STATE
+  - id: OBJ-010
+    domain: DOC-02
+    state_machine: CONTRACT_STATE
+  - id: OBJ-011
+    domain: DOC-02
+    state_machine: CONTRACT_STATE
+  - id: OBJ-012
+    domain: DOC-02
+    state_machine: CONTRACT_STATE
+  - id: OBJ-013
+    domain: DOC-02
+    state_machine: CONTRACT_STATE
+  - id: OBJ-014
+    domain: DOC-02
+    state_machine: CONTRACT_STATE
+  - id: OBJ-015
+    domain: DOC-02
+    state_machine: CONTRACT_STATE
+  - id: OBJ-016
+    domain: DOC-02
+    state_machine: CONTRACT_STATE
+  - id: OBJ-023
+    domain: DOC-03
+    state_machine: CONTRACT_STATE
+  - id: OBJ-024
+    domain: DOC-03
+    state_machine: CONTRACT_STATE
+  - id: OBJ-025
+    domain: DOC-03
+    state_machine: CONTRACT_STATE
+  - id: OBJ-026
+    domain: DOC-03
+    state_machine: CONTRACT_STATE
+  - id: OBJ-027
+    domain: DOC-03
+    state_machine: CONTRACT_STATE
+  - id: OBJ-093
+    domain: DOC-03
+    state_machine: CONTRACT_STATE
+  - id: OBJ-028
+    domain: DOC-04
+    state_machine: CONTRACT_STATE
+  - id: OBJ-029
+    domain: DOC-04
+    state_machine: CONTRACT_STATE
+  - id: OBJ-030
+    domain: DOC-04
+    state_machine: CONTRACT_STATE
+  - id: OBJ-031
+    domain: DOC-04
+    state_machine: CONTRACT_STATE
+  - id: OBJ-032
+    domain: DOC-05
+    state_machine: CONTRACT_STATE
+  - id: OBJ-033
+    domain: DOC-05
+    state_machine: CONTRACT_STATE
+  - id: OBJ-034
+    domain: DOC-05
+    state_machine: CONTRACT_STATE
+  - id: OBJ-035
+    domain: DOC-05
+    state_machine: CONTRACT_STATE
+  - id: OBJ-036
+    domain: DOC-05
+    state_machine: CONTRACT_STATE
+  - id: OBJ-037
+    domain: DOC-05
+    state_machine: CONTRACT_STATE
+  - id: OBJ-038
+    domain: DOC-05
+    state_machine: CONTRACT_STATE
+  - id: OBJ-039
+    domain: DOC-05
+    state_machine: CONTRACT_STATE
+  - id: OBJ-040
+    domain: DOC-05
+    state_machine: CONTRACT_STATE
+  - id: OBJ-041
+    domain: DOC-05
+    state_machine: CONTRACT_STATE
+  - id: OBJ-043
+    domain: DOC-06
+    state_machine: CONTRACT_STATE
+  - id: OBJ-044
+    domain: DOC-06
+    state_machine: CONTRACT_STATE
+  - id: OBJ-045
+    domain: DOC-06
+    state_machine: CONTRACT_STATE
+  - id: OBJ-046
+    domain: DOC-06
+    state_machine: CONTRACT_STATE
+  - id: OBJ-047
+    domain: DOC-06
+    state_machine: CONTRACT_STATE
+  - id: OBJ-048
+    domain: DOC-06
+    state_machine: CONTRACT_STATE
+  - id: OBJ-049
+    domain: DOC-06
+    state_machine: CONTRACT_STATE
+  - id: OBJ-096
+    domain: DOC-06
+    state_machine: CONTRACT_STATE
+  - id: OBJ-098
+    domain: DOC-06
+    state_machine: CONTRACT_STATE
+  - id: OBJ-099
+    domain: DOC-06
+    state_machine: CONTRACT_STATE
+  - id: OBJ-100
+    domain: DOC-06
+    state_machine: CONTRACT_STATE
+  - id: OBJ-042
+    domain: DOC-07
+    state_machine: CONTRACT_STATE
+  - id: OBJ-050
+    domain: DOC-07
+    state_machine: CONTRACT_STATE
+  - id: OBJ-051
+    domain: DOC-07
+    state_machine: CONTRACT_STATE
+  - id: OBJ-052
+    domain: DOC-07
+    state_machine: CONTRACT_STATE
+  - id: OBJ-053
+    domain: DOC-07
+    state_machine: CONTRACT_STATE
+  - id: OBJ-054
+    domain: DOC-07
+    state_machine: CONTRACT_STATE
+  - id: OBJ-055
+    domain: DOC-07
+    state_machine: CONTRACT_STATE
+  - id: OBJ-056
+    domain: DOC-07
+    state_machine: CONTRACT_STATE
+  - id: OBJ-057
+    domain: DOC-07
+    state_machine: CONTRACT_STATE
+  - id: OBJ-058
+    domain: DOC-07
+    state_machine: CONTRACT_STATE
+  - id: OBJ-059
+    domain: DOC-07
+    state_machine: CONTRACT_STATE
+  - id: OBJ-060
+    domain: DOC-07
+    state_machine: CONTRACT_STATE
+  - id: OBJ-061
+    domain: DOC-07
+    state_machine: CONTRACT_STATE
+  - id: OBJ-062
+    domain: DOC-07
+    state_machine: CONTRACT_STATE
+  - id: OBJ-063
+    domain: DOC-07
+    state_machine: CONTRACT_STATE
+  - id: OBJ-064
+    domain: DOC-07
+    state_machine: CONTRACT_STATE
+  - id: OBJ-065
+    domain: DOC-07
+    state_machine: CONTRACT_STATE
+  - id: OBJ-066
+    domain: DOC-07
+    state_machine: CONTRACT_STATE
+  - id: OBJ-095
+    domain: DOC-07
+    state_machine: CONTRACT_STATE
+  - id: OBJ-097
+    domain: DOC-07
+    state_machine: CONTRACT_STATE
+  - id: OBJ-067
+    domain: DOC-08
+    state_machine: CONTRACT_STATE
+  - id: OBJ-068
+    domain: DOC-08
+    state_machine: CONTRACT_STATE
+  - id: OBJ-069
+    domain: DOC-08
+    state_machine: CONTRACT_STATE
+  - id: OBJ-070
+    domain: DOC-08
+    state_machine: CONTRACT_STATE
+  - id: OBJ-071
+    domain: DOC-08
+    state_machine: CONTRACT_STATE
+  - id: OBJ-072
+    domain: DOC-08
+    state_machine: CONTRACT_STATE
+  - id: OBJ-073
+    domain: DOC-08
+    state_machine: CONTRACT_STATE
+  - id: OBJ-074
+    domain: DOC-08
+    state_machine: CONTRACT_STATE
+  - id: OBJ-075
+    domain: DOC-08
+    state_machine: CONTRACT_STATE
+  - id: OBJ-076
+    domain: DOC-08
+    state_machine: CONTRACT_STATE
+  - id: OBJ-077
+    domain: DOC-09
+    state_machine: CONTRACT_STATE
+  - id: OBJ-078
+    domain: DOC-09
+    state_machine: CONTRACT_STATE
+  - id: OBJ-079
+    domain: DOC-09
+    state_machine: CONTRACT_STATE
+  - id: OBJ-017
+    domain: DOC-10
+    state_machine: CONTRACT_STATE
+  - id: OBJ-018
+    domain: DOC-10
+    state_machine: CONTRACT_STATE
+  - id: OBJ-019
+    domain: DOC-10
+    state_machine: CONTRACT_STATE
+  - id: OBJ-020
+    domain: DOC-10
+    state_machine: CONTRACT_STATE
+  - id: OBJ-021
+    domain: DOC-10
+    state_machine: CONTRACT_STATE
+  - id: OBJ-022
+    domain: DOC-10
+    state_machine: CONTRACT_STATE
+  - id: OBJ-089
+    domain: DOC-10
+    state_machine: CONTRACT_STATE
+  - id: OBJ-090
+    domain: DOC-10
+    state_machine: CONTRACT_STATE
+  - id: OBJ-091
+    domain: DOC-10
+    state_machine: CONTRACT_STATE
+  - id: OBJ-092
+    domain: DOC-10
+    state_machine: CONTRACT_STATE
+  - id: OBJ-080
+    domain: DOC-11
+    state_machine: CONTRACT_STATE
+  - id: OBJ-081
+    domain: DOC-11
+    state_machine: CONTRACT_STATE
+  - id: OBJ-082
+    domain: DOC-11
+    state_machine: CONTRACT_STATE
+  - id: OBJ-083
+    domain: DOC-11
+    state_machine: CONTRACT_STATE
+  - id: OBJ-084
+    domain: DOC-11
+    state_machine: CONTRACT_STATE
+  - id: OBJ-085
+    domain: DOC-11
+    state_machine: CONTRACT_STATE
+  - id: OBJ-086
+    domain: DOC-11
+    state_machine: CONTRACT_STATE
+  - id: OBJ-087
+    domain: DOC-11
+    state_machine: CONTRACT_STATE
+  - id: OBJ-088
+    domain: DOC-11
+    state_machine: CONTRACT_STATE
+  - id: OBJ-094
+    domain: DOC-00/10
+    state_machine: CONTRACT_STATE
+  - id: OBJ-101
+    domain: DOC-01/06
+    state_machine: CONTRACT_STATE

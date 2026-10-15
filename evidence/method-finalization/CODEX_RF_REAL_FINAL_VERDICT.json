@@ -1,0 +1,12 @@
+{
+  "writer": "codex",
+  "verdict": "PASS",
+  "route": "opencode-go",
+  "date": "2026-08-21",
+  "verified": [
+    "Fix1 chronological split (cutoff 2025-03-14)",
+    "Fix2 precise (symbol,date) gap key",
+    "PIT-clean",
+    "receipt honest gross 36.18/edge 14.18/net -32.32"
+  ]
+}

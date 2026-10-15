@@ -1,0 +1,520 @@
+{
+  "schema": "RW-V200-WEEKLY-PACK",
+  "week": "2026-W34",
+  "as_of": "2026-08-13",
+  "generated_at": "2026-08-20T21:30+08:00",
+  "candidate": "CAND-SPARTOI-W34-20260820",
+  "narrative_bias": "BULL",
+  "bias_w": {
+    "direction": "BULL",
+    "confidence": "MEDIUM",
+    "targets": {
+      "upside": 41.64,
+      "downside": 35.06
+    },
+    "invalidations": {
+      "close_below_prev_week_low": 35.78,
+      "close_above_prev_week_high": 40.82
+    },
+    "pwh_pwl": {
+      "prev_week_high": 40.82,
+      "prev_week_low": 35.78,
+      "week_open": 40.41,
+      "week_close": 41.31
+    },
+    "breadth": {
+      "up": 155,
+      "down": 99,
+      "flat": 4,
+      "total": 258,
+      "advance_ratio": 0.61
+    },
+    "mean_ret": 0.0154,
+    "median_ret": 0.0093,
+    "source": "DSV-DAILY-2026-08-13-r2 (TWSE daily OHLCV, 2026-08-05..08-13 window)",
+    "five_clock": {
+      "known_at_le_asof": 0,
+      "semantics": "daily T+1 known_at==asof+1d"
+    }
+  },
+  "W-DR": {
+    "eq50": 40.91,
+    "high": 43.03,
+    "low": 38.79,
+    "pd_arrays": {
+      "opening_range_high": 43.03,
+      "opening_range_low": 38.79,
+      "prior_day_high": 40.82
+    }
+  },
+  "W-LQ": {
+    "old_weekly_high": 40.82,
+    "old_weekly_low": 35.78,
+    "double_top": false,
+    "double_bottom": false,
+    "note": "double-top/bottom 需同價兩次觸及 + 位移棒收盤確認；此處以週級 proxy 標記"
+  },
+  "weekly_list": [
+    {
+      "symbol": "2344",
+      "w_close": 177.0,
+      "w_ret": 0.0599,
+      "rs_w": 0.0445,
+      "eq50": 176.75,
+      "w_high": 193.0,
+      "w_low": 160.5,
+      "liq": 1376963285,
+      "script_score_W": 100,
+      "risk_tags": [
+        "normal"
+      ]
+    },
+    {
+      "symbol": "2303",
+      "w_close": 124.5,
+      "w_ret": -0.0349,
+      "rs_w": -0.0503,
+      "eq50": 122.25,
+      "w_high": 130.5,
+      "w_low": 114.0,
+      "liq": 1145591779,
+      "script_score_W": 0,
+      "risk_tags": [
+        "normal"
+      ]
+    },
+    {
+      "symbol": "2337",
+      "w_close": 136.5,
+      "w_ret": 0.1098,
+      "rs_w": 0.0944,
+      "eq50": 128.75,
+      "w_high": 141.5,
+      "w_low": 116.0,
+      "liq": 880416464,
+      "script_score_W": 100,
+      "risk_tags": [
+        "watch_highvol"
+      ]
+    },
+    {
+      "symbol": "1303",
+      "w_close": 189.0,
+      "w_ret": 0.05,
+      "rs_w": 0.0346,
+      "eq50": 183.5,
+      "w_high": 197.5,
+      "w_low": 169.5,
+      "liq": 652885470,
+      "script_score_W": 100,
+      "risk_tags": [
+        "normal"
+      ]
+    },
+    {
+      "symbol": "2324",
+      "w_close": 39.3,
+      "w_ret": 0.0397,
+      "rs_w": 0.0243,
+      "eq50": 38.67,
+      "w_high": 41.7,
+      "w_low": 35.65,
+      "liq": 545002679,
+      "script_score_W": 100,
+      "risk_tags": [
+        "normal"
+      ]
+    },
+    {
+      "symbol": "8150",
+      "w_close": 92.9,
+      "w_ret": 0.0715,
+      "rs_w": 0.0561,
+      "eq50": 91.45,
+      "w_high": 99.4,
+      "w_low": 83.5,
+      "liq": 402957281,
+      "script_score_W": 100,
+      "risk_tags": [
+        "normal"
+      ]
+    },
+    {
+      "symbol": "1605",
+      "w_close": 39.3,
+      "w_ret": 0.1391,
+      "rs_w": 0.1237,
+      "eq50": 37.5,
+      "w_high": 41.0,
+      "w_low": 34.0,
+      "liq": 345120928,
+      "script_score_W": 100,
+      "risk_tags": [
+        "watch_highvol"
+      ]
+    },
+    {
+      "symbol": "2610",
+      "w_close": 20.1,
+      "w_ret": -0.1145,
+      "rs_w": -0.1299,
+      "eq50": 21.43,
+      "w_high": 22.85,
+      "w_low": 20.0,
+      "liq": 339452531,
+      "script_score_W": 0,
+      "risk_tags": [
+        "watch_lowvol"
+      ]
+    },
+    {
+      "symbol": "2356",
+      "w_close": 68.8,
+      "w_ret": 0.0269,
+      "rs_w": 0.0115,
+      "eq50": 68.1,
+      "w_high": 72.6,
+      "w_low": 63.6,
+      "liq": 261652237,
+      "script_score_W": 100,
+      "risk_tags": [
+        "normal"
+      ]
+    },
+    {
+      "symbol": "2886",
+      "w_close": 45.85,
+      "w_ret": -0.0957,
+      "rs_w": -0.111,
+      "eq50": 48.42,
+      "w_high": 51.9,
+      "w_low": 44.95,
+      "liq": 242862685,
+      "script_score_W": 0,
+      "risk_tags": [
+        "normal"
+      ]
+    },
+    {
+      "symbol": "2618",
+      "w_close": 41.0,
+      "w_ret": -0.0682,
+      "rs_w": -0.0836,
+      "eq50": 42.7,
+      "w_high": 44.6,
+      "w_low": 40.8,
+      "liq": 233935893,
+      "script_score_W": 0,
+      "risk_tags": [
+        "normal"
+      ]
+    },
+    {
+      "symbol": "2880",
+      "w_close": 39.1,
+      "w_ret": -0.097,
+      "rs_w": -0.1124,
+      "eq50": 41.58,
+      "w_high": 44.85,
+      "w_low": 38.3,
+      "liq": 223518005,
+      "script_score_W": 0,
+      "risk_tags": [
+        "normal"
+      ]
+    },
+    {
+      "symbol": "2884",
+      "w_close": 37.3,
+      "w_ret": -0.021,
+      "rs_w": -0.0364,
+      "eq50": 37.33,
+      "w_high": 38.35,
+      "w_low": 36.3,
+      "liq": 208144514,
+      "script_score_W": 0,
+      "risk_tags": [
+        "normal"
+      ]
+    },
+    {
+      "symbol": "8112",
+      "w_close": 97.8,
+      "w_ret": 0.1228,
+      "rs_w": 0.1075,
+      "eq50": 93.1,
+      "w_high": 101.5,
+      "w_low": 84.7,
+      "liq": 202129084,
+      "script_score_W": 100,
+      "risk_tags": [
+        "watch_highvol"
+      ]
+    },
+    {
+      "symbol": "5880",
+      "w_close": 24.2,
+      "w_ret": -0.0936,
+      "rs_w": -0.109,
+      "eq50": 25.33,
+      "w_high": 26.8,
+      "w_low": 23.85,
+      "liq": 182427061,
+      "script_score_W": 0,
+      "risk_tags": [
+        "normal"
+      ]
+    },
+    {
+      "symbol": "2027",
+      "w_close": 50.4,
+      "w_ret": 0.139,
+      "rs_w": 0.1236,
+      "eq50": 47.7,
+      "w_high": 51.5,
+      "w_low": 43.9,
+      "liq": 172538613,
+      "script_score_W": 100,
+      "risk_tags": [
+        "watch_highvol"
+      ]
+    },
+    {
+      "symbol": "2634",
+      "w_close": 64.2,
+      "w_ret": 0.0422,
+      "rs_w": 0.0268,
+      "eq50": 62.45,
+      "w_high": 65.0,
+      "w_low": 59.9,
+      "liq": 158755715,
+      "script_score_W": 100,
+      "risk_tags": [
+        "normal"
+      ]
+    },
+    {
+      "symbol": "2353",
+      "w_close": 31.55,
+      "w_ret": 0.0587,
+      "rs_w": 0.0433,
+      "eq50": 31.07,
+      "w_high": 32.5,
+      "w_low": 29.65,
+      "liq": 156089324,
+      "script_score_W": 100,
+      "risk_tags": [
+        "normal"
+      ]
+    },
+    {
+      "symbol": "8039",
+      "w_close": 249.5,
+      "w_ret": 0.1632,
+      "rs_w": 0.1478,
+      "eq50": 232.25,
+      "w_high": 254.0,
+      "w_low": 210.5,
+      "liq": 155312185,
+      "script_score_W": 100,
+      "risk_tags": [
+        "watch_highvol"
+      ]
+    },
+    {
+      "symbol": "2484",
+      "w_close": 75.9,
+      "w_ret": 0.0586,
+      "rs_w": 0.0432,
+      "eq50": 74.45,
+      "w_high": 80.7,
+      "w_low": 68.2,
+      "liq": 154002829,
+      "script_score_W": 100,
+      "risk_tags": [
+        "normal"
+      ]
+    },
+    {
+      "symbol": "6505",
+      "w_close": 69.8,
+      "w_ret": 0.0325,
+      "rs_w": 0.0172,
+      "eq50": 69.6,
+      "w_high": 73.0,
+      "w_low": 66.2,
+      "liq": 153417538,
+      "script_score_W": 100,
+      "risk_tags": [
+        "normal"
+      ]
+    },
+    {
+      "symbol": "1101",
+      "w_close": 24.05,
+      "w_ret": 0.0148,
+      "rs_w": -0.0006,
+      "eq50": 24.18,
+      "w_high": 24.8,
+      "w_low": 23.55,
+      "liq": 152827802,
+      "script_score_W": 47.0,
+      "risk_tags": [
+        "normal"
+      ]
+    },
+    {
+      "symbol": "1402",
+      "w_close": 26.95,
+      "w_ret": -0.0055,
+      "rs_w": -0.0209,
+      "eq50": 27.25,
+      "w_high": 27.9,
+      "w_low": 26.6,
+      "liq": 145267401,
+      "script_score_W": 0,
+      "risk_tags": [
+        "normal"
+      ]
+    },
+    {
+      "symbol": "1326",
+      "w_close": 59.5,
+      "w_ret": 0.0017,
+      "rs_w": -0.0137,
+      "eq50": 58.95,
+      "w_high": 61.1,
+      "w_low": 56.8,
+      "liq": 144575713,
+      "script_score_W": 0,
+      "risk_tags": [
+        "normal"
+      ]
+    },
+    {
+      "symbol": "1301",
+      "w_close": 57.5,
+      "w_ret": 0.0305,
+      "rs_w": 0.0151,
+      "eq50": 57.05,
+      "w_high": 59.8,
+      "w_low": 54.3,
+      "liq": 137502279,
+      "script_score_W": 100,
+      "risk_tags": [
+        "normal"
+      ]
+    },
+    {
+      "symbol": "1717",
+      "w_close": 78.2,
+      "w_ret": 0.2031,
+      "rs_w": 0.1877,
+      "eq50": 72.35,
+      "w_high": 79.8,
+      "w_low": 64.9,
+      "liq": 127942632,
+      "script_score_W": 100,
+      "risk_tags": [
+        "watch_highvol"
+      ]
+    },
+    {
+      "symbol": "2885",
+      "w_close": 69.7,
+      "w_ret": 0.0029,
+      "rs_w": -0.0125,
+      "eq50": 68.8,
+      "w_high": 70.5,
+      "w_low": 67.1,
+      "liq": 121059205,
+      "script_score_W": 0,
+      "risk_tags": [
+        "normal"
+      ]
+    },
+    {
+      "symbol": "9904",
+      "w_close": 23.9,
+      "w_ret": 0.0021,
+      "rs_w": -0.0133,
+      "eq50": 23.75,
+      "w_high": 24.2,
+      "w_low": 23.3,
+      "liq": 117954879,
+      "script_score_W": 0,
+      "risk_tags": [
+        "normal"
+      ]
+    },
+    {
+      "symbol": "2312",
+      "w_close": 33.15,
+      "w_ret": 0.0061,
+      "rs_w": -0.0093,
+      "eq50": 32.85,
+      "w_high": 34.5,
+      "w_low": 31.2,
+      "liq": 104829992,
+      "script_score_W": 3.5,
+      "risk_tags": [
+        "normal"
+      ]
+    },
+    {
+      "symbol": "2812",
+      "w_close": 18.65,
+      "w_ret": -0.0158,
+      "rs_w": -0.0312,
+      "eq50": 18.73,
+      "w_high": 19.05,
+      "w_low": 18.4,
+      "liq": 104767473,
+      "script_score_W": 0,
+      "risk_tags": [
+        "normal"
+      ]
+    }
+  ],
+  "weekly_list_count": 30,
+  "four_cards": {
+    "narrative_pos_entry_pos": {
+      "narrative": "favorable-trend",
+      "entry": "pullback-to-EQ50-bull",
+      "desc": "多頭敘事＋回測進場（多）",
+      "tier": "PRIMARY"
+    },
+    "narrative_pos_entry_neg": {
+      "narrative": "favorable-trend",
+      "entry": "breakdown-fail",
+      "desc": "多頭敘事＋結構破壞反打（空/觀望）",
+      "tier": "OBSERVE"
+    },
+    "narrative_neg_entry_pos": {
+      "narrative": "unfavorable/range",
+      "entry": "EQ50-reclaim-bull",
+      "desc": "空頭/盤整敘事＋EQ50回收進場（多）",
+      "tier": "OBSERVE"
+    },
+    "narrative_neg_entry_neg": {
+      "narrative": "unfavorable/range",
+      "entry": "breakdown-continue",
+      "desc": "空頭敘事＋下破延續（觀望/風險）",
+      "tier": "RISK"
+    }
+  },
+  "event_flags": {
+    "event_gate": "无_week_34_holiday(qualification参考)",
+    "holiday_gate": "NONE",
+    "week_open_close": {
+      "open": "2026-08-17",
+      "close": "2026-08-21"
+    },
+    "vi_risk": "SCAN_PENDING_SF03",
+    "disposition": "SCAN_PENDING_SF03",
+    "price_limit_10pct": true
+  },
+  "dispatch": "SF-01->SF-02->SF-03 chain; Q2/XQ future execution per HITL",
+  "rollback": "ROLLBACK_WEEKLY only if output invalid; use prior pack",
+  "nonclaim": "This is qualification/research context, NOT a trade signal; no live order"
+}

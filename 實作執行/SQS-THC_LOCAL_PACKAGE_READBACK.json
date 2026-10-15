@@ -1,0 +1,126 @@
+{
+ "schema": "SQS-THC-LOCAL-PACKAGE-READBACK/1",
+ "reference_project_id": "HGK-REFERENCE-PROJECT-001",
+ "package": "C:\\Projects\\Agent_Workspace\\SQS-THC\\實作執行\\SQS-THC_LOCAL_DELIVERY_CANDIDATE.zip",
+ "package_bytes": 7777745,
+ "package_sha256": "37fd9c2c08b3e9873bb10cc0dac97dd22e5bf20db30d55992ccb1c3bb634fd4b",
+ "payload_files": 22,
+ "exact_set": true,
+ "manifest": [
+  {
+   "path": "docs/SQS-THC_TW-ICT_FSDT-Stack使用說明文檔.md/SQS-THC_TW-ICT_FSDT-Stack使用說明文檔.md",
+   "bytes": 6689,
+   "sha256": "3c491a9bd2b67857fe2796034cd795d0c7e6b69240a1d29970209a95c28f7088"
+  },
+  {
+   "path": "evidence/GSTACK_PLAN_ENG_REVIEW_REPORT.md/GSTACK_PLAN_ENG_REVIEW_REPORT.md",
+   "bytes": 3803,
+   "sha256": "4c496ea8e3c5f34035a51bc10654115cff06309acbfbe6f3f24f1594d13dfcbc"
+  },
+  {
+   "path": "evidence/SQS-THC_DOGFOOD_EVOLUTION_RECEIPT.json/SQS-THC_DOGFOOD_EVOLUTION_RECEIPT.json",
+   "bytes": 2729,
+   "sha256": "c0785b409927b0ea080f976c6ada0cf9a48f0868857fcf3b88527e4c05c82974"
+  },
+  {
+   "path": "evidence/SQS-THC_ENGINEERING_BASE_DISPOSITION.json/SQS-THC_ENGINEERING_BASE_DISPOSITION.json",
+   "bytes": 5713,
+   "sha256": "fbce432f2f0e31a8add628fcc55654bcb9a49d350e6278e4c97c3549abcc42ff"
+  },
+  {
+   "path": "evidence/SQS-THC_GSTACK_EVIDENCE.json/SQS-THC_GSTACK_EVIDENCE.json",
+   "bytes": 1918,
+   "sha256": "9ea5c15623b85fba0ff0ad0b8c085d49e7bcfa658dc281ca24f7643c9c8ed745"
+  },
+  {
+   "path": "evidence/SQS-THC_INTEGRATED_SUITE_RESULT.json/SQS-THC_INTEGRATED_SUITE_RESULT.json",
+   "bytes": 2300,
+   "sha256": "cc154beeaac3e1960c98d741dd4db3779fa0a4fbe95b77b098f688c26f262a56"
+  },
+  {
+   "path": "evidence/SQS-THC_KANBAN_EVIDENCE.json/SQS-THC_KANBAN_EVIDENCE.json",
+   "bytes": 2150,
+   "sha256": "e23e4fdad6cb372a649d8ee6281d7c0a3c12cc44fdf68eead8ffabea7c0ad833"
+  },
+  {
+   "path": "evidence/SQS-THC_KNOWLEDGE_PRELOAD.json/SQS-THC_KNOWLEDGE_PRELOAD.json",
+   "bytes": 142914,
+   "sha256": "da434bc57ce115013a048b5d16be49f5d7c17359457d973f636d523307577c40"
+  },
+  {
+   "path": "evidence/SQS-THC_LOCAL_PACKAGE_INDEPENDENT_READBACK.json/SQS-THC_LOCAL_PACKAGE_INDEPENDENT_READBACK.json",
+   "bytes": 638,
+   "sha256": "eb389fe3480ef7184f7c0e383148bfa6fde9825d753ae777715d3687d9ac1c3d"
+  },
+  {
+   "path": "evidence/SQS-THC_REDUCER_DECISION.json/SQS-THC_REDUCER_DECISION.json",
+   "bytes": 1798,
+   "sha256": "29486556a28a3ed193e1a44e320cf3a1a26df1210dfc59f81a27b135cda30991"
+  },
+  {
+   "path": "evidence/SQS-THC_SOURCE_INVENTORY.json/SQS-THC_SOURCE_INVENTORY.json",
+   "bytes": 41766183,
+   "sha256": "4c04921abb87c8b88411f18a295201500f10da3c5e61e08674871ce07a6da59e"
+  },
+  {
+   "path": "evidence/SQS-THC_WORKORDER_ADMISSION.json/SQS-THC_WORKORDER_ADMISSION.json",
+   "bytes": 871,
+   "sha256": "01cbb539100a490d9aa82f872db31640d2c1ef413171dbc86bbfabfbd930cadd"
+  },
+  {
+   "path": "evidence/independent/TS-REF-02.json/SQS-THC_TS-REF-02_INDEPENDENT_READBACK.json",
+   "bytes": 1298,
+   "sha256": "3013ecd6d872635eac723c7aaf013aa59d86f4d49c647ad97f10910b81b523c8"
+  },
+  {
+   "path": "evidence/independent/TS-REF-03.json/SQS-THC_TS-REF-03_INDEPENDENT_READBACK.json",
+   "bytes": 1198,
+   "sha256": "74f25b003be3dc3b97a362204a8c8cda2760d9396c2299555db9d7f4e4034de2"
+  },
+  {
+   "path": "evidence/independent/TS-REF-04.json/SQS-THC_TS-REF-04_INDEPENDENT_READBACK.json",
+   "bytes": 1240,
+   "sha256": "a6a77be7221b6974e70879c5ae51233595d6d3a70e228373b5455d4611361d77"
+  },
+  {
+   "path": "evidence/independent/TS-REF-05.json/SQS-THC_TS-REF-05_INDEPENDENT_READBACK.json",
+   "bytes": 1234,
+   "sha256": "f3a978a90e96c27319c6c48ceb95ea16767f704369d4863dd8c983e60067b173"
+  },
+  {
+   "path": "evidence/independent/TS-REF-06.json/SQS-THC_TS-REF-06_INDEPENDENT_READBACK.json",
+   "bytes": 1196,
+   "sha256": "a6acb37bec736862c21b4daa01f723f8e87f9be7600431103f39b0559c9dcfe6"
+  },
+  {
+   "path": "impl/capability/__init__.py",
+   "bytes": 4449,
+   "sha256": "d2a143c5c970d8a5c2174f051871066fc04c0c9f5863ff4fac253f0cb9d68a41"
+  },
+  {
+   "path": "impl/fsdt_kernel/__init__.py",
+   "bytes": 8034,
+   "sha256": "90a5f4d4e27aeafda82d15d439bbfa076cc4f55d70df6ee604b4602bad5598bb"
+  },
+  {
+   "path": "impl/harness/__init__.py",
+   "bytes": 7253,
+   "sha256": "288a2a0e474a05fd38b992de5801b0f8f01668741a67c90c0d0e6f6b37ffc27e"
+  },
+  {
+   "path": "impl/knowledge/__init__.py",
+   "bytes": 6722,
+   "sha256": "ea1e13cd7df0cf81059364c7606be4c6c317d78e4a91d3a847c7219465e33da6"
+  },
+  {
+   "path": "impl/temporal/__init__.py",
+   "bytes": 5048,
+   "sha256": "21e0150f8f97f1541e96b452b56571fa1518191a122fa5cf2f1af54ff9483a5d"
+  }
+ ],
+ "excluded": [
+  "技術資料庫/台股價格歷史資料 (market data CSVs)",
+  "工程基座/ICT-OBI/data/duckdb (1.2GB)",
+  "工程基座/TriRAG/store (archives)"
+ ]
+}

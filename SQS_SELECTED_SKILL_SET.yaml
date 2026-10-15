@@ -1,0 +1,48 @@
+schema: SQS-SELECTED-SKILL-SET/1
+source:
+  - current_SQS_PREDEV_skill_decisions
+  - RP002_promoted_method_skill_ledger
+  - current_profile_distribution_readback
+selected_skills:
+  - skill_id: hgk-governed-execution
+    source_repo_or_package: hermes-agent skills (local)
+    exact_version_or_commit: 1.0.0
+    selection_disposition: PIN
+    host_profile: sqs-orchestrator
+    logical_role_bindings: [operational_coordinator, research_workorder_compiler]
+    trigger_fixture: governed acceptance/canary task prompt
+    negative_nontrigger_fixture: plain Q&A
+    effective_load_receipt: PENDING_SQP1
+  - skill_id: construction-acceptance-prompt-compiler
+    source_repo_or_package: 知識庫/實作相關DOC/HG-KSEOS/construction-acceptance-prompt-compiler
+    exact_version_or_commit: 48a3fdc5
+    selection_disposition: PIN
+    host_profile: construction-commander (external to SQS team)
+    logical_role_bindings: [research_workorder_compiler]
+    trigger_fixture: implementation/acceptance prompt compilation
+    negative_nontrigger_fixture: product runtime execution
+    effective_load_receipt: PENDING_SQP1
+  - skill_id: gstack-method-donor
+    source_repo_or_package: gstack selected methodology (promoted method ledger)
+    exact_version_or_commit: CURRENT_PROMOTED_LEDGER
+    selection_disposition: ADAPT
+    host_profile: sqs-data-analysis
+    logical_role_bindings: [marca_checker, backtest_robustness_analyst]
+    trigger_fixture: review/qa/benchmark flows
+    negative_nontrigger_fixture: financial truth mutation
+    effective_load_receipt: PENDING_SQP1
+  - skill_id: openspec-route
+    source_repo_or_package: OpenSpec (brownfield)
+    exact_version_or_commit: ACTIVE_BROWNFIELD
+    selection_disposition: PRESERVE
+    host_profile: hgk-engineering
+    logical_role_bindings: [research_workorder_compiler]
+    trigger_fixture: durable engineering change spec
+    negative_nontrigger_fixture: fast-loop runtime task
+    effective_load_receipt: PENDING_SQP1
+invariants:
+  source_selected_row_missing: FAIL_CLOSED
+  unselected_skill_auto_loaded: FAIL
+  skill_grants_new_authority: FAIL
+  current_exact_set_digest_required: true
+  empty_selected_set_requires: DEFER_WITH_SOURCE_LOCATOR

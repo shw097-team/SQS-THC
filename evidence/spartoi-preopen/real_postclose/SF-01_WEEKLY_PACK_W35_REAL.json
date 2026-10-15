@@ -1,0 +1,347 @@
+{
+  "schema": "RW-V200-WEEKLY-PACK-REAL",
+  "week": "2026-W35",
+  "as_of": "2026-08-21",
+  "candidate": "CAND-SPARTOI-W35-REAL-20260821",
+  "generated_at": "2026-08-21T16:25+08:00",
+  "mode": "REAL_POSTCLOSE",
+  "bias_w": {
+    "direction": "MIXED",
+    "mean_ret%": 0.24,
+    "breadth": {
+      "up": 132,
+      "down": 120,
+      "advance_ratio": 0.524
+    },
+    "targets": null,
+    "invalidations": null,
+    "confidence": "MEDIUM",
+    "note": "REAL 8/21 close data"
+  },
+  "W-DR/EQ50": {
+    "high": 452.0,
+    "low": 13.3,
+    "eq50": 41.21
+  },
+  "W-LQ": {
+    "top30": [
+      {
+        "symbol": "2605",
+        "close": 36.4,
+        "eq50": 35.05,
+        "w_ret%": 11.66,
+        "liquidity": 27919978,
+        "bias_tag": "MIXED"
+      },
+      {
+        "symbol": "1402",
+        "close": 29.2,
+        "eq50": 28.23,
+        "w_ret%": 7.75,
+        "liquidity": 16679311,
+        "bias_tag": "MIXED"
+      },
+      {
+        "symbol": "2618",
+        "close": 42.25,
+        "eq50": 41.2,
+        "w_ret%": 5.49,
+        "liquidity": 34608353,
+        "bias_tag": "MIXED"
+      },
+      {
+        "symbol": "2027",
+        "close": 50.5,
+        "eq50": 49.58,
+        "w_ret%": 5.43,
+        "liquidity": 25913739,
+        "bias_tag": "MIXED"
+      },
+      {
+        "symbol": "1102",
+        "close": 34.7,
+        "eq50": 34.02,
+        "w_ret%": 4.2,
+        "liquidity": 15497040,
+        "bias_tag": "MIXED"
+      }
+    ]
+  },
+  "weekly_list": [
+    {
+      "symbol": "2605",
+      "close": 36.4,
+      "eq50": 35.05,
+      "w_ret%": 11.66,
+      "liquidity": 27919978,
+      "bias_tag": "MIXED"
+    },
+    {
+      "symbol": "1402",
+      "close": 29.2,
+      "eq50": 28.23,
+      "w_ret%": 7.75,
+      "liquidity": 16679311,
+      "bias_tag": "MIXED"
+    },
+    {
+      "symbol": "2618",
+      "close": 42.25,
+      "eq50": 41.2,
+      "w_ret%": 5.49,
+      "liquidity": 34608353,
+      "bias_tag": "MIXED"
+    },
+    {
+      "symbol": "2027",
+      "close": 50.5,
+      "eq50": 49.58,
+      "w_ret%": 5.43,
+      "liquidity": 25913739,
+      "bias_tag": "MIXED"
+    },
+    {
+      "symbol": "1102",
+      "close": 34.7,
+      "eq50": 34.02,
+      "w_ret%": 4.2,
+      "liquidity": 15497040,
+      "bias_tag": "MIXED"
+    },
+    {
+      "symbol": "8039",
+      "close": 283.0,
+      "eq50": 275.75,
+      "w_ret%": 3.28,
+      "liquidity": 41135109,
+      "bias_tag": "MIXED"
+    },
+    {
+      "symbol": "6505",
+      "close": 73.0,
+      "eq50": 73.15,
+      "w_ret%": 2.67,
+      "liquidity": 22761193,
+      "bias_tag": "MIXED"
+    },
+    {
+      "symbol": "1504",
+      "close": 73.1,
+      "eq50": 72.1,
+      "w_ret%": 2.38,
+      "liquidity": 13032233,
+      "bias_tag": "MIXED"
+    },
+    {
+      "symbol": "1101",
+      "close": 24.8,
+      "eq50": 24.43,
+      "w_ret%": 2.27,
+      "liquidity": 25332711,
+      "bias_tag": "MIXED"
+    },
+    {
+      "symbol": "5880",
+      "close": 24.8,
+      "eq50": 24.67,
+      "w_ret%": 2.27,
+      "liquidity": 24477568,
+      "bias_tag": "MIXED"
+    },
+    {
+      "symbol": "2880",
+      "close": 38.8,
+      "eq50": 39.05,
+      "w_ret%": 0.52,
+      "liquidity": 32900382,
+      "bias_tag": "MIXED"
+    },
+    {
+      "symbol": "2610",
+      "close": 20.0,
+      "eq50": 20.08,
+      "w_ret%": 0.5,
+      "liquidity": 25820494,
+      "bias_tag": "MIXED"
+    },
+    {
+      "symbol": "2634",
+      "close": 72.3,
+      "eq50": 71.15,
+      "w_ret%": 0.14,
+      "liquidity": 90973970,
+      "bias_tag": "MIXED"
+    },
+    {
+      "symbol": "2884",
+      "close": 37.35,
+      "eq50": 37.58,
+      "w_ret%": 0.13,
+      "liquidity": 58427656,
+      "bias_tag": "MIXED"
+    },
+    {
+      "symbol": "9904",
+      "close": 25.05,
+      "eq50": 24.8,
+      "w_ret%": -0.79,
+      "liquidity": 26755649,
+      "bias_tag": "MIXED"
+    },
+    {
+      "symbol": "9945",
+      "close": 29.85,
+      "eq50": 30.1,
+      "w_ret%": -0.83,
+      "liquidity": 16211175,
+      "bias_tag": "MIXED"
+    },
+    {
+      "symbol": "2886",
+      "close": 46.4,
+      "eq50": 46.45,
+      "w_ret%": -1.28,
+      "liquidity": 40560922,
+      "bias_tag": "MIXED"
+    },
+    {
+      "symbol": "1326",
+      "close": 58.4,
+      "eq50": 59.15,
+      "w_ret%": -3.31,
+      "liquidity": 24316044,
+      "bias_tag": "MIXED"
+    },
+    {
+      "symbol": "2353",
+      "close": 31.0,
+      "eq50": 31.3,
+      "w_ret%": -4.62,
+      "liquidity": 27383643,
+      "bias_tag": "MIXED"
+    },
+    {
+      "symbol": "1605",
+      "close": 36.85,
+      "eq50": 37.35,
+      "w_ret%": -4.78,
+      "liquidity": 25421970,
+      "bias_tag": "MIXED"
+    },
+    {
+      "symbol": "2344",
+      "close": 176.5,
+      "eq50": 178.5,
+      "w_ret%": -4.85,
+      "liquidity": 163176689,
+      "bias_tag": "MIXED"
+    },
+    {
+      "symbol": "2303",
+      "close": 115.5,
+      "eq50": 118.0,
+      "w_ret%": -4.94,
+      "liquidity": 97188429,
+      "bias_tag": "MIXED"
+    },
+    {
+      "symbol": "8150",
+      "close": 87.9,
+      "eq50": 89.7,
+      "w_ret%": -4.97,
+      "liquidity": 27422694,
+      "bias_tag": "MIXED"
+    },
+    {
+      "symbol": "1301",
+      "close": 57.8,
+      "eq50": 59.3,
+      "w_ret%": -5.25,
+      "liquidity": 28448467,
+      "bias_tag": "MIXED"
+    },
+    {
+      "symbol": "2312",
+      "close": 31.35,
+      "eq50": 32.23,
+      "w_ret%": -6.14,
+      "liquidity": 14288238,
+      "bias_tag": "MIXED"
+    },
+    {
+      "symbol": "2356",
+      "close": 64.5,
+      "eq50": 66.15,
+      "w_ret%": -6.39,
+      "liquidity": 28641100,
+      "bias_tag": "MIXED"
+    },
+    {
+      "symbol": "2337",
+      "close": 122.0,
+      "eq50": 125.0,
+      "w_ret%": -9.63,
+      "liquidity": 74890638,
+      "bias_tag": "MIXED"
+    },
+    {
+      "symbol": "2885",
+      "close": 62.1,
+      "eq50": 65.85,
+      "w_ret%": -10.9,
+      "liquidity": 33288818,
+      "bias_tag": "MIXED"
+    },
+    {
+      "symbol": "2324",
+      "close": 38.5,
+      "eq50": 41.5,
+      "w_ret%": -11.19,
+      "liquidity": 192772746,
+      "bias_tag": "MIXED"
+    },
+    {
+      "symbol": "1303",
+      "close": 186.0,
+      "eq50": 200.0,
+      "w_ret%": -12.88,
+      "liquidity": 102289473,
+      "bias_tag": "MIXED"
+    }
+  ],
+  "four_cards": {
+    "card1_market_bias": {
+      "bias": "MIXED",
+      "mean_ret%": 0.24,
+      "up": 132,
+      "down": 120,
+      "note": "weekly breadth W35 closed"
+    },
+    "card2_dealing_range": {
+      "w_dr_high": 452.0,
+      "w_dr_low": 13.3,
+      "eq50": 41.21
+    },
+    "card3_liquidity": {
+      "top_liquidity": [
+        "2324",
+        "2344",
+        "1303",
+        "2303",
+        "2634"
+      ]
+    },
+    "card4_operation": {
+      "next_week": "W36 watchlist ready",
+      "prep_date": "2026-08-21"
+    }
+  },
+  "event_flags": [],
+  "next_week_prep": {
+    "week": "2026-W36",
+    "first_trading_day": "2026-08-24",
+    "sf02_prep": "PENDING_real_run",
+    "xq_fda": "NEEDS_FDA_CONDITION2+HITL_FOR_LIVE_INTRADAY"
+  },
+  "claim_ceiling": "REAL data-layer weekly review (no live orders/fills); intraday live prep pending next-week window + HITL"
+}

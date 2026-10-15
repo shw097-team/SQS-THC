@@ -1,0 +1,7 @@
+# NEGATIVE fixture — factor without source (ERR_MANDATE_VIOLATION).
+id: factor-no-source
+schema_version: 1.0.0
+definition:
+  - A factor definition without a source reference
+guard:
+  - Cannot be adopted into the research mandate

@@ -1,0 +1,23 @@
+{
+  "schema": "RW-V200-DAILY-REPORT",
+  "date": "2026-08-20",
+  "week": "2026-W34",
+  "generated_at": "2026-08-20T21:40+08:00",
+  "kpi": {
+    "win_rate": "N_A_no_trades",
+    "expectancy": "N_A",
+    "r_multiple": "N_A",
+    "is_vwap_gap": "N_A",
+    "mae_mfe": "N_A",
+    "hit_r": "N_A",
+    "main_vs_antitrend": "N_A"
+  },
+  "execution_vs_scenario": {
+    "note": "qualification-run: 無實盤執行; 結構/契約層復盤"
+  },
+  "deviation_reason": [
+    "no_execution_today_qualification",
+    "data_window_asof_2026-08-13; today_2026-08-20 no_new_bars(NO_CHANGE)"
+  ],
+  "deliverable": "STRUCTURAL (KPI uncomputable without live execution)"
+}

@@ -1,0 +1,20 @@
+{
+ "finding": "EXT-F07",
+ "classification": "GATE_CALIBRATION_OVERCLAIM",
+ "status": "CLOSED",
+ "smallest_repair": "KG_POSITIVE_CONSUMPTION -> N/A_NOT_SELECTED_WITH_REASON (no fake KG edge; negative route proof retained)",
+ "disposition": "N/A_NOT_SELECTED_WITH_REASON",
+ "reason": "This EVIDENCE_ONLY closure task performs manifest cross-reference repair and FTS5-grounded evidence verification; graph traversal semantics are not needed. Fabricating a KG edge to claim consumption would violate no-fake-KG-edge rule.",
+ "negative_route_proof": {
+  "kg_edges_rows": 0,
+  "kg_assertions_rows": 0,
+  "knowledge_fts_docs": 354,
+  "kg1_revoked_stale_exclusion_receipt": "KG1_FOCUSED_CONSISTENCY_RECEIPT.yaml (revoked/stale exclusion PASS)"
+ },
+ "positive_consumption_used": [
+  "knowledge_fts (FTS5/RAG)",
+  "memory_records (MEM-f6e448e3)",
+  "obsidian projection read"
+ ],
+ "verdict": "CLOSED"
+}

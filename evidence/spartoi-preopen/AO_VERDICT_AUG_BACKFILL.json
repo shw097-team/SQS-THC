@@ -1,0 +1,22 @@
+{
+  "officer": "SQS Acceptance Officer (VERIFY_ONLY, 2026-08-21, fresh context)",
+  "lane": "deleg_32756a20",
+  "verdict": "PASS-with-observation",
+  "blocking": [],
+  "items_passed": 13,
+  "items_checked": 13,
+  "nonclaims_verified": [
+    "PART A 42 收據 filled==0、broker_write=false、LOCAL_PAPER_SIMULATION_ONLY、SIM_FASTEST_ACCEL，無實際成交聲稱",
+    "Q2 全 order_intent==NO_TRADE（HITL 未 mint, SIM_PENDING）",
+    "Q3 s1_reuse=FORBIDDEN + new_entry_cutoff_enforced=True",
+    "Q4 全 BREAK=0 + replay_hash；duckdb 8/20 daily_bars=163 == replay_rows=163；max(date)=2026-08-20 無前瞻洩漏",
+    "PART B 98 artifacts 全 broker_write!=true、sim_mode=SIM_FASTEST_ACCEL、無成交欄位",
+    "preopen_risk_report 全 qualification='daily-close-proxy'；所有 'live' 字樣皆 PENDING-live-XQ 覆核，非實盤宣稱"
+  ],
+  "observations": [
+    "B 組 daily_pack.json 未提供顯式 filled 欄位（以缺欄代替 filled==0），與 A 組收據的顯式 filled==0 規格不一致；依 mutation_flags 與整份 corpus 零成交欄位判定誠實，惟建議統一 schema 以利自動稽核",
+    "B 組 daily_report/weekly_report 為結構性交付（KPI=N_A），符合 claim ceiling，不構成實際盈虧宣稱"
+  ],
+  "summary": "雙軌 backfill 全數通過。PART A 42 張 RBWI 收據完整且誠實旗標全綠。PART B 98 件 Spartoi 日線 artifact 均無成交/無 broker_write、SIM_FASTEST_ACCEL、S1_final 每日 6-10 檔、資格標 daily-close-proxy 非實盤、A_list→S1_candidates→S1_final 鏈式單調遞減、coverage manifest 129/129 PASS。未發現偽造成交或實盤宣稱，判 PASS；僅 B 組 daily_pack 缺顯式 filled 欄位的非阻斷性 schema 觀察。",
+  "recorded_at": "2026-08-21T15:14+08:00"
+}

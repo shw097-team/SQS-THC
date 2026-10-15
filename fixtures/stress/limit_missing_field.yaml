@@ -1,0 +1,6 @@
+# EDGE FIXTURE - hard limit missing required field 'metric'
+# -> field-naming error (distinct from ERR_VETO_BYPASS).
+limits:
+  - id: limit-gross-exposure
+    max: 1.50
+    hard: true

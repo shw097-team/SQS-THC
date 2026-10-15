@@ -1,0 +1,20 @@
+{
+  "writer": "codex",
+  "verdict": "PASS",
+  "route": "opencode-go",
+  "captured": "codex_rf_proxy_out.log",
+  "items_verified": [
+    "PIT_cleanliness",
+    "cost_model",
+    "IS_OOS_split",
+    "receipt_asymmetry_honesty",
+    "no_broker_network_live"
+  ],
+  "findings": [
+    {
+      "item": "cost_model.round_trip_bps label",
+      "status": "NON-BLOCKING",
+      "observed": "was 54.25 vs applied 68.5 -> FIXED to 68.5"
+    }
+  ]
+}

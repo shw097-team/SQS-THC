@@ -1,0 +1,25 @@
+{
+ "schema": "SQS-THC-WO-INDEPENDENT-READBACK/1",
+ "workorder": "WO-TS-REF-02",
+ "taskspec": "TS-REF-02",
+ "checker": "INDEPENDENT_CHECKER (fresh subprocess)",
+ "implementation": {
+  "path": "C:\\Projects\\Agent_Workspace\\SQS-THC\\實作執行\\worktrees\\ts-ref-02\\sqs_thc\\fsdt_kernel\\__init__.py",
+  "bytes": 8034,
+  "sha256": "90a5f4d4e27aeafda82d15d439bbfa076cc4f55d70df6ee604b4602bad5598bb"
+ },
+ "frozen_test": {
+  "path": "C:\\Projects\\Agent_Workspace\\SQS-THC\\實作執行\\worktrees\\ts-ref-02\\tests\\test_fsdt_kernel.py",
+  "bytes": 5742,
+  "sha256": "91ba0f2a37dea687b4e3867ea2d965d889887df2754ca7e5092bd5a0e4d398d1"
+ },
+ "rerun": {
+  "exit_code": 0,
+  "ran_8": true,
+  "ok": true,
+  "tail": "est_fsdt_kernel.CH04PositiveTests.test_pos_002_value_formula)\nvalue = price * quantity * contract_multiplier. ... ok\ntest_pos_003_normalize_then_pit_validate (tests.test_fsdt_kernel.CH04PositiveTests.test_pos_003_normalize_then_pit_validate)\nRAW -> NORMALIZED -> PIT_VALIDATED transition chain. ... ok\n\n----------------------------------------------------------------------\nRan 8 tests in 0.001s\n\nOK\n"
+ },
+ "head": "b40bb28 WO-TS-REF-02: implement FSDT Financial Contract Kernel (CH04)",
+ "test_file_unchanged": true,
+ "verdict": "INDEPENDENT_CASE_PASS"
+}

@@ -1,0 +1,65 @@
+{
+  "schema": "RBWI-BACKTEST-RUN-RECEIPT/1",
+  "method_id": "m-t0-open-auction-breakout",
+  "experiment": "EXP-RBWI-OPENAUCTIONBREAKOUT-T0-20260821",
+  "axis": "DAYTRADING_T0_INTRADAY (非隔夜)",
+  "data": "minute_bars 49 symbols 2025-08-11..2026-08-10 09:00-13:30",
+  "data_window": "2025-08-11..2026-08-10 (~1y)",
+  "split": "2026-02-01 (資料中點)",
+  "cost_model": {
+    "fee_bps": 14.25,
+    "tax_bps": 30.0,
+    "slippage_bps": 5.0,
+    "round_trip_bps": 68.5,
+    "round_trip_breakdown": "fee both 14.25x2 + tax(sell) 30 + slip both 5x2 = 28.5+30+10 = 68.5"
+  },
+  "feature_logic": [
+    "09:00-09:15 OpeningRange high/low",
+    "close>high 突破做多 next-min-open",
+    "停損 OpeningRange low/回落/13:20 時間退出",
+    "同日強制平倉(last-bar fallback; T0 收斂對應 Overnight Gate; 13:25 label=簡稱, 實為 13:20 時間退出+同日末bar)"
+  ],
+  "PIT": "signal 用當日盤中資訊, entry next-minute open, 無 future leak",
+  "all": {
+    "n": 5243,
+    "gross_sum_pct": -461.312,
+    "net_sum_pct": -4052.767,
+    "avg_net_bp": -77.3,
+    "net_win_pct": 12.1
+  },
+  "IS": {
+    "n": 2491,
+    "gross_sum_pct": -240.195,
+    "net_sum_pct": -1946.53,
+    "avg_net_bp": -78.14,
+    "net_win_pct": 11.2
+  },
+  "OOS": {
+    "n": 2752,
+    "gross_sum_pct": -221.117,
+    "net_sum_pct": -2106.237,
+    "avg_net_bp": -76.53,
+    "net_win_pct": 12.8
+  },
+  "deterministic_result_hash": "d0ded75d1a4bc566efbb33c9b86e5a72fcc0b7463f6fc350cc6bf05b08247403",
+  "replay_hash": "d0ded75d1a4bc566efbb33c9b86e5a72fcc0b7463f6fc350cc6bf05b08247403",
+  "deterministic_equivalence": true,
+  "honest_conclusion": "開盤競價突破當日沖銷(盤中, 非隔夜) 實測: IS/OOS 皆 gross 負(IS -240%/OOS -221%) => 訊號本身無 edge (win 11-13%, 非成本問題; 對比隔夜 rf 有edge但成本吃掉). 依 DOC-20 判 REJECTED/失敗是資產. 49 權值股/1y 樣本代表性限制已標註.",
+  "no_overclaim": "NOT_ACCEPTANCE; T0 intraday; not live",
+  "root_cause": {
+    "primary": "signal no edge pre-cost (開盤競價突破 in this 49-symbol sample fades/whipsaws)",
+    "evidence": "gross IS -240.2% / OOS -221.1% (already negative before 68.5bp cost), win 11-13%",
+    "not_cost": "gross negative => 非成本問題 (對比隔夜 rf: 有edge但成本吃掉)",
+    "determination": "HYPOTHESIS_NOT_ESTABLISHED_T0",
+    "paper_shadow": "NOT_INITIATED (缺正期望, DOC-20/25 不強推)"
+  },
+  "representativeness": "49 大型權值股 + 單一 SHIOAJI provider + ~1y 窗口 + TWSE_OR_TPEX; 不含中小股/試撮完整深度 -> 開盤競價突破 in large-cap sample 較難有 edge; 誠實標註, 不可外推到全市場",
+  "representativeness_caveats": {
+    "single_provider": "全部資料來自單一 provider SHIOAJI (2793223 rows)",
+    "survivorship_bias": "49 檔為現存權值股(1101/2881/2303 等), 含 survivorship 偏誤; 不含已下市/中小股",
+    "sparse_bar_filter": "當日 <60 根 minute bar 之樣本被過濾(len<60 no trade)",
+    "window": "~1年 (2025-08-11..2026-08-10), 未涵蓋完整牛/熊/高波 regime",
+    "venue": "TWSE_OR_TPEX 混; 未區分試撮完整訂單簿深度",
+    "impact": "以上限制使結果不可外推至全市場/全時段; 但不改變 gross 為負(訊號無 edge)之結論"
+  }
+}

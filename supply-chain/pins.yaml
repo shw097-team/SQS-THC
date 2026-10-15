@@ -1,0 +1,79 @@
+# SUPPLY CHAIN PINS - supply-chain/pins.yaml (TS-011 / ART-11, CH32 / TOOL registry).
+# TOOL card format: an ADOPT tool carries pin UNRESOLVED::TOOL-xx::PIN and
+# status BLOCKED_PENDING_QUALIFICATION until the exact pin is resolved with
+# reliable local/dual-source evidence. ADOPT/ADAPT is a design selection, not
+# an installation or admission; no tool is executed on an unresolved pin.
+spec_ref: TS-011/CH32
+pins:
+  - id: pin-git
+    tool: git
+    pin: UNRESOLVED::TOOL-20::PIN
+    status: BLOCKED_PENDING_QUALIFICATION
+  - id: pin-python
+    tool: python
+    pin: UNRESOLVED::TOOL-23::PIN
+    status: BLOCKED_PENDING_QUALIFICATION
+  - id: pin-pytest
+    tool: pytest
+    pin: UNRESOLVED::TOOL-24::PIN
+    status: BLOCKED_PENDING_QUALIFICATION
+  - id: pin-github-actions
+    tool: github_actions
+    pin: UNRESOLVED::TOOL-25::PIN
+    status: BLOCKED_PENDING_QUALIFICATION
+  - id: pin-osps-scorecard
+    tool: openssf_osps_scorecard
+    pin: UNRESOLVED::TOOL-26::PIN
+    status: BLOCKED_PENDING_QUALIFICATION
+  - id: pin-slsa
+    tool: slsa
+    pin: UNRESOLVED::TOOL-27::PIN
+    status: BLOCKED_PENDING_QUALIFICATION
+  - id: pin-sbom
+    tool: sbom
+    pin: UNRESOLVED::TOOL-28::PIN
+    status: BLOCKED_PENDING_QUALIFICATION
+  - id: pin-pip-audit
+    tool: pip_audit
+    pin: UNRESOLVED::TOOL-47::PIN
+    status: BLOCKED_PENDING_QUALIFICATION
+  - id: pin-dependabot
+    tool: dependabot_renovate
+    pin: UNRESOLVED::TOOL-48::PIN
+    status: BLOCKED_PENDING_QUALIFICATION
+  - id: pin-artifact-attestations
+    tool: github_artifact_attestations
+    pin: UNRESOLVED::TOOL-49::PIN
+    status: BLOCKED_PENDING_QUALIFICATION
+  - id: pin-oidc
+    tool: oidc
+    pin: UNRESOLVED::TOOL-50::PIN
+    status: BLOCKED_PENDING_QUALIFICATION
+  - id: pin-gitleaks
+    tool: gitleaks
+    pin: UNRESOLVED::TOOL-62::PIN
+    status: BLOCKED_PENDING_QUALIFICATION
+  - id: pin-bandit
+    tool: bandit
+    pin: UNRESOLVED::TOOL-63::PIN
+    status: BLOCKED_PENDING_QUALIFICATION
+  - id: pin-codeql
+    tool: codeql
+    pin: UNRESOLVED::TOOL-64::PIN
+    status: BLOCKED_PENDING_QUALIFICATION
+  - id: pin-dependency-review
+    tool: dependency_review_action
+    pin: UNRESOLVED::TOOL-65::PIN
+    status: BLOCKED_PENDING_QUALIFICATION
+  - id: pin-cyclonedx-bom
+    tool: cyclonedx_bom
+    pin: UNRESOLVED::TOOL-66::PIN
+    status: BLOCKED_PENDING_QUALIFICATION
+  - id: pin-kubernetes
+    tool: kubernetes
+    pin: EXTERNAL_EXECUTOR_PIN_REQUIRED
+    status: ROUTE_OUT_NOT_RUN
+  - id: pin-docker
+    tool: docker_containers
+    pin: DEFERRED_UNTIL_TRIGGER
+    status: DISABLED_DEFERRED

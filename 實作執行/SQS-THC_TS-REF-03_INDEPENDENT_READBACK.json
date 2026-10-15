@@ -1,0 +1,25 @@
+{
+ "schema": "SQS-THC-WO-INDEPENDENT-READBACK/1",
+ "workorder": "WO-TS-REF-03",
+ "taskspec": "TS-REF-03",
+ "checker": "INDEPENDENT_CHECKER (fresh subprocess)",
+ "implementation": {
+  "path": "C:\\Projects\\Agent_Workspace\\SQS-THC\\實作執行\\worktrees\\ts-ref-03\\sqs_thc\\temporal\\__init__.py",
+  "bytes": 5048,
+  "sha256": "21e0150f8f97f1541e96b452b56571fa1518191a122fa5cf2f1af54ff9483a5d"
+ },
+ "frozen_test": {
+  "path": "C:\\Projects\\Agent_Workspace\\SQS-THC\\實作執行\\worktrees\\ts-ref-03\\tests\\test_temporal.py",
+  "bytes": 5855,
+  "sha256": "29da98b8fecca2ca05da3d1afde6810b95414cb8e254a0ef929135f767c3461e"
+ },
+ "rerun": {
+  "exit_code": 0,
+  "ran_7": true,
+  "ok": true,
+  "tail": "LENDAR_VALID -> QUALITY_PASS. ... ok\ntest_pos_002_clock_ordering_preserved (tests.test_temporal.CH06PositiveTests.test_pos_002_clock_ordering_preserved)\nFive clocks remain ordered after binding. ... ok\n\n----------------------------------------------------------------------\nRan 7 tests in 0.000s\n\nOK\n"
+ },
+ "head": "46faf19 feat(temporal): implement CH06 five-clocks/PIT kernel (WO-TS-REF-03)",
+ "test_file_unchanged": true,
+ "verdict": "INDEPENDENT_CASE_PASS"
+}

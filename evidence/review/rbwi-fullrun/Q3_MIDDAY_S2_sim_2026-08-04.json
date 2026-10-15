@@ -1,0 +1,24 @@
+{
+  "segment_id": "Q3_MIDDAY_S2",
+  "trade_date": "2026-08-04",
+  "sim_clock": {
+    "mode": "SIM_FASTEST_ACCEL",
+    "trade_date": "2026-08-04",
+    "dataset": "DSV-DAILY-2026-08-21-r1"
+  },
+  "s2_rows": 105,
+  "s2_qualified": 73,
+  "s2_risk_approved": 70,
+  "s1_reuse": "FORBIDDEN",
+  "cutoff": {
+    "new_entry_cutoff_enforced": true,
+    "post_cutoff_state": "MANAGE_ONLY",
+    "event": "2026-08-04 13:10 TW (sim)"
+  },
+  "position_state": "FLAT_PENDING_HITL_SIM",
+  "financial_boundary": "LOCAL_PAPER_SIMULATION_ONLY",
+  "broker_write": false,
+  "filled": 0,
+  "schema": "RBWI-SEG-SIM-RECEIPT/1",
+  "generated_at": "2026-08-21T12:10+08:00"
+}

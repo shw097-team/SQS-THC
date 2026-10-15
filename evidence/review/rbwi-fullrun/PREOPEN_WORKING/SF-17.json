@@ -1,0 +1,25 @@
+{
+  "schema": "RBWI-PREOPEN-STEP/1",
+  "step_id": "SF-17",
+  "title": "Operator Cockpit",
+  "run_id": "RUN-RBWI-FULLRUN-20260820-001",
+  "candidate_id": "CAND-RBWI-20260814",
+  "segment_binding_id": "BIND-RBWI-Q1-20260820-001",
+  "trading_date": "2026-08-14",
+  "week": "2026-W33",
+  "generated_at": "2026-08-20T21:10+08:00",
+  "owner": "ROLE-HUMAN-OPERATOR",
+  "checker": "ROLE-VALIDATION-OWNER",
+  "veto": "ROLE-CLAIM-VETO",
+  "purpose": "人工核准與覆寫紀錄",
+  "action": "本資格 run 無金融覆寫; Q2 起 HITL 動作記錄於此",
+  "inputs": {
+    "manual_overrides": "none",
+    "hitl_needed": "Q2_financial_only"
+  },
+  "outputs": "COCKPIT_READY",
+  "state_machine": "DRAFT->CHECKED->ACKED->ACTIVE",
+  "consumer_ack": true,
+  "reason_code": "COCKPIT_READY",
+  "security_surface": "read-only data; no broker write"
+}

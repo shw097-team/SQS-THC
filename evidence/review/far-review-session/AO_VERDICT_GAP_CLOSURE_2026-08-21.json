@@ -1,0 +1,24 @@
+{
+  "officer": "同儕驗收官 VERIFY_ONLY (獨立 AO lane, 唯讀實證 2026-08-21, deleg_f4eab488)",
+  "verdict": "PASS",
+  "blocking": [],
+  "items_passed": 5,
+  "items_checked": 5,
+  "nonclaims_verified": [
+    "42 張 sim 收據 fills/filled 全部為 0",
+    "42 張 sim 收據 broker_write 全部為 false",
+    "42 張收據偵測無 live/production=true、無 HITL MINTED/APPROVED",
+    "FINAL_CLEAN_E2E.json: fills=0, broker_write=false, production_live=false, external_final=false",
+    "claim_ceiling = TW_ICT_RBWI_FULL_RUN_LOCAL_PAPER_SIMULATION_INTERNAL_ALL_PASS (LOCAL_PAPER_SIMULATION_ONLY)",
+    "RUN_LEDGER 全程 fills=0 / broker_write=false / HITL=NOT_MINTED_SIM_PENDING"
+  ],
+  "observations": [
+    "A 缺口: Spartoi 9 件交付物 mtime 2026-08-21 12:21 於 artifacts/ 巢狀結構屬實",
+    "B 缺口: G1 final E2E 僅於 SIM 級閉合; live-PAPER 段待 live window+FDA+HITL 仍 PENDING",
+    "C 缺口: SSOT G5 formal NRTV 仍 NOT_RUN; full-chain ALIGNED 待 live 後方可主張",
+    "holistic 檢查器 15 項(6 RBWI+3 Spartoi+1 SSOT+5 governance), 15/15 與獨立重算一致",
+    "FAR 原缺口 A/C(08-21 無 Spartoi/SSOT 產物)經本輪以 08-21 mtime 產物具體閉合"
+  ],
+  "summary": "四項缺口閉合全數以真實 mtime/內容實證通過。A Spartoi 重跑(9 件 08-21 12:21)、B 最終 SIM E2E(all_frozen、0 mutation、paper ceiling)、C SSOT 對齊(PARTIALLY-ALIGNED, authority/risk/evidence 接地)、E holistic 15/15 PASS。無任何 live/production/broker 過度主張。判定 PASS; 剩餘 PENDING(live/NRTV/full-chain ALIGNED)為誠實標註非本輪缺陷。",
+  "recorded_at": "2026-08-21T12:27+08:00"
+}

@@ -1,0 +1,10 @@
+{
+  "method_finalization": "PASS(7/0)",
+  "data_layer_recompute": "PASS",
+  "lanes": [
+    "deleg_ff23daaa"
+  ],
+  "tests": "244 OK (231 base + 13 new)",
+  "empirical": "Overnight-pullback NEGATIVE PnL -> RESEARCH_ONLY",
+  "recorded_at": "2026-08-20T22:45+08:00"
+}

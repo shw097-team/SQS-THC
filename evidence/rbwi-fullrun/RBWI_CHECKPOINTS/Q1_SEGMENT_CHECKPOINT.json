@@ -1,0 +1,93 @@
+{
+  "schema": "RBWI-SEGMENT-CHECKPOINT/2",
+  "parent_run_id": "RUN-RBWI-FULLRUN-20260820-001",
+  "parent_workorder_id": "WO-RBWI-FULLRUN-001",
+  "segment_task_id": "K6b-sub",
+  "segment_execution_binding_id": "BIND-RBWI-Q1-20260820-001",
+  "kanban_board_id": "rbwi-fullrun-2026-08-14",
+  "segment_id": "Q1_CONTEXT_PREOPEN",
+  "candidate_id": "CAND-RBWI-20260814",
+  "canonical_rbwi_hash": "a94b2ec00cf4ae9d24f77bb548e799ffac7fad3eb0e84198129e131121a74c0e",
+  "master_overlay_hash": "345e150f99f692918d679f4c15d74b3f7495ad2f8c6bd4cb13d30094753e78df",
+  "segment_overlay_hash": "9e8723b5f2292007651054db6f580e13c9bc0d06359bf0ee09acc10a158b33f0",
+  "thin_prompt_hash": "50e40f0f1ded6bf48c6aed6dcb2c52c9c66c3b27818c242df04ec3408d193fdb",
+  "segment_denominator_path": "SEGMENT_DENOMINATOR_Q1_CONTEXT_PREOPEN.tsv",
+  "segment_denominator_digest": "81175b24018f9256b1009ff2ecd3c83652bb9b207d4609f1908babf212081ddd",
+  "dataset_versions": [
+    "DSV-DAILY-2026-08-13-r2"
+  ],
+  "method_spec_hashes": [
+    "6f5ea69c20216772b143008e904e96760221406175d1df1e19e7baed51298cbd"
+  ],
+  "financial_spec_hashes": [
+    "ae65052448db614f0b85711c6e7c9a2559f250219b13bdaba7e34c7cf99302d7"
+  ],
+  "risk_policy_hash": "risk/limits.yaml+survival/guards.yaml",
+  "session_timing_policy_hash": "SessionTimingPolicy+MarketCalendar",
+  "profile_bindings": {
+    "sqs-orchestrator": "active",
+    "sqs-data-analysis": "active",
+    "sqs-risk": "active"
+  },
+  "method_bindings": {
+    "kanban": "active",
+    "swarm": "scheduled",
+    "gstack": "certified",
+    "openspec": "N/A",
+    "codex": "bound"
+  },
+  "sim_clock": {
+    "mode": "SIM_BACKTEST_CLOCK",
+    "last_bar_date": "2026-08-13"
+  },
+  "xq_runtime_clock": {
+    "mode": "NOT_ENGAGED_Q1"
+  },
+  "financial_state_ref": "NO_POSITION_READ_ONLY",
+  "order_state_ref": "NONE",
+  "position_state_ref": "FLAT",
+  "fda_state_ref": "NOT_USED_Q1",
+  "fda_provider_matrix_hash": "bound-BASELINE_FDA_XQ_SUBJECT.json",
+  "far_run_refs": [
+    "FAR_RUN_RECEIPT.json"
+  ],
+  "workorder_refs": [
+    "WO-RBWI-FULLRUN-001"
+  ],
+  "hitl_approval_refs": [],
+  "evidence_root": "C:\\Projects\\Agent_Workspace\\SQS-THC\\evidence\\rbwi-fullrun",
+  "raw_evidence_ids": [
+    "sf-01-receipt.json",
+    "sf-02-receipt.json",
+    "sf-03-receipt.json",
+    "BACKTEST_RUN_RECEIPTS/BACKTEST_RUN_RECEIPT_Q1.json",
+    "FAR_RUN_RECEIPT.json"
+  ],
+  "dependency_digest": "81175b24018f9256b1009ff2ecd3c83652bb9b207d4609f1908babf212081ddd",
+  "open_tt": [],
+  "maker_id": "Hermes(governed runtime)",
+  "checker_id": "INDEPENDENT_READBACK_RBWI_Q1_2026-08-20 + SQS-RBWI-Q1-DATALAYER-READBACK-20260820",
+  "status": "SEGMENT_PASS_PREOPEN_100PCT",
+  "independent_readback": {
+    "verdict": "PASS",
+    "hgk_lane": "7/7 PASS",
+    "sqs_lane": "6/6 PASS",
+    "advisory": "Gate-0 HGK_HEALTH PARSE_FAIL -> FIXED (encoding utf-8); re-verified PASS",
+    "lane_ids": [
+      "INDEPENDENT_READBACK_RBWI_Q1_2026-08-20",
+      "SQS-RBWI-Q1-DATALAYER-READBACK-20260820"
+    ]
+  },
+  "updated_at": "2026-08-20T20:45+08:00",
+  "preopen_coverage": {
+    "weekly_W": 9,
+    "daily_D": 10,
+    "module_SF": 3,
+    "sf_01_02_03": 3,
+    "total_preopen_items": 25,
+    "coverage_pct": 100.0,
+    "coverage_manifest_sha256": "f6368bd651d2110e5f52190a080a03c1aec321c8bcd50a4cc5fce19f50d65e30",
+    "coverage_check_sha256": "51baa4caf1e446226a1d613f1ba9d762f6282d32485cae1c1b95c68322a4d8b9",
+    "note": "canonical RBWI §11 W-00..W-08 + §12 D-00..D-09 + modules 100% materialized as receipts; D-09 live part PREPARED_PENDING_LIVE(Q2)"
+  }
+}

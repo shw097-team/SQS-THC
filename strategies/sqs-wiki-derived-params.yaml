@@ -1,0 +1,261 @@
+# SQS 知識庫萃取策略參數 (from SQS-WIKI)
+# =====================================================================
+# 來源：SQS-WIKI 知識庫 (C:\Projects\Agent_Workspace\SQS-THC\wiki\)
+#   概念頁 (concepts/)：
+#     - tw-ict-mainline-method        (主軸方法流程/五階段權威鏈/DOC-05)
+#     - tw-ict-risk-gates             (停損/StopPlan/有效R/曝險/KillSwitch/OvernightGate)
+#     - daytrading-stock-selection    (候選池漏斗 G1~G4 / RankingProfile / 股性)
+#     - daytrading-open-auction       (試撮/OPEN_CONFIRMATION/Order Readiness)
+#     - daytrading-intraday-exits     (Setup前件/effective_R/approved_qty/TimeExit/日損)
+#     - ict-daytrading-modules        (ICT/SMC 模組分類/Setup資格/NO_TRADE)
+#     - tw-scenario-daytrading-suitability (當沖合適度授權: 盤勢級別/SizeVeto/No-Trade)
+#     - daytrading-t0-flow            (交易日時鐘/尾盤 Forced Flatten/時間窗 09:00-13:30)
+#     - ict-context-bias-scenario     (Bias/Scenario/SMT/RS/Counter-evidence)
+#     - smc-market-structure          (BOS/CHoCH/FVG 受控 auxiliary 視角)
+#   raw 摘要：
+#     - daytrading-v3-summary / ict-smc-summary / market-trend-summary
+#   doc-map (skill reference, 章節地圖)：
+#     - daytrading-v3-doc-map / market-trend-doc-map / tw-ict-v3-doc-map
+#   研究基線 (只作對照，非新數字；SQS 權值股 2025-08-11..2026-08-10)：
+#     - daytrading-research-data-access: 成本 68.5bp, OR 突破 +151bp, 首小時動能延續率 44.2%
+# ------------------------------------------------
+# 校準紀律：wiki 給結構規則/公式者 → 直接採為結構性參數並標 source；
+#           wiki 無校準依據的固定數字 (R-multiple/停損%/突破觸發閾值等)
+#           → 一律標 CALIBRATION_REQUIRED，僅給「待校準研究起點建議範圍」，
+#             未經回測校準不得作真值 (daytrading-stock-selection DOC04-16 禁假造固定數字)。
+# ------------------------------------------------
+# CLAIM CEILING: RESEARCH_ONLY
+# 本檔為研究假說等級 (RESEARCH_ONLY) 參數制定，未經回測/樣本外/治理定案，
+# 不宣稱 live/production、無券商 write。定案須走 HGK 治理 + 方法定案閉環 (Slow-Loop)。
+# ═════════════════════════════════════════════════════════════════════
+
+schema_version: 1
+admission:
+  state: RESEARCH_ONLY
+  ceiling: RESEARCH_ONLY
+  direction: ""
+  generated_from: "SQS-WIKI knowledge base (WO-SQS-WIKI-REBUILD-001)"
+  source_kb: "C:/Projects/Agent_Workspace/SQS-THC/wiki/"
+
+methods:
+  # ── 方法 A：開盤區間突破 (T+0) ───────────────────────────────
+  - method_id: m-t0-open-range-breakout
+    method_axis: T0_DAYTRADE
+    method_purpose: |
+      把握開盤後價格發現+首小時動能，於開盤區間(OpeningRange)向上/向下突破
+      且確認 displacement 時順勢進場。SQS 研究基線 A 類最強結構 edge 載體。
+    method_sources:
+      - concepts/tw-ict-mainline-method
+      - concepts/tw-ict-risk-gates
+      - concepts/daytrading-open-auction
+      - concepts/daytrading-stock-selection
+      - concepts/daytrading-intraday-exits
+      - concepts/ict-daytrading-modules
+      - concepts/tw-scenario-daytrading-suitability
+      - raw/daytrading-v3/daytrading-v3-summary
+
+    universe_filter:
+      required_gates:
+        - RULE_OK
+        - DATA_OK
+        - ELIGIBILITY_OK
+        - CAPABILITY_OK
+        - LIQUIDITY_OK
+        - COST_OK
+        - CAPACITY_OK
+        - BORROW_OK
+      non_compensating: true
+      source: "concepts/daytrading-stock-selection + concepts/tw-ict-mainline-method"
+
+    candidate_pool:
+      session_phase: OPEN
+      required_evidence:
+        - opening_trade_continuity
+        - spread_stability
+        - relative_strength
+      pool_lifecycle: "DISCOVERED-ELIGIBILITY_PENDING-ADMITTED-RANKED-SESSION_ACTIVE-...-EXPIRED"
+      stales_revalidated_after_open: true
+      source: "concepts/daytrading-stock-selection + concepts/daytrading-open-auction"
+
+    setup_conditions:
+      market_suitability_gate: SETUP_ALLOWED_WITH_GATES
+      market_suitability_gate_note: "TREND_BROAD 全參與 / RANGE 帶 gates；極端或資料不足 → RISK_REDUCE / NO_TRADE"
+      market_gate_source: concepts/tw-scenario-daytrading-suitability
+      openness_required: OPEN_CONFIRMATION
+      auction_intent_as_fill_forbidden: true
+      openness_source: concepts/daytrading-open-auction
+      bias_hypothesis: REQUIRED
+      scenario_tree: REQUIRED
+      bias_scenario_source: "concepts/tw-ict-mainline-method + concepts/ict-context-bias-scenario"
+      priority_order: "P0,P1,P2,P3,P4,P5,CONTROL,SUPPORT"
+
+    decision_chain:
+      - universe
+      - candidate_pool
+      - mtf_bias
+      - scenario
+      - trade_hypothesis
+      - setup_qualification
+      - risk_authorization
+      - order_intent
+    decision_chain_frozen_intraday: true
+    decision_chain_source: "concepts/tw-ict-mainline-method + concepts/tw-ict-risk-gates"
+
+    entry:
+      opening_range_window: "09:01-09:15 (校準定值, 見 opening_range_window_calibration)"
+      opening_range_window_source: "daytrading-research-data-access (OR 突破延伸 +151bp/中位 +96.5bp 於此窗口)"
+      breakout_confirmation:
+        - price_close_beyond_range
+        - displacement_confirmation
+        - not_auction_fill_reversal
+      breakout_confirmation_source: "concepts/daytrading-open-auction + concepts/ict-daytrading-modules"
+      trigger_expiry: EXPIRY_ON_MISS
+
+    risk_limits:
+      effective_R_formula: "max(planned_unit_loss, executable_unit_loss, stress_unit_loss)"
+      effective_R_source: concepts/daytrading-intraday-exits
+      approved_qty_formula: "min(risk_budget/effective_R, liquidity_capacity, participation_cap, single_name_cap, sector_cap, factor_cap, event_cap, gross/net_cap)"
+      approved_qty_source: concepts/daytrading-intraday-exits
+      stop_widen_forbidden: true
+      stop_widen_source: concepts/tw-ict-risk-gates
+      daily_loss_gate: "WARN-REDUCE-STOPPED-LOCKED"
+      daily_loss_source: "concepts/daytrading-intraday-exits + concepts/tw-ict-risk-gates"
+      exposure_concentration:
+        - single_name
+        - sector
+        - factor
+        - direction
+        - shared_catalyst
+        - supply_chain
+        - liquidity_borrow
+      exposure_source: concepts/tw-ict-risk-gates
+      kill_switch_triggers:
+        - daily_loss
+        - drawdown
+        - exposure
+        - data_clock_failure
+        - duplicate_unknown_order
+        - position_mismatch
+        - tail_event
+      kill_switch_source: concepts/tw-ict-risk-gates
+      stress_scenarios:
+        - spread_widening
+        - slippage_shock
+        - partial_fill
+        - no_fill
+        - gap_against_position
+        - limit_lock
+        - liquidity_evaporation
+        - borrow_recall
+        - event_surprise
+        - data_outage
+        - stale_rule
+        - correlated_selloff
+      stress_source: concepts/tw-ict-risk-gates
+
+    exit:
+      stop_types:
+        - technical_invalidation
+        - structural_invalidation
+        - monetary_stop
+        - catastrophic_stop
+        - time_session_stop
+        - portfolio_stop
+        - kill_switch_stop
+      stop_types_source: concepts/tw-ict-risk-gates
+      take_profit: "PARTIAL_GRADING (ManagementTree: target/partial/trailing/break-even)"
+      time_exit: "<=13:25 (普通撮合 09:00-13:30；分鐘 bar 13:26-13:29 尾盤叫價缺失)"
+      time_exit_source: "concepts/daytrading-t0-flow + concepts/daytrading-intraday-exits"
+      forced_flatten: true
+      forced_flatten_source: "concepts/tw-ict-risk-gates + concepts/daytrading-t0-flow"
+
+    params:
+      opening_range_window_calibration:
+        calibrated_value: "09:01-09:15"
+        calibration: EMPIRICAL_OR_WINDOW        # 資料指南 OR(09:01-09:15)突破為最強結構 edge (+151bp/中位+96.5bp)
+        net_expectation_note: "窗口延長或縮短皆未顯著改善; 09:01-09:15 為權值股價格發現期, 定為基準"
+        source: "daytrading-research-data-access + 回測校準"
+      cost_model:
+        fee_bps: 14.25
+        tax_bps: 30.0
+        slippage_bps: 5.0
+        total_roundtrip_bps: 68.5
+        source: "daytrading-research-data-access (研究基線)"
+      time_window:
+        session: "09:00-13:30"
+        session_source: "concepts/daytrading-t0-flow + raw/daytrading-v3/daytrading-v3-summary"
+        forced_flatten_exit: "<=13:25"
+        forced_flatten_source: "daytrading-intraday-exits + daytrading-research-data-access"
+      r_multiple_target:
+        calibrated_value: 1.0            # R分佈 p70≈1.0R 可達; >1.5R 勝率急降
+        calibration: EMPIRICAL_2026_08_RMULT      # 49權值股 11848 symbol-day OR突破, med=0.67R p70=1.0R p90=2.0R
+        net_expectation_note: "net期望負(見 stop_percent 校準); 1.0R 為最不差的退出點, 非獲利保證"
+        source: "回測校準 (backtest.duckdb minute_bars 2025-08-11..2026-08-10) + daytrading-research-data-access"
+      stop_percent:
+        calibrated_value: 0.010
+        calibration: EMPIRICAL_2026_08_STOP      # stop 0.010 於權值股 OR 突破 winR 最高(0.30)且非最緊非最寬; OR range median 144.8bp≈0.0145
+        net_expectation_note: "49權值股68.5bp成本下 OR突破每day單次 NET期望全負(最佳stop0.010/cap0.010=-77.6bp, 校正68.5bp成本後); 此法在權值股宇宙不可行, 校準值為『負期望最小』非正期望"
+        source: "回測校準 (minute_bars 逐bar) + daytrading-research-data-access (權值股 gross<68.5bp 警告)"
+      risk_per_trade_budget:
+        calibrated_value: 0.005        # 中值 (approved_qty 公式 risk_budget 輸入); 資金管理參數非市場校準
+        calibration: MANAGERIAL_NOMINAL_0.5PCT
+        net_expectation_note: "非市場校準; 若採 volatile method 可降至 0.002-0.003"
+        source: "concepts/daytrading-intraday-exits (approved_qty 公式) + 校準"
+      screening_thresholds:
+        volume_continuity_min: 500      # 張; 以49權值股 Volume 分位 proxy (log-scale 原始, 需 ref)
+        spread_stability_max_bps: 30.0  # proxy; 權值股 spread 常 <30bp (simplified, 需報價資料未受測)
+        relative_strength_min: 0.0      # 相對強度門檻 需個股 vs 大盤計算, 非獨立可校
+        calibration: EMPIRICAL_OR_PROXY_2026_08
+        net_expectation_note: "spread 需報價深度資料 (minute_bars 無 spread); volume/relative_strength 為可實作 proxy"
+        source: "concepts/daytrading-stock-selection (BREAKOUT-OPEN required evidence) + DOC04-16 + 權值股 Volume 分位"
+
+  # ── 方法 B：動能延續 (T+0, BOS+FVG) ─────────────────────────
+  - method_id: m-t0-displacement-momentum
+    method_axis: T0_DAYTRADE
+    method_purpose: |
+      延續「已確認 displacement+qualified FVG/OB array+回撤結構未破」之日內
+      動能延續。證據強度警告：SQS 研究基線首小時動能延續率 44.2% (<50%,
+      均值回歸主導) → 獨立動能延續法基本被證偽；需疊加相對強弱+籌碼+
+      counter-evidence，優先序低於方法 A，RESEARCH_ONLY、證據弱。
+    method_sources:
+      - concepts/ict-daytrading-modules
+      - concepts/smc-market-structure
+      - concepts/ict-context-bias-scenario
+      - concepts/daytrading-stock-selection
+      - concepts/tw-ict-risk-gates
+      - concepts/daytrading-intraday-exits
+
+    setup_conditions_B:
+      momentum_confirmation:
+        - BOS_CONFIRMED
+        - DISPLACEMENT_STRENGTH_DONE
+      qualified_arrays:
+        - fvg
+        - order_block
+      pullback_structure_hold: true
+      ranking_profile: PULLBACK-INTRADAY
+      ranking_required_evidence:
+        - trend_continuation
+        - pullback_structure
+        - liquidity_recovery
+      counter_evidence_check: REQUIRED
+      sources: "concepts/ict-daytrading-modules + concepts/smc-market-structure + concepts/daytrading-stock-selection"
+
+    params_B:
+      first_hour_momentum_continuation_rate:
+        calibrated_value: 0.442
+        observed: 0.442
+        calibration: EMPIRICAL_2026_08_MOMB      # 資料指南 49權值股 一年實測 44.2% (<50%); 複核不同定義同向 19-24% 仍證偽
+        implication: independent_momentum_continuation_discredited
+        net_expectation_note: "<0.5 使 method B 獨立動能延續法基本證偽; 僅可作 method A 等之輔助/條件確認, 不單獨進場"
+        source: daytrading-research-data-access
+
+    shared_with_method_A_note: "風險 gates / 決策鏈 / 平倉 / T+0 主軸 與方法 A 相同 (non_compensating/no_widen/effective_R/approved_qty/日損 KillSwitch/Forced Flatten)"
+
+# ── 全局 claim ceiling 註解 ─────────────────────────────────
+# CLAIM CEILING: RESEARCH_ONLY
+# 本參數檔自 SQS-WIKI 知識庫萃取，所有結構性參數皆有 source 對應；
+# 所有無校準依據的固定數字皆標 CALIBRATION_REQUIRED (僅給研究起點建議)，未經
+# 回測校準不得視為真值。本檔不宣稱 live/production、無券商 write；
+# 方法/策略定案須走 HGK 治理 + 方法定案閉環 (Slow-Loop, method-finalization-contract)。
+# ═════════════════════════════════════════════════════════════════

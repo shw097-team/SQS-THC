@@ -1,0 +1,15 @@
+schema: SQS-E2-BEHAVIOR-SUBJECT-SELECTION/1
+subject_id: E2-BS-001
+behavior_gap_source: "RP-002 v2.0 Stage-3 owner document §18.2 Knowledge/Memory/KG Binding — namespace contract declares sqs.candidate.*/sqs.approved.*/sqs.revoked.*/sqs.runtime.*/shared.approved.* with 'revoked/stale namespaces are excluded'; the materialized SQS_STACK_MANIFEST.yaml (SQP1) omits the sqs.revoked.* namespace declaration and its exclusion behavior."
+source_locator: "知識庫/實作相關DOC/Fabric/RP-002_v2.0_DOC/RP-002_v2.0_STAGE-3_SQS_PROFILEIZATION_AND_CROSS-STACK_EVOLUTION_2026-08-12_r2.md#18.2 + SQS-THC/SQS_STACK_MANIFEST.yaml"
+current_subject_ref: SQS-THC/SQS_STACK_MANIFEST.yaml (RP002-STACK-MANIFEST/2)
+candidate_subject_kind: STACK
+expected_behavior_delta: "Stack Manifest knowledge_namespace block declares sqs.revoked.* (exclusion/tombstone) alongside candidate/approved/runtime/shared namespaces; revoked-namespace reads are denied/excluded; documentation of revocation lifecycle (promote -> revoke -> tombstone -> excluded) present in the manifest."
+expected_user_or_operator_value: "Operator/agent surface exposes the full governed namespace contract including revocation exclusion, so stale/revoked knowledge cannot be retrieved as current (KG1 revoked_stale_exclusion semantics visible at the Stack level)."
+authority_delta: NONE
+permission_delta: "explicit: revoked namespace reads DENIED (additive read-exclusion; no write-scope change)"
+risk_delta: "none (knowledge namespace declaration only; no financial/risk semantics)"
+selection_reason: "Real source-backed gap: owner doc §18.2 namespaces vs materialized manifest; durable behavior artifact (Stack Manifest/OASF record) eligible under §25.1; no S1/SQP1 evidence invalidation (additive behavior)."
+original_behavior_replay_fixture: "tests/test_rp002_stage3_e2.py#test_e2_005 (authority fields intact) + fresh-session canary replay (subagent-summary-0-20260813_012509_534001.txt) — replay executed and PASS"
+rollback_ref: "git restore SQS_STACK_MANIFEST.yaml (pre-edit bytes preserved in var/rp002-stage3/e2-before/)"
+frozen_at: 2026-08-13T02:10:00+08:00

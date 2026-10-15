@@ -1,0 +1,6 @@
+# ALT DATA - satellite-based fab activity proxy (TS-008 / ART-08, CH22).
+id: alt-satellite-plant-activity
+schema_version: 1.0.0
+license: COMMERCIAL_AGREEMENT_NON_REDISTRIBUTABLE
+source: SSOT/SQS-THC_P0-CIP-PACK_v2026.08.06-r2.md#CH22
+description: Night-light and parking-lot imagery proxy for TW-ICT fab utilization

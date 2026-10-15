@@ -1,0 +1,24 @@
+{
+  "schema": "SPARTOI-SF-04/1",
+  "sf": "SF-04",
+  "symbols": [
+    "1605",
+    "6505",
+    "2504",
+    "8039",
+    "1808"
+  ],
+  "scenario": {
+    "base": "MIXED",
+    "up": 106,
+    "down": 49,
+    "note": "fastest-accel sim; live tape=proxy"
+  },
+  "sim_clock": {
+    "mode": "SIM_FASTEST_ACCEL",
+    "trade_date": "2026-08-20",
+    "intraday_measured": "qualification-proxy (no FDA/XQ realtime)"
+  },
+  "broker_write": false,
+  "filled": 0
+}

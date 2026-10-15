@@ -1,0 +1,81 @@
+{
+  "schema": "GATE0-RECEIPTS-SUMMARY/1",
+  "generated_at": "2026-08-20T20:38:37.698250+08:00",
+  "receipt_count": 12,
+  "receipts": [
+    [
+      "BASELINE_AUTHORITY_INVENTORY.json",
+      "OK",
+      "1cc30d6c7e5529b567efdb1fbe2c42daa90a28e5862c0b271580dd889e869f3e",
+      "A0-A9 fresh read"
+    ],
+    [
+      "BASELINE_MACHINE_STATE.json",
+      "OK",
+      "d165b6ea87a0f01a52be5017905ef1cecf4d79cd91d0ac356ad060bb0fa8c061",
+      "platform+procs"
+    ],
+    [
+      "BASELINE_HGK_HEALTH.json",
+      "OK",
+      "c8f563a6c896bab2d7db1321116346701bc2892969b132d42645019a297db7f3",
+      "doctor"
+    ],
+    [
+      "BASELINE_SQS_TESTS.stdout.txt",
+      "OK",
+      "793c73d5d7900773ccd4dd0b8be8f26570e7c6b345d1e44745749956b72c56b6",
+      "unittest discover"
+    ],
+    [
+      "BASELINE_SQS_TESTS.exitcode.txt",
+      "OK",
+      "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+      "exit code"
+    ],
+    [
+      "BASELINE_DATASET_INVENTORY.json",
+      "OK",
+      "4b7fabfc370683ffcf0b378a0904c190d2c8e80068a868c658a7b993707df06b",
+      "STATUS_VECTOR_DAILY"
+    ],
+    [
+      "BASELINE_RBWI_SUBJECT_MANIFEST.json",
+      "OK",
+      "6cc801ec8815be28cef028fcc13c63fcc976a10ea3808b94c486ce3e5d7ce744",
+      "canonical RBWI+pack"
+    ],
+    [
+      "BASELINE_FAR_RUNTIME.json",
+      "OK",
+      "6911ab34fe3b8d212fb2351fc10c5c0a15aff7f936933bab771ea0aee9db62b1",
+      "FAR assets"
+    ],
+    [
+      "BASELINE_FDA_XQ_SUBJECT.json",
+      "OK",
+      "e2a94976d97a70476896f803b3ebcc9a265aaf1073a8779fdb921b582111b586",
+      "FDA matrix/route"
+    ],
+    [
+      "BASELINE_XQ_ACCOUNT_MODE.json",
+      "OK",
+      "3626a50b36205c08730c0159daf75012ceee48fd23e440c75250b7b5f302bcc0",
+      "XQ account mode"
+    ],
+    [
+      "BASELINE_GSTACK_OPENSPEC_STATE.json",
+      "OK",
+      "912e987029b3afa246712685d81bd9d437ad753d0a5b021fc7941f0c465c73c1",
+      "named_methods"
+    ],
+    [
+      "BASELINE_REQUIRED_CAPABILITY_PREFLIGHT.json",
+      "OK",
+      "267cc0ad8f324c9d389e6c3ed9128263b399bea5ffbee40f53faf6cd8d7ab8d3",
+      "capability matrix"
+    ]
+  ],
+  "claim_ceiling": "GATE0_BASELINE_COMPLETE; Q2-Q4 execution requires live market session + HITL approvals",
+  "production_live": "NOT_AUTHORIZED"
+}

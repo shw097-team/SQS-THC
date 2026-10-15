@@ -1,0 +1,26 @@
+{
+  "schema": "RBWI-PREOPEN-STEP/1",
+  "step_id": "D-00",
+  "title": "能力與權限預檢",
+  "run_id": "RUN-RBWI-FULLRUN-20260820-001",
+  "candidate_id": "CAND-RBWI-20260814",
+  "segment_binding_id": "BIND-RBWI-Q1-20260820-001",
+  "trading_date": "2026-08-14",
+  "week": "2026-W33",
+  "generated_at": "2026-08-20T21:10+08:00",
+  "owner": "ROLE-TOOL-OWNER",
+  "checker": "ROLE-VALIDATION-OWNER",
+  "veto": "ROLE-CLAIM-VETO",
+  "purpose": "Daily 能力與權限預檢 (開盤前)",
+  "action": "SF-16 preflight + ToolAllowlist",
+  "inputs": {
+    "capability_profiles": "bound",
+    "tool_allowlist": "Hermes+duckdb+polars; XQ write disabled"
+  },
+  "outputs": "CapabilityProfile",
+  "state_machine": "DRAFT->CHECKED->ACKED->ACTIVE",
+  "consumer_ack": true,
+  "reason_code": "D_COMPLETE",
+  "security_surface": "read-only data; no broker write",
+  "live_dependency": null
+}

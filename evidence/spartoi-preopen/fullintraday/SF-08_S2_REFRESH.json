@@ -1,0 +1,44 @@
+{
+  "schema": "SPARTOI-SF-08/1",
+  "sf": "SF-08",
+  "rows": 104,
+  "sample": [
+    {
+      "symbol": "1101",
+      "open": 24.1,
+      "close": 24.8,
+      "ip": 0.029045643153526868
+    },
+    {
+      "symbol": "1102",
+      "open": 33.95,
+      "close": 34.7,
+      "ip": 0.022091310751104487
+    },
+    {
+      "symbol": "1104",
+      "open": 26.55,
+      "close": 26.8,
+      "ip": 0.009416195856873921
+    },
+    {
+      "symbol": "1218",
+      "open": 14.3,
+      "close": 14.9,
+      "ip": 0.04195804195804187
+    },
+    {
+      "symbol": "1227",
+      "open": 29.1,
+      "close": 29.15,
+      "ip": 0.0017182130584192379
+    }
+  ],
+  "sim_clock": {
+    "mode": "SIM_FASTEST_ACCEL",
+    "trade_date": "2026-08-20",
+    "intraday_measured": "qualification-proxy (no FDA/XQ realtime)"
+  },
+  "broker_write": false,
+  "filled": 0
+}

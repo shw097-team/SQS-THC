@@ -1,0 +1,117 @@
+{
+  "schema": "RBWI-FINAL-CLEAN-E2E/1",
+  "run_id": "RUN-RBWI-FULLRUN-20260820-001",
+  "candidate_id": "CAND-RBWI-20260814",
+  "sim_clock": {
+    "mode": "SIM_FASTEST_ACCEL",
+    "trade_date": "2026-08-20",
+    "dataset": "DSV-DAILY-2026-08-21-r1"
+  },
+  "preflight": {
+    "all_frozen": true,
+    "blocking": 0
+  },
+  "epoch": "ONE_MONOTONIC_SIM_EPOCH",
+  "mutations": {
+    "code": 0,
+    "policy": 0,
+    "dataset": 0,
+    "methodspec": 0,
+    "financialspec": 0,
+    "risk": 0,
+    "session_timing": 0,
+    "fda": 0,
+    "selector": 0
+  },
+  "sf_steps": {
+    "SF-00": {
+      "pass": true,
+      "detail": "roles sqs-orchestrator/data-analysis/risk active; PAPER/LOCAL boundary"
+    },
+    "SF-01": {
+      "pass": true,
+      "detail": "BULL/MIXED regime from 8/20 breadth (up/dn split on 163 sym)"
+    },
+    "SF-02": {
+      "pass": true,
+      "detail": "trading_date 2026-08-20; mutation_flags all False"
+    },
+    "SF-03": {
+      "pass": true,
+      "detail": "SessionCandidatePool-S1 from daily (primary subset of 163)"
+    },
+    "SF-04": {
+      "pass": true,
+      "detail": "8/20 open auction tape = qualification-proxy (no minute 8/20)"
+    },
+    "SF-05": {
+      "pass": true,
+      "detail": "S1 setup observation from 8/20 daily bars"
+    },
+    "SF-06": {
+      "pass": true,
+      "detail": "qualify S1 setups; simulated, not live"
+    },
+    "SF-07": {
+      "pass": true,
+      "detail": "context revision append-only"
+    },
+    "SF-08": {
+      "pass": true,
+      "detail": "SessionCandidatePool-S2 fresh"
+    },
+    "SF-09": {
+      "pass": true,
+      "detail": "S2 keyed to 8/20 close snapshot; s1_reuse FORBIDDEN"
+    },
+    "SF-10": {
+      "pass": true,
+      "detail": "cutoff enforced; post-cutoff MANAGE_ONLY"
+    },
+    "SF-11": {
+      "pass": true,
+      "detail": "FLAT_PENDING_HITL_SIM (no SIM fill -> no carry)"
+    },
+    "SF-12": {
+      "pass": true,
+      "detail": "BREAK=0; consistent (0 SIM fills)"
+    },
+    "SF-13": {
+      "pass": true,
+      "detail": "sim_trades=0, sim_pnl=0.0 (paper only)"
+    },
+    "SF-14": {
+      "pass": true,
+      "detail": "version_manifest DSV-DAILY-2026-08-21-r1 / 2026-08-20"
+    }
+  },
+  "sidecars": {
+    "SF-15_independent_risk": "applied per Q2-Q4; no over-claim",
+    "SF-17_operator_HITL": "HITL-APPROVAL/1 NOT minted (SIM); no self-approval"
+  },
+  "data_checker": {
+    "schema": "RBWI-FINAL-DATA-CHECKER/1",
+    "pit_violations_known_at_le_asof": 0,
+    "pit_struct_known_at_ne_asof_plus1": 0,
+    "pass": true,
+    "dataset": "DSV-DAILY-2026-08-21-r1",
+    "rows_8_20": 163,
+    "symbols_8_20": 163
+  },
+  "risk_checker": {
+    "schema": "RBWI-FINAL-RISK-CHECKER/1",
+    "no_live_writes": true,
+    "no_fills": true,
+    "hitl_not_minted": true,
+    "boundary": "LOCAL_PAPER_SIMULATION_ONLY",
+    "pass": true,
+    "note": "SIM run asserted zero fills/broker-write; independent risk gate considers this within policy"
+  },
+  "claim_ceiling": "TW_ICT_RBWI_FULL_RUN_LOCAL_PAPER_SIMULATION_INTERNAL_ALL_PASS",
+  "production_live": false,
+  "external_final": false,
+  "fills": 0,
+  "broker_write": false,
+  "stop_after_final": "YES (Master §17/§18 STOP for external review)",
+  "generated_at": "2026-08-21T12:35+08:00"
+}

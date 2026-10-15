@@ -1,0 +1,2341 @@
+{
+ "dataset": "DSV-DAILY-2026-08-13-r2",
+ "identity_source": "TWSE_ISIN_C_PUBLIC (C_public.jsp strMode=2/4, official instrument master)",
+ "identity_asof": "2026-08-13",
+ "master_rows_per_page": {
+  "TWSE": 1097,
+  "TPEx": 890
+ },
+ "universe_count": 258,
+ "resolved_count": 258,
+ "unresolved": [],
+ "listing_venue_count": {
+  "TWSE": 258
+ },
+ "crosswalk": {
+  "1101": {
+   "symbol": "1101",
+   "name": "台泥",
+   "listing_venue": "TWSE",
+   "isin": "TW0001101004",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "1102": {
+   "symbol": "1102",
+   "name": "亞泥",
+   "listing_venue": "TWSE",
+   "isin": "TW0001102002",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "1104": {
+   "symbol": "1104",
+   "name": "環泥",
+   "listing_venue": "TWSE",
+   "isin": "TW0001104008",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "1203": {
+   "symbol": "1203",
+   "name": "味王",
+   "listing_venue": "TWSE",
+   "isin": "TW0001203008",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "1218": {
+   "symbol": "1218",
+   "name": "泰山",
+   "listing_venue": "TWSE",
+   "isin": "TW0001218006",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "1227": {
+   "symbol": "1227",
+   "name": "佳格",
+   "listing_venue": "TWSE",
+   "isin": "TW0001227007",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "1229": {
+   "symbol": "1229",
+   "name": "聯華",
+   "listing_venue": "TWSE",
+   "isin": "TW0001229003",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "1233": {
+   "symbol": "1233",
+   "name": "天仁",
+   "listing_venue": "TWSE",
+   "isin": "TW0001233005",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "1234": {
+   "symbol": "1234",
+   "name": "黑松",
+   "listing_venue": "TWSE",
+   "isin": "TW0001234003",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "1301": {
+   "symbol": "1301",
+   "name": "台塑",
+   "listing_venue": "TWSE",
+   "isin": "TW0001301000",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "1303": {
+   "symbol": "1303",
+   "name": "南亞",
+   "listing_venue": "TWSE",
+   "isin": "TW0001303006",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "1307": {
+   "symbol": "1307",
+   "name": "三芳",
+   "listing_venue": "TWSE",
+   "isin": "TW0001307007",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "1321": {
+   "symbol": "1321",
+   "name": "大洋",
+   "listing_venue": "TWSE",
+   "isin": "TW0001321008",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "1325": {
+   "symbol": "1325",
+   "name": "恆大",
+   "listing_venue": "TWSE",
+   "isin": "TW0001325009",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "1326": {
+   "symbol": "1326",
+   "name": "台化",
+   "listing_venue": "TWSE",
+   "isin": "TW0001326007",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "1402": {
+   "symbol": "1402",
+   "name": "遠東新",
+   "listing_venue": "TWSE",
+   "isin": "TW0001402006",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "1410": {
+   "symbol": "1410",
+   "name": "南染",
+   "listing_venue": "TWSE",
+   "isin": "TW0001410009",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "1418": {
+   "symbol": "1418",
+   "name": "東華",
+   "listing_venue": "TWSE",
+   "isin": "TW0001418002",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "1423": {
+   "symbol": "1423",
+   "name": "利華",
+   "listing_venue": "TWSE",
+   "isin": "TW0001423002",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "1437": {
+   "symbol": "1437",
+   "name": "勤益控",
+   "listing_venue": "TWSE",
+   "isin": "TW0001437002",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "1438": {
+   "symbol": "1438",
+   "name": "三地開發",
+   "listing_venue": "TWSE",
+   "isin": "TW0001438000",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "1439": {
+   "symbol": "1439",
+   "name": "雋揚",
+   "listing_venue": "TWSE",
+   "isin": "TW0001439008",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "1443": {
+   "symbol": "1443",
+   "name": "立益物流",
+   "listing_venue": "TWSE",
+   "isin": "TW0001443000",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "1446": {
+   "symbol": "1446",
+   "name": "宏和",
+   "listing_venue": "TWSE",
+   "isin": "TW0001446003",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "1470": {
+   "symbol": "1470",
+   "name": "大統新創",
+   "listing_venue": "TWSE",
+   "isin": "TW0001470003",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "1473": {
+   "symbol": "1473",
+   "name": "台南",
+   "listing_venue": "TWSE",
+   "isin": "TW0001473007",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "1475": {
+   "symbol": "1475",
+   "name": "業旺",
+   "listing_venue": "TWSE",
+   "isin": "TW0001475002",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "1504": {
+   "symbol": "1504",
+   "name": "東元",
+   "listing_venue": "TWSE",
+   "isin": "TW0001504009",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "1515": {
+   "symbol": "1515",
+   "name": "力山",
+   "listing_venue": "TWSE",
+   "isin": "TW0001515005",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "1521": {
+   "symbol": "1521",
+   "name": "大億",
+   "listing_venue": "TWSE",
+   "isin": "TW0001521003",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "1522": {
+   "symbol": "1522",
+   "name": "堤維西",
+   "listing_venue": "TWSE",
+   "isin": "TW0001522001",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "1524": {
+   "symbol": "1524",
+   "name": "耿鼎",
+   "listing_venue": "TWSE",
+   "isin": "TW0001524007",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "1527": {
+   "symbol": "1527",
+   "name": "鑽全",
+   "listing_venue": "TWSE",
+   "isin": "TW0001527000",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "1529": {
+   "symbol": "1529",
+   "name": "樂事綠能",
+   "listing_venue": "TWSE",
+   "isin": "TW0001529006",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "1530": {
+   "symbol": "1530",
+   "name": "亞崴",
+   "listing_venue": "TWSE",
+   "isin": "TW0001530004",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "1532": {
+   "symbol": "1532",
+   "name": "勤美",
+   "listing_venue": "TWSE",
+   "isin": "TW0001532000",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "1533": {
+   "symbol": "1533",
+   "name": "車王電",
+   "listing_venue": "TWSE",
+   "isin": "TW0001533008",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "1539": {
+   "symbol": "1539",
+   "name": "巨庭",
+   "listing_venue": "TWSE",
+   "isin": "TW0001539005",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "1540": {
+   "symbol": "1540",
+   "name": "喬福",
+   "listing_venue": "TWSE",
+   "isin": "TW0001540003",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "1541": {
+   "symbol": "1541",
+   "name": "錩泰",
+   "listing_venue": "TWSE",
+   "isin": "TW0001541001",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "1603": {
+   "symbol": "1603",
+   "name": "華電",
+   "listing_venue": "TWSE",
+   "isin": "TW0001603009",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "1604": {
+   "symbol": "1604",
+   "name": "聲寶",
+   "listing_venue": "TWSE",
+   "isin": "TW0001604007",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "1605": {
+   "symbol": "1605",
+   "name": "華新",
+   "listing_venue": "TWSE",
+   "isin": "TW0001605004",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "1608": {
+   "symbol": "1608",
+   "name": "華榮",
+   "listing_venue": "TWSE",
+   "isin": "TW0001608008",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "1609": {
+   "symbol": "1609",
+   "name": "大亞",
+   "listing_venue": "TWSE",
+   "isin": "TW0001609006",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "1612": {
+   "symbol": "1612",
+   "name": "宏泰",
+   "listing_venue": "TWSE",
+   "isin": "TW0001612000",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "1614": {
+   "symbol": "1614",
+   "name": "三洋電",
+   "listing_venue": "TWSE",
+   "isin": "TW0001614006",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "1616": {
+   "symbol": "1616",
+   "name": "億泰",
+   "listing_venue": "TWSE",
+   "isin": "TW0001616001",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "1618": {
+   "symbol": "1618",
+   "name": "合機",
+   "listing_venue": "TWSE",
+   "isin": "TW0001618007",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "1702": {
+   "symbol": "1702",
+   "name": "南僑",
+   "listing_venue": "TWSE",
+   "isin": "TW0001702009",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "1708": {
+   "symbol": "1708",
+   "name": "東鹼",
+   "listing_venue": "TWSE",
+   "isin": "TW0001708006",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "1712": {
+   "symbol": "1712",
+   "name": "興農",
+   "listing_venue": "TWSE",
+   "isin": "TW0001712008",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "1717": {
+   "symbol": "1717",
+   "name": "長興",
+   "listing_venue": "TWSE",
+   "isin": "TW0001717007",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "1725": {
+   "symbol": "1725",
+   "name": "元禎",
+   "listing_venue": "TWSE",
+   "isin": "TW0001725000",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "1727": {
+   "symbol": "1727",
+   "name": "中華化",
+   "listing_venue": "TWSE",
+   "isin": "TW0001727006",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "1731": {
+   "symbol": "1731",
+   "name": "美吾華",
+   "listing_venue": "TWSE",
+   "isin": "TW0001731008",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "1732": {
+   "symbol": "1732",
+   "name": "毛寶",
+   "listing_venue": "TWSE",
+   "isin": "TW0001732006",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "1733": {
+   "symbol": "1733",
+   "name": "五鼎",
+   "listing_venue": "TWSE",
+   "isin": "TW0001733004",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "1734": {
+   "symbol": "1734",
+   "name": "杏輝",
+   "listing_venue": "TWSE",
+   "isin": "TW0001734002",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "1737": {
+   "symbol": "1737",
+   "name": "臺鹽",
+   "listing_venue": "TWSE",
+   "isin": "TW0001737005",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "1752": {
+   "symbol": "1752",
+   "name": "南光",
+   "listing_venue": "TWSE",
+   "isin": "TW0001752004",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "1762": {
+   "symbol": "1762",
+   "name": "中化生",
+   "listing_venue": "TWSE",
+   "isin": "TW0001762003",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "1808": {
+   "symbol": "1808",
+   "name": "潤隆",
+   "listing_venue": "TWSE",
+   "isin": "TW0001808004",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "1817": {
+   "symbol": "1817",
+   "name": "凱撒衛",
+   "listing_venue": "TWSE",
+   "isin": "TW0001817005",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "1907": {
+   "symbol": "1907",
+   "name": "永豐餘",
+   "listing_venue": "TWSE",
+   "isin": "TW0001907004",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "2008": {
+   "symbol": "2008",
+   "name": "高興昌",
+   "listing_venue": "TWSE",
+   "isin": "TW0002008000",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "2009": {
+   "symbol": "2009",
+   "name": "第一銅",
+   "listing_venue": "TWSE",
+   "isin": "TW0002009008",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "2013": {
+   "symbol": "2013",
+   "name": "中鋼構",
+   "listing_venue": "TWSE",
+   "isin": "TW0002013000",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "2020": {
+   "symbol": "2020",
+   "name": "美亞",
+   "listing_venue": "TWSE",
+   "isin": "TW0002020005",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "2027": {
+   "symbol": "2027",
+   "name": "大成鋼",
+   "listing_venue": "TWSE",
+   "isin": "TW0002027000",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "2029": {
+   "symbol": "2029",
+   "name": "盛餘",
+   "listing_venue": "TWSE",
+   "isin": "TW0002029006",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "2031": {
+   "symbol": "2031",
+   "name": "新光鋼",
+   "listing_venue": "TWSE",
+   "isin": "TW0002031002",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "2034": {
+   "symbol": "2034",
+   "name": "允強",
+   "listing_venue": "TWSE",
+   "isin": "TW0002034006",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "2101": {
+   "symbol": "2101",
+   "name": "南港",
+   "listing_venue": "TWSE",
+   "isin": "TW0002101003",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "2102": {
+   "symbol": "2102",
+   "name": "泰豐",
+   "listing_venue": "TWSE",
+   "isin": "TW0002102001",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "2105": {
+   "symbol": "2105",
+   "name": "正新",
+   "listing_venue": "TWSE",
+   "isin": "TW0002105004",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "2106": {
+   "symbol": "2106",
+   "name": "建大",
+   "listing_venue": "TWSE",
+   "isin": "TW0002106002",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "2107": {
+   "symbol": "2107",
+   "name": "厚生",
+   "listing_venue": "TWSE",
+   "isin": "TW0002107000",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "2108": {
+   "symbol": "2108",
+   "name": "南帝",
+   "listing_venue": "TWSE",
+   "isin": "TW0002108008",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "2115": {
+   "symbol": "2115",
+   "name": "六暉-KY",
+   "listing_venue": "TWSE",
+   "isin": "KYG5700L1086",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "2201": {
+   "symbol": "2201",
+   "name": "裕隆",
+   "listing_venue": "TWSE",
+   "isin": "TW0002201001",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "2239": {
+   "symbol": "2239",
+   "name": "英利-KY",
+   "listing_venue": "TWSE",
+   "isin": "KYG1991F1081",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "2241": {
+   "symbol": "2241",
+   "name": "艾姆勒",
+   "listing_venue": "TWSE",
+   "isin": "TW0002241007",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "2303": {
+   "symbol": "2303",
+   "name": "聯電",
+   "listing_venue": "TWSE",
+   "isin": "TW0002303005",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "2312": {
+   "symbol": "2312",
+   "name": "金寶",
+   "listing_venue": "TWSE",
+   "isin": "TW0002312006",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "2324": {
+   "symbol": "2324",
+   "name": "仁寶",
+   "listing_venue": "TWSE",
+   "isin": "TW0002324001",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "2328": {
+   "symbol": "2328",
+   "name": "廣宇",
+   "listing_venue": "TWSE",
+   "isin": "TW0002328002",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "2329": {
+   "symbol": "2329",
+   "name": "華泰",
+   "listing_venue": "TWSE",
+   "isin": "TW0002329000",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "2337": {
+   "symbol": "2337",
+   "name": "旺宏",
+   "listing_venue": "TWSE",
+   "isin": "TW0002337003",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "2338": {
+   "symbol": "2338",
+   "name": "光罩",
+   "listing_venue": "TWSE",
+   "isin": "TW0002338001",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "2340": {
+   "symbol": "2340",
+   "name": "台亞",
+   "listing_venue": "TWSE",
+   "isin": "TW0002340007",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "2342": {
+   "symbol": "2342",
+   "name": "茂矽",
+   "listing_venue": "TWSE",
+   "isin": "TW0002342003",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "2344": {
+   "symbol": "2344",
+   "name": "華邦電",
+   "listing_venue": "TWSE",
+   "isin": "TW0002344009",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "2352": {
+   "symbol": "2352",
+   "name": "佳世達",
+   "listing_venue": "TWSE",
+   "isin": "TW0002352002",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "2353": {
+   "symbol": "2353",
+   "name": "宏��",
+   "listing_venue": "TWSE",
+   "isin": "TW0002353000",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "2355": {
+   "symbol": "2355",
+   "name": "敬鵬",
+   "listing_venue": "TWSE",
+   "isin": "TW0002355005",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "2356": {
+   "symbol": "2356",
+   "name": "英業達",
+   "listing_venue": "TWSE",
+   "isin": "TW0002356003",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "2362": {
+   "symbol": "2362",
+   "name": "藍天",
+   "listing_venue": "TWSE",
+   "isin": "TW0002362001",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "2363": {
+   "symbol": "2363",
+   "name": "矽統",
+   "listing_venue": "TWSE",
+   "isin": "TW0002363009",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "2365": {
+   "symbol": "2365",
+   "name": "昆盈",
+   "listing_venue": "TWSE",
+   "isin": "TW0002365004",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "2367": {
+   "symbol": "2367",
+   "name": "燿華",
+   "listing_venue": "TWSE",
+   "isin": "TW0002367000",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "2371": {
+   "symbol": "2371",
+   "name": "大同",
+   "listing_venue": "TWSE",
+   "isin": "TW0002371002",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "2387": {
+   "symbol": "2387",
+   "name": "精元",
+   "listing_venue": "TWSE",
+   "isin": "TW0002387008",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "2402": {
+   "symbol": "2402",
+   "name": "毅嘉",
+   "listing_venue": "TWSE",
+   "isin": "TW0002402005",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "2414": {
+   "symbol": "2414",
+   "name": "精技",
+   "listing_venue": "TWSE",
+   "isin": "TW0002414000",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "2415": {
+   "symbol": "2415",
+   "name": "錩新",
+   "listing_venue": "TWSE",
+   "isin": "TW0002415007",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "2417": {
+   "symbol": "2417",
+   "name": "圓剛",
+   "listing_venue": "TWSE",
+   "isin": "TW0002417003",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "2419": {
+   "symbol": "2419",
+   "name": "仲琦",
+   "listing_venue": "TWSE",
+   "isin": "TW0002419009",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "2423": {
+   "symbol": "2423",
+   "name": "固緯",
+   "listing_venue": "TWSE",
+   "isin": "TW0002423001",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "2425": {
+   "symbol": "2425",
+   "name": "承啟",
+   "listing_venue": "TWSE",
+   "isin": "TW0002425006",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "2427": {
+   "symbol": "2427",
+   "name": "三商電",
+   "listing_venue": "TWSE",
+   "isin": "TW0002427002",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "2430": {
+   "symbol": "2430",
+   "name": "燦坤",
+   "listing_venue": "TWSE",
+   "isin": "TW0002430006",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "2434": {
+   "symbol": "2434",
+   "name": "統懋",
+   "listing_venue": "TWSE",
+   "isin": "TW0002434008",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "2442": {
+   "symbol": "2442",
+   "name": "新美齊",
+   "listing_venue": "TWSE",
+   "isin": "TW0002442001",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "2450": {
+   "symbol": "2450",
+   "name": "神腦",
+   "listing_venue": "TWSE",
+   "isin": "TW0002450004",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "2457": {
+   "symbol": "2457",
+   "name": "飛宏",
+   "listing_venue": "TWSE",
+   "isin": "TW0002457009",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "2462": {
+   "symbol": "2462",
+   "name": "良得電",
+   "listing_venue": "TWSE",
+   "isin": "TW0002462009",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "2477": {
+   "symbol": "2477",
+   "name": "美隆電",
+   "listing_venue": "TWSE",
+   "isin": "TW0002477007",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "2478": {
+   "symbol": "2478",
+   "name": "大毅",
+   "listing_venue": "TWSE",
+   "isin": "TW0002478005",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "2484": {
+   "symbol": "2484",
+   "name": "希華",
+   "listing_venue": "TWSE",
+   "isin": "TW0002484003",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "2488": {
+   "symbol": "2488",
+   "name": "漢平",
+   "listing_venue": "TWSE",
+   "isin": "TW0002488004",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "2495": {
+   "symbol": "2495",
+   "name": "普安",
+   "listing_venue": "TWSE",
+   "isin": "TW0002495009",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "2497": {
+   "symbol": "2497",
+   "name": "怡利電",
+   "listing_venue": "TWSE",
+   "isin": "TW0002497005",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "2498": {
+   "symbol": "2498",
+   "name": "宏達電",
+   "listing_venue": "TWSE",
+   "isin": "TW0002498003",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "2504": {
+   "symbol": "2504",
+   "name": "國產",
+   "listing_venue": "TWSE",
+   "isin": "TW0002504008",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "2505": {
+   "symbol": "2505",
+   "name": "國揚",
+   "listing_venue": "TWSE",
+   "isin": "TW0002505005",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "2524": {
+   "symbol": "2524",
+   "name": "京城",
+   "listing_venue": "TWSE",
+   "isin": "TW0002524006",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "2527": {
+   "symbol": "2527",
+   "name": "宏璟",
+   "listing_venue": "TWSE",
+   "isin": "TW0002527009",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "2528": {
+   "symbol": "2528",
+   "name": "皇普",
+   "listing_venue": "TWSE",
+   "isin": "TW0002528007",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "2530": {
+   "symbol": "2530",
+   "name": "華建",
+   "listing_venue": "TWSE",
+   "isin": "TW0002530003",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "2534": {
+   "symbol": "2534",
+   "name": "宏盛",
+   "listing_venue": "TWSE",
+   "isin": "TW0002534005",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "2536": {
+   "symbol": "2536",
+   "name": "宏普",
+   "listing_venue": "TWSE",
+   "isin": "TW0002536000",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "2542": {
+   "symbol": "2542",
+   "name": "興富發",
+   "listing_venue": "TWSE",
+   "isin": "TW0002542008",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "2545": {
+   "symbol": "2545",
+   "name": "皇翔",
+   "listing_venue": "TWSE",
+   "isin": "TW0002545001",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "2605": {
+   "symbol": "2605",
+   "name": "新興",
+   "listing_venue": "TWSE",
+   "isin": "TW0002605003",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "2607": {
+   "symbol": "2607",
+   "name": "榮運",
+   "listing_venue": "TWSE",
+   "isin": "TW0002607009",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "2608": {
+   "symbol": "2608",
+   "name": "嘉里大榮",
+   "listing_venue": "TWSE",
+   "isin": "TW0002608007",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "2610": {
+   "symbol": "2610",
+   "name": "華航",
+   "listing_venue": "TWSE",
+   "isin": "TW0002610003",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "2611": {
+   "symbol": "2611",
+   "name": "志信",
+   "listing_venue": "TWSE",
+   "isin": "TW0002611001",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "2612": {
+   "symbol": "2612",
+   "name": "中航",
+   "listing_venue": "TWSE",
+   "isin": "TW0002612009",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "2613": {
+   "symbol": "2613",
+   "name": "中櫃",
+   "listing_venue": "TWSE",
+   "isin": "TW0002613007",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "2617": {
+   "symbol": "2617",
+   "name": "台航",
+   "listing_venue": "TWSE",
+   "isin": "TW0002617008",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "2618": {
+   "symbol": "2618",
+   "name": "長榮航",
+   "listing_venue": "TWSE",
+   "isin": "TW0002618006",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "2630": {
+   "symbol": "2630",
+   "name": "亞航",
+   "listing_venue": "TWSE",
+   "isin": "TW0002630001",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "2633": {
+   "symbol": "2633",
+   "name": "台灣高鐵",
+   "listing_venue": "TWSE",
+   "isin": "TW0002633005",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "2634": {
+   "symbol": "2634",
+   "name": "漢翔",
+   "listing_venue": "TWSE",
+   "isin": "TW0002634003",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "2642": {
+   "symbol": "2642",
+   "name": "宅配通",
+   "listing_venue": "TWSE",
+   "isin": "TW0002642006",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "2646": {
+   "symbol": "2646",
+   "name": "星宇航空",
+   "listing_venue": "TWSE",
+   "isin": "TW0002646007",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "2704": {
+   "symbol": "2704",
+   "name": "國賓",
+   "listing_venue": "TWSE",
+   "isin": "TW0002704004",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "2722": {
+   "symbol": "2722",
+   "name": "夏都",
+   "listing_venue": "TWSE",
+   "isin": "TW0002722006",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "2739": {
+   "symbol": "2739",
+   "name": "寒舍",
+   "listing_venue": "TWSE",
+   "isin": "TW0002739000",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "2748": {
+   "symbol": "2748",
+   "name": "雲品",
+   "listing_venue": "TWSE",
+   "isin": "TW0002748001",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "2812": {
+   "symbol": "2812",
+   "name": "台中銀",
+   "listing_venue": "TWSE",
+   "isin": "TW0002812005",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "2816": {
+   "symbol": "2816",
+   "name": "旺旺保",
+   "listing_venue": "TWSE",
+   "isin": "TW0002816006",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "2832": {
+   "symbol": "2832",
+   "name": "台產",
+   "listing_venue": "TWSE",
+   "isin": "TW0002832003",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "2851": {
+   "symbol": "2851",
+   "name": "中再保",
+   "listing_venue": "TWSE",
+   "isin": "TW0002851003",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "2852": {
+   "symbol": "2852",
+   "name": "第一保",
+   "listing_venue": "TWSE",
+   "isin": "TW0002852001",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "2855": {
+   "symbol": "2855",
+   "name": "統一證",
+   "listing_venue": "TWSE",
+   "isin": "TW0002855004",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "2880": {
+   "symbol": "2880",
+   "name": "華南金",
+   "listing_venue": "TWSE",
+   "isin": "TW0002880002",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "2884": {
+   "symbol": "2884",
+   "name": "玉山金",
+   "listing_venue": "TWSE",
+   "isin": "TW0002884004",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "2885": {
+   "symbol": "2885",
+   "name": "元大金",
+   "listing_venue": "TWSE",
+   "isin": "TW0002885001",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "2886": {
+   "symbol": "2886",
+   "name": "兆豐金",
+   "listing_venue": "TWSE",
+   "isin": "TW0002886009",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "4906": {
+   "symbol": "4906",
+   "name": "正文",
+   "listing_venue": "TWSE",
+   "isin": "TW0004906003",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "4916": {
+   "symbol": "4916",
+   "name": "事欣科",
+   "listing_venue": "TWSE",
+   "isin": "TW0004916002",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "4927": {
+   "symbol": "4927",
+   "name": "泰鼎-KY",
+   "listing_venue": "TWSE",
+   "isin": "KYG0407M1033",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "4930": {
+   "symbol": "4930",
+   "name": "燦星網",
+   "listing_venue": "TWSE",
+   "isin": "TW0004930003",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "4935": {
+   "symbol": "4935",
+   "name": "茂林-KY",
+   "listing_venue": "TWSE",
+   "isin": "KYG3931M1024",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "4942": {
+   "symbol": "4942",
+   "name": "嘉彰",
+   "listing_venue": "TWSE",
+   "isin": "TW0004942008",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "4952": {
+   "symbol": "4952",
+   "name": "凌通",
+   "listing_venue": "TWSE",
+   "isin": "TW0004952007",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "4956": {
+   "symbol": "4956",
+   "name": "光鋐",
+   "listing_venue": "TWSE",
+   "isin": "TW0004956008",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "4976": {
+   "symbol": "4976",
+   "name": "佳凌",
+   "listing_venue": "TWSE",
+   "isin": "TW0004976006",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "4999": {
+   "symbol": "4999",
+   "name": "鑫禾",
+   "listing_venue": "TWSE",
+   "isin": "TW0004999008",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "5215": {
+   "symbol": "5215",
+   "name": "科嘉-KY",
+   "listing_venue": "TWSE",
+   "isin": "KYG530791022",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "5244": {
+   "symbol": "5244",
+   "name": "弘凱",
+   "listing_venue": "TWSE",
+   "isin": "TW0005244008",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "5285": {
+   "symbol": "5285",
+   "name": "界霖",
+   "listing_venue": "TWSE",
+   "isin": "TW0005285001",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "5471": {
+   "symbol": "5471",
+   "name": "松翰",
+   "listing_venue": "TWSE",
+   "isin": "TW0005471007",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "5515": {
+   "symbol": "5515",
+   "name": "建國",
+   "listing_venue": "TWSE",
+   "isin": "TW0005515001",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "5519": {
+   "symbol": "5519",
+   "name": "隆大",
+   "listing_venue": "TWSE",
+   "isin": "TW0005519003",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "5525": {
+   "symbol": "5525",
+   "name": "順天",
+   "listing_venue": "TWSE",
+   "isin": "TW0005525000",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "5538": {
+   "symbol": "5538",
+   "name": "東明-KY",
+   "listing_venue": "TWSE",
+   "isin": "KYG8919A1031",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "5546": {
+   "symbol": "5546",
+   "name": "永固-KY",
+   "listing_venue": "TWSE",
+   "isin": "KYG566541093",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "5607": {
+   "symbol": "5607",
+   "name": "遠雄港",
+   "listing_venue": "TWSE",
+   "isin": "TW0005607006",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "5876": {
+   "symbol": "5876",
+   "name": "上海商銀",
+   "listing_venue": "TWSE",
+   "isin": "TW0005876007",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "5880": {
+   "symbol": "5880",
+   "name": "合庫金",
+   "listing_venue": "TWSE",
+   "isin": "TW0005880009",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "6005": {
+   "symbol": "6005",
+   "name": "群益證",
+   "listing_venue": "TWSE",
+   "isin": "TW0006005002",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "6024": {
+   "symbol": "6024",
+   "name": "群益期",
+   "listing_venue": "TWSE",
+   "isin": "TW0006024003",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "6128": {
+   "symbol": "6128",
+   "name": "上福",
+   "listing_venue": "TWSE",
+   "isin": "TW0006128002",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "6136": {
+   "symbol": "6136",
+   "name": "富爾特",
+   "listing_venue": "TWSE",
+   "isin": "TW0006136005",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "6155": {
+   "symbol": "6155",
+   "name": "鈞寶",
+   "listing_venue": "TWSE",
+   "isin": "TW0006155005",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "6177": {
+   "symbol": "6177",
+   "name": "達麗",
+   "listing_venue": "TWSE",
+   "isin": "TW0006177009",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "6202": {
+   "symbol": "6202",
+   "name": "盛群",
+   "listing_venue": "TWSE",
+   "isin": "TW0006202005",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "6205": {
+   "symbol": "6205",
+   "name": "詮欣",
+   "listing_venue": "TWSE",
+   "isin": "TW0006205008",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "6209": {
+   "symbol": "6209",
+   "name": "今國光",
+   "listing_venue": "TWSE",
+   "isin": "TW0006209000",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "6216": {
+   "symbol": "6216",
+   "name": "居易",
+   "listing_venue": "TWSE",
+   "isin": "TW0006216005",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "6224": {
+   "symbol": "6224",
+   "name": "聚鼎",
+   "listing_venue": "TWSE",
+   "isin": "TW0006224009",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "6243": {
+   "symbol": "6243",
+   "name": "迅杰",
+   "listing_venue": "TWSE",
+   "isin": "TW0006243009",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "6282": {
+   "symbol": "6282",
+   "name": "康舒",
+   "listing_venue": "TWSE",
+   "isin": "TW0006282007",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "6283": {
+   "symbol": "6283",
+   "name": "淳安",
+   "listing_venue": "TWSE",
+   "isin": "TW0006283005",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "6405": {
+   "symbol": "6405",
+   "name": "悅城",
+   "listing_venue": "TWSE",
+   "isin": "TW0006405004",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "6456": {
+   "symbol": "6456",
+   "name": "GIS-KY",
+   "listing_venue": "TWSE",
+   "isin": "KYG3808R1011",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "6477": {
+   "symbol": "6477",
+   "name": "安集",
+   "listing_venue": "TWSE",
+   "isin": "TW0006477003",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "6505": {
+   "symbol": "6505",
+   "name": "台塑化",
+   "listing_venue": "TWSE",
+   "isin": "TW0006505001",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "6552": {
+   "symbol": "6552",
+   "name": "易華電",
+   "listing_venue": "TWSE",
+   "isin": "TW0006552003",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "6582": {
+   "symbol": "6582",
+   "name": "申豐",
+   "listing_venue": "TWSE",
+   "isin": "TW0006582000",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "6606": {
+   "symbol": "6606",
+   "name": "建德工業",
+   "listing_venue": "TWSE",
+   "isin": "TW0006606007",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "6641": {
+   "symbol": "6641",
+   "name": "基士德-KY",
+   "listing_venue": "TWSE",
+   "isin": "KYG416551045",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "6666": {
+   "symbol": "6666",
+   "name": "羅麗芬-KY",
+   "listing_venue": "TWSE",
+   "isin": "KYG569831020",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "6668": {
+   "symbol": "6668",
+   "name": "中揚光",
+   "listing_venue": "TWSE",
+   "isin": "TW0006668007",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "6671": {
+   "symbol": "6671",
+   "name": "三能-KY",
+   "listing_venue": "TWSE",
+   "isin": "KYG7806W1033",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "6674": {
+   "symbol": "6674",
+   "name": "鋐寶科技",
+   "listing_venue": "TWSE",
+   "isin": "TW0006674005",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "6695": {
+   "symbol": "6695",
+   "name": "芯鼎",
+   "listing_venue": "TWSE",
+   "isin": "TW0006695000",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "6698": {
+   "symbol": "6698",
+   "name": "旭暉應材",
+   "listing_venue": "TWSE",
+   "isin": "TW0006698004",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "6743": {
+   "symbol": "6743",
+   "name": "安普新",
+   "listing_venue": "TWSE",
+   "isin": "TW0006743008",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "6790": {
+   "symbol": "6790",
+   "name": "永豐實",
+   "listing_venue": "TWSE",
+   "isin": "TW0006790009",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "6834": {
+   "symbol": "6834",
+   "name": "天二科技",
+   "listing_venue": "TWSE",
+   "isin": "TW0006834005",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "6835": {
+   "symbol": "6835",
+   "name": "圓裕",
+   "listing_venue": "TWSE",
+   "isin": "TW0006835002",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "6838": {
+   "symbol": "6838",
+   "name": "台新藥",
+   "listing_venue": "TWSE",
+   "isin": "TW0006838006",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "6861": {
+   "symbol": "6861",
+   "name": "睿生光電",
+   "listing_venue": "TWSE",
+   "isin": "TW0006861008",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "6885": {
+   "symbol": "6885",
+   "name": "全福生技",
+   "listing_venue": "TWSE",
+   "isin": "TW0006885007",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "6901": {
+   "symbol": "6901",
+   "name": "鑽石投資",
+   "listing_venue": "TWSE",
+   "isin": "TW0006901002",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "6916": {
+   "symbol": "6916",
+   "name": "華凌",
+   "listing_venue": "TWSE",
+   "isin": "TW0006916000",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "6928": {
+   "symbol": "6928",
+   "name": "攸泰科技",
+   "listing_venue": "TWSE",
+   "isin": "TW0006928005",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "6952": {
+   "symbol": "6952",
+   "name": "大武山",
+   "listing_venue": "TWSE",
+   "isin": "TW0006952005",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "6958": {
+   "symbol": "6958",
+   "name": "日盛台駿",
+   "listing_venue": "TWSE",
+   "isin": "TW0006958002",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "8011": {
+   "symbol": "8011",
+   "name": "台通",
+   "listing_venue": "TWSE",
+   "isin": "TW0008011008",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "8021": {
+   "symbol": "8021",
+   "name": "尖點",
+   "listing_venue": "TWSE",
+   "isin": "TW0008021007",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "8039": {
+   "symbol": "8039",
+   "name": "台虹",
+   "listing_venue": "TWSE",
+   "isin": "TW0008039009",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "8070": {
+   "symbol": "8070",
+   "name": "長華*",
+   "listing_venue": "TWSE",
+   "isin": "TW0008070004",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "8072": {
+   "symbol": "8072",
+   "name": "陞泰",
+   "listing_venue": "TWSE",
+   "isin": "TW0008072000",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "8103": {
+   "symbol": "8103",
+   "name": "瀚荃",
+   "listing_venue": "TWSE",
+   "isin": "TW0008103003",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "8104": {
+   "symbol": "8104",
+   "name": "錸寶",
+   "listing_venue": "TWSE",
+   "isin": "TW0008104001",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "8112": {
+   "symbol": "8112",
+   "name": "至上",
+   "listing_venue": "TWSE",
+   "isin": "TW0008112004",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "8131": {
+   "symbol": "8131",
+   "name": "福懋科",
+   "listing_venue": "TWSE",
+   "isin": "TW0008131004",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "8150": {
+   "symbol": "8150",
+   "name": "南茂",
+   "listing_venue": "TWSE",
+   "isin": "TW0008150004",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "8163": {
+   "symbol": "8163",
+   "name": "達方",
+   "listing_venue": "TWSE",
+   "isin": "TW0008163007",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "8213": {
+   "symbol": "8213",
+   "name": "志超",
+   "listing_venue": "TWSE",
+   "isin": "TW0008213000",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "8215": {
+   "symbol": "8215",
+   "name": "明基材",
+   "listing_venue": "TWSE",
+   "isin": "TW0008215005",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "8367": {
+   "symbol": "8367",
+   "name": "建新國際",
+   "listing_venue": "TWSE",
+   "isin": "TW0008367004",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "8404": {
+   "symbol": "8404",
+   "name": "百和興業-KY",
+   "listing_venue": "TWSE",
+   "isin": "KYG684631016",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "8438": {
+   "symbol": "8438",
+   "name": "昶昕",
+   "listing_venue": "TWSE",
+   "isin": "TW0008438003",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "8463": {
+   "symbol": "8463",
+   "name": "潤泰材",
+   "listing_venue": "TWSE",
+   "isin": "TW0008463001",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "8466": {
+   "symbol": "8466",
+   "name": "美吉吉-KY",
+   "listing_venue": "TWSE",
+   "isin": "KYG332481087",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "8473": {
+   "symbol": "8473",
+   "name": "山林水",
+   "listing_venue": "TWSE",
+   "isin": "TW0008473000",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "8476": {
+   "symbol": "8476",
+   "name": "台境*",
+   "listing_venue": "TWSE",
+   "isin": "TW0008476003",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "8481": {
+   "symbol": "8481",
+   "name": "政伸",
+   "listing_venue": "TWSE",
+   "isin": "TW0008481003",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "8926": {
+   "symbol": "8926",
+   "name": "台汽電",
+   "listing_venue": "TWSE",
+   "isin": "TW0008926007",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "8940": {
+   "symbol": "8940",
+   "name": "新天地",
+   "listing_venue": "TWSE",
+   "isin": "TW0008940008",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "9904": {
+   "symbol": "9904",
+   "name": "寶成",
+   "listing_venue": "TWSE",
+   "isin": "TW0009904003",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "9905": {
+   "symbol": "9905",
+   "name": "大華",
+   "listing_venue": "TWSE",
+   "isin": "TW0009905000",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "9908": {
+   "symbol": "9908",
+   "name": "大台北",
+   "listing_venue": "TWSE",
+   "isin": "TW0009908004",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "9924": {
+   "symbol": "9924",
+   "name": "福興",
+   "listing_venue": "TWSE",
+   "isin": "TW0009924001",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "9925": {
+   "symbol": "9925",
+   "name": "新保",
+   "listing_venue": "TWSE",
+   "isin": "TW0009925008",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "9933": {
+   "symbol": "9933",
+   "name": "中鼎",
+   "listing_venue": "TWSE",
+   "isin": "TW0009933002",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "9935": {
+   "symbol": "9935",
+   "name": "慶豐富",
+   "listing_venue": "TWSE",
+   "isin": "TW0009935007",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "9940": {
+   "symbol": "9940",
+   "name": "信義",
+   "listing_venue": "TWSE",
+   "isin": "TW0009940007",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "9945": {
+   "symbol": "9945",
+   "name": "潤泰新",
+   "listing_venue": "TWSE",
+   "isin": "TW0009945006",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "9946": {
+   "symbol": "9946",
+   "name": "三發地產",
+   "listing_venue": "TWSE",
+   "isin": "TW0009946004",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  },
+  "9955": {
+   "symbol": "9955",
+   "name": "佳龍",
+   "listing_venue": "TWSE",
+   "isin": "TW0009955005",
+   "market_cell": "上市",
+   "identity_source": "TWSE_ISIN_C_PUBLIC",
+   "identity_asof": "2026-08-13"
+  }
+ },
+ "provider": "TWSE_OFFICIAL (all rows, per acquisition receipts source_identity=TWSE_STOCK_DAY:<month>)",
+ "source_endpoint": "TWSE_STOCK_DAY (https://www.twse.com.tw/exchangeReport/STOCK_DAY)"
+}

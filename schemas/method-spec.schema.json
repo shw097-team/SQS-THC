@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "schemas/method-spec.schema.json",
+  "title": "MethodSpec",
+  "description": "MethodSpec canonical object (SQS-THC DOC-02 D02-OBJ-007). Resolves research method/feature/hypothesis/parameter/invalidation/scope owner/state/version/consumer adjudication. JobCard/Prompt/Worker may not own or rewrite MethodSpec.",
+  "type": "object",
+  "properties": {
+    "method_id": { "type": "string", "minLength": 1 },
+    "version": { "type": "string", "pattern": "^\\d+\\.\\d+\\.\\d+$" },
+    "state": {
+      "enum": ["DRAFT", "VALIDATED", "ADMITTED", "SUSPENDED", "RETIRED"],
+      "description": "DOC-02 D02-OBJ-007 legal states; JobCard cannot rewrite MethodSpec; version immutable."
+    },
+    "owner": { "type": "string", "minLength": 1, "description": "Method Governance Owner under FSDT" },
+    "hypothesis": { "type": "string", "minLength": 1 },
+    "inputs": { "type": "array", "items": { "type": "string" }, "minItems": 1 },
+    "transforms": { "type": "array", "items": { "type": "string" } },
+    "parameters": { "type": "object", "additionalProperties": true },
+    "assumptions": { "type": "array", "items": { "type": "string" } },
+    "invalidation": { "type": "array", "items": { "type": "string" }, "minItems": 1 },
+    "capacity": { "type": "object", "properties": { "max_qty": { "type": "number" }, "liquidity_floor": { "type": "number" } } },
+    "cost": { "type": "object", "properties": { "fee_bps": { "type": "number" }, "tax_bps": { "type": "number" }, "slippage_bps": { "type": "number" } } },
+    "clock_vector_ref": { "type": "string" },
+    "rights_ref": { "type": "string" },
+    "ceiling": { "type": "string", "const": "RESEARCH_ONLY != VALIDATED != RISK_AUTHORIZED != DECISION_COMPILED; WF-08 cannot produce MethodCard" }
+  },
+  "required": ["method_id", "version", "state", "owner", "hypothesis", "inputs", "invalidation", "capacity", "cost", "ceiling"],
+  "additionalProperties": false
+}

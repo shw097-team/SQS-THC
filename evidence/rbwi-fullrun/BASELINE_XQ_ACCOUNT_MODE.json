@@ -1,0 +1,12 @@
+{
+  "schema": "BASELINE-XQ-ACCOUNT-MODE/1",
+  "generated_at": "2026-08-20T20:38:37.698250+08:00",
+  "account_mode": "UNKNOWN_XQ_NOT_RUNNING",
+  "expected_mode_for_q2q4": "PAPER_ONLY",
+  "live_broker_write": "DENY",
+  "one_writer_lease": "NONE_HELD",
+  "hitl_required_for": [
+    "ACTIVE_POSITION_ENTRY",
+    "ADD_REDUCE_STOP_TAKEPROFIT_FLATTEN_IF_POLICY_REQUIRES"
+  ]
+}

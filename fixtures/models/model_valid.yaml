@@ -1,0 +1,15 @@
+# POSITIVE fixture - valid model card mirror (TS-008 / ART-08).
+id: model-fixture-valid-001
+schema_version: 1.0.0
+status: RESEARCH_ONLY
+leakage_guard:
+  train_start: 2020-01-01
+  train_end: 2022-12-31
+  test_start: 2023-01-01
+  test_end: 2024-06-30
+  guard_kind: TEMPORAL_SPLIT
+metrics:
+  - name: oos_rmse
+    value: 0.021
+  - name: oos_mae
+    value: 0.014

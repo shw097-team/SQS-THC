@@ -1,0 +1,25 @@
+{
+ "schema": "SQS-THC-WO-INDEPENDENT-READBACK/1",
+ "workorder": "WO-TS-REF-06",
+ "taskspec": "TS-REF-06",
+ "checker": "INDEPENDENT_CHECKER (fresh subprocess)",
+ "implementation": {
+  "path": "C:\\Projects\\Agent_Workspace\\SQS-THC\\實作執行\\worktrees\\ts-ref-06\\sqs_thc\\capability\\__init__.py",
+  "bytes": 4449,
+  "sha256": "d2a143c5c970d8a5c2174f051871066fc04c0c9f5863ff4fac253f0cb9d68a41"
+ },
+ "frozen_test": {
+  "path": "C:\\Projects\\Agent_Workspace\\SQS-THC\\實作執行\\worktrees\\ts-ref-06\\tests\\test_capability.py",
+  "bytes": 4130,
+  "sha256": "8c677ae9ad880179e9dad7cc7225ab79e22c6bb70abb12625c70ee90173b8c74"
+ },
+ "rerun": {
+  "exit_code": 0,
+  "ran_7": true,
+  "ok": true,
+  "tail": "te -> qualify -> QUALIFIED. ... ok\ntest_pos_002_finalize_allowed (tests.test_capability.CH16PositiveTests.test_pos_002_finalize_allowed)\ndisposition ALLOWED + QUALIFIED + exit manifest -> final. ... ok\n\n----------------------------------------------------------------------\nRan 7 tests in 0.000s\n\nOK\n"
+ },
+ "head": "e5ee405 Implement CH16 Capability/Tool Lifecycle kernel (WO-TS-REF-06)",
+ "test_file_unchanged": true,
+ "verdict": "INDEPENDENT_CASE_PASS"
+}

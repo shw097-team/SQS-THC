@@ -1,0 +1,30 @@
+schema: RP002-STAGE3-OBSIDIAN-PROJECTION-RECEIPT/1
+project_id: HGK-REFERENCE-PROJECT-002
+stage_id: RP002-STAGE-SQS
+finding_id: S3-EXT-001
+subject_digest: SQS Profile Team (3 profiles) + TW-ICT Financial Runtime Pack + Stage-3 evidence set
+projection_path: C:\Projects\Agent_Workspace\知識庫\Obsidian投影\RP002-Stage3\RP002-Stage3-Knowledge-Map.md
+projection_sha256: e22cffa77353b7a4dbb780e5c8f636c49a228b7afeaa71abb62e71772bd96e79
+projection_bytes: 14655
+vault_root: C:\Projects\Agent_Workspace\知識庫
+obsidian_runtime_or_integration_identity: Obsidian desktop app C:/Users/user/AppData/Local/Programs/Obsidian/Obsidian.exe + vault registration (obsidian.json vaults.<id>.path = 知識庫, id e7167d18)
+visible_readback: {status: PASS, method: "obsidian.json vault registration (official vault registration file) + vault containment check + file readability + obsidian://open URI well-formedness"}
+content_checks:
+  subject_identity: PASS
+  sqs_13_coverage: PASS
+  twict_30_coverage: PASS
+  three_profiles: PASS
+  twict_runtime_pack: PASS
+  namespace_provider_state: PASS
+  stage3_evidence_navigation: PASS
+  candidate_approved_revoked_semantics: PASS
+  authority_role_derived: PASS
+  financial_truth_auto_promotion_false: PASS
+link_checks: {required_total: 43, passed: 43, failed: 0}
+authority_role: DERIVED_ONLY
+financial_truth_owner: SQS_SOURCE_RESOLVED_AUTHORITY
+financial_truth_auto_promotion: false
+secret_pii_scan: PASS
+unauthorized_side_effects: 0
+rollback: SQS-THC/var/rp002-stage3/obs-before/RP002-Stage3-Knowledge-Map.md (bc021eb9) + obsidian-json-before.json (7cf01c43)
+verdict: PASS

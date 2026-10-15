@@ -1,0 +1,83 @@
+schema: RP002-STAGE3-GATE-RECEIPT/1
+gate: S1
+stage: RP002-STAGE-SQS
+project: HGK-REFERENCE-PROJECT-002
+verdict: PASS
+observed_at: 2026-08-13T02:00:00+08:00
+
+task_selection:
+  card: "S1_TASK_SELECTION_CARD.yaml (SQS root; frozen before topology admission)"
+  task_id: S1-PIT-REGIME-CANARY-20260813
+  class: READ_ONLY_DECISION_SUPPORT
+  source: "知識庫/SQS-THC資料庫/台股價格歷史資料/Taiwan STOCK/*_history.csv (real TWSE daily OHLCV, 2023-01-03..2025-06-26)"
+  live_broker_write: DENY
+
+workorder:
+  id: WO-RP2-STAGE3-S1
+  writer: codex
+  topology: "SWARM_ELIGIBLE (3 independent read-mostly lanes admitted by deterministic criteria; real parallel execution)"
+
+swarm_lanes:
+  lanes:
+    - lane: A-PIT
+      worker: "sqs-data-analysis / pit_five_clocks_analyst"
+      kanban: t_3241595c
+      delegation: "deleg_a1fddc53 task-0"
+      started_utc: 2026-08-12T17:15:44Z
+      receipt: "evidence/rp002/stage3/s1/S1_PIT_VALIDATION_RECEIPT.json"
+      sha256: a39726483d47ac373ab0a0364c6bc41d2f1f6a6e6dae1af72e4ab905eccd37f2
+      result: "263 files / 156005 bars / pit_validated 263 / temporal_quality_pass 263 / errors 0"
+    - lane: B-REGIME
+      worker: "sqs-data-analysis / market_microstructure_analyst + regime_context_analyst"
+      kanban: t_d3194b38
+      delegation: "deleg_a1fddc53 task-1"
+      started_utc: 2026-08-12T17:15:39Z
+      receipt: "evidence/rp002/stage3/s1/S1_MARKET_REGIME_CONTEXT.json"
+      sha256: dd88442845cecb953f34626a9de255f18747bc2241efb26989e05163fb2e7ea5
+      result: "155508 observations / 594 dates / regime CHOPPY_RISK_OFF_BASE"
+    - lane: C-UNIVERSE
+      worker: "sqs-data-analysis / universe_candidate_analyst"
+      kanban: t_2d646334
+      delegation: "deleg_a1fddc53 task-2"
+      started_utc: 2026-08-12T17:15:41Z
+      receipt: "evidence/rp002/stage3/s1/S1_UNIVERSE_SNAPSHOT.json"
+      sha256: fd011ddc9c933ea2a22e6faa8a82af937b255171cac6d9b23e79bb789a5a0734
+      result: "263 stocks / 156005 bars / 2023-01-03..2025-06-26 / min 483 max 595 bars"
+  overlap_proof: "lanes B (17:15:39Z), C (17:15:41-48Z), A (17:15:44Z) all alive simultaneously 17:15:41..17:15:44Z per transcript timestamps; no sequential faking"
+
+join:
+  receipt: "evidence/rp002/stage3/s1/S1_JOIN_AND_RISK_RECEIPT.json"
+  sha256: 39a3d567d8dea0b23b471146ea98eaa0fad97f3549d9efe969a3ced6289d4cfc
+  join_consistent: true
+  pit_files_eq_universe_stocks: true
+  pit_bars_eq_universe_bars: true
+  frozen_candidate: true
+
+marca:
+  maker: "sqs-data-analysis (pit/regime/universe role workers)"
+  checker: "sqs-data-analysis checker role (separate fresh context, L1 domain)"
+  separation_valid: "true (maker != final checker; L2 stays acceptance-officer)"
+
+risk:
+  checker: sqs-risk
+  limits: "5/5 WITHIN (gross/net/liquidity/stress/concentration)"
+  guards: "0 triggered (ruin/unknown-exposure/fragility/blast-radius/optionality)"
+  verdict: RISK_OK_NO_TRADE
+  majority_vote_used: false
+
+l2_acceptance:
+  checker: acceptance-officer-L2-s1
+  mode: VERIFY_ONLY_FRESH_CONTEXT
+  result: "PASS (7/7 checks S1C1-S1C7)"
+  cross_validation: "PIT and UNIVERSE stock_id sets identical (263); per-stock bar sums 156005 both sides"
+  receipt_sha256: "a3972648 / dd884428 / fd011ddc / 39a3d567"
+
+boundaries:
+  unauthorized_side_effects: 0
+  live_broker_writes: 0
+  adapters: "only xq-read-watch.yaml (watch_only: true, write: false)"
+  git_delta: "evidence/rp002/stage3/s1/ additions + S1_TASK_SELECTION_CARD.yaml only (no broker/adapters change)"
+
+rollback:
+  pointer: RB-WO-RP2-STAGE3-S1
+  target: "remove S1 receipts (regenerable from frozen scripts var/rp002-stage3/s1/)"

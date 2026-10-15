@@ -1,0 +1,11 @@
+{
+  "artifact": "FDA_MIRROR_READBACK_20260814_RR3.json",
+  "subject_head": "83e8138605e3167f30911e850957925371547bbb",
+  "evidence_md_sha256": "c2ee89cbaf5f6b5ca2fc73aec45a038968af6d2fa36d7564dcde231dba47d4b3",
+  "manifest_sha256": "4ac3fb8247db8342f5118470e55750683103ed93fb86e297e8124c89cb166d29",
+  "payload_entries": 51,
+  "manifest_entries": 52,
+  "bundle_files": 71,
+  "checker": "176/176 PASS",
+  "verified_at": "2026-08-14T10:58:46"
+}

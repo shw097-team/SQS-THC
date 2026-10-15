@@ -1,0 +1,16 @@
+{
+  "schema": "ROUTE-BASIS-WIKI-KB/1",
+  "task": "SQS-WIKI KB rebuild (disappeared 後半段 recovery)",
+  "workorder": "WO-SQS-WIKI-REBUILD-001",
+  "selected_route": "NATIVE / HGK_HERMES_ORCHESTRATES_DIRECTLY",
+  "reason_code": "operability KB-build; Hermes orchestrates; multi-leaf Codex/skill workers per lane",
+  "registry_source_basis": "HG-KSEOS/src/hg_kseos/named_methods.py",
+  "surfaces": {
+    "kanban": "ACTIVE board sqs-wiki-kb-rebuild (K1 done, K2/K3 claimed, K4/K5 ready)",
+    "swarm": "deleg_bea96696 3-lane parallel (v6-extract / KG / method-strategy)",
+    "gstack": "plan-eng-review + review + qa registry CERTIFIED_ACTIVE_SELECTED_SLICES",
+    "openspec": "CERTIFIED_ACTIVE_BROWNFIELD (not primary for this KB task)",
+    "codex": "writer=codex WO-SQS-WIKI-REBUILD-001; spawn per lane"
+  },
+  "generated_at": "2026-08-21T08:00+08:00"
+}

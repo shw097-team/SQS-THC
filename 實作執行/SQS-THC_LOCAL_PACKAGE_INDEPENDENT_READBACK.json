@@ -1,0 +1,14 @@
+{
+ "schema": "SQS-THC-LOCAL-PACKAGE-INDEPENDENT-READBACK/1",
+ "reference_project_id": "HGK-REFERENCE-PROJECT-001",
+ "checker": "INDEPENDENT_PACKAGE_CHECKER",
+ "package": "C:\\Projects\\Agent_Workspace\\SQS-THC\\實作執行\\SQS-THC_LOCAL_DELIVERY_CANDIDATE.zip",
+ "package_sha256": "37fd9c2c08b3e9873bb10cc0dac97dd22e5bf20db30d55992ccb1c3bb634fd4b",
+ "maker_package_sha256": "37fd9c2c08b3e9873bb10cc0dac97dd22e5bf20db30d55992ccb1c3bb634fd4b",
+ "package_sha256_matches_maker": true,
+ "member_count": 22,
+ "maker_payload_files": 22,
+ "counts_match": true,
+ "manifest_rows_match": true,
+ "verdict": "INDEPENDENT_PACKAGE_PASS"
+}

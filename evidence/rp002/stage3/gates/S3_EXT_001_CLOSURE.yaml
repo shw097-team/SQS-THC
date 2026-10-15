@@ -1,0 +1,17 @@
+schema: RP002-STAGE3-FINDING-CLOSURE/1
+finding_id: S3-EXT-001
+external_report: RP002_STAGE3_EXTERNAL_ACCEPTANCE_REPORT_20260813_R1
+status: CLOSED_LOCAL
+repair_changeset: NARROW_REPAIR (obs_contract.json 51fee805)
+workorder: WO-RP2-S3-OBS-001 (writer=codex)
+projection_path: C:\Projects\Agent_Workspace\知識庫\Obsidian投影\RP002-Stage3\RP002-Stage3-Knowledge-Map.md
+projection_sha256: e22cffa77353b7a4dbb780e5c8f636c49a228b7afeaa71abb62e71772bd96e79
+projection_bytes: 14655
+projection_receipt: C:\Projects\Agent_Workspace\SQS-THC\evidence\rp002\stage3\knowledge\STAGE3_OBSIDIAN_PROJECTION_RECEIPT.yaml | de062b3c8aa77cae5ea72760093e3cb2e5791caf045773b68acb28f82c88eaae
+vault_registration: %APPDATA%/obsidian/obsidian.json (知識庫 e7167d18; backup obsidian-json-before.json 7cf01c43)
+visibility: PASS (vault containment + R_OK + obsidian://open URI; method = obsidian.json vault registration)
+l2_recheck: acceptance-officer-obs-recheck 15/15 PASS (deleg_83f3ef74)
+coverage_closure: C:\Projects\Agent_Workspace\SQS-THC\evidence\rp002\stage3\gates\STAGE3_OBSIDIAN_COVERAGE_CLOSURE.yaml | 3d2d4f0021840a7c6d0b4bccc7215e3d460d97515508ba76553d28a30ccb90a8
+reducer_rerun: C:\Projects\Agent_Workspace\SQS-THC\evidence\rp002\stage3\gates\REDUCER_RECEIPTS_OBS_CLOSURE.json | 6020f2fdd6099e64dff2b83c6ad56b34505ae5c472decad1e1a8ca827a6cec06
+e3_disposition: N/A_WITH_SOURCE_LOCATOR (no acceptance constitution change; evaluator wiring fix only + independent meta-check)
+rollback: obs-before/RP002-Stage3-Knowledge-Map.md (bc021eb9) + obsidian-json-before.json (7cf01c43)

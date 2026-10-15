@@ -1,0 +1,26 @@
+{
+  "schema": "RBWI-PREOPEN-STEP/1",
+  "step_id": "D-09",
+  "title": "試撮 S1 股池",
+  "run_id": "RUN-RBWI-FULLRUN-20260820-001",
+  "candidate_id": "CAND-RBWI-20260814",
+  "segment_binding_id": "BIND-RBWI-Q1-20260820-001",
+  "trading_date": "2026-08-14",
+  "week": "2026-W33",
+  "generated_at": "2026-08-20T21:10+08:00",
+  "owner": "ROLE-CANDIDATE-OWNER",
+  "checker": "ROLE-VALIDATION-OWNER",
+  "veto": "ROLE-CLAIM-VETO",
+  "purpose": "Daily 試撮 S1 股池 (開盤前)",
+  "action": "fresh admission + 排除 lineage",
+  "inputs": {
+    "d08": "frozen",
+    "pre_open_observations": "LIVE_REQUIRED_Q2_XQ"
+  },
+  "outputs": "SessionCandidatePool S1",
+  "state_machine": "DRAFT->CHECKED->ACKED->PREPARED_PENDING_LIVE",
+  "consumer_ack": true,
+  "reason_code": "D_COMPLETE",
+  "security_surface": "read-only data; no broker write",
+  "live_dependency": "XQ pre-open observations required -> Q2/XQ window"
+}

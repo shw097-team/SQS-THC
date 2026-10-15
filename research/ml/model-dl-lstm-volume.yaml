@@ -1,0 +1,18 @@
+# MODEL CARD - DL LSTM intraday volume forecast (TS-008 / ART-08, CH21/CH22).
+id: model-dl-lstm-volume
+schema_version: 1.0.0
+source_locator: SSOT/SQS-THC_P0-CIP-PACK_v2026.08.06-r2.md#CH22
+family: DL_SEQUENCE
+purpose: Next-bar traded-volume forecast for liquidity-aware execution sizing
+status: RESEARCH_ONLY
+leakage_guard:
+  train_start: 2021-01-01
+  train_end: 2023-03-31
+  test_start: 2023-04-01
+  test_end: 2024-12-31
+  guard_kind: TEMPORAL_SPLIT
+metrics:
+  - name: oos_mape
+    value: 0.182
+  - name: oos_mae
+    value: 0.094

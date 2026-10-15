@@ -1,0 +1,32 @@
+{
+  "schema": "SQS-THC-CHECKPOINT-FINAL/1",
+  "reference_project_id": "HGK-REFERENCE-PROJECT-001",
+  "captured_at_utc": "2026-08-10T12:50:00Z",
+  "project_state": "DELIVERED (wave-1 core kernels)",
+  "checkpoint_id": "CK-001-762C3958",
+  "checkpoint_type": "WAVE_1_CORE_CLOSURE / RESUMABLE_PAUSE (10 downstream TaskSpec families admitted but not yet executed)",
+  "wave_1_verdict": "SQS-THC_TW-ICT_FSDT_STACK_LOCAL_DELIVERY_PASS (wave-1 scope: 5 core kernels CH04/06/10/15/16)",
+  "reducer": {"checks_total": 15, "checks_pass": 15, "reasons": [], "exit_code": 0, "independent_runs": 2},
+  "package": {
+    "path": "C:\\Projects\\Agent_Workspace\\SQS-THC\\實作執行\\SQS-THC_LOCAL_DELIVERY_CANDIDATE.zip",
+    "bytes": 7777745,
+    "sha256": "37fd9c2c08b3e9873bb10cc0dac97dd22e5bf20db30d55992ccb1c3bb634fd4b",
+    "payload_files": 22,
+    "independent_readback": "INDEPENDENT_PACKAGE_PASS"
+  },
+  "workorders": {
+    "admitted": 15,
+    "delivered_wave1": 5,
+    "delivered_ids": ["WO-TS-REF-02", "WO-TS-REF-03", "WO-TS-REF-04", "WO-TS-REF-05", "WO-TS-REF-06"],
+    "all_independent": "INDEPENDENT_CASE_PASS"
+  },
+  "gates": {"G0": "PASS", "G1": "PASS", "G2": "PASS", "G3": "PASS", "G4": "PASS", "G5": "PASS", "G6": "PASS"},
+  "claim_ceiling": {"production": "NOT_CLAIMED", "live_trading": "NOT_AUTHORIZED", "remote_deployment": "NOT_CLAIMED"},
+  "blocking_tt": 0,
+  "resume": {
+    "resume_gate": "G3-WAVE2",
+    "last_pass": "G5 (wave-1 package 37fd9c2c + reducer 15/15)",
+    "next_workorders": ["WO-TS-REF-01", "WO-TS-REF-07", "WO-TS-REF-08", "WO-TS-REF-09", "WO-TS-REF-10", "WO-TS-REF-11", "WO-TS-REF-12", "WO-TS-REF-13", "WO-TS-REF-14", "WO-TS-REF-15"],
+    "open_tt": ["TT-HLPE-SRU-DRIFT (non-blocking, pre-existing)", "TT-CH04-RUNTIME (source TT, design-phase)", "TT-CH10-RUNTIME (source TT, design-phase)"]
+  }
+}

@@ -1,0 +1,18 @@
+schema: RP002-STAGE3-KNOWLEDGE-RUNTIME-USAGE-RECEIPT/1
+stage: RP002-STAGE-SQS
+knowledge_root: C:\Projects\Agent_Workspace\知識庫
+retrieval_queries:
+  - {query_id: Q1, purpose: "Stage-3 entry authority readback", hits: ['Fabric/stage/RP002-STAGE-HGK/*'], provenance: "exact path + fresh sha256; all EXACT"}
+  - {query_id: Q2, purpose: "SQS engineering family denominator", hits: 13, provenance: "13 files inventoried with sha256 in STAGE3_KNOWLEDGE_SOURCE_DENOMINATOR.jsonl"}
+  - {query_id: Q3, purpose: "TW-ICT FSDT family denominator", hits: 30, provenance: "30 files inventoried with sha256 in STAGE3_KNOWLEDGE_SOURCE_DENOMINATOR.jsonl"}
+  - {query_id: Q4, purpose: "S1 real historical/local Taiwan financial task source", hits: TBD at S1, provenance: "S1_TASK_SELECTION_CARD.yaml binds source locators"}
+provider_state: {SQLite: REUSE_P0, FTS5: REUSE_P0_DEFAULT, HGK_Memory: REUSE_P0, Qdrant: PRESERVE_CURRENT_STATE_DEFAULT_OFF, Neo4j: PRESERVE_CURRENT_STATE_DEFAULT_OFF, ContextForge: IMPORT_PROMOTED_P0}
+namespace_enforcement: {agent_writes: sqs.candidate.*/hgk.candidate.*, canonical_promote: DOMAIN_OWNER_ONLY, cross_namespace_unauthorized_read: DENY}
+anti_promotion_proof: {MemoryCandidate_to_FinancialSpec: DENIED, Retrieval_to_RiskAuthorization: DENIED, financial_truth_owner: SQS_OWNER_BOUND_CONTROL_CORPUS}
+derived_projections_used:
+  - STAGE3_KNOWLEDGE_SOURCE_DENOMINATOR.jsonl
+  - STAGE3_KNOWLEDGE_DISTILLATION_LEDGER.tsv
+  - STAGE3_SOURCE_TO_TARGET_IMPLEMENTATION_CROSSWALK.tsv
+  - STAGE3_KNOWLEDGE_CONTENT_INDEX.tsv
+  - STAGE3_KNOWLEDGE_ROOT_INVENTORY.tsv
+result: AUTO_KNOWLEDGE_ROUTING=PASS MEMORY_CONSUMPTION=PASS RAG_RETRIEVAL=PASS KG_GOVERNANCE=PASS OBSIDIAN_HUMAN_VISIBILITY=PENDING_OBSIDIAN_PROJECTION FINANCIAL_TRUTH_AUTO_PROMOTION=DENIED

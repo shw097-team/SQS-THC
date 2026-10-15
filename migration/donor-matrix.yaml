@@ -1,0 +1,21 @@
+# LEGACY DONOR MATRIX - migration/donor-matrix.yaml (TS-013 / ART-13).
+# Single truth: every legacy donor_id maps to exactly ONE canonical target.
+# Reintroducing a second mapping for the same donor_id (a second truth) is
+# rejected with ERR_SECOND_TRUTH_REINTRODUCED (fail-closed). No broker
+# write, no network; the matrix is deterministic and read-only.
+matrix_id: donor-matrix-ts013
+schema_version: "1.0.0"
+spec_ref: TS-013/SPEC-31
+donors:
+  - donor_id: legacy-provisional-ledger
+    target: canonical-append-only-ledger
+    single_truth: true
+  - donor_id: legacy-provisional-release
+    target: gate-checked-release-manifest
+    single_truth: true
+  - donor_id: legacy-adhoc-nrtv
+    target: nrtv-gated-training-packets
+    single_truth: true
+  - donor_id: legacy-adhoc-training
+    target: controlled-learning-register
+    single_truth: true

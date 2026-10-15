@@ -1,0 +1,1857 @@
+{
+ "schema": "S1-UNIVERSE-SNAPSHOT/1",
+ "lane": "C-UNIVERSE",
+ "worker": "sqs-data-analysis (universe_candidate_analyst)",
+ "source": "知識庫/SQS-THC資料庫/台股價格歷史資料/Taiwan STOCK/*_history.csv",
+ "stocks": 263,
+ "total_bars": 156005,
+ "min_bars": 483,
+ "max_bars": 595,
+ "median_bars": 595,
+ "earliest_date": "2023-01-03",
+ "latest_date": "2025-06-26",
+ "per_stock": [
+  {
+   "stock_id": "1101_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 15933176
+  },
+  {
+   "stock_id": "1102_history",
+   "bars": 594,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 5338830
+  },
+  {
+   "stock_id": "1104_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 695277
+  },
+  {
+   "stock_id": "1203_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 21503
+  },
+  {
+   "stock_id": "1218_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 907326
+  },
+  {
+   "stock_id": "1225_history",
+   "bars": 542,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 54070
+  },
+  {
+   "stock_id": "1227_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 502879
+  },
+  {
+   "stock_id": "1229_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 985556
+  },
+  {
+   "stock_id": "1233_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 13100
+  },
+  {
+   "stock_id": "1234_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 136813
+  },
+  {
+   "stock_id": "1236_history",
+   "bars": 588,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 23250
+  },
+  {
+   "stock_id": "1301_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 8596949
+  },
+  {
+   "stock_id": "1303_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 7443081
+  },
+  {
+   "stock_id": "1307_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 741429
+  },
+  {
+   "stock_id": "1321_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 185597
+  },
+  {
+   "stock_id": "1325_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 274128
+  },
+  {
+   "stock_id": "1326_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 5089352
+  },
+  {
+   "stock_id": "1402_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 6388180
+  },
+  {
+   "stock_id": "1410_history",
+   "bars": 594,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 36584
+  },
+  {
+   "stock_id": "1418_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 25001
+  },
+  {
+   "stock_id": "1423_history",
+   "bars": 588,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 57846
+  },
+  {
+   "stock_id": "1437_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 143318
+  },
+  {
+   "stock_id": "1438_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 153990
+  },
+  {
+   "stock_id": "1439_history",
+   "bars": 594,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 31698
+  },
+  {
+   "stock_id": "1443_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 27403
+  },
+  {
+   "stock_id": "1446_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 233327
+  },
+  {
+   "stock_id": "1470_history",
+   "bars": 577,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 14011
+  },
+  {
+   "stock_id": "1473_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 294263
+  },
+  {
+   "stock_id": "1475_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 68451
+  },
+  {
+   "stock_id": "1504_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 8426273
+  },
+  {
+   "stock_id": "1515_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 631136
+  },
+  {
+   "stock_id": "1521_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 35248
+  },
+  {
+   "stock_id": "1522_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 2637125
+  },
+  {
+   "stock_id": "1524_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 3411480
+  },
+  {
+   "stock_id": "1527_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 227632
+  },
+  {
+   "stock_id": "1529_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 1732201
+  },
+  {
+   "stock_id": "1530_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 51091
+  },
+  {
+   "stock_id": "1532_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 1199269
+  },
+  {
+   "stock_id": "1533_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 127616
+  },
+  {
+   "stock_id": "1539_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 169892
+  },
+  {
+   "stock_id": "1540_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 619925
+  },
+  {
+   "stock_id": "1541_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 22005
+  },
+  {
+   "stock_id": "1603_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 991777
+  },
+  {
+   "stock_id": "1604_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 284383
+  },
+  {
+   "stock_id": "1605_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 16540790
+  },
+  {
+   "stock_id": "1608_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 1726595
+  },
+  {
+   "stock_id": "1609_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 9685316
+  },
+  {
+   "stock_id": "1612_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 1398434
+  },
+  {
+   "stock_id": "1614_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 63114
+  },
+  {
+   "stock_id": "1616_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 1025927
+  },
+  {
+   "stock_id": "1618_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 2573978
+  },
+  {
+   "stock_id": "1702_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 454709
+  },
+  {
+   "stock_id": "1708_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 1086018
+  },
+  {
+   "stock_id": "1712_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 638311
+  },
+  {
+   "stock_id": "1717_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 1348144
+  },
+  {
+   "stock_id": "1725_history",
+   "bars": 594,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 48105
+  },
+  {
+   "stock_id": "1727_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 560987
+  },
+  {
+   "stock_id": "1731_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 197191
+  },
+  {
+   "stock_id": "1732_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 178561
+  },
+  {
+   "stock_id": "1733_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 243434
+  },
+  {
+   "stock_id": "1734_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 434371
+  },
+  {
+   "stock_id": "1737_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 171789
+  },
+  {
+   "stock_id": "1752_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 238932
+  },
+  {
+   "stock_id": "1762_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 257828
+  },
+  {
+   "stock_id": "1808_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 1141425
+  },
+  {
+   "stock_id": "1817_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 98741
+  },
+  {
+   "stock_id": "1907_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 1337123
+  },
+  {
+   "stock_id": "2008_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 41429
+  },
+  {
+   "stock_id": "2009_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 1228930
+  },
+  {
+   "stock_id": "2013_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 72394
+  },
+  {
+   "stock_id": "2020_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 534101
+  },
+  {
+   "stock_id": "2027_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 6652767
+  },
+  {
+   "stock_id": "2029_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 268002
+  },
+  {
+   "stock_id": "2031_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 1274838
+  },
+  {
+   "stock_id": "2034_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 597353
+  },
+  {
+   "stock_id": "2101_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 1615752
+  },
+  {
+   "stock_id": "2102_history",
+   "bars": 594,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 392422
+  },
+  {
+   "stock_id": "2105_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 4861144
+  },
+  {
+   "stock_id": "2106_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 517428
+  },
+  {
+   "stock_id": "2107_history",
+   "bars": 588,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 276892
+  },
+  {
+   "stock_id": "2108_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 395017
+  },
+  {
+   "stock_id": "2115_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 51018
+  },
+  {
+   "stock_id": "2201_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 4596012
+  },
+  {
+   "stock_id": "2239_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 69311
+  },
+  {
+   "stock_id": "2241_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 445186
+  },
+  {
+   "stock_id": "2303_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 50417639
+  },
+  {
+   "stock_id": "2312_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 8420943
+  },
+  {
+   "stock_id": "2324_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 19989452
+  },
+  {
+   "stock_id": "2328_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 2813837
+  },
+  {
+   "stock_id": "2329_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 5991961
+  },
+  {
+   "stock_id": "2337_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 8135303
+  },
+  {
+   "stock_id": "2338_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 1294738
+  },
+  {
+   "stock_id": "2340_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 1557429
+  },
+  {
+   "stock_id": "2342_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 400439
+  },
+  {
+   "stock_id": "2344_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 26234565
+  },
+  {
+   "stock_id": "2352_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 6598630
+  },
+  {
+   "stock_id": "2353_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 16747056
+  },
+  {
+   "stock_id": "2355_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 2039783
+  },
+  {
+   "stock_id": "2356_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 23682669
+  },
+  {
+   "stock_id": "2362_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 1403089
+  },
+  {
+   "stock_id": "2363_history",
+   "bars": 590,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 7622843
+  },
+  {
+   "stock_id": "2365_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 3374168
+  },
+  {
+   "stock_id": "2367_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 5616011
+  },
+  {
+   "stock_id": "2371_history",
+   "bars": 588,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 14704018
+  },
+  {
+   "stock_id": "2387_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 829398
+  },
+  {
+   "stock_id": "2402_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 4664580
+  },
+  {
+   "stock_id": "2414_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 100029
+  },
+  {
+   "stock_id": "2415_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 136141
+  },
+  {
+   "stock_id": "2417_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 1202927
+  },
+  {
+   "stock_id": "2419_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 1341499
+  },
+  {
+   "stock_id": "2423_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 290222
+  },
+  {
+   "stock_id": "2425_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 1496382
+  },
+  {
+   "stock_id": "2427_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 1781833
+  },
+  {
+   "stock_id": "2430_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 80683
+  },
+  {
+   "stock_id": "2434_history",
+   "bars": 592,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 12322
+  },
+  {
+   "stock_id": "2442_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 1350082
+  },
+  {
+   "stock_id": "2450_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 120970
+  },
+  {
+   "stock_id": "2457_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 2829150
+  },
+  {
+   "stock_id": "2462_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 448934
+  },
+  {
+   "stock_id": "2477_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 111166
+  },
+  {
+   "stock_id": "2478_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 146737
+  },
+  {
+   "stock_id": "2484_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 362031
+  },
+  {
+   "stock_id": "2488_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 290179
+  },
+  {
+   "stock_id": "2495_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 1786751
+  },
+  {
+   "stock_id": "2497_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 603069
+  },
+  {
+   "stock_id": "2498_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 5641165
+  },
+  {
+   "stock_id": "2504_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 3177339
+  },
+  {
+   "stock_id": "2505_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 267796
+  },
+  {
+   "stock_id": "2524_history",
+   "bars": 593,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 245282
+  },
+  {
+   "stock_id": "2527_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 240185
+  },
+  {
+   "stock_id": "2528_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 464715
+  },
+  {
+   "stock_id": "2530_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 856251
+  },
+  {
+   "stock_id": "2534_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 776854
+  },
+  {
+   "stock_id": "2536_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 271352
+  },
+  {
+   "stock_id": "2542_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 3259676
+  },
+  {
+   "stock_id": "2545_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 498993
+  },
+  {
+   "stock_id": "2605_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 4168632
+  },
+  {
+   "stock_id": "2607_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 1797569
+  },
+  {
+   "stock_id": "2608_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 170645
+  },
+  {
+   "stock_id": "2610_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 28762227
+  },
+  {
+   "stock_id": "2611_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 660551
+  },
+  {
+   "stock_id": "2612_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 459243
+  },
+  {
+   "stock_id": "2613_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 356878
+  },
+  {
+   "stock_id": "2617_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 984055
+  },
+  {
+   "stock_id": "2618_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 48847259
+  },
+  {
+   "stock_id": "2630_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 1918138
+  },
+  {
+   "stock_id": "2633_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 3163281
+  },
+  {
+   "stock_id": "2634_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 7604097
+  },
+  {
+   "stock_id": "2642_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 74423
+  },
+  {
+   "stock_id": "2646_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 4124305
+  },
+  {
+   "stock_id": "2704_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 175518
+  },
+  {
+   "stock_id": "2722_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 189561
+  },
+  {
+   "stock_id": "2739_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 465177
+  },
+  {
+   "stock_id": "2748_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 597428
+  },
+  {
+   "stock_id": "2812_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 4592733
+  },
+  {
+   "stock_id": "2816_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 290872
+  },
+  {
+   "stock_id": "2832_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 315553
+  },
+  {
+   "stock_id": "2851_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 1425907
+  },
+  {
+   "stock_id": "2852_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 328482
+  },
+  {
+   "stock_id": "2855_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 1477488
+  },
+  {
+   "stock_id": "2880_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 10221217
+  },
+  {
+   "stock_id": "2884_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 19344789
+  },
+  {
+   "stock_id": "2885_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 17168548
+  },
+  {
+   "stock_id": "2886_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 15970116
+  },
+  {
+   "stock_id": "4906_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 3476944
+  },
+  {
+   "stock_id": "4916_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 1171949
+  },
+  {
+   "stock_id": "4927_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 903315
+  },
+  {
+   "stock_id": "4930_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 104165
+  },
+  {
+   "stock_id": "4935_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 106250
+  },
+  {
+   "stock_id": "4942_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 145621
+  },
+  {
+   "stock_id": "4952_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 237966
+  },
+  {
+   "stock_id": "4956_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 786919
+  },
+  {
+   "stock_id": "4976_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 439462
+  },
+  {
+   "stock_id": "4999_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 52322
+  },
+  {
+   "stock_id": "5215_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 62781
+  },
+  {
+   "stock_id": "5244_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 146042
+  },
+  {
+   "stock_id": "5285_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 179504
+  },
+  {
+   "stock_id": "5471_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 281198
+  },
+  {
+   "stock_id": "5515_history",
+   "bars": 589,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 496949
+  },
+  {
+   "stock_id": "5519_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 543624
+  },
+  {
+   "stock_id": "5525_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 92096
+  },
+  {
+   "stock_id": "5538_history",
+   "bars": 590,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 14844
+  },
+  {
+   "stock_id": "5546_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 19111
+  },
+  {
+   "stock_id": "5607_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 596026
+  },
+  {
+   "stock_id": "5876_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 5035999
+  },
+  {
+   "stock_id": "5880_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 8189427
+  },
+  {
+   "stock_id": "5906_history",
+   "bars": 582,
+   "first_date": "2023-01-04",
+   "last_date": "2025-06-26",
+   "median_volume": 13520
+  },
+  {
+   "stock_id": "6005_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 4385167
+  },
+  {
+   "stock_id": "6024_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 282604
+  },
+  {
+   "stock_id": "6128_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 142509
+  },
+  {
+   "stock_id": "6136_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 182346
+  },
+  {
+   "stock_id": "6155_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 157287
+  },
+  {
+   "stock_id": "6177_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 1115874
+  },
+  {
+   "stock_id": "6202_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 774937
+  },
+  {
+   "stock_id": "6205_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 456970
+  },
+  {
+   "stock_id": "6209_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 512377
+  },
+  {
+   "stock_id": "6216_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 380994
+  },
+  {
+   "stock_id": "6224_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 142416
+  },
+  {
+   "stock_id": "6243_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 399089
+  },
+  {
+   "stock_id": "6282_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 5507096
+  },
+  {
+   "stock_id": "6283_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 214529
+  },
+  {
+   "stock_id": "6405_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 131918
+  },
+  {
+   "stock_id": "6456_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 776817
+  },
+  {
+   "stock_id": "6477_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 645318
+  },
+  {
+   "stock_id": "6505_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 3152106
+  },
+  {
+   "stock_id": "6552_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 79195
+  },
+  {
+   "stock_id": "6582_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 69917
+  },
+  {
+   "stock_id": "6606_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 103667
+  },
+  {
+   "stock_id": "6641_history",
+   "bars": 591,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 12000
+  },
+  {
+   "stock_id": "6666_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 22189
+  },
+  {
+   "stock_id": "6668_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 441135
+  },
+  {
+   "stock_id": "6671_history",
+   "bars": 591,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 17000
+  },
+  {
+   "stock_id": "6674_history",
+   "bars": 592,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 18000
+  },
+  {
+   "stock_id": "6695_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 691875
+  },
+  {
+   "stock_id": "6698_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 187034
+  },
+  {
+   "stock_id": "6743_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 261375
+  },
+  {
+   "stock_id": "6790_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 199501
+  },
+  {
+   "stock_id": "6834_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 74000
+  },
+  {
+   "stock_id": "6835_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 176289
+  },
+  {
+   "stock_id": "6838_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 259827
+  },
+  {
+   "stock_id": "6861_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 59161
+  },
+  {
+   "stock_id": "6885_history",
+   "bars": 594,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 564396
+  },
+  {
+   "stock_id": "6901_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 702846
+  },
+  {
+   "stock_id": "6916_history",
+   "bars": 585,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 38100
+  },
+  {
+   "stock_id": "6928_history",
+   "bars": 517,
+   "first_date": "2023-05-03",
+   "last_date": "2025-06-26",
+   "median_volume": 64684
+  },
+  {
+   "stock_id": "6952_history",
+   "bars": 483,
+   "first_date": "2023-06-21",
+   "last_date": "2025-06-26",
+   "median_volume": 23574
+  },
+  {
+   "stock_id": "6958_history",
+   "bars": 484,
+   "first_date": "2023-06-27",
+   "last_date": "2025-06-26",
+   "median_volume": 62485
+  },
+  {
+   "stock_id": "8011_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 1638158
+  },
+  {
+   "stock_id": "8021_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 393768
+  },
+  {
+   "stock_id": "8039_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 777503
+  },
+  {
+   "stock_id": "8070_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 2010052
+  },
+  {
+   "stock_id": "8072_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 119191
+  },
+  {
+   "stock_id": "8103_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 380645
+  },
+  {
+   "stock_id": "8104_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 315934
+  },
+  {
+   "stock_id": "8112_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 3496792
+  },
+  {
+   "stock_id": "8131_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 285874
+  },
+  {
+   "stock_id": "8150_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 2203854
+  },
+  {
+   "stock_id": "8163_history",
+   "bars": 594,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 788976
+  },
+  {
+   "stock_id": "8213_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 441569
+  },
+  {
+   "stock_id": "8215_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 710867
+  },
+  {
+   "stock_id": "8367_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 61516
+  },
+  {
+   "stock_id": "8404_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 332457
+  },
+  {
+   "stock_id": "8438_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 60504
+  },
+  {
+   "stock_id": "8463_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 60899
+  },
+  {
+   "stock_id": "8466_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 52137
+  },
+  {
+   "stock_id": "8473_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 218056
+  },
+  {
+   "stock_id": "8476_history",
+   "bars": 589,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 122000
+  },
+  {
+   "stock_id": "8481_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 13497
+  },
+  {
+   "stock_id": "8926_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 1109991
+  },
+  {
+   "stock_id": "8940_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 172081
+  },
+  {
+   "stock_id": "9904_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 7945119
+  },
+  {
+   "stock_id": "9905_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 88126
+  },
+  {
+   "stock_id": "9908_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 87232
+  },
+  {
+   "stock_id": "9918_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 7840
+  },
+  {
+   "stock_id": "9924_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 207725
+  },
+  {
+   "stock_id": "9925_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 155044
+  },
+  {
+   "stock_id": "9931_history",
+   "bars": 590,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 11525
+  },
+  {
+   "stock_id": "9933_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 1851182
+  },
+  {
+   "stock_id": "9935_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 346110
+  },
+  {
+   "stock_id": "9940_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 226218
+  },
+  {
+   "stock_id": "9945_history",
+   "bars": 588,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 5063331
+  },
+  {
+   "stock_id": "9946_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 370902
+  },
+  {
+   "stock_id": "9955_history",
+   "bars": 595,
+   "first_date": "2023-01-03",
+   "last_date": "2025-06-26",
+   "median_volume": 761462
+  }
+ ],
+ "note": "universe = all TWSE daily history files present in the source corpus; read-only snapshot"
+}

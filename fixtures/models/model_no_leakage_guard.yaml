@@ -1,0 +1,8 @@
+# EDGE fixture - model card missing required field 'leakage_guard' (rejected;
+# missing required field is a field-naming error, distinct from ERR_MODEL_LEAKAGE).
+id: model-incomplete-001
+schema_version: 1.0.0
+status: RESEARCH_ONLY
+metrics:
+  - name: oos_rmse
+    value: 0.029

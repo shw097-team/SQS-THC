@@ -1,0 +1,18 @@
+{
+ "schema": "SQS-CSB-WO-TS14-INDEPENDENT/1",
+ "changeset": "CS-B-SQS-TWICT-WAVE2-FULL-PROJECT-CLOSURE",
+ "workorder": "WO-TS-REF-14",
+ "checker": "INDEPENDENT_CHECKER (fresh read-only subprocess)",
+ "suite": {
+  "exit_code": 0,
+  "ran": "196",
+  "ok": true
+ },
+ "targets": [
+  "release/manifest/MANIFEST.json",
+  "release/checksums/CHECKSUMS.sha256",
+  "STATUS_VECTOR.json",
+  "scripts/validate-package.py"
+ ],
+ "verdict": "INDEPENDENT_CASE_PASS"
+}

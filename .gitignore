@@ -1,0 +1,25 @@
+# runtime/generated — not part of the delivery candidate
+__pycache__/
+*.py[cod]
+.venv/
+.hermes/
+var/
+實作執行/worktrees/
+實作執行/var/
+實作執行/*.zip
+實作執行/SQS-THC_SOURCE_INVENTORY.json
+
+# frozen read-only authority corpora (NOT product code; long-path files break git)
+# they stay as source-of-truth on disk; the canonical product tree lives at repo root
+SSOT/
+工程基座/
+技術資料庫/
+實作執行/PROMPT/
+
+# WAVE3 generated backtest data (immutable raw/core/duckdb — reproducible, not committed)
+data_plane/data/
+.venv-data/
+shioaji.log
+實作執行/Shioaji API/
+實作執行/HG-KSEOS使用/
+release/*.zip

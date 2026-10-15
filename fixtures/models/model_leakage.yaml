@@ -1,0 +1,14 @@
+# NEGATIVE fixture - model card whose training window leaks into the test window
+# (train_end 2023-06-30 > test_start 2023-01-01) -> ERR_MODEL_LEAKAGE.
+id: model-leaky-001
+schema_version: 1.0.0
+status: RESEARCH_ONLY
+leakage_guard:
+  train_start: 2021-01-01
+  train_end: 2023-06-30
+  test_start: 2023-01-01
+  test_end: 2024-06-30
+  guard_kind: TEMPORAL_SPLIT
+metrics:
+  - name: oos_rmse
+    value: 0.031

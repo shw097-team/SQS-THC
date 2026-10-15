@@ -1,0 +1,124 @@
+{
+ "schema": "SQS-ROOT-LAYOUT-CROSSWALK/1",
+ "reference_project_id": "HGK-REFERENCE-PROJECT-001",
+ "source_authority": "SSOT/SQS-THC_P0-CIP-PACK_v2026.08.06-r2.md §16 R2 Physical Handoff Manifest",
+ "canonical_root": "C:\\Projects\\Agent_Workspace\\SQS-THC",
+ "legacy_execution_dir_role": "MIGRATION_SOURCE_OR_EVIDENCE_ONLY_NOT_PRODUCT_ROOT",
+ "directories_created": 48,
+ "directories": [
+  "contracts/product",
+  "contracts/authority",
+  "contracts/fsdt",
+  "contracts/rbwi",
+  "contracts/agentos",
+  "contracts/decision",
+  "contracts/execution",
+  "contracts/evidence",
+  "src/kernel",
+  "src/ports",
+  "src/profiles",
+  "src/adapters",
+  "src/projections",
+  "agents/prompts",
+  "agents/skills",
+  "agents/profiles",
+  "agents/jobcards",
+  "workflows/research",
+  "workflows/validation",
+  "workflows/risk",
+  "workflows/survival",
+  "workflows/xq",
+  "workflows/reconciliation",
+  "tests/unit",
+  "tests/contract",
+  "tests/negative",
+  "tests/edge",
+  "tests/adversarial",
+  "tests/legacy",
+  "tests/nrtv",
+  "tools/registry",
+  "tools/qualification",
+  "tools/fallbacks",
+  "tools/exports",
+  "tools/cutover",
+  "evidence/taskspecs",
+  "evidence/gates",
+  "evidence/tools",
+  "evidence/release",
+  "evidence/readback",
+  "migration/donor-matrix",
+  "migration/cutover-plans",
+  "migration/deprecation",
+  "scripts",
+  "release/manifest",
+  "release/checksums",
+  "release/package-tree",
+  "release/readback"
+ ],
+ "wave1_kernel_migrations": [
+  {
+   "worktree": "ts-ref-02",
+   "status": "MIGRATED",
+   "source": "C:\\Projects\\Agent_Workspace\\SQS-THC\\實作執行\\worktrees\\ts-ref-02\\sqs_thc\\fsdt_kernel",
+   "target": "C:\\Projects\\Agent_Workspace\\SQS-THC\\src\\kernel\\fsdt",
+   "files": 1
+  },
+  {
+   "worktree": "ts-ref-03",
+   "status": "MIGRATED",
+   "source": "C:\\Projects\\Agent_Workspace\\SQS-THC\\實作執行\\worktrees\\ts-ref-03\\sqs_thc\\temporal",
+   "target": "C:\\Projects\\Agent_Workspace\\SQS-THC\\src\\kernel\\temporal",
+   "files": 1
+  },
+  {
+   "worktree": "ts-ref-04",
+   "status": "MIGRATED",
+   "source": "C:\\Projects\\Agent_Workspace\\SQS-THC\\實作執行\\worktrees\\ts-ref-04\\sqs_thc\\knowledge",
+   "target": "C:\\Projects\\Agent_Workspace\\SQS-THC\\src\\kernel\\knowledge",
+   "files": 1
+  },
+  {
+   "worktree": "ts-ref-05",
+   "status": "MIGRATED",
+   "source": "C:\\Projects\\Agent_Workspace\\SQS-THC\\實作執行\\worktrees\\ts-ref-05\\sqs_thc\\harness",
+   "target": "C:\\Projects\\Agent_Workspace\\SQS-THC\\src\\kernel\\harness",
+   "files": 1
+  },
+  {
+   "worktree": "ts-ref-06",
+   "status": "MIGRATED",
+   "source": "C:\\Projects\\Agent_Workspace\\SQS-THC\\實作執行\\worktrees\\ts-ref-06\\sqs_thc\\capability",
+   "target": "C:\\Projects\\Agent_Workspace\\SQS-THC\\src\\kernel\\capability",
+   "files": 1
+  }
+ ],
+ "wave1_test_migrations": [
+  {
+   "worktree": "ts-ref-02",
+   "status": "MIGRATED",
+   "files": 2
+  },
+  {
+   "worktree": "ts-ref-03",
+   "status": "MIGRATED",
+   "files": 2
+  },
+  {
+   "worktree": "ts-ref-04",
+   "status": "MIGRATED",
+   "files": 2
+  },
+  {
+   "worktree": "ts-ref-05",
+   "status": "MIGRATED",
+   "files": 2
+  },
+  {
+   "worktree": "ts-ref-06",
+   "status": "MIGRATED",
+   "files": 2
+  }
+ ],
+ "duplicate_active_implementation": 0,
+ "materialization_status": "MATERIALIZED"
+}

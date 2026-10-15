@@ -1,0 +1,280 @@
+# MC_REGISTRY — canonical MC registry, unique IDs MC-01..MC-27.
+# Transcribed from SSOT/SQS-THC_P0-CIP-PACK_v2026.08.06-r2.md section 3.2
+# (canonical requirement graph). IDs are unique; downstream IDs bind by
+# domain semantics, not by ID-order pairing.
+schema_version: 1.0.0
+registry_name: MC_REGISTRY
+product_id: SQS-THC
+source_authority: SSOT/SQS-THC_P0-CIP-PACK_v2026.08.06-r2.md
+entries:
+  - id: MC-01
+    domain: 產品身份、上位產品族與 Reference Distribution 定位
+    chapters: [CH00, CH01]
+    specs: [SPEC-01, SPEC-34]
+    ledgers: [LGR-04, LGR-18, LGR-19]
+    task_specs: [TS-001]
+    tests: [T-001, T-037]
+    gates: [G00, G17]
+    artifacts: [ART-01, ART-14]
+    status: AUTHOR_SIDE_RECOMPILED_WITH_TT
+  - id: MC-02
+    domain: Authority、Owner Truth、SoD 與 HumanGate 邊界
+    chapters: [CH02]
+    specs: [SPEC-02, SPEC-13, SPEC-17, SPEC-18]
+    ledgers: [LGR-04, LGR-06, LGR-18]
+    task_specs: [TS-001, TS-015]
+    tests: [T-002, T-038]
+    gates: [G01, G18]
+    artifacts: [ART-01, ART-15]
+    status: AUTHOR_SIDE_RECOMPILED_WITH_TT
+  - id: MC-03
+    domain: 模組化可掛載 Kernel、Ports、Profiles、Packs、Adapters 與 Projections
+    chapters: [CH03]
+    specs: [SPEC-05, SPEC-22, SPEC-28, SPEC-29]
+    ledgers: [LGR-07, LGR-08, LGR-09, LGR-16]
+    task_specs: [TS-001, TS-006]
+    tests: [T-004, T-042]
+    gates: [G03, G16]
+    artifacts: [ART-01, ART-06]
+    status: AUTHOR_SIDE_RECOMPILED_WITH_TT
+  - id: MC-04
+    domain: TW-ICT FSDT Financial Contract Kernel 與 Canonical Financial Semantics
+    chapters: [CH04]
+    specs: [SPEC-05, SPEC-06, SPEC-07, SPEC-08]
+    ledgers: [LGR-05, LGR-07, LGR-08, LGR-16]
+    task_specs: [TS-002]
+    tests: [T-005, T-041]
+    gates: [G04]
+    artifacts: [ART-02]
+    status: AUTHOR_SIDE_RECOMPILED_WITH_TT
+  - id: MC-05
+    domain: TW-ICT RBWI、T0/T1、JobCard 與 Human-operated Operational Contract
+    chapters: [CH05]
+    specs: [SPEC-10, SPEC-13, SPEC-26, SPEC-27]
+    ledgers: [LGR-05, LGR-11, LGR-12]
+    task_specs: [TS-002]
+    tests: [T-006, T-040]
+    gates: [G05]
+    artifacts: [ART-02]
+    status: AUTHOR_SIDE_RECOMPILED_WITH_TT
+  - id: MC-06
+    domain: Five Clocks、PIT、交易日曆、資料品質與版本治理
+    chapters: [CH06]
+    specs: [SPEC-03, SPEC-04, SPEC-32]
+    ledgers: [LGR-01, LGR-07, LGR-15, LGR-16]
+    task_specs: [TS-003]
+    tests: [T-007, T-041]
+    gates: [G06]
+    artifacts: [ART-03]
+    status: AUTHOR_SIDE_RECOMPILED_WITH_TT
+  - id: MC-07
+    domain: 台股市場微結構、XQ FieldContract 與在地化資料工程
+    chapters: [CH07]
+    specs: [SPEC-04, SPEC-29]
+    ledgers: [LGR-07, LGR-08, LGR-12]
+    task_specs: [TS-003, TS-010]
+    tests: [T-008]
+    gates: [G07]
+    artifacts: [ART-03, ART-10]
+    status: AUTHOR_SIDE_RECOMPILED_WITH_TT
+  - id: MC-08
+    domain: 金融 Ontology、DSL、AST/IR、VPC、PRW 與語義編譯
+    chapters: [CH08]
+    specs: [SPEC-04, SPEC-22, SPEC-23, SPEC-24]
+    ledgers: [LGR-07, LGR-08, LGR-09]
+    task_specs: [TS-003, TS-005]
+    tests: [T-009]
+    gates: [G08]
+    artifacts: [ART-03, ART-05]
+    status: AUTHOR_SIDE_RECOMPILED_WITH_TT
+  - id: MC-09
+    domain: 資料平台、Storage、Lineage、Rights、Backup/Restore 與互操作
+    chapters: [CH09]
+    specs: [SPEC-03, SPEC-04, SPEC-29, SPEC-32]
+    ledgers: [LGR-01, LGR-07, LGR-08, LGR-16]
+    task_specs: [TS-003]
+    tests: [T-010, T-042]
+    gates: [G09]
+    artifacts: [ART-03]
+    status: AUTHOR_SIDE_RECOMPILED_WITH_TT
+  - id: MC-10
+    domain: Knowledge、RAG、GraphRAG、Memory、Context 與 Provenance
+    chapters: [CH10, CH35]
+    specs: [SPEC-03, SPEC-04, SPEC-23, SPEC-35]
+    ledgers: [LGR-01, LGR-07, LGR-08, LGR-20]
+    task_specs: [TS-004, TS-012]
+    tests: [T-011, T-048]
+    gates: [G10, G16]
+    artifacts: [ART-04, ART-12]
+    status: AUTHOR_SIDE_RECOMPILED_WITH_TT
+  - id: MC-11
+    domain: Spartoi AgentOS：Control State、Gate、Permission、Receipt、Replay 與 Recovery
+    chapters: [CH11]
+    specs: [SPEC-12, SPEC-14, SPEC-15, SPEC-16, SPEC-18, SPEC-20, SPEC-21]
+    ledgers: [LGR-05, LGR-11, LGR-12, LGR-18, LGR-19]
+    task_specs: [TS-004]
+    tests: [T-012, T-043]
+    gates: [G11]
+    artifacts: [ART-04]
+    status: AUTHOR_SIDE_RECOMPILED_WITH_TT
+  - id: MC-12
+    domain: Intent→Requirement→SPEC→Acceptance→Change 的產品需求工程
+    chapters: [CH12]
+    specs: [SPEC-01, SPEC-02, SPEC-03, SPEC-17, SPEC-18]
+    ledgers: [LGR-03, LGR-04, LGR-17, LGR-18]
+    task_specs: [TS-005]
+    tests: [T-013, T-037]
+    gates: [G00, G01, G17]
+    artifacts: [ART-05]
+    status: AUTHOR_SIDE_RECOMPILED_WITH_TT
+  - id: MC-13
+    domain: Prompt、AGENTS.md、Role、JobCard、Context Contract 與 Host Projection
+    chapters: [CH13]
+    specs: [SPEC-23, SPEC-25, SPEC-26, SPEC-28]
+    ledgers: [LGR-04, LGR-09, LGR-11]
+    task_specs: [TS-005]
+    tests: [T-014, T-044]
+    gates: [G12]
+    artifacts: [ART-05]
+    status: AUTHOR_SIDE_RECOMPILED_WITH_TT
+  - id: MC-14
+    domain: Hermes Manager、Codex Bounded Worker、Workspace、Profile 與 Sandbox
+    chapters: [CH14]
+    specs: [SPEC-10, SPEC-11, SPEC-12, SPEC-14, SPEC-28]
+    ledgers: [LGR-10, LGR-11, LGR-12]
+    task_specs: [TS-005, TS-006]
+    tests: [T-015, T-045]
+    gates: [G13]
+    artifacts: [ART-05, ART-06]
+    status: AUTHOR_SIDE_RECOMPILED_WITH_TT
+  - id: MC-15
+    domain: Harness Engineering、Finite Loop、多智能體拓撲與 Handoff
+    chapters: [CH15]
+    specs: [SPEC-10, SPEC-11, SPEC-14, SPEC-15, SPEC-16, SPEC-24]
+    ledgers: [LGR-11, LGR-12, LGR-18]
+    task_specs: [TS-005, TS-006]
+    tests: [T-016, T-045]
+    gates: [G13]
+    artifacts: [ART-05]
+    status: AUTHOR_SIDE_RECOMPILED_WITH_TT
+  - id: MC-16
+    domain: Capability、Component、Skill、MCP、Plugin、Provider 與 Tool Lifecycle
+    chapters: [CH16]
+    specs: [SPEC-22, SPEC-23, SPEC-29, SPEC-30, SPEC-31, SPEC-33]
+    ledgers: [LGR-09, LGR-10, LGR-13, LGR-14, LGR-16]
+    task_specs: [TS-006]
+    tests: [T-017, T-046]
+    gates: [G14]
+    artifacts: [ART-06]
+    status: AUTHOR_SIDE_RECOMPILED_WITH_TT
+  - id: MC-17
+    domain: Repository、PRW/HLPE、SDLC、CI/CD、供應鏈與 Windows-first 交付
+    chapters: [CH17]
+    specs: [SPEC-10, SPEC-11, SPEC-16, SPEC-17, SPEC-19, SPEC-20, SPEC-21, SPEC-34]
+    ledgers: [LGR-11, LGR-12, LGR-17, LGR-19]
+    task_specs: [TS-006, TS-014, TS-015]
+    tests: [T-018, T-047]
+    gates: [G15, G17, G18]
+    artifacts: [ART-06, ART-14, ART-15]
+    status: AUTHOR_SIDE_RECOMPILED_WITH_TT
+  - id: MC-18
+    domain: 投資使命、Universe、研究治理、投委會與容量預算
+    chapters: [CH18]
+    specs: [SPEC-01, SPEC-02, SPEC-10]
+    ledgers: [LGR-03, LGR-04, LGR-05]
+    task_specs: [TS-007]
+    tests: [T-019]
+    gates: [G05]
+    artifacts: [ART-07]
+    status: AUTHOR_SIDE_RECOMPILED_WITH_TT
+  - id: MC-19
+    domain: ICT／技術分析／型態、基本面／籌碼／廣度／因子與選股工程
+    chapters: [CH19, CH20]
+    specs: [SPEC-04, SPEC-10, SPEC-24]
+    ledgers: [LGR-05, LGR-07, LGR-11]
+    task_specs: [TS-007]
+    tests: [T-020, T-021]
+    gates: [G05]
+    artifacts: [ART-07]
+    status: AUTHOR_SIDE_RECOMPILED_WITH_TT
+  - id: MC-20
+    domain: 統計時序、ML/DL/RL、Foundation Models、Financial LLM/NLP、替代資料與 CV
+    chapters: [CH21, CH22, CH23]
+    specs: [SPEC-03, SPEC-04, SPEC-10, SPEC-24]
+    ledgers: [LGR-05, LGR-07, LGR-11]
+    task_specs: [TS-008]
+    tests: [T-022, T-023, T-024]
+    gates: [G05]
+    artifacts: [ART-08]
+    status: AUTHOR_SIDE_RECOMPILED_WITH_TT
+  - id: MC-21
+    domain: 獨立回測、OOS、成本、TCA、容量、反證與模型風險
+    chapters: [CH24]
+    specs: [SPEC-03, SPEC-04, SPEC-17, SPEC-18, SPEC-32]
+    ledgers: [LGR-05, LGR-11, LGR-12, LGR-15]
+    task_specs: [TS-009]
+    tests: [T-025, T-049]
+    gates: [G05, G15]
+    artifacts: [ART-09]
+    status: AUTHOR_SIDE_RECOMPILED_WITH_TT
+  - id: MC-22
+    domain: Portfolio、Risk Budget、Limits、Kill、Recovery 與 Independent Risk Veto
+    chapters: [CH25]
+    specs: [SPEC-02, SPEC-12, SPEC-13, SPEC-17, SPEC-18, SPEC-20]
+    ledgers: [LGR-04, LGR-05, LGR-11, LGR-12, LGR-18]
+    task_specs: [TS-009]
+    tests: [T-026]
+    gates: [G06]
+    artifacts: [ART-09]
+    status: AUTHOR_SIDE_RECOMPILED_WITH_TT
+  - id: MC-23
+    domain: Talebian Survival Guards：Ruin、Unknown、Optionality、Via Negativa、Lindy 與 Responsibility
+    chapters: [CH26]
+    specs: [SPEC-02, SPEC-13, SPEC-17, SPEC-18, SPEC-20]
+    ledgers: [LGR-04, LGR-05, LGR-11, LGR-12, LGR-18]
+    task_specs: [TS-009]
+    tests: [T-027]
+    gates: [G07]
+    artifacts: [ART-09]
+    status: AUTHOR_SIDE_RECOMPILED_WITH_TT
+  - id: MC-24
+    domain: Decision Compiler、XQ/XS Read-Watch Adapter 與 HITL
+    chapters: [CH27, CH28]
+    specs: [SPEC-08, SPEC-10, SPEC-13, SPEC-29]
+    ledgers: [LGR-05, LGR-08, LGR-11, LGR-12]
+    task_specs: [TS-010]
+    tests: [T-028, T-029]
+    gates: [G08, G09]
+    artifacts: [ART-10]
+    status: AUTHOR_SIDE_RECOMPILED_WITH_TT
+  - id: MC-25
+    domain: Execution Truth、Book of Record、Pure Reducer 與 Reconciliation
+    chapters: [CH29]
+    specs: [SPEC-16, SPEC-18, SPEC-19, SPEC-20, SPEC-21]
+    ledgers: [LGR-05, LGR-12, LGR-18, LGR-19]
+    task_specs: [TS-010]
+    tests: [T-030]
+    gates: [G10]
+    artifacts: [ART-10]
+    status: AUTHOR_SIDE_RECOMPILED_WITH_TT
+  - id: MC-26
+    domain: Maturity、Paper/Shadow、Operator Operations、SRE、Security/Privacy/Identity/Rights/Supply Chain
+    chapters: [CH30, CH31, CH32]
+    specs: [SPEC-12, SPEC-13, SPEC-17, SPEC-18, SPEC-19, SPEC-20, SPEC-32, SPEC-34]
+    ledgers: [LGR-11, LGR-12, LGR-15, LGR-17, LGR-18, LGR-19]
+    task_specs: [TS-011]
+    tests: [T-031, T-032, T-033]
+    gates: [G11, G12, G13, G14, G15]
+    artifacts: [ART-11]
+    status: AUTHOR_SIDE_RECOMPILED_WITH_TT
+  - id: MC-27
+    domain: Observability、Evidence、Audit、Provenance、Release Integrity、Controlled Learning、Migration/Exit、AIKD 與 NRTV
+    chapters: [CH33, CH34]
+    specs: [SPEC-16, SPEC-17, SPEC-18, SPEC-19, SPEC-20, SPEC-21, SPEC-31, SPEC-32, SPEC-33, SPEC-34, SPEC-35]
+    ledgers: [LGR-12, LGR-13, LGR-14, LGR-15, LGR-16, LGR-17, LGR-18, LGR-19, LGR-20]
+    task_specs: [TS-012, TS-013, TS-014, TS-015]
+    tests: [T-034, T-035, T-036, T-048, T-049, T-050]
+    gates: [G16, G17, G18]
+    artifacts: [ART-12, ART-13, ART-14, ART-15]
+    status: AUTHOR_SIDE_RECOMPILED_WITH_TT
+

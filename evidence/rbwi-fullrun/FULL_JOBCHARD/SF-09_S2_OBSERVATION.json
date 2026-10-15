@@ -1,0 +1,72 @@
+{
+  "schema": "RBWI-SF-09-RECEIPT/1",
+  "sf": "SF-09",
+  "run_id": "RUN-RBWI-FULLRUN-20260820-001",
+  "candidate_id": "CAND-RBWI-20260814",
+  "outputs": {
+    "S2_SetupObservation": {
+      "mode": "fresh S2 daily snapshot (SIM; live tape=proxy)",
+      "s1_reuse": "FORBIDDEN",
+      "rows": 104,
+      "sample": [
+        {
+          "symbol": "1101",
+          "open": 24.1,
+          "high": 25.0,
+          "low": 24.1,
+          "close": 24.8,
+          "vol20": 27066255.05,
+          "intraday_pct": 2.9045643153526868
+        },
+        {
+          "symbol": "1102",
+          "open": 33.95,
+          "high": 34.9,
+          "low": 33.9,
+          "close": 34.7,
+          "vol20": 11818735.1,
+          "intraday_pct": 2.2091310751104487
+        },
+        {
+          "symbol": "1104",
+          "open": 26.55,
+          "high": 26.85,
+          "low": 26.55,
+          "close": 26.8,
+          "vol20": 751692.05,
+          "intraday_pct": 0.9416195856873921
+        },
+        {
+          "symbol": "1218",
+          "open": 14.3,
+          "high": 14.95,
+          "low": 14.3,
+          "close": 14.9,
+          "vol20": 1686654.8,
+          "intraday_pct": 4.195804195804187
+        },
+        {
+          "symbol": "1227",
+          "open": 29.1,
+          "high": 29.2,
+          "low": 29.0,
+          "close": 29.15,
+          "vol20": 1202150.25,
+          "intraday_pct": 0.1718213058419238
+        }
+      ]
+    },
+    "S2_qualification_counts": {
+      "qualified": 53
+    }
+  },
+  "sim_clock": {
+    "mode": "SIM_FASTEST_ACCEL",
+    "trade_date": "2026-08-20",
+    "dataset": "DSV-DAILY-2026-08-21-r1",
+    "note": "full-automatic sim per user decision 2026-08-21; intraday measured = qualification-proxy; no FDA/XQ realtime"
+  },
+  "financial_boundary": "LOCAL_PAPER_SIMULATION_ONLY",
+  "broker_write": false,
+  "filled": 0
+}

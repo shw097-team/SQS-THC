@@ -1,0 +1,39 @@
+schema: RP002-FINAL-EVIDENCE-MANIFEST/1
+stage: RP002-STAGE-SQS
+refresh: OBS_CLOSURE_RERUN (S3-EXT-001)
+entries:
+  - {path: evidence/rp002/stage3/gates/E1_ACCEPTANCE_RECEIPT.yaml, sha256: 5458d3bbddc8b9a6cf0f1e0ee312f719370dc37b9ced02a09349e5fd2fe57e99}
+  - {path: evidence/rp002/stage3/gates/E1_DEFECT_REPRODUCTION.yaml, sha256: 9e36655b26d0d85b5f87de73cc6274462428f421e8352c3ef10088d761c053db}
+  - {path: evidence/rp002/stage3/gates/E1_E2_EVOLUTION_RECEIPTS.yaml, sha256: 8d8d7f427f9f6d4aa3036d190df52cc9face0f46d6b00e4d5a85a3a7fb22262b}
+  - {path: evidence/rp002/stage3/gates/E2_ACCEPTANCE_RECEIPT.yaml, sha256: 2c8c393cafeaa9dd0a19e588a55e42cec93c2c513772082b8aef655d4d4e8ea1}
+  - {path: evidence/rp002/stage3/gates/E3_RECEIPT.yaml, sha256: 7ece12e7d44efbbfd4f10ca8bd87445c57f0a253797f03b794bbb1d31ed64ff7}
+  - {path: evidence/rp002/stage3/gates/FABRIC_TEAM_STAGE3_DOGFOOD_ACCEPTANCE_MATRIX.yaml, sha256: 818cefe039ace76d5bdfc57ab79c7ef7820d054711ec1b528f3d055ca6b5c6c4}
+  - {path: evidence/rp002/stage3/gates/FINAL_EVIDENCE_MANIFEST.yaml, sha256: 04a2c3d1558c5a09bb59eb11fae5618bf20a9f4ddb9288ad7abfa7a2be307b97}
+  - {path: evidence/rp002/stage3/gates/FINAL_PACKAGE_MANIFEST.yaml, sha256: 68867e08f010c7c0c10b521bf71c9dc8f75f71f4741769401a520240b1f0c532}
+  - {path: evidence/rp002/stage3/gates/FINAL_SUBJECT_ATTESTATION.yaml, sha256: 2c2de886870521acdd48c9dd57b048019c576ce2da5489bcb4969091afa83f87}
+  - {path: evidence/rp002/stage3/gates/R1_FINAL_RECEIPT.yaml, sha256: 37890d97541dfef91fdd3cb189f54ad52c4bd22106ac78aa97adb0f75212f1bc}
+  - {path: evidence/rp002/stage3/gates/REDUCER_RECEIPTS.json, sha256: 859cdc3de5388186e7859548c66c1f4429afc30c925d4f1a8531ff9efa7bb91d}
+  - {path: evidence/rp002/stage3/gates/REDUCER_RECEIPTS_OBS_CLOSURE.json, sha256: 6020f2fdd6099e64dff2b83c6ad56b34505ae5c472decad1e1a8ca827a6cec06}
+  - {path: evidence/rp002/stage3/gates/ROLLBACK_CHECKPOINT.yaml, sha256: b6965feb1bdba860285435a272efe2c4f4fe86ce6a5e5ad3cdba389aa96f1bfb}
+  - {path: evidence/rp002/stage3/gates/S1_ACCEPTANCE_RECEIPT.yaml, sha256: 8eb78e44a7ad7f54317e6f92018ad23944f42492b4c200d51fc464de14d1b701}
+  - {path: evidence/rp002/stage3/gates/S1_CANARY_RECEIPT.yaml, sha256: ea3f982370c0f60b82df3d27c3e1ff61c52599f51127b2d14ed0a03fa4dcb0a7}
+  - {path: evidence/rp002/stage3/gates/SQP1_ACCEPTANCE_RECEIPT.yaml, sha256: 536edd6d15e0b062d7db390180c29d0354dd6a77f939b3a2bf685a3c916f0a15}
+  - {path: evidence/rp002/stage3/gates/SQS_PROFILE_TEAM_RUNTIME.yaml, sha256: 81033a005b317cbd5223bec33156aaaeaabfe1c6a9c23907684c8c1dd9d48ba0}
+  - {path: evidence/rp002/stage3/gates/STAGE3_OBSIDIAN_COVERAGE_CLOSURE.yaml, sha256: 3d2d4f0021840a7c6d0b4bccc7215e3d460d97515508ba76553d28a30ccb90a8}
+  - {path: evidence/rp002/stage3/knowledge/STAGE3_KNOWLEDGE_CONTENT_INDEX.tsv, sha256: 10503eedd72d3234d1b493c1dde3ecac605bb335b467bce2d639bbbe573069fc}
+  - {path: evidence/rp002/stage3/knowledge/STAGE3_KNOWLEDGE_DISTILLATION_LEDGER.tsv, sha256: d05f55b90c4007a9586677b3533a9f9fc3da5f1f63726a24e276d1bb649c899a}
+  - {path: evidence/rp002/stage3/knowledge/STAGE3_KNOWLEDGE_ROOT_INVENTORY.tsv, sha256: 49c5f8dbe8346e2927027a058d806414d49d99e94c4206a83ccdeb2eafa06d23}
+  - {path: evidence/rp002/stage3/knowledge/STAGE3_KNOWLEDGE_RUNTIME_USAGE_RECEIPT.yaml, sha256: 539f882954cc452fa32726038a82bd0883d4a12cc9216c4f682ac9221823afba}
+  - {path: evidence/rp002/stage3/knowledge/STAGE3_KNOWLEDGE_SOURCE_DENOMINATOR.jsonl, sha256: b2e9c19926e0a4b30d8ba280efacd060443588ef60cfaaeae3ce711d7dc293ec}
+  - {path: evidence/rp002/stage3/knowledge/STAGE3_OBSIDIAN_PROJECTION_RECEIPT.yaml, sha256: de062b3c8aa77cae5ea72760093e3cb2e5791caf045773b68acb28f82c88eaae}
+  - {path: evidence/rp002/stage3/knowledge/STAGE3_SOURCE_TO_TARGET_IMPLEMENTATION_CROSSWALK.tsv, sha256: 85d9b6adf8ab82f985dc78d93e0dbe8a43beb9e1ef2de861805a02609d387aa9}
+  - {path: evidence/rp002/stage3/RP002_R1_EVIDENCE_FOR_EXTERNAL_REVIEW.md, sha256: 753350a4acdf53724b4f3df5967e1dac55000a4bcd2ded281846c552e4b93102}
+  - {path: evidence/rp002/stage3/s1/S1_JOIN_AND_RISK_RECEIPT.json, sha256: 39a3d567d8dea0b23b471146ea98eaa0fad97f3549d9efe969a3ced6289d4cfc}
+  - {path: evidence/rp002/stage3/s1/S1_MARKET_REGIME_CONTEXT.json, sha256: dd88442845cecb953f34626a9de255f18747bc2241efb26989e05163fb2e7ea5}
+  - {path: evidence/rp002/stage3/s1/S1_PIT_VALIDATION_RECEIPT.json, sha256: a39726483d47ac373ab0a0364c6bc41d2f1f6a6e6dae1af72e4ab905eccd37f2}
+  - {path: evidence/rp002/stage3/s1/S1_UNIVERSE_SNAPSHOT.json, sha256: fd011ddc9c933ea2a22e6faa8a82af937b255171cac6d9b23e79bb789a5a0734}
+  - {path: evidence/rp002/stage3/wp30/SQS_ENGINEERING_BASE_DISPOSITION.yaml, sha256: c973577ea0ad8dba35b28cdf94f204cc5c6cccf099a370fa00aa919c766933b5}
+  - {path: evidence/rp002/stage3/wp30/STAGE3_AUTHORITY_RESOLUTION.yaml, sha256: 872d86c7f56fbfd8bbb346872d17c89a7bfd29262263c2f08f1a88b6be1f030e}
+  - {path: evidence/rp002/stage3/wp30/STAGE3_BASELINE_MANIFEST.yaml, sha256: 71eba83f0d52025ff7690205bbbc352bf7b367a49b4c92baf8fd4836da2c3fbf}
+  - {path: evidence/rp002/stage3/wp30/STAGE3_CR_OPEN.yaml, sha256: b25e2689424df667f0da35db68a4ae9ec071f60268ab4779fcc7efb1c22ec711}
+  - {path: evidence/rp002/stage3/wp30/STAGE3_POLICY_CONSUMER_TRACE.json, sha256: b587e3e2537c1e8f1634beb77ded0df59e255dc6fc3a8455744d3bebcc0f4181}

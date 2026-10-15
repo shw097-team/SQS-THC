@@ -1,0 +1,42 @@
+# MATURITY MODEL - maturity/maturity-model.yaml (TS-011 / ART-11, CH30 / MC-26).
+# Maturity is a side-effect budget, not a feature checklist. A level is
+# reached only with the evidence required for that level AND every previous
+# level (each maturity plane has independent evidence AND previous plane
+# passed AND rollback rehearsal complete). Promotion without that evidence is
+# NACK'd with exact error ERR_PROMOTION_WITHOUT_EVIDENCE (fail-closed, no
+# mutation, no broker write, no network).
+maturity_model_id: maturity-model-ts011
+spec_ref: TS-011/CH30
+levels:
+  - id: maturity-level-design
+    name: DESIGN
+    evidence_required:
+      - candidate_version
+      - source_authority_ref
+  - id: maturity-level-paper-ready
+    name: PAPER_READY
+    evidence_required:
+      - candidate_version
+      - version_permission_clock
+  - id: maturity-level-paper
+    name: PAPER
+    evidence_required:
+      - paper_receipt
+      - rollback_rehearsal
+  - id: maturity-level-shadow-ready
+    name: SHADOW_READY
+    evidence_required:
+      - paper_receipt
+      - shadow_receipt
+      - qualification_matrix
+  - id: maturity-level-shadow
+    name: SHADOW
+    evidence_required:
+      - shadow_receipt
+      - qualification_matrix
+      - promotion_gate
+  - id: maturity-level-live-blocked
+    name: LIVE_BLOCKED
+    evidence_required:
+      - promotion_gate
+      - rollback_rehearsal

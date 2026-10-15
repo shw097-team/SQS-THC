@@ -1,0 +1,36 @@
+schema: RP002-STAGE3-GATE-RECEIPT/1
+gate: E1
+stage: RP002-STAGE-SQS
+project: HGK-REFERENCE-PROJECT-002
+verdict: PASS
+observed_at: 2026-08-13T02:20:00+08:00
+
+defect:
+  id: E1-KD-001
+  class: KNOWLEDGE_DEFECT
+  reproduction: "evidence/rp002/stage3/gates/E1_DEFECT_REPRODUCTION.yaml (stale DEFERRED_TO_RP002 claims at README L66 + UserGuide L168 vs Stage-2 KG1/F1/CF1 PASS)"
+  severity: S2
+  real_not_synthetic: true
+
+route:
+  - "Fabric Change Class Router -> KNOWLEDGE_DEFECT"
+  - "construction-commander -> Prompt Compiler C0-C9 (Stage-3 contract ca6acc0f, E1 evidence row)"
+  - "HGK WorkOrder WO-RP2-STAGE3-E1E2"
+  - "Codex tracked write (codex-e1 run, exit 0, 2026-08-12T17:19:01Z..17:20:12Z)"
+  - "focused test tests/test_rp002_stage3_e1.py (4 tests)"
+  - "affected regression: SQP1 11 tests + canonical suite 226 tests OK"
+  - "L2 acceptance (acceptance-officer-L2-e1) 6/6 PASS"
+
+repair:
+  subject: "README.md L66 + docs/SQS-THC_TW-ICT_FSDT-Stack使用說明文檔.md L168"
+  changed: "stale K1/KG1 DEFERRED_TO_RP002 -> ACTIVE (RP-002 Stage-2 KG1/F1/CF1 PASS; SQLite/FTS5 P0 REUSE; ContextForge 1.0.7 promoted); Qdrant/Neo4j default OFF preserved"
+  residue_cleanup: "README L67 duplicate fragment removed post-L2 (noted by acceptance officer; re-verified 20/20 tests OK)"
+  rollback_bytes: "var/rp002-stage3/e1-before/README.md sha256 8b6be6a286c35907b81f76f6ffcc3c981dc59066d4d2f00c561762be25b275ae (pre-edit) + e1-before/使用說明文檔.md"
+
+no_financial_semantics_affected: "true (no src/ risk/ survival/ change; L2 E1C6)"
+promotion_transaction_ref: "Fabric/rp002/RP002_PROMOTION_TRANSACTION.yaml (E1 candidate)"
+exact_replay:
+  - "fresh read README L66: ACTIVE claim present, no DEFERRED_TO_RP002"
+  - "fresh read UserGuide L168: ACTIVE claim present, no DEFERRED_TO_RP002"
+  - "python -m unittest tests.test_rp002_stage3_e1 -v -> 4/4 OK (rerun after residue cleanup)"
+rollback: "git restore README.md + docs from e1-before/ bytes"

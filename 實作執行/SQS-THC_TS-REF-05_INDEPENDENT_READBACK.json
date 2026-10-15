@@ -1,0 +1,25 @@
+{
+ "schema": "SQS-THC-WO-INDEPENDENT-READBACK/1",
+ "workorder": "WO-TS-REF-05",
+ "taskspec": "TS-REF-05",
+ "checker": "INDEPENDENT_CHECKER (fresh subprocess)",
+ "implementation": {
+  "path": "C:\\Projects\\Agent_Workspace\\SQS-THC\\實作執行\\worktrees\\ts-ref-05\\sqs_thc\\harness\\__init__.py",
+  "bytes": 7253,
+  "sha256": "288a2a0e474a05fd38b992de5801b0f8f01668741a67c90c0d0e6f6b37ffc27e"
+ },
+ "frozen_test": {
+  "path": "C:\\Projects\\Agent_Workspace\\SQS-THC\\實作執行\\worktrees\\ts-ref-05\\tests\\test_harness.py",
+  "bytes": 4555,
+  "sha256": "9f142719ac9cc05706790018ca157781287876549c227c1864019e91a3b0085d"
+ },
+ "rerun": {
+  "exit_code": 0,
+  "ran_8": true,
+  "ok": true,
+  "tail": "h passes validation. ... ok\ntest_pos_002_dispatch_handoff_merge (tests.test_harness.CH15PositiveTests.test_pos_002_dispatch_handoff_merge)\ndispatch -> handoff(ACK) -> merge under HUMAN_REVIEWED. ... ok\n\n----------------------------------------------------------------------\nRan 8 tests in 0.001s\n\nOK\n"
+ },
+ "head": "d1b1ed2 WO-TS-REF-05: implement CH15 harness/loop/handoff kernel (validate_graph, dispatch, handoff, merge_review)",
+ "test_file_unchanged": true,
+ "verdict": "INDEPENDENT_CASE_PASS"
+}

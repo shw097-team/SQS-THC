@@ -1,0 +1,7 @@
+schema: RP002-ROLLBACK-CHECKPOINT/1
+stage: RP002-STAGE-SQS
+e1_rollback_bytes: var/rp002-stage3/e1-before/ (README 8b6be6a2; UserGuide)
+e2_rollback_bytes: var/rp002-stage3/e2-before/SQS_STACK_MANIFEST.yaml (A0F3362E)
+shared_spine_rollback: RB-WO-RP2-STAGE3-SQP1 / -S1 / -E1E2 / -R1
+superseded_artifacts_ref: Fabric/stage/RP002-STAGE-HGK/SUPERSEDED_ARTIFACTS.yaml (Stage-2 preserved)
+resume_token: RESUME:RP002_STAGE3_R1_CLOSURE

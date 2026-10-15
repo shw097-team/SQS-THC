@@ -1,0 +1,32 @@
+{
+  "canonical_preopen_coverage_check": {
+    "weekly_W": {
+      "required": 9,
+      "produced": 9,
+      "missing": [],
+      "coverage_pct": 100.0
+    },
+    "daily_D": {
+      "required": 10,
+      "produced": 10,
+      "missing": [],
+      "coverage_pct": 100.0
+    },
+    "module_SF160017": {
+      "required": 3,
+      "produced": 3,
+      "missing": [],
+      "coverage_pct": 100.0
+    },
+    "sf_01_02_03": {
+      "required": 3,
+      "produced": 3,
+      "missing": [],
+      "coverage_pct": 100.0
+    }
+  },
+  "overall_preopen_items": 25,
+  "overall_produced": 25,
+  "overall_coverage_pct": 100.0,
+  "note": "D-09 試撮 live part 標示 PREPARED_PENDING_LIVE (需 Q2/XQ 窗口) — 開盤前 admission 已凍結, live 觀察屬 Q2"
+}

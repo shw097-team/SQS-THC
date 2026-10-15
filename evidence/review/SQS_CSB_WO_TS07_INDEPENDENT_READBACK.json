@@ -1,0 +1,18 @@
+{
+ "schema": "SQS-CSB-WO-TS07-INDEPENDENT/1",
+ "changeset": "CS-B-SQS-TWICT-WAVE2-FULL-PROJECT-CLOSURE",
+ "workorder": "WO-TS-REF-07",
+ "checker": "INDEPENDENT_CHECKER (fresh read-only subprocess)",
+ "suite": {
+  "exit_code": 0,
+  "ran": "68",
+  "ok": true
+ },
+ "targets": [
+  "docs/DOC-07.md",
+  "research/mission.yaml",
+  "research/universe.yaml",
+  "tests/test_ts007_investment_research.py"
+ ],
+ "verdict": "INDEPENDENT_CASE_PASS"
+}

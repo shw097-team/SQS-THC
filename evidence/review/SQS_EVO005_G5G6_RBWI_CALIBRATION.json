@@ -1,0 +1,94 @@
+{
+ "schema": "SQS-EVO005-G5G6-RBWI-CALIBRATION/1",
+ "captured_at_utc": "2026-08-11T11:49:05.354700+00:00",
+ "subject_digest": "e546cc2c4eacf0cb4bbb259d717c1728b89ac6c579de94262db0f450f36eefc1",
+ "oracle_version": "EVO005-ORACLE-V1",
+ "g5_rbwi": {
+  "state": "LOCAL/PAPER/NO-LIVE-WRITE",
+  "results": [
+   {
+    "case": "g5_empty_memory",
+    "ok": true,
+    "detail": ""
+   },
+   {
+    "case": "g5_finspec_context",
+    "ok": true,
+    "detail": "1 hits"
+   },
+   {
+    "case": "g5_subject_bound",
+    "ok": true,
+    "detail": "subject digest bound"
+   },
+   {
+    "case": "g5_market_route",
+    "ok": true,
+    "detail": "market facts = DSV-2026-08-11-r1 current data route"
+   },
+   {
+    "case": "g5_risk_invalidation",
+    "ok": true,
+    "detail": "TEMP_CLOSED blocks; negative fixtures preserved"
+   },
+   {
+    "case": "g5_replay",
+    "ok": true,
+    "detail": ""
+   },
+   {
+    "case": "g5_no_live_write",
+    "ok": true,
+    "detail": "LOCAL/PAPER/NO-LIVE-WRITE only"
+   },
+   {
+    "case": "g6_qdrant_scope",
+    "ok": true,
+    "detail": "non-blocking claim scope=VECTOR_PROVIDER_READINESS"
+   },
+   {
+    "case": "g6_neo4j_scope",
+    "ok": true,
+    "detail": "non-blocking claim scope=GRAPH_PROVIDER_READINESS"
+   },
+   {
+    "case": "g6_codex_applicable",
+    "ok": true,
+    "detail": "Codex APPLICABLE_BOUNDED (WAVE3 G4 genuine trace)"
+   },
+   {
+    "case": "g6_swarm_single",
+    "ok": true,
+    "detail": "atomic route single; no forced swarm"
+   },
+   {
+    "case": "g6_product_scope_independent",
+    "ok": true,
+    "detail": "product claim depends only on REQ-PROD-LOCAL-DELIVERY"
+   }
+  ]
+ },
+ "g6_calibration": {
+  "qdrant": {
+   "claim_scope": "VECTOR_PROVIDER_READINESS",
+   "blocking": false,
+   "state": "ADMITTED_DISABLED",
+   "truthful": true
+  },
+  "neo4j": {
+   "claim_scope": "GRAPH_PROVIDER_READINESS",
+   "blocking": false,
+   "state": "INSTALL_PROFILE_READY",
+   "truthful": true
+  },
+  "codex": {
+   "state": "APPLICABLE_BOUNDED",
+   "evidence": "WAVE3 G4 trace"
+  },
+  "swarm": {
+   "state": "SINGLE_WHERE_ATOMIC"
+  }
+ },
+ "verdict_g5": "TW_ICT_RBWI_CURRENT_SUBJECT_ACCEPTANCE_PASS",
+ "verdict_g6": "MULTI_AGENT_CLAIM_CALIBRATION_PASS"
+}

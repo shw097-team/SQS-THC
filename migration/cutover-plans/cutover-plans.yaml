@@ -1,0 +1,34 @@
+# CUTOVER PLANS - migration/cutover-plans/cutover-plans.yaml (TS-013 / ART-13).
+# Each cutover plan carries id, ordered steps and an explicit rollback path;
+# a plan without a rollback is rejected (fail-closed). No migration activates
+# without consumer ACK and a rehearsed previous-active rollback (SPEC-31).
+cutover_id: cutover-plans-ts013
+schema_version: "1.0.0"
+spec_ref: TS-013/SPEC-31
+plans:
+  - id: CUT-013-001
+    steps:
+      - preflight donor matrix single-truth check
+      - freeze legacy provisional ledger reads
+      - dual-run canonical append-only ledger
+      - cutover with consumer ACK
+      - sunset legacy provisional ledger
+    rollback: pwsh scripts/rollback-taskspec.ps1 -TaskId TS-013 -ToManifest previous-active/ts-013.json -RequireConsumerAck
+  - id: CUT-013-002
+    steps:
+      - validate release gate manifest against evidence ledger
+      - dual-run gate-checked release manifest
+      - cutover release views with consumer ACK
+    rollback: restore previous-active/ts-013.json gate manifest with compensating LGR event
+  - id: CUT-013-003
+    steps:
+      - freeze adhoc nrtv copies
+      - dual-run nrtv-gated training packets
+      - cutover with consumer ACK
+    rollback: restore previous-active/ts-013.json nrtv packets with compensating LGR event
+  - id: CUT-013-004
+    steps:
+      - freeze adhoc training copies
+      - dual-run controlled learning register
+      - cutover with consumer ACK
+    rollback: restore previous-active/ts-013.json training register with compensating LGR event

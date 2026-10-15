@@ -1,0 +1,220 @@
+{
+  "checker": "a3_final_independent_checker",
+  "verdict": "PASS",
+  "total": 35,
+  "passed": 35,
+  "failed": 0,
+  "failures": [],
+  "checks": [
+    {
+      "predicate_id": "01",
+      "pass": true,
+      "raw_locator": "C:\\Users\\user\\AppData\\Local\\hermes\\hermes-agent\\venv\\Scripts\\hermes.exe",
+      "fresh_detail": "Hermes Agent v0.20.0 (2026.8.3)\nInstall directory: C:\\Users\\user\\AppData\\Local\\hermes\\hermes-agent\nPython: 3.11.15\nOpenA"
+    },
+    {
+      "predicate_id": "02",
+      "pass": true,
+      "raw_locator": "process tree scan (hermes_cli.main serve / hermes-v020)",
+      "fresh_detail": "serve=1 retired=0"
+    },
+    {
+      "predicate_id": "03",
+      "pass": true,
+      "raw_locator": "hg_kseos doctor",
+      "fresh_detail": "PASS []"
+    },
+    {
+      "predicate_id": "04",
+      "pass": true,
+      "raw_locator": "project status HGK-REFERENCE-PROJECT-002",
+      "fresh_detail": "SELF_HOSTING_CUTOVER @2026-08-11T16:36:05.451474+00:00"
+    },
+    {
+      "predicate_id": "05_hgk",
+      "pass": true,
+      "raw_locator": "git -C C:\\Projects\\Agent_Workspace\\HG-KSEOS",
+      "fresh_detail": "22e21f034050 dirty=20"
+    },
+    {
+      "predicate_id": "05_sqs",
+      "pass": true,
+      "raw_locator": "git -C C:\\Projects\\Agent_Workspace\\SQS-THC",
+      "fresh_detail": "9a70501ad4bb dirty=21"
+    },
+    {
+      "predicate_id": "05_fab",
+      "pass": true,
+      "raw_locator": "git -C C:\\Projects\\Agent_Workspace\\Fabric",
+      "fresh_detail": "8e07851d1e28 dirty=183"
+    },
+    {
+      "predicate_id": "06",
+      "pass": true,
+      "raw_locator": "C:\\Projects\\Agent_Workspace\\Fabric\\evidence\\review\\HGK_SQS_POST_HERMES_REINSTALL_A2_ACCEPTANCE.md",
+      "fresh_detail": "44bc1517f3489997c4ea"
+    },
+    {
+      "predicate_id": "07",
+      "pass": true,
+      "raw_locator": "spine workorders WO-HGK-A3-001",
+      "fresh_detail": "{'state': 'VERIFIED', 'writer': 'codex', 'rb': 'RB-WO-HGK-A3-001'}"
+    },
+    {
+      "predicate_id": "08",
+      "pass": true,
+      "raw_locator": "spine workorders WO-SQS-A3-001",
+      "fresh_detail": "{'state': 'VERIFIED', 'writer': 'codex', 'rb': 'RB-WO-SQS-A3-001'}"
+    },
+    {
+      "predicate_id": "09",
+      "pass": true,
+      "raw_locator": "var/a3/a3_route_record.json",
+      "fresh_detail": "KANBAN_AND_SWARM_AND_CODEX_PRIMARY"
+    },
+    {
+      "predicate_id": "10",
+      "pass": true,
+      "raw_locator": "a3_route_record.json",
+      "fresh_detail": "auto_kanban"
+    },
+    {
+      "predicate_id": "11",
+      "pass": true,
+      "raw_locator": "a3_route_record.json",
+      "fresh_detail": "auto_swarm"
+    },
+    {
+      "predicate_id": "13",
+      "pass": true,
+      "raw_locator": "a3_route_record.json",
+      "fresh_detail": "auto_codex"
+    },
+    {
+      "predicate_id": "12",
+      "pass": true,
+      "raw_locator": "C:\\Users\\user\\AppData\\Local\\hermes\\cache\\delegation\\live\\deleg_de86598f\\manifest.json",
+      "fresh_detail": "swarm lanes completed=2/2"
+    },
+    {
+      "predicate_id": "14",
+      "pass": true,
+      "raw_locator": "var/a3/codex_{hgk,sqs}_report.json",
+      "fresh_detail": "hgk=0 sqs=0"
+    },
+    {
+      "predicate_id": "15",
+      "pass": true,
+      "raw_locator": "closure_receipt_f05.json / A-3 evidence §D",
+      "fresh_detail": "CODEX_EXECUTOR_FALLBACK=NO"
+    },
+    {
+      "predicate_id": "16",
+      "pass": true,
+      "raw_locator": "closure_receipt_f05.json / A-3 evidence §D",
+      "fresh_detail": "SANDBOX_MODE_FALLBACK=YES (disclosed)"
+    },
+    {
+      "predicate_id": "17",
+      "pass": true,
+      "raw_locator": "var/a3/final-closure/wt-*",
+      "fresh_detail": "7/7 byte-equivalent + 22/22 worktree tests (recorded)"
+    },
+    {
+      "predicate_id": "18",
+      "pass": true,
+      "raw_locator": "C:\\Projects\\Agent_Workspace\\HG-KSEOS\\README.md",
+      "fresh_detail": "markers ok"
+    },
+    {
+      "predicate_id": "19",
+      "pass": true,
+      "raw_locator": "C:\\Projects\\Agent_Workspace\\HG-KSEOS\\docs\\HG-KSEOS使用說明文檔.md",
+      "fresh_detail": "markers ok"
+    },
+    {
+      "predicate_id": "20",
+      "pass": true,
+      "raw_locator": "C:\\Projects\\Agent_Workspace\\HG-KSEOS\\AGENTS.md",
+      "fresh_detail": "markers ok"
+    },
+    {
+      "predicate_id": "21",
+      "pass": true,
+      "raw_locator": "C:\\Projects\\Agent_Workspace\\SQS-THC\\README.md",
+      "fresh_detail": "markers ok"
+    },
+    {
+      "predicate_id": "22",
+      "pass": true,
+      "raw_locator": "C:\\Projects\\Agent_Workspace\\SQS-THC\\docs\\SQS-THC_TW-ICT_FSDT-Stack使用說明文檔.md",
+      "fresh_detail": "markers ok"
+    },
+    {
+      "predicate_id": "23",
+      "pass": true,
+      "raw_locator": "C:\\Projects\\Agent_Workspace\\知識庫\\實作相關DOC\\HG-KSEOS\\construction-acceptance-prompt-compiler\\construction-acceptance-prompt-compiler\\tests\\test_prompt_contract_compiler.py",
+      "fresh_detail": "compiler 22/22"
+    },
+    {
+      "predicate_id": "24",
+      "pass": true,
+      "raw_locator": "C:\\Projects\\Agent_Workspace\\知識庫\\實作相關DOC\\HG-KSEOS\\construction-acceptance-prompt-compiler\\construction-acceptance-prompt-compiler\\tests\\test_product_steering.py",
+      "fresh_detail": "steering 14/14 (part of 22)"
+    },
+    {
+      "predicate_id": "25",
+      "pass": true,
+      "raw_locator": "C:\\Users\\user\\AppData\\Local\\hermes\\cache\\delegation\\live\\deleg_340cd7ae\\task-2.log",
+      "fresh_detail": "skill effective-load canary ran"
+    },
+    {
+      "predicate_id": "26",
+      "pass": true,
+      "raw_locator": "C:\\Users\\user\\AppData\\Local\\hermes\\cache\\delegation\\live\\deleg_340cd7ae\\task-0.log",
+      "fresh_detail": "HGK cold-start canary ran"
+    },
+    {
+      "predicate_id": "27",
+      "pass": true,
+      "raw_locator": "C:\\Users\\user\\AppData\\Local\\hermes\\cache\\delegation\\live\\deleg_340cd7ae\\task-1.log",
+      "fresh_detail": "SQS cold-start canary ran"
+    },
+    {
+      "predicate_id": "28",
+      "pass": true,
+      "raw_locator": "spine improvement_candidates",
+      "fresh_detail": "{'state': 'PROMOTED', 'promotion_state': 'PROMOTED'}"
+    },
+    {
+      "predicate_id": "29",
+      "pass": true,
+      "raw_locator": "spine improvement_candidates",
+      "fresh_detail": "gate=HUMAN_APPROVED (COV-11-06)"
+    },
+    {
+      "predicate_id": "30",
+      "pass": true,
+      "raw_locator": "SQS adapters/xq-read-watch.yaml + A-3 evidence",
+      "fresh_detail": "LIVE_BROKER_WRITE=0 (no broker write path)"
+    },
+    {
+      "predicate_id": "31",
+      "pass": true,
+      "raw_locator": "docs claim ceilings",
+      "fresh_detail": "PRODUCTION_CLAIM=0 (NOT_CLAIMED everywhere)"
+    },
+    {
+      "predicate_id": "32",
+      "pass": true,
+      "raw_locator": "C:\\Projects\\Agent_Workspace\\HG-KSEOS\\docs\\HG-KSEOS使用說明文檔.md",
+      "fresh_detail": "deferred statement present, no false never-executed claim"
+    },
+    {
+      "predicate_id": "33",
+      "pass": true,
+      "raw_locator": "evidence/review/HGK_SQS_A3_FINAL_CLOSURE_ACCEPTANCE.md x3",
+      "fresh_detail": "10a66d4501928ce8 == 10a66d4501928ce8 == 10a66d4501928ce8"
+    }
+  ]
+}

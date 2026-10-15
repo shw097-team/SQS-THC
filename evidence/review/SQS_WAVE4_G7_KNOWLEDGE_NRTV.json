@@ -1,0 +1,59 @@
+{
+ "schema": "SQS-EVO004-G7-KNOWLEDGE-NRTV/1",
+ "captured_at_utc": "2026-08-11T07:27:38.487250+00:00",
+ "subject_under_test": "HGK KnowledgeFactory",
+ "final_checker": "this independent script (maker != checker)",
+ "results": [
+  {
+   "case": "memory_pii_denied",
+   "ok": true,
+   "detail": "ERR_PII_PERSISTENCE_NOT_ADMITTED"
+  },
+  {
+   "case": "memory_poison_denied",
+   "ok": true,
+   "detail": "ERR_MEMORY_POISONED:PROMPT_INJECTION:ignore\\s+(?:a"
+  },
+  {
+   "case": "memory_revoke_excludes",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "case": "memory_expiry_excludes",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "case": "fts_wrong_anchor",
+   "ok": true,
+   "detail": "ABSTAIN fail-closed"
+  },
+  {
+   "case": "fts_injection_as_data",
+   "ok": true,
+   "detail": "QUARANTINED"
+  },
+  {
+   "case": "fts_injection_returns_data",
+   "ok": true,
+   "detail": "ABSTAIN acceptable"
+  },
+  {
+   "case": "kg_unauthorized_promotion",
+   "ok": true,
+   "detail": "ERR_PROMOTION_EVIDENCE_REQUIRED"
+  },
+  {
+   "case": "vector_not_canonical",
+   "ok": true,
+   "detail": "FTS5 active; Qdrant ADMITTED_DISABLED"
+  },
+  {
+   "case": "kg_not_canonical",
+   "ok": true,
+   "detail": "knowledge graph = derived substrate only"
+  }
+ ],
+ "verdict": "INDEPENDENT_KNOWLEDGE_NRTV_PASS"
+}

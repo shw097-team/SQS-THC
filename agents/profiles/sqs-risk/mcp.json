@@ -1,0 +1,6 @@
+{
+ "schema": "PROFILE-MCP-BINDING/1",
+ "profile_id": "sqs-risk",
+ "bindings": [],
+ "note": "No MCP runtime bindings for Stage-3 P0; ContextForge consumed as promoted read-only projection"
+}

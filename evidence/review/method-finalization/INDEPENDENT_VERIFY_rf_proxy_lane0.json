@@ -1,0 +1,12 @@
+{
+  "lane": "deleg_fdbb3afd/task-0",
+  "verdict": "REPRODUCIBLE_AND_NUMBERS_HONEST",
+  "findings": [
+    "pipeline reproducible 203 trades hash b00cf8...",
+    "cost fee14.25/tax30/slip5 applied 68.5bps",
+    "round_trip_bps was 54.25 -> FIXED 68.5",
+    "regime imbalance IS<0/OOS>0 -> DISCLOSED in receipt",
+    "proxy-only/non-acceptance intact"
+  ],
+  "blocking": []
+}

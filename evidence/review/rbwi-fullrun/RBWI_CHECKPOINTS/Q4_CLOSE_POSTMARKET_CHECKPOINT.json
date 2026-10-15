@@ -1,0 +1,24 @@
+{
+  "schema": "RBWI-SEGMENT-CHECKPOINT/2",
+  "parent_run_id": "RUN-RBWI-FULLRUN-20260820-001",
+  "parent_workorder_id": "WO-RBWI-FULLRUN-001",
+  "segment_id": "Q4_CLOSE_POSTMARKET",
+  "candidate_id": "CAND-RBWI-20260814",
+  "sim_clock": {
+    "mode": "SIM",
+    "trade_date": "2026-08-20",
+    "dataset": "DSV-DAILY-2026-08-21-r1"
+  },
+  "segment_denominator_path": "SEGMENT_DENOMINATOR_Q4_CLOSE_POSTMARKET.tsv",
+  "segment_denominator_digest": "14e68c39e472c925d4492a9b95300ab4ce03d6ccffdea641b8c201c7f1726f11",
+  "rows": 27,
+  "orphan_rows": 0,
+  "status": "SEGMENT_PASS_AND_FROZEN_SIM",
+  "financial_boundary": "LOCAL_PAPER_SIMULATION_ONLY",
+  "broker_write": false,
+  "hitl_approval_ref": "REQUIRED_HITL-APPROVAL/1 NOT_MINTED_SIM_PENDING",
+  "evidence_ref": "Q4_CLOSE_POSTMARKET_sim_receipt.json",
+  "filled": 0,
+  "note": "8/20 simulated clock per USER_DECISION; intraday=qualification-proxy",
+  "generated_at": "2026-08-21T11:40+08:00"
+}

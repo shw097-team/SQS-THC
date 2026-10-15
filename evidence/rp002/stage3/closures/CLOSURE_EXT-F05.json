@@ -1,0 +1,30 @@
+{
+  "finding": "EXT-F05",
+  "classification": "DOWNSTREAM_DEPENDENCY_REBIND_EVIDENCE_GAP",
+  "status": "CLOSED",
+  "smallest_repair": "FRESH_REDUCER_AFFECTED_EDGE_RECHECK",
+  "focused_retest": {
+    "child_reducer": {
+      "artifact": "REDUCER_RECEIPTS_OBS_CLOSURE.json",
+      "sha256": "6020f2fdd6099e64dff2b83c6ad56b34505ae5c472decad1e1a8ca827a6cec06",
+      "result": "STAGE3_SQS_PASS_ELIGIBLE_FOR_MASTER_R1_REDUCTION",
+      "affected_edge": "E2 selection card digest now d4f93610 (superseding binding)",
+      "recheck": "PASS"
+    },
+    "master_reducer": {
+      "artifact": "REDUCER_RECEIPTS_OBS_CLOSURE.json",
+      "sha256": "6020f2fdd6099e64dff2b83c6ad56b34505ae5c472decad1e1a8ca827a6cec06",
+      "result": "RP002_LOCAL_ACCEPTANCE_PASS",
+      "affected_edge": "final package readback 13/13 (superseding manifest)",
+      "recheck": "PASS"
+    },
+    "r1_final_receipt": {
+      "sha256": "e0bc79e6012e40d7a50308cddbd653b993221df97ebf7be3dd81541cc2f7a030",
+      "prereqs_blocking_tt_cr": 0
+    }
+  },
+  "bound_into": [
+    "RP002_FABRIC_AUTONOMOUS_SELF_EVOLUTION_EXTERNAL_EVIDENCE_CLOSURE.md"
+  ],
+  "verdict": "CLOSED"
+}

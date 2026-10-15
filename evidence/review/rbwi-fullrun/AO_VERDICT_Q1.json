@@ -1,0 +1,12 @@
+{
+  "officer": "ACCEPTANCE_OFFICER_VERIFY_ONLY_2026-08-20",
+  "lane": "fresh-context independent acceptance (deleg_8ba4af8b)",
+  "verdict": "PASS",
+  "blocking": [],
+  "items_checked": 7,
+  "nonclaims_verified": [
+    "no-live-write",
+    "Q2-Q4-not-fabricated"
+  ],
+  "recorded_at": "2026-08-20T20:47+08:00"
+}

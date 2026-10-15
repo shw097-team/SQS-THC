@@ -1,0 +1,29 @@
+# WO-TS-REF-15 / TS-015 Closed-book handoff - GPT B command pack (ART-15).
+# Producer: SDLC Delivery Owner. Receiver: GPT B / OROCHI Handoff Lead.
+# Closed-book: the receiver executes from the repo-context request + TaskSpec
+# without author chat; any unresolved target/dependency/permission/oracle
+# returns ERR_RECEIVER_CONTEXT_MISSING and performs no mutation.
+# Deterministic, fail-closed, no broker write, no network. Each entry:
+# task_id, commands, allowlist. Commands are command contracts only - they
+# are NOT executed by this artifact, and scripts are PROPOSED_NOT_MATERIALIZED.
+pack_id: gpt-b-command-pack-ts015
+schema_version: "1.0.0"
+spec_ref: "TS-015/ART-15"
+source: "SSOT/SQS-THC_P0-CIP-PACK_v2026.08.06-r2.md#ts-015"
+receiver: "GPT B / OROCHI Handoff Lead"
+fail_closed: true
+no_broker_write: true
+no_network: true
+entries:
+  - task_id: "TS-015"
+    commands:
+      - "python scripts/validate_closed_book_handoff.py --mode preflight --targets handoff/gpt-b-command-pack.yaml handoff/orochi-execution-packet.yaml handoff/consumer-ack.ndjson"
+      - "pwsh scripts/execute-taskspec.ps1 -TaskId TS-015 -Worktree <ISOLATED_WORKTREE> -ApprovalToken <TOKEN> -Allowlist handoff/gpt-b-command-pack.yaml handoff/orochi-execution-packet.yaml handoff/consumer-ack.ndjson"
+      - "python scripts/validate_closed_book_handoff.py --mode validate --targets handoff/gpt-b-command-pack.yaml handoff/orochi-execution-packet.yaml handoff/consumer-ack.ndjson"
+      - "python scripts/validate_closed_book_handoff.py --mode negative --expect-error ERR_RECEIVER_CONTEXT_MISSING"
+      - "python -m unittest discover -s tests -t ."
+      - "pwsh scripts/readback-taskspec.ps1 -TaskId TS-015 -Evidence evidence/taskspecs/ts-015"
+    allowlist:
+      - "handoff/gpt-b-command-pack.yaml"
+      - "handoff/orochi-execution-packet.yaml"
+      - "handoff/consumer-ack.ndjson"

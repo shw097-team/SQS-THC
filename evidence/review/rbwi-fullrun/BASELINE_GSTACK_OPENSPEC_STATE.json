@@ -1,0 +1,35 @@
+{
+  "schema": "BASELINE-GSTACK-OPENSPEC-STATE/1",
+  "generated_at": "2026-08-20T20:38:37.698250+08:00",
+  "named_methods_registry": "HG-KSEOS src/hg_kseos/named_methods.py",
+  "openspec": {
+    "provider_state": "CERTIFIED_ACTIVE_BROWNFIELD",
+    "role": "BROWNFIELD_ENGINEERING_DEFINITION_ADAPTER",
+    "runtime_required_now": true
+  },
+  "gstack_plan_eng_review": {
+    "provider_state": "CERTIFIED_ACTIVE_SELECTED_SLICES",
+    "role": "ADVISORY_REVIEW_QA_SECURITY_METHOD_ADAPTER"
+  },
+  "gstack_slices_available": [
+    "gstack.plan-eng-review",
+    "gstack.review",
+    "gstack.qa",
+    "gstack.cso",
+    "gstack.ship",
+    "gstack.office-hours",
+    "gstack.retro"
+  ],
+  "route_check": {
+    "selected_route": "NATIVE",
+    "reason_code": "HGK_HERMES_ORCHESTRATES_DIRECTLY",
+    "fallback_degrade": "none",
+    "execution_surfaces": [
+      "KANBAN",
+      "SWARM",
+      "GSTACK",
+      "OPENSPEC(if brownfield)",
+      "CODEX"
+    ]
+  }
+}

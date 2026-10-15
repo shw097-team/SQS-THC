@@ -1,0 +1,55 @@
+{
+  "schema": "SPARTOI-SF-05/1",
+  "sf": "SF-05",
+  "rows": 104,
+  "sample": [
+    {
+      "symbol": "1101",
+      "open": 24.1,
+      "close": 24.8,
+      "prev_close": 24.05,
+      "pct_chg": 3.1185031185031242,
+      "rng": 3.742203742203736
+    },
+    {
+      "symbol": "1102",
+      "open": 33.95,
+      "close": 34.7,
+      "prev_close": 33.8,
+      "pct_chg": 2.662721893491149,
+      "rng": 2.9585798816568047
+    },
+    {
+      "symbol": "1104",
+      "open": 26.55,
+      "close": 26.8,
+      "prev_close": 26.4,
+      "pct_chg": 1.5151515151515138,
+      "rng": 1.1363636363636391
+    },
+    {
+      "symbol": "1218",
+      "open": 14.3,
+      "close": 14.9,
+      "prev_close": 14.25,
+      "pct_chg": 4.561403508771922,
+      "rng": 4.56140350877192
+    },
+    {
+      "symbol": "1227",
+      "open": 29.1,
+      "close": 29.15,
+      "prev_close": 28.9,
+      "pct_chg": 0.865051903114189,
+      "rng": 0.6920415224913471
+    }
+  ],
+  "mode": "daily-layer SIM observer (live XQ=proxy)",
+  "sim_clock": {
+    "mode": "SIM_FASTEST_ACCEL",
+    "trade_date": "2026-08-20",
+    "intraday_measured": "qualification-proxy (no FDA/XQ realtime)"
+  },
+  "broker_write": false,
+  "filled": 0
+}

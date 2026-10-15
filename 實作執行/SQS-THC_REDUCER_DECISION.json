@@ -1,0 +1,88 @@
+{
+ "schema": "SQS-THC-REDUCER-DECISION/1",
+ "reference_project_id": "HGK-REFERENCE-PROJECT-001",
+ "verdict": "SQS-THC_TW-ICT_FSDT_STACK_LOCAL_DELIVERY_PASS",
+ "checks_total": 15,
+ "checks_pass": 15,
+ "reasons": [],
+ "checks": [
+  {
+   "id": "source_inventory_complete",
+   "pass": true,
+   "detail": "predicate passed"
+  },
+  {
+   "id": "knowledge_preload_promoted",
+   "pass": true,
+   "detail": "predicate passed"
+  },
+  {
+   "id": "engbase_disposition_complete",
+   "pass": true,
+   "detail": "predicate passed"
+  },
+  {
+   "id": "kanban_real_use",
+   "pass": true,
+   "detail": "predicate passed"
+  },
+  {
+   "id": "gstack_real_invocation",
+   "pass": true,
+   "detail": "predicate passed"
+  },
+  {
+   "id": "workorders_admitted",
+   "pass": true,
+   "detail": "predicate passed"
+  },
+  {
+   "id": "integrated_suite_green",
+   "pass": true,
+   "detail": "predicate passed"
+  },
+  {
+   "id": "independent_ts_ref_02",
+   "pass": true,
+   "detail": "predicate passed"
+  },
+  {
+   "id": "independent_ts_ref_03",
+   "pass": true,
+   "detail": "predicate passed"
+  },
+  {
+   "id": "independent_ts_ref_04",
+   "pass": true,
+   "detail": "predicate passed"
+  },
+  {
+   "id": "independent_ts_ref_05",
+   "pass": true,
+   "detail": "predicate passed"
+  },
+  {
+   "id": "independent_ts_ref_06",
+   "pass": true,
+   "detail": "predicate passed"
+  },
+  {
+   "id": "package_readback_exact",
+   "pass": true,
+   "detail": "predicate passed"
+  },
+  {
+   "id": "package_sha_match",
+   "pass": true,
+   "detail": "predicate passed"
+  },
+  {
+   "id": "user_guide_exists",
+   "pass": true,
+   "detail": "file exists"
+  }
+ ],
+ "production": "NOT_CLAIMED",
+ "live_trading": "NOT_AUTHORIZED",
+ "remote_deployment": "NOT_CLAIMED"
+}

@@ -1,0 +1,16 @@
+{
+ "schema": "SQS-CSB-WO-TS08-INDEPENDENT/1",
+ "changeset": "CS-B-SQS-TWICT-WAVE2-FULL-PROJECT-CLOSURE",
+ "workorder": "WO-TS-REF-08",
+ "checker": "INDEPENDENT_CHECKER (fresh read-only subprocess)",
+ "suite": {
+  "exit_code": 0,
+  "ran": "84",
+  "ok": true
+ },
+ "targets": [
+  "docs/DOC-08.md",
+  "tests/test_ts008_ml_nlp_altdata.py"
+ ],
+ "verdict": "INDEPENDENT_CASE_PASS"
+}

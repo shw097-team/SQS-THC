@@ -1,0 +1,24 @@
+{
+  "schema": "RBWI-DENOMINATOR-PROJECTION/1",
+  "generated_at": "2026-08-20T20:30+08:00",
+  "global_rows": 150,
+  "q1_rows": 37,
+  "q1_by_type": {
+    "MANDATORY_RUNTIME_NODE": 4,
+    "REQUIRED_DELIVERABLE": 16,
+    "NEGATIVE_SECURITY_RECOVERY_FIXTURE": 4,
+    "REQUIRED_USER_JOURNEY": 13
+  },
+  "global_digest_sha256": "cb7af6ac27b2e0213e19b727cdb4ce83153d657f340e34ceecc602035fec2bbd",
+  "q1_digest_sha256": "81175b24018f9256b1009ff2ecd3c83652bb9b207d4609f1908babf212081ddd",
+  "segments": {
+    "CROSS_CUTTING": 29,
+    "Q1_CONTEXT_PREOPEN": 37,
+    "Q2_OPENING_S1": 25,
+    "Q3_MIDDAY_S2": 32,
+    "Q4_CLOSE_POSTMARKET": 27
+  },
+  "canonical_rbwi_sha256": "a94b2ec00cf4ae9d24f77bb548e799ffac7fad3eb0e84198129e131121a74c0e",
+  "orphan_rows": 0,
+  "duplicate_global_row_ids": 0
+}

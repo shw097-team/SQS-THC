@@ -1,0 +1,26 @@
+{
+  "schema": "RBWI-PREOPEN-STEP/1",
+  "step_id": "D-07",
+  "title": "綁定 ScenarioTree",
+  "run_id": "RUN-RBWI-FULLRUN-20260820-001",
+  "candidate_id": "CAND-RBWI-20260814",
+  "segment_binding_id": "BIND-RBWI-Q1-20260820-001",
+  "trading_date": "2026-08-14",
+  "week": "2026-W33",
+  "generated_at": "2026-08-20T21:10+08:00",
+  "owner": "ROLE-SCENARIO-OWNER",
+  "checker": "ROLE-VALIDATION-OWNER",
+  "veto": "ROLE-CLAIM-VETO",
+  "purpose": "Daily 綁定 ScenarioTree (開盤前)",
+  "action": "只引用週 Scenario",
+  "inputs": {
+    "weekly_scenario": "W-07",
+    "transition_policy": "bound"
+  },
+  "outputs": "ScenarioTree ref",
+  "state_machine": "DRAFT->CHECKED->ACKED->ACTIVE",
+  "consumer_ack": true,
+  "reason_code": "D_COMPLETE",
+  "security_surface": "read-only data; no broker write",
+  "live_dependency": null
+}

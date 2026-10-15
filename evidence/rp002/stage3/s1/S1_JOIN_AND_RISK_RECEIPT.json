@@ -1,0 +1,95 @@
+{
+ "schema": "S1-JOIN-AND-RISK-RECEIPT/1",
+ "join": {
+  "pit_files": 263,
+  "universe_stocks": 263,
+  "pit_bars": 156005,
+  "universe_bars": 156005,
+  "regime": "CHOPPY_RISK_OFF_BASE",
+  "dates_covered": 594,
+  "join_consistent": true
+ },
+ "marca": {
+  "maker": "sqs-data-analysis (pit/regime/universe role workers)",
+  "checker": "sqs-data-analysis checker role (separate fresh context, L1 domain)",
+  "separation": "maker != final checker (L2 stays acceptance-officer)",
+  "verdict": "DOMAIN_L1_OK"
+ },
+ "risk": {
+  "checker": "sqs-risk",
+  "limits": [
+   {
+    "id": "limit-gross-exposure",
+    "metric": "gross_exposure",
+    "value": 0.0,
+    "max": 1.5,
+    "verdict": "WITHIN"
+   },
+   {
+    "id": "limit-net-exposure",
+    "metric": "net_exposure",
+    "value": 0.0,
+    "max": 0.8,
+    "verdict": "WITHIN"
+   },
+   {
+    "id": "limit-liquidity-usage",
+    "metric": "liquidity_usage",
+    "value": 0.0,
+    "max": 0.3,
+    "verdict": "WITHIN"
+   },
+   {
+    "id": "limit-stress-loss",
+    "metric": "stress_loss_pct",
+    "value": 0.0,
+    "max": 0.1,
+    "verdict": "WITHIN"
+   },
+   {
+    "id": "limit-concentration",
+    "metric": "max_position_pct",
+    "value": 0.0,
+    "max": 0.15,
+    "verdict": "WITHIN"
+   }
+  ],
+  "guards": [
+   {
+    "id": "guard-ruin-barrier",
+    "condition": "ruin_probability_bound >= 0.05",
+    "triggered": false,
+    "action": "NONE"
+   },
+   {
+    "id": "guard-unknown-exposure",
+    "condition": "unknown_exposure is unbounded",
+    "triggered": false,
+    "action": "NONE"
+   },
+   {
+    "id": "guard-fragility-mandate",
+    "condition": "fragility_score > 0.35",
+    "triggered": false,
+    "action": "NONE"
+   },
+   {
+    "id": "guard-blast-radius",
+    "condition": "max_single_position_pct > 0.15",
+    "triggered": false,
+    "action": "NONE"
+   },
+   {
+    "id": "guard-optionality",
+    "condition": "irreversible_action_proposed",
+    "triggered": false,
+    "action": "NONE"
+   }
+  ],
+  "verdict": "RISK_OK_NO_TRADE",
+  "note": "read-only paper decision support; no positions/orders; all hard limits WITHIN; no guard triggered; risk veto NOT issued"
+ },
+ "frozen_candidate": true,
+ "live_broker_writes": 0,
+ "unauthorized_side_effects": 0
+}

@@ -1,0 +1,32 @@
+{
+  "schema": "SQS-CSB-GSTACK-EVIDENCE/1",
+  "changeset": "CS-B-SQS-TWICT-WAVE2-FULL-PROJECT-CLOSURE",
+  "captured_at_utc": "2026-08-10T15:45:00Z",
+  "fresh": true,
+  "wave1_receipt_reused": false,
+  "router": "hg_kseos.named_methods.route",
+  "route_decision": {
+    "flow": "plan",
+    "provider": "gstack.plan-eng-review",
+    "state": "CERTIFIED",
+    "fallback": "hgk_native_plan_review"
+  },
+  "invocation": {
+    "mode": "headless advisory",
+    "skill_loaded": "gstack-plan-eng-review",
+    "sections_run": ["scope", "architecture", "data", "failure", "security", "test-coverage"],
+    "inputs": [
+      "實作執行/SQS_ROOT_LAYOUT_CROSSWALK.json",
+      "實作執行/SQS_SPARTOI_INTEGRATION_CROSSWALK.json",
+      "docs/WORKORDER_CONTRACT_TS-REF-01.md"
+    ],
+    "verdict": "NOT_READY (advisory)",
+    "findings": [
+      {"id": "F1", "severity": "P2", "topic": "canonical kernel namespace divergence — keep frozen-test fidelity"},
+      {"id": "F2", "severity": "P2", "topic": "ERR_PRODUCT_ID_COLLISION negative must use fresh registry per case"}
+    ],
+    "report": "evidence/review/GSTACK_CSB_WAVE2_PLAN_REVIEW_REPORT.md"
+  },
+  "final_authority": false,
+  "normative_state": "HG-KSEOS spine + canonical reducers remain the only release authority"
+}

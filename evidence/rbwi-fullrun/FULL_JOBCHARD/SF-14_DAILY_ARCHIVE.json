@@ -1,0 +1,93 @@
+{
+  "schema": "RBWI-SF-14-RECEIPT/1",
+  "sf": "SF-14",
+  "run_id": "RUN-RBWI-FULLRUN-20260820-001",
+  "candidate_id": "CAND-RBWI-20260814",
+  "outputs": {
+    "DailyArchive": {
+      "version_manifest": [
+        {
+          "path": "SF-00_RUNTIME_BOOTSTRAP.json",
+          "sha256": "33ee0b2410e2d796ea11f8ad16775d986255d75b34d0e36e77f43d54b0b4b31b",
+          "bytes": 1347
+        },
+        {
+          "path": "SF-01_WEEKLY_CONTEXT.json",
+          "sha256": "3a9799e41ebbc19bbe790ada8f7442f4a692987a37bcd89e94ea28cf938f08de",
+          "bytes": 994
+        },
+        {
+          "path": "SF-02_DAILY_FREEZE.json",
+          "sha256": "07a6574410a6f049da06b09982194215543d6b0e68c59297b0758e038ba327b2",
+          "bytes": 1150
+        },
+        {
+          "path": "SF-03_PREOPEN_CANDIDATE.json",
+          "sha256": "5749f53d35964772bfcaad8de6a744f501222b62e13422705543815ec3e65b95",
+          "bytes": 38250
+        },
+        {
+          "path": "SF-04_OPENING_SCENARIO.json",
+          "sha256": "f027065e982493c01bba20b1126fbf058e6e25129c613ad302cbdbc6a6f38252",
+          "bytes": 1169
+        },
+        {
+          "path": "SF-05_S1_OBSERVATION.json",
+          "sha256": "5256dbaa58110e4562dd4528f7db2640482aaa5c9b79154d51c96c568ba241e3",
+          "bytes": 2108
+        },
+        {
+          "path": "SF-06_S1_DECISION.json",
+          "sha256": "b410870a32a27ba91e26c14206a037662c85d8422421d74f49a04b0068c89bc7",
+          "bytes": 9439
+        },
+        {
+          "path": "SF-07_MIDDAY_REASSESS.json",
+          "sha256": "09a875046dec72cb48692aea6965ab0b9545e61ebf6ddcd0a8ab0203a288a957",
+          "bytes": 813
+        },
+        {
+          "path": "SF-08_S2_REFRESH.json",
+          "sha256": "d39aa8600a34e17fd64b8d270f9fa3bb26232d6feaf33aa945d1c20f99286683",
+          "bytes": 816
+        },
+        {
+          "path": "SF-09_S2_OBSERVATION.json",
+          "sha256": "8e9d5f77e9f4c1823a7019643eaa28b0789d1393cd4c072b246202cfcb97ae40",
+          "bytes": 1923
+        },
+        {
+          "path": "SF-10_S2_DECISION.json",
+          "sha256": "67e0b15326cb580575c01cec4bdd4a3988e4bf0d78c6d13e8ae7bef5ce9fb602",
+          "bytes": 1077
+        },
+        {
+          "path": "SF-11_POSITION_MGMT.json",
+          "sha256": "776d71750c99f4d37d5db52aa6391d6edd19998fe3ea6c3116a05a65d5fee216",
+          "bytes": 888
+        },
+        {
+          "path": "SF-12_CLOSE_RECONCILE.json",
+          "sha256": "82b64703dcdf9d06072e55ea14caa4e3f2a4159369e3e58850e278000b387d60",
+          "bytes": 860
+        },
+        {
+          "path": "SF-13_REPLAY.json",
+          "sha256": "4f68d96dc80e7e44a1405912cf9a9730ef63d717e2b98149f920219e2c1224d4",
+          "bytes": 852
+        }
+      ],
+      "count": 14,
+      "note": "evidence reduction: receipts only; raw daily layer immutable in backtest.duckdb",
+      "archive_dir": "C:\\Projects\\Agent_Workspace\\SQS-THC\\evidence\\rbwi-fullrun\\FULL_JOBCHARD"
+    }
+  },
+  "sim_clock": {
+    "mode": "SIM_FASTEST_ACCEL",
+    "trade_date": "2026-08-20",
+    "dataset": "DSV-DAILY-2026-08-21-r1",
+    "note": "full-automatic sim per user decision 2026-08-21; intraday measured = qualification-proxy; no FDA/XQ realtime"
+  },
+  "financial_boundary": "LOCAL_PAPER_SIMULATION_ONLY",
+  "broker_write": false
+}

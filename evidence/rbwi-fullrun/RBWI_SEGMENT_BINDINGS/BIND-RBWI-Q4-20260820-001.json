@@ -1,0 +1,31 @@
+{
+  "schema": "RBWI-SEGMENT-EXECUTION-BINDING/1",
+  "parent_run_id": "RUN-RBWI-FULLRUN-20260820-001",
+  "parent_workorder_id": "WO-RBWI-FULLRUN-001",
+  "segment_id": "Q4_CLOSE_POSTMARKET",
+  "segment_task_id": "K6b-sub-Q4",
+  "segment_execution_binding_id": "BIND-RBWI-Q4-20260820-001",
+  "child_workorder_id": {
+    "mode": "OPTIONAL_BY_CURRENT_HGK_SCHEMA",
+    "parent": "WO-RBWI-FULLRUN-001"
+  },
+  "kanban_board_id": "rbwi-fullrun-2026-08-14",
+  "candidate_id": "CAND-RBWI-20260814",
+  "canonical_rbwi_hash": "a94b2ec00cf4ae9d24f77bb548e799ffac7fad3eb0e84198129e131121a74c0e",
+  "overlay_path_hash": "ab1630944d27dbb332907c2e2cb0e0f195a83342292d1abb437935d1b72af8d0",
+  "thin_prompt_path_hash": "36b9ae87a309d4dd1257875364160d6687d3bc02599b654b987d0c218e22dab5",
+  "segment_denominator_path": "SEGMENT_DENOMINATOR_Q4_CLOSE_POSTMARKET.tsv",
+  "segment_denominator_digest": "PENDING_AT_SEGMENT_ADMISSION",
+  "execution_binding_receipt": "REQ-BIND-Q4-20260820-001",
+  "admission_receipt": "ADM-BIND-Q4-20260820-001",
+  "resume_key": "BIND-RBWI-Q4-20260820-001",
+  "generated_at": "2026-08-20T20:50+08:00",
+  "status": "BOUND_PENDING_Q3_FROZEN",
+  "note": "close/reconcile/replay/archive boundary",
+  "hitl_approval": "REQUIRED_HITL-APPROVAL/1 at runtime",
+  "financial_auth": {
+    "live_broker": "NOT_AUTHORIZED",
+    "account_mode": "PAPER_ONLY",
+    "order_path": "HITL_ONLY"
+  }
+}

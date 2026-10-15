@@ -1,0 +1,26 @@
+{
+  "schema": "SQS-THC-KANBAN-EVIDENCE/1",
+  "reference_project_id": "HGK-REFERENCE-PROJECT-001",
+  "runtime": "Hermes v0.20.0 canonical (var/hermes-v020/venv/Scripts/hermes.exe)",
+  "board": "sqs-thc-ref-001",
+  "board_db": "C:\\Users\\user\\AppData\\Local\\hermes\\kanban\\boards\\sqs-thc-ref-001\\kanban.db",
+  "task_count": 15,
+  "tasks": [
+    {"task_id": "t_9ee57ed7", "title": "TS-REF-01: SQS-THC P0-CIP TaskSpec family construction", "status": "ready"},
+    {"task_id": "t_232e788b", "title": "TS-REF-02: SQS-THC P0-CIP TaskSpec family construction", "status": "ready"},
+    {"task_id": "t_74964888", "title": "TS-REF-03: SQS-THC P0-CIP TaskSpec family construction", "status": "ready"},
+    {"task_id": "t_5e4ad56b", "title": "TS-REF-04: SQS-THC P0-CIP TaskSpec family construction", "status": "ready"},
+    {"task_id": "t_fd5a3c2a", "title": "TS-REF-05: SQS-THC P0-CIP TaskSpec family construction", "status": "ready"},
+    {"task_id": "t_98d8e098", "title": "TS-REF-06: SQS-THC P0-CIP TaskSpec family construction", "status": "ready"},
+    {"task_id": "t_0fd6d4c3", "title": "TS-REF-07: SQS-THC P0-CIP TaskSpec family construction", "status": "ready"},
+    {"task_id": "t_457ea512", "title": "TS-REF-08: SQS-THC P0-CIP TaskSpec family construction", "status": "ready"},
+    {"task_id": "t_b2b39328", "title": "TS-REF-09: SQS-THC P0-CIP TaskSpec family construction", "status": "ready"},
+    {"task_id": "t_8522a03b", "title": "TS-REF-10: SQS-THC P0-CIP TaskSpec family construction", "status": "ready"},
+    {"task_id": "t_49b1d3c7", "title": "TS-REF-11: SQS-THC P0-CIP TaskSpec family construction", "status": "ready"},
+    {"task_id": "t_832c1dd2", "title": "TS-REF-12: SQS-THC P0-CIP TaskSpec family construction", "status": "ready"},
+    {"task_id": "t_a173d391", "title": "TS-REF-13: SQS-THC P0-CIP TaskSpec family construction", "status": "ready"},
+    {"task_id": "t_d94d040f", "title": "TS-REF-14: SQS-THC P0-CIP TaskSpec family construction", "status": "ready"},
+    {"task_id": "t_859e4328", "title": "TS-REF-15: SQS-THC P0-CIP TaskSpec family construction", "status": "ready"}
+  ],
+  "captured_at_utc": "2026-08-10T11:50:00Z"
+}

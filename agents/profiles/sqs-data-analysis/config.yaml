@@ -1,0 +1,11 @@
+profile_id: sqs-data-analysis
+stack_id: SQS_FINANCIAL
+runtime:
+  engine: hermes
+  toolset: ["terminal", "file", "python"]
+  model_provider_route:
+    provider: opencode-go
+    model: deepseek-v4-flash
+    fallback: false
+terminal_cwd_policy: BOUNDED
+secrets_policy: deny_by_default

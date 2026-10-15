@@ -1,0 +1,15 @@
+schema: RP002-RESUME-CHECKPOINT/1
+project_id: HGK-REFERENCE-PROJECT-002
+stage_id: RP002-STAGE-SQS
+task: OBSIDIAN_FINAL_EVIDENCE_CLOSURE (S3-EXT-001)
+s3_ext_001_state: CLOSED_LOCAL
+obsidian_projection: PRESENT_AND_SUBJECT_BOUND
+obsidian_human_visibility: PASS
+l2_recheck: PASS 15/15
+meta_check: PENDING (deleg_644d1cb6)
+child_reducer_rerun: STAGE3_SQS_PASS_ELIGIBLE_FOR_MASTER_R1_REDUCTION
+master_reducer_rerun: RP002_LOCAL_ACCEPTANCE_PASS (LOCAL_ONLY)
+next_action: final MD regeneration + mirrors + hash receipt + STOP_FOR_EXTERNAL_FINAL_META_REVIEW
+resume_token: RESUME:RP002_STAGE3_OBSIDIAN_CLOSURE_REVIEW
+idempotency_key: S3-OBS-CLOSURE-20260813
+observed_at: 2026-08-13T03:20:00+08:00

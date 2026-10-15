@@ -1,0 +1,11 @@
+# POSITIVE fixture — valid mission mirror (TS-007 / ART-07).
+mission_id: sqs-thc-mission-fixture-valid-001
+schema_version: 1.0.0
+mission_name: TW-ICT Investment Mission (fixture)
+owner_id: Investment Mission and Universe Owner
+source_locator: SSOT/SQS-THC_P0-CIP-PACK_v2026.08.06-r2.md#CH18
+mandate:
+  - Research universe confined to TW-ICT tradable securities
+claim_ceiling: LOCAL_DELIVERY
+non_goals:
+  - NO_BROKER_WRITE

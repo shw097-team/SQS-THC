@@ -1,0 +1,15 @@
+{
+  "checker": "PREOPEN_COVERAGE_INDEPENDENT_VERIFY_2026-08-20",
+  "lane": "fresh-context verify (deleg_2519fb9c)",
+  "verdict": "PASS",
+  "blocking": [],
+  "items_checked": 5,
+  "covered": [
+    "canonical_preopen_ID_set_25",
+    "22_receipts_substantive",
+    "coverage_25_25",
+    "checkpoint_binding_100",
+    "3_root_mirror_byte_identical"
+  ],
+  "recorded_at": "2026-08-20T21:05+08:00"
+}

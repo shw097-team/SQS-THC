@@ -1,0 +1,50 @@
+{
+ "schema": "SQS-WAVE4-G3-MODEL-RISK-LEDGER/1",
+ "dataset_version": "DSV-2026-08-11-r1 (immutable, unchanged by G2 quarantine)",
+ "captured_at_utc": "2026-08-11T04:21:55.791681+00:00",
+ "ledger": [
+  {
+   "item": "walk_forward",
+   "verdict": "PASS",
+   "source_locator": "data_plane/src/qualify_backtest_db.py (is_oos_separation is=1,418,364 oos=1,374,859)",
+   "evidence": "G3_BACKTEST_DB_QUALIFIED exit 0; IS/OOS split deterministic",
+   "applicability": "REQUIRED"
+  },
+  {
+   "item": "embargo",
+   "verdict": "SOURCE_VALID_NOT_APPLICABLE",
+   "source_locator": "P0-CIP backtest method contracts; no strategy spec requires embargo",
+   "evidence": "no current strategy/signal spec declares embargo window",
+   "applicability": "CONDITIONAL_NOT_TRIGGERED"
+  },
+  {
+   "item": "transaction_cost",
+   "verdict": "PASS",
+   "source_locator": "reducers/book-of-record.yaml + schemas/execution-fact.schema.json",
+   "evidence": "cost inputs (price/qty/fees model) declared in execution-fact schema; book-of-record reduces deterministically",
+   "applicability": "REQUIRED"
+  },
+  {
+   "item": "slippage",
+   "verdict": "SOURCE_VALID_NOT_APPLICABLE",
+   "source_locator": "TW-ICT_RBWI_v3.0.0_r2 (no venue micro-structure contract in local-delivery scope)",
+   "evidence": "no live fill model required; Shioaji SIM not authorized",
+   "applicability": "CONDITIONAL_NOT_TRIGGERED"
+  },
+  {
+   "item": "tca",
+   "verdict": "SOURCE_VALID_NOT_APPLICABLE",
+   "source_locator": "TW-ICT_RBWI_v3.0.0_r2 (TCA requires broker fills; broker write forbidden)",
+   "evidence": "LIVE_BROKER_WRITE_FORBIDDEN invariant; no fills to analyze",
+   "applicability": "CONDITIONAL_NOT_TRIGGERED"
+  }
+ ],
+ "summary": {
+  "walk_forward": "PASS",
+  "embargo": "SOURCE_VALID_NOT_APPLICABLE",
+  "transaction_cost": "PASS",
+  "slippage": "SOURCE_VALID_NOT_APPLICABLE",
+  "tca": "SOURCE_VALID_NOT_APPLICABLE"
+ },
+ "claim": "backtest database is usable for the project backtest contract; no strategy profitability claim made"
+}

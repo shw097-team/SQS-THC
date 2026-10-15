@@ -1,0 +1,20 @@
+# DEPRECATION RECORDS - deprecation/records.yaml (TS-013 / ART-13).
+# Each record carries id, the deprecated artifact and the reason; a missing
+# required field is rejected (fail-closed). Deprecation never deletes source
+# or evidence history (SPEC-31).
+deprecation_id: deprecation-records-ts013
+schema_version: "1.0.0"
+spec_ref: TS-013/SPEC-31
+records:
+  - id: DEP-013-001
+    artifact: legacy-provisional-ledger
+    reason: superseded by canonical append-only ledger single truth
+  - id: DEP-013-002
+    artifact: provisional-release-views
+    reason: superseded by gate-checked release manifest
+  - id: DEP-013-003
+    artifact: adhoc-nrtv-copies
+    reason: superseded by nrtv-gated training packets
+  - id: DEP-013-004
+    artifact: adhoc-training-copies
+    reason: superseded by controlled learning register

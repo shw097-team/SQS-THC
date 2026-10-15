@@ -1,0 +1,20 @@
+{
+  "lane": "SSOT-ALIGNMENT",
+  "delegation_id": "deleg_f677317d",
+  "verdict": "PARTIALLY-ALIGNED",
+  "aligned": [
+    {"id":"A1-AUTH","note":"single HG-KSEOS control plane, single canonical RBWI, SQS financial truth owner, no 2nd orchestrator (A1)","locator":"TW-ICT_FSDT-Stack_藍圖_r2 L105/L124-133; SQS-THC_藍圖_r2 L45/L210-211/L393; MASTER overlay L105/L117-139"},
+    {"id":"A2-METH","note":"Q1..Q4 segment->SF-01..14 mapping correct; DOC-14 Slow/Fast Loop + Daily Freeze aligned","locator":"TW-ICT_RBWI_v3.0.0_r2 L3356-3569; OVERLAY L103-115; DOC-14_r3 L34/L188/L928"},
+    {"id":"A3-RISK","note":"NO-LIVE-WRITE, PAPER-only, HITL honest: filled==0, broker_write=false, HITL NOT_MINTED, no over-claim","locator":"SINGLE_EVIDENCE L8/L14/L16/L57-59; OVERLAY L131-134; SQS DOC-01 L274/L324"},
+    {"id":"A4-EVID","note":"single evidence MD primary home + 3-root byte-identical + AO VERIFY_ONLY PASS; DOC-27/29 evidence/NRTV alignment","locator":"SINGLE_EVIDENCE L31/L46-58; SWARM_RECEIPT L15/L21; DOC-27_r2 L27-28/L48; DOC-29_r2 L36/L56"}
+  ],
+  "drifts_or_gaps": [
+    {"id":"G1","severity":"HIGH","note":"no final clean-chain E2E at review time (only Q2/Q3/Q4 SIM frozen); now addressed by FINAL_CLEAN_E2E.json (SIM-level) — live still PENDING","locator":"OVERLAY L105/L156-157/L718; RUN_LEDGER L8-12"},
+    {"id":"G2","severity":"MEDIUM","note":"完整實跑 vs SIM-only: Q2-Q4 SIM fastest-accel (qualification-level) not live/PAPER realtime","locator":"SINGLE_EVIDENCE L14-17; SQS-THC_藍圖_r2 L21-23/L69-71; OVERLAY §12"},
+    {"id":"G3","severity":"MEDIUM","note":"minutes-layer/fills = qualification-proxy (intraday/market_watch/paper_fill), below DOC-28 TCA fact-tier / DOC-27 evidence completeness","locator":"RUN_LEDGER L8; DOC-28_r2 L390-394; SINGLE_EVIDENCE L17"},
+    {"id":"G4","severity":"LOW","note":"Spartoi 08-21 not re-run at review time (Q1/W34 carried forward) — NOW CLOSED by this session's Spartoi re-run (sf01/02/03/13/14 fresh 08-21 artifacts)","locator":"RUN_LEDGER L7"},
+    {"id":"G5","severity":"LOW","note":"formal NRTV still NOT_RUN; needs live segment + final E2E + formal NRTV to claim full-chain ALIGNED","locator":"DOC-27_r2 L28"}
+  ],
+  "summary": "Authority/architecture, NO-LIVE-WRITE/HITL, and evidence/NRTV handling are ALIGNED with SSOT and claim-ceiling honest (SIM did not over-claim live). Drift is execution depth: SIM qualification-level only, no live window, fills proxy — needs live+PAPER segment + final E2E + formal NRTV for full-chain ALIGNED. G1 (final E2E) and G4 (Spartoi) since addressed/closed this session at SIM/evidence level.",
+  "recorded_at": "2026-08-21T12:24+08:00"
+}

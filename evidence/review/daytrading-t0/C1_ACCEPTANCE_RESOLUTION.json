@@ -1,0 +1,10 @@
+{
+  "C1_status": {
+    "lane0": "PASS_CONSISTENT (重跑 hash b9e5481d 一致; 但驗舊版 3061/-5.98, PIT-fix 前)",
+    "lane1": "BLOCKED(掃描時 C1 receipt 未落盤 evidence) -> 已由 maker 補複製 6300ff23+PIT-fix, 已補正",
+    "codex": "CONCERNS(PIT leak 全日成交額)->已修開盤15分",
+    "final_receipt": "PIT-clean gross IS-10.39/OOS-9.23bp (2296 trades, sha 6300ff23), REJECTED, paper NOT_INITIATED",
+    "resolved": "C1 證據已在 evidence+3root mirror byte-identical; conclusions robust (PIT-fix 後更負)"
+  },
+  "recorded": "2026-08-21T12:20+08:00"
+}

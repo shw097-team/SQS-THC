@@ -1,0 +1,43 @@
+{
+  "schema": "RBWI-SF-10-RECEIPT/1",
+  "sf": "SF-10",
+  "run_id": "RUN-RBWI-FULLRUN-20260820-001",
+  "candidate_id": "CAND-RBWI-20260814",
+  "outputs": {
+    "S2_SetupQualification": {
+      "qualified": 50,
+      "sample": [
+        "1101",
+        "1102",
+        "1218",
+        "1229",
+        "1303",
+        "1326",
+        "1402",
+        "1532"
+      ]
+    },
+    "IndependentRisk": {
+      "mode": "fresh SF-15 (no S1 reuse)",
+      "vetoed": 3
+    },
+    "HITL_Approval": {
+      "minted": false,
+      "ref": "REQUIRED_HITL-APPROVAL/1 not-minted"
+    },
+    "CutoffEvent": {
+      "enforced": true,
+      "at": "13:10 sim",
+      "post_cutoff_state": "MANAGE_ONLY"
+    }
+  },
+  "sim_clock": {
+    "mode": "SIM_FASTEST_ACCEL",
+    "trade_date": "2026-08-20",
+    "dataset": "DSV-DAILY-2026-08-21-r1",
+    "note": "full-automatic sim per user decision 2026-08-21; intraday measured = qualification-proxy; no FDA/XQ realtime"
+  },
+  "financial_boundary": "LOCAL_PAPER_SIMULATION_ONLY",
+  "broker_write": false,
+  "filled": 0
+}

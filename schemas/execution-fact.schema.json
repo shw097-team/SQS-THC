@@ -1,0 +1,45 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "schemas/execution-fact.schema.json",
+  "title": "ExecutionFact",
+  "description": "Execution fact schema (TS-010 / ART-10, CH29 / MC-25). A fact is an immutable, append-only external broker/clearing truth record - never an order intent, a submit attempt, or a derived projection. Required fields: fact_id, ts, side, qty, price, status.",
+  "type": "object",
+  "properties": {
+    "fact_id": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Unique, immutable execution fact identifier."
+    },
+    "ts": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Broker/clearing observation timestamp (ISO 8601)."
+    },
+    "side": {
+      "enum": ["BUY", "SELL"],
+      "description": "Execution side."
+    },
+    "qty": {
+      "type": "number",
+      "exclusiveMinimum": 0,
+      "description": "Executed quantity, strictly positive."
+    },
+    "price": {
+      "type": "number",
+      "exclusiveMinimum": 0,
+      "description": "Execution price, strictly positive."
+    },
+    "status": {
+      "enum": ["FILLED", "PARTIAL", "REJECTED", "CANCELLED", "UNKNOWN"],
+      "description": "Execution status; UNKNOWN is the fail-closed value and never auto-promotes."
+    }
+  },
+  "required": ["fact_id", "ts", "side", "qty", "price", "status"],
+  "additionalProperties": false,
+  "meta": {
+    "spec_ref": "TS-010/CH29",
+    "artifact": "ART-10",
+    "append_only": true,
+    "single_truth": true
+  }
+}

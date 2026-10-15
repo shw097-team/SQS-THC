@@ -1,0 +1,11 @@
+schema: RP002-STAGE3-CROSSWALK-OUTPUT/1
+output_id: SQS_PROFILE_TEAM_RUNTIME
+persistent_profiles: 3
+stack_manifest_sha256: 6f5ea69c20216772b143008e904e96760221406175d1df1e19e7baed51298cbd
+team_sha256: 2b4226f4eff000d506d74e6461d5ba5b488b00c29036f573dff46fc001ca95a5
+runtime_pack_sha256: ec4245d5a5d57a525045f6c34b5a51371fd0942a89112db2d6c65222e7e75ca6
+profiles:
+  sqs-orchestrator: {"distribution_sha256": "897aa70208cf29f6feaace75af587c30f1677d62f35452e2fbad5c4d2457c5f8", "soul_sha256": "62b22fc06f0c5022c6ce39620f368275b57a40d0743f504a669f9116b34d1299", "config_sha256": "b0c47599e2bafbeeadf07619668876beef8b6912c626d1eecda409f4d3baa89f", "runtime_contract": "README.runtime-contract.md"}
+  sqs-data-analysis: {"distribution_sha256": "f7e7c9a4951fb178f810092972da5aed71f5b2176ceee23040a3993ffe3b907f", "soul_sha256": "759f74dc66fb67e85fa0e335cbe1aa576ea13690451274c2c2c1b9e68873a026", "config_sha256": "ca9e183ffecf7b06eec40ca5f2426539f3dd5ef9fe2108631fdba63e9b298ca6", "runtime_contract": "README.runtime-contract.md"}
+  sqs-risk: {"distribution_sha256": "f9dceff3bb35951d100e7a1380bd9403ca7dd27f39f8e6a2f5bf410c9d69f2fc", "soul_sha256": "3842658ad4a794378d345c877241d3d07fac8bf2b3e5f63d95b55ea4bb412d1b", "config_sha256": "b8fef534658d17a751325d6cbf21ce31eefc1b8817dfa8cafd489d865ef6db07", "runtime_contract": "README.runtime-contract.md"}
+effective_load: PASS (L2 acceptance-officer-L2-sqp1 10/10; fresh-session canaries)

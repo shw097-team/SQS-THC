@@ -1,0 +1,11 @@
+{
+  "vi_risk": [
+    "SCAN_PENDING_LIVE_XQ"
+  ],
+  "disposition": [
+    "SCAN_PENDING_LIVE_XQ"
+  ],
+  "price_limit_10pct": true,
+  "live_preopen_note": "平衡價/委比需 Q2 XQ live window",
+  "qualification": "daily-close-proxy"
+}

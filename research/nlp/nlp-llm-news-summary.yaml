@@ -1,0 +1,6 @@
+# NLP ASSET - financial LLM news summarization (TS-008 / ART-08, CH23).
+id: nlp-llm-news-summary
+schema_version: 1.0.0
+source: SSOT/SQS-THC_P0-CIP-PACK_v2026.08.06-r2.md#CH23
+purpose: Deterministic extractive summary of earnings and shipment announcements
+kind: FINANCIAL_LLM

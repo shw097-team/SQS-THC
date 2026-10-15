@@ -1,0 +1,4 @@
+# VALIDATION RUN - Talebian survival guards (CH26, MC-23).
+id: validation-run-ch26-001
+spec_ref: TS-009/CH26
+result: PASS

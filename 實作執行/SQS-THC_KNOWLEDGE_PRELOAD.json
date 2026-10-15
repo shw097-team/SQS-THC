@@ -1,0 +1,3070 @@
+{
+ "schema": "SQS-THC-KNOWLEDGE-PRELOAD/1",
+ "reference_project_id": "HGK-REFERENCE-PROJECT-001",
+ "verifier": "INDEPENDENT_KNOWLEDGE_VERIFIER_G05",
+ "per_file": [
+  {
+   "path": "SSOT\\RBWI_WP_CONTROL_PACK\\G01_Authority_Product_Financial_Core.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-a4dfee34bdae2c533b0e",
+   "candidate_id": "CAND-8ec1dd1eb6ef6a31",
+   "doc_id": "DOC-658cc2351a47c882a6d5",
+   "unit_id": "UNIT-b73baea850180157f725"
+  },
+  {
+   "path": "SSOT\\RBWI_WP_CONTROL_PACK\\G02_Taiwan_Data_Research_ICT_Risk.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-db948e7c69f10bb7ff93",
+   "candidate_id": "CAND-2e1fb12901342c88",
+   "doc_id": "DOC-494679e5f8bf5888d635",
+   "unit_id": "UNIT-bfad05b40e0f7d690cfe"
+  },
+  {
+   "path": "SSOT\\RBWI_WP_CONTROL_PACK\\G03_RBWI_Execution_Agent_Harness.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-7b9efaf9207cbfcdee8d",
+   "candidate_id": "CAND-3d57b4ea3f007658",
+   "doc_id": "DOC-eb4f6c0e69a7049260b3",
+   "unit_id": "UNIT-b05de31d6cc45c50d614"
+  },
+  {
+   "path": "SSOT\\RBWI_WP_CONTROL_PACK\\G04_Quant_Validation_Model_Risk.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-1d9d256451e64f3471e9",
+   "candidate_id": "CAND-a6fdefd2d21ecfec",
+   "doc_id": "DOC-949644f96c88087613b7",
+   "unit_id": "UNIT-3aafc313410e4218e52a"
+  },
+  {
+   "path": "SSOT\\RBWI_WP_CONTROL_PACK\\G05_Assurance_Knowledge_Recovery.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-a1e01f19ccb6de9a971a",
+   "candidate_id": "CAND-2bfec28a2e0f2178",
+   "doc_id": "DOC-87dec0fdf688a0b95de2",
+   "unit_id": "UNIT-acdb843424ebff78d46a"
+  },
+  {
+   "path": "SSOT\\RBWI_WP_CONTROL_PACK\\G06_Learning_Evidence_Release.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-46172deee832b42a109f",
+   "candidate_id": "CAND-80ac99e2598c5971",
+   "doc_id": "DOC-702f295c19030ac6afee",
+   "unit_id": "UNIT-6408c9eab16b3874090f"
+  },
+  {
+   "path": "SSOT\\RBWI_WP_CONTROL_PACK\\G07_Tool_Provider_PRW_Windows.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-111a5a03ea9dc89f1d51",
+   "candidate_id": "CAND-59b1eeb43cdf9805",
+   "doc_id": "DOC-15d186cd2bd56c2f6b12",
+   "unit_id": "UNIT-4025244a7e2dd61e3b41"
+  },
+  {
+   "path": "SSOT\\SQS-THC_P0-CIP-PACK_v2026.08.06-r2.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-0d7c38267632a23f02e4",
+   "candidate_id": "CAND-7b0740264b053417",
+   "doc_id": "DOC-fca5acd7657404e4c2bb",
+   "unit_id": "UNIT-df88a3107e4d9db60d75"
+  },
+  {
+   "path": "SSOT\\TW-ICT_FSDT-Stack_P0-CIP-PACK_v2026.08.06-rFINAL-r2.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-cd1b90d70fc2a161fff1",
+   "candidate_id": "CAND-a54cb75f59faf294",
+   "doc_id": "DOC-7e59e797eb1903cd9799",
+   "unit_id": "UNIT-d3681adb6fc37e038d4c"
+  },
+  {
+   "path": "SSOT\\實作前開發文檔\\SQS-THC_TW-ICT_FSDT-Stack_實作前開發文檔包_v2026.08.09-r2_G01_產品金融核心與執行正文.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-322161904817f21e1521",
+   "candidate_id": "CAND-9ab8df9b3c889e5c",
+   "doc_id": "DOC-3b0abeb829fedb537b5a",
+   "unit_id": "UNIT-1e857ddd2a6ead5bd4b7"
+  },
+  {
+   "path": "SSOT\\實作前開發文檔\\SQS-THC_TW-ICT_FSDT-Stack_實作前開發文檔包_v2026.08.09-r2_G02_工程契約工具技術供體與施工登錄.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-67acf69a05830b00abaf",
+   "candidate_id": "CAND-862f0e9fa28f830f",
+   "doc_id": "DOC-9176bdad36f360d34f1a",
+   "unit_id": "UNIT-294e14a8c811ccb9fd5f"
+  },
+  {
+   "path": "SSOT\\實作前開發文檔\\SQS-THC_TW-ICT_FSDT-Stack_實作前開發文檔包_v2026.08.09-r2_G03_追溯驗收移交與Readback.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-3f1d00cf5f1507285119",
+   "candidate_id": "CAND-a4d811b8fe83cf1a",
+   "doc_id": "DOC-116c61cb8817f3eca0ec",
+   "unit_id": "UNIT-07fa296389eb1da4814e"
+  },
+  {
+   "path": "技術資料庫\\SQS-THC_工程開發文檔\\SQS-THC_工程開發文檔_DOC-00_2026-08-04_r2.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-db2d911f1cad03a43477",
+   "candidate_id": "CAND-3c382708928c07aa",
+   "doc_id": "DOC-9fa3dcf4cd74b92ad27d",
+   "unit_id": "UNIT-bdf0615bfb604aaed0ec"
+  },
+  {
+   "path": "技術資料庫\\SQS-THC_工程開發文檔\\SQS-THC_工程開發文檔_DOC-01_2026-08-04_r2.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-cd29f9afe23ff04566ba",
+   "candidate_id": "CAND-452c8a4e3dc3284f",
+   "doc_id": "DOC-1c00cf185209aff41e14",
+   "unit_id": "UNIT-a803aade30d1236547a1"
+  },
+  {
+   "path": "技術資料庫\\SQS-THC_工程開發文檔\\SQS-THC_工程開發文檔_DOC-02_2026-08-04_r2.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-2df0c1af385a048a4d31",
+   "candidate_id": "CAND-4bfed88c96e68a6c",
+   "doc_id": "DOC-22d4c626999e945c441d",
+   "unit_id": "UNIT-f0008b129e73e0cb96f8"
+  },
+  {
+   "path": "技術資料庫\\SQS-THC_工程開發文檔\\SQS-THC_工程開發文檔_DOC-03_2026-08-04_r2.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-244853748769d3c9a5d0",
+   "candidate_id": "CAND-5930a8cc5eddd8b7",
+   "doc_id": "DOC-b3d56dd38ff74801b086",
+   "unit_id": "UNIT-e3e18504eab7676a042d"
+  },
+  {
+   "path": "技術資料庫\\SQS-THC_工程開發文檔\\SQS-THC_工程開發文檔_DOC-04_2026-08-04_r2.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-a4f736f084118f36d6a4",
+   "candidate_id": "CAND-85f5716fe8e94ea4",
+   "doc_id": "DOC-0f7534f9a5961c2e8a9f",
+   "unit_id": "UNIT-1b29cf107810222dfc42"
+  },
+  {
+   "path": "技術資料庫\\SQS-THC_工程開發文檔\\SQS-THC_工程開發文檔_DOC-05_2026-08-04_r2.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-3834a10efbe26def560b",
+   "candidate_id": "CAND-269da525f309540e",
+   "doc_id": "DOC-574187028a60cb362c82",
+   "unit_id": "UNIT-27fd9fc3158fa83ac90b"
+  },
+  {
+   "path": "技術資料庫\\SQS-THC_工程開發文檔\\SQS-THC_工程開發文檔_DOC-06_2026-08-04_r2.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-d18930b18aecabb2a8ef",
+   "candidate_id": "CAND-418a0260d94a4884",
+   "doc_id": "DOC-827964abb1c1a87aad72",
+   "unit_id": "UNIT-a8768069f2f2b158c1e4"
+  },
+  {
+   "path": "技術資料庫\\SQS-THC_工程開發文檔\\SQS-THC_工程開發文檔_DOC-07_2026-08-04_r2.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-a01f83c4cbbce1ddb012",
+   "candidate_id": "CAND-4693e707221c08fd",
+   "doc_id": "DOC-84d4548492a160383361",
+   "unit_id": "UNIT-77df14a1734a213ed6b5"
+  },
+  {
+   "path": "技術資料庫\\SQS-THC_工程開發文檔\\SQS-THC_工程開發文檔_DOC-08_2026-08-04_r2.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-5200271c7af1c9fed5d7",
+   "candidate_id": "CAND-33888fb1e73aed93",
+   "doc_id": "DOC-480476881076ba746f0a",
+   "unit_id": "UNIT-489daf7b8a8a61c64b88"
+  },
+  {
+   "path": "技術資料庫\\SQS-THC_工程開發文檔\\SQS-THC_工程開發文檔_DOC-09_2026-08-04_r2.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-09494ac68030174b03d4",
+   "candidate_id": "CAND-002e4021e35f7386",
+   "doc_id": "DOC-5c6641793673c38b264d",
+   "unit_id": "UNIT-b67a517e2e81e1eb64a7"
+  },
+  {
+   "path": "技術資料庫\\SQS-THC_工程開發文檔\\SQS-THC_工程開發文檔_DOC-10_2026-08-04_r2.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-4d9eba36c4ef90e6111c",
+   "candidate_id": "CAND-cc66987d8f47ca08",
+   "doc_id": "DOC-12b257bd31368b369efd",
+   "unit_id": "UNIT-d532b6209070491bd510"
+  },
+  {
+   "path": "技術資料庫\\SQS-THC_工程開發文檔\\SQS-THC_工程開發文檔_DOC-11_2026-08-04_r2.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-cdeb06eefc2dacac6d39",
+   "candidate_id": "CAND-5f14c7baf3e80b0c",
+   "doc_id": "DOC-e5ced1a5ebb0607e4a4a",
+   "unit_id": "UNIT-95a4d0535c37d2f5a13c"
+  },
+  {
+   "path": "技術資料庫\\SQS-THC_工程開發文檔\\SQS-THC_工程開發文檔_DOC-12_2026-08-04_r2.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-628042692d83a2b728fd",
+   "candidate_id": "CAND-8868a7f5af89cd25",
+   "doc_id": "DOC-564a67d2a84e57c44907",
+   "unit_id": "UNIT-e8d8a0ff1e4130a0ab21"
+  },
+  {
+   "path": "技術資料庫\\TW-ICT_FSDT-Stack_專業技術文檔\\TW-ICT_FSDT-Stack_專業技術文檔_DOC-00_2026-07-31_r2.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-04e0e3071127ef0bc8d3",
+   "candidate_id": "CAND-4ad5a62bf24955b9",
+   "doc_id": "DOC-3cc2e61c1cdebaf7ce26",
+   "unit_id": "UNIT-921dd1998eb42af1ee8a"
+  },
+  {
+   "path": "技術資料庫\\TW-ICT_FSDT-Stack_專業技術文檔\\TW-ICT_FSDT-Stack_專業技術文檔_DOC-01_2026-07-31_r3.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-410dab9ad0c18720d4aa",
+   "candidate_id": "CAND-a386652b77c76997",
+   "doc_id": "DOC-46c4a06f966645c201ab",
+   "unit_id": "UNIT-4f22ba4669dd34beaf13"
+  },
+  {
+   "path": "技術資料庫\\TW-ICT_FSDT-Stack_專業技術文檔\\TW-ICT_FSDT-Stack_專業技術文檔_DOC-02_2026-07-31_r3.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-0ccaad683490348dd31a",
+   "candidate_id": "CAND-8e55217da692cb17",
+   "doc_id": "DOC-ab539bf3b65bd660c8a6",
+   "unit_id": "UNIT-256f4f2f1e52dc090cd5"
+  },
+  {
+   "path": "技術資料庫\\TW-ICT_FSDT-Stack_專業技術文檔\\TW-ICT_FSDT-Stack_專業技術文檔_DOC-03_2026-07-31_r2.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-fa7cb4385785df19285c",
+   "candidate_id": "CAND-e6a740eb12256ced",
+   "doc_id": "DOC-8cdffafd91b4766e9f42",
+   "unit_id": "UNIT-5fa3f960418e28983719"
+  },
+  {
+   "path": "技術資料庫\\TW-ICT_FSDT-Stack_專業技術文檔\\TW-ICT_FSDT-Stack_專業技術文檔_DOC-04_2026-07-31_r3.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-9cb79be47f648bca6fbc",
+   "candidate_id": "CAND-7088529fb73cd54b",
+   "doc_id": "DOC-aae77f81c165fac2d3f7",
+   "unit_id": "UNIT-b9a452ed2b241679ce12"
+  },
+  {
+   "path": "技術資料庫\\TW-ICT_FSDT-Stack_專業技術文檔\\TW-ICT_FSDT-Stack_專業技術文檔_DOC-05_2026-07-31_r2.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-ae68fa557dd5591f9139",
+   "candidate_id": "CAND-9377ac629163ee96",
+   "doc_id": "DOC-271c878d5443cfa93e00",
+   "unit_id": "UNIT-65d773d076b3b59987f1"
+  },
+  {
+   "path": "技術資料庫\\TW-ICT_FSDT-Stack_專業技術文檔\\TW-ICT_FSDT-Stack_專業技術文檔_DOC-06_2026-07-31_r2.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-3cd6e70cef7047d89963",
+   "candidate_id": "CAND-5d337827d2e8a5cd",
+   "doc_id": "DOC-f2a86a98f9015d3731e9",
+   "unit_id": "UNIT-7e44559a7309413706ec"
+  },
+  {
+   "path": "技術資料庫\\TW-ICT_FSDT-Stack_專業技術文檔\\TW-ICT_FSDT-Stack_專業技術文檔_DOC-07_2026-07-31_r2.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-b36f9d2615d30e0b1df9",
+   "candidate_id": "CAND-b3882ebc886c06a0",
+   "doc_id": "DOC-6aaa252e2b96b689e847",
+   "unit_id": "UNIT-96bcd86132d22c87f429"
+  },
+  {
+   "path": "技術資料庫\\TW-ICT_FSDT-Stack_專業技術文檔\\TW-ICT_FSDT-Stack_專業技術文檔_DOC-08_2026-07-31_r2.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-daa1dfaa0f3565929fb5",
+   "candidate_id": "CAND-661e842cb993d89f",
+   "doc_id": "DOC-7106b271cd32ddd5a059",
+   "unit_id": "UNIT-38f65ba8a05624178adc"
+  },
+  {
+   "path": "技術資料庫\\TW-ICT_FSDT-Stack_專業技術文檔\\TW-ICT_FSDT-Stack_專業技術文檔_DOC-09_2026-07-31_r2.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-f4c7340f8eaf812d2313",
+   "candidate_id": "CAND-89aa3fe5029b2e56",
+   "doc_id": "DOC-d7831f2d1d3acbbc1462",
+   "unit_id": "UNIT-b83f67183a687abb4351"
+  },
+  {
+   "path": "技術資料庫\\TW-ICT_FSDT-Stack_專業技術文檔\\TW-ICT_FSDT-Stack_專業技術文檔_DOC-10_2026-07-31_r2.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-bcee23ab941d74a7befc",
+   "candidate_id": "CAND-e256008e175af457",
+   "doc_id": "DOC-d640a695b55f1f56d862",
+   "unit_id": "UNIT-d7fae58f1714122dc1b2"
+  },
+  {
+   "path": "技術資料庫\\TW-ICT_FSDT-Stack_專業技術文檔\\TW-ICT_FSDT-Stack_專業技術文檔_DOC-11_2026-07-31_r2.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-2172b47fbde22310bacc",
+   "candidate_id": "CAND-19c35810594360d9",
+   "doc_id": "DOC-34f04e88152ef3c434aa",
+   "unit_id": "UNIT-97320a919cc33788af2a"
+  },
+  {
+   "path": "技術資料庫\\TW-ICT_FSDT-Stack_專業技術文檔\\TW-ICT_FSDT-Stack_專業技術文檔_DOC-12_2026-07-31_r3.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-e763ca0a79271fcaaff9",
+   "candidate_id": "CAND-eb801b461cd1ac16",
+   "doc_id": "DOC-ed707a3bfbcfface34ff",
+   "unit_id": "UNIT-904e8e8aa6c38813bdb9"
+  },
+  {
+   "path": "技術資料庫\\TW-ICT_FSDT-Stack_專業技術文檔\\TW-ICT_FSDT-Stack_專業技術文檔_DOC-13_2026-07-31_r3.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-b2b7dd12fc18d5f8b002",
+   "candidate_id": "CAND-fb32800c508ab743",
+   "doc_id": "DOC-11c5191eb2844fea6a9c",
+   "unit_id": "UNIT-9cea1f01a1a985443e05"
+  },
+  {
+   "path": "技術資料庫\\TW-ICT_FSDT-Stack_專業技術文檔\\TW-ICT_FSDT-Stack_專業技術文檔_DOC-14_2026-07-31_r3.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-09b7fcd6c03ad32f1471",
+   "candidate_id": "CAND-0b09cc17980b4078",
+   "doc_id": "DOC-12e39d40dac2bd6641ad",
+   "unit_id": "UNIT-2718445ba31dd040ac99"
+  },
+  {
+   "path": "技術資料庫\\TW-ICT_FSDT-Stack_專業技術文檔\\TW-ICT_FSDT-Stack_專業技術文檔_DOC-15_2026-07-31_r2.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-adb18bfc49d6e57b34ce",
+   "candidate_id": "CAND-0dd8822fde2afd1a",
+   "doc_id": "DOC-e28cba6d01a9f1512272",
+   "unit_id": "UNIT-67f57fc5233bd6f806bc"
+  },
+  {
+   "path": "技術資料庫\\TW-ICT_FSDT-Stack_專業技術文檔\\TW-ICT_FSDT-Stack_專業技術文檔_DOC-16_2026-07-31_r2.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-2f6876f3fc5068637e4d",
+   "candidate_id": "CAND-d2cb79050f691762",
+   "doc_id": "DOC-52fc320b838172902a9e",
+   "unit_id": "UNIT-9cfdca9308c26f76f0df"
+  },
+  {
+   "path": "技術資料庫\\TW-ICT_FSDT-Stack_專業技術文檔\\TW-ICT_FSDT-Stack_專業技術文檔_DOC-17_2026-07-31_r2.md",
+   "ingest": "QUARANTINED",
+   "findings": [
+    "SECRET_PATTERN:sk-[A-Za-z0-9_-]{20,}"
+   ],
+   "source_id": "SRC-a484543434bea3216f5a",
+   "candidate_id": "CAND-03233b70ea23f4a8"
+  },
+  {
+   "path": "技術資料庫\\TW-ICT_FSDT-Stack_專業技術文檔\\TW-ICT_FSDT-Stack_專業技術文檔_DOC-18_2026-07-31_r2.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-d502d0fa3e626c12e1d0",
+   "candidate_id": "CAND-286bf76882ffa900",
+   "doc_id": "DOC-82cf7b80de7d11b8f8fb",
+   "unit_id": "UNIT-f03810ed9b4a9162053b"
+  },
+  {
+   "path": "技術資料庫\\TW-ICT_FSDT-Stack_專業技術文檔\\TW-ICT_FSDT-Stack_專業技術文檔_DOC-19_2026-07-31_r2.md",
+   "ingest": "QUARANTINED",
+   "findings": [
+    "SECRET_PATTERN:sk-[A-Za-z0-9_-]{20,}"
+   ],
+   "source_id": "SRC-2ceb70d7cc15f1d14d95",
+   "candidate_id": "CAND-0c862170c00d5318"
+  },
+  {
+   "path": "技術資料庫\\TW-ICT_FSDT-Stack_專業技術文檔\\TW-ICT_FSDT-Stack_專業技術文檔_DOC-20_2026-07-31_r2.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-7d96f4862353bb37adfa",
+   "candidate_id": "CAND-9d1f27856a72d9a7",
+   "doc_id": "DOC-1e4b74497226d7ced233",
+   "unit_id": "UNIT-a9d076bc4e2ded55bcec"
+  },
+  {
+   "path": "技術資料庫\\TW-ICT_FSDT-Stack_專業技術文檔\\TW-ICT_FSDT-Stack_專業技術文檔_DOC-21_2026-07-31_r2.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-b5108601cc83077623bd",
+   "candidate_id": "CAND-e21155c69a68b05c",
+   "doc_id": "DOC-40ea4df43a1e98055a46",
+   "unit_id": "UNIT-d3ba4c516b7722b24284"
+  },
+  {
+   "path": "技術資料庫\\TW-ICT_FSDT-Stack_專業技術文檔\\TW-ICT_FSDT-Stack_專業技術文檔_DOC-22_2026-07-31_r2.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-fab83ab0bff3b464e33b",
+   "candidate_id": "CAND-f856da37c0516f3c",
+   "doc_id": "DOC-7ebb017d1f76f7792d69",
+   "unit_id": "UNIT-5447a42eb647ee3710ff"
+  },
+  {
+   "path": "技術資料庫\\TW-ICT_FSDT-Stack_專業技術文檔\\TW-ICT_FSDT-Stack_專業技術文檔_DOC-23_2026-07-31_r2.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-0cb380c69987acfc1fad",
+   "candidate_id": "CAND-f78ec7b5b69ee31f",
+   "doc_id": "DOC-932e76b1bb3fd052f7a7",
+   "unit_id": "UNIT-a8f8bc35de22b6a40527"
+  },
+  {
+   "path": "技術資料庫\\TW-ICT_FSDT-Stack_專業技術文檔\\TW-ICT_FSDT-Stack_專業技術文檔_DOC-24_2026-07-31_r2.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-3ded710847a002207785",
+   "candidate_id": "CAND-34d7600ce235f53b",
+   "doc_id": "DOC-06d3b0f417e5ba0050a5",
+   "unit_id": "UNIT-1b76ec9aa0663f9b66e3"
+  },
+  {
+   "path": "技術資料庫\\TW-ICT_FSDT-Stack_專業技術文檔\\TW-ICT_FSDT-Stack_專業技術文檔_DOC-25_2026-07-31_r2.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-366a9d57c36cb3cdcd01",
+   "candidate_id": "CAND-6be08f6d4a1ce08e",
+   "doc_id": "DOC-384fcfed75163a411792",
+   "unit_id": "UNIT-279e5b20ded9e21c5914"
+  },
+  {
+   "path": "技術資料庫\\TW-ICT_FSDT-Stack_專業技術文檔\\TW-ICT_FSDT-Stack_專業技術文檔_DOC-26_2026-07-31_r2.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-3a98629b3f5984c0590b",
+   "candidate_id": "CAND-091fd4d28bf7735f",
+   "doc_id": "DOC-46f9b8fa8ad925bedaa6",
+   "unit_id": "UNIT-788037bb0e5ca8a27f94"
+  },
+  {
+   "path": "技術資料庫\\TW-ICT_FSDT-Stack_專業技術文檔\\TW-ICT_FSDT-Stack_專業技術文檔_DOC-27_2026-07-31_r2.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-6d95955e1100ab8417a8",
+   "candidate_id": "CAND-bb73cafd8b87d525",
+   "doc_id": "DOC-fb739f8e790e49a93a0f",
+   "unit_id": "UNIT-bc4ad690e670daa9a94a"
+  },
+  {
+   "path": "技術資料庫\\TW-ICT_FSDT-Stack_專業技術文檔\\TW-ICT_FSDT-Stack_專業技術文檔_DOC-28_2026-07-31_r2.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-1f8737ef5ad1a75eaa34",
+   "candidate_id": "CAND-b04a2a4c051d75af",
+   "doc_id": "DOC-e1b647b5ad008ed6b4f1",
+   "unit_id": "UNIT-9e6b8748783d94f614e4"
+  },
+  {
+   "path": "技術資料庫\\TW-ICT_FSDT-Stack_專業技術文檔\\TW-ICT_FSDT-Stack_專業技術文檔_DOC-29_2026-07-31_r2.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-5ce3b383308b718e2a03",
+   "candidate_id": "CAND-0c7545c95fe7645b",
+   "doc_id": "DOC-03ff9a6b343523049b0e",
+   "unit_id": "UNIT-9b9220e3f8ba49159769"
+  },
+  {
+   "path": "技術資料庫\\SQS-THC設計開發\\【1】SQS-THC\\SQS-THC_藍圖_2026-08-01_r2.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-52ca153d113673a25a7f",
+   "candidate_id": "CAND-9f172ca572f0f033",
+   "doc_id": "DOC-84c9f571db826fea4197",
+   "unit_id": "UNIT-61f41cfcebb8898a4dcd"
+  },
+  {
+   "path": "技術資料庫\\SQS-THC設計開發\\【1】SQS-THC\\討論&設計原意\\SQS-THC_討論-1_HC-Spartoi-AgentOS 環繞 TW-ICT FSDT-Stack Kernel 之重構、升級與延伸工程鑑定報告.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-03dfde84a0b8a70d1b0c",
+   "candidate_id": "CAND-c495ed9bdf62a69f",
+   "doc_id": "DOC-8f5bea813b6864da8591",
+   "unit_id": "UNIT-16dfface8a5af801396a"
+  },
+  {
+   "path": "技術資料庫\\SQS-THC設計開發\\【1】SQS-THC\\討論&設計原意\\SQS-THC_討論-2_TW-ICT FSDT-Stack＋Spartoi：多智能體約束與循環工程金融 SPEC 擴充棧鑑定報告.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-629c2e6c8e7102ef318d",
+   "candidate_id": "CAND-739b98b2a3792546",
+   "doc_id": "DOC-2e046ef89504595d6ea8",
+   "unit_id": "UNIT-5750257e1de5c5747f1b"
+  },
+  {
+   "path": "技術資料庫\\SQS-THC設計開發\\【1】SQS-THC\\討論&設計原意\\SQS-THC_討論-3_可攜式金融智能體工程擴充棧.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-c223934bd002309403f0",
+   "candidate_id": "CAND-59905b8eb7475cb3",
+   "doc_id": "DOC-60d559ff063293b35108",
+   "unit_id": "UNIT-1e89897a0377c6523d0b"
+  },
+  {
+   "path": "技術資料庫\\SQS-THC設計開發\\【1】SQS-THC\\討論&設計原意\\SQS-THC_討論-4_Spartoi 產品架構與命名重新鑑定報告.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-1439c6073dce4c61dc1a",
+   "candidate_id": "CAND-01a0056909c67cc6",
+   "doc_id": "DOC-cec219a5afaeb7edaa11",
+   "unit_id": "UNIT-33344effcde09f6bc8d0"
+  },
+  {
+   "path": "技術資料庫\\SQS-THC設計開發\\【1】SQS-THC\\討論&設計原意\\SQS-THC_討論-5_內部簡稱：SQS-THC.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-03b6a8977cdbd232c07c",
+   "candidate_id": "CAND-bb654f3459b2a987",
+   "doc_id": "DOC-6b1f4930360d1b955ca9",
+   "unit_id": "UNIT-720a3f53521c8ca5f57b"
+  },
+  {
+   "path": "技術資料庫\\SQS-THC設計開發\\【2】SQS-THC整合收斂\\AI_AGENT_SPEC／HG-KSEOS／SDLC_PRW_HLPE → SQS-THC\\AI_AGENT_SPEC_HG-KSEOS_SDLC_PRW_HLPE_to_SQS-THC_整合收斂方案_2026-08-02_r2.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-a5c345a500bf9e17949c",
+   "candidate_id": "CAND-1e3ccb7188f2e884",
+   "doc_id": "DOC-aba54102c45256a2b9df",
+   "unit_id": "UNIT-75489e4de96bed989ed0"
+  },
+  {
+   "path": "技術資料庫\\SQS-THC設計開發\\【2】SQS-THC整合收斂\\AI_AGENT_SPEC／HG-KSEOS／SDLC_PRW_HLPE → SQS-THC\\整合原意&方案討論\\AI_AGENT_SPEC → SQS-THC Agent Engineering Stack 快速落地方案.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-688cd91bb0062847a6dd",
+   "candidate_id": "CAND-002a4e54f45ec472",
+   "doc_id": "DOC-97efe3f3d948e70ec312",
+   "unit_id": "UNIT-1bef2060b667664d2692"
+  },
+  {
+   "path": "技術資料庫\\SQS-THC設計開發\\【2】SQS-THC整合收斂\\AI_AGENT_SPEC／HG-KSEOS／SDLC_PRW_HLPE → SQS-THC\\整合原意&方案討論\\HG-KSEOS／SDLC_PRW_HLPE → SQS-THC 導入工程鑑定.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-e7f9049637735d59c420",
+   "candidate_id": "CAND-575bac6629502ef4",
+   "doc_id": "DOC-e54992d64e91f844c416",
+   "unit_id": "UNIT-2fe9e987d2bd0ab54a33"
+  },
+  {
+   "path": "技術資料庫\\SQS-THC設計開發\\【2】SQS-THC整合收斂\\AI_AGENT_SPEC／HG-KSEOS／SDLC_PRW_HLPE → SQS-THC\\整合原意&方案討論\\SQS-THC Agent Engineering 三方案整合收斂鑑定.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-d76fb8c73476b7213b8d",
+   "candidate_id": "CAND-475d9e9bc544706d",
+   "doc_id": "DOC-ff25a41ad194d24e0995",
+   "unit_id": "UNIT-48c221abbb15323c95bd"
+  },
+  {
+   "path": "技術資料庫\\SQS-THC設計開發\\【2】SQS-THC整合收斂\\AQT_v3.0_XQXS_Taleb_to_SQS-THC_整合收斂藍圖_2026-08-02_r2.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-fded431a7fc8602d8ca0",
+   "candidate_id": "CAND-088c1a4646997469",
+   "doc_id": "DOC-288030a07a470328e9ad",
+   "unit_id": "UNIT-44df3d897ebd46f66548"
+  },
+  {
+   "path": "技術資料庫\\SQS-THC設計開發\\【2】SQS-THC整合收斂\\Hermes_AGENT_SPEC_HG-KSEOS_SDLC_PRW_HLPE_to_SQS-THC_整合收斂藍圖_2026-08-02_r2.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-17ad0c6ec9fcf1e06cca",
+   "candidate_id": "CAND-ab3d14f97b2c7438",
+   "doc_id": "DOC-44ef65703d0bbc8cbaa5",
+   "unit_id": "UNIT-8a01efaafce3e9f7b04b"
+  },
+  {
+   "path": "技術資料庫\\SQS-THC設計開發\\【2】SQS-THC整合收斂\\Hermes／Spartoi v2.0／總系統級_SP-TS→ SQS-THC\\SQS-THC_x_Hermes_x_Spartoi_v2_x_SP-TS_整合收斂方案_2026-08-02_r2.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-bd8a844e6d9a28f200d5",
+   "candidate_id": "CAND-3b7fac6a2b5eee62",
+   "doc_id": "DOC-cce08ef6baaf847ab6d4",
+   "unit_id": "UNIT-8906bf9c3274630849b4"
+  },
+  {
+   "path": "技術資料庫\\SQS-THC設計開發\\【2】SQS-THC整合收斂\\Hermes／Spartoi v2.0／總系統級_SP-TS→ SQS-THC\\整合原意&方案討論\\Hermes Agent OS → SQS-THC 分析、抽取與整合實作方案.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-366355eb6187287712bc",
+   "candidate_id": "CAND-bda07fe717d48581",
+   "doc_id": "DOC-cf7693961a72b283ec57",
+   "unit_id": "UNIT-e7e5910f138d65cdfdb0"
+  },
+  {
+   "path": "技術資料庫\\SQS-THC設計開發\\【2】SQS-THC整合收斂\\Hermes／Spartoi v2.0／總系統級_SP-TS→ SQS-THC\\整合原意&方案討論\\SP-TS-00～SP-TS-10 → SQS-THC 導入鑑定與實作方案.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-4d8f17885aff8e3bc5c9",
+   "candidate_id": "CAND-3b2f5ecb95a70d03",
+   "doc_id": "DOC-3190355f8cf0fbb11eeb",
+   "unit_id": "UNIT-136df23fa2a5cf250b93"
+  },
+  {
+   "path": "技術資料庫\\SQS-THC設計開發\\【2】SQS-THC整合收斂\\Hermes／Spartoi v2.0／總系統級_SP-TS→ SQS-THC\\整合原意&方案討論\\Spartoi v2.0 → SQS-THC 分析、抽取與整合實作方案.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-1069699b7e2ab15c7e05",
+   "candidate_id": "CAND-ebf813cd87172004",
+   "doc_id": "DOC-e41eeb918c576d1b37b6",
+   "unit_id": "UNIT-94c5a4c6a7f3e903823a"
+  },
+  {
+   "path": "技術資料庫\\SQS-THC設計開發\\【2】SQS-THC整合收斂\\Hermes／Spartoi v2.0／總系統級_SP-TS→ SQS-THC\\整合原意&方案討論\\SQS-THC 三方案整合收斂與 Hermes 優先策略鑑定報告.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-8000bb2371d53502c6af",
+   "candidate_id": "CAND-acea7c404ebe4bfd",
+   "doc_id": "DOC-90f11c9368f3afbddcce",
+   "unit_id": "UNIT-87488dbbf3996a3c50a4"
+  },
+  {
+   "path": "技術資料庫\\SQS-THC設計開發\\【2】SQS-THC整合收斂\\Spartoi_to_SQS-THC_整合收斂藍圖_2026-08-02_r2.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-9826d36308c9e6a9d55c",
+   "candidate_id": "CAND-80a3635be50d00c7",
+   "doc_id": "DOC-77d7da7a307c7a96e0a9",
+   "unit_id": "UNIT-99bbaea9b6a3e577ab40"
+  },
+  {
+   "path": "技術資料庫\\SQS-THC設計開發\\【2】SQS-THC整合收斂\\SQS-THC_最終整合收斂藍圖_2026-08-02_r2.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-81188c292959d8c4c669",
+   "candidate_id": "CAND-ccfc0efaf3d6a331",
+   "doc_id": "DOC-e97493e27e2c9998b5fc",
+   "unit_id": "UNIT-3dd7711b991cd4090d4d"
+  },
+  {
+   "path": "技術資料庫\\SQS-THC設計開發\\【2】SQS-THC整合收斂\\XQXS／AQT／Taleb→ SQS-THC\\SQS-THC_XQXS_AQT_Taleb_整合收斂方案_2026-08-02_r2.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-ed25c04fe3d5572ad08d",
+   "candidate_id": "CAND-c0d5f73ac6eed6c4",
+   "doc_id": "DOC-803f5118fd206346c4a2",
+   "unit_id": "UNIT-f83268c20fa61016a679"
+  },
+  {
+   "path": "技術資料庫\\SQS-THC設計開發\\【2】SQS-THC整合收斂\\XQXS／AQT／Taleb→ SQS-THC\\整合原意&方案討論\\SQS-THC × AQT v3.0 功能抽取與開發整合方案.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-823a5243d9defdc8150d",
+   "candidate_id": "CAND-798279980a49fcfe",
+   "doc_id": "DOC-b9903aa40c3d3de836fc",
+   "unit_id": "UNIT-dc76a4f37b751fa4c766"
+  },
+  {
+   "path": "技術資料庫\\SQS-THC設計開發\\【2】SQS-THC整合收斂\\XQXS／AQT／Taleb→ SQS-THC\\整合原意&方案討論\\SQS-THC × XQ／XS × AQT 收斂工程鑑定.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-aa35f02aeb367a2fd9db",
+   "candidate_id": "CAND-d43e250920cab33f",
+   "doc_id": "DOC-061bfe7d13d55cc1722f",
+   "unit_id": "UNIT-084b9ea049c49ce6bca9"
+  },
+  {
+   "path": "技術資料庫\\SQS-THC設計開發\\【2】SQS-THC整合收斂\\XQXS／AQT／Taleb→ SQS-THC\\整合原意&方案討論\\SQS-THC × XQ／XS 整合施工方案.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-458f482893bb3bd4c874",
+   "candidate_id": "CAND-38a33e2d1ddc174d",
+   "doc_id": "DOC-768d20d0746b36753379",
+   "unit_id": "UNIT-58efe9212d6d4bb98175"
+  },
+  {
+   "path": "技術資料庫\\SQS-THC設計開發\\【2】SQS-THC整合收斂\\XQXS／AQT／Taleb→ SQS-THC\\整合原意&方案討論\\SQS-THC × 塔勒布思想二次整合方案.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-94def01cf029e5bda8c7",
+   "candidate_id": "CAND-a1049feeb0b0bc83",
+   "doc_id": "DOC-d717b640ea04440eb7f9",
+   "unit_id": "UNIT-0cef506aee2a5baf3779"
+  },
+  {
+   "path": "技術資料庫\\SQS-THC設計開發\\【2】SQS-THC整合收斂\\最終整合\\SQS-THC 三組整合收斂方案交叉工程鑑定報告.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-b9157d1cafa393d10bd8",
+   "candidate_id": "CAND-509c19728bc938f8",
+   "doc_id": "DOC-a529426525542e3afe9b",
+   "unit_id": "UNIT-86af87be6b1c9344b8e4"
+  },
+  {
+   "path": "技術資料庫\\SQS-THC設計開發\\【2】SQS-THC整合收斂\\最終整合\\SQS-THC 三組整合方案輕治理與低磨合收斂工程鑑定報告.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-2407cde12d58c74428a6",
+   "candidate_id": "CAND-7357298325aebb44",
+   "doc_id": "DOC-8ca187fa9b84910c67b5",
+   "unit_id": "UNIT-1f12f7310da5a24609de"
+  },
+  {
+   "path": "技術資料庫\\SQS-THC設計開發\\【2】SQS-THC整合收斂\\最終整合\\SQS-THC 外部工具最大化復用與薄契約收斂工程鑑定報告.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-36deb3702a937860e451",
+   "candidate_id": "CAND-a367810ad102ee24",
+   "doc_id": "DOC-49ed8b86a97de9be8d84",
+   "unit_id": "UNIT-4fd6f5b04310bf7b8cdc"
+  },
+  {
+   "path": "技術資料庫\\SQS-THC設計開發\\【3】(舊版)HC-Spartoi\\HC-Spartoi-AgentOS_藍圖_r2.md",
+   "ingest": "QUARANTINED",
+   "findings": [
+    "SECRET_PATTERN:(?i)(?:api[_-]?key|secret|token)\\s*[:=]\\s*['\\\"]?[A-Za-z0-9_./+-]{16,}"
+   ],
+   "source_id": "SRC-5d3570798f736b9bcb89",
+   "candidate_id": "CAND-06141b8b471fa08b"
+  },
+  {
+   "path": "技術資料庫\\SQS-THC設計開發\\【3】(舊版)HC-Spartoi\\討論&設計原意\\HC-Spartoi_討論-1_《TW-ICT_FSDT-Stack vs Spartoi》金融工程架構交叉鑑定報告.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-7a6996de69e0cde97b2c",
+   "candidate_id": "CAND-fc8f429169b4f437",
+   "doc_id": "DOC-fbb842eefef005960987",
+   "unit_id": "UNIT-bf7decc3692300f85bb2"
+  },
+  {
+   "path": "技術資料庫\\SQS-THC設計開發\\【3】(舊版)HC-Spartoi\\討論&設計原意\\HC-Spartoi_討論-2_《TW-ICT_FSDT-Stack 優先、Spartoi 後置整合》最佳開發順序鑑定報告.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-a90a460aa89872e8a099",
+   "candidate_id": "CAND-a1659c4c6edf7705",
+   "doc_id": "DOC-ae66b7f00c0bca3fe801",
+   "unit_id": "UNIT-39f842dfac6232fb48a3"
+  },
+  {
+   "path": "技術資料庫\\SQS-THC設計開發\\【3】(舊版)HC-Spartoi\\討論&設計原意\\HC-Spartoi_討論-3_《HG-Spartoi AgentOS》架構與工具鏈工程鑑定報告.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-260e7a8aaf8b8c96aaf0",
+   "candidate_id": "CAND-7b4020dab6b68776",
+   "doc_id": "DOC-afa9d8aa19f3d82ba8ed",
+   "unit_id": "UNIT-f01f191cf8f8dcbc7602"
+  },
+  {
+   "path": "技術資料庫\\SQS-THC設計開發\\【3】(舊版)HC-Spartoi\\討論&設計原意\\HC-Spartoi_討論-4_修正後的 HG-Spartoi 定義.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-d1ffbc21b443df22cf57",
+   "candidate_id": "CAND-c9db1c4dc263ff7e",
+   "doc_id": "DOC-2ac0e64f924141917b1d",
+   "unit_id": "UNIT-abbcc144eb502a731c4f"
+  },
+  {
+   "path": "技術資料庫\\SQS-THC設計開發\\【3】(舊版)HC-Spartoi\\討論&設計原意\\HC-Spartoi_討論-5_《HG-Spartoi 是否等同金融工程版 Cursor》工程鑑定報告.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-43b40f97bcfab8dd6b93",
+   "candidate_id": "CAND-ee913f0318b38101",
+   "doc_id": "DOC-27c37777d64f861b014c",
+   "unit_id": "UNIT-9043e462bff2d7d2db88"
+  },
+  {
+   "path": "技術資料庫\\SQS-THC設計開發\\【3】(舊版)HC-Spartoi\\討論&設計原意\\HC-Spartoi_討論-6_《Hermes Desktop＋Codex Worker＋XQ／XS 金融終端》工程鑑定報告.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-587136a2b494480d9ef9",
+   "candidate_id": "CAND-0042de0200cdfdba",
+   "doc_id": "DOC-f81e19200896827ed83e",
+   "unit_id": "UNIT-6292096287e3d1e7e667"
+  },
+  {
+   "path": "技術資料庫\\SQS-THC設計開發\\【4】(舊版)Spartoi-AgentOS\\【1】Spartoi-AgentOS_藍圖\\Spartoi-AgentOS_藍圖_v2026-06-07-r2.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-bf289c4c1897b86cb832",
+   "candidate_id": "CAND-3739514beb18039f",
+   "doc_id": "DOC-f8e228ab257716b2d71a",
+   "unit_id": "UNIT-624c803665786ff8f5de"
+  },
+  {
+   "path": "技術資料庫\\SQS-THC設計開發\\【4】(舊版)Spartoi-AgentOS\\【1】Spartoi-AgentOS_藍圖\\開發討論\\【1】Spartoi-AgentOS _升級\\Spartoi-AgentOS _升級討論-11_AgentOS 架構基底.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-eb0527df9473e01ff1f4",
+   "candidate_id": "CAND-3308fe60e955c1a6",
+   "doc_id": "DOC-e5ee57ce92a1d8fc31a6",
+   "unit_id": "UNIT-e63aaab232b2e84c162b"
+  },
+  {
+   "path": "技術資料庫\\SQS-THC設計開發\\【4】(舊版)Spartoi-AgentOS\\【1】Spartoi-AgentOS_藍圖\\開發討論\\【1】Spartoi-AgentOS _升級\\Spartoi-AgentOS _升級討論-1_連動XQ全球贏家.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-baafeb0bef7ad051d4e4",
+   "candidate_id": "CAND-b2eb8970d2bf561c",
+   "doc_id": "DOC-fde6f4c6a622ebcad011",
+   "unit_id": "UNIT-80520db08dd4be8462d4"
+  },
+  {
+   "path": "技術資料庫\\SQS-THC設計開發\\【4】(舊版)Spartoi-AgentOS\\【1】Spartoi-AgentOS_藍圖\\開發討論\\【1】Spartoi-AgentOS _升級\\Spartoi-AgentOS _升級討論-2_AgentOS Kernel Lite.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-e120fcccbf2a6b505d42",
+   "candidate_id": "CAND-06ee6f7f75ad97cc",
+   "doc_id": "DOC-b3d29aab4143112e2567",
+   "unit_id": "UNIT-c66a409638c15557255e"
+  },
+  {
+   "path": "技術資料庫\\SQS-THC設計開發\\【4】(舊版)Spartoi-AgentOS\\【1】Spartoi-AgentOS_藍圖\\開發討論\\【1】Spartoi-AgentOS _升級\\Spartoi-AgentOS _升級討論-3_現成 runtime.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-b4e7ba7a4b59b4407d0e",
+   "candidate_id": "CAND-977608eb982e4aaf",
+   "doc_id": "DOC-2595764e7e20ddfae63c",
+   "unit_id": "UNIT-fe07f0c668f024850895"
+  },
+  {
+   "path": "技術資料庫\\SQS-THC設計開發\\【4】(舊版)Spartoi-AgentOS\\【1】Spartoi-AgentOS_藍圖\\開發討論\\【1】Spartoi-AgentOS _升級\\Spartoi-AgentOS _升級討論-4_導入外部熱門且新的 AI 量化交易工具  agentic quant runtimes.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-6704d879599fb8682d6f",
+   "candidate_id": "CAND-f8b826dc8ada80b0",
+   "doc_id": "DOC-d5510c6145812f4ceb59",
+   "unit_id": "UNIT-4691195be10b0b9e6c25"
+  },
+  {
+   "path": "技術資料庫\\SQS-THC設計開發\\【4】(舊版)Spartoi-AgentOS\\【1】Spartoi-AgentOS_藍圖\\開發討論\\【1】Spartoi-AgentOS _升級\\Spartoi-AgentOS _升級討論-5_外部工具策略.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-75913108ba03b29cb69e",
+   "candidate_id": "CAND-37e0135869a0118b",
+   "doc_id": "DOC-abd226340d9cb50a2d6f",
+   "unit_id": "UNIT-9495b354b50d38a208d2"
+  },
+  {
+   "path": "技術資料庫\\SQS-THC設計開發\\【4】(舊版)Spartoi-AgentOS\\【1】Spartoi-AgentOS_藍圖\\開發討論\\【1】Spartoi-AgentOS _升級\\Spartoi-AgentOS _升級討論-6_External Quant Data  Factor  Database Tool Tier.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-4d362c6633cdc02132fb",
+   "candidate_id": "CAND-8e302a93fb27ec49",
+   "doc_id": "DOC-9bb381743c7ebb391767",
+   "unit_id": "UNIT-3b1a24bcad0b307ea153"
+  },
+  {
+   "path": "技術資料庫\\SQS-THC設計開發\\【4】(舊版)Spartoi-AgentOS\\【1】Spartoi-AgentOS_藍圖\\開發討論\\【1】Spartoi-AgentOS _升級\\Spartoi-AgentOS _升級討論-7_台股當沖 AI 量化工具.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-eb51dc9db696ec07af88",
+   "candidate_id": "CAND-f9ecd559f900ca8a",
+   "doc_id": "DOC-d99fd58dd4be7d2f70f3",
+   "unit_id": "UNIT-ace577d38179d50c7f5d"
+  },
+  {
+   "path": "技術資料庫\\SQS-THC設計開發\\【4】(舊版)Spartoi-AgentOS\\【1】Spartoi-AgentOS_藍圖\\開發討論\\【1】Spartoi-AgentOS _升級\\Spartoi-AgentOS _升級討論-8_TW Day-Trading ICT Cold-Start Kernel.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-51af9cf7d6e349b20e34",
+   "candidate_id": "CAND-5f2a0c2543e03708",
+   "doc_id": "DOC-ca52602e9e8fa0ed4399",
+   "unit_id": "UNIT-b6972f8625cacfb03cc2"
+  },
+  {
+   "path": "技術資料庫\\SQS-THC設計開發\\【4】(舊版)Spartoi-AgentOS\\【1】Spartoi-AgentOS_藍圖\\開發討論\\【1】Spartoi-AgentOS _升級\\Spartoi-AgentOS _升級討論-9_Spartoi TW Day-Trading AgentOS Kernel.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-f939cfaebc388ac34f19",
+   "candidate_id": "CAND-f6bd8498c1823a59",
+   "doc_id": "DOC-d82c40aa2b3e4806c84e",
+   "unit_id": "UNIT-59f7ca225ecb6b969f34"
+  },
+  {
+   "path": "技術資料庫\\SQS-THC設計開發\\【4】(舊版)Spartoi-AgentOS\\【1】Spartoi-AgentOS_藍圖\\開發討論\\【1】Spartoi-AgentOS _升級\\Spartoi-AgentOS_升級討論-10_外部 AI Quant OS.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-8d9fcf1aef29cbe71dc9",
+   "candidate_id": "CAND-92b45ac6e0d5cb36",
+   "doc_id": "DOC-8e1c43d35686aca792b1",
+   "unit_id": "UNIT-628272a8bdfa706bd9b7"
+  },
+  {
+   "path": "技術資料庫\\SQS-THC設計開發\\【4】(舊版)Spartoi-AgentOS\\【1】Spartoi-AgentOS_藍圖\\開發討論\\【2】TISAQ_Spartoi_升級\\SEM8-ICT-TW_重構升級藍圖_v1.2.1-r1.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-a374d33b8c01a46f8acb",
+   "candidate_id": "CAND-29972ec8b46081ed",
+   "doc_id": "DOC-7fd150e9d487096ab78b",
+   "unit_id": "UNIT-90a39cb698775eaa3cd3"
+  },
+  {
+   "path": "技術資料庫\\SQS-THC設計開發\\【4】(舊版)Spartoi-AgentOS\\【1】Spartoi-AgentOS_藍圖\\開發討論\\【2】TISAQ_Spartoi_升級\\Spartoi_SEM8_vNext_重構升級藍圖_r2.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-b43231c48764d33fc752",
+   "candidate_id": "CAND-0c968db89c2d726d",
+   "doc_id": "DOC-ee769366072b7d028409",
+   "unit_id": "UNIT-d6271dba422176089bd9"
+  },
+  {
+   "path": "技術資料庫\\SQS-THC設計開發\\【4】(舊版)Spartoi-AgentOS\\【1】Spartoi-AgentOS_藍圖\\開發討論\\【2】TISAQ_Spartoi_升級\\TISAQ_Spartoi重構升級_討論\\TISAQ_Spartoi重構升級_討論-1.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-27b433cada583dfe1cfa",
+   "candidate_id": "CAND-fa02017e43128285",
+   "doc_id": "DOC-ea5297c4dca84cb61024",
+   "unit_id": "UNIT-818f34940a0683e68778"
+  },
+  {
+   "path": "技術資料庫\\SQS-THC設計開發\\【4】(舊版)Spartoi-AgentOS\\【1】Spartoi-AgentOS_藍圖\\開發討論\\【2】TISAQ_Spartoi_升級\\TISAQ_Spartoi重構升級_討論\\TISAQ_Spartoi重構升級_討論-2.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-c45aba8d878be41fe0b5",
+   "candidate_id": "CAND-4bff806bf0857fec",
+   "doc_id": "DOC-58fd49fb27e7dd93ed4c",
+   "unit_id": "UNIT-b3e1e0754fc6ecb8bacb"
+  },
+  {
+   "path": "技術資料庫\\SQS-THC設計開發\\【4】(舊版)Spartoi-AgentOS\\【1】Spartoi-AgentOS_藍圖\\開發討論\\【2】TISAQ_Spartoi_升級\\TISAQ_Spartoi重構升級_討論\\TISAQ_Spartoi重構升級_討論-3.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-93179146a753678cc322",
+   "candidate_id": "CAND-05aec1a4fd4e0ce5",
+   "doc_id": "DOC-92d77df4ae500491b18a",
+   "unit_id": "UNIT-2e402d8d2e4cc9c09386"
+  },
+  {
+   "path": "技術資料庫\\SQS-THC設計開發\\【4】(舊版)Spartoi-AgentOS\\【1】Spartoi-AgentOS_藍圖\\開發討論\\【2】TISAQ_Spartoi_升級\\TISAQ_Spartoi重構升級_討論\\TISAQ_Spartoi重構升級_討論-4.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-6e2205e2c882e1e4fb84",
+   "candidate_id": "CAND-dc96c29deffc9e1a",
+   "doc_id": "DOC-01afd3a7fe6515a136d3",
+   "unit_id": "UNIT-a57b3fb8476428fc9dab"
+  },
+  {
+   "path": "技術資料庫\\SQS-THC設計開發\\【4】(舊版)Spartoi-AgentOS\\【1】Spartoi-AgentOS_藍圖\\開發討論\\【2】TISAQ_Spartoi_升級\\TISAQ_Spartoi重構升級_討論\\TISAQ_Spartoi重構升級_討論-5.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-8cb267f56b5b44e49cdf",
+   "candidate_id": "CAND-6cfc1cd0445c56b3",
+   "doc_id": "DOC-16cab23b8a94b8f705fd",
+   "unit_id": "UNIT-d41142ec88d8920137b0"
+  },
+  {
+   "path": "技術資料庫\\SQS-THC設計開發\\【4】(舊版)Spartoi-AgentOS\\【1】Spartoi-AgentOS_藍圖\\開發討論\\【2】TISAQ_Spartoi_升級\\TISAQ_Spartoi重構升級_討論\\TISAQ_Spartoi重構升級_討論-6.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-bc5851acf1520de5df66",
+   "candidate_id": "CAND-0f2de2e6622cb750",
+   "doc_id": "DOC-4a48adf877c4f8bfa280",
+   "unit_id": "UNIT-334624b185809057afda"
+  },
+  {
+   "path": "技術資料庫\\SQS-THC設計開發\\【4】(舊版)Spartoi-AgentOS\\【1】Spartoi-AgentOS_藍圖\\開發討論\\【2】TISAQ_Spartoi_升級\\TISAQ_Spartoi重構升級_討論\\TISAQ_Spartoi重構升級_討論-7.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-8b3bafcf839b3c622826",
+   "candidate_id": "CAND-dba7b0661319ebff",
+   "doc_id": "DOC-457f29fdf87ff0fbd805",
+   "unit_id": "UNIT-cb98b8e14124d4d8352e"
+  },
+  {
+   "path": "技術資料庫\\SQS-THC設計開發\\【4】(舊版)Spartoi-AgentOS\\【2】Spartoi-AgentOS _總系統級&7-child-PRW\\Spartoi_總系統級&7-child-PRW_總藍圖.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-a1664f15544708efafad",
+   "candidate_id": "CAND-e369b2752088e7e2",
+   "doc_id": "DOC-fea66eb3a04135200f1e",
+   "unit_id": "UNIT-7f84b3ce0e9d2fecd8a5"
+  },
+  {
+   "path": "技術資料庫\\SQS-THC設計開發\\【4】(舊版)Spartoi-AgentOS\\【2】Spartoi-AgentOS _總系統級&7-child-PRW\\Spartoi_總系統級_SP-TS\\Spartoi_總系統級_SP-TS-00.md",
+   "ingest": "QUARANTINED",
+   "findings": [
+    "SECRET_PATTERN:sk-[A-Za-z0-9_-]{20,}"
+   ],
+   "source_id": "SRC-cf7c393ea9fb739dfc81",
+   "candidate_id": "CAND-dc67456584220be5"
+  },
+  {
+   "path": "技術資料庫\\SQS-THC設計開發\\【4】(舊版)Spartoi-AgentOS\\【2】Spartoi-AgentOS _總系統級&7-child-PRW\\Spartoi_總系統級_SP-TS\\Spartoi_總系統級_SP-TS-01.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-f9c1620afea5dcb8e939",
+   "candidate_id": "CAND-5b8e34a29fb8c341",
+   "doc_id": "DOC-0d2ac9838aff5f6f71e8",
+   "unit_id": "UNIT-3ab81c3ae6312b26caf5"
+  },
+  {
+   "path": "技術資料庫\\SQS-THC設計開發\\【4】(舊版)Spartoi-AgentOS\\【2】Spartoi-AgentOS _總系統級&7-child-PRW\\Spartoi_總系統級_SP-TS\\Spartoi_總系統級_SP-TS-02.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-ff15257269c9fffa0a6d",
+   "candidate_id": "CAND-7c2b9cb0a0f712ef",
+   "doc_id": "DOC-a8488dcfb7406a6b59d1",
+   "unit_id": "UNIT-609902e630a5570351b4"
+  },
+  {
+   "path": "技術資料庫\\SQS-THC設計開發\\【4】(舊版)Spartoi-AgentOS\\【2】Spartoi-AgentOS _總系統級&7-child-PRW\\Spartoi_總系統級_SP-TS\\Spartoi_總系統級_SP-TS-03.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-3b93e448a2a6f62cb400",
+   "candidate_id": "CAND-fced22caa87d804f",
+   "doc_id": "DOC-bd7e31d9e5c862ee8604",
+   "unit_id": "UNIT-33ad3b3bb629e62b3f6f"
+  },
+  {
+   "path": "技術資料庫\\SQS-THC設計開發\\【4】(舊版)Spartoi-AgentOS\\【2】Spartoi-AgentOS _總系統級&7-child-PRW\\Spartoi_總系統級_SP-TS\\Spartoi_總系統級_SP-TS-04.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-fd9d9874abbd637b5664",
+   "candidate_id": "CAND-9ba0bc0b35817c9f",
+   "doc_id": "DOC-d979120c84953a437b6b",
+   "unit_id": "UNIT-bbe8e34f99b9b0613cb5"
+  },
+  {
+   "path": "技術資料庫\\SQS-THC設計開發\\【4】(舊版)Spartoi-AgentOS\\【2】Spartoi-AgentOS _總系統級&7-child-PRW\\Spartoi_總系統級_SP-TS\\Spartoi_總系統級_SP-TS-05.md",
+   "ingest": "QUARANTINED",
+   "findings": [
+    "PROMPT_INJECTION:ignore\\s+(?:all\\s+)?(?:previous|prior)\\s+instructions"
+   ],
+   "source_id": "SRC-b095b64b49b8217694d5",
+   "candidate_id": "CAND-c1111098adcaa114"
+  },
+  {
+   "path": "技術資料庫\\SQS-THC設計開發\\【4】(舊版)Spartoi-AgentOS\\【2】Spartoi-AgentOS _總系統級&7-child-PRW\\Spartoi_總系統級_SP-TS\\Spartoi_總系統級_SP-TS-06.md",
+   "ingest": "QUARANTINED",
+   "findings": [
+    "PROMPT_INJECTION:(?:exfiltrate|reveal|print)\\s+(?:the\\s+)?(?:secret|token|api\\s*key)"
+   ],
+   "source_id": "SRC-84d44b7ac2e9cbd2101c",
+   "candidate_id": "CAND-3a82f18a559b0409"
+  },
+  {
+   "path": "技術資料庫\\SQS-THC設計開發\\【4】(舊版)Spartoi-AgentOS\\【2】Spartoi-AgentOS _總系統級&7-child-PRW\\Spartoi_總系統級_SP-TS\\Spartoi_總系統級_SP-TS-07.md",
+   "ingest": "QUARANTINED",
+   "findings": [
+    "PROMPT_INJECTION:ignore\\s+(?:all\\s+)?(?:previous|prior)\\s+instructions",
+    "PROMPT_INJECTION:(?:exfiltrate|reveal|print)\\s+(?:the\\s+)?(?:secret|token|api\\s*key)"
+   ],
+   "source_id": "SRC-87592cae2e78909b40cb",
+   "candidate_id": "CAND-c5b5c87a8bd150d1"
+  },
+  {
+   "path": "技術資料庫\\SQS-THC設計開發\\【4】(舊版)Spartoi-AgentOS\\【2】Spartoi-AgentOS _總系統級&7-child-PRW\\Spartoi_總系統級_SP-TS\\Spartoi_總系統級_SP-TS-08.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-48683ba8332d9e2fcad0",
+   "candidate_id": "CAND-ae36af3fea9e30af",
+   "doc_id": "DOC-63dce253a8bee87f8431",
+   "unit_id": "UNIT-26f3d38c5c3f7f146779"
+  },
+  {
+   "path": "技術資料庫\\SQS-THC設計開發\\【4】(舊版)Spartoi-AgentOS\\【2】Spartoi-AgentOS _總系統級&7-child-PRW\\Spartoi_總系統級_SP-TS\\Spartoi_總系統級_SP-TS-09.md",
+   "ingest": "QUARANTINED",
+   "findings": [
+    "SECRET_PATTERN:sk-[A-Za-z0-9_-]{20,}"
+   ],
+   "source_id": "SRC-47c532dca41862333ac6",
+   "candidate_id": "CAND-4982b2a3f5912158"
+  },
+  {
+   "path": "技術資料庫\\SQS-THC設計開發\\【4】(舊版)Spartoi-AgentOS\\【2】Spartoi-AgentOS _總系統級&7-child-PRW\\Spartoi_總系統級_SP-TS\\Spartoi_總系統級_SP-TS-10.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-0ad7ea12816abbb59e21",
+   "candidate_id": "CAND-9e61a497eb48f56f",
+   "doc_id": "DOC-9e89deb6be990f09ab36",
+   "unit_id": "UNIT-516d4add8de97c3d93ea"
+  },
+  {
+   "path": "技術資料庫\\SQS-THC設計開發\\【4】(舊版)Spartoi-AgentOS\\【2】Spartoi-AgentOS _總系統級&7-child-PRW\\討論&設計原意\\Spartoi_External_Agent_AgentOS_Agentic_Software_Adapter_Catalog.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-493df794e0adc94f5315",
+   "candidate_id": "CAND-e5cd3671193d6231",
+   "doc_id": "DOC-b832167d45c5f22cf595",
+   "unit_id": "UNIT-558d9605b95f1e02b0f2"
+  },
+  {
+   "path": "技術資料庫\\SQS-THC設計開發\\【4】(舊版)Spartoi-AgentOS\\【2】Spartoi-AgentOS _總系統級&7-child-PRW\\討論&設計原意\\Spartoi_SRU_OROCHI_7ChildPRW_補強方案.md",
+   "ingest": "QUARANTINED",
+   "findings": [
+    "PROMPT_INJECTION:(?:exfiltrate|reveal|print)\\s+(?:the\\s+)?(?:secret|token|api\\s*key)"
+   ],
+   "source_id": "SRC-3b4c3c5e2d4e2a9dd8b8",
+   "candidate_id": "CAND-a6d39fe5c89102c2"
+  },
+  {
+   "path": "技術資料庫\\SQS-THC設計開發\\【4】(舊版)Spartoi-AgentOS\\【2】Spartoi-AgentOS _總系統級&7-child-PRW\\討論&設計原意\\Spartoi_總系統級&7-child-PRW_討論-1.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-9dd6ebbf3914fd1fa79f",
+   "candidate_id": "CAND-c906cbed3bf9393d",
+   "doc_id": "DOC-54ab7e99debda86923f7",
+   "unit_id": "UNIT-264eaf269b7a15aaa718"
+  },
+  {
+   "path": "技術資料庫\\SQS-THC設計開發\\【4】(舊版)Spartoi-AgentOS\\【2】Spartoi-AgentOS _總系統級&7-child-PRW\\討論&設計原意\\Spartoi_總系統級&7-child-PRW_討論-2.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-d5435b656e1114e55677",
+   "candidate_id": "CAND-5e4e93821b16ecc1",
+   "doc_id": "DOC-1bb937acb8aac25e3551",
+   "unit_id": "UNIT-0f474c9c5c67c59a993b"
+  },
+  {
+   "path": "技術資料庫\\SQS-THC設計開發\\【4】(舊版)Spartoi-AgentOS\\【2】Spartoi-AgentOS _總系統級&7-child-PRW\\討論&設計原意\\Spartoi_總系統級&7-child-PRW_討論-3.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-7b13d4081dedc5db9f37",
+   "candidate_id": "CAND-97e4ebcb1c9ac3ea",
+   "doc_id": "DOC-24e8258a669fcfee9116",
+   "unit_id": "UNIT-15c608a925b35b9f6b6d"
+  },
+  {
+   "path": "技術資料庫\\SQS-THC設計開發\\【4】(舊版)Spartoi-AgentOS\\【2】Spartoi-AgentOS _總系統級&7-child-PRW\\討論&設計原意\\Spartoi_總系統級&7-child-PRW_討論-4.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-e9f32a2e162f3c92919a",
+   "candidate_id": "CAND-385c9e55856627e9",
+   "doc_id": "DOC-b0c1e27493dc872e19ad",
+   "unit_id": "UNIT-09aee8cbf9143799bc59"
+  },
+  {
+   "path": "技術資料庫\\TW-ICT_FSDT-Stack設計開發\\【1】TW-ICT_FSDT-Stack\\【1】TW-ICT_FSDT-Stack\\TW-ICT_FSDT-Stack_藍圖_r2_2026-07-29.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-8f42c2a37919a1106c36",
+   "candidate_id": "CAND-6d63a40f0764645e",
+   "doc_id": "DOC-3f644e4e1ce8a04c6ee0",
+   "unit_id": "UNIT-b2662ba533503d4ba5a3"
+  },
+  {
+   "path": "技術資料庫\\TW-ICT_FSDT-Stack設計開發\\【1】TW-ICT_FSDT-Stack\\【1】TW-ICT_FSDT-Stack\\TW-ICT_RBWI_v3.0.0_r2_2026-07-30.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-a94b2ec00cf4ae9d24f7",
+   "candidate_id": "CAND-8c0f08ab88267b8f",
+   "doc_id": "DOC-2407b9dc4b722c0fd6ec",
+   "unit_id": "UNIT-e96ef0b5f1eb64f364c2"
+  },
+  {
+   "path": "技術資料庫\\TW-ICT_FSDT-Stack設計開發\\【1】TW-ICT_FSDT-Stack\\【1】TW-ICT_FSDT-Stack\\開發討論&設計原意\\TW-ICT_FSDT-Stack_討論-1_TW-ICT Financial-Spec-Driven Trading Stack 整合鑑定與落地方案.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-800622b2aed75fce8b0c",
+   "candidate_id": "CAND-1411d15bec76dce0",
+   "doc_id": "DOC-58be65eb407803d6ba4c",
+   "unit_id": "UNIT-04f4bd1b674e3ac29305"
+  },
+  {
+   "path": "技術資料庫\\TW-ICT_FSDT-Stack設計開發\\【1】TW-ICT_FSDT-Stack\\【1】TW-ICT_FSDT-Stack\\開發討論&設計原意\\TW-ICT_FSDT-Stack_討論-2_新增 P0 架構規則.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-2ec97a2b32281fd66bce",
+   "candidate_id": "CAND-05938f3dac332d6f",
+   "doc_id": "DOC-95fa5f563dff7158b291",
+   "unit_id": "UNIT-469c4f3f17fe9670c322"
+  },
+  {
+   "path": "技術資料庫\\TW-ICT_FSDT-Stack設計開發\\【1】TW-ICT_FSDT-Stack\\【1】TW-ICT_FSDT-Stack\\開發討論&設計原意\\TW-ICT_FSDT-Stack_討論-3_《TW-ICT Financial-Spec-Driven Trading Stack》全量整合鑑定報告.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-c143393d4bf8ff233b96",
+   "candidate_id": "CAND-1203b20bf2e588f3",
+   "doc_id": "DOC-75a96ac2e0a6678f7c63",
+   "unit_id": "UNIT-344888c3377d2281b625"
+  },
+  {
+   "path": "技術資料庫\\TW-ICT_FSDT-Stack設計開發\\【1】TW-ICT_FSDT-Stack\\【1】TW-ICT_FSDT-Stack\\開發討論&設計原意\\TW-ICT_FSDT-Stack_討論-4_《Spartoi｜台股當沖隔日沖_RUNBOOK&WI v2.0.0》對齊 TW-ICT v3.0 全量鑑定與升級報告.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-09d0010a8232768ba6f4",
+   "candidate_id": "CAND-3caccbfbd7fd83a8",
+   "doc_id": "DOC-ebf1e573aad349d0c141",
+   "unit_id": "UNIT-5ef4581ae02572411340"
+  },
+  {
+   "path": "技術資料庫\\TW-ICT_FSDT-Stack設計開發\\【1】TW-ICT_FSDT-Stack\\【1】TW-ICT_FSDT-Stack\\開發討論&設計原意\\TW-ICT_FSDT-Stack_討論-5_《TW-ICT Financial-Spec-Driven Trading Stack》產品級定位、同級性與架構規模鑑定報告.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-157752e359ace24f1295",
+   "candidate_id": "CAND-d5917901b5f2fea3",
+   "doc_id": "DOC-ae0ba05291c601345d55",
+   "unit_id": "UNIT-123a249cc0289bba46bf"
+  },
+  {
+   "path": "技術資料庫\\TW-ICT_FSDT-Stack設計開發\\【1】TW-ICT_FSDT-Stack\\【1】TW-ICT_FSDT-Stack\\開發討論&設計原意\\TW-ICT_FSDT-Stack_討論-6_《TW-ICT Financial-Spec-Driven Trading Stack》工具級工程現實、核心載體與底層整合鑑定報告.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-10ecaeb9cdaa54e3b61d",
+   "candidate_id": "CAND-fae4d06fed3b07bf",
+   "doc_id": "DOC-b05361e21913e8d81c40",
+   "unit_id": "UNIT-2a9d993d4258293fc654"
+  },
+  {
+   "path": "技術資料庫\\TW-ICT_FSDT-Stack設計開發\\【1】TW-ICT_FSDT-Stack\\【1】TW-ICT_FSDT-Stack\\開發討論&設計原意\\TW-ICT_FSDT-Stack_討論-7_薄契約主幹＋功能原子化模組＋現成工具 Adapter.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-52b5b8cefa0bca148748",
+   "candidate_id": "CAND-4e92d4996710830c",
+   "doc_id": "DOC-67c429b38567ed7ab66a",
+   "unit_id": "UNIT-dda5bec5abc949ce148e"
+  },
+  {
+   "path": "技術資料庫\\TW-ICT_FSDT-Stack設計開發\\【1】TW-ICT_FSDT-Stack\\【1】TW-ICT_FSDT-Stack\\開發討論&設計原意\\TW-ICT_FSDT-Stack_討論-8_《TW-ICT Financial-Spec-Driven Trading Stack》導入塔勒布思想與 AQT v3.0 的時機、深度及邊界鑑定報告.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-cca574ad48b39fe969a0",
+   "candidate_id": "CAND-81d7570cf1d7698c",
+   "doc_id": "DOC-de48c8e0478edb7e4363",
+   "unit_id": "UNIT-f12de095144bbf8518a7"
+  },
+  {
+   "path": "技術資料庫\\TW-ICT_FSDT-Stack設計開發\\【1】TW-ICT_FSDT-Stack\\【2】(舊版)Spartoi_FSDT-Stack\\Spartoi_Financial-Spec-Driven_Trading_Stack_藍圖_r2.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-2b926b1ca92b5c757a15",
+   "candidate_id": "CAND-9b1f1f147d9d7835",
+   "doc_id": "DOC-3130a0664e14cd9f4634",
+   "unit_id": "UNIT-9601e061fc9c26254c26"
+  },
+  {
+   "path": "技術資料庫\\TW-ICT_FSDT-Stack設計開發\\【1】TW-ICT_FSDT-Stack\\【2】(舊版)Spartoi_FSDT-Stack\\開發討論&設計原意\\STSS_討論-10_Spartoi 最佳金融工程方案重構與 2026 量化工具選型報告.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-2318a47a841bc95db46d",
+   "candidate_id": "CAND-460575dca0709437",
+   "doc_id": "DOC-27aee8e2741a60ea095b",
+   "unit_id": "UNIT-1927242bd324046f3211"
+  },
+  {
+   "path": "技術資料庫\\TW-ICT_FSDT-Stack設計開發\\【1】TW-ICT_FSDT-Stack\\【2】(舊版)Spartoi_FSDT-Stack\\開發討論&設計原意\\STSS_討論-11_Spartoi Trading SPEC Stack 回補與金融工程整合修正版.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-68299bdc2d22795fe8cb",
+   "candidate_id": "CAND-fe1b142f2036e582",
+   "doc_id": "DOC-d4f0d9b9b3630d61c3ad",
+   "unit_id": "UNIT-915947cd6cc760b050b6"
+  },
+  {
+   "path": "技術資料庫\\TW-ICT_FSDT-Stack設計開發\\【1】TW-ICT_FSDT-Stack\\【2】(舊版)Spartoi_FSDT-Stack\\開發討論&設計原意\\STSS_討論-1_「Spartoi SPEC STACK」主線.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-7036f3030eab908a95ed",
+   "candidate_id": "CAND-29bcf968206b663f",
+   "doc_id": "DOC-3c4b5eb1f71eb792da87",
+   "unit_id": "UNIT-8b96d5d0df9b56988a31"
+  },
+  {
+   "path": "技術資料庫\\TW-ICT_FSDT-Stack設計開發\\【1】TW-ICT_FSDT-Stack\\【2】(舊版)Spartoi_FSDT-Stack\\開發討論&設計原意\\STSS_討論-2_Spartoi AQT Quant Assurance Pack.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-12dafa2841544a424fa5",
+   "candidate_id": "CAND-c808cafacfdd9147",
+   "doc_id": "DOC-2716f5d9fbb79b5c4fa6",
+   "unit_id": "UNIT-1358b3e2fafc62680b8a"
+  },
+  {
+   "path": "技術資料庫\\TW-ICT_FSDT-Stack設計開發\\【1】TW-ICT_FSDT-Stack\\【2】(舊版)Spartoi_FSDT-Stack\\開發討論&設計原意\\STSS_討論-3_Spartoi STACK 前置整合必要性與最佳開發路徑評估報告.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-ee1ebeddede6f1ef012f",
+   "candidate_id": "CAND-75d48d7fa4ab54f5",
+   "doc_id": "DOC-bbf61ab52a9aa6b95954",
+   "unit_id": "UNIT-77aaf1143f3d8d95c5e6"
+  },
+  {
+   "path": "技術資料庫\\TW-ICT_FSDT-Stack設計開發\\【1】TW-ICT_FSDT-Stack\\【2】(舊版)Spartoi_FSDT-Stack\\開發討論&設計原意\\STSS_討論-4_Spartoi 多層內外架構整合鑑定與修正版總體設計.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-7ee4421e4224bdf431cb",
+   "candidate_id": "CAND-2f9e6d3ada47bc92",
+   "doc_id": "DOC-3b764e1daa05be42a014",
+   "unit_id": "UNIT-fd375ddff3d800286af8"
+  },
+  {
+   "path": "技術資料庫\\TW-ICT_FSDT-Stack設計開發\\【1】TW-ICT_FSDT-Stack\\【2】(舊版)Spartoi_FSDT-Stack\\開發討論&設計原意\\STSS_討論-5_Spartoi-MARCA 與 Spartoi-AgentOS／7-child-PRW 架構重疊、衝突及互補性鑑定報告.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-16ed2bc979899b35d9bc",
+   "candidate_id": "CAND-e6886fb00a74ee70",
+   "doc_id": "DOC-82b252b4aeec041d192a",
+   "unit_id": "UNIT-831a3b33d7f211fa90e4"
+  },
+  {
+   "path": "技術資料庫\\TW-ICT_FSDT-Stack設計開發\\【1】TW-ICT_FSDT-Stack\\【2】(舊版)Spartoi_FSDT-Stack\\開發討論&設計原意\\STSS_討論-6_OpenSpec／GStack、Harness Engineering 與「每日微型交易軟體」模型再鑑定.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-db39fe54f45d635bdb16",
+   "candidate_id": "CAND-9be8cf15f79ae087",
+   "doc_id": "DOC-2006d44e67c39c574c39",
+   "unit_id": "UNIT-a8ec5afa53f27fe9a11f"
+  },
+  {
+   "path": "技術資料庫\\TW-ICT_FSDT-Stack設計開發\\【1】TW-ICT_FSDT-Stack\\【2】(舊版)Spartoi_FSDT-Stack\\開發討論&設計原意\\STSS_討論-7_OpenSpec／GStack 與 Qlib／RD-Agent 路徑再評估暨 Spartoi 最佳金融工程方案.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-b614b6d90ce61e0d2f42",
+   "candidate_id": "CAND-470c649142d4201f",
+   "doc_id": "DOC-fcb99fbbc4a1da57d9f1",
+   "unit_id": "UNIT-9c2ad800763aa92d0386"
+  },
+  {
+   "path": "技術資料庫\\TW-ICT_FSDT-Stack設計開發\\【1】TW-ICT_FSDT-Stack\\【2】(舊版)Spartoi_FSDT-Stack\\開發討論&設計原意\\STSS_討論-8_Spartoi STACK 命名、OpenSpec／GStack 交易化移植與產業採用分析報告.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-20bdf442494bd712f3e4",
+   "candidate_id": "CAND-a8b132218fe249eb",
+   "doc_id": "DOC-d1a7b6ca996e37ccbc69",
+   "unit_id": "UNIT-7566402fafbc7fce04d6"
+  },
+  {
+   "path": "技術資料庫\\TW-ICT_FSDT-Stack設計開發\\【1】TW-ICT_FSDT-Stack\\【2】(舊版)Spartoi_FSDT-Stack\\開發討論&設計原意\\STSS_討論-9_Spartoi 每日 RUNBOOK／WI 與 Playbook 定位修正報告.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-b1da2fdf1c2eaeb9b768",
+   "candidate_id": "CAND-7211384ea6086be9",
+   "doc_id": "DOC-778fdd7bce7f13317ec8",
+   "unit_id": "UNIT-66c25b9c1066241a9fc1"
+  },
+  {
+   "path": "技術資料庫\\TW-ICT_FSDT-Stack設計開發\\【1】TW-ICT_FSDT-Stack\\【3】SEM8／SEM³\\SEM8-ICT-TW_重構升級藍圖_v1.2.1-r1.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-a374d33b8c01a46f8acb",
+   "candidate_id": "CAND-21b84e9fa717121a",
+   "doc_id": "DOC-b4a56a2110f60ac4c0ab",
+   "unit_id": "UNIT-90a39cb698775eaa3cd3"
+  },
+  {
+   "path": "技術資料庫\\TW-ICT_FSDT-Stack設計開發\\【1】TW-ICT_FSDT-Stack\\【3】SEM8／SEM³\\SEM8／SEM³ 對 TW-ICT FSDT Stack r2／RBWI v3 r2 的再鑑定報告.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-75c1a8ab571d81ba6893",
+   "candidate_id": "CAND-65ba4127d1d691b0",
+   "doc_id": "DOC-1d7db8e4cf7f6783ee9b",
+   "unit_id": "UNIT-a30d5a762e6ae80a05e0"
+  },
+  {
+   "path": "技術資料庫\\TW-ICT_FSDT-Stack設計開發\\【1】TW-ICT_FSDT-Stack\\【3】SEM8／SEM³\\ΣHybrid — SEM³ Gate & Fidelity Upgrade Blueprint · v1.0.0.txt",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-86d6014a5f01c9c0b971",
+   "candidate_id": "CAND-d3f3aaf6eb1b36b4",
+   "doc_id": "DOC-d5aba8f38c4ae321efa0",
+   "unit_id": "UNIT-4567cfc635e52e4f83b4"
+  },
+  {
+   "path": "技術資料庫\\TW-ICT_FSDT-Stack設計開發\\【1】TW-ICT_FSDT-Stack\\【3】SEM8／SEM³\\開發資料&原意\\CA-CORPUS_MC4 r4 _ WP r4_SEM8修補_重構升級藍圖筆記-5.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-8bf6363a7edbf5b28fb0",
+   "candidate_id": "CAND-9258388e91206287",
+   "doc_id": "DOC-f268d6203eecac44cda2",
+   "unit_id": "UNIT-ff7c84aa771fc3d8baee"
+  },
+  {
+   "path": "技術資料庫\\TW-ICT_FSDT-Stack設計開發\\【1】TW-ICT_FSDT-Stack\\【3】SEM8／SEM³\\開發資料&原意\\DOC-0001_SEM8-ICT-TW_升級patch規格藍圖_v2026.03.18-r2.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-7b0b068d2a62229d8f0b",
+   "candidate_id": "CAND-df895d75650aaab4",
+   "doc_id": "DOC-a3c58838f7025fbb9b8d",
+   "unit_id": "UNIT-6de40277af8ab839efbd"
+  },
+  {
+   "path": "技術資料庫\\TW-ICT_FSDT-Stack設計開發\\【1】TW-ICT_FSDT-Stack\\【3】SEM8／SEM³\\開發資料&原意\\SEM8-ICT-TW_重構升級藍圖.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-5f91e518eb535cb5f52c",
+   "candidate_id": "CAND-166fcd41c202ffd8",
+   "doc_id": "DOC-b8d44ee8175b22c2dc29",
+   "unit_id": "UNIT-9319d9e702a910bc6617"
+  },
+  {
+   "path": "技術資料庫\\TW-ICT_FSDT-Stack設計開發\\【1】TW-ICT_FSDT-Stack\\【3】SEM8／SEM³\\開發資料&原意\\SEM8-ICT-TW_重構升級藍圖_v1.1.0-r2.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-61dfccd21be36852e6b2",
+   "candidate_id": "CAND-ebdf208d6647d69e",
+   "doc_id": "DOC-5db59fa2ce9b7155c0da",
+   "unit_id": "UNIT-e004a0db7aed4bb8f613"
+  },
+  {
+   "path": "技術資料庫\\TW-ICT_FSDT-Stack設計開發\\【1】TW-ICT_FSDT-Stack\\【3】SEM8／SEM³\\開發資料&原意\\SEM8-ICT-TW_重構升級藍圖_v1.2.0-r1.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-2b3adfe3ec2d229068ea",
+   "candidate_id": "CAND-a5c0212d8010731f",
+   "doc_id": "DOC-b6d0da0acfe7aada4d08",
+   "unit_id": "UNIT-27340314b1a4ae6cb832"
+  },
+  {
+   "path": "技術資料庫\\TW-ICT_FSDT-Stack設計開發\\【1】TW-ICT_FSDT-Stack\\【3】SEM8／SEM³\\開發資料&原意\\SEM8_藍圖.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-22cf529bb1dcee1d5557",
+   "candidate_id": "CAND-b01ad66688430377",
+   "doc_id": "DOC-ee81b1bb2506e2cf303f",
+   "unit_id": "UNIT-670751734ffb6c5b1030"
+  },
+  {
+   "path": "技術資料庫\\TW-ICT_FSDT-Stack設計開發\\【1】TW-ICT_FSDT-Stack\\【3】SEM8／SEM³\\開發資料&原意\\SEM³\\TriRAG_SEG 升級藍圖_v1.1.1.txt",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-f14cf8aad5ec41298b00",
+   "candidate_id": "CAND-89a33b14d0f3bc52",
+   "doc_id": "DOC-e26e9a7a1b2b7742a514",
+   "unit_id": "UNIT-09c84fa0cbde24e9e51e"
+  },
+  {
+   "path": "技術資料庫\\TW-ICT_FSDT-Stack設計開發\\【1】TW-ICT_FSDT-Stack\\【3】SEM8／SEM³\\開發資料&原意\\SEM³\\TriRAG_語意還原度（Semantic Faithfulness）升級方案.txt",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-0940bf7c59f00f0da121",
+   "candidate_id": "CAND-5052b6f496ab1d44",
+   "doc_id": "DOC-3d52127847a28faba058",
+   "unit_id": "UNIT-6eee2390c6f109fc1cf7"
+  },
+  {
+   "path": "技術資料庫\\TW-ICT_FSDT-Stack設計開發\\【1】TW-ICT_FSDT-Stack\\【3】SEM8／SEM³\\開發資料&原意\\藍圖筆記\\SEM8_藍圖筆記-1.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-a8500d954ef8edfd5aeb",
+   "candidate_id": "CAND-5639b1fc5241453a",
+   "doc_id": "DOC-e0a1538bcf6cf48448ac",
+   "unit_id": "UNIT-663eab5b76d196415f73"
+  },
+  {
+   "path": "技術資料庫\\TW-ICT_FSDT-Stack設計開發\\【1】TW-ICT_FSDT-Stack\\【3】SEM8／SEM³\\開發資料&原意\\藍圖筆記\\SEM8_藍圖筆記-2.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-dbf78a6906e2530f755b",
+   "candidate_id": "CAND-8b7c1169849f50e1",
+   "doc_id": "DOC-98b7290eb47fe0809a1b",
+   "unit_id": "UNIT-d0a0123e45d371f527a8"
+  },
+  {
+   "path": "技術資料庫\\TW-ICT_FSDT-Stack設計開發\\【1】TW-ICT_FSDT-Stack\\【3】SEM8／SEM³\\開發資料&原意\\藍圖筆記\\SEM8_藍圖筆記-3.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-3f09fdf504b887e5848b",
+   "candidate_id": "CAND-5a92a3f0a6e73a94",
+   "doc_id": "DOC-9096795302992d52bbd0",
+   "unit_id": "UNIT-579556b786901b86505d"
+  },
+  {
+   "path": "技術資料庫\\TW-ICT_FSDT-Stack設計開發\\【1】TW-ICT_FSDT-Stack\\【3】SEM8／SEM³\\開發資料&原意\\藍圖筆記\\SEM8_藍圖筆記-4.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-88fc307f6c04bc038c44",
+   "candidate_id": "CAND-a5abc19777b77aba",
+   "doc_id": "DOC-9f1dcadf45ec293271e3",
+   "unit_id": "UNIT-e4b466ebe1b59cc425f7"
+  },
+  {
+   "path": "技術資料庫\\TW-ICT_FSDT-Stack設計開發\\【1】TW-ICT_FSDT-Stack\\【3】SEM8／SEM³\\開發資料&原意\\藍圖筆記\\SEM8_藍圖筆記-5.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-8221a5d6e8232731e952",
+   "candidate_id": "CAND-341bcf3603bca492",
+   "doc_id": "DOC-76821292c2dfc6fc3f80",
+   "unit_id": "UNIT-78434f7412c5001cae79"
+  },
+  {
+   "path": "技術資料庫\\TW-ICT_FSDT-Stack設計開發\\【1】TW-ICT_FSDT-Stack\\【3】SEM8／SEM³\\開發資料&原意\\藍圖筆記\\SEM8_藍圖筆記-6.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-ed8ad064bf57ac0e7b3b",
+   "candidate_id": "CAND-32a7b717853c7991",
+   "doc_id": "DOC-f24ffa1dbaf19018f67e",
+   "unit_id": "UNIT-39f373034a5a6147a489"
+  },
+  {
+   "path": "技術資料庫\\TW-ICT_FSDT-Stack設計開發\\【1】TW-ICT_FSDT-Stack\\【3】SEM8／SEM³\\開發資料&原意\\藍圖筆記\\SEM8_藍圖筆記-7.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-097cfbaf09849b2589c0",
+   "candidate_id": "CAND-7ac3fdbb7d046161",
+   "doc_id": "DOC-a2ad32f5a1ae79a3c728",
+   "unit_id": "UNIT-2a04308383fa27f3be45"
+  },
+  {
+   "path": "技術資料庫\\TW-ICT_FSDT-Stack設計開發\\【1】TW-ICT_FSDT-Stack\\【3】SEM8／SEM³\\開發資料&原意\\藍圖筆記\\SEM8_藍圖筆記-8.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-37e7a2561b4caa4c5a86",
+   "candidate_id": "CAND-8967a1a37dd41cc2",
+   "doc_id": "DOC-3e705162abcfac9c1648",
+   "unit_id": "UNIT-a220bbe7e5de91305443"
+  },
+  {
+   "path": "技術資料庫\\TW-ICT_FSDT-Stack設計開發\\【1】TW-ICT_FSDT-Stack\\【3】SEM8／SEM³\\開發資料&原意\\藍圖筆記\\SEM8_藍圖筆記-9.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-a3cbb49be8788cdd8d3f",
+   "candidate_id": "CAND-24bac34d4e37e262",
+   "doc_id": "DOC-8fb26eabdace8f09b03b",
+   "unit_id": "UNIT-a9b3d04514ce41158f95"
+  },
+  {
+   "path": "技術資料庫\\TW-ICT_FSDT-Stack設計開發\\【2】台股當沖隔日沖流程\\【1】TW-ICT_RUNBOOK&WI_v3.0.0\\TW-ICT_RBWI_v3.0.0_r2_2026-07-30.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-a94b2ec00cf4ae9d24f7",
+   "candidate_id": "CAND-4c05499351705431",
+   "doc_id": "DOC-7bdc57f62f1ff3b9f128",
+   "unit_id": "UNIT-e96ef0b5f1eb64f364c2"
+  },
+  {
+   "path": "技術資料庫\\TW-ICT_FSDT-Stack設計開發\\【2】台股當沖隔日沖流程\\【1】TW-ICT_RUNBOOK&WI_v3.0.0\\TW-ICT_RUNBOOK&WI_v3.0.0_重構升級藍圖_r2.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-7409282b595ddc474f74",
+   "candidate_id": "CAND-c26bd1998f640635",
+   "doc_id": "DOC-a375afec087943b559d8",
+   "unit_id": "UNIT-57117c63bb19a9e5886b"
+  },
+  {
+   "path": "技術資料庫\\TW-ICT_FSDT-Stack設計開發\\【2】台股當沖隔日沖流程\\【1】TW-ICT_RUNBOOK&WI_v3.0.0\\討論&原意\\《Spartoi RUNBOOK／WI v2.0.0》週日工作流、劇本、股池與偏見對齊 TW-ICT v3.0 第二次深度鑑定報告.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-b7ce5f1f02f9425929ba",
+   "candidate_id": "CAND-ebbfa5e4e151ac20",
+   "doc_id": "DOC-71641de62fa0d0737856",
+   "unit_id": "UNIT-acca795fbe3a88e73b24"
+  },
+  {
+   "path": "技術資料庫\\TW-ICT_FSDT-Stack設計開發\\【2】台股當沖隔日沖流程\\【1】TW-ICT_RUNBOOK&WI_v3.0.0\\討論&原意\\《Spartoi｜台股當沖隔日沖_RUNBOOK&WI v2.0.0》對齊 TW-ICT v3.0 全量鑑定與升級報告.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-09d0010a8232768ba6f4",
+   "candidate_id": "CAND-26327c54c046ca2c",
+   "doc_id": "DOC-84cf2da3b7faf7e006b1",
+   "unit_id": "UNIT-5ef4581ae02572411340"
+  },
+  {
+   "path": "技術資料庫\\TW-ICT_FSDT-Stack設計開發\\【2】台股當沖隔日沖流程\\【2】(舊版)Spartoi｜台股當沖隔日沖\\ICT台股當沖流程_0執行手冊_v1.7.0+.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-c11ebfd146b91cbd7a32",
+   "candidate_id": "CAND-566966aa70d88397",
+   "doc_id": "DOC-2bf59b60689cc4135111",
+   "unit_id": "UNIT-ab383dd2a27b7a0479b9"
+  },
+  {
+   "path": "技術資料庫\\TW-ICT_FSDT-Stack設計開發\\【2】台股當沖隔日沖流程\\【2】(舊版)Spartoi｜台股當沖隔日沖\\ICT股票分析總表_v1.2.1.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-b410cb12697b0934d88e",
+   "candidate_id": "CAND-9080b5110cafeeb1",
+   "doc_id": "DOC-c5ecec035d7a41ced66e",
+   "unit_id": "UNIT-cee14dd1d3f6eef52708"
+  },
+  {
+   "path": "技術資料庫\\TW-ICT_FSDT-Stack設計開發\\【2】台股當沖隔日沖流程\\【2】(舊版)Spartoi｜台股當沖隔日沖\\Spartoi｜P1_台股當沖隔日沖流程_執行手冊_v2.1.0.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-35a5e3a8f5cf82671d38",
+   "candidate_id": "CAND-2f92c9e0be5397ce",
+   "doc_id": "DOC-af68a4ede93b9b36927a",
+   "unit_id": "UNIT-49d9a2ed8981b46e7095"
+  },
+  {
+   "path": "技術資料庫\\TW-ICT_FSDT-Stack設計開發\\【2】台股當沖隔日沖流程\\【2】(舊版)Spartoi｜台股當沖隔日沖\\Spartoi｜台股當沖隔日沖_RUNBOOK&WI_v2.0.0.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-42c41ff320ffa021af27",
+   "candidate_id": "CAND-1709ed77b041e73a",
+   "doc_id": "DOC-1afcaf4785e080630dc5",
+   "unit_id": "UNIT-a0da4ff291443ea01a71"
+  },
+  {
+   "path": "技術資料庫\\TW-ICT_FSDT-Stack設計開發\\【3】Spartoi\\SEM8／SEM³\\SEM8-ICT-TW_重構升級藍圖_v1.2.1-r1.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-a374d33b8c01a46f8acb",
+   "candidate_id": "CAND-862f67b52d63a09e",
+   "doc_id": "DOC-03197b62fd5b0a67c5b0",
+   "unit_id": "UNIT-90a39cb698775eaa3cd3"
+  },
+  {
+   "path": "技術資料庫\\TW-ICT_FSDT-Stack設計開發\\【3】Spartoi\\SEM8／SEM³\\SEM8／SEM³ 對 TW-ICT FSDT Stack r2／RBWI v3 r2 的再鑑定報告.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-75c1a8ab571d81ba6893",
+   "candidate_id": "CAND-748a00ff6692cca6",
+   "doc_id": "DOC-118ea980d57d15a59cff",
+   "unit_id": "UNIT-a30d5a762e6ae80a05e0"
+  },
+  {
+   "path": "技術資料庫\\TW-ICT_FSDT-Stack設計開發\\【3】Spartoi\\SEM8／SEM³\\ΣHybrid — SEM³ Gate & Fidelity Upgrade Blueprint · v1.0.0.txt",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-86d6014a5f01c9c0b971",
+   "candidate_id": "CAND-68d078962e2101e0",
+   "doc_id": "DOC-b466e92cef5a12ef2a7a",
+   "unit_id": "UNIT-4567cfc635e52e4f83b4"
+  },
+  {
+   "path": "技術資料庫\\TW-ICT_FSDT-Stack設計開發\\【3】Spartoi\\SEM8／SEM³\\開發資料&原意\\CA-CORPUS_MC4 r4 _ WP r4_SEM8修補_重構升級藍圖筆記-5.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-8bf6363a7edbf5b28fb0",
+   "candidate_id": "CAND-0895b57b57318afb",
+   "doc_id": "DOC-9a99ed6f44d435144684",
+   "unit_id": "UNIT-ff7c84aa771fc3d8baee"
+  },
+  {
+   "path": "技術資料庫\\TW-ICT_FSDT-Stack設計開發\\【3】Spartoi\\SEM8／SEM³\\開發資料&原意\\DOC-0001_SEM8-ICT-TW_升級patch規格藍圖_v2026.03.18-r2.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-7b0b068d2a62229d8f0b",
+   "candidate_id": "CAND-83452f7bc173f964",
+   "doc_id": "DOC-1af4d2393176fa7b6dfb",
+   "unit_id": "UNIT-6de40277af8ab839efbd"
+  },
+  {
+   "path": "技術資料庫\\TW-ICT_FSDT-Stack設計開發\\【3】Spartoi\\SEM8／SEM³\\開發資料&原意\\SEM8-ICT-TW_重構升級藍圖.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-5f91e518eb535cb5f52c",
+   "candidate_id": "CAND-73e9632d1bf6085f",
+   "doc_id": "DOC-d37f798375ae29867eb9",
+   "unit_id": "UNIT-9319d9e702a910bc6617"
+  },
+  {
+   "path": "技術資料庫\\TW-ICT_FSDT-Stack設計開發\\【3】Spartoi\\SEM8／SEM³\\開發資料&原意\\SEM8-ICT-TW_重構升級藍圖_v1.1.0-r2.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-61dfccd21be36852e6b2",
+   "candidate_id": "CAND-154f06f26d79d596",
+   "doc_id": "DOC-16c7a0c4ed67c0767355",
+   "unit_id": "UNIT-e004a0db7aed4bb8f613"
+  },
+  {
+   "path": "技術資料庫\\TW-ICT_FSDT-Stack設計開發\\【3】Spartoi\\SEM8／SEM³\\開發資料&原意\\SEM8-ICT-TW_重構升級藍圖_v1.2.0-r1.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-2b3adfe3ec2d229068ea",
+   "candidate_id": "CAND-f5b8ca1dcdce796a",
+   "doc_id": "DOC-1df14dde960b11398593",
+   "unit_id": "UNIT-27340314b1a4ae6cb832"
+  },
+  {
+   "path": "技術資料庫\\TW-ICT_FSDT-Stack設計開發\\【3】Spartoi\\SEM8／SEM³\\開發資料&原意\\SEM8_藍圖.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-22cf529bb1dcee1d5557",
+   "candidate_id": "CAND-7d7267e626816196",
+   "doc_id": "DOC-32f5ac1a8f364b265913",
+   "unit_id": "UNIT-670751734ffb6c5b1030"
+  },
+  {
+   "path": "技術資料庫\\TW-ICT_FSDT-Stack設計開發\\【3】Spartoi\\SEM8／SEM³\\開發資料&原意\\SEM³\\TriRAG_SEG 升級藍圖_v1.1.1.txt",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-f14cf8aad5ec41298b00",
+   "candidate_id": "CAND-b488763291a325c5",
+   "doc_id": "DOC-14b3c5d8d70356b08d45",
+   "unit_id": "UNIT-09c84fa0cbde24e9e51e"
+  },
+  {
+   "path": "技術資料庫\\TW-ICT_FSDT-Stack設計開發\\【3】Spartoi\\SEM8／SEM³\\開發資料&原意\\SEM³\\TriRAG_語意還原度（Semantic Faithfulness）升級方案.txt",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-0940bf7c59f00f0da121",
+   "candidate_id": "CAND-bac0660c5a6376d2",
+   "doc_id": "DOC-db3e71b32e95351b1f29",
+   "unit_id": "UNIT-6eee2390c6f109fc1cf7"
+  },
+  {
+   "path": "技術資料庫\\TW-ICT_FSDT-Stack設計開發\\【3】Spartoi\\SEM8／SEM³\\開發資料&原意\\藍圖筆記\\SEM8_藍圖筆記-1.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-a8500d954ef8edfd5aeb",
+   "candidate_id": "CAND-3d2c3f13868aba85",
+   "doc_id": "DOC-95a7c7d05628ef999296",
+   "unit_id": "UNIT-663eab5b76d196415f73"
+  },
+  {
+   "path": "技術資料庫\\TW-ICT_FSDT-Stack設計開發\\【3】Spartoi\\SEM8／SEM³\\開發資料&原意\\藍圖筆記\\SEM8_藍圖筆記-2.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-dbf78a6906e2530f755b",
+   "candidate_id": "CAND-ed66aa3c7c80139d",
+   "doc_id": "DOC-91f6a003cc0e0f05f292",
+   "unit_id": "UNIT-d0a0123e45d371f527a8"
+  },
+  {
+   "path": "技術資料庫\\TW-ICT_FSDT-Stack設計開發\\【3】Spartoi\\SEM8／SEM³\\開發資料&原意\\藍圖筆記\\SEM8_藍圖筆記-3.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-3f09fdf504b887e5848b",
+   "candidate_id": "CAND-e1d28fdd425e030d",
+   "doc_id": "DOC-3c655b49664048104e14",
+   "unit_id": "UNIT-579556b786901b86505d"
+  },
+  {
+   "path": "技術資料庫\\TW-ICT_FSDT-Stack設計開發\\【3】Spartoi\\SEM8／SEM³\\開發資料&原意\\藍圖筆記\\SEM8_藍圖筆記-4.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-88fc307f6c04bc038c44",
+   "candidate_id": "CAND-12465e54178a6153",
+   "doc_id": "DOC-863d4025daec9ee529e1",
+   "unit_id": "UNIT-e4b466ebe1b59cc425f7"
+  },
+  {
+   "path": "技術資料庫\\TW-ICT_FSDT-Stack設計開發\\【3】Spartoi\\SEM8／SEM³\\開發資料&原意\\藍圖筆記\\SEM8_藍圖筆記-5.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-8221a5d6e8232731e952",
+   "candidate_id": "CAND-e9231d0bc1a75304",
+   "doc_id": "DOC-faf2f9abac79fa7abc4e",
+   "unit_id": "UNIT-78434f7412c5001cae79"
+  },
+  {
+   "path": "技術資料庫\\TW-ICT_FSDT-Stack設計開發\\【3】Spartoi\\SEM8／SEM³\\開發資料&原意\\藍圖筆記\\SEM8_藍圖筆記-6.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-ed8ad064bf57ac0e7b3b",
+   "candidate_id": "CAND-42efece09b879511",
+   "doc_id": "DOC-265c93776e87fc82937b",
+   "unit_id": "UNIT-39f373034a5a6147a489"
+  },
+  {
+   "path": "技術資料庫\\TW-ICT_FSDT-Stack設計開發\\【3】Spartoi\\SEM8／SEM³\\開發資料&原意\\藍圖筆記\\SEM8_藍圖筆記-7.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-097cfbaf09849b2589c0",
+   "candidate_id": "CAND-b9c29c7f8eee704b",
+   "doc_id": "DOC-9cc24b84507a066672f2",
+   "unit_id": "UNIT-2a04308383fa27f3be45"
+  },
+  {
+   "path": "技術資料庫\\TW-ICT_FSDT-Stack設計開發\\【3】Spartoi\\SEM8／SEM³\\開發資料&原意\\藍圖筆記\\SEM8_藍圖筆記-8.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-37e7a2561b4caa4c5a86",
+   "candidate_id": "CAND-17c4a071691f9a0e",
+   "doc_id": "DOC-7131e0f3fcfe1ff17fa1",
+   "unit_id": "UNIT-a220bbe7e5de91305443"
+  },
+  {
+   "path": "技術資料庫\\TW-ICT_FSDT-Stack設計開發\\【3】Spartoi\\SEM8／SEM³\\開發資料&原意\\藍圖筆記\\SEM8_藍圖筆記-9.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-a3cbb49be8788cdd8d3f",
+   "candidate_id": "CAND-d1667d25e6dc5de8",
+   "doc_id": "DOC-00447ddb2c23c37a0816",
+   "unit_id": "UNIT-a9b3d04514ce41158f95"
+  },
+  {
+   "path": "技術資料庫\\TW-ICT_FSDT-Stack設計開發\\【3】Spartoi\\Spartoi-AgentOS_藍圖_v2026-06-07-r2.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-bf289c4c1897b86cb832",
+   "candidate_id": "CAND-2f8ab0447fa8a679",
+   "doc_id": "DOC-46f07f7bab77e077c540",
+   "unit_id": "UNIT-624c803665786ff8f5de"
+  },
+  {
+   "path": "技術資料庫\\TW-ICT_FSDT-Stack設計開發\\【3】Spartoi\\Spartoi_總系統級&7-child-PRW_總藍圖.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-a1664f15544708efafad",
+   "candidate_id": "CAND-3788053b00ff1e3b",
+   "doc_id": "DOC-bd1dc675db828c402cf5",
+   "unit_id": "UNIT-7f84b3ce0e9d2fecd8a5"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\AGENT\\AI_AGENT_SPEC_專業技術文檔\\AI_AGENT_SPEC_專業技術文檔_DOC-00_2026-07-28_r1.md",
+   "ingest": "QUARANTINED",
+   "findings": [
+    "SECRET_PATTERN:sk-[A-Za-z0-9_-]{20,}"
+   ],
+   "source_id": "SRC-a9edaf3c3fb0579b3229",
+   "candidate_id": "CAND-8f867181df671ef8"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\AGENT\\AI_AGENT_SPEC_專業技術文檔\\AI_AGENT_SPEC_專業技術文檔_DOC-01_2026-07-28_r1.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-b08307be1057b036f6fc",
+   "candidate_id": "CAND-ea7059bf1ca5fb23",
+   "doc_id": "DOC-a039b6a55f3332164422",
+   "unit_id": "UNIT-77762dbfc27891814bcf"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\AGENT\\AI_AGENT_SPEC_專業技術文檔\\AI_AGENT_SPEC_專業技術文檔_DOC-02_2026-07-28_r1.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-14a2a76315bde04d4b5e",
+   "candidate_id": "CAND-a381f7c6e0cb195d",
+   "doc_id": "DOC-856c4d48efab9c442386",
+   "unit_id": "UNIT-2df2e9fb05237dc3b4fb"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\AGENT\\AI_AGENT_SPEC_專業技術文檔\\AI_AGENT_SPEC_專業技術文檔_DOC-03_2026-07-28_r1.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-14d972db19b013b8db4a",
+   "candidate_id": "CAND-e92db1fcd99bad18",
+   "doc_id": "DOC-d04d973939336c390a66",
+   "unit_id": "UNIT-475bfc803e072a5d0d2a"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\AGENT\\AI_AGENT_SPEC_專業技術文檔\\AI_AGENT_SPEC_專業技術文檔_DOC-04_2026-07-28_r1.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-c4677512c56349d848f6",
+   "candidate_id": "CAND-014899b731d0a41c",
+   "doc_id": "DOC-c817a9b32a927353aef4",
+   "unit_id": "UNIT-f8539f8d0908828d1584"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\AGENT\\AI_AGENT_SPEC_專業技術文檔\\AI_AGENT_SPEC_專業技術文檔_DOC-05_2026-07-28_r1.md",
+   "ingest": "QUARANTINED",
+   "findings": [
+    "SECRET_PATTERN:(?i)(?:api[_-]?key|secret|token)\\s*[:=]\\s*['\\\"]?[A-Za-z0-9_./+-]{16,}"
+   ],
+   "source_id": "SRC-46fe50e093f80b0e8169",
+   "candidate_id": "CAND-0475eb0b234854c1"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\AGENT\\AI_AGENT_SPEC_專業技術文檔\\AI_AGENT_SPEC_專業技術文檔_DOC-06_2026-07-28_r1.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-d87fd4b5c4a8bf909390",
+   "candidate_id": "CAND-92330d9c59c29239",
+   "doc_id": "DOC-a980eeba667b4d62f5a5",
+   "unit_id": "UNIT-9ec29262b72afb268155"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\AGENT\\AI_AGENT_SPEC_專業技術文檔\\AI_AGENT_SPEC_專業技術文檔_DOC-07_2026-07-28_r1.md",
+   "ingest": "QUARANTINED",
+   "findings": [
+    "PROMPT_INJECTION:ignore\\s+(?:all\\s+)?(?:previous|prior)\\s+instructions"
+   ],
+   "source_id": "SRC-71aeec31488a65c5c53e",
+   "candidate_id": "CAND-0ad0b079d170b9ea"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\AGENT\\AI_AGENT_SPEC_專業技術文檔\\AI_AGENT_SPEC_專業技術文檔_DOC-08_2026-07-28_r1.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-27c1dbdcb67cce60d6a9",
+   "candidate_id": "CAND-3b8d081d330ce5b3",
+   "doc_id": "DOC-7982157abdc2e9276d74",
+   "unit_id": "UNIT-af9ec81e1b2b6200fbe9"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\AGENT\\AI_AGENT_SPEC_專業技術文檔\\AI_AGENT_SPEC_專業技術文檔_DOC-09_2026-07-28_r1.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-69f781d864b374e16662",
+   "candidate_id": "CAND-703992a030c881c5",
+   "doc_id": "DOC-14370523a689d254ef65",
+   "unit_id": "UNIT-eb1e29a97f5ffe5e864e"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\AGENT\\AI_AGENT_SPEC_專業技術文檔\\AI_AGENT_SPEC_專業技術文檔_DOC-10_2026-07-28_r1.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-44e36aebd9a58c549766",
+   "candidate_id": "CAND-73ee06b2d07cd082",
+   "doc_id": "DOC-bc43d19a6800082100ed",
+   "unit_id": "UNIT-77bd1d723ae1230e842a"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\AGENT\\Hermes_Agent_OS_專業技術文檔\\Hermes_Agent_OS_專業技術文檔_DOC-01_r2.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-4e2da5806390e538ea74",
+   "candidate_id": "CAND-fe7a2e2e10c248d1",
+   "doc_id": "DOC-9f3ff40822603534078a",
+   "unit_id": "UNIT-ca08d922185d16f7ec83"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\AGENT\\Hermes_Agent_OS_專業技術文檔\\Hermes_Agent_OS_專業技術文檔_DOC-02_2026-07-16_r2.md",
+   "ingest": "QUARANTINED",
+   "findings": [
+    "PROMPT_INJECTION:ignore\\s+(?:all\\s+)?(?:previous|prior)\\s+instructions"
+   ],
+   "source_id": "SRC-20263b81fea2852d83e6",
+   "candidate_id": "CAND-c357c22bb12192a5"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\AGENT\\Hermes_Agent_OS_專業技術文檔\\Hermes_Agent_OS_專業技術文檔_DOC-03_2026-07-16_r2.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-a02c6ef87ea6b7591d71",
+   "candidate_id": "CAND-16f74de915a4d434",
+   "doc_id": "DOC-d7b786759960f998cb8b",
+   "unit_id": "UNIT-a305408bd717413d0380"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\AGENT\\Hermes_Agent_OS_專業技術文檔\\Hermes_Agent_OS_專業技術文檔_DOC-04_2026-07-16_r3.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-d1fabca8fdf28c364373",
+   "candidate_id": "CAND-3a743ceb4e02c235",
+   "doc_id": "DOC-ea899002693658564e5f",
+   "unit_id": "UNIT-bde8a318266916b531e8"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\AGENT\\Hermes_Agent_OS_專業技術文檔\\Hermes_Agent_OS_專業技術文檔_DOC-05_2026-07-16_r2.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-49fa532c1bee5420d21b",
+   "candidate_id": "CAND-8f2ee732366df3ba",
+   "doc_id": "DOC-e126ac5c05a0aaca5ef4",
+   "unit_id": "UNIT-130ad3d79afee184499f"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\AGENT\\Hermes_Agent_OS_專業技術文檔\\Hermes_Agent_OS_專業技術文檔_DOC-06_2026-07-16_r2.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-d90878c79c039b99c881",
+   "candidate_id": "CAND-7e299b28e0b0bc18",
+   "doc_id": "DOC-3962ea3314b2ccf0dfed",
+   "unit_id": "UNIT-2cac85165b442cf288f1"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\AGENT\\Hermes_Agent_OS_專業技術文檔\\Hermes_Agent_OS_專業技術文檔_DOC-07_2026-07-16_r2.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-3b0b2b92fbb0ca5d8ecd",
+   "candidate_id": "CAND-2200a2c3acee84e5",
+   "doc_id": "DOC-266fc09a10e8de7dfa6f",
+   "unit_id": "UNIT-b06cf043683add38ade7"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\AGENT\\Hermes_Agent_OS_專業技術文檔\\Hermes_Agent_OS_專業技術文檔_DOC-08_r2.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-d9e96a2cf93b538cf583",
+   "candidate_id": "CAND-bf59108ceb386c11",
+   "doc_id": "DOC-2dba679c8b0c59fe13d2",
+   "unit_id": "UNIT-5ebce20c17539b18f078"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\AGENT\\Hermes_Agent_OS_專業技術文檔\\Hermes_Agent_OS_專業技術文檔_DOC-09_2026-07-16_r2.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-d4864d005d70c54284e6",
+   "candidate_id": "CAND-6b25efe8dc32dfea",
+   "doc_id": "DOC-bc10ed4a1afecca54ae2",
+   "unit_id": "UNIT-1b8835bcdcef2958c113"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\AGENT\\Hermes_Agent_OS_專業技術文檔\\Hermes_Agent_OS_專業技術文檔_DOC-10_2026-07-16_r2.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-ab9ed125edf2d2e73ca7",
+   "candidate_id": "CAND-9fa85b2b7b05a427",
+   "doc_id": "DOC-39836d9b3a8286c7cf21",
+   "unit_id": "UNIT-4ed63b32453a9c5105bc"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\AGENT\\Hermes_Agent_OS_專業技術文檔\\Hermes_Agent_OS_專業技術文檔_DOC-11_2026-07-16_r2.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-d78c47f7971bb5adb420",
+   "candidate_id": "CAND-4f4e5a549afc23c8",
+   "doc_id": "DOC-54d6ed9eff7417637aa5",
+   "unit_id": "UNIT-c6bac2f397ec776b82e7"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\AGENT\\Hermes_Agent_OS_專業技術文檔\\Hermes_Agent_OS_專業技術文檔_DOC-12_2026-07-16_r2.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-af3ea05a6297c73dca5f",
+   "candidate_id": "CAND-6095e5b102084352",
+   "doc_id": "DOC-778f3f80ff0c292d82d0",
+   "unit_id": "UNIT-5ae01aaf42ca677a6101"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\AGENT\\Hermes_Agent_OS_專業技術文檔\\Hermes_Agent_OS_專業技術文檔_DOC-13_2026-07-16_r2.md",
+   "ingest": "QUARANTINED",
+   "findings": [
+    "PROMPT_INJECTION:(?:exfiltrate|reveal|print)\\s+(?:the\\s+)?(?:secret|token|api\\s*key)"
+   ],
+   "source_id": "SRC-bc49c801eedbb737b456",
+   "candidate_id": "CAND-6e6adbc0e61211d8"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\AGENT\\Hermes_Agent_OS_專業技術文檔\\Hermes_Agent_OS_專業技術文檔_DOC-14_2026-07-16_r2.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-4eda7b628dab0e488d1f",
+   "candidate_id": "CAND-8fadad3b0800df52",
+   "doc_id": "DOC-0f46f9e3465b5113992c",
+   "unit_id": "UNIT-a01e2fa2d8286fc03e4d"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\AGENT\\Hermes_Agent_OS_專業技術文檔\\Hermes_Agent_OS_專業技術文檔_DOC-15_2026-07-16_r2.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-1f35f34c780ec332116b",
+   "candidate_id": "CAND-647f4079adb6a558",
+   "doc_id": "DOC-ba15c80a6487cc1cef9a",
+   "unit_id": "UNIT-d3b075ffa42569a3d338"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\AGENT\\Hermes_Agent_OS_專業技術文檔\\Hermes_Agent_OS_專業技術文檔_DOC-16_2026-07-16_r2.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-8cc8dae830e046fbe373",
+   "candidate_id": "CAND-29c3afcd5e39bb5d",
+   "doc_id": "DOC-972819d5514aaeaaf743",
+   "unit_id": "UNIT-36f0aef4c4fdb0c44fbe"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\AGENT\\Hermes_Agent_OS_專業技術文檔\\Hermes_Agent_OS_專業技術文檔_DOC-17_2026-07-16_r2.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-8475b423c1a03fdc48e2",
+   "candidate_id": "CAND-0d320d768116555c",
+   "doc_id": "DOC-665beccda3dc379a0d2a",
+   "unit_id": "UNIT-69cb0a483b17f2334154"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\AGENT\\Hermes_Agent_OS_專業技術文檔\\Hermes_Agent_OS_專業技術文檔_DOC-18_2026-07-16_r2.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-dceaf24b3036b4f5adf7",
+   "candidate_id": "CAND-7c4aa7021317b454",
+   "doc_id": "DOC-58603def52de275ae628",
+   "unit_id": "UNIT-e91a0622ba7d0f94badf"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\AGENT\\Hermes_Agent_OS_專業技術文檔\\Hermes_Agent_OS_專業技術文檔_DOC-19_2026-07-16_r2.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-3dc699bb1288e090a5b3",
+   "candidate_id": "CAND-523a51941feccaad",
+   "doc_id": "DOC-19ec9054d07fd08b4d00",
+   "unit_id": "UNIT-ef48902a8e6bf9912141"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\AGENT\\Hermes_Agent_OS_專業技術文檔\\Hermes_Agent_OS_專業技術文檔_DOC-20_r2.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-d5d259c5b08ed20df904",
+   "candidate_id": "CAND-3b878b7d5c77e993",
+   "doc_id": "DOC-e83d0536187b36e92bfc",
+   "unit_id": "UNIT-49928c35223889671bcb"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\AQT_v3.0_專業技術文檔\\AQT_v3.0_專業技術文檔_DOC-00_2026-07-24_r1.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-31ec4d6f20bbab529835",
+   "candidate_id": "CAND-e77c3f64d1f70620",
+   "doc_id": "DOC-7af834cb7f94b9edf633",
+   "unit_id": "UNIT-3a7c79f86f5b4b014111"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\AQT_v3.0_專業技術文檔\\AQT_v3.0_專業技術文檔_DOC-01_2026-07-24_r1.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-556715b3736a33114925",
+   "candidate_id": "CAND-098af242088c779c",
+   "doc_id": "DOC-f40b650cee30fb9db75a",
+   "unit_id": "UNIT-d1bbbea69cd4d9aa8113"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\AQT_v3.0_專業技術文檔\\AQT_v3.0_專業技術文檔_DOC-02_2026-07-24_r1.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-047ad6eecc50e9c521ba",
+   "candidate_id": "CAND-edc8042fad49e042",
+   "doc_id": "DOC-41bccb1ef5f1e31c610e",
+   "unit_id": "UNIT-e3b5cf72a1d903e72ad3"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\AQT_v3.0_專業技術文檔\\AQT_v3.0_專業技術文檔_DOC-03_2026-07-24_r1.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-8539e9526f767383da91",
+   "candidate_id": "CAND-c398ab1a20d58de6",
+   "doc_id": "DOC-c196cdbee83aafa45f85",
+   "unit_id": "UNIT-3444149b3b248c77029e"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\AQT_v3.0_專業技術文檔\\AQT_v3.0_專業技術文檔_DOC-04_2026-07-24_r1.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-6e48e28f59b99695cb27",
+   "candidate_id": "CAND-809a3973c550981d",
+   "doc_id": "DOC-7b3d805320c6feef33a3",
+   "unit_id": "UNIT-47aee84fd306ec6fac02"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\AQT_v3.0_專業技術文檔\\AQT_v3.0_專業技術文檔_DOC-05_2026-07-24_r1.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-eb1ee6e2e8b05da0cca9",
+   "candidate_id": "CAND-3e352191061306fe",
+   "doc_id": "DOC-8993c2397af91a6c39a8",
+   "unit_id": "UNIT-fbd87b32bb3f2ab6631b"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\AQT_v3.0_專業技術文檔\\AQT_v3.0_專業技術文檔_DOC-06_2026-07-24_r1.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-5f8c34e2ede88a3f0741",
+   "candidate_id": "CAND-d351834632855034",
+   "doc_id": "DOC-1464f80248fae8cfebfe",
+   "unit_id": "UNIT-3480a6389794501e4c2a"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\AQT_v3.0_專業技術文檔\\AQT_v3.0_專業技術文檔_DOC-07_2026-07-24_r1.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-02d5b96b9694b289303b",
+   "candidate_id": "CAND-1f402b39664e5aa0",
+   "doc_id": "DOC-784be84c5dee5e5b8a2b",
+   "unit_id": "UNIT-df80d726c361965628f7"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\AQT_v3.0_專業技術文檔\\AQT_v3.0_專業技術文檔_DOC-08_2026-07-24_r1.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-c97d5b50c1751f43dd92",
+   "candidate_id": "CAND-64822d8181297bff",
+   "doc_id": "DOC-ebe0e4d3e541f17d46e5",
+   "unit_id": "UNIT-24e015726ca9cca6f86f"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\AQT_v3.0_專業技術文檔\\AQT_v3.0_專業技術文檔_DOC-09_2026-07-24_r1.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-a2e06e40e0eab849d96e",
+   "candidate_id": "CAND-cc75569115aebf88",
+   "doc_id": "DOC-38efcc03a7d9f64cf888",
+   "unit_id": "UNIT-dbcc6817ce1a651f2184"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\AQT_v3.0_專業技術文檔\\AQT_v3.0_專業技術文檔_DOC-10_2026-07-24_r1.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-358ba8dbddbe13670ddb",
+   "candidate_id": "CAND-d9ffbcaeb11f54fe",
+   "doc_id": "DOC-9da233909b3dcbb70410",
+   "unit_id": "UNIT-7fc07e06217575b95349"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\AQT_v3.0_專業技術文檔\\AQT_v3.0_專業技術文檔_DOC-11_2026-07-24_r1.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-dba89a3747a6f63adcd2",
+   "candidate_id": "CAND-cd00e2f0ce780a8d",
+   "doc_id": "DOC-5c149169fc35b2394dc6",
+   "unit_id": "UNIT-c6eaddea494b8f21eaf2"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\AQT_v3.0_專業技術文檔\\AQT_v3.0_專業技術文檔_DOC-12_2026-07-24_r1.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-b30de3325b55a9783331",
+   "candidate_id": "CAND-ac000d166fc0c06a",
+   "doc_id": "DOC-ca00f24b37c647dd584e",
+   "unit_id": "UNIT-e32003820441f8efbd67"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\AQT_v3.0_專業技術文檔\\AQT_v3.0_專業技術文檔_DOC-13_2026-07-24_r1.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-85731b0e11b97442da67",
+   "candidate_id": "CAND-3414d1a644986c33",
+   "doc_id": "DOC-0f71743d36d98813f94a",
+   "unit_id": "UNIT-cb9e8e8ba76dd5dabaac"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\AQT_v3.0_專業技術文檔\\AQT_v3.0_專業技術文檔_DOC-14_2026-07-24_r1.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-7b5e9facb05802890b52",
+   "candidate_id": "CAND-8d5e8ec008f68730",
+   "doc_id": "DOC-fd1026598da3fe81f6c3",
+   "unit_id": "UNIT-f176fa060a143d8ddb9a"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\AQT_v3.0_專業技術文檔\\AQT_v3.0_專業技術文檔_DOC-15_2026-07-24_r1.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-f4b08b8a3cebc3a53ae6",
+   "candidate_id": "CAND-fda4cbe1683a7c34",
+   "doc_id": "DOC-52bf0add8bc36e71a1dd",
+   "unit_id": "UNIT-52da2f8a2dfe00fd859b"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\AQT_v3.0_專業技術文檔\\AQT_v3.0_專業技術文檔_DOC-16_2026-07-24_r1.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-4b5c4fff92ef1fb5b3d9",
+   "candidate_id": "CAND-f3a918c9cd782bb5",
+   "doc_id": "DOC-946a210b3c981c01a747",
+   "unit_id": "UNIT-a36c22870f9573b9e16b"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\AQT_v3.0_專業技術文檔\\AQT_v3.0_專業技術文檔_DOC-17_2026-07-24_r1.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-fefdeb7e9bc1314d3fc6",
+   "candidate_id": "CAND-5419ad9ffd09e1af",
+   "doc_id": "DOC-588fe4934d898bb6a21b",
+   "unit_id": "UNIT-2360e64de7adcab16a4d"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\AQT_v3.0_專業技術文檔\\AQT_v3.0_專業技術文檔_DOC-18_2026-07-24_r1.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-90ba801d7b994a161482",
+   "candidate_id": "CAND-f724dca32bd06bc5",
+   "doc_id": "DOC-1b9fff04ed6d18412aef",
+   "unit_id": "UNIT-f48fb0831ab2566712d0"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\AQT_v3.0_專業技術文檔\\AQT_v3.0_專業技術文檔_DOC-19_2026-07-24_r1.md",
+   "ingest": "QUARANTINED",
+   "findings": [
+    "SECRET_PATTERN:sk-[A-Za-z0-9_-]{20,}"
+   ],
+   "source_id": "SRC-bca17d8055c21cfc5beb",
+   "candidate_id": "CAND-677bf90bf7b64e87"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\AQT_v3.0_專業技術文檔\\AQT_v3.0_專業技術文檔_DOC-20_2026-07-24_r1.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-2cad34823f508768d3e8",
+   "candidate_id": "CAND-9e1e3758d949138a",
+   "doc_id": "DOC-3f4d12b4bc8106ff6a36",
+   "unit_id": "UNIT-fd47f06daf97735e5b82"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\AQT_v3.0_專業技術文檔\\AQT_v3.0_專業技術文檔_DOC-21_2026-07-24_r1.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-f85206dcbe34d51b6ab8",
+   "candidate_id": "CAND-48b58646e56f8f66",
+   "doc_id": "DOC-b8d11e33ebec9e1094db",
+   "unit_id": "UNIT-84c55635be7f1e1b843a"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\Spartoi_專業技術文檔_v2.0\\Spartoi_專業技術文檔_v2.0_DOC-00_2026-07-26_r1.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-f493331c5f40d2072198",
+   "candidate_id": "CAND-4a941319700d1026",
+   "doc_id": "DOC-cc4b7adabc7a7e18fe69",
+   "unit_id": "UNIT-6a4c0f2cfd92253a8379"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\Spartoi_專業技術文檔_v2.0\\Spartoi_專業技術文檔_v2.0_DOC-01_2026-07-26_r1.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-d30a3aa2c4eb99f76414",
+   "candidate_id": "CAND-183bce282154d356",
+   "doc_id": "DOC-c3878a09a0adc6ac1988",
+   "unit_id": "UNIT-c94cf6d077def499b43d"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\Spartoi_專業技術文檔_v2.0\\Spartoi_專業技術文檔_v2.0_DOC-02_2026-07-26_r1.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-42981ff01392bec876eb",
+   "candidate_id": "CAND-dee74ba0be8ccca8",
+   "doc_id": "DOC-ecdbaf5432006030c82b",
+   "unit_id": "UNIT-c2c8add4d83d0dee8864"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\Spartoi_專業技術文檔_v2.0\\Spartoi_專業技術文檔_v2.0_DOC-03_2026-07-26_r1.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-d0c7fe73705219ff3428",
+   "candidate_id": "CAND-717ff04ef8342e0c",
+   "doc_id": "DOC-54cceb199f6435bf6319",
+   "unit_id": "UNIT-47be812f39b017db23e5"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\Spartoi_專業技術文檔_v2.0\\Spartoi_專業技術文檔_v2.0_DOC-04_2026-07-26_r1.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-75925550a4557aa06883",
+   "candidate_id": "CAND-1665f43e3a63af27",
+   "doc_id": "DOC-b6242d42a2d812d2ec27",
+   "unit_id": "UNIT-2a9b212c3ba1f85b21d4"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\Spartoi_專業技術文檔_v2.0\\Spartoi_專業技術文檔_v2.0_DOC-05_2026-07-26_r1.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-50c4e47e2db7e8c53810",
+   "candidate_id": "CAND-4fd62e122c7e4be6",
+   "doc_id": "DOC-c7edd62a170a3e66871b",
+   "unit_id": "UNIT-d86bc2ed924ae2868177"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\Spartoi_專業技術文檔_v2.0\\Spartoi_專業技術文檔_v2.0_DOC-06_2026-07-26_r1.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-f28ed32e3753e037b010",
+   "candidate_id": "CAND-0b5dc34d5ec08848",
+   "doc_id": "DOC-a55e7b3d8041ce852c4a",
+   "unit_id": "UNIT-d9fa131ca283ab1538df"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\Spartoi_專業技術文檔_v2.0\\Spartoi_專業技術文檔_v2.0_DOC-07_2026-07-26_r1.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-77b3a54960408297f8c1",
+   "candidate_id": "CAND-19e0b183e2541351",
+   "doc_id": "DOC-2279ef71e4c547f5b64f",
+   "unit_id": "UNIT-0787683b60d801f83635"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\Spartoi_專業技術文檔_v2.0\\Spartoi_專業技術文檔_v2.0_DOC-08_2026-07-26_r1.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-6a4ed92a75fd611c0af0",
+   "candidate_id": "CAND-99830c5fccdeaa4c",
+   "doc_id": "DOC-f28f7f1ef42553afb917",
+   "unit_id": "UNIT-1f2f53844b607138c420"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\Spartoi_專業技術文檔_v2.0\\Spartoi_專業技術文檔_v2.0_DOC-09_2026-07-26_r1.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-cb1ebfe4c54449fc79db",
+   "candidate_id": "CAND-dd4bf3bd18f0b6e0",
+   "doc_id": "DOC-52e83442f3863b05d4da",
+   "unit_id": "UNIT-7b3ba633143a59751e1b"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\Spartoi_專業技術文檔_v2.0\\Spartoi_專業技術文檔_v2.0_DOC-10_2026-07-26_r1.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-ee27aa7666f094817bd6",
+   "candidate_id": "CAND-90fafc02b6d59478",
+   "doc_id": "DOC-4822c68acb5258a1aa4d",
+   "unit_id": "UNIT-e021be7fc4cfe0d5714c"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\Spartoi_專業技術文檔_v2.0\\Spartoi_專業技術文檔_v2.0_DOC-11_2026-07-26_r1.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-7930e522ea4436d4c6ea",
+   "candidate_id": "CAND-73870ad805627b09",
+   "doc_id": "DOC-e5162f1c70b9377ae57b",
+   "unit_id": "UNIT-c5e8bcaa4adac3600f03"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\Spartoi_專業技術文檔_v2.0\\Spartoi_專業技術文檔_v2.0_DOC-12_2026-07-26_r1.md",
+   "ingest": "QUARANTINED",
+   "findings": [
+    "PROMPT_INJECTION:ignore\\s+(?:all\\s+)?(?:previous|prior)\\s+instructions",
+    "PROMPT_INJECTION:(?:exfiltrate|reveal|print)\\s+(?:the\\s+)?(?:secret|token|api\\s*key)"
+   ],
+   "source_id": "SRC-372cd97c583c17763361",
+   "candidate_id": "CAND-642bd1a01689f2e4"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\Spartoi_專業技術文檔_v2.0\\Spartoi_專業技術文檔_v2.0_DOC-13_2026-07-26_r1.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-f2bf0ecd7f5d4b02971c",
+   "candidate_id": "CAND-76396da4fb6a6498",
+   "doc_id": "DOC-ec59cb6363e5debbb618",
+   "unit_id": "UNIT-6c1882b1a498a52a58e0"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\Spartoi_專業技術文檔_v2.0\\Spartoi_專業技術文檔_v2.0_DOC-14_2026-07-26_r1.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-9ed3890c824671a74ac7",
+   "candidate_id": "CAND-bd5b7543106cbee7",
+   "doc_id": "DOC-d9cd3edf3f7cafb28618",
+   "unit_id": "UNIT-4fe883de6acf00fb8858"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\Spartoi_專業技術文檔_v2.0\\Spartoi_專業技術文檔_v2.0_DOC-15_2026-07-26_r1.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-e8c9dc68bf042779afb0",
+   "candidate_id": "CAND-8daaf25a1de39b48",
+   "doc_id": "DOC-f4c56a17116d2b88d982",
+   "unit_id": "UNIT-35a0fb10a682b5ec56d2"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\Spartoi_專業技術文檔_v2.0\\Spartoi_專業技術文檔_v2.0_DOC-16_2026-07-26_r1.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-44e7ef12c868d70da47a",
+   "candidate_id": "CAND-7bd9557d9fce6edd",
+   "doc_id": "DOC-c8f5d0ed45af482b73a4",
+   "unit_id": "UNIT-7ffe5187ef0426976b0c"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\Spartoi_專業技術文檔_v2.0\\Spartoi_專業技術文檔_v2.0_DOC-17_2026-07-26_r1.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-defc35532fbe821cf457",
+   "candidate_id": "CAND-465d2cc44547103b",
+   "doc_id": "DOC-2a438a8c55af3ac0455d",
+   "unit_id": "UNIT-4845b280c89596676a68"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\Spartoi_專業技術文檔_v2.0\\Spartoi_專業技術文檔_v2.0_DOC-18_2026-07-26_r1.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-d3c9d9f434b981602a8b",
+   "candidate_id": "CAND-c359958113411d62",
+   "doc_id": "DOC-82cbd71668c68845ec40",
+   "unit_id": "UNIT-3da5ea8910ea777789ec"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\Spartoi_專業技術文檔_v2.0\\Spartoi_專業技術文檔_v2.0_DOC-19_2026-07-26_r1.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-e7b47f5e42f023612547",
+   "candidate_id": "CAND-4cd1be903439fa19",
+   "doc_id": "DOC-6bfe5856c2f0a0549dec",
+   "unit_id": "UNIT-0d38f3b9f34d9da39f77"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\Spartoi_專業技術文檔_v2.0\\Spartoi_專業技術文檔_v2.0_DOC-20_2026-07-26_r1.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-8b2184467358a06d721a",
+   "candidate_id": "CAND-40fd38ebc052d334",
+   "doc_id": "DOC-99c343524af6dab52e35",
+   "unit_id": "UNIT-3581fc8f64b08a00ce74"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\TW-ICT_當沖技術系列\\ICT&SMC_專業技術文檔\\ICT&SMC_專業技術文檔_DOC-00_2026-07-26_r1.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-36937e90335a3222bf84",
+   "candidate_id": "CAND-45b60cfd711ca5d9",
+   "doc_id": "DOC-3a9ec3c800dac71495fd",
+   "unit_id": "UNIT-69e854ed088a6f19d577"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\TW-ICT_當沖技術系列\\ICT&SMC_專業技術文檔\\ICT&SMC_專業技術文檔_DOC-01_r2.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-a60d1033806a41929494",
+   "candidate_id": "CAND-bdccaa6033971926",
+   "doc_id": "DOC-b13063e66f4c6640ec20",
+   "unit_id": "UNIT-2c16f76c6fe06c851f5e"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\TW-ICT_當沖技術系列\\ICT&SMC_專業技術文檔\\ICT&SMC_專業技術文檔_DOC-02_r2.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-1aa3b211a3635caa6473",
+   "candidate_id": "CAND-c4d2845cbb48d3c3",
+   "doc_id": "DOC-87e77242a25736312bc0",
+   "unit_id": "UNIT-99df3bab05732030045e"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\TW-ICT_當沖技術系列\\ICT&SMC_專業技術文檔\\ICT&SMC_專業技術文檔_DOC-03_r2.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-6ced246b91df552ee74e",
+   "candidate_id": "CAND-93044ed619988afe",
+   "doc_id": "DOC-dc199a997491a0f2ab15",
+   "unit_id": "UNIT-f774eca15f2d131b0d52"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\TW-ICT_當沖技術系列\\ICT&SMC_專業技術文檔\\ICT&SMC_專業技術文檔_DOC-04_r2.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-df98f16fe488bfb3f9fb",
+   "candidate_id": "CAND-f6d0cebd7df010e3",
+   "doc_id": "DOC-a4272e51e6982a7b0127",
+   "unit_id": "UNIT-ef9539cd49eaafc5695d"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\TW-ICT_當沖技術系列\\ICT&SMC_專業技術文檔\\ICT&SMC_專業技術文檔_DOC-05_r2.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-1fee92072a276099bb73",
+   "candidate_id": "CAND-f25dfd5e621ed6b1",
+   "doc_id": "DOC-56e2b415fa4528a71f8a",
+   "unit_id": "UNIT-9a5d029a6b76e77a5852"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\TW-ICT_當沖技術系列\\ICT&SMC_專業技術文檔\\ICT&SMC_專業技術文檔_DOC-06_r2.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-1812af1e333965479d52",
+   "candidate_id": "CAND-967c1cebc9a3945a",
+   "doc_id": "DOC-03554fa9c7f992a5b4b9",
+   "unit_id": "UNIT-6ccc3be89b2d7a880547"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\TW-ICT_當沖技術系列\\ICT&SMC_專業技術文檔\\ICT&SMC_專業技術文檔_DOC-07_2026-07-26_r2.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-774dd2b09626252a305d",
+   "candidate_id": "CAND-003ab44463645dbe",
+   "doc_id": "DOC-bdab8fb3ce9efe21f0f8",
+   "unit_id": "UNIT-40ae680a343f4b007a4a"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\TW-ICT_當沖技術系列\\ICT&SMC_專業技術文檔\\ICT&SMC_專業技術文檔_DOC-08_r2.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-8ecae3cdb1e58dcd95d0",
+   "candidate_id": "CAND-d31839d0ac10c151",
+   "doc_id": "DOC-872ea4b3ce937e5950ce",
+   "unit_id": "UNIT-59140cf466977c0dca43"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\TW-ICT_當沖技術系列\\ICT&SMC_專業技術文檔\\ICT&SMC_專業技術文檔_DOC-09_2026-07-26_r2.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-2b1bce01e06334cf4046",
+   "candidate_id": "CAND-d2f6a6d40cfd3e13",
+   "doc_id": "DOC-d29838d9adbc1fbb31fe",
+   "unit_id": "UNIT-185ee28807d7111be3ac"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\TW-ICT_當沖技術系列\\ICT&SMC_專業技術文檔\\ICT&SMC_專業技術文檔_DOC-10_r2.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-9f086922d080071f9be3",
+   "candidate_id": "CAND-cd1fd3e4612f34e2",
+   "doc_id": "DOC-75b4ee0eb658cd4f5019",
+   "unit_id": "UNIT-f57754b8640b07146198"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\TW-ICT_當沖技術系列\\ICT&SMC_專業技術文檔\\ICT&SMC_專業技術文檔_DOC-11_2026-07-27_r1.md",
+   "ingest": "QUARANTINED",
+   "findings": [
+    "SECRET_PATTERN:sk-[A-Za-z0-9_-]{20,}"
+   ],
+   "source_id": "SRC-4674186bd5ced9396b80",
+   "candidate_id": "CAND-6c1c38ef896383ed"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\TW-ICT_當沖技術系列\\ICT_專業技術文檔_v6.0\\ICT_專業技術文檔_v6.0_DOC-00_r2.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-86662c9b8fbb248d9424",
+   "candidate_id": "CAND-91e71650804973d2",
+   "doc_id": "DOC-755dd5b64e4e439cf579",
+   "unit_id": "UNIT-5417d4d691432e1973fb"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\TW-ICT_當沖技術系列\\ICT_專業技術文檔_v6.0\\ICT_專業技術文檔_v6.0_DOC-01_2026-07-25_r1.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-1a1cd390d1e74460c7ae",
+   "candidate_id": "CAND-6a729e688dd6895d",
+   "doc_id": "DOC-b503b1d6042591745451",
+   "unit_id": "UNIT-06e7e50f45d3d88db748"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\TW-ICT_當沖技術系列\\ICT_專業技術文檔_v6.0\\ICT_專業技術文檔_v6.0_DOC-02_2026-07-25_r1.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-8cbac40e5cb87d365360",
+   "candidate_id": "CAND-8b84592048d0cc80",
+   "doc_id": "DOC-fcb669e3a71cfa265107",
+   "unit_id": "UNIT-504e44c65c85dd4857d5"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\TW-ICT_當沖技術系列\\ICT_專業技術文檔_v6.0\\ICT_專業技術文檔_v6.0_DOC-03_2026-07-25_r1.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-1e447b4be051b1431820",
+   "candidate_id": "CAND-2912425db7e97778",
+   "doc_id": "DOC-29c37860074e417317fc",
+   "unit_id": "UNIT-410e7e43cec7d9a663a0"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\TW-ICT_當沖技術系列\\ICT_專業技術文檔_v6.0\\ICT_專業技術文檔_v6.0_DOC-04_2026-07-25_r1.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-8cb93e303e49e56fc77c",
+   "candidate_id": "CAND-2cb1bd4d83fd6446",
+   "doc_id": "DOC-b5e648724d1e33cc8f6a",
+   "unit_id": "UNIT-3cb2c0eca76c0ce46a65"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\TW-ICT_當沖技術系列\\ICT_專業技術文檔_v6.0\\ICT_專業技術文檔_v6.0_DOC-05_2026-07-25_r1.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-bc6dac1242adddae6c31",
+   "candidate_id": "CAND-1f430be12e356ddb",
+   "doc_id": "DOC-def87a5213257bd142eb",
+   "unit_id": "UNIT-b2d06d87541d064065c9"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\TW-ICT_當沖技術系列\\ICT_專業技術文檔_v6.0\\ICT_專業技術文檔_v6.0_DOC-06_2026-07-25_r1.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-e14031ba7975cfeee4b8",
+   "candidate_id": "CAND-491e99e442870711",
+   "doc_id": "DOC-1b2fe0719089f909890e",
+   "unit_id": "UNIT-4e49c6a0209a23440c8c"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\TW-ICT_當沖技術系列\\ICT_專業技術文檔_v6.0\\ICT_專業技術文檔_v6.0_DOC-07_2026-07-25_r1.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-d3c0170d8c0100f83e58",
+   "candidate_id": "CAND-3383c449de237b59",
+   "doc_id": "DOC-87319e9a1eeb0aeafd28",
+   "unit_id": "UNIT-6acca3b4d9840ffe8843"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\TW-ICT_當沖技術系列\\ICT_專業技術文檔_v6.0\\ICT_專業技術文檔_v6.0_DOC-08_2026-07-25_r1.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-6e85f1813add0ba6ba23",
+   "candidate_id": "CAND-a808f0246784061b",
+   "doc_id": "DOC-f47b6d89526e414c1330",
+   "unit_id": "UNIT-eed05c3d566cfd8bb414"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\TW-ICT_當沖技術系列\\ICT_專業技術文檔_v6.0\\ICT_專業技術文檔_v6.0_DOC-09_2026-07-25_r1.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-5036cbf3ddaad97cef4a",
+   "candidate_id": "CAND-fb0b6d6f7a986794",
+   "doc_id": "DOC-81f1e3cae1b03cab1f5f",
+   "unit_id": "UNIT-770bf97c8d4c19d5b7b6"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\TW-ICT_當沖技術系列\\ICT_專業技術文檔_v6.0\\ICT_專業技術文檔_v6.0_DOC-10_2026-07-25_r1.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-8d02996479c460442d38",
+   "candidate_id": "CAND-f6765e23ed6c5131",
+   "doc_id": "DOC-e6570011383661f897cc",
+   "unit_id": "UNIT-53f32d1ecb9e9f357e2d"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\TW-ICT_當沖技術系列\\ICT_專業技術文檔_v6.0\\ICT_專業技術文檔_v6.0_DOC-11_2026-07-25_r1.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-defcb51a39203c5fa6e6",
+   "candidate_id": "CAND-b1af1361b36e43cd",
+   "doc_id": "DOC-06438d4430cbe6ea249f",
+   "unit_id": "UNIT-ba0d70a9593303db296c"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\TW-ICT_當沖技術系列\\ICT_專業技術文檔_v6.0\\ICT_專業技術文檔_v6.0_DOC-12_2026-07-25_r1.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-11dd3f6e7fc1ac87ce49",
+   "candidate_id": "CAND-6e9e67747721f92f",
+   "doc_id": "DOC-72b59bbef46c79e34a9c",
+   "unit_id": "UNIT-1dcfdb816382db88edde"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\TW-ICT_當沖技術系列\\ICT_專業技術文檔_v6.0\\ICT_專業技術文檔_v6.0_DOC-13_2026-07-25_r1.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-55aa7795e184469e880f",
+   "candidate_id": "CAND-bc6ce6cdcf632005",
+   "doc_id": "DOC-32465490fb86e5df009d",
+   "unit_id": "UNIT-2bcde9f47570825a6f80"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\TW-ICT_當沖技術系列\\TW-ICT_v3.0_專業技術文檔\\TW-ICT_專業技術文檔_v3.0_DOC-00_r2_2026-07-29.md",
+   "ingest": "QUARANTINED",
+   "findings": [
+    "PROMPT_INJECTION:ignore\\s+(?:all\\s+)?(?:previous|prior)\\s+instructions",
+    "SECRET_PATTERN:sk-[A-Za-z0-9_-]{20,}"
+   ],
+   "source_id": "SRC-47ba4ff4c4aacb1efdf2",
+   "candidate_id": "CAND-a3fa651517ac026a"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\TW-ICT_當沖技術系列\\TW-ICT_v3.0_專業技術文檔\\TW-ICT_專業技術文檔_v3.0_DOC-01_r2.md",
+   "ingest": "QUARANTINED",
+   "findings": [
+    "PROMPT_INJECTION:(?:exfiltrate|reveal|print)\\s+(?:the\\s+)?(?:secret|token|api\\s*key)"
+   ],
+   "source_id": "SRC-082816dcab0a70db711f",
+   "candidate_id": "CAND-811d34ac09670947"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\TW-ICT_當沖技術系列\\TW-ICT_v3.0_專業技術文檔\\TW-ICT_專業技術文檔_v3.0_DOC-02_2026-07-29_r2.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-c57fb7de0cc204e36ff2",
+   "candidate_id": "CAND-f28ff7f3bdd5af40",
+   "doc_id": "DOC-fb0db3260c5439914987",
+   "unit_id": "UNIT-21a77b557ebd93761684"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\TW-ICT_當沖技術系列\\TW-ICT_v3.0_專業技術文檔\\TW-ICT_專業技術文檔_v3.0_DOC-03_2026-07-29_r2.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-c8734c66a6ac9e514bd3",
+   "candidate_id": "CAND-36811a69f854fcd6",
+   "doc_id": "DOC-0da151e313552c7e6676",
+   "unit_id": "UNIT-98d20e164d12aa8dc9e6"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\TW-ICT_當沖技術系列\\TW-ICT_v3.0_專業技術文檔\\TW-ICT_專業技術文檔_v3.0_DOC-04_2026-07-29_r2.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-75936e46be1300acac04",
+   "candidate_id": "CAND-b7998fd64f6b4dcf",
+   "doc_id": "DOC-f8de253d441d72eba098",
+   "unit_id": "UNIT-6941e626e07286cbb3b7"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\TW-ICT_當沖技術系列\\TW-ICT_v3.0_專業技術文檔\\TW-ICT_專業技術文檔_v3.0_DOC-05_2026-07-29_r2.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-605bb30eefbff6d828da",
+   "candidate_id": "CAND-88cf5faa7c1b6bb2",
+   "doc_id": "DOC-7ff4779690a6afe1782e",
+   "unit_id": "UNIT-7f82ea31b634623e71ff"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\TW-ICT_當沖技術系列\\TW-ICT_v3.0_專業技術文檔\\TW-ICT_專業技術文檔_v3.0_DOC-06_2026-07-29_r2.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-baf882b7eec67eb8c740",
+   "candidate_id": "CAND-aab04d5486f420e8",
+   "doc_id": "DOC-0856253555644180b5bb",
+   "unit_id": "UNIT-2ec9134a14ebcacc86c3"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\TW-ICT_當沖技術系列\\TW-ICT_v3.0_專業技術文檔\\TW-ICT_專業技術文檔_v3.0_DOC-07_2026-07-29_r2.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-47f4255a32fcd5acc681",
+   "candidate_id": "CAND-4fb3cac3dee6bcc5",
+   "doc_id": "DOC-c99167f9fe4eb54cd4cb",
+   "unit_id": "UNIT-24d0c24db1687bc20efb"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\TW-ICT_當沖技術系列\\TW-ICT_v3.0_專業技術文檔\\TW-ICT_專業技術文檔_v3.0_DOC-08_2026-07-29_r2.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-9eeee54b9e0cce20a92d",
+   "candidate_id": "CAND-4f8d62725245ab8f",
+   "doc_id": "DOC-ccbfdb33458ec1a06d13",
+   "unit_id": "UNIT-bbe9ff6b1fefdfb85f3f"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\TW-ICT_當沖技術系列\\TW-ICT_v3.0_專業技術文檔\\TW-ICT_專業技術文檔_v3.0_DOC-09_r2_2026-07-29.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-a17f676958619ef3787c",
+   "candidate_id": "CAND-6053a4e4306a216b",
+   "doc_id": "DOC-e01bf4e922cc81ec5fcc",
+   "unit_id": "UNIT-6443d4ef0a6704d40590"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\TW-ICT_當沖技術系列\\TW-ICT_v3.0_專業技術文檔\\TW-ICT_專業技術文檔_v3.0_DOC-10_2026-07-29_r2.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-117d97254d8f4af3ffb2",
+   "candidate_id": "CAND-2e9c243fe4104d6e",
+   "doc_id": "DOC-0b90b79d9e4279b4247a",
+   "unit_id": "UNIT-b8d025720529aa4ec9cb"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\TW-ICT_當沖技術系列\\TW-ICT_v3.0_專業技術文檔\\TW-ICT_專業技術文檔_v3.0_DOC-11_r2_2026-07-29.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-b50bc1b331c1630270cb",
+   "candidate_id": "CAND-bb1f2ea2a68c0bcd",
+   "doc_id": "DOC-3233b6932cee7213f856",
+   "unit_id": "UNIT-ba4824610806f0ccc8f9"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\TW-ICT_當沖技術系列\\台股當沖_專業技術文檔_v3.0\\台股當沖_專業技術文檔_v3.0_DOC-00_2026-07-27_r1.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-6f69241cfb21b2185366",
+   "candidate_id": "CAND-668eb4168a28f4af",
+   "doc_id": "DOC-5eddc091c0d2f57aea0a",
+   "unit_id": "UNIT-b28405fd626692aed84f"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\TW-ICT_當沖技術系列\\台股當沖_專業技術文檔_v3.0\\台股當沖_專業技術文檔_v3.0_DOC-01_2026-07-27_r1.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-59a2fdb8415e67104b20",
+   "candidate_id": "CAND-8c3fa156d10de42b",
+   "doc_id": "DOC-e9c51ca8bda94c6ea423",
+   "unit_id": "UNIT-7b77399728b21f5c3618"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\TW-ICT_當沖技術系列\\台股當沖_專業技術文檔_v3.0\\台股當沖_專業技術文檔_v3.0_DOC-02_2026-07-27_r1.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-280792eb012b46ab94ff",
+   "candidate_id": "CAND-f052955afb78eae8",
+   "doc_id": "DOC-6f17fbb2e8f0de45c495",
+   "unit_id": "UNIT-e79cd49b5b3b9a009a15"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\TW-ICT_當沖技術系列\\台股當沖_專業技術文檔_v3.0\\台股當沖_專業技術文檔_v3.0_DOC-03_2026-07-27_r1.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-b8005faabfcd6e8aa5d6",
+   "candidate_id": "CAND-f55643e3e70bcdf3",
+   "doc_id": "DOC-570b2ad9760f39715d98",
+   "unit_id": "UNIT-9ce498e4daf630563f62"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\TW-ICT_當沖技術系列\\台股當沖_專業技術文檔_v3.0\\台股當沖_專業技術文檔_v3.0_DOC-04_2026-07-27_r1.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-faff1bbf0ec81b864e9f",
+   "candidate_id": "CAND-ebafc393eb3b5236",
+   "doc_id": "DOC-ad6f9d3662fc9b72b6c2",
+   "unit_id": "UNIT-7b957d99016bfff310b0"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\TW-ICT_當沖技術系列\\台股當沖_專業技術文檔_v3.0\\台股當沖_專業技術文檔_v3.0_DOC-05_2026-07-27_r1.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-c5d3106922b8714db066",
+   "candidate_id": "CAND-d09df82d564550f9",
+   "doc_id": "DOC-344bb5ef01a75b11a5fa",
+   "unit_id": "UNIT-e92b45e629a53ff170c1"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\TW-ICT_當沖技術系列\\台股當沖_專業技術文檔_v3.0\\台股當沖_專業技術文檔_v3.0_DOC-06_2026-07-27_r1.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-cfb81b37b08dfa389773",
+   "candidate_id": "CAND-956e21e62ac15117",
+   "doc_id": "DOC-bb4ea1ab66bf0d6f2f81",
+   "unit_id": "UNIT-9991048781b0271acab0"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\TW-ICT_當沖技術系列\\台股當沖_專業技術文檔_v3.0\\台股當沖_專業技術文檔_v3.0_DOC-07_2026-07-27_r1.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-5801fcd0fc662710fb77",
+   "candidate_id": "CAND-6af24c78e54b5536",
+   "doc_id": "DOC-42686f60da41a12382a0",
+   "unit_id": "UNIT-cba8578b504006251631"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\TW-ICT_當沖技術系列\\台股當沖_專業技術文檔_v3.0\\台股當沖_專業技術文檔_v3.0_DOC-08_2026-07-27_r1.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-2a3dd6dae9ff1f0938a2",
+   "candidate_id": "CAND-b82fc497a3f917a8",
+   "doc_id": "DOC-8ab8dc968ec7623d7edb",
+   "unit_id": "UNIT-a84fa9a754f41035272c"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\TW-ICT_當沖技術系列\\台股當沖_專業技術文檔_v3.0\\台股當沖_專業技術文檔_v3.0_DOC-09_2026-07-27_r1.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-518da66326b67194a1d9",
+   "candidate_id": "CAND-86a6c25c401386e7",
+   "doc_id": "DOC-fb7f361acc4b3b8f1541",
+   "unit_id": "UNIT-e596acb310fbeb21da53"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\TW-ICT_當沖技術系列\\台股當沖_專業技術文檔_v3.0\\台股當沖_專業技術文檔_v3.0_DOC-10_2026-07-27_r1.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-53434e3235a948bcee2a",
+   "candidate_id": "CAND-cff2a9cc713add90",
+   "doc_id": "DOC-e0488be4facb1055cdcc",
+   "unit_id": "UNIT-0cbf6b041faa0aad9e01"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\TW-ICT_當沖技術系列\\台股當沖_專業技術文檔_v3.0\\台股當沖_專業技術文檔_v3.0_DOC-11_2026-07-27_r1.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-4f1b6da8af1625cf2978",
+   "candidate_id": "CAND-1e11dafdd0155134",
+   "doc_id": "DOC-94b3f83f429a12f1627a",
+   "unit_id": "UNIT-3a0fc68f248a66e0eda6"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\TW-ICT_當沖技術系列\\台股當沖_專業技術文檔_v3.0\\台股當沖_專業技術文檔_v3.0_DOC-12_2026-07-27_r1.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-b481e579b7399782e699",
+   "candidate_id": "CAND-bb20297095b97a24",
+   "doc_id": "DOC-d51e076c6b712d3d61d0",
+   "unit_id": "UNIT-ec6e1ca855d097f92033"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\TW-ICT_當沖技術系列\\台股當沖_專業技術文檔_v3.0\\台股當沖_專業技術文檔_v3.0_DOC-13_2026-07-27_r1.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-98c4bb775c9dab434ae1",
+   "candidate_id": "CAND-2b19e8d5ad9dd46d",
+   "doc_id": "DOC-b00b0e793d7904cf6cbc",
+   "unit_id": "UNIT-86d8ee40829697b64aaf"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\TW-ICT_當沖技術系列\\市場資訊&台股趨勢_專業技術文檔_v2.0\\台股市場&趨勢_專業技術文檔_v2.0_DOC-00_2026-07-25_r1.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-d116c6c8a062a4f2333f",
+   "candidate_id": "CAND-8ca3a55e4f3bf644",
+   "doc_id": "DOC-c0994ca6a84a40f8efda",
+   "unit_id": "UNIT-983b09d70483e591df1f"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\TW-ICT_當沖技術系列\\市場資訊&台股趨勢_專業技術文檔_v2.0\\台股市場&趨勢_專業技術文檔_v2.0_DOC-01_2026-07-25_r1.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-a6d10b83beb4d2a7b3ce",
+   "candidate_id": "CAND-60e0992c0ea93c51",
+   "doc_id": "DOC-3cb5fb3aa3b6ab41fdb3",
+   "unit_id": "UNIT-660c8c073be03c65362c"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\TW-ICT_當沖技術系列\\市場資訊&台股趨勢_專業技術文檔_v2.0\\台股市場&趨勢_專業技術文檔_v2.0_DOC-02_2026-07-25_r1.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-6cd0ee18e6209289b58a",
+   "candidate_id": "CAND-1e146be17130d288",
+   "doc_id": "DOC-4ca6a6e6def2d5f8020a",
+   "unit_id": "UNIT-727d6bbdd7d61bb8129a"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\TW-ICT_當沖技術系列\\市場資訊&台股趨勢_專業技術文檔_v2.0\\台股市場&趨勢_專業技術文檔_v2.0_DOC-03_2026-07-25_r1.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-9c27096a7ea964ff3ebf",
+   "candidate_id": "CAND-3b743d2cb5f713bb",
+   "doc_id": "DOC-ee70c04402a44fbd9c27",
+   "unit_id": "UNIT-e6e788fab701f93d96e0"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\TW-ICT_當沖技術系列\\市場資訊&台股趨勢_專業技術文檔_v2.0\\台股市場&趨勢_專業技術文檔_v2.0_DOC-04_2026-07-25_r1.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-7acc821a0180ecd298f0",
+   "candidate_id": "CAND-30ed43148366b648",
+   "doc_id": "DOC-627529bffe182c3314e0",
+   "unit_id": "UNIT-49c1aa6de69a5c0807e2"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\TW-ICT_當沖技術系列\\市場資訊&台股趨勢_專業技術文檔_v2.0\\台股市場&趨勢_專業技術文檔_v2.0_DOC-05_2026-07-25_r1.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-c49e1af98d6835aff262",
+   "candidate_id": "CAND-0ae3040161179ee2",
+   "doc_id": "DOC-725c320ea5e6eb8fde65",
+   "unit_id": "UNIT-4e72b60c6f2d89ca3b50"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\TW-ICT_當沖技術系列\\市場資訊&台股趨勢_專業技術文檔_v2.0\\台股市場&趨勢_專業技術文檔_v2.0_DOC-06_2026-07-25_r1.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-810a010c817b0c102771",
+   "candidate_id": "CAND-98371062172f1a6b",
+   "doc_id": "DOC-5045fc341470e72c80f4",
+   "unit_id": "UNIT-da1306d2519a4fc8cb94"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\TW-ICT_當沖技術系列\\市場資訊&台股趨勢_專業技術文檔_v2.0\\台股市場&趨勢_專業技術文檔_v2.0_DOC-07_2026-07-25_r1.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-5add27336d62c7c790c1",
+   "candidate_id": "CAND-c799c9c2a01bbb07",
+   "doc_id": "DOC-c9f1ff0e9bbcea0a3fd6",
+   "unit_id": "UNIT-214d1e73c726c1c6c1a3"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\TW-ICT_當沖技術系列\\市場資訊&台股趨勢_專業技術文檔_v2.0\\台股市場&趨勢_專業技術文檔_v2.0_DOC-08_2026-07-25_r1.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-a311803443bcbce0b34f",
+   "candidate_id": "CAND-efe8d94880f0f40f",
+   "doc_id": "DOC-429780b2c17f343a7bf4",
+   "unit_id": "UNIT-544261731ee4e69f96ad"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\TW-ICT_當沖技術系列\\市場資訊&台股趨勢_專業技術文檔_v2.0\\台股市場&趨勢_專業技術文檔_v2.0_DOC-09_2026-07-25_r1.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-ad68e380fd66ce955f97",
+   "candidate_id": "CAND-c32da063d2e18544",
+   "doc_id": "DOC-1ed2e52fba133d029a40",
+   "unit_id": "UNIT-929e8be6d91a4222a0ac"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\TW-ICT_當沖技術系列\\市場資訊&台股趨勢_專業技術文檔_v2.0\\台股市場&趨勢_專業技術文檔_v2.0_DOC-10_2026-07-25_r1.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-5a0a03eb22b9cd5fa3b3",
+   "candidate_id": "CAND-3b3b375a38a51f99",
+   "doc_id": "DOC-9ea642fa33f3e036ef01",
+   "unit_id": "UNIT-97dc86d2b0f742c81f6f"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\TW-ICT_當沖技術系列\\市場資訊&台股趨勢_專業技術文檔_v2.0\\台股市場&趨勢_專業技術文檔_v2.0_DOC-11_2026-07-25_r1.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-f6a89b9b17ca692b5a95",
+   "candidate_id": "CAND-683d5cc92a81ea66",
+   "doc_id": "DOC-7a63977706073d5512a2",
+   "unit_id": "UNIT-98e027ad6c95b4b1e8e8"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\TW-ICT_當沖技術系列\\市場資訊&台股趨勢_專業技術文檔_v2.0\\台股市場&趨勢_專業技術文檔_v2.0_DOC-12_2026-07-25_r1.md",
+   "ingest": "QUARANTINED",
+   "findings": [
+    "PROMPT_INJECTION:(?:exfiltrate|reveal|print)\\s+(?:the\\s+)?(?:secret|token|api\\s*key)"
+   ],
+   "source_id": "SRC-b83d1c1fedfde1920564",
+   "candidate_id": "CAND-a90b6aa31a6c4a0b"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\TW-ICT_當沖技術系列\\市場資訊&台股趨勢_專業技術文檔_v2.0\\台股市場&趨勢_專業技術文檔_v2.0_DOC-13_2026-07-25_r1.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-8b5c71f71ce6f27b49cf",
+   "candidate_id": "CAND-af060b99f83199d1",
+   "doc_id": "DOC-cf59eca5a6c474595030",
+   "unit_id": "UNIT-525c4ee1d6ad435fa34a"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\TW-ICT_當沖技術系列\\市場資訊&台股趨勢_專業技術文檔_v2.0\\台股市場&趨勢_專業技術文檔_v2.0_DOC-14_2026-07-25_r1.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-877f75648e53cf4dba31",
+   "candidate_id": "CAND-1aca309c50168092",
+   "doc_id": "DOC-a3903ef2cdce7563146d",
+   "unit_id": "UNIT-b02a526445d7b9376093"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\TW-ICT_當沖技術系列\\市場資訊&台股趨勢_專業技術文檔_v2.0\\台股市場&趨勢_專業技術文檔_v2.0_DOC-15_2026-07-25_r1.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-c218984c22f4ad7c4095",
+   "candidate_id": "CAND-f0a98882cbb8456c",
+   "doc_id": "DOC-4a3f34db1ba1cb6fb2e0",
+   "unit_id": "UNIT-14f73ef23aff56448749"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\XQ&XS_專業技術文檔\\XQ&XS_專業技術文檔_DOC-00_2026-07-27_r1.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-375e261b44ef8593268f",
+   "candidate_id": "CAND-87e302c25ed1a0f8",
+   "doc_id": "DOC-edad589182234c984657",
+   "unit_id": "UNIT-89341780ef191423325b"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\XQ&XS_專業技術文檔\\XQ&XS_專業技術文檔_DOC-01_2026-07-27_r1.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-ab8b3682db8d53cc982a",
+   "candidate_id": "CAND-ba36dda17a7d1188",
+   "doc_id": "DOC-55b218bed75776d15f71",
+   "unit_id": "UNIT-71226b01f1b4cd91e036"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\XQ&XS_專業技術文檔\\XQ&XS_專業技術文檔_DOC-02_2026-07-27_r1.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-2f3a41dd4f71724402ab",
+   "candidate_id": "CAND-9e373efedea04e14",
+   "doc_id": "DOC-a36e5ffc85b418283628",
+   "unit_id": "UNIT-4089d2296ef39f9e4a1c"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\XQ&XS_專業技術文檔\\XQ&XS_專業技術文檔_DOC-03_2026-07-27_r1.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-68ea2b124bc51e9629d2",
+   "candidate_id": "CAND-f02c7a4cf45293e1",
+   "doc_id": "DOC-581e6056e8dcbdcf98cd",
+   "unit_id": "UNIT-146ea72fa222a03de8e7"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\XQ&XS_專業技術文檔\\XQ&XS_專業技術文檔_DOC-04_2026-07-27_r1.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-5a0d8a9f90746ca539ec",
+   "candidate_id": "CAND-0e574161d61a96c7",
+   "doc_id": "DOC-2bcf2af519a0c98e1155",
+   "unit_id": "UNIT-e2569d42a597dc2d896d"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\XQ&XS_專業技術文檔\\XQ&XS_專業技術文檔_DOC-05_2026-07-27_r1.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-29f3e60a18aa9b69019c",
+   "candidate_id": "CAND-81b4a35521cd073f",
+   "doc_id": "DOC-b89adc11dffe60e08beb",
+   "unit_id": "UNIT-4f1b7f6a345ce65ffa68"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\XQ&XS_專業技術文檔\\XQ&XS_專業技術文檔_DOC-06_2026-07-27_r1.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-4d0b664aa9b1960ea95d",
+   "candidate_id": "CAND-b436f637081cb1a9",
+   "doc_id": "DOC-ba29b192b1964cc8e416",
+   "unit_id": "UNIT-31b78ead0fe3266aa6b3"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\XQ&XS_專業技術文檔\\XQ&XS_專業技術文檔_DOC-07_2026-07-27_r1.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-fc8848a21b97eeb2f74f",
+   "candidate_id": "CAND-ff5c605c8be265e6",
+   "doc_id": "DOC-6216c95773c2a3415757",
+   "unit_id": "UNIT-1aeba98d84ed5525f8d2"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\XQ&XS_專業技術文檔\\XQ&XS_專業技術文檔_DOC-08_2026-07-27_r1.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-14a6cd973c08770dc910",
+   "candidate_id": "CAND-b79b2def419cc7ce",
+   "doc_id": "DOC-df3db149bf71e4021268",
+   "unit_id": "UNIT-51e527aa3ce055ac8c62"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\XQ&XS_專業技術文檔\\XQ&XS_專業技術文檔_DOC-09_2026-07-27_r1.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-50aac0d1337e21e90d8e",
+   "candidate_id": "CAND-870f31afa1fb9dbd",
+   "doc_id": "DOC-a4e695979de5660c0ad6",
+   "unit_id": "UNIT-5be6de2a556302e94043"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\XQ&XS_專業技術文檔\\XQ&XS_專業技術文檔_DOC-10_2026-07-27_r1.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-8cb16399c91fed58727e",
+   "candidate_id": "CAND-5b3819934ef83fc0",
+   "doc_id": "DOC-dee8454819a33f06c2d6",
+   "unit_id": "UNIT-4709fe5d0916c48ee757"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\XQ&XS_專業技術文檔\\XQ&XS_專業技術文檔_DOC-11_2026-07-27_r1.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-e3e05bd1edb311b6885e",
+   "candidate_id": "CAND-9ee9f3477f3a810f",
+   "doc_id": "DOC-58f2a875a8f6448e29ad",
+   "unit_id": "UNIT-1ab68a81188923208ba3"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\XQ&XS_專業技術文檔\\XQ&XS_專業技術文檔_DOC-12_2026-07-27_r2.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-94d7dfeee0caa4647803",
+   "candidate_id": "CAND-d25b7c1eebe869ea",
+   "doc_id": "DOC-4b0a303da481ded36bc3",
+   "unit_id": "UNIT-bc6e0deacbe110f9ace6"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\XQ&XS_專業技術文檔\\XQ&XS_專業技術文檔_DOC-13_2026-07-27_r1.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-c31009dd362b266847c3",
+   "candidate_id": "CAND-131f4fcd3205bf45",
+   "doc_id": "DOC-adfe135151987ef05e30",
+   "unit_id": "UNIT-22753a323359852f28c1"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\塔勒布思想_專業技術文檔\\塔勒布思想_專業技術文檔_DOC-00_2026-07-28_r2.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-d5dff5402650ad22654c",
+   "candidate_id": "CAND-2cf414fbcfcd4be2",
+   "doc_id": "DOC-8f93e404c4314c83e648",
+   "unit_id": "UNIT-9ea2de0ff77f6da54bca"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\塔勒布思想_專業技術文檔\\塔勒布思想_專業技術文檔_DOC-01_2026-07-28_r2.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-65d739d26c4bf6d10b7b",
+   "candidate_id": "CAND-0ebcbf52f0439da8",
+   "doc_id": "DOC-905108386270bddcef6d",
+   "unit_id": "UNIT-966a7b1d931cfe71073b"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\塔勒布思想_專業技術文檔\\塔勒布思想_專業技術文檔_DOC-02_2026-07-28_r2.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-2b990f729a8e9a64af67",
+   "candidate_id": "CAND-2be0f9aa5ac85cf0",
+   "doc_id": "DOC-b7e58aa02c9a13607b08",
+   "unit_id": "UNIT-67996843ef4be6ac73f3"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\塔勒布思想_專業技術文檔\\塔勒布思想_專業技術文檔_DOC-03_r2.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-ce7cbf34672150f74678",
+   "candidate_id": "CAND-ab187eb5af913b14",
+   "doc_id": "DOC-c4bfe95c9a0584f21e67",
+   "unit_id": "UNIT-88bda3c362f6d9740187"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\塔勒布思想_專業技術文檔\\塔勒布思想_專業技術文檔_DOC-04_2026-07-28_r2.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-73cdb100f00c5a9d9b99",
+   "candidate_id": "CAND-fe64c6e45d9778a5",
+   "doc_id": "DOC-dc8f3b8028b62bba89a7",
+   "unit_id": "UNIT-2a9ffa3894b1f8bcaa53"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\塔勒布思想_專業技術文檔\\塔勒布思想_專業技術文檔_DOC-05_2026-07-28_r2.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-89224e1c978db76a2ee7",
+   "candidate_id": "CAND-e44ef6a478ea34a9",
+   "doc_id": "DOC-6627516f2559f04cded8",
+   "unit_id": "UNIT-0a5d8c01073e037d92b8"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\塔勒布思想_專業技術文檔\\塔勒布思想_專業技術文檔_DOC-06_r2.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-bd7f6fd73ced8de2aa73",
+   "candidate_id": "CAND-126f18c4f6f21971",
+   "doc_id": "DOC-381bf3a68fd0d9bf6f1a",
+   "unit_id": "UNIT-b87827fc647ae4ee8a86"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\塔勒布思想_專業技術文檔\\塔勒布思想_專業技術文檔_DOC-07_r2.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-41c0b900ccbaa55b559c",
+   "candidate_id": "CAND-b100fe97e83d68d6",
+   "doc_id": "DOC-c9f6f54c91de5784a439",
+   "unit_id": "UNIT-0cd91a830095b22fe170"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\塔勒布思想_專業技術文檔\\塔勒布思想_專業技術文檔_DOC-08_2026-07-28_r2.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-c40d824245c86bc85a24",
+   "candidate_id": "CAND-3be95798cb0e3dc3",
+   "doc_id": "DOC-ea4048f2bc991f930ec2",
+   "unit_id": "UNIT-a7d1f1f334f490706cf1"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\塔勒布思想_專業技術文檔\\塔勒布思想_專業技術文檔_DOC-09_2026-07-28_r2.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-275b94f0d31f969e5227",
+   "candidate_id": "CAND-f7bc90acfb0c2506",
+   "doc_id": "DOC-4fb4155335e5d51e4e59",
+   "unit_id": "UNIT-25b4985e6d96c044259e"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\塔勒布思想_專業技術文檔\\塔勒布思想_專業技術文檔_DOC-10_2026-07-28_r2.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-ce946b96f4e28dd79ccc",
+   "candidate_id": "CAND-a63a0e65cc09138d",
+   "doc_id": "DOC-546940f1a0e681b8dc3b",
+   "unit_id": "UNIT-c62426127d239f821a35"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\塔勒布思想_專業技術文檔\\塔勒布思想_專業技術文檔_DOC-11_r2.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-f7ffdb03ae2fee3b4ec1",
+   "candidate_id": "CAND-a1491a8f0f568387",
+   "doc_id": "DOC-00e11cf0e9177e7b46cc",
+   "unit_id": "UNIT-53e12b7c9f5d21955c24"
+  },
+  {
+   "path": "技術資料庫\\專業技術文檔\\塔勒布思想_專業技術文檔\\塔勒布思想_專業技術文檔_DOC-12_2026-07-28_r2.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-d6e30a08de779c4e1aa9",
+   "candidate_id": "CAND-180b36fa181fadf7",
+   "doc_id": "DOC-13744ac5008df0dda69c",
+   "unit_id": "UNIT-abecd978ddeb676306f5"
+  },
+  {
+   "path": "技術資料庫\\HG-KSEOS／SDLC_PRW_HLPE\\HG-KSEOS_實作前開發文檔包_v2026.08.06-r2.md",
+   "ingest": "QUARANTINED",
+   "findings": [
+    "SECRET_PATTERN:sk-[A-Za-z0-9_-]{20,}"
+   ],
+   "source_id": "SRC-7e287444c99112978ec1",
+   "candidate_id": "CAND-73739396c2a695c6"
+  },
+  {
+   "path": "技術資料庫\\HG-KSEOS／SDLC_PRW_HLPE\\HG-KSEOS_藍圖_r2.md",
+   "ingest": "QUARANTINED",
+   "findings": [
+    "SECRET_PATTERN:(?i)(?:api[_-]?key|secret|token)\\s*[:=]\\s*['\\\"]?[A-Za-z0-9_./+-]{16,}"
+   ],
+   "source_id": "SRC-1fb99c9809aa2a299c7b",
+   "candidate_id": "CAND-365b2f15f4990466"
+  },
+  {
+   "path": "技術資料庫\\HG-KSEOS／SDLC_PRW_HLPE\\SDLC_PRW_HLPE_P0-CIP-PACK_r2.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-f25a43e596e8c8a10953",
+   "candidate_id": "CAND-bd5987fb1f39a5ed",
+   "doc_id": "DOC-6147dc876ffd7f351905",
+   "unit_id": "UNIT-e528615990d016f0278b"
+  },
+  {
+   "path": "技術資料庫\\HG-KSEOS／SDLC_PRW_HLPE\\SDLC_PRW_HLPE_使用說明包.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-20ae91abebe425bfd4f5",
+   "candidate_id": "CAND-c1ee5589b7b57f9d",
+   "doc_id": "DOC-2be61d52fdc0dee52b65",
+   "unit_id": "UNIT-7b031ef9e0de623c7c93"
+  },
+  {
+   "path": "技術資料庫\\HG-KSEOS／SDLC_PRW_HLPE\\SDLC_PRW_HLPE_實作前開發文檔包_r2.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-46eb5652c1620d6771fc",
+   "candidate_id": "CAND-b0a0478fe73b9ba3",
+   "doc_id": "DOC-b7fb3f78c300308dbd18",
+   "unit_id": "UNIT-48fea6cbabf9e84e8132"
+  },
+  {
+   "path": "技術資料庫\\HG-KSEOS／SDLC_PRW_HLPE\\SDLC_PRW_HLPE_工具預設啟動_全量整合藍圖_r2.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-8a9ea764fc8dde5266a1",
+   "candidate_id": "CAND-63ed19c3448ee427",
+   "doc_id": "DOC-788dc1566711741a2844",
+   "unit_id": "UNIT-bc029441bef32a525162"
+  },
+  {
+   "path": "技術資料庫\\HG-KSEOS／SDLC_PRW_HLPE\\SDLC_PRW_HLPE_重構升級總藍圖_r3.md",
+   "ingest": "PROMOTED",
+   "source_id": "SRC-5748c054a0959fa7bf9b",
+   "candidate_id": "CAND-de4cc533b93115b7",
+   "doc_id": "DOC-3e6582b027be7c405604",
+   "unit_id": "UNIT-7ac9e851f5ccb938cd34"
+  }
+ ],
+ "summary": {
+  "files_scanned": 376,
+  "files_unique": 376,
+  "ingested": 376,
+  "promoted": 354,
+  "quarantined": 22,
+  "failed": 0,
+  "errors": [],
+  "probes": {
+   "SQS-THC": [
+    "ABSTAIN:GroundingFailure:ABSTAIN_UNSUPPORTED_QUERY:SQS-THC"
+   ],
+   "TW-ICT FSDT": [
+    "DOC-116c61cb8817f3eca0ec|SSOT\\實作前開發文檔\\SQS-THC_TW-ICT_FSDT-Stack_實作前開發文檔包_v2026.08.09-",
+    "DOC-46c4a06f966645c201ab|技術資料庫\\TW-ICT_FSDT-Stack_專業技術文檔\\TW-ICT_FSDT-Stack_專業技術文檔_DOC-",
+    "DOC-3b0abeb829fedb537b5a|SSOT\\實作前開發文檔\\SQS-THC_TW-ICT_FSDT-Stack_實作前開發文檔包_v2026.08.09-"
+   ],
+   "risk": [
+    "DOC-75b4ee0eb658cd4f5019|技術資料庫\\專業技術文檔\\TW-ICT_當沖技術系列\\ICT&SMC_專業技術文檔\\ICT&SMC_專業技術文檔_DOC",
+    "DOC-c8f5d0ed45af482b73a4|技術資料庫\\專業技術文檔\\Spartoi_專業技術文檔_v2.0\\Spartoi_專業技術文檔_v2.0_DOC-16_",
+    "DOC-ec59cb6363e5debbb618|技術資料庫\\專業技術文檔\\Spartoi_專業技術文檔_v2.0\\Spartoi_專業技術文檔_v2.0_DOC-13_"
+   ]
+  },
+  "spine_counts": {
+   "sources": 351,
+   "source_units": 351,
+   "knowledge_docs": 354,
+   "candidates": 376
+  }
+ }
+}

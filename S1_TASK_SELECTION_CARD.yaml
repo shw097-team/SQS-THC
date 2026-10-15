@@ -1,0 +1,32 @@
+schema: SQS-S1-TASK-SELECTION/1
+source_task_id: S1-PIT-REGIME-CANARY-20260813
+source_locator: "知識庫/SQS-THC資料庫/台股價格歷史資料/Taiwan STOCK/*.csv (265 real TWSE daily OHLCV files, 2023-01-03+) + finmind daily/kbar/index_5s + SQS src/kernel/{fsdt,temporal} PIT surface"
+why_representative: "Real historical/local Taiwan financial task drawn from the SQS/TW-ICT ordinary-use contract: PIT dataset validation + market/regime context on actual TWSE-listed stock data, exercising the real FSDT kernel pit_validate/normalize and temporal bind_clocks/quality_pass without any live broker access - the canonical read-only decision-support path."
+business_or_user_outcome: "User receives a verified PIT-validated market snapshot: per-stock PIT validation receipt, market/regime context (index + breadth), universe snapshot, and risk posture - LOCAL/PAPER decision support with traceable sources."
+input_dataset_refs:
+  - "知識庫/SQS-THC資料庫/台股價格歷史資料/Taiwan STOCK/1101_history.csv"
+  - "知識庫/SQS-THC資料庫/台股價格歷史資料/Taiwan STOCK/*_history.csv (265 files)"
+  - "知識庫/SQS-THC資料庫/台股價格歷史資料/finmind/{daily,index_kbar} (where applicable)"
+dataset_versions_or_hashes:
+  - "RESOLVED_AT_S1_EXECUTION (per-file SHA-256 recorded in worker receipts)"
+pit_clock_or_time_basis: "2023-01-03..2026-08 data slice; PIT = last-available bar per stock at each evaluation point; five-clocks binding via temporal.bind_clocks"
+market_scope: "TWSE (台灣證券交易所) listed equities, daily bars"
+live_broker_write: DENY
+expected_artifacts:
+  - S1_PIT_VALIDATION_RECEIPT.json
+  - S1_MARKET_REGIME_CONTEXT.json
+  - S1_UNIVERSE_SNAPSHOT.json
+  - S1_JOIN_AND_RISK_RECEIPT.json
+replay_fixture_ref: "tests/fixtures/rp002_stage3/s1/ (frozen input slice + expected kernel outputs)"
+task_risk_class: "READ_ONLY_DECISION_SUPPORT (no trade, no order, no live write)"
+topology_admission_inputs:
+  atomicity: HIGH
+  parallelizability: "HIGH (3 independent read-mostly branches - PIT lane, market/regime lane, universe lane)"
+  write_set_independence: "TRUE (each branch writes only its own evidence receipt under evidence/rp002/stage3/s1/)"
+  domain_diversity: HIGH
+  latency_budget: "30 min wall-clock"
+  resource_budget: "bounded (3 workers, read-only data access)"
+selected_topology: SWARM_ELIGIBLE_OR_BOUNDED_DAG
+selection_reason: "3 independent read-mostly branches with non-overlapping write sets, known join rule, bounded budget - satisfies Swarm eligibility minimum (§16.2); router evaluates eligibility, bounded DAG is the fallback if admission finds ineligibility."
+frozen_at: 2026-08-13T01:45:00+08:00
+freeze_authority: "WO-RP2-STAGE3-S1 (SharedSpine ADMITTED)"

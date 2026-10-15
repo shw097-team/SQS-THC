@@ -1,0 +1,2243 @@
+schema: SQS-TWICT-ROLE-DISPOSITION-CROSSWALK/1
+source_denominators:
+  SQS_P0: {expected_source_rows: 108, extracted_rows: 108}
+  TWICT_P0: {expected_source_rows: 115, extracted_rows: 115}
+allowed_dispositions: [MAP_TO_PERSISTENT_PROFILE_ROLE, MAP_TO_ON_DEMAND_ROLE, MERGE_INTO_ROLE, POLICY_ONLY, HUMAN_ONLY, ACCEPTANCE_EXTERNAL, NOT_APPLICABLE_WITH_SOURCE]
+invariants:
+  SQS_source_rows_processed: 108
+  TWICT_source_rows_processed: 115
+  unresolved_source_rows: 0
+  silent_drop: 0
+  persistent_profile_count: 3
+  role_is_profile: false
+rows:
+  - source_family: SQS_P0
+    source_role_id: F01-01
+    source_locator: 知識庫/HG-KSEOS_SSOT/SQS-THC_P0-CIP-PACK_v2026.08.06-r2.md#10
+    canonical_runtime_role_id: F01-01-sqs_orchestrator
+    disposition: HUMAN_ONLY
+    host_profile: sqs-orchestrator
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: SQS 36-family/108-unit binding; Accountable Owner role unit dispositioned to sqs-orchestrator
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: SQS_P0
+    source_role_id: F01-02
+    source_locator: 知識庫/HG-KSEOS_SSOT/SQS-THC_P0-CIP-PACK_v2026.08.06-r2.md#10
+    canonical_runtime_role_id: F01-02-sqs_orchestrator
+    disposition: MAP_TO_PERSISTENT_PROFILE_ROLE
+    host_profile: sqs-orchestrator
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: SQS 36-family/108-unit binding; Engineer／Maker role unit dispositioned to sqs-orchestrator
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: SQS_P0
+    source_role_id: F01-03
+    source_locator: 知識庫/HG-KSEOS_SSOT/SQS-THC_P0-CIP-PACK_v2026.08.06-r2.md#10
+    canonical_runtime_role_id: F01-03-sqs_data_analysis
+    disposition: MAP_TO_ON_DEMAND_ROLE
+    host_profile: sqs-data-analysis
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: SQS 36-family/108-unit binding; Independent Reviewer／Veto role unit dispositioned to sqs-data-analysis
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: SQS_P0
+    source_role_id: F02-01
+    source_locator: 知識庫/HG-KSEOS_SSOT/SQS-THC_P0-CIP-PACK_v2026.08.06-r2.md#10
+    canonical_runtime_role_id: F02-01-sqs_orchestrator
+    disposition: HUMAN_ONLY
+    host_profile: sqs-orchestrator
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: SQS 36-family/108-unit binding; Accountable Owner role unit dispositioned to sqs-orchestrator
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: SQS_P0
+    source_role_id: F02-02
+    source_locator: 知識庫/HG-KSEOS_SSOT/SQS-THC_P0-CIP-PACK_v2026.08.06-r2.md#10
+    canonical_runtime_role_id: F02-02-sqs_orchestrator
+    disposition: MAP_TO_PERSISTENT_PROFILE_ROLE
+    host_profile: sqs-orchestrator
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: SQS 36-family/108-unit binding; Engineer／Maker role unit dispositioned to sqs-orchestrator
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: SQS_P0
+    source_role_id: F02-03
+    source_locator: 知識庫/HG-KSEOS_SSOT/SQS-THC_P0-CIP-PACK_v2026.08.06-r2.md#10
+    canonical_runtime_role_id: F02-03-sqs_data_analysis
+    disposition: MAP_TO_ON_DEMAND_ROLE
+    host_profile: sqs-data-analysis
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: SQS 36-family/108-unit binding; Independent Reviewer／Veto role unit dispositioned to sqs-data-analysis
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: SQS_P0
+    source_role_id: F03-01
+    source_locator: 知識庫/HG-KSEOS_SSOT/SQS-THC_P0-CIP-PACK_v2026.08.06-r2.md#10
+    canonical_runtime_role_id: F03-01-sqs_orchestrator
+    disposition: HUMAN_ONLY
+    host_profile: sqs-orchestrator
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: SQS 36-family/108-unit binding; Accountable Owner role unit dispositioned to sqs-orchestrator
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: SQS_P0
+    source_role_id: F03-02
+    source_locator: 知識庫/HG-KSEOS_SSOT/SQS-THC_P0-CIP-PACK_v2026.08.06-r2.md#10
+    canonical_runtime_role_id: F03-02-sqs_orchestrator
+    disposition: MAP_TO_PERSISTENT_PROFILE_ROLE
+    host_profile: sqs-orchestrator
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: SQS 36-family/108-unit binding; Engineer／Maker role unit dispositioned to sqs-orchestrator
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: SQS_P0
+    source_role_id: F03-03
+    source_locator: 知識庫/HG-KSEOS_SSOT/SQS-THC_P0-CIP-PACK_v2026.08.06-r2.md#10
+    canonical_runtime_role_id: F03-03-sqs_data_analysis
+    disposition: MAP_TO_ON_DEMAND_ROLE
+    host_profile: sqs-data-analysis
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: SQS 36-family/108-unit binding; Independent Reviewer／Veto role unit dispositioned to sqs-data-analysis
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: SQS_P0
+    source_role_id: F04-01
+    source_locator: 知識庫/HG-KSEOS_SSOT/SQS-THC_P0-CIP-PACK_v2026.08.06-r2.md#10
+    canonical_runtime_role_id: F04-01-sqs_orchestrator
+    disposition: HUMAN_ONLY
+    host_profile: sqs-orchestrator
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: SQS 36-family/108-unit binding; Accountable Owner role unit dispositioned to sqs-orchestrator
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: SQS_P0
+    source_role_id: F04-02
+    source_locator: 知識庫/HG-KSEOS_SSOT/SQS-THC_P0-CIP-PACK_v2026.08.06-r2.md#10
+    canonical_runtime_role_id: F04-02-sqs_orchestrator
+    disposition: MAP_TO_PERSISTENT_PROFILE_ROLE
+    host_profile: sqs-orchestrator
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: SQS 36-family/108-unit binding; Engineer／Maker role unit dispositioned to sqs-orchestrator
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: SQS_P0
+    source_role_id: F04-03
+    source_locator: 知識庫/HG-KSEOS_SSOT/SQS-THC_P0-CIP-PACK_v2026.08.06-r2.md#10
+    canonical_runtime_role_id: F04-03-sqs_data_analysis
+    disposition: MAP_TO_ON_DEMAND_ROLE
+    host_profile: sqs-data-analysis
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: SQS 36-family/108-unit binding; Independent Reviewer／Veto role unit dispositioned to sqs-data-analysis
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: SQS_P0
+    source_role_id: F05-01
+    source_locator: 知識庫/HG-KSEOS_SSOT/SQS-THC_P0-CIP-PACK_v2026.08.06-r2.md#10
+    canonical_runtime_role_id: F05-01-sqs_orchestrator
+    disposition: POLICY_ONLY
+    host_profile: sqs-orchestrator
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: SQS 36-family/108-unit binding; Accountable Owner role unit dispositioned to sqs-orchestrator
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: SQS_P0
+    source_role_id: F05-02
+    source_locator: 知識庫/HG-KSEOS_SSOT/SQS-THC_P0-CIP-PACK_v2026.08.06-r2.md#10
+    canonical_runtime_role_id: F05-02-sqs_data_analysis
+    disposition: MAP_TO_PERSISTENT_PROFILE_ROLE
+    host_profile: sqs-data-analysis
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: SQS 36-family/108-unit binding; Engineer／Maker role unit dispositioned to sqs-data-analysis
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: SQS_P0
+    source_role_id: F05-03
+    source_locator: 知識庫/HG-KSEOS_SSOT/SQS-THC_P0-CIP-PACK_v2026.08.06-r2.md#10
+    canonical_runtime_role_id: F05-03-sqs_data_analysis
+    disposition: MAP_TO_ON_DEMAND_ROLE
+    host_profile: sqs-data-analysis
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: SQS 36-family/108-unit binding; Independent Reviewer／Veto role unit dispositioned to sqs-data-analysis
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: SQS_P0
+    source_role_id: F06-01
+    source_locator: 知識庫/HG-KSEOS_SSOT/SQS-THC_P0-CIP-PACK_v2026.08.06-r2.md#10
+    canonical_runtime_role_id: F06-01-sqs_orchestrator
+    disposition: POLICY_ONLY
+    host_profile: sqs-orchestrator
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: SQS 36-family/108-unit binding; Accountable Owner role unit dispositioned to sqs-orchestrator
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: SQS_P0
+    source_role_id: F06-02
+    source_locator: 知識庫/HG-KSEOS_SSOT/SQS-THC_P0-CIP-PACK_v2026.08.06-r2.md#10
+    canonical_runtime_role_id: F06-02-sqs_data_analysis
+    disposition: MAP_TO_PERSISTENT_PROFILE_ROLE
+    host_profile: sqs-data-analysis
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: SQS 36-family/108-unit binding; Engineer／Maker role unit dispositioned to sqs-data-analysis
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: SQS_P0
+    source_role_id: F06-03
+    source_locator: 知識庫/HG-KSEOS_SSOT/SQS-THC_P0-CIP-PACK_v2026.08.06-r2.md#10
+    canonical_runtime_role_id: F06-03-sqs_data_analysis
+    disposition: MAP_TO_ON_DEMAND_ROLE
+    host_profile: sqs-data-analysis
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: SQS 36-family/108-unit binding; Independent Reviewer／Veto role unit dispositioned to sqs-data-analysis
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: SQS_P0
+    source_role_id: F07-01
+    source_locator: 知識庫/HG-KSEOS_SSOT/SQS-THC_P0-CIP-PACK_v2026.08.06-r2.md#10
+    canonical_runtime_role_id: F07-01-sqs_orchestrator
+    disposition: POLICY_ONLY
+    host_profile: sqs-orchestrator
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: SQS 36-family/108-unit binding; Accountable Owner role unit dispositioned to sqs-orchestrator
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: SQS_P0
+    source_role_id: F07-02
+    source_locator: 知識庫/HG-KSEOS_SSOT/SQS-THC_P0-CIP-PACK_v2026.08.06-r2.md#10
+    canonical_runtime_role_id: F07-02-sqs_data_analysis
+    disposition: MAP_TO_PERSISTENT_PROFILE_ROLE
+    host_profile: sqs-data-analysis
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: SQS 36-family/108-unit binding; Engineer／Maker role unit dispositioned to sqs-data-analysis
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: SQS_P0
+    source_role_id: F07-03
+    source_locator: 知識庫/HG-KSEOS_SSOT/SQS-THC_P0-CIP-PACK_v2026.08.06-r2.md#10
+    canonical_runtime_role_id: F07-03-sqs_data_analysis
+    disposition: MAP_TO_ON_DEMAND_ROLE
+    host_profile: sqs-data-analysis
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: SQS 36-family/108-unit binding; Independent Reviewer／Veto role unit dispositioned to sqs-data-analysis
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: SQS_P0
+    source_role_id: F08-01
+    source_locator: 知識庫/HG-KSEOS_SSOT/SQS-THC_P0-CIP-PACK_v2026.08.06-r2.md#10
+    canonical_runtime_role_id: F08-01-sqs_orchestrator
+    disposition: POLICY_ONLY
+    host_profile: sqs-orchestrator
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: SQS 36-family/108-unit binding; Accountable Owner role unit dispositioned to sqs-orchestrator
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: SQS_P0
+    source_role_id: F08-02
+    source_locator: 知識庫/HG-KSEOS_SSOT/SQS-THC_P0-CIP-PACK_v2026.08.06-r2.md#10
+    canonical_runtime_role_id: F08-02-sqs_data_analysis
+    disposition: MAP_TO_PERSISTENT_PROFILE_ROLE
+    host_profile: sqs-data-analysis
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: SQS 36-family/108-unit binding; Engineer／Maker role unit dispositioned to sqs-data-analysis
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: SQS_P0
+    source_role_id: F08-03
+    source_locator: 知識庫/HG-KSEOS_SSOT/SQS-THC_P0-CIP-PACK_v2026.08.06-r2.md#10
+    canonical_runtime_role_id: F08-03-sqs_data_analysis
+    disposition: MAP_TO_ON_DEMAND_ROLE
+    host_profile: sqs-data-analysis
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: SQS 36-family/108-unit binding; Independent Reviewer／Veto role unit dispositioned to sqs-data-analysis
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: SQS_P0
+    source_role_id: F09-01
+    source_locator: 知識庫/HG-KSEOS_SSOT/SQS-THC_P0-CIP-PACK_v2026.08.06-r2.md#10
+    canonical_runtime_role_id: F09-01-sqs_orchestrator
+    disposition: POLICY_ONLY
+    host_profile: sqs-orchestrator
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: SQS 36-family/108-unit binding; Accountable Owner role unit dispositioned to sqs-orchestrator
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: SQS_P0
+    source_role_id: F09-02
+    source_locator: 知識庫/HG-KSEOS_SSOT/SQS-THC_P0-CIP-PACK_v2026.08.06-r2.md#10
+    canonical_runtime_role_id: F09-02-sqs_data_analysis
+    disposition: MAP_TO_PERSISTENT_PROFILE_ROLE
+    host_profile: sqs-data-analysis
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: SQS 36-family/108-unit binding; Engineer／Maker role unit dispositioned to sqs-data-analysis
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: SQS_P0
+    source_role_id: F09-03
+    source_locator: 知識庫/HG-KSEOS_SSOT/SQS-THC_P0-CIP-PACK_v2026.08.06-r2.md#10
+    canonical_runtime_role_id: F09-03-sqs_data_analysis
+    disposition: MAP_TO_ON_DEMAND_ROLE
+    host_profile: sqs-data-analysis
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: SQS 36-family/108-unit binding; Independent Reviewer／Veto role unit dispositioned to sqs-data-analysis
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: SQS_P0
+    source_role_id: F10-01
+    source_locator: 知識庫/HG-KSEOS_SSOT/SQS-THC_P0-CIP-PACK_v2026.08.06-r2.md#10
+    canonical_runtime_role_id: F10-01-sqs_orchestrator
+    disposition: POLICY_ONLY
+    host_profile: sqs-orchestrator
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: SQS 36-family/108-unit binding; Accountable Owner role unit dispositioned to sqs-orchestrator
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: SQS_P0
+    source_role_id: F10-02
+    source_locator: 知識庫/HG-KSEOS_SSOT/SQS-THC_P0-CIP-PACK_v2026.08.06-r2.md#10
+    canonical_runtime_role_id: F10-02-sqs_data_analysis
+    disposition: MAP_TO_PERSISTENT_PROFILE_ROLE
+    host_profile: sqs-data-analysis
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: SQS 36-family/108-unit binding; Engineer／Maker role unit dispositioned to sqs-data-analysis
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: SQS_P0
+    source_role_id: F10-03
+    source_locator: 知識庫/HG-KSEOS_SSOT/SQS-THC_P0-CIP-PACK_v2026.08.06-r2.md#10
+    canonical_runtime_role_id: F10-03-sqs_data_analysis
+    disposition: MAP_TO_ON_DEMAND_ROLE
+    host_profile: sqs-data-analysis
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: SQS 36-family/108-unit binding; Independent Reviewer／Veto role unit dispositioned to sqs-data-analysis
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: SQS_P0
+    source_role_id: F11-01
+    source_locator: 知識庫/HG-KSEOS_SSOT/SQS-THC_P0-CIP-PACK_v2026.08.06-r2.md#10
+    canonical_runtime_role_id: F11-01-sqs_orchestrator
+    disposition: POLICY_ONLY
+    host_profile: sqs-orchestrator
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: SQS 36-family/108-unit binding; Accountable Owner role unit dispositioned to sqs-orchestrator
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: SQS_P0
+    source_role_id: F11-02
+    source_locator: 知識庫/HG-KSEOS_SSOT/SQS-THC_P0-CIP-PACK_v2026.08.06-r2.md#10
+    canonical_runtime_role_id: F11-02-sqs_data_analysis
+    disposition: MAP_TO_PERSISTENT_PROFILE_ROLE
+    host_profile: sqs-data-analysis
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: SQS 36-family/108-unit binding; Engineer／Maker role unit dispositioned to sqs-data-analysis
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: SQS_P0
+    source_role_id: F11-03
+    source_locator: 知識庫/HG-KSEOS_SSOT/SQS-THC_P0-CIP-PACK_v2026.08.06-r2.md#10
+    canonical_runtime_role_id: F11-03-sqs_data_analysis
+    disposition: MAP_TO_ON_DEMAND_ROLE
+    host_profile: sqs-data-analysis
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: SQS 36-family/108-unit binding; Independent Reviewer／Veto role unit dispositioned to sqs-data-analysis
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: SQS_P0
+    source_role_id: F12-01
+    source_locator: 知識庫/HG-KSEOS_SSOT/SQS-THC_P0-CIP-PACK_v2026.08.06-r2.md#10
+    canonical_runtime_role_id: F12-01-sqs_orchestrator
+    disposition: POLICY_ONLY
+    host_profile: sqs-orchestrator
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: SQS 36-family/108-unit binding; Accountable Owner role unit dispositioned to sqs-orchestrator
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: SQS_P0
+    source_role_id: F12-02
+    source_locator: 知識庫/HG-KSEOS_SSOT/SQS-THC_P0-CIP-PACK_v2026.08.06-r2.md#10
+    canonical_runtime_role_id: F12-02-sqs_data_analysis
+    disposition: MAP_TO_PERSISTENT_PROFILE_ROLE
+    host_profile: sqs-data-analysis
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: SQS 36-family/108-unit binding; Engineer／Maker role unit dispositioned to sqs-data-analysis
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: SQS_P0
+    source_role_id: F12-03
+    source_locator: 知識庫/HG-KSEOS_SSOT/SQS-THC_P0-CIP-PACK_v2026.08.06-r2.md#10
+    canonical_runtime_role_id: F12-03-sqs_data_analysis
+    disposition: MAP_TO_ON_DEMAND_ROLE
+    host_profile: sqs-data-analysis
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: SQS 36-family/108-unit binding; Independent Reviewer／Veto role unit dispositioned to sqs-data-analysis
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: SQS_P0
+    source_role_id: F13-01
+    source_locator: 知識庫/HG-KSEOS_SSOT/SQS-THC_P0-CIP-PACK_v2026.08.06-r2.md#10
+    canonical_runtime_role_id: F13-01-sqs_orchestrator
+    disposition: POLICY_ONLY
+    host_profile: sqs-orchestrator
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: SQS 36-family/108-unit binding; Accountable Owner role unit dispositioned to sqs-orchestrator
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: SQS_P0
+    source_role_id: F13-02
+    source_locator: 知識庫/HG-KSEOS_SSOT/SQS-THC_P0-CIP-PACK_v2026.08.06-r2.md#10
+    canonical_runtime_role_id: F13-02-sqs_data_analysis
+    disposition: MAP_TO_PERSISTENT_PROFILE_ROLE
+    host_profile: sqs-data-analysis
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: SQS 36-family/108-unit binding; Engineer／Maker role unit dispositioned to sqs-data-analysis
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: SQS_P0
+    source_role_id: F13-03
+    source_locator: 知識庫/HG-KSEOS_SSOT/SQS-THC_P0-CIP-PACK_v2026.08.06-r2.md#10
+    canonical_runtime_role_id: F13-03-sqs_data_analysis
+    disposition: MAP_TO_ON_DEMAND_ROLE
+    host_profile: sqs-data-analysis
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: SQS 36-family/108-unit binding; Independent Reviewer／Veto role unit dispositioned to sqs-data-analysis
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: SQS_P0
+    source_role_id: F14-01
+    source_locator: 知識庫/HG-KSEOS_SSOT/SQS-THC_P0-CIP-PACK_v2026.08.06-r2.md#10
+    canonical_runtime_role_id: F14-01-sqs_orchestrator
+    disposition: POLICY_ONLY
+    host_profile: sqs-orchestrator
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: SQS 36-family/108-unit binding; Accountable Owner role unit dispositioned to sqs-orchestrator
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: SQS_P0
+    source_role_id: F14-02
+    source_locator: 知識庫/HG-KSEOS_SSOT/SQS-THC_P0-CIP-PACK_v2026.08.06-r2.md#10
+    canonical_runtime_role_id: F14-02-sqs_data_analysis
+    disposition: MAP_TO_PERSISTENT_PROFILE_ROLE
+    host_profile: sqs-data-analysis
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: SQS 36-family/108-unit binding; Engineer／Maker role unit dispositioned to sqs-data-analysis
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: SQS_P0
+    source_role_id: F14-03
+    source_locator: 知識庫/HG-KSEOS_SSOT/SQS-THC_P0-CIP-PACK_v2026.08.06-r2.md#10
+    canonical_runtime_role_id: F14-03-sqs_data_analysis
+    disposition: MAP_TO_ON_DEMAND_ROLE
+    host_profile: sqs-data-analysis
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: SQS 36-family/108-unit binding; Independent Reviewer／Veto role unit dispositioned to sqs-data-analysis
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: SQS_P0
+    source_role_id: F15-01
+    source_locator: 知識庫/HG-KSEOS_SSOT/SQS-THC_P0-CIP-PACK_v2026.08.06-r2.md#10
+    canonical_runtime_role_id: F15-01-sqs_orchestrator
+    disposition: POLICY_ONLY
+    host_profile: sqs-orchestrator
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: SQS 36-family/108-unit binding; Accountable Owner role unit dispositioned to sqs-orchestrator
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: SQS_P0
+    source_role_id: F15-02
+    source_locator: 知識庫/HG-KSEOS_SSOT/SQS-THC_P0-CIP-PACK_v2026.08.06-r2.md#10
+    canonical_runtime_role_id: F15-02-sqs_data_analysis
+    disposition: MAP_TO_PERSISTENT_PROFILE_ROLE
+    host_profile: sqs-data-analysis
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: SQS 36-family/108-unit binding; Engineer／Maker role unit dispositioned to sqs-data-analysis
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: SQS_P0
+    source_role_id: F15-03
+    source_locator: 知識庫/HG-KSEOS_SSOT/SQS-THC_P0-CIP-PACK_v2026.08.06-r2.md#10
+    canonical_runtime_role_id: F15-03-sqs_data_analysis
+    disposition: MAP_TO_ON_DEMAND_ROLE
+    host_profile: sqs-data-analysis
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: SQS 36-family/108-unit binding; Independent Reviewer／Veto role unit dispositioned to sqs-data-analysis
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: SQS_P0
+    source_role_id: F16-01
+    source_locator: 知識庫/HG-KSEOS_SSOT/SQS-THC_P0-CIP-PACK_v2026.08.06-r2.md#10
+    canonical_runtime_role_id: F16-01-sqs_orchestrator
+    disposition: POLICY_ONLY
+    host_profile: sqs-orchestrator
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: SQS 36-family/108-unit binding; Accountable Owner role unit dispositioned to sqs-orchestrator
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: SQS_P0
+    source_role_id: F16-02
+    source_locator: 知識庫/HG-KSEOS_SSOT/SQS-THC_P0-CIP-PACK_v2026.08.06-r2.md#10
+    canonical_runtime_role_id: F16-02-sqs_data_analysis
+    disposition: MAP_TO_PERSISTENT_PROFILE_ROLE
+    host_profile: sqs-data-analysis
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: SQS 36-family/108-unit binding; Engineer／Maker role unit dispositioned to sqs-data-analysis
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: SQS_P0
+    source_role_id: F16-03
+    source_locator: 知識庫/HG-KSEOS_SSOT/SQS-THC_P0-CIP-PACK_v2026.08.06-r2.md#10
+    canonical_runtime_role_id: F16-03-sqs_data_analysis
+    disposition: MAP_TO_ON_DEMAND_ROLE
+    host_profile: sqs-data-analysis
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: SQS 36-family/108-unit binding; Independent Reviewer／Veto role unit dispositioned to sqs-data-analysis
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: SQS_P0
+    source_role_id: F17-01
+    source_locator: 知識庫/HG-KSEOS_SSOT/SQS-THC_P0-CIP-PACK_v2026.08.06-r2.md#10
+    canonical_runtime_role_id: F17-01-sqs_orchestrator
+    disposition: POLICY_ONLY
+    host_profile: sqs-orchestrator
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: SQS 36-family/108-unit binding; Accountable Owner role unit dispositioned to sqs-orchestrator
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: SQS_P0
+    source_role_id: F17-02
+    source_locator: 知識庫/HG-KSEOS_SSOT/SQS-THC_P0-CIP-PACK_v2026.08.06-r2.md#10
+    canonical_runtime_role_id: F17-02-sqs_data_analysis
+    disposition: MAP_TO_PERSISTENT_PROFILE_ROLE
+    host_profile: sqs-data-analysis
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: SQS 36-family/108-unit binding; Engineer／Maker role unit dispositioned to sqs-data-analysis
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: SQS_P0
+    source_role_id: F17-03
+    source_locator: 知識庫/HG-KSEOS_SSOT/SQS-THC_P0-CIP-PACK_v2026.08.06-r2.md#10
+    canonical_runtime_role_id: F17-03-sqs_data_analysis
+    disposition: MAP_TO_ON_DEMAND_ROLE
+    host_profile: sqs-data-analysis
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: SQS 36-family/108-unit binding; Independent Reviewer／Veto role unit dispositioned to sqs-data-analysis
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: SQS_P0
+    source_role_id: F18-01
+    source_locator: 知識庫/HG-KSEOS_SSOT/SQS-THC_P0-CIP-PACK_v2026.08.06-r2.md#10
+    canonical_runtime_role_id: F18-01-sqs_orchestrator
+    disposition: POLICY_ONLY
+    host_profile: sqs-orchestrator
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: SQS 36-family/108-unit binding; Accountable Owner role unit dispositioned to sqs-orchestrator
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: SQS_P0
+    source_role_id: F18-02
+    source_locator: 知識庫/HG-KSEOS_SSOT/SQS-THC_P0-CIP-PACK_v2026.08.06-r2.md#10
+    canonical_runtime_role_id: F18-02-sqs_data_analysis
+    disposition: MAP_TO_PERSISTENT_PROFILE_ROLE
+    host_profile: sqs-data-analysis
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: SQS 36-family/108-unit binding; Engineer／Maker role unit dispositioned to sqs-data-analysis
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: SQS_P0
+    source_role_id: F18-03
+    source_locator: 知識庫/HG-KSEOS_SSOT/SQS-THC_P0-CIP-PACK_v2026.08.06-r2.md#10
+    canonical_runtime_role_id: F18-03-sqs_data_analysis
+    disposition: MAP_TO_ON_DEMAND_ROLE
+    host_profile: sqs-data-analysis
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: SQS 36-family/108-unit binding; Independent Reviewer／Veto role unit dispositioned to sqs-data-analysis
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: SQS_P0
+    source_role_id: F19-01
+    source_locator: 知識庫/HG-KSEOS_SSOT/SQS-THC_P0-CIP-PACK_v2026.08.06-r2.md#10
+    canonical_runtime_role_id: F19-01-sqs_orchestrator
+    disposition: POLICY_ONLY
+    host_profile: sqs-orchestrator
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: SQS 36-family/108-unit binding; Accountable Owner role unit dispositioned to sqs-orchestrator
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: SQS_P0
+    source_role_id: F19-02
+    source_locator: 知識庫/HG-KSEOS_SSOT/SQS-THC_P0-CIP-PACK_v2026.08.06-r2.md#10
+    canonical_runtime_role_id: F19-02-sqs_data_analysis
+    disposition: MAP_TO_PERSISTENT_PROFILE_ROLE
+    host_profile: sqs-data-analysis
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: SQS 36-family/108-unit binding; Engineer／Maker role unit dispositioned to sqs-data-analysis
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: SQS_P0
+    source_role_id: F19-03
+    source_locator: 知識庫/HG-KSEOS_SSOT/SQS-THC_P0-CIP-PACK_v2026.08.06-r2.md#10
+    canonical_runtime_role_id: F19-03-sqs_data_analysis
+    disposition: MAP_TO_ON_DEMAND_ROLE
+    host_profile: sqs-data-analysis
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: SQS 36-family/108-unit binding; Independent Reviewer／Veto role unit dispositioned to sqs-data-analysis
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: SQS_P0
+    source_role_id: F20-01
+    source_locator: 知識庫/HG-KSEOS_SSOT/SQS-THC_P0-CIP-PACK_v2026.08.06-r2.md#10
+    canonical_runtime_role_id: F20-01-sqs_orchestrator
+    disposition: POLICY_ONLY
+    host_profile: sqs-orchestrator
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: SQS 36-family/108-unit binding; Accountable Owner role unit dispositioned to sqs-orchestrator
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: SQS_P0
+    source_role_id: F20-02
+    source_locator: 知識庫/HG-KSEOS_SSOT/SQS-THC_P0-CIP-PACK_v2026.08.06-r2.md#10
+    canonical_runtime_role_id: F20-02-sqs_data_analysis
+    disposition: MAP_TO_PERSISTENT_PROFILE_ROLE
+    host_profile: sqs-data-analysis
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: SQS 36-family/108-unit binding; Engineer／Maker role unit dispositioned to sqs-data-analysis
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: SQS_P0
+    source_role_id: F20-03
+    source_locator: 知識庫/HG-KSEOS_SSOT/SQS-THC_P0-CIP-PACK_v2026.08.06-r2.md#10
+    canonical_runtime_role_id: F20-03-sqs_data_analysis
+    disposition: MAP_TO_ON_DEMAND_ROLE
+    host_profile: sqs-data-analysis
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: SQS 36-family/108-unit binding; Independent Reviewer／Veto role unit dispositioned to sqs-data-analysis
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: SQS_P0
+    source_role_id: F21-01
+    source_locator: 知識庫/HG-KSEOS_SSOT/SQS-THC_P0-CIP-PACK_v2026.08.06-r2.md#10
+    canonical_runtime_role_id: F21-01-sqs_orchestrator
+    disposition: POLICY_ONLY
+    host_profile: sqs-orchestrator
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: SQS 36-family/108-unit binding; Accountable Owner role unit dispositioned to sqs-orchestrator
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: SQS_P0
+    source_role_id: F21-02
+    source_locator: 知識庫/HG-KSEOS_SSOT/SQS-THC_P0-CIP-PACK_v2026.08.06-r2.md#10
+    canonical_runtime_role_id: F21-02-sqs_risk
+    disposition: MAP_TO_PERSISTENT_PROFILE_ROLE
+    host_profile: sqs-risk
+    worker_mode: ON_DEMAND
+    authority_ceiling: RISK_DOMAIN_VETO
+    rationale: SQS 36-family/108-unit binding; Engineer／Maker role unit dispositioned to sqs-risk
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: SQS_P0
+    source_role_id: F21-03
+    source_locator: 知識庫/HG-KSEOS_SSOT/SQS-THC_P0-CIP-PACK_v2026.08.06-r2.md#10
+    canonical_runtime_role_id: F21-03-sqs_risk
+    disposition: MAP_TO_ON_DEMAND_ROLE
+    host_profile: sqs-risk
+    worker_mode: ON_DEMAND
+    authority_ceiling: RISK_DOMAIN_VETO
+    rationale: SQS 36-family/108-unit binding; Independent Reviewer／Veto role unit dispositioned to sqs-risk
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: SQS_P0
+    source_role_id: F22-01
+    source_locator: 知識庫/HG-KSEOS_SSOT/SQS-THC_P0-CIP-PACK_v2026.08.06-r2.md#10
+    canonical_runtime_role_id: F22-01-sqs_orchestrator
+    disposition: POLICY_ONLY
+    host_profile: sqs-orchestrator
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: SQS 36-family/108-unit binding; Accountable Owner role unit dispositioned to sqs-orchestrator
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: SQS_P0
+    source_role_id: F22-02
+    source_locator: 知識庫/HG-KSEOS_SSOT/SQS-THC_P0-CIP-PACK_v2026.08.06-r2.md#10
+    canonical_runtime_role_id: F22-02-sqs_risk
+    disposition: MAP_TO_PERSISTENT_PROFILE_ROLE
+    host_profile: sqs-risk
+    worker_mode: ON_DEMAND
+    authority_ceiling: RISK_DOMAIN_VETO
+    rationale: SQS 36-family/108-unit binding; Engineer／Maker role unit dispositioned to sqs-risk
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: SQS_P0
+    source_role_id: F22-03
+    source_locator: 知識庫/HG-KSEOS_SSOT/SQS-THC_P0-CIP-PACK_v2026.08.06-r2.md#10
+    canonical_runtime_role_id: F22-03-sqs_risk
+    disposition: MAP_TO_ON_DEMAND_ROLE
+    host_profile: sqs-risk
+    worker_mode: ON_DEMAND
+    authority_ceiling: RISK_DOMAIN_VETO
+    rationale: SQS 36-family/108-unit binding; Independent Reviewer／Veto role unit dispositioned to sqs-risk
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: SQS_P0
+    source_role_id: F23-01
+    source_locator: 知識庫/HG-KSEOS_SSOT/SQS-THC_P0-CIP-PACK_v2026.08.06-r2.md#10
+    canonical_runtime_role_id: F23-01-sqs_orchestrator
+    disposition: POLICY_ONLY
+    host_profile: sqs-orchestrator
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: SQS 36-family/108-unit binding; Accountable Owner role unit dispositioned to sqs-orchestrator
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: SQS_P0
+    source_role_id: F23-02
+    source_locator: 知識庫/HG-KSEOS_SSOT/SQS-THC_P0-CIP-PACK_v2026.08.06-r2.md#10
+    canonical_runtime_role_id: F23-02-sqs_risk
+    disposition: MAP_TO_PERSISTENT_PROFILE_ROLE
+    host_profile: sqs-risk
+    worker_mode: ON_DEMAND
+    authority_ceiling: RISK_DOMAIN_VETO
+    rationale: SQS 36-family/108-unit binding; Engineer／Maker role unit dispositioned to sqs-risk
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: SQS_P0
+    source_role_id: F23-03
+    source_locator: 知識庫/HG-KSEOS_SSOT/SQS-THC_P0-CIP-PACK_v2026.08.06-r2.md#10
+    canonical_runtime_role_id: F23-03-sqs_risk
+    disposition: MAP_TO_ON_DEMAND_ROLE
+    host_profile: sqs-risk
+    worker_mode: ON_DEMAND
+    authority_ceiling: RISK_DOMAIN_VETO
+    rationale: SQS 36-family/108-unit binding; Independent Reviewer／Veto role unit dispositioned to sqs-risk
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: SQS_P0
+    source_role_id: F24-01
+    source_locator: 知識庫/HG-KSEOS_SSOT/SQS-THC_P0-CIP-PACK_v2026.08.06-r2.md#10
+    canonical_runtime_role_id: F24-01-sqs_orchestrator
+    disposition: POLICY_ONLY
+    host_profile: sqs-orchestrator
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: SQS 36-family/108-unit binding; Accountable Owner role unit dispositioned to sqs-orchestrator
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: SQS_P0
+    source_role_id: F24-02
+    source_locator: 知識庫/HG-KSEOS_SSOT/SQS-THC_P0-CIP-PACK_v2026.08.06-r2.md#10
+    canonical_runtime_role_id: F24-02-sqs_risk
+    disposition: MAP_TO_PERSISTENT_PROFILE_ROLE
+    host_profile: sqs-risk
+    worker_mode: ON_DEMAND
+    authority_ceiling: RISK_DOMAIN_VETO
+    rationale: SQS 36-family/108-unit binding; Engineer／Maker role unit dispositioned to sqs-risk
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: SQS_P0
+    source_role_id: F24-03
+    source_locator: 知識庫/HG-KSEOS_SSOT/SQS-THC_P0-CIP-PACK_v2026.08.06-r2.md#10
+    canonical_runtime_role_id: F24-03-sqs_risk
+    disposition: MAP_TO_ON_DEMAND_ROLE
+    host_profile: sqs-risk
+    worker_mode: ON_DEMAND
+    authority_ceiling: RISK_DOMAIN_VETO
+    rationale: SQS 36-family/108-unit binding; Independent Reviewer／Veto role unit dispositioned to sqs-risk
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: SQS_P0
+    source_role_id: F25-01
+    source_locator: 知識庫/HG-KSEOS_SSOT/SQS-THC_P0-CIP-PACK_v2026.08.06-r2.md#10
+    canonical_runtime_role_id: F25-01-sqs_orchestrator
+    disposition: POLICY_ONLY
+    host_profile: sqs-orchestrator
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: SQS 36-family/108-unit binding; Accountable Owner role unit dispositioned to sqs-orchestrator
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: SQS_P0
+    source_role_id: F25-02
+    source_locator: 知識庫/HG-KSEOS_SSOT/SQS-THC_P0-CIP-PACK_v2026.08.06-r2.md#10
+    canonical_runtime_role_id: F25-02-sqs_risk
+    disposition: MAP_TO_PERSISTENT_PROFILE_ROLE
+    host_profile: sqs-risk
+    worker_mode: ON_DEMAND
+    authority_ceiling: RISK_DOMAIN_VETO
+    rationale: SQS 36-family/108-unit binding; Engineer／Maker role unit dispositioned to sqs-risk
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: SQS_P0
+    source_role_id: F25-03
+    source_locator: 知識庫/HG-KSEOS_SSOT/SQS-THC_P0-CIP-PACK_v2026.08.06-r2.md#10
+    canonical_runtime_role_id: F25-03-sqs_risk
+    disposition: MAP_TO_ON_DEMAND_ROLE
+    host_profile: sqs-risk
+    worker_mode: ON_DEMAND
+    authority_ceiling: RISK_DOMAIN_VETO
+    rationale: SQS 36-family/108-unit binding; Independent Reviewer／Veto role unit dispositioned to sqs-risk
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: SQS_P0
+    source_role_id: F26-01
+    source_locator: 知識庫/HG-KSEOS_SSOT/SQS-THC_P0-CIP-PACK_v2026.08.06-r2.md#10
+    canonical_runtime_role_id: F26-01-sqs_orchestrator
+    disposition: POLICY_ONLY
+    host_profile: sqs-orchestrator
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: SQS 36-family/108-unit binding; Accountable Owner role unit dispositioned to sqs-orchestrator
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: SQS_P0
+    source_role_id: F26-02
+    source_locator: 知識庫/HG-KSEOS_SSOT/SQS-THC_P0-CIP-PACK_v2026.08.06-r2.md#10
+    canonical_runtime_role_id: F26-02-sqs_risk
+    disposition: MAP_TO_PERSISTENT_PROFILE_ROLE
+    host_profile: sqs-risk
+    worker_mode: ON_DEMAND
+    authority_ceiling: RISK_DOMAIN_VETO
+    rationale: SQS 36-family/108-unit binding; Engineer／Maker role unit dispositioned to sqs-risk
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: SQS_P0
+    source_role_id: F26-03
+    source_locator: 知識庫/HG-KSEOS_SSOT/SQS-THC_P0-CIP-PACK_v2026.08.06-r2.md#10
+    canonical_runtime_role_id: F26-03-sqs_risk
+    disposition: MAP_TO_ON_DEMAND_ROLE
+    host_profile: sqs-risk
+    worker_mode: ON_DEMAND
+    authority_ceiling: RISK_DOMAIN_VETO
+    rationale: SQS 36-family/108-unit binding; Independent Reviewer／Veto role unit dispositioned to sqs-risk
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: SQS_P0
+    source_role_id: F27-01
+    source_locator: 知識庫/HG-KSEOS_SSOT/SQS-THC_P0-CIP-PACK_v2026.08.06-r2.md#10
+    canonical_runtime_role_id: F27-01-sqs_orchestrator
+    disposition: POLICY_ONLY
+    host_profile: sqs-orchestrator
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: SQS 36-family/108-unit binding; Accountable Owner role unit dispositioned to sqs-orchestrator
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: SQS_P0
+    source_role_id: F27-02
+    source_locator: 知識庫/HG-KSEOS_SSOT/SQS-THC_P0-CIP-PACK_v2026.08.06-r2.md#10
+    canonical_runtime_role_id: F27-02-sqs_risk
+    disposition: MAP_TO_PERSISTENT_PROFILE_ROLE
+    host_profile: sqs-risk
+    worker_mode: ON_DEMAND
+    authority_ceiling: RISK_DOMAIN_VETO
+    rationale: SQS 36-family/108-unit binding; Engineer／Maker role unit dispositioned to sqs-risk
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: SQS_P0
+    source_role_id: F27-03
+    source_locator: 知識庫/HG-KSEOS_SSOT/SQS-THC_P0-CIP-PACK_v2026.08.06-r2.md#10
+    canonical_runtime_role_id: F27-03-sqs_risk
+    disposition: MAP_TO_ON_DEMAND_ROLE
+    host_profile: sqs-risk
+    worker_mode: ON_DEMAND
+    authority_ceiling: RISK_DOMAIN_VETO
+    rationale: SQS 36-family/108-unit binding; Independent Reviewer／Veto role unit dispositioned to sqs-risk
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: SQS_P0
+    source_role_id: F28-01
+    source_locator: 知識庫/HG-KSEOS_SSOT/SQS-THC_P0-CIP-PACK_v2026.08.06-r2.md#10
+    canonical_runtime_role_id: F28-01-sqs_orchestrator
+    disposition: POLICY_ONLY
+    host_profile: sqs-orchestrator
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: SQS 36-family/108-unit binding; Accountable Owner role unit dispositioned to sqs-orchestrator
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: SQS_P0
+    source_role_id: F28-02
+    source_locator: 知識庫/HG-KSEOS_SSOT/SQS-THC_P0-CIP-PACK_v2026.08.06-r2.md#10
+    canonical_runtime_role_id: F28-02-sqs_risk
+    disposition: MAP_TO_PERSISTENT_PROFILE_ROLE
+    host_profile: sqs-risk
+    worker_mode: ON_DEMAND
+    authority_ceiling: RISK_DOMAIN_VETO
+    rationale: SQS 36-family/108-unit binding; Engineer／Maker role unit dispositioned to sqs-risk
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: SQS_P0
+    source_role_id: F28-03
+    source_locator: 知識庫/HG-KSEOS_SSOT/SQS-THC_P0-CIP-PACK_v2026.08.06-r2.md#10
+    canonical_runtime_role_id: F28-03-sqs_risk
+    disposition: MAP_TO_ON_DEMAND_ROLE
+    host_profile: sqs-risk
+    worker_mode: ON_DEMAND
+    authority_ceiling: RISK_DOMAIN_VETO
+    rationale: SQS 36-family/108-unit binding; Independent Reviewer／Veto role unit dispositioned to sqs-risk
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: SQS_P0
+    source_role_id: F29-01
+    source_locator: 知識庫/HG-KSEOS_SSOT/SQS-THC_P0-CIP-PACK_v2026.08.06-r2.md#10
+    canonical_runtime_role_id: F29-01-sqs_orchestrator
+    disposition: POLICY_ONLY
+    host_profile: sqs-orchestrator
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: SQS 36-family/108-unit binding; Accountable Owner role unit dispositioned to sqs-orchestrator
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: SQS_P0
+    source_role_id: F29-02
+    source_locator: 知識庫/HG-KSEOS_SSOT/SQS-THC_P0-CIP-PACK_v2026.08.06-r2.md#10
+    canonical_runtime_role_id: F29-02-sqs_data_analysis
+    disposition: MAP_TO_PERSISTENT_PROFILE_ROLE
+    host_profile: sqs-data-analysis
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: SQS 36-family/108-unit binding; Engineer／Maker role unit dispositioned to sqs-data-analysis
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: SQS_P0
+    source_role_id: F29-03
+    source_locator: 知識庫/HG-KSEOS_SSOT/SQS-THC_P0-CIP-PACK_v2026.08.06-r2.md#10
+    canonical_runtime_role_id: F29-03-acceptance_officer
+    disposition: ACCEPTANCE_EXTERNAL
+    host_profile: acceptance-officer
+    worker_mode: ON_DEMAND
+    authority_ceiling: L2_VERIFY_ONLY
+    rationale: SQS 36-family/108-unit binding; Independent Reviewer／Veto role unit dispositioned to acceptance-officer
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: SQS_P0
+    source_role_id: F30-01
+    source_locator: 知識庫/HG-KSEOS_SSOT/SQS-THC_P0-CIP-PACK_v2026.08.06-r2.md#10
+    canonical_runtime_role_id: F30-01-sqs_orchestrator
+    disposition: POLICY_ONLY
+    host_profile: sqs-orchestrator
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: SQS 36-family/108-unit binding; Accountable Owner role unit dispositioned to sqs-orchestrator
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: SQS_P0
+    source_role_id: F30-02
+    source_locator: 知識庫/HG-KSEOS_SSOT/SQS-THC_P0-CIP-PACK_v2026.08.06-r2.md#10
+    canonical_runtime_role_id: F30-02-sqs_data_analysis
+    disposition: MAP_TO_PERSISTENT_PROFILE_ROLE
+    host_profile: sqs-data-analysis
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: SQS 36-family/108-unit binding; Engineer／Maker role unit dispositioned to sqs-data-analysis
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: SQS_P0
+    source_role_id: F30-03
+    source_locator: 知識庫/HG-KSEOS_SSOT/SQS-THC_P0-CIP-PACK_v2026.08.06-r2.md#10
+    canonical_runtime_role_id: F30-03-acceptance_officer
+    disposition: ACCEPTANCE_EXTERNAL
+    host_profile: acceptance-officer
+    worker_mode: ON_DEMAND
+    authority_ceiling: L2_VERIFY_ONLY
+    rationale: SQS 36-family/108-unit binding; Independent Reviewer／Veto role unit dispositioned to acceptance-officer
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: SQS_P0
+    source_role_id: F31-01
+    source_locator: 知識庫/HG-KSEOS_SSOT/SQS-THC_P0-CIP-PACK_v2026.08.06-r2.md#10
+    canonical_runtime_role_id: F31-01-sqs_orchestrator
+    disposition: POLICY_ONLY
+    host_profile: sqs-orchestrator
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: SQS 36-family/108-unit binding; Accountable Owner role unit dispositioned to sqs-orchestrator
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: SQS_P0
+    source_role_id: F31-02
+    source_locator: 知識庫/HG-KSEOS_SSOT/SQS-THC_P0-CIP-PACK_v2026.08.06-r2.md#10
+    canonical_runtime_role_id: F31-02-sqs_data_analysis
+    disposition: MAP_TO_PERSISTENT_PROFILE_ROLE
+    host_profile: sqs-data-analysis
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: SQS 36-family/108-unit binding; Engineer／Maker role unit dispositioned to sqs-data-analysis
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: SQS_P0
+    source_role_id: F31-03
+    source_locator: 知識庫/HG-KSEOS_SSOT/SQS-THC_P0-CIP-PACK_v2026.08.06-r2.md#10
+    canonical_runtime_role_id: F31-03-acceptance_officer
+    disposition: ACCEPTANCE_EXTERNAL
+    host_profile: acceptance-officer
+    worker_mode: ON_DEMAND
+    authority_ceiling: L2_VERIFY_ONLY
+    rationale: SQS 36-family/108-unit binding; Independent Reviewer／Veto role unit dispositioned to acceptance-officer
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: SQS_P0
+    source_role_id: F32-01
+    source_locator: 知識庫/HG-KSEOS_SSOT/SQS-THC_P0-CIP-PACK_v2026.08.06-r2.md#10
+    canonical_runtime_role_id: F32-01-sqs_orchestrator
+    disposition: POLICY_ONLY
+    host_profile: sqs-orchestrator
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: SQS 36-family/108-unit binding; Accountable Owner role unit dispositioned to sqs-orchestrator
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: SQS_P0
+    source_role_id: F32-02
+    source_locator: 知識庫/HG-KSEOS_SSOT/SQS-THC_P0-CIP-PACK_v2026.08.06-r2.md#10
+    canonical_runtime_role_id: F32-02-sqs_data_analysis
+    disposition: MAP_TO_PERSISTENT_PROFILE_ROLE
+    host_profile: sqs-data-analysis
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: SQS 36-family/108-unit binding; Engineer／Maker role unit dispositioned to sqs-data-analysis
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: SQS_P0
+    source_role_id: F32-03
+    source_locator: 知識庫/HG-KSEOS_SSOT/SQS-THC_P0-CIP-PACK_v2026.08.06-r2.md#10
+    canonical_runtime_role_id: F32-03-acceptance_officer
+    disposition: ACCEPTANCE_EXTERNAL
+    host_profile: acceptance-officer
+    worker_mode: ON_DEMAND
+    authority_ceiling: L2_VERIFY_ONLY
+    rationale: SQS 36-family/108-unit binding; Independent Reviewer／Veto role unit dispositioned to acceptance-officer
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: SQS_P0
+    source_role_id: F33-01
+    source_locator: 知識庫/HG-KSEOS_SSOT/SQS-THC_P0-CIP-PACK_v2026.08.06-r2.md#10
+    canonical_runtime_role_id: F33-01-sqs_orchestrator
+    disposition: POLICY_ONLY
+    host_profile: sqs-orchestrator
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: SQS 36-family/108-unit binding; Accountable Owner role unit dispositioned to sqs-orchestrator
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: SQS_P0
+    source_role_id: F33-02
+    source_locator: 知識庫/HG-KSEOS_SSOT/SQS-THC_P0-CIP-PACK_v2026.08.06-r2.md#10
+    canonical_runtime_role_id: F33-02-sqs_data_analysis
+    disposition: MAP_TO_PERSISTENT_PROFILE_ROLE
+    host_profile: sqs-data-analysis
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: SQS 36-family/108-unit binding; Engineer／Maker role unit dispositioned to sqs-data-analysis
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: SQS_P0
+    source_role_id: F33-03
+    source_locator: 知識庫/HG-KSEOS_SSOT/SQS-THC_P0-CIP-PACK_v2026.08.06-r2.md#10
+    canonical_runtime_role_id: F33-03-acceptance_officer
+    disposition: ACCEPTANCE_EXTERNAL
+    host_profile: acceptance-officer
+    worker_mode: ON_DEMAND
+    authority_ceiling: L2_VERIFY_ONLY
+    rationale: SQS 36-family/108-unit binding; Independent Reviewer／Veto role unit dispositioned to acceptance-officer
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: SQS_P0
+    source_role_id: F34-01
+    source_locator: 知識庫/HG-KSEOS_SSOT/SQS-THC_P0-CIP-PACK_v2026.08.06-r2.md#10
+    canonical_runtime_role_id: F34-01-sqs_orchestrator
+    disposition: POLICY_ONLY
+    host_profile: sqs-orchestrator
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: SQS 36-family/108-unit binding; Accountable Owner role unit dispositioned to sqs-orchestrator
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: SQS_P0
+    source_role_id: F34-02
+    source_locator: 知識庫/HG-KSEOS_SSOT/SQS-THC_P0-CIP-PACK_v2026.08.06-r2.md#10
+    canonical_runtime_role_id: F34-02-sqs_data_analysis
+    disposition: MAP_TO_PERSISTENT_PROFILE_ROLE
+    host_profile: sqs-data-analysis
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: SQS 36-family/108-unit binding; Engineer／Maker role unit dispositioned to sqs-data-analysis
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: SQS_P0
+    source_role_id: F34-03
+    source_locator: 知識庫/HG-KSEOS_SSOT/SQS-THC_P0-CIP-PACK_v2026.08.06-r2.md#10
+    canonical_runtime_role_id: F34-03-acceptance_officer
+    disposition: ACCEPTANCE_EXTERNAL
+    host_profile: acceptance-officer
+    worker_mode: ON_DEMAND
+    authority_ceiling: L2_VERIFY_ONLY
+    rationale: SQS 36-family/108-unit binding; Independent Reviewer／Veto role unit dispositioned to acceptance-officer
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: SQS_P0
+    source_role_id: F35-01
+    source_locator: 知識庫/HG-KSEOS_SSOT/SQS-THC_P0-CIP-PACK_v2026.08.06-r2.md#10
+    canonical_runtime_role_id: F35-01-sqs_orchestrator
+    disposition: POLICY_ONLY
+    host_profile: sqs-orchestrator
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: SQS 36-family/108-unit binding; Accountable Owner role unit dispositioned to sqs-orchestrator
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: SQS_P0
+    source_role_id: F35-02
+    source_locator: 知識庫/HG-KSEOS_SSOT/SQS-THC_P0-CIP-PACK_v2026.08.06-r2.md#10
+    canonical_runtime_role_id: F35-02-sqs_data_analysis
+    disposition: MAP_TO_PERSISTENT_PROFILE_ROLE
+    host_profile: sqs-data-analysis
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: SQS 36-family/108-unit binding; Engineer／Maker role unit dispositioned to sqs-data-analysis
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: SQS_P0
+    source_role_id: F35-03
+    source_locator: 知識庫/HG-KSEOS_SSOT/SQS-THC_P0-CIP-PACK_v2026.08.06-r2.md#10
+    canonical_runtime_role_id: F35-03-acceptance_officer
+    disposition: ACCEPTANCE_EXTERNAL
+    host_profile: acceptance-officer
+    worker_mode: ON_DEMAND
+    authority_ceiling: L2_VERIFY_ONLY
+    rationale: SQS 36-family/108-unit binding; Independent Reviewer／Veto role unit dispositioned to acceptance-officer
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: SQS_P0
+    source_role_id: F36-01
+    source_locator: 知識庫/HG-KSEOS_SSOT/SQS-THC_P0-CIP-PACK_v2026.08.06-r2.md#10
+    canonical_runtime_role_id: F36-01-sqs_orchestrator
+    disposition: POLICY_ONLY
+    host_profile: sqs-orchestrator
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: SQS 36-family/108-unit binding; Accountable Owner role unit dispositioned to sqs-orchestrator
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: SQS_P0
+    source_role_id: F36-02
+    source_locator: 知識庫/HG-KSEOS_SSOT/SQS-THC_P0-CIP-PACK_v2026.08.06-r2.md#10
+    canonical_runtime_role_id: F36-02-sqs_data_analysis
+    disposition: MAP_TO_PERSISTENT_PROFILE_ROLE
+    host_profile: sqs-data-analysis
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: SQS 36-family/108-unit binding; Engineer／Maker role unit dispositioned to sqs-data-analysis
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: SQS_P0
+    source_role_id: F36-03
+    source_locator: 知識庫/HG-KSEOS_SSOT/SQS-THC_P0-CIP-PACK_v2026.08.06-r2.md#10
+    canonical_runtime_role_id: F36-03-acceptance_officer
+    disposition: ACCEPTANCE_EXTERNAL
+    host_profile: acceptance-officer
+    worker_mode: ON_DEMAND
+    authority_ceiling: L2_VERIFY_ONLY
+    rationale: SQS 36-family/108-unit binding; Independent Reviewer／Veto role unit dispositioned to acceptance-officer
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: TWICT_P0
+    source_role_id: F01-01
+    source_locator: 知識庫/HG-KSEOS_SSOT/TW-ICT_FSDT-Stack_P0-CIP-PACK_v2026.08.06-rFINAL-r2.md#10.2
+    canonical_runtime_role_id: F01-01-human
+    disposition: HUMAN_ONLY
+    host_profile: human
+    worker_mode: ON_DEMAND
+    authority_ceiling: HUMAN_AUTHORITY
+    rationale: TW-ICT 115 named role assignment (AI 產品負責人／Product Lead) dispositioned to human
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: TWICT_P0
+    source_role_id: F01-02
+    source_locator: 知識庫/HG-KSEOS_SSOT/TW-ICT_FSDT-Stack_P0-CIP-PACK_v2026.08.06-rFINAL-r2.md#10.2
+    canonical_runtime_role_id: F01-02-sqs_data_analysis
+    disposition: MAP_TO_PERSISTENT_PROFILE_ROLE
+    host_profile: sqs-data-analysis
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: TW-ICT 115 named role assignment (意圖保存與需求分解分析師) dispositioned to sqs-data-analysis
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: TWICT_P0
+    source_role_id: F01-03
+    source_locator: 知識庫/HG-KSEOS_SSOT/TW-ICT_FSDT-Stack_P0-CIP-PACK_v2026.08.06-rFINAL-r2.md#10.2
+    canonical_runtime_role_id: F01-03-sqs_data_analysis
+    disposition: MAP_TO_ON_DEMAND_ROLE
+    host_profile: sqs-data-analysis
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: TW-ICT 115 named role assignment (Authority／Claim Ceiling 架構師) dispositioned to sqs-data-analysis
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: TWICT_P0
+    source_role_id: F02-01
+    source_locator: 知識庫/HG-KSEOS_SSOT/TW-ICT_FSDT-Stack_P0-CIP-PACK_v2026.08.06-rFINAL-r2.md#10.2
+    canonical_runtime_role_id: F02-01-sqs_data_analysis
+    disposition: MAP_TO_PERSISTENT_PROFILE_ROLE
+    host_profile: sqs-data-analysis
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: TW-ICT 115 named role assignment (P0-CIP-PACK 總架構師) dispositioned to sqs-data-analysis
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: TWICT_P0
+    source_role_id: F02-02
+    source_locator: 知識庫/HG-KSEOS_SSOT/TW-ICT_FSDT-Stack_P0-CIP-PACK_v2026.08.06-rFINAL-r2.md#10.2
+    canonical_runtime_role_id: F02-02-sqs_data_analysis
+    disposition: MAP_TO_PERSISTENT_PROFILE_ROLE
+    host_profile: sqs-data-analysis
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: TW-ICT 115 named role assignment (SDLC_PRW 文檔編譯工程師) dispositioned to sqs-data-analysis
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: TWICT_P0
+    source_role_id: F02-03
+    source_locator: 知識庫/HG-KSEOS_SSOT/TW-ICT_FSDT-Stack_P0-CIP-PACK_v2026.08.06-rFINAL-r2.md#10.2
+    canonical_runtime_role_id: F02-03-sqs_data_analysis
+    disposition: MAP_TO_ON_DEMAND_ROLE
+    host_profile: sqs-data-analysis
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: TW-ICT 115 named role assignment (需求覆蓋與驗收工程師) dispositioned to sqs-data-analysis
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: TWICT_P0
+    source_role_id: F03-01
+    source_locator: 知識庫/HG-KSEOS_SSOT/TW-ICT_FSDT-Stack_P0-CIP-PACK_v2026.08.06-rFINAL-r2.md#10.2
+    canonical_runtime_role_id: F03-01-sqs_risk
+    disposition: MAP_TO_PERSISTENT_PROFILE_ROLE
+    host_profile: sqs-risk
+    worker_mode: ON_DEMAND
+    authority_ceiling: RISK_DOMAIN_VETO
+    rationale: TW-ICT 115 named role assignment (尾部風險與 Ruin 架構師) dispositioned to sqs-risk
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: TWICT_P0
+    source_role_id: F03-02
+    source_locator: 知識庫/HG-KSEOS_SSOT/TW-ICT_FSDT-Stack_P0-CIP-PACK_v2026.08.06-rFINAL-r2.md#10.2
+    canonical_runtime_role_id: F03-02-sqs_data_analysis
+    disposition: MAP_TO_PERSISTENT_PROFILE_ROLE
+    host_profile: sqs-data-analysis
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: TW-ICT 115 named role assignment (壓力測試／黑天鵝分析師) dispositioned to sqs-data-analysis
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: TWICT_P0
+    source_role_id: F03-03
+    source_locator: 知識庫/HG-KSEOS_SSOT/TW-ICT_FSDT-Stack_P0-CIP-PACK_v2026.08.06-rFINAL-r2.md#10.2
+    canonical_runtime_role_id: F03-03-sqs_data_analysis
+    disposition: MAP_TO_ON_DEMAND_ROLE
+    host_profile: sqs-data-analysis
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: TW-ICT 115 named role assignment (資本生存政策負責人) dispositioned to sqs-data-analysis
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: TWICT_P0
+    source_role_id: F04-01
+    source_locator: 知識庫/HG-KSEOS_SSOT/TW-ICT_FSDT-Stack_P0-CIP-PACK_v2026.08.06-rFINAL-r2.md#10.2
+    canonical_runtime_role_id: F04-01-sqs_data_analysis
+    disposition: MAP_TO_PERSISTENT_PROFILE_ROLE
+    host_profile: sqs-data-analysis
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: TW-ICT 115 named role assignment (台灣證券／期貨法規專家) dispositioned to sqs-data-analysis
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: TWICT_P0
+    source_role_id: F04-02
+    source_locator: 知識庫/HG-KSEOS_SSOT/TW-ICT_FSDT-Stack_P0-CIP-PACK_v2026.08.06-rFINAL-r2.md#10.2
+    canonical_runtime_role_id: F04-02-sqs_data_analysis
+    disposition: MAP_TO_PERSISTENT_PROFILE_ROLE
+    host_profile: sqs-data-analysis
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: TW-ICT 115 named role assignment (資料權利與隱私顧問) dispositioned to sqs-data-analysis
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: TWICT_P0
+    source_role_id: F04-03
+    source_locator: 知識庫/HG-KSEOS_SSOT/TW-ICT_FSDT-Stack_P0-CIP-PACK_v2026.08.06-rFINAL-r2.md#10.2
+    canonical_runtime_role_id: F04-03-sqs_data_analysis
+    disposition: MAP_TO_ON_DEMAND_ROLE
+    host_profile: sqs-data-analysis
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: TW-ICT 115 named role assignment (合規證據與監管稽核員) dispositioned to sqs-data-analysis
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: TWICT_P0
+    source_role_id: F05-01
+    source_locator: 知識庫/HG-KSEOS_SSOT/TW-ICT_FSDT-Stack_P0-CIP-PACK_v2026.08.06-rFINAL-r2.md#10.2
+    canonical_runtime_role_id: F05-01-sqs_data_analysis
+    disposition: MAP_TO_PERSISTENT_PROFILE_ROLE
+    host_profile: sqs-data-analysis
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: TW-ICT 115 named role assignment (金融本體架構師) dispositioned to sqs-data-analysis
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: TWICT_P0
+    source_role_id: F05-02
+    source_locator: 知識庫/HG-KSEOS_SSOT/TW-ICT_FSDT-Stack_P0-CIP-PACK_v2026.08.06-rFINAL-r2.md#10.2
+    canonical_runtime_role_id: F05-02-sqs_data_analysis
+    disposition: MAP_TO_PERSISTENT_PROFILE_ROLE
+    host_profile: sqs-data-analysis
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: TW-ICT 115 named role assignment (雙語術語與 Canonical Knowledge 管理員) dispositioned to sqs-data-analysis
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: TWICT_P0
+    source_role_id: F05-03
+    source_locator: 知識庫/HG-KSEOS_SSOT/TW-ICT_FSDT-Stack_P0-CIP-PACK_v2026.08.06-rFINAL-r2.md#10.2
+    canonical_runtime_role_id: F05-03-sqs_data_analysis
+    disposition: MAP_TO_ON_DEMAND_ROLE
+    host_profile: sqs-data-analysis
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: TW-ICT 115 named role assignment (語義版本與遷移工程師) dispositioned to sqs-data-analysis
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: TWICT_P0
+    source_role_id: F06-01
+    source_locator: 知識庫/HG-KSEOS_SSOT/TW-ICT_FSDT-Stack_P0-CIP-PACK_v2026.08.06-rFINAL-r2.md#10.2
+    canonical_runtime_role_id: F06-01-sqs_data_analysis
+    disposition: MAP_TO_PERSISTENT_PROFILE_ROLE
+    host_profile: sqs-data-analysis
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: TW-ICT 115 named role assignment (Canonical Object／Schema 架構師) dispositioned to sqs-data-analysis
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: TWICT_P0
+    source_role_id: F06-02
+    source_locator: 知識庫/HG-KSEOS_SSOT/TW-ICT_FSDT-Stack_P0-CIP-PACK_v2026.08.06-rFINAL-r2.md#10.2
+    canonical_runtime_role_id: F06-02-sqs_data_analysis
+    disposition: MAP_TO_PERSISTENT_PROFILE_ROLE
+    host_profile: sqs-data-analysis
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: TW-ICT 115 named role assignment (State／Clock／Error Algebra 工程師) dispositioned to sqs-data-analysis
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: TWICT_P0
+    source_role_id: F06-03
+    source_locator: 知識庫/HG-KSEOS_SSOT/TW-ICT_FSDT-Stack_P0-CIP-PACK_v2026.08.06-rFINAL-r2.md#10.2
+    canonical_runtime_role_id: F06-03-sqs_data_analysis
+    disposition: MAP_TO_ON_DEMAND_ROLE
+    host_profile: sqs-data-analysis
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: TW-ICT 115 named role assignment (Typed Interface／Binding 驗證工程師) dispositioned to sqs-data-analysis
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: TWICT_P0
+    source_role_id: F07-01
+    source_locator: 知識庫/HG-KSEOS_SSOT/TW-ICT_FSDT-Stack_P0-CIP-PACK_v2026.08.06-rFINAL-r2.md#10.2
+    canonical_runtime_role_id: F07-01-sqs_data_analysis
+    disposition: MAP_TO_PERSISTENT_PROFILE_ROLE
+    host_profile: sqs-data-analysis
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: TW-ICT 115 named role assignment (Thin Kernel／Domain Sovereignty 架構師) dispositioned to sqs-data-analysis
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: TWICT_P0
+    source_role_id: F07-02
+    source_locator: 知識庫/HG-KSEOS_SSOT/TW-ICT_FSDT-Stack_P0-CIP-PACK_v2026.08.06-rFINAL-r2.md#10.2
+    canonical_runtime_role_id: F07-02-sqs_data_analysis
+    disposition: MAP_TO_PERSISTENT_PROFILE_ROLE
+    host_profile: sqs-data-analysis
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: TW-ICT 115 named role assignment (Adapter／Provider Profile 工程師) dispositioned to sqs-data-analysis
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: TWICT_P0
+    source_role_id: F07-03
+    source_locator: 知識庫/HG-KSEOS_SSOT/TW-ICT_FSDT-Stack_P0-CIP-PACK_v2026.08.06-rFINAL-r2.md#10.2
+    canonical_runtime_role_id: F07-03-sqs_data_analysis
+    disposition: MAP_TO_ON_DEMAND_ROLE
+    host_profile: sqs-data-analysis
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: TW-ICT 115 named role assignment (Permission／Execution Profile 政策工程師) dispositioned to sqs-data-analysis
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: TWICT_P0
+    source_role_id: F08-01
+    source_locator: 知識庫/HG-KSEOS_SSOT/TW-ICT_FSDT-Stack_P0-CIP-PACK_v2026.08.06-rFINAL-r2.md#10.2
+    canonical_runtime_role_id: F08-01-sqs_data_analysis
+    disposition: MAP_TO_PERSISTENT_PROFILE_ROLE
+    host_profile: sqs-data-analysis
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: TW-ICT 115 named role assignment (PIT 資料架構師) dispositioned to sqs-data-analysis
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: TWICT_P0
+    source_role_id: F08-02
+    source_locator: 知識庫/HG-KSEOS_SSOT/TW-ICT_FSDT-Stack_P0-CIP-PACK_v2026.08.06-rFINAL-r2.md#10.2
+    canonical_runtime_role_id: F08-02-sqs_data_analysis
+    disposition: MAP_TO_PERSISTENT_PROFILE_ROLE
+    host_profile: sqs-data-analysis
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: TW-ICT 115 named role assignment (資料品質、Lineage 與 Revision 工程師) dispositioned to sqs-data-analysis
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: TWICT_P0
+    source_role_id: F08-03
+    source_locator: 知識庫/HG-KSEOS_SSOT/TW-ICT_FSDT-Stack_P0-CIP-PACK_v2026.08.06-rFINAL-r2.md#10.2
+    canonical_runtime_role_id: F08-03-sqs_data_analysis
+    disposition: MAP_TO_ON_DEMAND_ROLE
+    host_profile: sqs-data-analysis
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: TW-ICT 115 named role assignment (市場資料供應與權利稽核員) dispositioned to sqs-data-analysis
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: TWICT_P0
+    source_role_id: F09-01
+    source_locator: 知識庫/HG-KSEOS_SSOT/TW-ICT_FSDT-Stack_P0-CIP-PACK_v2026.08.06-rFINAL-r2.md#10.2
+    canonical_runtime_role_id: F09-01-sqs_data_analysis
+    disposition: MAP_TO_PERSISTENT_PROFILE_ROLE
+    host_profile: sqs-data-analysis
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: TW-ICT 115 named role assignment (TWSE／TPEx／TAIFEX 市場制度專家) dispositioned to sqs-data-analysis
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: TWICT_P0
+    source_role_id: F09-02
+    source_locator: 知識庫/HG-KSEOS_SSOT/TW-ICT_FSDT-Stack_P0-CIP-PACK_v2026.08.06-rFINAL-r2.md#10.2
+    canonical_runtime_role_id: F09-02-sqs_data_analysis
+    disposition: MAP_TO_PERSISTENT_PROFILE_ROLE
+    host_profile: sqs-data-analysis
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: TW-ICT 115 named role assignment (台灣商品與交易 Session 專家) dispositioned to sqs-data-analysis
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: TWICT_P0
+    source_role_id: F09-03
+    source_locator: 知識庫/HG-KSEOS_SSOT/TW-ICT_FSDT-Stack_P0-CIP-PACK_v2026.08.06-rFINAL-r2.md#10.2
+    canonical_runtime_role_id: F09-03-sqs_data_analysis
+    disposition: MAP_TO_ON_DEMAND_ROLE
+    host_profile: sqs-data-analysis
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: TW-ICT 115 named role assignment (市場微結構與撮合分析師) dispositioned to sqs-data-analysis
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: TWICT_P0
+    source_role_id: F10-01
+    source_locator: 知識庫/HG-KSEOS_SSOT/TW-ICT_FSDT-Stack_P0-CIP-PACK_v2026.08.06-rFINAL-r2.md#10.2
+    canonical_runtime_role_id: F10-01-sqs_data_analysis
+    disposition: MAP_TO_PERSISTENT_PROFILE_ROLE
+    host_profile: sqs-data-analysis
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: TW-ICT 115 named role assignment (宏觀 Regime 策略師) dispositioned to sqs-data-analysis
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: TWICT_P0
+    source_role_id: F10-02
+    source_locator: 知識庫/HG-KSEOS_SSOT/TW-ICT_FSDT-Stack_P0-CIP-PACK_v2026.08.06-rFINAL-r2.md#10.2
+    canonical_runtime_role_id: F10-02-sqs_data_analysis
+    disposition: MAP_TO_PERSISTENT_PROFILE_ROLE
+    host_profile: sqs-data-analysis
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: TW-ICT 115 named role assignment (跨資產 Context 分析師) dispositioned to sqs-data-analysis
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: TWICT_P0
+    source_role_id: F10-03
+    source_locator: 知識庫/HG-KSEOS_SSOT/TW-ICT_FSDT-Stack_P0-CIP-PACK_v2026.08.06-rFINAL-r2.md#10.2
+    canonical_runtime_role_id: F10-03-sqs_data_analysis
+    disposition: MAP_TO_ON_DEMAND_ROLE
+    host_profile: sqs-data-analysis
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: TW-ICT 115 named role assignment (Regime Feature／Scenario 工程師) dispositioned to sqs-data-analysis
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: TWICT_P0
+    source_role_id: F11-01
+    source_locator: 知識庫/HG-KSEOS_SSOT/TW-ICT_FSDT-Stack_P0-CIP-PACK_v2026.08.06-rFINAL-r2.md#10.2
+    canonical_runtime_role_id: F11-01-sqs_data_analysis
+    disposition: MAP_TO_PERSISTENT_PROFILE_ROLE
+    host_profile: sqs-data-analysis
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: TW-ICT 115 named role assignment (產業／基本面研究分析師) dispositioned to sqs-data-analysis
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: TWICT_P0
+    source_role_id: F11-02
+    source_locator: 知識庫/HG-KSEOS_SSOT/TW-ICT_FSDT-Stack_P0-CIP-PACK_v2026.08.06-rFINAL-r2.md#10.2
+    canonical_runtime_role_id: F11-02-sqs_data_analysis
+    disposition: MAP_TO_PERSISTENT_PROFILE_ROLE
+    host_profile: sqs-data-analysis
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: TW-ICT 115 named role assignment (事件／公告證據工程師) dispositioned to sqs-data-analysis
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: TWICT_P0
+    source_role_id: F11-03
+    source_locator: 知識庫/HG-KSEOS_SSOT/TW-ICT_FSDT-Stack_P0-CIP-PACK_v2026.08.06-rFINAL-r2.md#10.2
+    canonical_runtime_role_id: F11-03-sqs_data_analysis
+    disposition: MAP_TO_ON_DEMAND_ROLE
+    host_profile: sqs-data-analysis
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: TW-ICT 115 named role assignment (籌碼／資金流／敘事分析師) dispositioned to sqs-data-analysis
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: TWICT_P0
+    source_role_id: F12-01
+    source_locator: 知識庫/HG-KSEOS_SSOT/TW-ICT_FSDT-Stack_P0-CIP-PACK_v2026.08.06-rFINAL-r2.md#10.2
+    canonical_runtime_role_id: F12-01-sqs_data_analysis
+    disposition: MAP_TO_PERSISTENT_PROFILE_ROLE
+    host_profile: sqs-data-analysis
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: TW-ICT 115 named role assignment (Universe Construction 工程師) dispositioned to sqs-data-analysis
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: TWICT_P0
+    source_role_id: F12-02
+    source_locator: 知識庫/HG-KSEOS_SSOT/TW-ICT_FSDT-Stack_P0-CIP-PACK_v2026.08.06-rFINAL-r2.md#10.2
+    canonical_runtime_role_id: F12-02-sqs_data_analysis
+    disposition: MAP_TO_PERSISTENT_PROFILE_ROLE
+    host_profile: sqs-data-analysis
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: TW-ICT 115 named role assignment (流動性／成本／容量分析師) dispositioned to sqs-data-analysis
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: TWICT_P0
+    source_role_id: F12-03
+    source_locator: 知識庫/HG-KSEOS_SSOT/TW-ICT_FSDT-Stack_P0-CIP-PACK_v2026.08.06-rFINAL-r2.md#10.2
+    canonical_runtime_role_id: F12-03-sqs_data_analysis
+    disposition: MAP_TO_ON_DEMAND_ROLE
+    host_profile: sqs-data-analysis
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: TW-ICT 115 named role assignment (Candidate Ranking／Qualification 工程師) dispositioned to sqs-data-analysis
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: TWICT_P0
+    source_role_id: F13-01
+    source_locator: 知識庫/HG-KSEOS_SSOT/TW-ICT_FSDT-Stack_P0-CIP-PACK_v2026.08.06-rFINAL-r2.md#10.2
+    canonical_runtime_role_id: F13-01-sqs_data_analysis
+    disposition: MAP_TO_PERSISTENT_PROFILE_ROLE
+    host_profile: sqs-data-analysis
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: TW-ICT 115 named role assignment (Scenario 架構師) dispositioned to sqs-data-analysis
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: TWICT_P0
+    source_role_id: F13-02
+    source_locator: 知識庫/HG-KSEOS_SSOT/TW-ICT_FSDT-Stack_P0-CIP-PACK_v2026.08.06-rFINAL-r2.md#10.2
+    canonical_runtime_role_id: F13-02-sqs_data_analysis
+    disposition: MAP_TO_PERSISTENT_PROFILE_ROLE
+    host_profile: sqs-data-analysis
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: TW-ICT 115 named role assignment (Bias／Hypothesis 分析師) dispositioned to sqs-data-analysis
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: TWICT_P0
+    source_role_id: F13-03
+    source_locator: 知識庫/HG-KSEOS_SSOT/TW-ICT_FSDT-Stack_P0-CIP-PACK_v2026.08.06-rFINAL-r2.md#10.2
+    canonical_runtime_role_id: F13-03-sqs_data_analysis
+    disposition: MAP_TO_ON_DEMAND_ROLE
+    host_profile: sqs-data-analysis
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: TW-ICT 115 named role assignment (Trigger／Invalidation 工程師) dispositioned to sqs-data-analysis
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: TWICT_P0
+    source_role_id: F14-01
+    source_locator: 知識庫/HG-KSEOS_SSOT/TW-ICT_FSDT-Stack_P0-CIP-PACK_v2026.08.06-rFINAL-r2.md#10.2
+    canonical_runtime_role_id: F14-01-sqs_data_analysis
+    disposition: MAP_TO_PERSISTENT_PROFILE_ROLE
+    host_profile: sqs-data-analysis
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: TW-ICT 115 named role assignment (ICT／SMC 方法論專家) dispositioned to sqs-data-analysis
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: TWICT_P0
+    source_role_id: F14-02
+    source_locator: 知識庫/HG-KSEOS_SSOT/TW-ICT_FSDT-Stack_P0-CIP-PACK_v2026.08.06-rFINAL-r2.md#10.2
+    canonical_runtime_role_id: F14-02-sqs_data_analysis
+    disposition: MAP_TO_PERSISTENT_PROFILE_ROLE
+    host_profile: sqs-data-analysis
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: TW-ICT 115 named role assignment (Liquidity／Delivery／Named Model 專家) dispositioned to sqs-data-analysis
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: TWICT_P0
+    source_role_id: F14-03
+    source_locator: 知識庫/HG-KSEOS_SSOT/TW-ICT_FSDT-Stack_P0-CIP-PACK_v2026.08.06-rFINAL-r2.md#10.2
+    canonical_runtime_role_id: F14-03-sqs_data_analysis
+    disposition: MAP_TO_ON_DEMAND_ROLE
+    host_profile: sqs-data-analysis
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: TW-ICT 115 named role assignment (Setup Qualification 工程師) dispositioned to sqs-data-analysis
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: TWICT_P0
+    source_role_id: F15-01
+    source_locator: 知識庫/HG-KSEOS_SSOT/TW-ICT_FSDT-Stack_P0-CIP-PACK_v2026.08.06-rFINAL-r2.md#10.2
+    canonical_runtime_role_id: F15-01-sqs_data_analysis
+    disposition: MAP_TO_PERSISTENT_PROFILE_ROLE
+    host_profile: sqs-data-analysis
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: TW-ICT 115 named role assignment (資深台股當沖操盤師) dispositioned to sqs-data-analysis
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: TWICT_P0
+    source_role_id: F15-02
+    source_locator: 知識庫/HG-KSEOS_SSOT/TW-ICT_FSDT-Stack_P0-CIP-PACK_v2026.08.06-rFINAL-r2.md#10.2
+    canonical_runtime_role_id: F15-02-sqs_data_analysis
+    disposition: MAP_TO_PERSISTENT_PROFILE_ROLE
+    host_profile: sqs-data-analysis
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: TW-ICT 115 named role assignment (大盤／個股／行情趨勢分析師) dispositioned to sqs-data-analysis
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: TWICT_P0
+    source_role_id: F15-03
+    source_locator: 知識庫/HG-KSEOS_SSOT/TW-ICT_FSDT-Stack_P0-CIP-PACK_v2026.08.06-rFINAL-r2.md#10.2
+    canonical_runtime_role_id: F15-03-sqs_data_analysis
+    disposition: MAP_TO_ON_DEMAND_ROLE
+    host_profile: sqs-data-analysis
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: TW-ICT 115 named role assignment (當沖技術研究與訓練教練) dispositioned to sqs-data-analysis
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: TWICT_P0
+    source_role_id: F16-01
+    source_locator: 知識庫/HG-KSEOS_SSOT/TW-ICT_FSDT-Stack_P0-CIP-PACK_v2026.08.06-rFINAL-r2.md#10.2
+    canonical_runtime_role_id: F16-01-sqs_risk
+    disposition: MAP_TO_PERSISTENT_PROFILE_ROLE
+    host_profile: sqs-risk
+    worker_mode: ON_DEMAND
+    authority_ceiling: RISK_DOMAIN_VETO
+    rationale: TW-ICT 115 named role assignment (首席風險授權官／Human Risk Owner) dispositioned to sqs-risk
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: TWICT_P0
+    source_role_id: F16-02
+    source_locator: 知識庫/HG-KSEOS_SSOT/TW-ICT_FSDT-Stack_P0-CIP-PACK_v2026.08.06-rFINAL-r2.md#10.2
+    canonical_runtime_role_id: F16-02-sqs_data_analysis
+    disposition: MAP_TO_PERSISTENT_PROFILE_ROLE
+    host_profile: sqs-data-analysis
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: TW-ICT 115 named role assignment (部位 Sizing／生存量化專家) dispositioned to sqs-data-analysis
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: TWICT_P0
+    source_role_id: F16-03
+    source_locator: 知識庫/HG-KSEOS_SSOT/TW-ICT_FSDT-Stack_P0-CIP-PACK_v2026.08.06-rFINAL-r2.md#10.2
+    canonical_runtime_role_id: F16-03-sqs_data_analysis
+    disposition: MAP_TO_ON_DEMAND_ROLE
+    host_profile: sqs-data-analysis
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: TW-ICT 115 named role assignment (Kill／Recovery 風險控制員) dispositioned to sqs-data-analysis
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: TWICT_P0
+    source_role_id: F17-01
+    source_locator: 知識庫/HG-KSEOS_SSOT/TW-ICT_FSDT-Stack_P0-CIP-PACK_v2026.08.06-rFINAL-r2.md#10.2
+    canonical_runtime_role_id: F17-01-sqs_data_analysis
+    disposition: MAP_TO_PERSISTENT_PROFILE_ROLE
+    host_profile: sqs-data-analysis
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: TW-ICT 115 named role assignment (RBWI Operating Model 架構師) dispositioned to sqs-data-analysis
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: TWICT_P0
+    source_role_id: F17-02
+    source_locator: 知識庫/HG-KSEOS_SSOT/TW-ICT_FSDT-Stack_P0-CIP-PACK_v2026.08.06-rFINAL-r2.md#10.2
+    canonical_runtime_role_id: F17-02-sqs_data_analysis
+    disposition: MAP_TO_PERSISTENT_PROFILE_ROLE
+    host_profile: sqs-data-analysis
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: TW-ICT 115 named role assignment (週／日 Fast Loop Operator) dispositioned to sqs-data-analysis
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: TWICT_P0
+    source_role_id: F17-03
+    source_locator: 知識庫/HG-KSEOS_SSOT/TW-ICT_FSDT-Stack_P0-CIP-PACK_v2026.08.06-rFINAL-r2.md#10.2
+    canonical_runtime_role_id: F17-03-sqs_data_analysis
+    disposition: MAP_TO_ON_DEMAND_ROLE
+    host_profile: sqs-data-analysis
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: TW-ICT 115 named role assignment (RUNBOOK／WI／JobCard 工程師) dispositioned to sqs-data-analysis
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: TWICT_P0
+    source_role_id: F18-01
+    source_locator: 知識庫/HG-KSEOS_SSOT/TW-ICT_FSDT-Stack_P0-CIP-PACK_v2026.08.06-rFINAL-r2.md#10.2
+    canonical_runtime_role_id: F18-01-sqs_data_analysis
+    disposition: MAP_TO_PERSISTENT_PROFILE_ROLE
+    host_profile: sqs-data-analysis
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: TW-ICT 115 named role assignment (OMS／EMS 系統架構師) dispositioned to sqs-data-analysis
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: TWICT_P0
+    source_role_id: F18-02
+    source_locator: 知識庫/HG-KSEOS_SSOT/TW-ICT_FSDT-Stack_P0-CIP-PACK_v2026.08.06-rFINAL-r2.md#10.2
+    canonical_runtime_role_id: F18-02-sqs_data_analysis
+    disposition: MAP_TO_PERSISTENT_PROFILE_ROLE
+    host_profile: sqs-data-analysis
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: TW-ICT 115 named role assignment (HITL／外部寫入控制員) dispositioned to sqs-data-analysis
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: TWICT_P0
+    source_role_id: F18-03
+    source_locator: 知識庫/HG-KSEOS_SSOT/TW-ICT_FSDT-Stack_P0-CIP-PACK_v2026.08.06-rFINAL-r2.md#10.2
+    canonical_runtime_role_id: F18-03-sqs_data_analysis
+    disposition: MAP_TO_ON_DEMAND_ROLE
+    host_profile: sqs-data-analysis
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: TW-ICT 115 named role assignment (券商終端／Execution Operations 專家) dispositioned to sqs-data-analysis
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: TWICT_P0
+    source_role_id: F19-01
+    source_locator: 知識庫/HG-KSEOS_SSOT/TW-ICT_FSDT-Stack_P0-CIP-PACK_v2026.08.06-rFINAL-r2.md#10.2
+    canonical_runtime_role_id: F19-01-sqs_data_analysis
+    disposition: MAP_TO_PERSISTENT_PROFILE_ROLE
+    host_profile: sqs-data-analysis
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: TW-ICT 115 named role assignment (Trade Event／Fill 工程師) dispositioned to sqs-data-analysis
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: TWICT_P0
+    source_role_id: F19-02
+    source_locator: 知識庫/HG-KSEOS_SSOT/TW-ICT_FSDT-Stack_P0-CIP-PACK_v2026.08.06-rFINAL-r2.md#10.2
+    canonical_runtime_role_id: F19-02-sqs_data_analysis
+    disposition: MAP_TO_PERSISTENT_PROFILE_ROLE
+    host_profile: sqs-data-analysis
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: TW-ICT 115 named role assignment (Position／Cash／Book-of-Record 控制員) dispositioned to sqs-data-analysis
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: TWICT_P0
+    source_role_id: F19-03
+    source_locator: 知識庫/HG-KSEOS_SSOT/TW-ICT_FSDT-Stack_P0-CIP-PACK_v2026.08.06-rFINAL-r2.md#10.2
+    canonical_runtime_role_id: F19-03-sqs_data_analysis
+    disposition: MAP_TO_ON_DEMAND_ROLE
+    host_profile: sqs-data-analysis
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: TW-ICT 115 named role assignment (Reconciliation／Correction Analyst) dispositioned to sqs-data-analysis
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: TWICT_P0
+    source_role_id: F20-01
+    source_locator: 知識庫/HG-KSEOS_SSOT/TW-ICT_FSDT-Stack_P0-CIP-PACK_v2026.08.06-rFINAL-r2.md#10.2
+    canonical_runtime_role_id: F20-01-sqs_data_analysis
+    disposition: MAP_TO_PERSISTENT_PROFILE_ROLE
+    host_profile: sqs-data-analysis
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: TW-ICT 115 named role assignment (Financial SPEC 架構師) dispositioned to sqs-data-analysis
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: TWICT_P0
+    source_role_id: F20-02
+    source_locator: 知識庫/HG-KSEOS_SSOT/TW-ICT_FSDT-Stack_P0-CIP-PACK_v2026.08.06-rFINAL-r2.md#10.2
+    canonical_runtime_role_id: F20-02-sqs_data_analysis
+    disposition: MAP_TO_PERSISTENT_PROFILE_ROLE
+    host_profile: sqs-data-analysis
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: TW-ICT 115 named role assignment (OpenSpec／Change Package 整合工程師) dispositioned to sqs-data-analysis
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: TWICT_P0
+    source_role_id: F20-03
+    source_locator: 知識庫/HG-KSEOS_SSOT/TW-ICT_FSDT-Stack_P0-CIP-PACK_v2026.08.06-rFINAL-r2.md#10.2
+    canonical_runtime_role_id: F20-03-sqs_data_analysis
+    disposition: MAP_TO_ON_DEMAND_ROLE
+    host_profile: sqs-data-analysis
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: TW-ICT 115 named role assignment (Acceptance／ADR／Migration Controller) dispositioned to sqs-data-analysis
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: TWICT_P0
+    source_role_id: F21-01
+    source_locator: 知識庫/HG-KSEOS_SSOT/TW-ICT_FSDT-Stack_P0-CIP-PACK_v2026.08.06-rFINAL-r2.md#10.2
+    canonical_runtime_role_id: F21-01-sqs_data_analysis
+    disposition: MAP_TO_PERSISTENT_PROFILE_ROLE
+    host_profile: sqs-data-analysis
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: TW-ICT 115 named role assignment (多智能體角色架構負責人) dispositioned to sqs-data-analysis
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: TWICT_P0
+    source_role_id: F21-02
+    source_locator: 知識庫/HG-KSEOS_SSOT/TW-ICT_FSDT-Stack_P0-CIP-PACK_v2026.08.06-rFINAL-r2.md#10.2
+    canonical_runtime_role_id: F21-02-sqs_data_analysis
+    disposition: MAP_TO_PERSISTENT_PROFILE_ROLE
+    host_profile: sqs-data-analysis
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: TW-ICT 115 named role assignment (MARCA／Role Router 工程師) dispositioned to sqs-data-analysis
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: TWICT_P0
+    source_role_id: F21-03
+    source_locator: 知識庫/HG-KSEOS_SSOT/TW-ICT_FSDT-Stack_P0-CIP-PACK_v2026.08.06-rFINAL-r2.md#10.2
+    canonical_runtime_role_id: F21-03-sqs_data_analysis
+    disposition: MAP_TO_ON_DEMAND_ROLE
+    host_profile: sqs-data-analysis
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: TW-ICT 115 named role assignment (Agent SPEC／Typed Handoff 架構師) dispositioned to sqs-data-analysis
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: TWICT_P0
+    source_role_id: F22-01
+    source_locator: 知識庫/HG-KSEOS_SSOT/TW-ICT_FSDT-Stack_P0-CIP-PACK_v2026.08.06-rFINAL-r2.md#10.2
+    canonical_runtime_role_id: F22-01-sqs_data_analysis
+    disposition: MAP_TO_PERSISTENT_PROFILE_ROLE
+    host_profile: sqs-data-analysis
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: TW-ICT 115 named role assignment (Prompt／Instruction Architecture Engineer) dispositioned to sqs-data-analysis
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: TWICT_P0
+    source_role_id: F22-02
+    source_locator: 知識庫/HG-KSEOS_SSOT/TW-ICT_FSDT-Stack_P0-CIP-PACK_v2026.08.06-rFINAL-r2.md#10.2
+    canonical_runtime_role_id: F22-02-sqs_data_analysis
+    disposition: MAP_TO_PERSISTENT_PROFILE_ROLE
+    host_profile: sqs-data-analysis
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: TW-ICT 115 named role assignment (AGENTS.md／Context Hierarchy Engineer) dispositioned to sqs-data-analysis
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: TWICT_P0
+    source_role_id: F22-03
+    source_locator: 知識庫/HG-KSEOS_SSOT/TW-ICT_FSDT-Stack_P0-CIP-PACK_v2026.08.06-rFINAL-r2.md#10.2
+    canonical_runtime_role_id: F22-03-sqs_data_analysis
+    disposition: MAP_TO_ON_DEMAND_ROLE
+    host_profile: sqs-data-analysis
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: TW-ICT 115 named role assignment (Agent Skills／Components／Plugin／MCP Package Engineer) dispositioned to sqs-data-analysis
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: TWICT_P0
+    source_role_id: F23-01
+    source_locator: 知識庫/HG-KSEOS_SSOT/TW-ICT_FSDT-Stack_P0-CIP-PACK_v2026.08.06-rFINAL-r2.md#10.2
+    canonical_runtime_role_id: F23-01-sqs_data_analysis
+    disposition: MAP_TO_PERSISTENT_PROFILE_ROLE
+    host_profile: sqs-data-analysis
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: TW-ICT 115 named role assignment (GStack Workflow Slice Integrator) dispositioned to sqs-data-analysis
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: TWICT_P0
+    source_role_id: F23-02
+    source_locator: 知識庫/HG-KSEOS_SSOT/TW-ICT_FSDT-Stack_P0-CIP-PACK_v2026.08.06-rFINAL-r2.md#10.2
+    canonical_runtime_role_id: F23-02-sqs_data_analysis
+    disposition: MAP_TO_PERSISTENT_PROFILE_ROLE
+    host_profile: sqs-data-analysis
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: TW-ICT 115 named role assignment (Matt Pocock Skills Curator) dispositioned to sqs-data-analysis
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: TWICT_P0
+    source_role_id: F23-03
+    source_locator: 知識庫/HG-KSEOS_SSOT/TW-ICT_FSDT-Stack_P0-CIP-PACK_v2026.08.06-rFINAL-r2.md#10.2
+    canonical_runtime_role_id: F23-03-sqs_data_analysis
+    disposition: MAP_TO_ON_DEMAND_ROLE
+    host_profile: sqs-data-analysis
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: TW-ICT 115 named role assignment (Grill Me／需求深挖工程師) dispositioned to sqs-data-analysis
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: TWICT_P0
+    source_role_id: F24-01
+    source_locator: 知識庫/HG-KSEOS_SSOT/TW-ICT_FSDT-Stack_P0-CIP-PACK_v2026.08.06-rFINAL-r2.md#10.2
+    canonical_runtime_role_id: F24-01-sqs_data_analysis
+    disposition: MAP_TO_PERSISTENT_PROFILE_ROLE
+    host_profile: sqs-data-analysis
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: TW-ICT 115 named role assignment (多智能體協作工程師) dispositioned to sqs-data-analysis
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: TWICT_P0
+    source_role_id: F24-02
+    source_locator: 知識庫/HG-KSEOS_SSOT/TW-ICT_FSDT-Stack_P0-CIP-PACK_v2026.08.06-rFINAL-r2.md#10.2
+    canonical_runtime_role_id: F24-02-sqs_data_analysis
+    disposition: MAP_TO_PERSISTENT_PROFILE_ROLE
+    host_profile: sqs-data-analysis
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: TW-ICT 115 named role assignment (Task DAG／Lease／Budget／Checkpoint 架構師) dispositioned to sqs-data-analysis
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: TWICT_P0
+    source_role_id: F24-03
+    source_locator: 知識庫/HG-KSEOS_SSOT/TW-ICT_FSDT-Stack_P0-CIP-PACK_v2026.08.06-rFINAL-r2.md#10.2
+    canonical_runtime_role_id: F24-03-sqs_data_analysis
+    disposition: MAP_TO_ON_DEMAND_ROLE
+    host_profile: sqs-data-analysis
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: TW-ICT 115 named role assignment (GPT B／OROCHI／GENIEMAKER Route-out 協調員) dispositioned to sqs-data-analysis
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: TWICT_P0
+    source_role_id: F25-01
+    source_locator: 知識庫/HG-KSEOS_SSOT/TW-ICT_FSDT-Stack_P0-CIP-PACK_v2026.08.06-rFINAL-r2.md#10.2
+    canonical_runtime_role_id: F25-01-sqs_data_analysis
+    disposition: MAP_TO_PERSISTENT_PROFILE_ROLE
+    host_profile: sqs-data-analysis
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: TW-ICT 115 named role assignment (Harness Runtime 工程師) dispositioned to sqs-data-analysis
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: TWICT_P0
+    source_role_id: F25-02
+    source_locator: 知識庫/HG-KSEOS_SSOT/TW-ICT_FSDT-Stack_P0-CIP-PACK_v2026.08.06-rFINAL-r2.md#10.2
+    canonical_runtime_role_id: F25-02-sqs_data_analysis
+    disposition: MAP_TO_PERSISTENT_PROFILE_ROLE
+    host_profile: sqs-data-analysis
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: TW-ICT 115 named role assignment (Repository／CI/CD／Release 工程師) dispositioned to sqs-data-analysis
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: TWICT_P0
+    source_role_id: F25-03
+    source_locator: 知識庫/HG-KSEOS_SSOT/TW-ICT_FSDT-Stack_P0-CIP-PACK_v2026.08.06-rFINAL-r2.md#10.2
+    canonical_runtime_role_id: F25-03-sqs_data_analysis
+    disposition: MAP_TO_ON_DEMAND_ROLE
+    host_profile: sqs-data-analysis
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: TW-ICT 115 named role assignment (軟體供應鏈／SBOM／Provenance 工程師) dispositioned to sqs-data-analysis
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: TWICT_P0
+    source_role_id: F26-01
+    source_locator: 知識庫/HG-KSEOS_SSOT/TW-ICT_FSDT-Stack_P0-CIP-PACK_v2026.08.06-rFINAL-r2.md#10.2
+    canonical_runtime_role_id: F26-01-sqs_data_analysis
+    disposition: MAP_TO_PERSISTENT_PROFILE_ROLE
+    host_profile: sqs-data-analysis
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: TW-ICT 115 named role assignment (量化研究負責人／Research Director) dispositioned to sqs-data-analysis
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: TWICT_P0
+    source_role_id: F26-02
+    source_locator: 知識庫/HG-KSEOS_SSOT/TW-ICT_FSDT-Stack_P0-CIP-PACK_v2026.08.06-rFINAL-r2.md#10.2
+    canonical_runtime_role_id: F26-02-sqs_data_analysis
+    disposition: MAP_TO_PERSISTENT_PROFILE_ROLE
+    host_profile: sqs-data-analysis
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: TW-ICT 115 named role assignment (特徵／因子／標籤／PIT 研究工程師) dispositioned to sqs-data-analysis
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: TWICT_P0
+    source_role_id: F26-03
+    source_locator: 知識庫/HG-KSEOS_SSOT/TW-ICT_FSDT-Stack_P0-CIP-PACK_v2026.08.06-rFINAL-r2.md#10.2
+    canonical_runtime_role_id: F26-03-sqs_data_analysis
+    disposition: MAP_TO_ON_DEMAND_ROLE
+    host_profile: sqs-data-analysis
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: TW-ICT 115 named role assignment (ML／RL／NLP／Vision／KG 模型工程師) dispositioned to sqs-data-analysis
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: TWICT_P0
+    source_role_id: F26-04
+    source_locator: 知識庫/HG-KSEOS_SSOT/TW-ICT_FSDT-Stack_P0-CIP-PACK_v2026.08.06-rFINAL-r2.md#10.2
+    canonical_runtime_role_id: F26-04-sqs_data_analysis
+    disposition: MAP_TO_PERSISTENT_PROFILE_ROLE
+    host_profile: sqs-data-analysis
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: TW-ICT 115 named role assignment (回測／模擬／實驗平台工程師) dispositioned to sqs-data-analysis
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: TWICT_P0
+    source_role_id: F27-01
+    source_locator: 知識庫/HG-KSEOS_SSOT/TW-ICT_FSDT-Stack_P0-CIP-PACK_v2026.08.06-rFINAL-r2.md#10.2
+    canonical_runtime_role_id: F27-01-sqs_data_analysis
+    disposition: MAP_TO_PERSISTENT_PROFILE_ROLE
+    host_profile: sqs-data-analysis
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: TW-ICT 115 named role assignment (獨立模型驗證師) dispositioned to sqs-data-analysis
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: TWICT_P0
+    source_role_id: F27-02
+    source_locator: 知識庫/HG-KSEOS_SSOT/TW-ICT_FSDT-Stack_P0-CIP-PACK_v2026.08.06-rFINAL-r2.md#10.2
+    canonical_runtime_role_id: F27-02-sqs_data_analysis
+    disposition: MAP_TO_PERSISTENT_PROFILE_ROLE
+    host_profile: sqs-data-analysis
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: TW-ICT 115 named role assignment (反證／Robustness／統計分析師) dispositioned to sqs-data-analysis
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: TWICT_P0
+    source_role_id: F27-03
+    source_locator: 知識庫/HG-KSEOS_SSOT/TW-ICT_FSDT-Stack_P0-CIP-PACK_v2026.08.06-rFINAL-r2.md#10.2
+    canonical_runtime_role_id: F27-03-sqs_data_analysis
+    disposition: MAP_TO_ON_DEMAND_ROLE
+    host_profile: sqs-data-analysis
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: TW-ICT 115 named role assignment (模型風險治理委員會秘書) dispositioned to sqs-data-analysis
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: TWICT_P0
+    source_role_id: F28-01
+    source_locator: 知識庫/HG-KSEOS_SSOT/TW-ICT_FSDT-Stack_P0-CIP-PACK_v2026.08.06-rFINAL-r2.md#10.2
+    canonical_runtime_role_id: F28-01-sqs_data_analysis
+    disposition: MAP_TO_PERSISTENT_PROFILE_ROLE
+    host_profile: sqs-data-analysis
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: TW-ICT 115 named role assignment (Agent／Trading Observability 工程師) dispositioned to sqs-data-analysis
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: TWICT_P0
+    source_role_id: F28-02
+    source_locator: 知識庫/HG-KSEOS_SSOT/TW-ICT_FSDT-Stack_P0-CIP-PACK_v2026.08.06-rFINAL-r2.md#10.2
+    canonical_runtime_role_id: F28-02-sqs_data_analysis
+    disposition: MAP_TO_PERSISTENT_PROFILE_ROLE
+    host_profile: sqs-data-analysis
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: TW-ICT 115 named role assignment (SRE／Incident Commander) dispositioned to sqs-data-analysis
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: TWICT_P0
+    source_role_id: F28-03
+    source_locator: 知識庫/HG-KSEOS_SSOT/TW-ICT_FSDT-Stack_P0-CIP-PACK_v2026.08.06-rFINAL-r2.md#10.2
+    canonical_runtime_role_id: F28-03-sqs_data_analysis
+    disposition: MAP_TO_ON_DEMAND_ROLE
+    host_profile: sqs-data-analysis
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: TW-ICT 115 named role assignment (Kill／Recovery Readiness 工程師) dispositioned to sqs-data-analysis
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: TWICT_P0
+    source_role_id: F29-01
+    source_locator: 知識庫/HG-KSEOS_SSOT/TW-ICT_FSDT-Stack_P0-CIP-PACK_v2026.08.06-rFINAL-r2.md#10.2
+    canonical_runtime_role_id: F29-01-sqs_data_analysis
+    disposition: MAP_TO_PERSISTENT_PROFILE_ROLE
+    host_profile: sqs-data-analysis
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: TW-ICT 115 named role assignment (Agentic Security 架構師) dispositioned to sqs-data-analysis
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: TWICT_P0
+    source_role_id: F29-02
+    source_locator: 知識庫/HG-KSEOS_SSOT/TW-ICT_FSDT-Stack_P0-CIP-PACK_v2026.08.06-rFINAL-r2.md#10.2
+    canonical_runtime_role_id: F29-02-sqs_data_analysis
+    disposition: MAP_TO_PERSISTENT_PROFILE_ROLE
+    host_profile: sqs-data-analysis
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: TW-ICT 115 named role assignment (Prompt／Tool Injection Red Teamer) dispositioned to sqs-data-analysis
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: TWICT_P0
+    source_role_id: F29-03
+    source_locator: 知識庫/HG-KSEOS_SSOT/TW-ICT_FSDT-Stack_P0-CIP-PACK_v2026.08.06-rFINAL-r2.md#10.2
+    canonical_runtime_role_id: F29-03-sqs_data_analysis
+    disposition: MAP_TO_ON_DEMAND_ROLE
+    host_profile: sqs-data-analysis
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: TW-ICT 115 named role assignment (Identity／Secrets／Supply Chain Security Engineer) dispositioned to sqs-data-analysis
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: TWICT_P0
+    source_role_id: F30-01
+    source_locator: 知識庫/HG-KSEOS_SSOT/TW-ICT_FSDT-Stack_P0-CIP-PACK_v2026.08.06-rFINAL-r2.md#10.2
+    canonical_runtime_role_id: F30-01-sqs_data_analysis
+    disposition: MAP_TO_PERSISTENT_PROFILE_ROLE
+    host_profile: sqs-data-analysis
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: TW-ICT 115 named role assignment (Knowledge／RAG 架構師) dispositioned to sqs-data-analysis
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: TWICT_P0
+    source_role_id: F30-02
+    source_locator: 知識庫/HG-KSEOS_SSOT/TW-ICT_FSDT-Stack_P0-CIP-PACK_v2026.08.06-rFINAL-r2.md#10.2
+    canonical_runtime_role_id: F30-02-sqs_data_analysis
+    disposition: MAP_TO_PERSISTENT_PROFILE_ROLE
+    host_profile: sqs-data-analysis
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: TW-ICT 115 named role assignment (Memory／KG／GraphRAG 工程師) dispositioned to sqs-data-analysis
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: TWICT_P0
+    source_role_id: F30-03
+    source_locator: 知識庫/HG-KSEOS_SSOT/TW-ICT_FSDT-Stack_P0-CIP-PACK_v2026.08.06-rFINAL-r2.md#10.2
+    canonical_runtime_role_id: F30-03-sqs_data_analysis
+    disposition: MAP_TO_ON_DEMAND_ROLE
+    host_profile: sqs-data-analysis
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: TW-ICT 115 named role assignment (Semantic Fidelity／Grounding Evaluator) dispositioned to sqs-data-analysis
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: TWICT_P0
+    source_role_id: F31-01
+    source_locator: 知識庫/HG-KSEOS_SSOT/TW-ICT_FSDT-Stack_P0-CIP-PACK_v2026.08.06-rFINAL-r2.md#10.2
+    canonical_runtime_role_id: F31-01-sqs_data_analysis
+    disposition: MAP_TO_PERSISTENT_PROFILE_ROLE
+    host_profile: sqs-data-analysis
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: TW-ICT 115 named role assignment (Replay／Journal Integrity 工程師) dispositioned to sqs-data-analysis
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: TWICT_P0
+    source_role_id: F31-02
+    source_locator: 知識庫/HG-KSEOS_SSOT/TW-ICT_FSDT-Stack_P0-CIP-PACK_v2026.08.06-rFINAL-r2.md#10.2
+    canonical_runtime_role_id: F31-02-sqs_data_analysis
+    disposition: MAP_TO_PERSISTENT_PROFILE_ROLE
+    host_profile: sqs-data-analysis
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: TW-ICT 115 named role assignment (Human Factors／Decision Process 分析師) dispositioned to sqs-data-analysis
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: TWICT_P0
+    source_role_id: F31-03
+    source_locator: 知識庫/HG-KSEOS_SSOT/TW-ICT_FSDT-Stack_P0-CIP-PACK_v2026.08.06-rFINAL-r2.md#10.2
+    canonical_runtime_role_id: F31-03-sqs_data_analysis
+    disposition: MAP_TO_ON_DEMAND_ROLE
+    host_profile: sqs-data-analysis
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: TW-ICT 115 named role assignment (交易員／操作員能力訓練負責人) dispositioned to sqs-data-analysis
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: TWICT_P0
+    source_role_id: F32-01
+    source_locator: 知識庫/HG-KSEOS_SSOT/TW-ICT_FSDT-Stack_P0-CIP-PACK_v2026.08.06-rFINAL-r2.md#10.2
+    canonical_runtime_role_id: F32-01-sqs_data_analysis
+    disposition: MAP_TO_PERSISTENT_PROFILE_ROLE
+    host_profile: sqs-data-analysis
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: TW-ICT 115 named role assignment (LearningCandidate 治理負責人) dispositioned to sqs-data-analysis
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: TWICT_P0
+    source_role_id: F32-02
+    source_locator: 知識庫/HG-KSEOS_SSOT/TW-ICT_FSDT-Stack_P0-CIP-PACK_v2026.08.06-rFINAL-r2.md#10.2
+    canonical_runtime_role_id: F32-02-sqs_data_analysis
+    disposition: MAP_TO_PERSISTENT_PROFILE_ROLE
+    host_profile: sqs-data-analysis
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: TW-ICT 115 named role assignment (Paper／Shadow Promotion 經理) dispositioned to sqs-data-analysis
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: TWICT_P0
+    source_role_id: F32-03
+    source_locator: 知識庫/HG-KSEOS_SSOT/TW-ICT_FSDT-Stack_P0-CIP-PACK_v2026.08.06-rFINAL-r2.md#10.2
+    canonical_runtime_role_id: F32-03-sqs_data_analysis
+    disposition: MAP_TO_ON_DEMAND_ROLE
+    host_profile: sqs-data-analysis
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: TW-ICT 115 named role assignment (Rollback／Demotion／Expiry 控制員) dispositioned to sqs-data-analysis
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: TWICT_P0
+    source_role_id: F33-01
+    source_locator: 知識庫/HG-KSEOS_SSOT/TW-ICT_FSDT-Stack_P0-CIP-PACK_v2026.08.06-rFINAL-r2.md#10.2
+    canonical_runtime_role_id: F33-01-sqs_data_analysis
+    disposition: MAP_TO_PERSISTENT_PROFILE_ROLE
+    host_profile: sqs-data-analysis
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: TW-ICT 115 named role assignment (AIKD／SpecKD 架構師) dispositioned to sqs-data-analysis
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: TWICT_P0
+    source_role_id: F33-02
+    source_locator: 知識庫/HG-KSEOS_SSOT/TW-ICT_FSDT-Stack_P0-CIP-PACK_v2026.08.06-rFINAL-r2.md#10.2
+    canonical_runtime_role_id: F33-02-sqs_data_analysis
+    disposition: MAP_TO_PERSISTENT_PROFILE_ROLE
+    host_profile: sqs-data-analysis
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: TW-ICT 115 named role assignment (Source-to-Prose／Corpus 編譯工程師) dispositioned to sqs-data-analysis
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: TWICT_P0
+    source_role_id: F33-03
+    source_locator: 知識庫/HG-KSEOS_SSOT/TW-ICT_FSDT-Stack_P0-CIP-PACK_v2026.08.06-rFINAL-r2.md#10.2
+    canonical_runtime_role_id: F33-03-sqs_data_analysis
+    disposition: MAP_TO_ON_DEMAND_ROLE
+    host_profile: sqs-data-analysis
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: TW-ICT 115 named role assignment (Body Closure／S5 文檔工程師) dispositioned to sqs-data-analysis
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: TWICT_P0
+    source_role_id: F34-01
+    source_locator: 知識庫/HG-KSEOS_SSOT/TW-ICT_FSDT-Stack_P0-CIP-PACK_v2026.08.06-rFINAL-r2.md#10.2
+    canonical_runtime_role_id: F34-01-human
+    disposition: HUMAN_ONLY
+    host_profile: human
+    worker_mode: ON_DEMAND
+    authority_ceiling: HUMAN_AUTHORITY
+    rationale: TW-ICT 115 named role assignment (Evidence Architecture Lead) dispositioned to human
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: TWICT_P0
+    source_role_id: F34-02
+    source_locator: 知識庫/HG-KSEOS_SSOT/TW-ICT_FSDT-Stack_P0-CIP-PACK_v2026.08.06-rFINAL-r2.md#10.2
+    canonical_runtime_role_id: F34-02-human
+    disposition: HUMAN_ONLY
+    host_profile: human
+    worker_mode: ON_DEMAND
+    authority_ceiling: HUMAN_AUTHORITY
+    rationale: TW-ICT 115 named role assignment (獨立 NRTV／Eval Harness 工程師) dispositioned to human
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: TWICT_P0
+    source_role_id: F34-03
+    source_locator: 知識庫/HG-KSEOS_SSOT/TW-ICT_FSDT-Stack_P0-CIP-PACK_v2026.08.06-rFINAL-r2.md#10.2
+    canonical_runtime_role_id: F34-03-sqs_data_analysis
+    disposition: MAP_TO_ON_DEMAND_ROLE
+    host_profile: sqs-data-analysis
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: TW-ICT 115 named role assignment (Package／Checksum／Readback／Drift 控制員) dispositioned to sqs-data-analysis
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: TWICT_P0
+    source_role_id: F35-01
+    source_locator: 知識庫/HG-KSEOS_SSOT/TW-ICT_FSDT-Stack_P0-CIP-PACK_v2026.08.06-rFINAL-r2.md#10.2
+    canonical_runtime_role_id: F35-01-human
+    disposition: HUMAN_ONLY
+    host_profile: human
+    worker_mode: ON_DEMAND
+    authority_ceiling: HUMAN_AUTHORITY
+    rationale: TW-ICT 115 named role assignment (投組建構量化專家) dispositioned to human
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: TWICT_P0
+    source_role_id: F35-02
+    source_locator: 知識庫/HG-KSEOS_SSOT/TW-ICT_FSDT-Stack_P0-CIP-PACK_v2026.08.06-rFINAL-r2.md#10.2
+    canonical_runtime_role_id: F35-02-human
+    disposition: HUMAN_ONLY
+    host_profile: human
+    worker_mode: ON_DEMAND
+    authority_ceiling: HUMAN_AUTHORITY
+    rationale: TW-ICT 115 named role assignment (最佳化／Constraint 工程師) dispositioned to human
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: TWICT_P0
+    source_role_id: F35-03
+    source_locator: 知識庫/HG-KSEOS_SSOT/TW-ICT_FSDT-Stack_P0-CIP-PACK_v2026.08.06-rFINAL-r2.md#10.2
+    canonical_runtime_role_id: F35-03-sqs_data_analysis
+    disposition: MAP_TO_ON_DEMAND_ROLE
+    host_profile: sqs-data-analysis
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: TW-ICT 115 named role assignment (TCA／Slippage／Capacity 分析師) dispositioned to sqs-data-analysis
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: TWICT_P0
+    source_role_id: F36-01
+    source_locator: 知識庫/HG-KSEOS_SSOT/TW-ICT_FSDT-Stack_P0-CIP-PACK_v2026.08.06-rFINAL-r2.md#10.2
+    canonical_runtime_role_id: F36-01-human
+    disposition: HUMAN_ONLY
+    host_profile: human
+    worker_mode: ON_DEMAND
+    authority_ceiling: HUMAN_AUTHORITY
+    rationale: TW-ICT 115 named role assignment (Open-source Scout／Toolchain 架構師) dispositioned to human
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: TWICT_P0
+    source_role_id: F36-02
+    source_locator: 知識庫/HG-KSEOS_SSOT/TW-ICT_FSDT-Stack_P0-CIP-PACK_v2026.08.06-rFINAL-r2.md#10.2
+    canonical_runtime_role_id: F36-02-human
+    disposition: HUMAN_ONLY
+    host_profile: human
+    worker_mode: ON_DEMAND
+    authority_ceiling: HUMAN_AUTHORITY
+    rationale: TW-ICT 115 named role assignment (Tool Qualification／Pilot 工程師) dispositioned to human
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: TWICT_P0
+    source_role_id: F36-03
+    source_locator: 知識庫/HG-KSEOS_SSOT/TW-ICT_FSDT-Stack_P0-CIP-PACK_v2026.08.06-rFINAL-r2.md#10.2
+    canonical_runtime_role_id: F36-03-sqs_data_analysis
+    disposition: MAP_TO_ON_DEMAND_ROLE
+    host_profile: sqs-data-analysis
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: TW-ICT 115 named role assignment (Legacy Migration／Exit 策略師) dispositioned to sqs-data-analysis
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: TWICT_P0
+    source_role_id: F37-01
+    source_locator: 知識庫/HG-KSEOS_SSOT/TW-ICT_FSDT-Stack_P0-CIP-PACK_v2026.08.06-rFINAL-r2.md#10.2
+    canonical_runtime_role_id: F37-01-human
+    disposition: HUMAN_ONLY
+    host_profile: human
+    worker_mode: ON_DEMAND
+    authority_ceiling: HUMAN_AUTHORITY
+    rationale: TW-ICT 115 named role assignment (Release Governance Chair) dispositioned to human
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: TWICT_P0
+    source_role_id: F37-02
+    source_locator: 知識庫/HG-KSEOS_SSOT/TW-ICT_FSDT-Stack_P0-CIP-PACK_v2026.08.06-rFINAL-r2.md#10.2
+    canonical_runtime_role_id: F37-02-sqs_risk
+    disposition: MAP_TO_PERSISTENT_PROFILE_ROLE
+    host_profile: sqs-risk
+    worker_mode: ON_DEMAND
+    authority_ceiling: RISK_DOMAIN_VETO
+    rationale: TW-ICT 115 named role assignment (TT／CR／Risk Register Manager) dispositioned to sqs-risk
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: TWICT_P0
+    source_role_id: F37-03
+    source_locator: 知識庫/HG-KSEOS_SSOT/TW-ICT_FSDT-Stack_P0-CIP-PACK_v2026.08.06-rFINAL-r2.md#10.2
+    canonical_runtime_role_id: F37-03-sqs_data_analysis
+    disposition: MAP_TO_ON_DEMAND_ROLE
+    host_profile: sqs-data-analysis
+    worker_mode: ON_DEMAND
+    authority_ceiling: L1_MAKER_OR_L1_CHECKER
+    rationale: TW-ICT 115 named role assignment (獨立 Audit／Readback Reviewer) dispositioned to sqs-data-analysis
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: TWICT_P0
+    source_role_id: F38-01
+    source_locator: 知識庫/HG-KSEOS_SSOT/TW-ICT_FSDT-Stack_P0-CIP-PACK_v2026.08.06-rFINAL-r2.md#10.2
+    canonical_runtime_role_id: F38-01-human
+    disposition: HUMAN_ONLY
+    host_profile: human
+    worker_mode: ON_DEMAND
+    authority_ceiling: HUMAN_AUTHORITY
+    rationale: TW-ICT 115 named role assignment (TW-ICT FSDT Stack 首席架構師) dispositioned to human
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: TWICT_P0
+    source_role_id: F38-02
+    source_locator: 知識庫/HG-KSEOS_SSOT/TW-ICT_FSDT-Stack_P0-CIP-PACK_v2026.08.06-rFINAL-r2.md#10.2
+    canonical_runtime_role_id: F38-02-human
+    disposition: HUMAN_ONLY
+    host_profile: human
+    worker_mode: ON_DEMAND
+    authority_ceiling: HUMAN_AUTHORITY
+    rationale: TW-ICT 115 named role assignment (Domain Integration Program Manager) dispositioned to human
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+  - source_family: TWICT_P0
+    source_role_id: F38-03
+    source_locator: 知識庫/HG-KSEOS_SSOT/TW-ICT_FSDT-Stack_P0-CIP-PACK_v2026.08.06-rFINAL-r2.md#10.2
+    canonical_runtime_role_id: F38-03-human
+    disposition: HUMAN_ONLY
+    host_profile: human
+    worker_mode: ON_DEMAND
+    authority_ceiling: HUMAN_AUTHORITY
+    rationale: TW-ICT 115 named role assignment (Human Financial Authority／Veto Owner) dispositioned to human
+    evidence_ref: evidence/rp002/stage3/SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml

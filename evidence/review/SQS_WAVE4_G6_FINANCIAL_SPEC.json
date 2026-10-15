@@ -1,0 +1,134 @@
+{
+ "schema": "SQS-WAVE4-G6-FINANCIAL-SPEC/1",
+ "captured_at_utc": "2026-08-11T04:23:33.002080+00:00",
+ "principle": "TW-ICT Financial Contract Kernel owns financial semantics; OpenSpec/GStack/Matt = lifecycle/review/skill substrates; Hermes/Codex = execution substrate (no financial authority)",
+ "carriers_present": true,
+ "cases": [
+  {
+   "case": "CFSES-FIN-01",
+   "flow": [
+    {
+     "step": "finding/change intent",
+     "carrier": "financial change intent (risk limits CR)",
+     "evidence": "risk/limits.yaml + CR process"
+    },
+    {
+     "step": "OpenSpec-derived change carrier",
+     "carrier": "contracts/authority/",
+     "evidence": "OpenSpec brownfield identity readback (HGK task-014 CERTIFIED)"
+    },
+    {
+     "step": "financial delta / risk / data-clock impact",
+     "carrier": "src/kernel/fsdt/ financial contract kernel",
+     "evidence": "CH04 kernel contract tests (positive/negative/edge)"
+    },
+    {
+     "step": "TaskSpec/WorkOrder",
+     "carrier": "HGK lifecycle admit_requirement",
+     "evidence": "G0 dynamic denominator (admit_requirement -> TaskSpec -> WorkOrder)"
+    },
+    {
+     "step": "review",
+     "carrier": "gstack review slice (advisory)",
+     "evidence": "SQS_CSB_GSTACK_EVIDENCE.json"
+    },
+    {
+     "step": "validation/migration/rollback",
+     "carrier": "HGK rollback_pointer + spine events",
+     "evidence": "canonical_events + rollback pointers on every transition"
+    },
+    {
+     "step": "archive/supersession readback",
+     "carrier": "DatasetVersion lineage",
+     "evidence": "DSV-2026-08-11-r1 manifest + lineage parent chain"
+    }
+   ],
+   "verdict": "PASS"
+  },
+  {
+   "case": "CFSES-FIN-02",
+   "flow": [
+    {
+     "step": "trigger",
+     "carrier": "financial procedure: hard risk-limit breach",
+     "evidence": "risk/limits.yaml hard:true limits"
+    },
+    {
+     "step": "correct skill/procedure",
+     "carrier": "financial skill substrate (Matt-derived methodology on SQS objects)",
+     "evidence": "survival/guards.yaml VETO/BLOCK actions"
+    },
+    {
+     "step": "permission",
+     "carrier": "no broker write; HITL_ONLY order path",
+     "evidence": "adapters/xq-read-watch.yaml + LIVE_BROKER_WRITE_FORBIDDEN"
+    },
+    {
+     "step": "typed output",
+     "carrier": "execution-fact schema + book-of-record",
+     "evidence": "schemas/execution-fact.schema.json + reducers/book-of-record.yaml"
+    },
+    {
+     "step": "fixture/replay",
+     "carrier": "fixtures/ (stress/research/models)",
+     "evidence": "fixtures/stress/ + G3 deterministic replay"
+    },
+    {
+     "step": "negative non-trigger",
+     "carrier": "ERR_VETO_BYPASS fail-closed",
+     "evidence": "tests/test_ts009 (negative fresh-state cases)"
+    },
+    {
+     "step": "fallback/revoke",
+     "carrier": "provider degrade matrix",
+     "evidence": "data_plane/config/provider_profile.yaml (DEGRADED_HIST/HOLD_REALTIME)"
+    }
+   ],
+   "verdict": "PASS",
+   "note": "no external Matt package installed (optional per source); financial contract behavior proven on SQS kernel objects"
+  },
+  {
+   "case": "CFSES-FIN-03",
+   "flow": [
+    {
+     "step": "Maker",
+     "carrier": "G1/G2 legacy-data scripts (data_plane/src)",
+     "evidence": "g1_legacy_profile.py + g2_legacy_disposition.py"
+    },
+    {
+     "step": "Domain/Data Checker",
+     "carrier": "G3 data-quality qualification",
+     "evidence": "qualify_backtest_db.py (PIT/mono/OHLC/gap/dup)"
+    },
+    {
+     "step": "Quant/Evidence Checker",
+     "carrier": "G3 model-risk ledger",
+     "evidence": "g3_model_risk_ledger.py (walk_forward PASS)"
+    },
+    {
+     "step": "Risk/Security Veto (when applicable)",
+     "carrier": "rights adjudication",
+     "evidence": "G2 RESTRICTED_RESEARCH quarantine (no DSV write)"
+    },
+    {
+     "step": "Rework",
+     "carrier": "timestamp-cast defect repair (ns->us)",
+     "evidence": "WAVE3 build_backtest_db fix + re-qualify"
+    },
+    {
+     "step": "Reducer",
+     "carrier": "canonical release reducer (HGK)",
+     "evidence": "task014_reducers.py COVERAGE/UX PASS"
+    },
+    {
+     "step": "Consumer ACK",
+     "carrier": "handoff/consumer-ack.ndjson",
+     "evidence": "append-only ACK ledger (empty until external consumer)"
+    }
+   ],
+   "verdict": "PASS",
+   "note": "gstack = methodology/advisory; TW-ICT/HGK owner = final authority"
+  }
+ ],
+ "verdict": "PASS"
+}

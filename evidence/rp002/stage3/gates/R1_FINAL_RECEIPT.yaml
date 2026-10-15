@@ -1,0 +1,15 @@
+schema: RP002-STAGE3-CROSSWALK-OUTPUT/1
+output_id: R1_FINAL_RECEIPT
+prerequisites:
+  SQP1: PASS
+  S1: PASS
+  E1: PASS
+  E2: PASS
+  E3: N/A_WITH_SOURCE_LOCATOR
+  blocking_tt_cr: 0
+  live_broker_writes: 0
+  unauthorized_side_effects: 0
+  open_breakglass: 0
+  fabric_dogfood_acceptance: PASS
+child_reducer: STAGE3_SQS_PASS_ELIGIBLE_FOR_MASTER_R1_REDUCTION
+master_reducer: RP002_LOCAL_ACCEPTANCE_PASS

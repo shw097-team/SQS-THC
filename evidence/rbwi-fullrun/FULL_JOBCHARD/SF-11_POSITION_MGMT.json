@@ -1,0 +1,30 @@
+{
+  "schema": "RBWI-SF-11-RECEIPT/1",
+  "sf": "SF-11",
+  "run_id": "RUN-RBWI-FULLRUN-20260820-001",
+  "candidate_id": "CAND-RBWI-20260814",
+  "outputs": {
+    "PositionState": {
+      "state": "FLAT",
+      "reason": "no SIM fills (all NO_TRADE pending HITL)"
+    },
+    "Cutoff": {
+      "entry_cutoff_enforced": true,
+      "post_cutoff": "MANAGE_ONLY"
+    },
+    "StopLoss/TP/Flatten": {
+      "mode": "N/A_flat",
+      "note": "no live position in SIM; live mgmt needs HITL"
+    }
+  },
+  "sim_clock": {
+    "mode": "SIM_FASTEST_ACCEL",
+    "trade_date": "2026-08-20",
+    "dataset": "DSV-DAILY-2026-08-21-r1",
+    "note": "full-automatic sim per user decision 2026-08-21; intraday measured = qualification-proxy; no FDA/XQ realtime"
+  },
+  "financial_boundary": "LOCAL_PAPER_SIMULATION_ONLY",
+  "broker_write": false,
+  "filled": 0,
+  "position": "FLAT"
+}

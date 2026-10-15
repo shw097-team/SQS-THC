@@ -1,0 +1,55 @@
+{
+ "schema": "SQS-EVO004-R5-G7-PROVIDER/1",
+ "captured_at_utc": "2026-08-11T08:29:50.576847+00:00",
+ "qdrant": {
+  "state": "ADMITTED_DISABLED",
+  "default": "OFF",
+  "stages": {
+   "provider": "QDRANT",
+   "version": "1.19.0",
+   "license": "Apache-2.0 (client lib)",
+   "state": "DISABLED",
+   "env": ".venv-data",
+   "port": "RetrievalPort (vector, DISABLED)",
+   "active_port": "FTS5 RetrievalPort",
+   "default": "OFF",
+   "corpus": "five-family TW-ICT (68 files)",
+   "baseline": "FTS5 bm25 (active)",
+   "comparison": "deferred until benchmark trigger",
+   "poisoning": "quarantine before vector index",
+   "stale_delete": "revocation propagates",
+   "fallback": "FTS5 remains active",
+   "service": "OFF",
+   "residue_check": "client lib only in .venv-data; no service"
+  }
+ },
+ "neo4j": {
+  "state": "INSTALL_PROFILE_READY",
+  "default": "OFF",
+  "stages": {
+   "provider": "NEO4J",
+   "version": "6.2.0",
+   "license": "GPLv3 (server) / Apache-2.0 (driver)",
+   "prereqs": [
+    "JDK 21+",
+    "neo4j server zip (Linux/Windows)",
+    "bolt port 7687"
+   ],
+   "driver": "neo4j-python-driver 6.2.0 (installed in .venv-data)",
+   "state": "INSTALL_PROFILE_READY",
+   "port": "GraphRetrievalPort (DESIGNED)",
+   "edge_mapping": "KnowledgeGraphEdge (subject,predicate,object,provenance)",
+   "default": "OFF",
+   "multi_hop": "designed (source->doc->assertion)",
+   "provenance": "edge_id binds source_doc_id",
+   "rebuild": "rebuild() clears kg_edges and re-derives",
+   "rollback": "git revert provider profile"
+  }
+ },
+ "independent_qualification": {
+  "checker": "this script (external assertions)",
+  "subject": "provider client libs",
+  "verdict": "ADMITTED_DISABLED (Qdrant) / INSTALL_PROFILE_READY (Neo4j)"
+ },
+ "verdict": "QDRANT_READINESS_EVIDENCE_PASS"
+}

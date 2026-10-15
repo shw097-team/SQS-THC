@@ -1,0 +1,33 @@
+schema: RP002-STAGE3-GATE-RECEIPT/1
+gate: E2
+stage: RP002-STAGE-SQS
+project: HGK-REFERENCE-PROJECT-002
+verdict: PASS
+observed_at: 2026-08-13T02:20:00+08:00
+
+behavior_subject:
+  card: E2_BEHAVIOR_SUBJECT_SELECTION.yaml (frozen before mutation)
+  subject_id: E2-BS-001
+  subject_kind: STACK
+  subject_ref: SQS_STACK_MANIFEST.yaml (RP002-STACK-MANIFEST/2)
+  gap_source: "owner doc §18.2 namespace contract (sqs.revoked.* exclusion) missing from materialized manifest"
+  authority_delta: NONE
+  permission_delta: "explicit - revoked namespace reads DENIED (additive read-exclusion)"
+  risk_delta: none
+
+flow:
+  - "subject freeze (selection card)"
+  - "Commander C0-C9 (Stage-3 contract ca6acc0f, E2 evidence row)"
+  - "HGK candidate write via Codex (codex-e2 run, exit 0)"
+  - "raw readback + digest: manifest 1564B -> 1713B; backup sha256 A0F3362E22D9874DCF9586B2A27BFFB006968E7E3A18467731A8670408B666DC"
+  - "fresh session: sqs-orchestrator-fresh-session-e2 leaf (no history) re-read manifest -> namespace block effective"
+  - "positive fixture: tests/test_rp002_stage3_e2.py 5/5 OK (fresh-session rerun)"
+  - "negative/adversarial fixture: revoked_exclusion declared; sqs.revoked.* NOT in read scope; candidate/runtime in candidate_write (PASS)"
+  - "affected regression: SQP1 11 + E1 4 tests OK; canonical suite 231 tests OK"
+  - "real behavior canary: fresh-session leaf re-read + fixtures (deleg_6e3a5eee)"
+  - "Acceptance Officer L2: acceptance-officer-L2-e2 (fresh context VERIFY_ONLY)"
+  - "Promotion Transaction: Fabric/rp002/RP002_PROMOTION_TRANSACTION.yaml (E2 candidate)"
+  - "exact original behavior replay: stack manifest key fields intact (financial_truth_owner/live_trading/production_autonomy/persistent_profiles_p0=3)"
+
+old_session_invalid: "true (fresh-session leaf had no conversation history)"
+rollback_ref: "var/rp002-stage3/e2-before/SQS_STACK_MANIFEST.yaml (pre-edit bytes)"

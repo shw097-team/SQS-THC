@@ -1,0 +1,31 @@
+schema: RP002-STAGE3-E1-DEFECT-REPRODUCTION/1
+gate: E1
+defect_id: E1-KD-001
+defect_class: KNOWLEDGE_DEFECT
+subject: SQS operability documentation knowledge-governance state projection
+severity: S2 (documentation currentness; no financial semantics affected)
+discovered_at: 2026-08-13T00:30:00+08:00 (Stage-3 entry fresh readback)
+reproduction:
+  frozen_subject_readback:
+    - file: SQS-THC/README.md
+      line: 66
+      claim: "Knowledge 治理（K1/KG1）DEFERRED_TO_RP002；Qdrant ADMITTED_DISABLED、Neo4j INSTALL_PROFILE_READY，皆 default OFF"
+      sha256: 8b6be6a286c35907b81f76f6ffcc3c981dc59066d4d2f00c561762be25b275ae
+    - file: SQS-THC/docs/SQS-THC_TW-ICT_FSDT-Stack使用說明文檔.md
+      line: 168
+      claim: "Knowledge binding status：K1 / KG1 治理 DEFERRED_TO_RP002；Qdrant ADMITTED_DISABLED"
+      sha256: "computed at repair time (file pre-modified in working tree)"
+  contradicting_machine_truth:
+    - artifact: Fabric/stage/RP002-STAGE-HGK/KG1/KG1_FOCUSED_CONSISTENCY_RECEIPT.yaml
+      verdict: PASS
+      evidence: "subject_consistency PASS; provider_runtime_freshness PASS (SQLite/FTS5 P0 REUSE active; Qdrant/Neo4j default-off preserved); revoked_stale_exclusion_spot_check PASS"
+    - artifact: Fabric/stage/RP002-STAGE-HGK/F1/ACCEPTANCE_RECEIPT_F1_REPAIRED.yaml
+      verdict: PASS
+    - artifact: Fabric/stage/RP002-STAGE-HGK/CF1/ACCEPTANCE_RECEIPT_CF1_REPAIRED.yaml
+      verdict: PASS (mcp-contextforge-gateway 1.0.7 promoted)
+  contradiction: "DEFERRED_TO_RP002 is stale: RP-002 Stage-2 already closed KG1/F1/CF1 (PASS). Docs project pre-Stage-2 state."
+root_cause: "SQS README/User Guide knowledge-governance status line was written in the RP-001 era and not currentized after Stage-2 knowledge-gate acceptance."
+owner: SQS operability docs (governed via HGK WorkOrder WO-RP2-STAGE3-E1E2)
+repair_route: Fabric Change Class Router (KNOWLEDGE_DEFECT) -> Commander -> HGK/Codex bounded edit -> focused doc-currentness test -> affected regression -> L2 -> PromotionTransaction -> exact replay
+no_financial_semantics_affected: true
+rollback: git restore of the two files (pre-edit bytes preserved in var/rp002-stage3/e1-before/)

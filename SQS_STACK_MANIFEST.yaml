@@ -1,0 +1,54 @@
+schema: RP002-STACK-MANIFEST/2
+stack_id: SQS_FINANCIAL
+canonical_root: C:\Projects\Agent_Workspace\SQS-THC
+product_state: CURRENT_LOCAL_PRODUCT
+historical_baseline: RP001_MILESTONE_CLOSED
+
+persistent_profiles_p0:
+  - sqs-orchestrator
+  - sqs-data-analysis
+  - sqs-risk
+
+authority_domain:
+  - FINANCIAL_SPEC
+  - TW_ICT
+  - MARKET_DATA
+  - DOMAIN_RISK
+
+financial_truth_owner: SQS_OWNER_BOUND_CONTROL_CORPUS
+live_trading: NOT_AUTHORIZED
+production_autonomy: NOT_CLAIMED
+
+team_ref: TEAM.md
+runtime_abstraction_mapping_ref: SQS_RUNTIME_ABSTRACTION_MAPPING.yaml
+marca_role_catalog_ref: SQS_MARCA_ROLE_CATALOG.yaml
+topology_policy_ref: SQS_TASK_TOPOLOGY_POLICY.yaml
+twict_runtime_pack_ref: SQS/TWICT_RUNTIME_PACK_MANIFEST.yaml
+capability_import_ref: SQS_TWICT_PRODUCT_CAPABILITY_IMPORT.yaml
+role_disposition_ref: SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml
+selected_skill_set_ref: SQS_SELECTED_SKILL_SET.yaml
+assurance_pack_ref: SQS_ASSURANCE_PACK_MANIFEST.yaml
+
+runtime:
+  engine: hermes
+  coordination: kanban
+  board_policy: project_scoped
+  worker_lifecycle: ON_DEMAND
+  execution_modes: [DIRECT, MULTI_PROFILE_DAG, SWARM]
+
+knowledge_namespace:
+  read: ['sqs.*', 'shared.approved.*']
+  candidate_write: ['sqs.candidate.*', 'sqs.runtime.*']
+  canonical_promote: ['sqs.approved.*:DOMAIN_OWNER_ONLY']
+  revoked_exclusion: ['sqs.revoked.*']
+  lifecycle: 'candidate -> approved (DOMAIN_OWNER_ONLY) -> revoked (tombstone + audit receipt) -> excluded'
+
+acceptance:
+  formal_checker: acceptance-officer
+  domain_checkers:
+    - sqs-risk
+    - TWICT_DOC21_DOC27_PACKS_WHERE_APPLICABLE
+
+rollback:
+  previous_stack_manifest_ref: null
+  previous_profile_distribution_refs: []

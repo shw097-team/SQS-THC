@@ -1,0 +1,46 @@
+# SQS-THC data plane — data policy (G1/G2, RP001-WAVE3)
+# Source: Shioaji-first 藍圖 §5.2 + P0 data-role contracts
+version: 1
+retention:
+  daily:
+    initial_years: 5
+    authority: PATCH_DEFAULT
+  minute_1m:
+    upstream_baseline_months: 12
+    initial_target_months: 12
+    authority: RBWI_ONE_YEAR_MINUTE_K_BASELINE
+  tick:
+    initial_months: 6
+    universe: MICROSTRUCTURE_SUBSET
+  bidask:
+    mode: FORWARD_CAPTURE_PLUS_CASES
+  full_order_event_book:
+    mode: DEFER
+
+timeframes:
+  canonical_download: [1m]
+  derived_resample: [3m, 5m, 15m, 30m]
+
+universe:
+  research_target_symbols: 20-50
+  basis: historical_liquidity_eligibility
+  intraday_subscription_cap: SHIOAJI_QUOTA_GOVERNED
+
+backtest_database:
+  raw: parquet (immutable provider artifacts, symbol+window sharded)
+  core: parquet (canonical research minute bars)
+  analytical: duckdb (backtest/query layer)
+  metadata: sqlite (catalog/rights/receipts/DatasetVersion)
+  lineage: parent_hashes + source_identity + DatasetVersion chain
+  pit: PIT/Five-Clocks fields on every row (asof, known_at, ts, source)
+
+publish_requirements:
+  - source_identity
+  - rights_receipt
+  - schema_pass
+  - monotonic_clock_pass
+  - gap_report
+  - duplicate_report
+  - checksum
+  - lineage
+  - parity_disposition

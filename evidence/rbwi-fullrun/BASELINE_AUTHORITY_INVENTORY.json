@@ -1,0 +1,26 @@
+{
+  "schema": "BASELINE-AUTHORITY-INVENTORY/1",
+  "generated_at": "2026-08-20T20:38:37.698250+08:00",
+  "A0_current_user_instruction": "RBWI 4+1 PACK full-run acceptance task (2026-08-20)",
+  "A1_hgk_root": "C:\\Projects\\Agent_Workspace\\HG-KSEOS",
+  "A1_hgk_head": "22e21f0340501caf4ff0dbd67663faf49f521b03",
+  "A2_sqs_root": "C:\\Projects\\Agent_Workspace\\SQS-THC",
+  "A2_sqs_head": "9a70501ad4bbf315c675894a7a58c0f98bf18f47",
+  "A3_fabric_root": "C:\\Projects\\Agent_Workspace\\Fabric",
+  "A3_fabric_head": "243bf8fa83e90020cd9fb4f071e6d8fb9ac3c6c6",
+  "A4_canonical_rbwi": "C:\\Projects\\Agent_Workspace\\知識庫\\SQS-THC & TW-ICT_FSDT-Stack_SSOT\\TW-ICT_RBWI_v3.0.0_r2_2026-07-30.md",
+  "A4_canonical_rbwi_sha256": "a94b2ec00cf4ae9d24f77bb548e799ffac7fad3eb0e84198129e131121a74c0e",
+  "A5_pack_root": "C:\\Projects\\Agent_Workspace\\知識庫\\實作相關DOC\\SQS-THC\\實作方案、評估\\SQS實跑規劃\\RBWI_NATIVE_TIME_SEGMENT_4_PLUS_1_PACK_v2026.08.14-r2",
+  "A5_pack_manifest_sha256": "94a9f2627daf756d2f3ba6e1421794ac468393fe2dbc6794a4ca98d69b44e2b0",
+  "A6_parent_workorder": "WO-RBWI-FULLRUN-001",
+  "A6_workorder_state": "CREATED(writer=codex, spine)",
+  "A7_kanban_board": "rbwi-fullrun-2026-08-14",
+  "A8_fda_route": "ROUTE-SQS-XQ-GLOBALWINNER-001",
+  "A8_route_status": "ACTIVE",
+  "A9_financial_auth": {
+    "live_broker": "NOT_AUTHORIZED",
+    "account_mode": "PAPER_ONLY",
+    "production": "NOT_CLAIMED",
+    "remote": "NOT_CLAIMED"
+  }
+}

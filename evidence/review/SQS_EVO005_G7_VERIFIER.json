@@ -1,0 +1,59 @@
+{
+ "schema": "SQS-EVO005-G7-VERIFIER/1",
+ "captured_at_utc": "2026-08-11T11:49:05.581720+00:00",
+ "verifier_version": "EVO005-VERIFIER-1.0",
+ "inputs_only": [
+  "Frozen Oracle digest",
+  "Frozen Subject digest",
+  "Canonical Evidence Graph",
+  "raw artifact digests",
+  "source locators"
+ ],
+ "maker_final_verdict_read": false,
+ "oracle_digest": "501732af709e3e789572c9edcba7b9fc01704c12cf743cdba081a613221d19ed",
+ "subject_digest": "e546cc2c4eacf0cb4bbb259d717c1728b89ac6c579de94262db0f450f36eefc1",
+ "graph_root_digest": "3444451ccccdcfc9df94c68d39ea46c7f4546741572e9c52d1d173b9acf85405",
+ "fixtures": [
+  {
+   "case": "v_oracle_digest_binds",
+   "ok": true,
+   "detail": "501732af709e"
+  },
+  {
+   "case": "f1_derived_md_mutation",
+   "ok": true,
+   "detail": "derived MD mutation caught (graph root unchanged, tampered text differs)"
+  },
+  {
+   "case": "f2_runner_count_ignored",
+   "ok": true,
+   "detail": "runner summary has no verification authority"
+  },
+  {
+   "case": "f3_subject_change_stale",
+   "ok": true,
+   "detail": "changed subject != bound artifact subject -> STALE detected"
+  },
+  {
+   "case": "f4_oracle_in_place_rejected",
+   "ok": true,
+   "detail": "in-place oracle mutation changes digest -> rejected (V1 immutable)"
+  },
+  {
+   "case": "f5_provider_overclaim_rejected",
+   "ok": true,
+   "detail": "qdrant=ADMITTED_DISABLED (evidence-backed)"
+  },
+  {
+   "case": "f6_executing_pass_rejected",
+   "ok": true,
+   "detail": "EXECUTING + PROJECT_PASS combination is rejected (rule enforced)"
+  },
+  {
+   "case": "f7_path_digest_bind",
+   "ok": true,
+   "detail": "6f6403676365"
+  }
+ ],
+ "verdict": "INDEPENDENT_ORACLE_VERIFIER_PASS"
+}

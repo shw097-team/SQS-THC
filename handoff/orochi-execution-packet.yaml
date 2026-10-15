@@ -1,0 +1,32 @@
+# WO-TS-REF-15 / TS-015 Closed-book handoff - OROCHI execution packet (ART-15).
+# Producer: GPT B command packer. Receiver: OROCHI external executor.
+# Each entry: task_id, context, contract. Deterministic and fail-closed:
+# unresolved target/dependency/permission/oracle returns
+# ERR_RECEIVER_CONTEXT_MISSING and performs no mutation. No broker write, no
+# network; the executor may write ONLY the contract target_files_exact_set.
+execution_packet_id: orochi-execution-packet-ts015
+schema_version: "1.0.0"
+spec_ref: "TS-015/ART-15"
+source: "SSOT/SQS-THC_P0-CIP-PACK_v2026.08.06-r2.md#ts-015"
+entries:
+  - task_id: "TS-015"
+    context:
+      work_order: "WO-TS-REF-15"
+      receiver: "OROCHI external executor"
+      workspace_policy: "repo-scoped write only; no broker write; no unscoped network/secret"
+      path_status: "PROPOSED_NOT_MATERIALIZED"
+      runtime_status: "NOT_RUN"
+      closed_book: "receiver executes from repo-context request + TaskSpec without author chat"
+    contract:
+      target_files_exact_set:
+        - "handoff/gpt-b-command-pack.yaml"
+        - "handoff/orochi-execution-packet.yaml"
+        - "handoff/consumer-ack.ndjson"
+      required_pack_fields: ["task_id", "commands", "allowlist"]
+      required_packet_fields: ["task_id", "context", "contract"]
+      required_ack_fields: ["task_id", "receiver", "decision", "timestamp"]
+      error_receiver_context_missing: "ERR_RECEIVER_CONTEXT_MISSING"
+      fail_closed: true
+      no_broker_write: true
+      no_network: true
+      rollback: "restore previous-active manifest/artifact revision; invalidate dependent TaskSpec/evidence; require consumer ACK before restore"

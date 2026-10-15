@@ -1,0 +1,25 @@
+{
+  "schema": "RBWI-PREOPEN-STEP/1",
+  "step_id": "SF-00",
+  "title": "Runtime Bootstrap",
+  "run_id": "RUN-RBWI-FULLRUN-20260820-001",
+  "candidate_id": "CAND-RBWI-20260814",
+  "segment_binding_id": "BIND-RBWI-Q1-20260820-001",
+  "trading_date": "2026-08-14",
+  "week": "2026-W33",
+  "generated_at": "2026-08-20T21:10+08:00",
+  "owner": "ROLE-RUNTIME-OWNER",
+  "checker": "ROLE-VALIDATION-OWNER",
+  "veto": "ROLE-CLAIM-VETO",
+  "purpose": "建立受控 RuntimeContext/RoleBinding/Trace",
+  "action": "綁定 maker/checker/veto/HITL 角色; ToolAllowlist read-only",
+  "inputs": {
+    "runtime": "Hermes",
+    "role_binding": "separated"
+  },
+  "outputs": "RuntimeContext ACTIVE",
+  "state_machine": "DRAFT->CHECKED->ACKED->ACTIVE",
+  "consumer_ack": true,
+  "reason_code": "SF00_ACTIVE",
+  "security_surface": "read-only data; no broker write"
+}

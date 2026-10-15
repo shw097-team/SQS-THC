@@ -1,0 +1,3577 @@
+{
+ "schema": "SQS-WAVE4-G1-LEGACY-ADMISSION/1",
+ "legacy_root": "C:\\Projects\\Agent_Workspace\\SQS-THC\\技術資料庫\\台股價格歷史資料",
+ "captured_at_utc": "2026-08-11T04:20:43.325454+00:00",
+ "physical_denominator": {
+  "total_files": 602069,
+  "total_bytes": 21489678757,
+  "families": {
+   "finmind": {
+    "files": 150608,
+    "bytes": 6803698333
+   },
+   "finmind\\.runtime": {
+    "files": 4,
+    "bytes": 20251743
+   },
+   "finmind\\_runtime": {
+    "files": 20,
+    "bytes": 257237
+   },
+   "finmind\\normalized": {
+    "files": 0,
+    "bytes": 0
+   },
+   "finmind\\raw": {
+    "files": 150584,
+    "bytes": 6783189353
+   },
+   "finmind\\raw\\daily": {
+    "files": 5,
+    "bytes": 1409595
+   },
+   "finmind\\raw\\daily_optimized": {
+    "files": 5,
+    "bytes": 1409595
+   },
+   "finmind\\raw\\index_5s": {
+    "files": 569,
+    "bytes": 5691091980
+   },
+   "finmind\\raw\\index_kbar": {
+    "files": 1138,
+    "bytes": 18282995
+   },
+   "finmind\\raw\\index_kbar\\TAIEX": {
+    "files": 569,
+    "bytes": 9835258
+   },
+   "finmind\\raw\\index_kbar\\TPEx": {
+    "files": 569,
+    "bytes": 8447737
+   },
+   "finmind\\raw\\kbar": {
+    "files": 148482,
+    "bytes": 1069911485
+   },
+   "finmind\\raw\\kbar\\1101": {
+    "files": 564,
+    "bytes": 9197600
+   },
+   "finmind\\raw\\kbar\\1102": {
+    "files": 564,
+    "bytes": 8539039
+   },
+   "finmind\\raw\\kbar\\1103": {
+    "files": 1,
+    "bytes": 2934
+   },
+   "finmind\\raw\\kbar\\1104": {
+    "files": 564,
+    "bytes": 4059924
+   },
+   "finmind\\raw\\kbar\\1203": {
+    "files": 564,
+    "bytes": 412244
+   },
+   "finmind\\raw\\kbar\\1218": {
+    "files": 564,
+    "bytes": 3992235
+   },
+   "finmind\\raw\\kbar\\1225": {
+    "files": 564,
+    "bytes": 1418779
+   },
+   "finmind\\raw\\kbar\\1227": {
+    "files": 564,
+    "bytes": 3705068
+   },
+   "finmind\\raw\\kbar\\1229": {
+    "files": 564,
+    "bytes": 5349715
+   },
+   "finmind\\raw\\kbar\\1233": {
+    "files": 564,
+    "bytes": 308648
+   },
+   "finmind\\raw\\kbar\\1234": {
+    "files": 564,
+    "bytes": 1495034
+   },
+   "finmind\\raw\\kbar\\1236": {
+    "files": 564,
+    "bytes": 406534
+   },
+   "finmind\\raw\\kbar\\1301": {
+    "files": 564,
+    "bytes": 8934789
+   },
+   "finmind\\raw\\kbar\\1303": {
+    "files": 564,
+    "bytes": 8814959
+   },
+   "finmind\\raw\\kbar\\1307": {
+    "files": 564,
+    "bytes": 4818402
+   },
+   "finmind\\raw\\kbar\\1321": {
+    "files": 564,
+    "bytes": 2039822
+   },
+   "finmind\\raw\\kbar\\1325": {
+    "files": 564,
+    "bytes": 3436762
+   },
+   "finmind\\raw\\kbar\\1326": {
+    "files": 564,
+    "bytes": 8444517
+   },
+   "finmind\\raw\\kbar\\1402": {
+    "files": 564,
+    "bytes": 8529191
+   },
+   "finmind\\raw\\kbar\\1410": {
+    "files": 564,
+    "bytes": 501750
+   },
+   "finmind\\raw\\kbar\\1418": {
+    "files": 564,
+    "bytes": 615901
+   },
+   "finmind\\raw\\kbar\\1423": {
+    "files": 564,
+    "bytes": 608607
+   },
+   "finmind\\raw\\kbar\\1437": {
+    "files": 564,
+    "bytes": 1368552
+   },
+   "finmind\\raw\\kbar\\1438": {
+    "files": 564,
+    "bytes": 1661892
+   },
+   "finmind\\raw\\kbar\\1439": {
+    "files": 564,
+    "bytes": 604758
+   },
+   "finmind\\raw\\kbar\\1443": {
+    "files": 564,
+    "bytes": 424716
+   },
+   "finmind\\raw\\kbar\\1446": {
+    "files": 564,
+    "bytes": 3099875
+   },
+   "finmind\\raw\\kbar\\1470": {
+    "files": 564,
+    "bytes": 281896
+   },
+   "finmind\\raw\\kbar\\1473": {
+    "files": 564,
+    "bytes": 2715714
+   },
+   "finmind\\raw\\kbar\\1475": {
+    "files": 564,
+    "bytes": 1157617
+   },
+   "finmind\\raw\\kbar\\1504": {
+    "files": 564,
+    "bytes": 8711267
+   },
+   "finmind\\raw\\kbar\\1515": {
+    "files": 564,
+    "bytes": 3984317
+   },
+   "finmind\\raw\\kbar\\1521": {
+    "files": 564,
+    "bytes": 799356
+   },
+   "finmind\\raw\\kbar\\1522": {
+    "files": 564,
+    "bytes": 7012543
+   },
+   "finmind\\raw\\kbar\\1524": {
+    "files": 564,
+    "bytes": 7088287
+   },
+   "finmind\\raw\\kbar\\1527": {
+    "files": 564,
+    "bytes": 2581128
+   },
+   "finmind\\raw\\kbar\\1529": {
+    "files": 564,
+    "bytes": 5218682
+   },
+   "finmind\\raw\\kbar\\1530": {
+    "files": 564,
+    "bytes": 1017698
+   },
+   "finmind\\raw\\kbar\\1532": {
+    "files": 564,
+    "bytes": 5280828
+   },
+   "finmind\\raw\\kbar\\1533": {
+    "files": 564,
+    "bytes": 1761346
+   },
+   "finmind\\raw\\kbar\\1539": {
+    "files": 564,
+    "bytes": 1980176
+   },
+   "finmind\\raw\\kbar\\1540": {
+    "files": 564,
+    "bytes": 4329952
+   },
+   "finmind\\raw\\kbar\\1541": {
+    "files": 564,
+    "bytes": 579843
+   },
+   "finmind\\raw\\kbar\\1603": {
+    "files": 564,
+    "bytes": 4571659
+   },
+   "finmind\\raw\\kbar\\1604": {
+    "files": 564,
+    "bytes": 2254585
+   },
+   "finmind\\raw\\kbar\\1605": {
+    "files": 564,
+    "bytes": 9161393
+   },
+   "finmind\\raw\\kbar\\1608": {
+    "files": 564,
+    "bytes": 6550212
+   },
+   "finmind\\raw\\kbar\\1609": {
+    "files": 564,
+    "bytes": 8479378
+   },
+   "finmind\\raw\\kbar\\1612": {
+    "files": 564,
+    "bytes": 5807839
+   },
+   "finmind\\raw\\kbar\\1614": {
+    "files": 564,
+    "bytes": 1137839
+   },
+   "finmind\\raw\\kbar\\1616": {
+    "files": 564,
+    "bytes": 5689242
+   },
+   "finmind\\raw\\kbar\\1618": {
+    "files": 564,
+    "bytes": 7017257
+   },
+   "finmind\\raw\\kbar\\1702": {
+    "files": 564,
+    "bytes": 3874882
+   },
+   "finmind\\raw\\kbar\\1708": {
+    "files": 564,
+    "bytes": 5154987
+   },
+   "finmind\\raw\\kbar\\1712": {
+    "files": 564,
+    "bytes": 4168787
+   },
+   "finmind\\raw\\kbar\\1717": {
+    "files": 564,
+    "bytes": 6031649
+   },
+   "finmind\\raw\\kbar\\1725": {
+    "files": 564,
+    "bytes": 1586985
+   },
+   "finmind\\raw\\kbar\\1727": {
+    "files": 564,
+    "bytes": 4718361
+   },
+   "finmind\\raw\\kbar\\1731": {
+    "files": 564,
+    "bytes": 1799003
+   },
+   "finmind\\raw\\kbar\\1732": {
+    "files": 564,
+    "bytes": 2530060
+   },
+   "finmind\\raw\\kbar\\1733": {
+    "files": 564,
+    "bytes": 2598935
+   },
+   "finmind\\raw\\kbar\\1734": {
+    "files": 564,
+    "bytes": 2895559
+   },
+   "finmind\\raw\\kbar\\1737": {
+    "files": 564,
+    "bytes": 2095378
+   },
+   "finmind\\raw\\kbar\\1752": {
+    "files": 564,
+    "bytes": 2168524
+   },
+   "finmind\\raw\\kbar\\1762": {
+    "files": 564,
+    "bytes": 2098817
+   },
+   "finmind\\raw\\kbar\\1808": {
+    "files": 564,
+    "bytes": 5741936
+   },
+   "finmind\\raw\\kbar\\1817": {
+    "files": 564,
+    "bytes": 1259776
+   },
+   "finmind\\raw\\kbar\\1907": {
+    "files": 564,
+    "bytes": 4804133
+   },
+   "finmind\\raw\\kbar\\2008": {
+    "files": 564,
+    "bytes": 772766
+   },
+   "finmind\\raw\\kbar\\2009": {
+    "files": 564,
+    "bytes": 6099714
+   },
+   "finmind\\raw\\kbar\\2013": {
+    "files": 564,
+    "bytes": 1134980
+   },
+   "finmind\\raw\\kbar\\2020": {
+    "files": 564,
+    "bytes": 3864499
+   },
+   "finmind\\raw\\kbar\\2027": {
+    "files": 564,
+    "bytes": 8762623
+   },
+   "finmind\\raw\\kbar\\2029": {
+    "files": 564,
+    "bytes": 2367842
+   },
+   "finmind\\raw\\kbar\\2031": {
+    "files": 564,
+    "bytes": 5065635
+   },
+   "finmind\\raw\\kbar\\2034": {
+    "files": 564,
+    "bytes": 3901092
+   },
+   "finmind\\raw\\kbar\\2101": {
+    "files": 564,
+    "bytes": 5735496
+   },
+   "finmind\\raw\\kbar\\2102": {
+    "files": 564,
+    "bytes": 2196340
+   },
+   "finmind\\raw\\kbar\\2105": {
+    "files": 564,
+    "bytes": 8409540
+   },
+   "finmind\\raw\\kbar\\2106": {
+    "files": 564,
+    "bytes": 3290867
+   },
+   "finmind\\raw\\kbar\\2107": {
+    "files": 564,
+    "bytes": 2073545
+   },
+   "finmind\\raw\\kbar\\2108": {
+    "files": 564,
+    "bytes": 3074151
+   },
+   "finmind\\raw\\kbar\\2115": {
+    "files": 564,
+    "bytes": 831952
+   },
+   "finmind\\raw\\kbar\\2201": {
+    "files": 564,
+    "bytes": 7576129
+   },
+   "finmind\\raw\\kbar\\2207": {
+    "files": 10,
+    "bytes": 39512
+   },
+   "finmind\\raw\\kbar\\2239": {
+    "files": 564,
+    "bytes": 1039447
+   },
+   "finmind\\raw\\kbar\\2241": {
+    "files": 564,
+    "bytes": 4100114
+   },
+   "finmind\\raw\\kbar\\2303": {
+    "files": 564,
+    "bytes": 9299279
+   },
+   "finmind\\raw\\kbar\\2312": {
+    "files": 564,
+    "bytes": 8419275
+   },
+   "finmind\\raw\\kbar\\2317": {
+    "files": 10,
+    "bytes": 172287
+   },
+   "finmind\\raw\\kbar\\2324": {
+    "files": 564,
+    "bytes": 9275634
+   },
+   "finmind\\raw\\kbar\\2328": {
+    "files": 564,
+    "bytes": 7486516
+   },
+   "finmind\\raw\\kbar\\2329": {
+    "files": 564,
+    "bytes": 8171393
+   },
+   "finmind\\raw\\kbar\\2330": {
+    "files": 9,
+    "bytes": 163472
+   },
+   "finmind\\raw\\kbar\\2337": {
+    "files": 564,
+    "bytes": 8751201
+   },
+   "finmind\\raw\\kbar\\2338": {
+    "files": 564,
+    "bytes": 5872045
+   },
+   "finmind\\raw\\kbar\\2340": {
+    "files": 564,
+    "bytes": 6319417
+   },
+   "finmind\\raw\\kbar\\2342": {
+    "files": 564,
+    "bytes": 3236387
+   },
+   "finmind\\raw\\kbar\\2344": {
+    "files": 564,
+    "bytes": 9194420
+   },
+   "finmind\\raw\\kbar\\2352": {
+    "files": 564,
+    "bytes": 8291718
+   },
+   "finmind\\raw\\kbar\\2353": {
+    "files": 564,
+    "bytes": 9225051
+   },
+   "finmind\\raw\\kbar\\2355": {
+    "files": 564,
+    "bytes": 7259467
+   },
+   "finmind\\raw\\kbar\\2356": {
+    "files": 564,
+    "bytes": 9074289
+   },
+   "finmind\\raw\\kbar\\2362": {
+    "files": 564,
+    "bytes": 5559077
+   },
+   "finmind\\raw\\kbar\\2363": {
+    "files": 564,
+    "bytes": 8176653
+   },
+   "finmind\\raw\\kbar\\2365": {
+    "files": 564,
+    "bytes": 6960764
+   },
+   "finmind\\raw\\kbar\\2367": {
+    "files": 564,
+    "bytes": 8297782
+   },
+   "finmind\\raw\\kbar\\2371": {
+    "files": 564,
+    "bytes": 8914846
+   },
+   "finmind\\raw\\kbar\\2382": {
+    "files": 10,
+    "bytes": 171279
+   },
+   "finmind\\raw\\kbar\\2387": {
+    "files": 564,
+    "bytes": 4877231
+   },
+   "finmind\\raw\\kbar\\2402": {
+    "files": 564,
+    "bytes": 7793491
+   },
+   "finmind\\raw\\kbar\\2408": {
+    "files": 10,
+    "bytes": 72360
+   },
+   "finmind\\raw\\kbar\\2412": {
+    "files": 10,
+    "bytes": 165265
+   },
+   "finmind\\raw\\kbar\\2414": {
+    "files": 564,
+    "bytes": 1769001
+   },
+   "finmind\\raw\\kbar\\2415": {
+    "files": 564,
+    "bytes": 1876436
+   },
+   "finmind\\raw\\kbar\\2417": {
+    "files": 564,
+    "bytes": 5758194
+   },
+   "finmind\\raw\\kbar\\2419": {
+    "files": 564,
+    "bytes": 5635303
+   },
+   "finmind\\raw\\kbar\\2423": {
+    "files": 564,
+    "bytes": 2440225
+   },
+   "finmind\\raw\\kbar\\2425": {
+    "files": 564,
+    "bytes": 5415166
+   },
+   "finmind\\raw\\kbar\\2427": {
+    "files": 564,
+    "bytes": 6029547
+   },
+   "finmind\\raw\\kbar\\2430": {
+    "files": 564,
+    "bytes": 968977
+   },
+   "finmind\\raw\\kbar\\2434": {
+    "files": 564,
+    "bytes": 388487
+   },
+   "finmind\\raw\\kbar\\2442": {
+    "files": 564,
+    "bytes": 4798550
+   },
+   "finmind\\raw\\kbar\\2450": {
+    "files": 564,
+    "bytes": 1487235
+   },
+   "finmind\\raw\\kbar\\2454": {
+    "files": 10,
+    "bytes": 178585
+   },
+   "finmind\\raw\\kbar\\2457": {
+    "files": 564,
+    "bytes": 6954261
+   },
+   "finmind\\raw\\kbar\\2462": {
+    "files": 564,
+    "bytes": 3588830
+   },
+   "finmind\\raw\\kbar\\2477": {
+    "files": 564,
+    "bytes": 2467326
+   },
+   "finmind\\raw\\kbar\\2478": {
+    "files": 564,
+    "bytes": 2104698
+   },
+   "finmind\\raw\\kbar\\2484": {
+    "files": 564,
+    "bytes": 2720257
+   },
+   "finmind\\raw\\kbar\\2488": {
+    "files": 564,
+    "bytes": 3037985
+   },
+   "finmind\\raw\\kbar\\2495": {
+    "files": 564,
+    "bytes": 5760328
+   },
+   "finmind\\raw\\kbar\\2497": {
+    "files": 564,
+    "bytes": 4056008
+   },
+   "finmind\\raw\\kbar\\2498": {
+    "files": 564,
+    "bytes": 8324697
+   },
+   "finmind\\raw\\kbar\\2504": {
+    "files": 564,
+    "bytes": 7290957
+   },
+   "finmind\\raw\\kbar\\2505": {
+    "files": 564,
+    "bytes": 2459707
+   },
+   "finmind\\raw\\kbar\\2524": {
+    "files": 564,
+    "bytes": 3195876
+   },
+   "finmind\\raw\\kbar\\2527": {
+    "files": 564,
+    "bytes": 2934332
+   },
+   "finmind\\raw\\kbar\\2528": {
+    "files": 564,
+    "bytes": 3109885
+   },
+   "finmind\\raw\\kbar\\2530": {
+    "files": 564,
+    "bytes": 3872422
+   },
+   "finmind\\raw\\kbar\\2534": {
+    "files": 564,
+    "bytes": 3428708
+   },
+   "finmind\\raw\\kbar\\2536": {
+    "files": 564,
+    "bytes": 2076245
+   },
+   "finmind\\raw\\kbar\\2542": {
+    "files": 564,
+    "bytes": 7847947
+   },
+   "finmind\\raw\\kbar\\2545": {
+    "files": 564,
+    "bytes": 3990142
+   },
+   "finmind\\raw\\kbar\\2605": {
+    "files": 564,
+    "bytes": 7647776
+   },
+   "finmind\\raw\\kbar\\2607": {
+    "files": 564,
+    "bytes": 6124767
+   },
+   "finmind\\raw\\kbar\\2608": {
+    "files": 564,
+    "bytes": 2235765
+   },
+   "finmind\\raw\\kbar\\2610": {
+    "files": 564,
+    "bytes": 9279305
+   },
+   "finmind\\raw\\kbar\\2611": {
+    "files": 564,
+    "bytes": 4079349
+   },
+   "finmind\\raw\\kbar\\2612": {
+    "files": 564,
+    "bytes": 3949673
+   },
+   "finmind\\raw\\kbar\\2613": {
+    "files": 564,
+    "bytes": 3673532
+   },
+   "finmind\\raw\\kbar\\2617": {
+    "files": 564,
+    "bytes": 4866780
+   },
+   "finmind\\raw\\kbar\\2618": {
+    "files": 564,
+    "bytes": 9369817
+   },
+   "finmind\\raw\\kbar\\2630": {
+    "files": 564,
+    "bytes": 6450448
+   },
+   "finmind\\raw\\kbar\\2633": {
+    "files": 564,
+    "bytes": 6984802
+   },
+   "finmind\\raw\\kbar\\2634": {
+    "files": 564,
+    "bytes": 8549267
+   },
+   "finmind\\raw\\kbar\\2642": {
+    "files": 564,
+    "bytes": 1296052
+   },
+   "finmind\\raw\\kbar\\2646": {
+    "files": 564,
+    "bytes": 2848578
+   },
+   "finmind\\raw\\kbar\\2704": {
+    "files": 564,
+    "bytes": 2039310
+   },
+   "finmind\\raw\\kbar\\2722": {
+    "files": 564,
+    "bytes": 2110178
+   },
+   "finmind\\raw\\kbar\\2739": {
+    "files": 564,
+    "bytes": 3459883
+   },
+   "finmind\\raw\\kbar\\2748": {
+    "files": 564,
+    "bytes": 3544931
+   },
+   "finmind\\raw\\kbar\\2812": {
+    "files": 564,
+    "bytes": 7711919
+   },
+   "finmind\\raw\\kbar\\2816": {
+    "files": 564,
+    "bytes": 3062767
+   },
+   "finmind\\raw\\kbar\\2832": {
+    "files": 564,
+    "bytes": 2509231
+   },
+   "finmind\\raw\\kbar\\2851": {
+    "files": 564,
+    "bytes": 4769300
+   },
+   "finmind\\raw\\kbar\\2852": {
+    "files": 564,
+    "bytes": 2599685
+   },
+   "finmind\\raw\\kbar\\2855": {
+    "files": 564,
+    "bytes": 5841274
+   },
+   "finmind\\raw\\kbar\\2880": {
+    "files": 564,
+    "bytes": 8662969
+   },
+   "finmind\\raw\\kbar\\2881": {
+    "files": 10,
+    "bytes": 158239
+   },
+   "finmind\\raw\\kbar\\2882": {
+    "files": 10,
+    "bytes": 155950
+   },
+   "finmind\\raw\\kbar\\2884": {
+    "files": 564,
+    "bytes": 9287274
+   },
+   "finmind\\raw\\kbar\\2885": {
+    "files": 564,
+    "bytes": 9196371
+   },
+   "finmind\\raw\\kbar\\2886": {
+    "files": 564,
+    "bytes": 9247712
+   },
+   "finmind\\raw\\kbar\\2891": {
+    "files": 10,
+    "bytes": 164372
+   },
+   "finmind\\raw\\kbar\\2892": {
+    "files": 10,
+    "bytes": 158175
+   },
+   "finmind\\raw\\kbar\\2912": {
+    "files": 10,
+    "bytes": 111498
+   },
+   "finmind\\raw\\kbar\\3008": {
+    "files": 10,
+    "bytes": 69873
+   },
+   "finmind\\raw\\kbar\\3045": {
+    "files": 10,
+    "bytes": 163936
+   },
+   "finmind\\raw\\kbar\\4906": {
+    "files": 564,
+    "bytes": 7407291
+   },
+   "finmind\\raw\\kbar\\4916": {
+    "files": 564,
+    "bytes": 5884411
+   },
+   "finmind\\raw\\kbar\\4927": {
+    "files": 564,
+    "bytes": 4916461
+   },
+   "finmind\\raw\\kbar\\4930": {
+    "files": 564,
+    "bytes": 1283064
+   },
+   "finmind\\raw\\kbar\\4935": {
+    "files": 564,
+    "bytes": 1574105
+   },
+   "finmind\\raw\\kbar\\4942": {
+    "files": 564,
+    "bytes": 1656778
+   },
+   "finmind\\raw\\kbar\\4952": {
+    "files": 564,
+    "bytes": 2843033
+   },
+   "finmind\\raw\\kbar\\4956": {
+    "files": 564,
+    "bytes": 4711497
+   },
+   "finmind\\raw\\kbar\\4976": {
+    "files": 564,
+    "bytes": 4100484
+   },
+   "finmind\\raw\\kbar\\4999": {
+    "files": 564,
+    "bytes": 907566
+   },
+   "finmind\\raw\\kbar\\5215": {
+    "files": 564,
+    "bytes": 1518862
+   },
+   "finmind\\raw\\kbar\\5244": {
+    "files": 564,
+    "bytes": 3277327
+   },
+   "finmind\\raw\\kbar\\5285": {
+    "files": 564,
+    "bytes": 2077499
+   },
+   "finmind\\raw\\kbar\\5471": {
+    "files": 564,
+    "bytes": 3016787
+   },
+   "finmind\\raw\\kbar\\5515": {
+    "files": 564,
+    "bytes": 3735193
+   },
+   "finmind\\raw\\kbar\\5519": {
+    "files": 564,
+    "bytes": 4132857
+   },
+   "finmind\\raw\\kbar\\5525": {
+    "files": 564,
+    "bytes": 1334095
+   },
+   "finmind\\raw\\kbar\\5538": {
+    "files": 564,
+    "bytes": 423190
+   },
+   "finmind\\raw\\kbar\\5546": {
+    "files": 564,
+    "bytes": 356985
+   },
+   "finmind\\raw\\kbar\\5607": {
+    "files": 564,
+    "bytes": 4031362
+   },
+   "finmind\\raw\\kbar\\5871": {
+    "files": 10,
+    "bytes": 154348
+   },
+   "finmind\\raw\\kbar\\5876": {
+    "files": 564,
+    "bytes": 8034192
+   },
+   "finmind\\raw\\kbar\\5880": {
+    "files": 564,
+    "bytes": 8827451
+   },
+   "finmind\\raw\\kbar\\5906": {
+    "files": 564,
+    "bytes": 329915
+   },
+   "finmind\\raw\\kbar\\6005": {
+    "files": 564,
+    "bytes": 7772539
+   },
+   "finmind\\raw\\kbar\\6024": {
+    "files": 564,
+    "bytes": 2694981
+   },
+   "finmind\\raw\\kbar\\6128": {
+    "files": 564,
+    "bytes": 1605703
+   },
+   "finmind\\raw\\kbar\\6136": {
+    "files": 564,
+    "bytes": 1889972
+   },
+   "finmind\\raw\\kbar\\6155": {
+    "files": 564,
+    "bytes": 2004447
+   },
+   "finmind\\raw\\kbar\\6177": {
+    "files": 564,
+    "bytes": 5597758
+   },
+   "finmind\\raw\\kbar\\6202": {
+    "files": 564,
+    "bytes": 4946987
+   },
+   "finmind\\raw\\kbar\\6205": {
+    "files": 564,
+    "bytes": 2864948
+   },
+   "finmind\\raw\\kbar\\6209": {
+    "files": 564,
+    "bytes": 4411256
+   },
+   "finmind\\raw\\kbar\\6216": {
+    "files": 564,
+    "bytes": 3569249
+   },
+   "finmind\\raw\\kbar\\6224": {
+    "files": 564,
+    "bytes": 2185875
+   },
+   "finmind\\raw\\kbar\\6243": {
+    "files": 564,
+    "bytes": 3626656
+   },
+   "finmind\\raw\\kbar\\6282": {
+    "files": 564,
+    "bytes": 8004812
+   },
+   "finmind\\raw\\kbar\\6283": {
+    "files": 564,
+    "bytes": 2447504
+   },
+   "finmind\\raw\\kbar\\6405": {
+    "files": 564,
+    "bytes": 2641197
+   },
+   "finmind\\raw\\kbar\\6456": {
+    "files": 564,
+    "bytes": 4793998
+   },
+   "finmind\\raw\\kbar\\6477": {
+    "files": 564,
+    "bytes": 4360219
+   },
+   "finmind\\raw\\kbar\\6505": {
+    "files": 564,
+    "bytes": 7820476
+   },
+   "finmind\\raw\\kbar\\6552": {
+    "files": 564,
+    "bytes": 1607272
+   },
+   "finmind\\raw\\kbar\\6582": {
+    "files": 564,
+    "bytes": 1221560
+   },
+   "finmind\\raw\\kbar\\6606": {
+    "files": 564,
+    "bytes": 1379109
+   },
+   "finmind\\raw\\kbar\\6641": {
+    "files": 564,
+    "bytes": 274179
+   },
+   "finmind\\raw\\kbar\\6666": {
+    "files": 564,
+    "bytes": 568256
+   },
+   "finmind\\raw\\kbar\\6668": {
+    "files": 564,
+    "bytes": 4270001
+   },
+   "finmind\\raw\\kbar\\6671": {
+    "files": 564,
+    "bytes": 363315
+   },
+   "finmind\\raw\\kbar\\6674": {
+    "files": 564,
+    "bytes": 863828
+   },
+   "finmind\\raw\\kbar\\6695": {
+    "files": 564,
+    "bytes": 5451739
+   },
+   "finmind\\raw\\kbar\\6698": {
+    "files": 564,
+    "bytes": 2708246
+   },
+   "finmind\\raw\\kbar\\6743": {
+    "files": 564,
+    "bytes": 2566753
+   },
+   "finmind\\raw\\kbar\\6790": {
+    "files": 564,
+    "bytes": 2191525
+   },
+   "finmind\\raw\\kbar\\6834": {
+    "files": 564,
+    "bytes": 2106250
+   },
+   "finmind\\raw\\kbar\\6835": {
+    "files": 564,
+    "bytes": 2004297
+   },
+   "finmind\\raw\\kbar\\6838": {
+    "files": 564,
+    "bytes": 1768465
+   },
+   "finmind\\raw\\kbar\\6861": {
+    "files": 564,
+    "bytes": 1314809
+   },
+   "finmind\\raw\\kbar\\6885": {
+    "files": 564,
+    "bytes": 897301
+   },
+   "finmind\\raw\\kbar\\6901": {
+    "files": 564,
+    "bytes": 4394527
+   },
+   "finmind\\raw\\kbar\\6916": {
+    "files": 564,
+    "bytes": 1035741
+   },
+   "finmind\\raw\\kbar\\6928": {
+    "files": 564,
+    "bytes": 1561322
+   },
+   "finmind\\raw\\kbar\\6952": {
+    "files": 564,
+    "bytes": 407314
+   },
+   "finmind\\raw\\kbar\\6958": {
+    "files": 564,
+    "bytes": 279035
+   },
+   "finmind\\raw\\kbar\\8011": {
+    "files": 564,
+    "bytes": 5920126
+   },
+   "finmind\\raw\\kbar\\8021": {
+    "files": 564,
+    "bytes": 4630845
+   },
+   "finmind\\raw\\kbar\\8039": {
+    "files": 564,
+    "bytes": 5688776
+   },
+   "finmind\\raw\\kbar\\8070": {
+    "files": 564,
+    "bytes": 6794959
+   },
+   "finmind\\raw\\kbar\\8072": {
+    "files": 564,
+    "bytes": 2595357
+   },
+   "finmind\\raw\\kbar\\8103": {
+    "files": 564,
+    "bytes": 3990691
+   },
+   "finmind\\raw\\kbar\\8104": {
+    "files": 564,
+    "bytes": 3967875
+   },
+   "finmind\\raw\\kbar\\8112": {
+    "files": 564,
+    "bytes": 7917377
+   },
+   "finmind\\raw\\kbar\\8131": {
+    "files": 564,
+    "bytes": 2768604
+   },
+   "finmind\\raw\\kbar\\8150": {
+    "files": 564,
+    "bytes": 7294957
+   },
+   "finmind\\raw\\kbar\\8163": {
+    "files": 564,
+    "bytes": 4982163
+   },
+   "finmind\\raw\\kbar\\8213": {
+    "files": 564,
+    "bytes": 3558851
+   },
+   "finmind\\raw\\kbar\\8215": {
+    "files": 564,
+    "bytes": 4124012
+   },
+   "finmind\\raw\\kbar\\8367": {
+    "files": 564,
+    "bytes": 881497
+   },
+   "finmind\\raw\\kbar\\8404": {
+    "files": 564,
+    "bytes": 3416732
+   },
+   "finmind\\raw\\kbar\\8438": {
+    "files": 564,
+    "bytes": 1960707
+   },
+   "finmind\\raw\\kbar\\8463": {
+    "files": 564,
+    "bytes": 1157767
+   },
+   "finmind\\raw\\kbar\\8466": {
+    "files": 564,
+    "bytes": 1014917
+   },
+   "finmind\\raw\\kbar\\8473": {
+    "files": 564,
+    "bytes": 3250538
+   },
+   "finmind\\raw\\kbar\\8476": {
+    "files": 564,
+    "bytes": 1178864
+   },
+   "finmind\\raw\\kbar\\8481": {
+    "files": 564,
+    "bytes": 323189
+   },
+   "finmind\\raw\\kbar\\8926": {
+    "files": 564,
+    "bytes": 5562446
+   },
+   "finmind\\raw\\kbar\\8940": {
+    "files": 564,
+    "bytes": 1724188
+   },
+   "finmind\\raw\\kbar\\9904": {
+    "files": 564,
+    "bytes": 8820914
+   },
+   "finmind\\raw\\kbar\\9905": {
+    "files": 564,
+    "bytes": 1123915
+   },
+   "finmind\\raw\\kbar\\9908": {
+    "files": 564,
+    "bytes": 1182670
+   },
+   "finmind\\raw\\kbar\\9918": {
+    "files": 564,
+    "bytes": 203650
+   },
+   "finmind\\raw\\kbar\\9924": {
+    "files": 564,
+    "bytes": 2747662
+   },
+   "finmind\\raw\\kbar\\9925": {
+    "files": 564,
+    "bytes": 1719777
+   },
+   "finmind\\raw\\kbar\\9931": {
+    "files": 564,
+    "bytes": 312739
+   },
+   "finmind\\raw\\kbar\\9933": {
+    "files": 564,
+    "bytes": 7558276
+   },
+   "finmind\\raw\\kbar\\9935": {
+    "files": 564,
+    "bytes": 2975497
+   },
+   "finmind\\raw\\kbar\\9940": {
+    "files": 564,
+    "bytes": 2628994
+   },
+   "finmind\\raw\\kbar\\9945": {
+    "files": 564,
+    "bytes": 8144370
+   },
+   "finmind\\raw\\kbar\\9946": {
+    "files": 564,
+    "bytes": 2977852
+   },
+   "finmind\\raw\\kbar\\9955": {
+    "files": 564,
+    "bytes": 4427566
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616": {
+    "files": 384,
+    "bytes": 973807
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\1101": {
+    "files": 2,
+    "bytes": 11606
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\1102": {
+    "files": 2,
+    "bytes": 10598
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\1104": {
+    "files": 2,
+    "bytes": 5463
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\1203": {
+    "files": 2,
+    "bytes": 696
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\1218": {
+    "files": 2,
+    "bytes": 3109
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\1225": {
+    "files": 2,
+    "bytes": 5080
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\1227": {
+    "files": 2,
+    "bytes": 2873
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\1229": {
+    "files": 2,
+    "bytes": 5195
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\1233": {
+    "files": 2,
+    "bytes": 178
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\1234": {
+    "files": 2,
+    "bytes": 1324
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\1236": {
+    "files": 2,
+    "bytes": 1663
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\1301": {
+    "files": 2,
+    "bytes": 10345
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\1303": {
+    "files": 2,
+    "bytes": 11549
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\1307": {
+    "files": 2,
+    "bytes": 3449
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\1321": {
+    "files": 2,
+    "bytes": 905
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\1325": {
+    "files": 2,
+    "bytes": 6679
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\1326": {
+    "files": 2,
+    "bytes": 9927
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\1402": {
+    "files": 2,
+    "bytes": 11529
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\1410": {
+    "files": 2,
+    "bytes": 306
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\1418": {
+    "files": 2,
+    "bytes": 226
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\1423": {
+    "files": 2,
+    "bytes": 222
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\1437": {
+    "files": 2,
+    "bytes": 765
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\1438": {
+    "files": 2,
+    "bytes": 626
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\1439": {
+    "files": 2,
+    "bytes": 266
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\1443": {
+    "files": 2,
+    "bytes": 142
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\1446": {
+    "files": 2,
+    "bytes": 1696
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\1470": {
+    "files": 2,
+    "bytes": 98
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\1473": {
+    "files": 2,
+    "bytes": 7187
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\1475": {
+    "files": 2,
+    "bytes": 1144
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\1504": {
+    "files": 2,
+    "bytes": 12020
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\1515": {
+    "files": 2,
+    "bytes": 2439
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\1521": {
+    "files": 2,
+    "bytes": 382
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\1522": {
+    "files": 2,
+    "bytes": 4681
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\1524": {
+    "files": 2,
+    "bytes": 3865
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\1527": {
+    "files": 2,
+    "bytes": 1303
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\1529": {
+    "files": 2,
+    "bytes": 2406
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\1530": {
+    "files": 2,
+    "bytes": 258
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\1532": {
+    "files": 2,
+    "bytes": 4138
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\1533": {
+    "files": 2,
+    "bytes": 1500
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\1539": {
+    "files": 2,
+    "bytes": 771
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\1540": {
+    "files": 2,
+    "bytes": 2787
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\1541": {
+    "files": 2,
+    "bytes": 182
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\1603": {
+    "files": 2,
+    "bytes": 3156
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\1604": {
+    "files": 2,
+    "bytes": 1135
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\1605": {
+    "files": 2,
+    "bytes": 11695
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\1608": {
+    "files": 2,
+    "bytes": 10856
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\1609": {
+    "files": 2,
+    "bytes": 10016
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\1612": {
+    "files": 2,
+    "bytes": 6799
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\1614": {
+    "files": 2,
+    "bytes": 598
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\1616": {
+    "files": 2,
+    "bytes": 6324
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\1618": {
+    "files": 2,
+    "bytes": 6097
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\1702": {
+    "files": 2,
+    "bytes": 2498
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\1708": {
+    "files": 2,
+    "bytes": 2653
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\1712": {
+    "files": 2,
+    "bytes": 3625
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\1717": {
+    "files": 2,
+    "bytes": 11154
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\1725": {
+    "files": 2,
+    "bytes": 1141
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\1727": {
+    "files": 2,
+    "bytes": 10825
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\1731": {
+    "files": 2,
+    "bytes": 801
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\1732": {
+    "files": 2,
+    "bytes": 3351
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\1733": {
+    "files": 2,
+    "bytes": 6306
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\1734": {
+    "files": 2,
+    "bytes": 1786
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\1737": {
+    "files": 2,
+    "bytes": 942
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\1752": {
+    "files": 2,
+    "bytes": 795
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\1762": {
+    "files": 2,
+    "bytes": 1685
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\1808": {
+    "files": 2,
+    "bytes": 5127
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\1817": {
+    "files": 2,
+    "bytes": 984
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\1907": {
+    "files": 2,
+    "bytes": 2943
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\2008": {
+    "files": 2,
+    "bytes": 224
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\2009": {
+    "files": 2,
+    "bytes": 11365
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\2013": {
+    "files": 2,
+    "bytes": 844
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\2020": {
+    "files": 2,
+    "bytes": 2325
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\2027": {
+    "files": 2,
+    "bytes": 11319
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\2029": {
+    "files": 2,
+    "bytes": 891
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\2031": {
+    "files": 2,
+    "bytes": 4107
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\2034": {
+    "files": 2,
+    "bytes": 3932
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\2101": {
+    "files": 2,
+    "bytes": 5290
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\2102": {
+    "files": 2,
+    "bytes": 1921
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\2105": {
+    "files": 2,
+    "bytes": 11547
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\2106": {
+    "files": 2,
+    "bytes": 1804
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\2107": {
+    "files": 2,
+    "bytes": 1164
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\2108": {
+    "files": 2,
+    "bytes": 1994
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\2115": {
+    "files": 2,
+    "bytes": 430
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\2201": {
+    "files": 2,
+    "bytes": 5484
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\2239": {
+    "files": 2,
+    "bytes": 1693
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\2241": {
+    "files": 2,
+    "bytes": 6798
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\2303": {
+    "files": 2,
+    "bytes": 11806
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\2312": {
+    "files": 2,
+    "bytes": 10072
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\2324": {
+    "files": 2,
+    "bytes": 11706
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\2328": {
+    "files": 2,
+    "bytes": 10596
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\2329": {
+    "files": 2,
+    "bytes": 11166
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\2337": {
+    "files": 2,
+    "bytes": 11578
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\2338": {
+    "files": 2,
+    "bytes": 7085
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\2340": {
+    "files": 2,
+    "bytes": 10065
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\2342": {
+    "files": 2,
+    "bytes": 2369
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\2344": {
+    "files": 2,
+    "bytes": 11900
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\2352": {
+    "files": 2,
+    "bytes": 98
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\2353": {
+    "files": 2,
+    "bytes": 11568
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\2355": {
+    "files": 2,
+    "bytes": 6442
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\2356": {
+    "files": 2,
+    "bytes": 11616
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\2362": {
+    "files": 2,
+    "bytes": 2821
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\2363": {
+    "files": 2,
+    "bytes": 9852
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\2365": {
+    "files": 2,
+    "bytes": 8648
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\2367": {
+    "files": 2,
+    "bytes": 9140
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\2371": {
+    "files": 2,
+    "bytes": 10958
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\2387": {
+    "files": 2,
+    "bytes": 3340
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\2402": {
+    "files": 2,
+    "bytes": 9969
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\2414": {
+    "files": 2,
+    "bytes": 1385
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\2415": {
+    "files": 2,
+    "bytes": 1241
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\2417": {
+    "files": 2,
+    "bytes": 4413
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\2419": {
+    "files": 2,
+    "bytes": 4303
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\2423": {
+    "files": 2,
+    "bytes": 2420
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\2425": {
+    "files": 2,
+    "bytes": 1679
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\2427": {
+    "files": 2,
+    "bytes": 3836
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\2430": {
+    "files": 2,
+    "bytes": 646
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\2434": {
+    "files": 2,
+    "bytes": 380
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\2442": {
+    "files": 2,
+    "bytes": 3382
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\2450": {
+    "files": 2,
+    "bytes": 1115
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\2457": {
+    "files": 2,
+    "bytes": 6731
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\2462": {
+    "files": 2,
+    "bytes": 2304
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\2477": {
+    "files": 2,
+    "bytes": 1197
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\2478": {
+    "files": 2,
+    "bytes": 9127
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\2484": {
+    "files": 2,
+    "bytes": 2726
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\2488": {
+    "files": 2,
+    "bytes": 1815
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\2495": {
+    "files": 2,
+    "bytes": 6887
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\2497": {
+    "files": 2,
+    "bytes": 2462
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\2498": {
+    "files": 2,
+    "bytes": 10818
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\2504": {
+    "files": 2,
+    "bytes": 6550
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\2505": {
+    "files": 2,
+    "bytes": 1137
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\2524": {
+    "files": 2,
+    "bytes": 3063
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\2527": {
+    "files": 2,
+    "bytes": 1853
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\2528": {
+    "files": 2,
+    "bytes": 3597
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\2530": {
+    "files": 2,
+    "bytes": 3236
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\2534": {
+    "files": 2,
+    "bytes": 2728
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\2536": {
+    "files": 2,
+    "bytes": 1047
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\2542": {
+    "files": 2,
+    "bytes": 10778
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\2545": {
+    "files": 2,
+    "bytes": 3783
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\2605": {
+    "files": 2,
+    "bytes": 6946
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\2607": {
+    "files": 2,
+    "bytes": 98
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\2608": {
+    "files": 2,
+    "bytes": 1163
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\2610": {
+    "files": 2,
+    "bytes": 11410
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\2611": {
+    "files": 2,
+    "bytes": 1450
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\2612": {
+    "files": 2,
+    "bytes": 5490
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\2613": {
+    "files": 2,
+    "bytes": 3013
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\2617": {
+    "files": 2,
+    "bytes": 3177
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\2618": {
+    "files": 2,
+    "bytes": 11437
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\2630": {
+    "files": 2,
+    "bytes": 10099
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\2633": {
+    "files": 2,
+    "bytes": 6415
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\2634": {
+    "files": 2,
+    "bytes": 10900
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\2642": {
+    "files": 2,
+    "bytes": 1506
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\2646": {
+    "files": 2,
+    "bytes": 11004
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\2704": {
+    "files": 2,
+    "bytes": 805
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\2722": {
+    "files": 2,
+    "bytes": 544
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\2739": {
+    "files": 2,
+    "bytes": 930
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\2748": {
+    "files": 2,
+    "bytes": 1594
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\2812": {
+    "files": 2,
+    "bytes": 9620
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\2816": {
+    "files": 2,
+    "bytes": 722
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\2832": {
+    "files": 2,
+    "bytes": 6781
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\2851": {
+    "files": 2,
+    "bytes": 3882
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\2852": {
+    "files": 2,
+    "bytes": 1642
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\2855": {
+    "files": 2,
+    "bytes": 7691
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\2880": {
+    "files": 2,
+    "bytes": 10532
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\2884": {
+    "files": 2,
+    "bytes": 11410
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\2885": {
+    "files": 2,
+    "bytes": 11462
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\2886": {
+    "files": 2,
+    "bytes": 11440
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\4906": {
+    "files": 2,
+    "bytes": 7600
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\4916": {
+    "files": 2,
+    "bytes": 10972
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\4927": {
+    "files": 2,
+    "bytes": 10089
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\4930": {
+    "files": 2,
+    "bytes": 638
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\4935": {
+    "files": 2,
+    "bytes": 1051
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\4942": {
+    "files": 2,
+    "bytes": 1336
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\4952": {
+    "files": 2,
+    "bytes": 1510
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\4956": {
+    "files": 2,
+    "bytes": 7226
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\4976": {
+    "files": 2,
+    "bytes": 6568
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\4999": {
+    "files": 2,
+    "bytes": 1009
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\5215": {
+    "files": 2,
+    "bytes": 312
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\5244": {
+    "files": 2,
+    "bytes": 4120
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\5285": {
+    "files": 2,
+    "bytes": 2756
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\5471": {
+    "files": 2,
+    "bytes": 2844
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\5515": {
+    "files": 2,
+    "bytes": 1582
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\5519": {
+    "files": 1,
+    "bytes": 1834
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\5525": {
+    "files": 1,
+    "bytes": 495
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\5538": {
+    "files": 1,
+    "bytes": 345
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\5546": {
+    "files": 1,
+    "bytes": 588
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\5607": {
+    "files": 1,
+    "bytes": 5946
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\5876": {
+    "files": 1,
+    "bytes": 9322
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\5880": {
+    "files": 1,
+    "bytes": 11414
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\5906": {
+    "files": 1,
+    "bytes": 209
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\6005": {
+    "files": 1,
+    "bytes": 10342
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\6024": {
+    "files": 1,
+    "bytes": 1703
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\6128": {
+    "files": 1,
+    "bytes": 713
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\6136": {
+    "files": 1,
+    "bytes": 1933
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\6155": {
+    "files": 1,
+    "bytes": 3237
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\6177": {
+    "files": 1,
+    "bytes": 8147
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\6202": {
+    "files": 1,
+    "bytes": 6781
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\6205": {
+    "files": 1,
+    "bytes": 1295
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\6209": {
+    "files": 1,
+    "bytes": 9853
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\6216": {
+    "files": 1,
+    "bytes": 1269
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\6224": {
+    "files": 1,
+    "bytes": 7084
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\6243": {
+    "files": 1,
+    "bytes": 1478
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\6282": {
+    "files": 1,
+    "bytes": 11115
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\6283": {
+    "files": 1,
+    "bytes": 1705
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\6405": {
+    "files": 1,
+    "bytes": 3346
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\6456": {
+    "files": 1,
+    "bytes": 5664
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\6477": {
+    "files": 1,
+    "bytes": 7883
+   },
+   "finmind\\raw\\kbar_backup_20251002_151616\\6505": {
+    "files": 1,
+    "bytes": 9894
+   },
+   "finmind\\raw\\obt_5s": {
+    "files": 0,
+    "bytes": 0
+   },
+   "finmind\\raw\\tse_5s": {
+    "files": 1,
+    "bytes": 109896
+   },
+   "Taiwan STOCK": {
+    "files": 265,
+    "bytes": 9924451
+   }
+  }
+ },
+ "stock_list": {
+  "path": "finmind/.runtime/cleaned_stocks.txt",
+  "count": 263,
+  "selected_5": [
+   "6958",
+   "1470",
+   "2241",
+   "6216",
+   "4942"
+  ],
+  "overlap_with_shioaji_universe": 12
+ },
+ "samples": {
+  "taiwan_stock_1101": {
+   "header": [
+    "date",
+    "stock_id",
+    "Trading_Volume",
+    "Trading_money",
+    "open",
+    "max",
+    "min",
+    "close",
+    "spread",
+    "Trading_turnover"
+   ],
+   "rows": [
+    [
+     "2023-01-03",
+     "1101",
+     "11654098",
+     "390507579",
+     "33.6",
+     "33.75",
+     "33.3",
+     "33.5",
+     "-0.15",
+     "5607"
+    ],
+    [
+     "2023-01-04",
+     "1101",
+     "10493097",
+     "352240731",
+     "33.65",
+     "33.75",
+     "33.5",
+     "33.5",
+     "0.0",
+     "4256"
+    ],
+    [
+     "2023-01-05",
+     "1101",
+     "27376555",
+     "942670410",
+     "34.15",
+     "34.7",
+     "34.05",
+     "34.45",
+     "0.95",
+     "12553"
+    ]
+   ],
+   "cols": 10
+  },
+  "finmind_kbar_1101": {
+   "header": [
+    "minute",
+    "date",
+    "stock_id",
+    "open",
+    "high",
+    "low",
+    "close",
+    "volume"
+   ],
+   "rows": [
+    [
+     "2023-07-03 09:00:00",
+     "2023-07-03",
+     "1101",
+     "38.2",
+     "38.25",
+     "38.15",
+     "38.25",
+     "201"
+    ],
+    [
+     "2023-07-03 09:01:00",
+     "2023-07-03",
+     "1101",
+     "38.25",
+     "38.3",
+     "38.25",
+     "38.25",
+     "64"
+    ],
+    [
+     "2023-07-03 09:02:00",
+     "2023-07-03",
+     "1101",
+     "38.25",
+     "38.3",
+     "38.2",
+     "38.2",
+     "44"
+    ]
+   ],
+   "cols": 8
+  },
+  "finmind_daily_1470": {
+   "header": [
+    "date",
+    "stock_id",
+    "Trading_Volume",
+    "Trading_money",
+    "open",
+    "max",
+    "min",
+    "close",
+    "spread",
+    "Trading_turnover"
+   ],
+   "rows": [
+    [
+     "1999-05-21",
+     "1470",
+     "81000",
+     "1644300",
+     "20.3",
+     "20.3",
+     "20.3",
+     "20.3",
+     "0.0",
+     "81"
+    ],
+    [
+     "1999-05-24",
+     "1470",
+     "2360702",
+     "51221622",
+     "21.7",
+     "21.7",
+     "21.7",
+     "21.7",
+     "1.4",
+     "2353"
+    ],
+    [
+     "1999-05-25",
+     "1470",
+     "2336000",
+     "48678000",
+     "21.5",
+     "21.5",
+     "20.3",
+     "20.5",
+     "-1.2",
+     "2302"
+    ]
+   ],
+   "cols": 10
+  },
+  "finmind_index_5s": {
+   "header": [
+    "date",
+    "minute",
+    "stock_id",
+    "price",
+    "kind"
+   ],
+   "rows": [
+    [
+     "2023-07-03",
+     "09:00:00",
+     "Automobile",
+     "444.87",
+     "twse"
+    ],
+    [
+     "2023-07-03",
+     "09:00:05",
+     "Automobile",
+     "444.9",
+     "twse"
+    ],
+    [
+     "2023-07-03",
+     "09:00:10",
+     "Automobile",
+     "445.92",
+     "twse"
+    ]
+   ],
+   "cols": 5
+  },
+  "finmind_index_kbar": {
+   "header": [
+    "date",
+    "minute",
+    "stock_id",
+    "open",
+    "high",
+    "low",
+    "close",
+    "volume"
+   ],
+   "rows": [
+    [
+     "2023-07-03",
+     "09:00:00",
+     "TAIEX",
+     "16915.54",
+     "17017.54",
+     "16915.54",
+     "17012.46",
+     ""
+    ],
+    [
+     "2023-07-03",
+     "09:01:00",
+     "TAIEX",
+     "17020.9",
+     "17020.9",
+     "17003.92",
+     "17014.02",
+     ""
+    ],
+    [
+     "2023-07-03",
+     "09:02:00",
+     "TAIEX",
+     "17016.2",
+     "17025.29",
+     "17014.17",
+     "17019.58",
+     ""
+    ]
+   ],
+   "cols": 8
+  }
+ },
+ "rights_provenance": {
+  "source": "LOCAL_LEGACY_CORPUS (WAVE1 inventory identity 60e46475)",
+  "origin": "FinMind-derived + Taiwan STOCK historical dumps (research-only)",
+  "entitlement": "RESTRICTED_RESEARCH; no redistribution; parity/gap-fill only",
+  "status": "PENDING_RIGHTS_RECORD"
+ },
+ "crosswalk": [
+  {
+   "legacy_symbol": "1101",
+   "in_shioaji_universe": true,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "1102",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "1104",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "1203",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "1218",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "1225",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "1227",
+   "in_shioaji_universe": true,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "1229",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "1233",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "1234",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "1236",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "1301",
+   "in_shioaji_universe": true,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "1303",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "1307",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "1321",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "1325",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "1326",
+   "in_shioaji_universe": true,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "1402",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "1410",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "1418",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "1423",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "1437",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "1438",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "1439",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "1443",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "1446",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "1470",
+   "in_shioaji_universe": false,
+   "in_selected5": true
+  },
+  {
+   "legacy_symbol": "1473",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "1475",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "1504",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "1515",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "1521",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "1522",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "1524",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "1527",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "1529",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "1530",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "1532",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "1533",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "1539",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "1540",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "1541",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "1603",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "1604",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "1605",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "1608",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "1609",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "1612",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "1614",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "1616",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "1618",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "1702",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "1708",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "1712",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "1717",
+   "in_shioaji_universe": true,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "1725",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "1727",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "1731",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "1732",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "1733",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "1734",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "1737",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "1752",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "1762",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "1808",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "1817",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "1907",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "2008",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "2009",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "2013",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "2020",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "2027",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "2029",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "2031",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "2034",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "2101",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "2102",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "2105",
+   "in_shioaji_universe": true,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "2106",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "2107",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "2108",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "2115",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "2201",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "2239",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "2241",
+   "in_shioaji_universe": false,
+   "in_selected5": true
+  },
+  {
+   "legacy_symbol": "2303",
+   "in_shioaji_universe": true,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "2312",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "2324",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "2328",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "2329",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "2337",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "2338",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "2340",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "2342",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "2344",
+   "in_shioaji_universe": true,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "2352",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "2353",
+   "in_shioaji_universe": true,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "2355",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "2356",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "2362",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "2363",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "2365",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "2367",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "2371",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "2387",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "2402",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "2414",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "2415",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "2417",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "2419",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "2423",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "2425",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "2427",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "2430",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "2434",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "2442",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "2450",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "2457",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "2462",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "2477",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "2478",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "2484",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "2488",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "2495",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "2497",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "2498",
+   "in_shioaji_universe": true,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "2504",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "2505",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "2524",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "2527",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "2528",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "2530",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "2534",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "2536",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "2542",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "2545",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "2605",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "2607",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "2608",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "2610",
+   "in_shioaji_universe": true,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "2611",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "2612",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "2613",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "2617",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "2618",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "2630",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "2633",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "2634",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "2642",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "2646",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "2704",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "2722",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "2739",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "2748",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "2812",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "2816",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "2832",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "2851",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "2852",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "2855",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "2880",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "2884",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "2885",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "2886",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "4906",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "4916",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "4927",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "4930",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "4935",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "4942",
+   "in_shioaji_universe": false,
+   "in_selected5": true
+  },
+  {
+   "legacy_symbol": "4952",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "4956",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "4976",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "4999",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "5215",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "5244",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "5285",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "5471",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "5515",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "5519",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "5525",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "5538",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "5546",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "5607",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "5876",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "5880",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "5906",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "6005",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "6024",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "6128",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "6136",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "6155",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "6177",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "6202",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "6205",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "6209",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "6216",
+   "in_shioaji_universe": false,
+   "in_selected5": true
+  },
+  {
+   "legacy_symbol": "6224",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "6243",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "6282",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "6283",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "6405",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "6456",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "6477",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "6505",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "6552",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "6582",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "6606",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "6641",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "6666",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "6668",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "6671",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "6674",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "6695",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "6698",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "6743",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "6790",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "6834",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "6835",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "6838",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "6861",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "6885",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "6901",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "6916",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "6928",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "6952",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "6958",
+   "in_shioaji_universe": false,
+   "in_selected5": true
+  },
+  {
+   "legacy_symbol": "8011",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "8021",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "8039",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "8070",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "8072",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "8103",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "8104",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "8112",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "8131",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "8150",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "8163",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "8213",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "8215",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "8367",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "8404",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "8438",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "8463",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "8466",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "8473",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "8476",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "8481",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "8926",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "8940",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "9904",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "9905",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "9908",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "9918",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "9924",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "9925",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "9931",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "9933",
+   "in_shioaji_universe": true,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "9935",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "9940",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "9945",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "9946",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  },
+  {
+   "legacy_symbol": "9955",
+   "in_shioaji_universe": false,
+   "in_selected5": false
+  }
+ ]
+}

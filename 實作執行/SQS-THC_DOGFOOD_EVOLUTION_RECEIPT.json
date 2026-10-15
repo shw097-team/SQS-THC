@@ -1,0 +1,44 @@
+{
+  "schema": "SQS-THC-DOGFOOD-EVOLUTION-RECEIPT/1",
+  "reference_project_id": "HGK-REFERENCE-PROJECT-001",
+  "mode": "REAL_EXTERNAL_SYSTEM_DOGFOOD",
+  "hg_kseos_governed_evolution_path": "capture_signal -> fit_gap -> candidate (COV-11-06 promotion policy: independent verifier + Human Policy Owner required; no auto-promote)",
+  "signals_captured": [
+    {
+      "signal_id": "EVO-SIG-32D2CAA8",
+      "signal_type": "WORKFLOW_GAP",
+      "severity": "MEDIUM",
+      "problem": "lifecycle.admit_workorders builds req_id as f'REQ-{project_id.split(\"-\")[-1]}' which collides with the existing REQ-001 (HGK-P0) requirement; the except clause catches InvariantViolation but not sqlite3.IntegrityError, so a second project whose id ends in 001 fails admission",
+      "evidence": "SQS-THC_WORKORDER_ADMISSION.json (admission workaround via shared spine API)",
+      "occurrence": 1,
+      "candidate_worthy": false,
+      "disposition": "SIGNAL_RECORDED; promote only on recurrence >= threshold or HIGH severity (governed evolution recurrence rule)"
+    },
+    {
+      "signal_id": "EVO-SIG-509F4856",
+      "signal_type": "ORCHESTRATION_GAP",
+      "severity": "LOW",
+      "problem": "lifecycle._derive_tasks matches only English goal keywords (system/knowledge/test/acceptance); a Traditional-Chinese goal (本任務的 goal 是中文) produced only 2 generic tasks (Source discovery + Package) instead of the 15 source-backed TaskSpec families",
+      "evidence": "SQS-THC_WORKORDER_ADMISSION.json (15 TS admitted manually per P0-CIP MC registry)",
+      "occurrence": 1,
+      "candidate_worthy": false,
+      "disposition": "SIGNAL_RECORDED; promote only on recurrence or severity escalation"
+    },
+    {
+      "signal_id": "EVO-SIG-UNREGISTERED-FK",
+      "signal_type": "WORKFLOW_GAP",
+      "severity": "LOW",
+      "problem": "register_requirement has FK to projects table but lifecycle project start only writes project_lifecycles; a new project needs spine.create_project first",
+      "evidence": "SQS-THC_WORKORDER_ADMISSION.json (pre-step create_project)",
+      "occurrence": 1,
+      "candidate_worthy": false,
+      "disposition": "SIGNAL_RECORDED (same WORKFLOW_GAP family as EVO-SIG-32D2CAA8)"
+    }
+  ],
+  "promotion_policy": "COV-11-06 source-resolved: promotion requires independent verifier + Human Policy Owner; no automatic promotion at any risk level. All three signals remain candidates_worthy=false -> no HGK core mutation triggered this run.",
+  "hg_kseos_mutation": 0,
+  "second_lifecycle_created": 0,
+  "second_reducer_created": 0,
+  "workaround_scope": "Existing Shared Spine API used for admission (canonical mutation surface), no frozen core modified",
+  "canonical_authority_preserved": true
+}

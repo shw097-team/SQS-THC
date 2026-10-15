@@ -1,0 +1,47 @@
+{
+  "schema": "RBWI-BACKTEST-RUN-RECEIPT/1",
+  "experiment_id": "EXP-RBWI-RFOVERNIGHT-20260820",
+  "candidate": "model-ml-rf-overnight (proxy signal stage)",
+  "scope": "overnight gap, long-only, TWSE liquidity gate",
+  "dataset": "DSV-DAILY-2026-08-13-r2",
+  "engine": "pure-python+duckdb read-only",
+  "cost_model": {
+    "fee_bps": 14.25,
+    "tax_bps": 30.0,
+    "slippage_bps": 5.0,
+    "round_trip_bps": 68.5,
+    "note": "round-trip = fee both(14.25x2) + tax sell(30) + slip both(5x2) = 68.5 bps; applied to every trade"
+  },
+  "IS": {
+    "n": 60,
+    "gross_tot_pct": 12.169,
+    "net_tot_pct": -28.931,
+    "avg_net_pct": -0.4822,
+    "net_win": 45.0,
+    "gross_win": 45.0
+  },
+  "OOS": {
+    "n": 143,
+    "gross_tot_pct": 154.385,
+    "net_tot_pct": 56.43,
+    "avg_net_pct": 0.3946,
+    "net_win": 49.7,
+    "gross_win": 57.3
+  },
+  "deterministic_result_hash": "b00cf8a60b51df48f5f1ecc3527821c9928213913119bc082a81a825fdc4d911",
+  "replay_hash": "b00cf8a60b51df48f5f1ecc3527821c9928213913119bc082a81a825fdc4d911",
+  "deterministic_equivalence": true,
+  "preliminary": {
+    "gross_positive": true,
+    "cost_adjusted_positive_combined": true,
+    "regime_imbalance_disclosure": "IS regime net NEGATIVE (-28.931%, n=60) while OOS net POSITIVE (+56.43%, n=143); positive combined result is driven ENTIRELY by OOS. This INVERTED IS<0/OOS>0 profile is a robustness red flag; NOT established expectancy.",
+    "verdict": "FEASIBILITY_ONLY_POSITIVE_OOS_DRIVEN",
+    "note": "Not acceptance; proxy signal only; real rf weights + independent validation required per DOC-25."
+  },
+  "anti_overfit_gate": "proxy signal only; real rf weights + independent validation required before PAPER (DOC-25)",
+  "nonclaim": "LOCAL/RESEARCH proxy; positive net preview != acceptance; not live/production",
+  "cost_adjusted_per_trade": {
+    "combined_net_total_pct": 27.499,
+    "per_trade_net_pct": 0.1355
+  }
+}

@@ -1,0 +1,71 @@
+{
+ "schema": "SQS-CSB-RBWI-RUNTIME-ACCEPTANCE/1",
+ "changeset": "CS-B-SQS-TWICT-WAVE2-FULL-PROJECT-CLOSURE",
+ "profile": "LOCAL/PAPER (no live write, no broker)",
+ "source": "TW-ICT_RBWI_v3.0.0_r2_2026-07-30 (SF-00/D-01/6.6 chain)",
+ "steps": {
+  "run_id": "RUN-RBWI-31542BA2",
+  "profile": "LOCAL/PAPER",
+  "captured_at_utc": "2026-08-10T16:04:46.243072+00:00",
+  "sf00_runtime_bootstrap": {
+   "state": "ACTIVE",
+   "receipt": {
+    "run_id": "RUN-RBWI-31542BA2",
+    "state": "STARTED",
+    "boot_sha": "d6ae77a34212b6f3efcedf148c1feff59b427206799ef4aea0bde872cc82207f"
+   }
+  },
+  "sf02_daily_compiler": {
+   "state": "COMPILED",
+   "jobcards": {
+    "T0_DAYTRADE": {
+     "stable_id": "SF-00..SF-17",
+     "mode": "PAPER",
+     "compiled": true
+    },
+    "T1_OVERNIGHT_OR_SWING": {
+     "stable_id": "SF-00..SF-17",
+     "mode": "PAPER",
+     "compiled": true
+    }
+   }
+  },
+  "operator_session": {
+   "session_id": "OP-230AE83C",
+   "mode": "PAPER",
+   "broker_write_enabled": false,
+   "open": false
+  },
+  "data_tool_route": {
+   "kernels": "canonical contract suite",
+   "green": true,
+   "ran": "37"
+  },
+  "stop_fallback": {
+   "tool": "xq_auto",
+   "available": false,
+   "fallback": "HITL_MANUAL_BOUNDARY",
+   "degraded": true
+  },
+  "replay_reconcile": {
+   "run_id": "RUN-RBWI-31542BA2",
+   "receipts": [
+    {
+     "run_id": "RUN-RBWI-31542BA2",
+     "state": "STARTED",
+     "boot_sha": "d6ae77a34212b6f3efcedf148c1feff59b427206799ef4aea0bde872cc82207f"
+    }
+   ],
+   "replay_sha": "a070aaa8ad53f2b3054a6f85977085453cb5bf4aca6f9a4a267ef3e005bf4e69",
+   "reconciled": true
+  },
+  "session_close": {
+   "session_id": "OP-230AE83C",
+   "mode": "PAPER",
+   "broker_write_enabled": false,
+   "open": false
+  }
+ },
+ "verdict": "TW_ICT_RBWI_RUNTIME_ACCEPTANCE_PASS",
+ "claim_ceiling": "PAPER/LOCAL acceptance only; production/live NOT_CLAIMED"
+}

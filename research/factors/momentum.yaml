@@ -1,0 +1,11 @@
+# FACTOR — momentum (TS-007 / ART-07, CH20).
+id: factor-momentum
+schema_version: 1.0.0
+source: SSOT/SQS-THC_P0-CIP-PACK_v2026.08.06-r2.md#CH20
+definition:
+  - Cross-sectional trailing 12-month total return rank
+  - Lookback window frozen at signal_time
+  - Excludes securities outside universe_version
+guard:
+  - PIT-aligned price series required
+  - Restatement lookahead prohibited

@@ -1,0 +1,13 @@
+{
+  "schema": "SPARTOI-SF-11/1",
+  "sf": "SF-11",
+  "position": "FLAT",
+  "reason": "no SIM fills pending HITL",
+  "sim_clock": {
+    "mode": "SIM_FASTEST_ACCEL",
+    "trade_date": "2026-08-20",
+    "intraday_measured": "qualification-proxy (no FDA/XQ realtime)"
+  },
+  "broker_write": false,
+  "filled": 0
+}

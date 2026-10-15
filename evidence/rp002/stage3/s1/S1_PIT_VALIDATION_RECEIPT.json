@@ -1,0 +1,3434 @@
+{
+ "schema": "S1-PIT-VALIDATION-RECEIPT/1",
+ "lane": "A-PIT",
+ "worker": "sqs-data-analysis (pit_five_clocks_analyst)",
+ "source": "知識庫/SQS-THC資料庫/台股價格歷史資料/Taiwan STOCK/*_history.csv",
+ "files": 263,
+ "total_bars": 156005,
+ "pit_validated": 263,
+ "temporal_quality_pass": 263,
+ "errors": [],
+ "per_stock": [
+  {
+   "stock_id": "1101_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 25.8,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "1102_history",
+   "bars": 594,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 42.65,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "1104_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 28.15,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "1203_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 40.35,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "1218_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 20.35,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "1225_history",
+   "bars": 542,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 36.0,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "1227_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 32.6,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "1229_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 43.1,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "1233_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 31.55,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "1234_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 41.45,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "1236_history",
+   "bars": 588,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 22.3,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "1301_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 35.5,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "1303_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 28.55,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "1307_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 37.5,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "1321_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 36.5,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "1325_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 30.9,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "1326_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 23.4,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "1402_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 33.15,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "1410_history",
+   "bars": 594,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 37.6,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "1418_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 21.0,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "1423_history",
+   "bars": 588,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 37.7,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "1437_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 32.4,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "1438_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 39.65,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "1439_history",
+   "bars": 594,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 30.25,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "1443_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 31.75,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "1446_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 24.95,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "1470_history",
+   "bars": 577,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 22.2,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "1473_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 26.1,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "1475_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 44.0,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "1504_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 49.1,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "1515_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 27.6,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "1521_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 26.15,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "1522_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 47.35,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "1524_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 28.65,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "1527_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 37.05,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "1529_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 27.5,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "1530_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 30.05,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "1532_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 26.95,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "1533_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 30.1,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "1539_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 20.8,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "1540_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 29.35,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "1541_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 31.15,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "1603_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 39.7,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "1604_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 25.2,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "1605_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 21.6,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "1608_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 25.7,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "1609_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 38.3,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "1612_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 38.15,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "1614_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 39.0,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "1616_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 39.4,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "1618_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 47.45,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "1702_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 40.65,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "1708_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 31.0,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "1712_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 41.3,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "1717_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 24.25,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "1725_history",
+   "bars": 594,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 30.7,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "1727_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 22.05,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "1731_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 23.0,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "1732_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 26.4,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "1733_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 28.6,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "1734_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 32.3,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "1737_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 32.8,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "1752_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 36.65,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "1762_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 26.0,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "1808_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 29.8,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "1817_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 41.9,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "1907_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 23.4,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "2008_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 26.0,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "2009_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 33.2,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "2013_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 43.75,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "2020_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 23.9,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "2027_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 34.6,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "2029_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 23.4,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "2031_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 40.1,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "2034_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 21.65,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "2101_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 36.55,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "2102_history",
+   "bars": 594,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 21.9,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "2105_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 39.5,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "2106_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 21.75,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "2107_history",
+   "bars": 588,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 24.6,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "2108_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 23.9,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "2115_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 27.8,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "2201_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 34.0,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "2239_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 30.8,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "2241_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 25.6,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "2303_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 43.25,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "2312_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 20.35,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "2324_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 28.0,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "2328_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 41.3,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "2329_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 40.7,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "2337_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 21.7,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "2338_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 32.35,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "2340_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 21.0,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "2342_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 22.35,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "2344_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 20.85,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "2352_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 26.25,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "2353_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 31.15,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "2355_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 32.05,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "2356_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 42.1,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "2362_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 45.15,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "2363_history",
+   "bars": 590,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 48.7,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "2365_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 36.8,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "2367_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 24.25,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "2371_history",
+   "bars": 588,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 40.5,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "2387_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 44.55,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "2402_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 40.05,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "2414_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 40.6,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "2415_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 25.1,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "2417_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 37.25,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "2419_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 22.85,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "2423_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 42.75,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "2425_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 36.9,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "2427_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 28.15,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "2430_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 24.35,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "2434_history",
+   "bars": 592,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 29.55,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "2442_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 24.95,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "2450_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 29.5,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "2457_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 21.8,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "2462_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 20.6,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "2477_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 20.05,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "2478_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 41.6,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "2484_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 20.55,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "2488_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 45.95,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "2495_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 22.7,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "2497_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 41.5,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "2498_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 39.0,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "2504_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 39.3,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "2505_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 20.0,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "2524_history",
+   "bars": 593,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 44.75,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "2527_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 27.65,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "2528_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 31.75,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "2530_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 31.35,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "2534_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 25.45,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "2536_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 30.1,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "2542_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 42.0,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "2545_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 44.2,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "2605_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 22.3,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "2607_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 33.8,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "2608_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 34.35,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "2610_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 21.6,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "2611_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 20.2,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "2612_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 44.6,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "2613_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 27.75,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "2617_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 28.1,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "2618_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 39.7,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "2630_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 35.2,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "2633_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 28.85,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "2634_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 44.15,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "2642_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 25.65,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "2646_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 25.75,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "2704_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 45.0,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "2722_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 28.85,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "2739_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 40.75,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "2748_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 49.7,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "2812_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 21.5,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "2816_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 26.35,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "2832_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 32.2,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "2851_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 25.3,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "2852_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 29.3,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "2855_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 22.25,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "2880_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 27.2,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "2884_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 32.4,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "2885_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 33.85,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "2886_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 40.95,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "4906_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 26.25,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "4916_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 42.2,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "4927_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 23.2,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "4930_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 23.25,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "4935_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 40.0,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "4942_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 38.7,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "4952_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 40.8,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "4956_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 26.3,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "4976_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 29.5,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "4999_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 24.3,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "5215_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 37.9,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "5244_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 47.05,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "5285_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 49.9,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "5471_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 33.05,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "5515_history",
+   "bars": 589,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 27.2,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "5519_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 30.05,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "5525_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 33.15,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "5538_history",
+   "bars": 590,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 31.0,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "5546_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 30.3,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "5607_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 41.75,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "5876_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 47.5,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "5880_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 24.9,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "5906_history",
+   "bars": 582,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 49.1,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "6005_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 20.15,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "6024_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 47.4,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "6128_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 30.4,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "6136_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 24.0,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "6155_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 22.45,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "6177_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 48.2,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "6202_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 43.3,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "6205_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 46.15,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "6209_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 25.3,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "6216_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 31.7,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "6224_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 47.25,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "6243_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 38.4,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "6282_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 26.5,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "6283_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 21.15,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "6405_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 24.85,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "6456_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 40.95,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "6477_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 29.55,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "6505_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 36.85,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "6552_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 25.5,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "6582_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 36.4,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "6606_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 24.65,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "6641_history",
+   "bars": 591,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 22.35,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "6666_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 41.5,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "6668_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 48.8,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "6671_history",
+   "bars": 591,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 40.9,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "6674_history",
+   "bars": 592,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 26.75,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "6695_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 44.55,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "6698_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 30.5,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "6743_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 30.15,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "6790_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 42.35,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "6834_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 31.05,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "6835_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 47.45,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "6838_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 37.9,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "6861_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 47.75,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "6885_history",
+   "bars": 594,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 33.6,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "6901_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 20.85,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "6916_history",
+   "bars": 585,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 20.7,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "6928_history",
+   "bars": 517,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 45.0,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "6952_history",
+   "bars": 483,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 48.0,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "6958_history",
+   "bars": 484,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 22.15,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "8011_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 20.2,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "8021_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 41.65,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "8039_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 45.85,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "8070_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 39.25,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "8072_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 49.15,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "8103_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 47.2,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "8104_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 39.45,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "8112_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 46.05,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "8131_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 28.35,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "8150_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 27.9,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "8163_history",
+   "bars": 594,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 34.3,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "8213_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 30.45,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "8215_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 23.7,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "8367_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 47.15,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "8404_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 20.0,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "8438_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 31.35,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "8463_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 23.05,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "8466_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 26.7,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "8473_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 32.15,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "8476_history",
+   "bars": 589,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 21.45,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "8481_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 46.45,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "8926_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 45.4,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "8940_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 20.65,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "9904_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 30.65,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "9905_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 22.95,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "9908_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 31.3,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "9918_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 40.1,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "9924_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 46.7,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "9925_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 41.5,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "9931_history",
+   "bars": 590,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 34.15,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "9933_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 26.5,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "9935_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 24.05,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "9940_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 25.45,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "9945_history",
+   "bars": 588,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 30.3,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "9946_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 20.5,
+   "pit_state": "PIT_VALIDATED"
+  },
+  {
+   "stock_id": "9955_history",
+   "bars": 595,
+   "status": "PIT_VALIDATED",
+   "temporal": "QUALITY_PASS",
+   "last_date": "2025-06-26",
+   "last_close": 28.9,
+   "pit_state": "PIT_VALIDATED"
+  }
+ ],
+ "file_hashes": [
+  {
+   "file": "1101_history.csv",
+   "sha256": "69e1e409441601d39c49b03427f9dcd2e203621cd3ec9be76f81b5c908e2fd89"
+  },
+  {
+   "file": "1102_history.csv",
+   "sha256": "0ed94e64e0c5ea6d185f403f957135b97015bb04dcfd03dff06741836fe99767"
+  },
+  {
+   "file": "1104_history.csv",
+   "sha256": "755aa9e4612ee988dda2d5db0ba0484825401e4a6050c675f7ff3b418cc0e460"
+  },
+  {
+   "file": "1203_history.csv",
+   "sha256": "980448f047a86c6cb932b9d5cb4159715d6e54a37a10a29e97f1304f33b7751e"
+  },
+  {
+   "file": "1218_history.csv",
+   "sha256": "09b262128eddd5f741da50a76f189d8e196d659b903095b6a1005113dce8a66b"
+  },
+  {
+   "file": "1225_history.csv",
+   "sha256": "cb36323ef4e76ac8c82add9baa38c13fdc284d0be3dec2306c4d7baa1083ca89"
+  },
+  {
+   "file": "1227_history.csv",
+   "sha256": "f941da7827f18783a29595ffd2f2eddd85d83525028a9cdb35bc842b4c967add"
+  },
+  {
+   "file": "1229_history.csv",
+   "sha256": "27b20f155bf1988fae2d708960d1ba88ad1d583dda73f115ccfd53020474a401"
+  },
+  {
+   "file": "1233_history.csv",
+   "sha256": "06eeffbe47f117ffa23bed52a4b30ce23124de29e931198b3ee632749af40fcb"
+  },
+  {
+   "file": "1234_history.csv",
+   "sha256": "695b430f7b8721073c0fcf1e96c041ee08210afa02583e1653a8da522ff4ae78"
+  },
+  {
+   "file": "1236_history.csv",
+   "sha256": "0c88349c68acd9d8f918d57eed8bdfa347d9809758e511b5eb8a0f7298fe4616"
+  },
+  {
+   "file": "1301_history.csv",
+   "sha256": "f15c4af37b81fa57a6e0b205540f45714c143d6055594540a296f73999fbd8d1"
+  },
+  {
+   "file": "1303_history.csv",
+   "sha256": "61cf03e8560ed5cd444aaa34544d273ae5a051a0471085a629571b02c1acfada"
+  },
+  {
+   "file": "1307_history.csv",
+   "sha256": "963953b1428ba860e721e79782e0aa2e89d83b909e5b01b719294dbce58b517c"
+  },
+  {
+   "file": "1321_history.csv",
+   "sha256": "ec406d5f9bb7b747559ae54a4aafa30a93948ac3df15cb9cd2589c11b3834c70"
+  },
+  {
+   "file": "1325_history.csv",
+   "sha256": "de9a50182c7e1580d3e5a5d69c05321b2c808d4677695eab58d3c8d7ced6aab9"
+  },
+  {
+   "file": "1326_history.csv",
+   "sha256": "aefacac3a3cc6fd7ce7ed82cf8592139d46298432324d1386975c1dbebef38ed"
+  },
+  {
+   "file": "1402_history.csv",
+   "sha256": "d9e09c87ac49e001ce9fa670be403e4f6ea3378e4a29d017e12a2c544d80addb"
+  },
+  {
+   "file": "1410_history.csv",
+   "sha256": "42b7f47936c743da1b4ced406d3592ab99b0ccd5237d63974a812fb0c9856abd"
+  },
+  {
+   "file": "1418_history.csv",
+   "sha256": "26b17086ddd96f2b4dcf69baa773cd442473a01502d53e88352c045edc3674e5"
+  },
+  {
+   "file": "1423_history.csv",
+   "sha256": "116d065dfda76f43277859befc774f3c2bb788643dc40304d52e47d97258413b"
+  },
+  {
+   "file": "1437_history.csv",
+   "sha256": "a6d2c9c1ed6adf0db448109d5a85ca6c1cbb007a714f1fda1b39f7f87bf497a3"
+  },
+  {
+   "file": "1438_history.csv",
+   "sha256": "f9adbb5aed3a7eec5f6345e295c0dced4e885b08aed348ec8a455d2e0753abc9"
+  },
+  {
+   "file": "1439_history.csv",
+   "sha256": "d1ec80d1a9e19209d2d40e6aaaae746251f655e0fe4dc9d323303b3f8b3130ac"
+  },
+  {
+   "file": "1443_history.csv",
+   "sha256": "8cad4772bb53b466d5577196fa69cb016a302e9320d6df4fc5aa0d541ef9382f"
+  },
+  {
+   "file": "1446_history.csv",
+   "sha256": "8251a22e1cc1374ece136c20257034eb9b715effa64ca72770121291c6370cf2"
+  },
+  {
+   "file": "1470_history.csv",
+   "sha256": "ec7404f28760cca6ff80d36e25d87b1ce5881b63d8ea2cfa1572f20418a6405c"
+  },
+  {
+   "file": "1473_history.csv",
+   "sha256": "2278c6e6f3e02080887988ef4c8e96e10c1253f60657a9176ec9feb5c0104f41"
+  },
+  {
+   "file": "1475_history.csv",
+   "sha256": "4ab40ea1be7cbe816343e3804e9d92ef288fb493533a47887ecb1c5438cdf345"
+  },
+  {
+   "file": "1504_history.csv",
+   "sha256": "ce19275e4350c3a8987592a630a17c4c1710ae52d56f3f9cc4e17868f76490e2"
+  },
+  {
+   "file": "1515_history.csv",
+   "sha256": "20e6d85a972ae6314eb13c593609cf41dc5e79713e36481e6f7bcd695b00a22f"
+  },
+  {
+   "file": "1521_history.csv",
+   "sha256": "be70b05a580b423ba177507dd03ab4b93bce0f999995b1b8df0188bedc338bf9"
+  },
+  {
+   "file": "1522_history.csv",
+   "sha256": "312cb6496c1bb8de3e1383143919ed7c553ce2ed79be88a8fe2f36dc167b5ee4"
+  },
+  {
+   "file": "1524_history.csv",
+   "sha256": "3b73089601bfeea8a7cc556fd27d675e17134afba91236de6835ec3937269584"
+  },
+  {
+   "file": "1527_history.csv",
+   "sha256": "9e9d1ac2dee4ab9c1ab080128757c3adf81a716ce1ad811447e3631f89e0dd6d"
+  },
+  {
+   "file": "1529_history.csv",
+   "sha256": "51f2f037ba91160d55e84e5a0b137039c4d55060a9d9746b4f6c3c33bd8c1f70"
+  },
+  {
+   "file": "1530_history.csv",
+   "sha256": "5c014e5296273498985a8b777f925c6e98fdc771f2086025dd33ce0c9cfab148"
+  },
+  {
+   "file": "1532_history.csv",
+   "sha256": "ac1605b72e0906f7885b1a236d734ff28a0e685ef3d89d431759b1b34b8183c3"
+  },
+  {
+   "file": "1533_history.csv",
+   "sha256": "0e11d22f141c0709d9aed532692a1c03a40e641aa5120263bff1291a542c7880"
+  },
+  {
+   "file": "1539_history.csv",
+   "sha256": "41bf54d72e031d048ef5fe55a1212b82c2eb4f617321310f151d1221c3c9ba11"
+  },
+  {
+   "file": "1540_history.csv",
+   "sha256": "b9c4cca3d8c73f400c12c1ef545e926e18180309b2ee882d07e61280d8070d23"
+  },
+  {
+   "file": "1541_history.csv",
+   "sha256": "f025d7d7d88ae8a79526d4b97be98b57a1b9bd15088468702da5de2362c23ff2"
+  },
+  {
+   "file": "1603_history.csv",
+   "sha256": "410e7163a441f5dd7d7bfd8aea07ad71a950be1fa27e35c0034cd0d4554853d7"
+  },
+  {
+   "file": "1604_history.csv",
+   "sha256": "debc62fd0310c6a76ca7997d199bcd20c29e1a3262b14c5d5b848d90880d2ef6"
+  },
+  {
+   "file": "1605_history.csv",
+   "sha256": "d3aee38670144b796f5c82f25186f79422ff52a305095fa1381ea2b37aa2293a"
+  },
+  {
+   "file": "1608_history.csv",
+   "sha256": "582e46aec2825f7ed5897d00cfccab429079948a224e944a03ef9ef79efb02a4"
+  },
+  {
+   "file": "1609_history.csv",
+   "sha256": "1ee6eea724f6ecabfb8bf1628474efd509ca08a1d9b6f50ae39fddc23e1b8fde"
+  },
+  {
+   "file": "1612_history.csv",
+   "sha256": "d2d509cdd57a37252cb29c5c0f2501b4966ebc717a17ca38c6425155466cd842"
+  },
+  {
+   "file": "1614_history.csv",
+   "sha256": "7c0c27bc63b14411f27b250e762b29ceaefdaf65df9ba86506826942a2b448bb"
+  },
+  {
+   "file": "1616_history.csv",
+   "sha256": "e9a156c757260c1342c7cccb51fdd39f4388d9ca73fb0689a6224e8011e482e7"
+  },
+  {
+   "file": "1618_history.csv",
+   "sha256": "0faed3c3caf063fe2d3b27c4a934c689343b7899354ba5f44a8798914313cfdc"
+  },
+  {
+   "file": "1702_history.csv",
+   "sha256": "d95c4c133c7344c676cacacf68ad40b842c08e784f3ed1e500548a27279c8b1d"
+  },
+  {
+   "file": "1708_history.csv",
+   "sha256": "21505c022c29faa5b5eee0383030f71cb022e51b9595d8b4ff00d1d9d3da8172"
+  },
+  {
+   "file": "1712_history.csv",
+   "sha256": "72c39eb530c3b63760be1d06117de13ac1450d7558b8c7cba56b18c189adf62f"
+  },
+  {
+   "file": "1717_history.csv",
+   "sha256": "cf13c07f2f58d6ab14d36ef56e5c684843e927b52006cc4dd71c9af201c7e0ae"
+  },
+  {
+   "file": "1725_history.csv",
+   "sha256": "2ceae3aec413154f4721a8453bcc66c5f3427d57939c8b38b001a65a30ffbcc8"
+  },
+  {
+   "file": "1727_history.csv",
+   "sha256": "942269d8c28506ed521f5467eb03018336eedb9fce9addb9602a4f8c70f93ed5"
+  },
+  {
+   "file": "1731_history.csv",
+   "sha256": "c82976ceb28bd103db20079e54b0391bb718450f35c2718c64c05e56da353dbe"
+  },
+  {
+   "file": "1732_history.csv",
+   "sha256": "b226ca2f382c6b4ccec935fb76a9c46df281cffa0605d1ddb1d5e3ae4ecbbf6e"
+  },
+  {
+   "file": "1733_history.csv",
+   "sha256": "13412b6054ce8c874f1731ba7d303f331479de979d738c30f1bb4e7dd28697b0"
+  },
+  {
+   "file": "1734_history.csv",
+   "sha256": "b5bf06fd255951183f4912e6753e5b97bad7e930c725808d4bf65860c9a1bb4a"
+  },
+  {
+   "file": "1737_history.csv",
+   "sha256": "6ca68f83c512a6a8982f6b01735576d1a4da40b3f48480182f7ebd6b00812fca"
+  },
+  {
+   "file": "1752_history.csv",
+   "sha256": "9119c70a267d2dce122b478ac4dbfbeae5edf2ffc6054502b06741db74893845"
+  },
+  {
+   "file": "1762_history.csv",
+   "sha256": "0b5db934c69a9b7485de30a33b561e71df5616d178d2217a847846ff6b6df6e8"
+  },
+  {
+   "file": "1808_history.csv",
+   "sha256": "abac72f11b38647b9f7a04e173807970c25214a67884b8424b44c82c8d076725"
+  },
+  {
+   "file": "1817_history.csv",
+   "sha256": "f1e5462aa94af993960c3ba343f33c41c0654789f7a6abb36c8737f3a1afe2a1"
+  },
+  {
+   "file": "1907_history.csv",
+   "sha256": "7b7aee976c919ae5fc42858edf71fc22fe53cb8476be8a76fb0af06765b9db5e"
+  },
+  {
+   "file": "2008_history.csv",
+   "sha256": "f416e4c72f0e08a5c203e5413d8f71dc104708df676a0a986b35148b125c8f43"
+  },
+  {
+   "file": "2009_history.csv",
+   "sha256": "2d1fd6daefcc7b018a11011576e821bec41a85baee39c54bae9e7514c3e7df1a"
+  },
+  {
+   "file": "2013_history.csv",
+   "sha256": "2862a0467f898d73f808866be08fd989a5f62be016edb0ee51c6e084c218f973"
+  },
+  {
+   "file": "2020_history.csv",
+   "sha256": "baa5ee75a2140341ed49f0306bda6e29d78a497f1329610c6257e9fb0eb9522b"
+  },
+  {
+   "file": "2027_history.csv",
+   "sha256": "23509e25c3c320536616128d3b91da98338ea09bade02aeb6b543e1654e0746b"
+  },
+  {
+   "file": "2029_history.csv",
+   "sha256": "bf8af21cd8cd6c6faa727a30367d42075e82a5b701c786a741f22264d96d2fa3"
+  },
+  {
+   "file": "2031_history.csv",
+   "sha256": "edafdf01bb2799c3c00021774caf2ac140fab2074096614bba71f21edfb49d83"
+  },
+  {
+   "file": "2034_history.csv",
+   "sha256": "b8f494e71beb5418baffe8333a7c7960c774696c02de6daa880f30ded457fd99"
+  },
+  {
+   "file": "2101_history.csv",
+   "sha256": "79180455cc7150ed676c512051daa37d6820c056c51f2dd043a0b26293ddef11"
+  },
+  {
+   "file": "2102_history.csv",
+   "sha256": "3f901a4344fb6c2cc6693553a2b993159cefde9533aa9db51b4381647a2c38df"
+  },
+  {
+   "file": "2105_history.csv",
+   "sha256": "1186c7f162b16c37cb9232c7a5b6c4af0c5cdfa2365862057ee81e2b122b21d6"
+  },
+  {
+   "file": "2106_history.csv",
+   "sha256": "bc91600a29ad1a5e0dea1a891c88011f2bc7add388f212a921499e1d91c20c68"
+  },
+  {
+   "file": "2107_history.csv",
+   "sha256": "c6acc60be7bae2763a00dd8bc03d9bdd6de47a30079dbc974a5c85c94fad4edc"
+  },
+  {
+   "file": "2108_history.csv",
+   "sha256": "52aed6c728cd1529b88f97a3945d525f6edce69304e8a8c01affd23cb5c04e83"
+  },
+  {
+   "file": "2115_history.csv",
+   "sha256": "8931dce4d590251c17dad88882d071fdcb8c8d3cc1ce0ddf79502f4d662c1ce3"
+  },
+  {
+   "file": "2201_history.csv",
+   "sha256": "4bbefd35e990fd7c253d518021bc8edcea08cc024057455f132a32759bf00e70"
+  },
+  {
+   "file": "2239_history.csv",
+   "sha256": "1950a68307f3592cc7123a3ec13968339e94a9b4680ea09bbbe3cbc3ab43e083"
+  },
+  {
+   "file": "2241_history.csv",
+   "sha256": "0ff47e215e7cd46647560efdc8452da612289cc4a11fbd10e1f66c8e30b73630"
+  },
+  {
+   "file": "2303_history.csv",
+   "sha256": "bd1a6e74012a3da373af165470811185e5e8ee27ef78b85af16a5201c10d89b1"
+  },
+  {
+   "file": "2312_history.csv",
+   "sha256": "cab77e699417bc7901e55ee6fd9a22465d02306ef3938777d1955d940f9566eb"
+  },
+  {
+   "file": "2324_history.csv",
+   "sha256": "13d77ba76120ca86432d642675eeb358f36ba74fca9cbf3e133fccaf1c0411c4"
+  },
+  {
+   "file": "2328_history.csv",
+   "sha256": "f47693f51d1c07a362885b0792dc19cbd06fbe1d40e9a6b2ef1dbdcbbcaae4f7"
+  },
+  {
+   "file": "2329_history.csv",
+   "sha256": "b0d5a1da65d68817cda410399204aad108031c64b3cf116f1346a6addda0bd8a"
+  },
+  {
+   "file": "2337_history.csv",
+   "sha256": "ea683a838ebeaf73872b5be0330401e2f461e93c7e50150e50620c965cc1eeb3"
+  },
+  {
+   "file": "2338_history.csv",
+   "sha256": "0893d3f12b75f5c6d5c345ca163895a75cb73682e12fcb4fa3399f85fb79663f"
+  },
+  {
+   "file": "2340_history.csv",
+   "sha256": "1c2c6794e9b2d05aba203ab2e27f723bebb88d4b629631874a0dd7618deac6b6"
+  },
+  {
+   "file": "2342_history.csv",
+   "sha256": "c5bbd4e9e3b68f87f46e3f9689f8a9415f03ddad4836f7e2a2cbd7af1aa836fa"
+  },
+  {
+   "file": "2344_history.csv",
+   "sha256": "b4326a7bc67e31c0ed5bdcaeebbcbe5ce96ba8ed22e7dec8d1cf8d7a4495af32"
+  },
+  {
+   "file": "2352_history.csv",
+   "sha256": "30acea2ec7011faf47986b127d90fe2ce1d467fde7ebedbcd20fd90836b8963f"
+  },
+  {
+   "file": "2353_history.csv",
+   "sha256": "31c83f5147f4be5b261cd87363432d47670721d6062f1f380a48db6189b441cf"
+  },
+  {
+   "file": "2355_history.csv",
+   "sha256": "49e4bad405c33dcb51c50033378479bec4feba648864bebc111582f300937121"
+  },
+  {
+   "file": "2356_history.csv",
+   "sha256": "ab50db1f363bb2ec71f1e775e22b565562f68db64e6706fcf1429dc8b0488134"
+  },
+  {
+   "file": "2362_history.csv",
+   "sha256": "eadefcf8951f3730044f8e6e89064d2123754662c7db53e5ebdf8c627db14974"
+  },
+  {
+   "file": "2363_history.csv",
+   "sha256": "40203ddefec33a4096c3bae4fbf54966e3d96e31f2fc9b25a829aa5724def409"
+  },
+  {
+   "file": "2365_history.csv",
+   "sha256": "9accd100978f05d029e4b9a5c6056a210905e0593bb6059470f45d3669373f9c"
+  },
+  {
+   "file": "2367_history.csv",
+   "sha256": "1e094f85e04c70cf6ade2182dcbe9708cf29a178e2de39651a60df4864b1df92"
+  },
+  {
+   "file": "2371_history.csv",
+   "sha256": "e405d91860878b09568ccb00fa8f0da6c5067b28a7e62a256eb4b704d07282b7"
+  },
+  {
+   "file": "2387_history.csv",
+   "sha256": "eb77acb2f6a63410d88aa095147d98c4f2de33b12102bf2e0b3be318e68933fd"
+  },
+  {
+   "file": "2402_history.csv",
+   "sha256": "8b71581ca58cfffd08d926ea6001186a967e9b168378c5653adf3ff52f1fc49e"
+  },
+  {
+   "file": "2414_history.csv",
+   "sha256": "665d5ec23e042352c6d9e4dd29726ebbc06c3e944d5f5fe9c00203f3cf4700a6"
+  },
+  {
+   "file": "2415_history.csv",
+   "sha256": "928ab49bc0a301c24799a30e618887e329c7622ef55f59b045a47a8a8a0bcdea"
+  },
+  {
+   "file": "2417_history.csv",
+   "sha256": "f1c59d394c51aa55da552b95f2bf5ec9f5822979f4f117fb793982714e1c8b67"
+  },
+  {
+   "file": "2419_history.csv",
+   "sha256": "85751d2ec9a1e9f5b31cf07cfa262b10eb89508bcec272e52f21804745ccd219"
+  },
+  {
+   "file": "2423_history.csv",
+   "sha256": "9edba0ac711ac15ebd092e2531a9f23fc72f543e706da1c05a8b979eac312fcf"
+  },
+  {
+   "file": "2425_history.csv",
+   "sha256": "dadb8ef25182a54c106b3ec98613171c57a3e03064d3ee1af0a723c083a73842"
+  },
+  {
+   "file": "2427_history.csv",
+   "sha256": "0eb22c05e8995197849571ae62d1feec28a477b0ea327e09ce99c3856c841d29"
+  },
+  {
+   "file": "2430_history.csv",
+   "sha256": "d427ea3910cedb7278d440de5ff54ea7b82205837cb366900efd46ef96923863"
+  },
+  {
+   "file": "2434_history.csv",
+   "sha256": "b1c81f35302517b0b05d115fd150484b365080728d6ed8c0568cdfb3048707bc"
+  },
+  {
+   "file": "2442_history.csv",
+   "sha256": "1b1019858f9a2cc94039ab4af1b1580d2f008e85b83360cbe76a5405662c9269"
+  },
+  {
+   "file": "2450_history.csv",
+   "sha256": "efed505ecb1723fcfc07151e45471f79115c278858ed69e466862d175794b3f4"
+  },
+  {
+   "file": "2457_history.csv",
+   "sha256": "df124d6dff6b8361b3ad69d25b27356d7ff6a5ba2bb25d27e7bfcdf4efe5d14b"
+  },
+  {
+   "file": "2462_history.csv",
+   "sha256": "e12929ab987285334d35dcd9255dcb91c55aa450e7c44d8c04dadd659939cd96"
+  },
+  {
+   "file": "2477_history.csv",
+   "sha256": "6014e038267b2261ba23b3c81ebc87ecf27ce3d8d64592071e4db042a516efbe"
+  },
+  {
+   "file": "2478_history.csv",
+   "sha256": "c9e6d768bbc2eaafffb89127882ba3bd959765787bc7b146ddf61bfb0ef347a3"
+  },
+  {
+   "file": "2484_history.csv",
+   "sha256": "1fb57624738d1c9dd70b3126be7af842078239b1852c22ec039ffd30f8a3c033"
+  },
+  {
+   "file": "2488_history.csv",
+   "sha256": "9d75060d665ad79eb16c221cec6082bffec66f0698f242e5d65c60ac47a5c2be"
+  },
+  {
+   "file": "2495_history.csv",
+   "sha256": "800e62cd823f7b39d560c89ae59538db00c075a487d6c175cff8cc3b38e4d162"
+  },
+  {
+   "file": "2497_history.csv",
+   "sha256": "6de858266c36cef7132c126e2328cc3dbbd1e6d72cdcbb9621e4bbddd073bf47"
+  },
+  {
+   "file": "2498_history.csv",
+   "sha256": "70d5f2db8835c2f02f833477228a9b983375d56991cddaa5022a933e719f7bd4"
+  },
+  {
+   "file": "2504_history.csv",
+   "sha256": "46e2622b1f36364c9f24710f956566d26cefbce3993f4989c2a3d6488f2a657f"
+  },
+  {
+   "file": "2505_history.csv",
+   "sha256": "d3bf95632048a5aacd67039b3915b3887615e0dbc8a960c74a049579410d0b70"
+  },
+  {
+   "file": "2524_history.csv",
+   "sha256": "60e26cfeef2f95da8f8c1649514ccf4e01a0e97a8ca07c2dd708086931228661"
+  },
+  {
+   "file": "2527_history.csv",
+   "sha256": "fb99273c67921fc1504f972d2a647367445afee0d2b1053fe82a37029edd04e9"
+  },
+  {
+   "file": "2528_history.csv",
+   "sha256": "d7fe1828d75a68da8bb112e13ba7b6d80d8c45ade5b7c93b9976ba3f0c36b49d"
+  },
+  {
+   "file": "2530_history.csv",
+   "sha256": "53a682f69af86479eb65e88142518bee6843e4e320c168f185d68eaa231c1e79"
+  },
+  {
+   "file": "2534_history.csv",
+   "sha256": "9143b213c55bea0adc43f3e773e8e82fbe390a14f02ba1a91b906e757da0a157"
+  },
+  {
+   "file": "2536_history.csv",
+   "sha256": "9ab4da5731d9f2e3d584d4bbe0d08a3417ca817856e126998fe37919713bb100"
+  },
+  {
+   "file": "2542_history.csv",
+   "sha256": "9822049187b43d6cf642d024f42fdc25564eade0259da2812bab3d11369cda35"
+  },
+  {
+   "file": "2545_history.csv",
+   "sha256": "bba1291f8a3eae977086f7bd6d3f19deccbec6566975e8c6343aacab81600e49"
+  },
+  {
+   "file": "2605_history.csv",
+   "sha256": "babde762f81acf2e0fd765df63695f2d740c271f7daef96d6edfe79fd688b90a"
+  },
+  {
+   "file": "2607_history.csv",
+   "sha256": "57a4be7b77630bf54c461e425a9e09f7144500c67069563a238c275f8fb27167"
+  },
+  {
+   "file": "2608_history.csv",
+   "sha256": "b04cb23847456456de92a102a8f1837433777799f1d7f744cd83537cf53f214f"
+  },
+  {
+   "file": "2610_history.csv",
+   "sha256": "34c247eb6c01e86038801c614a921d37ca6b950b2156451bb5e59559bbf3f0b0"
+  },
+  {
+   "file": "2611_history.csv",
+   "sha256": "9274a16d5e564cf11ac9dde66bb42e4e3cf098e0cf8e9fdcbd64656fa9987d12"
+  },
+  {
+   "file": "2612_history.csv",
+   "sha256": "075c645f3de4c3804b7744410513d486b8f89e22c4a63f19d8d28a75ca81731b"
+  },
+  {
+   "file": "2613_history.csv",
+   "sha256": "cdb62e424b1366dd78ad3d8c41d36a8ebb37ce46fc6f2f3199b570a4ea0e8cb7"
+  },
+  {
+   "file": "2617_history.csv",
+   "sha256": "99e8b55d8c44792a2fca2c4cfa81d660ca44262c967877fa271338a435fe47c5"
+  },
+  {
+   "file": "2618_history.csv",
+   "sha256": "6e642c45710c05903731695c921760d30db4da4593a312d569eac02fbf76fe67"
+  },
+  {
+   "file": "2630_history.csv",
+   "sha256": "7166dd0d5c53ef00afd8b68c92827dfc628af3a330615d13bb9015f0d6d39da8"
+  },
+  {
+   "file": "2633_history.csv",
+   "sha256": "2f515f39f8007c8a3a1e346e46d0eb5bd049f184e1c80b78eab5bb689f08d79e"
+  },
+  {
+   "file": "2634_history.csv",
+   "sha256": "d116731a59ff1a26a0130e1bbae93843c6b5afb2953826ec5a2b2365fa5443cb"
+  },
+  {
+   "file": "2642_history.csv",
+   "sha256": "4f188733f233d1ec455f96ee7f9950dce0ce48ab1f195821972c00982a04d4a2"
+  },
+  {
+   "file": "2646_history.csv",
+   "sha256": "5654720a59fc87670ba05b59aaee873d024b05a39f4f430666147aaeb84dfd16"
+  },
+  {
+   "file": "2704_history.csv",
+   "sha256": "34392057a8db4042f9a3a3183330a0d8ab0a59068fe1aacbc629bc19dc28cd68"
+  },
+  {
+   "file": "2722_history.csv",
+   "sha256": "249e594e82db9919603257bdcbefaa9f062e6e096e2a16ae8d81f3eb472e914b"
+  },
+  {
+   "file": "2739_history.csv",
+   "sha256": "c3f604b99c06d6c3ce97a2a0e308f565a61de40e2fd3c2c42f943387839988ca"
+  },
+  {
+   "file": "2748_history.csv",
+   "sha256": "fd3ef603cd1125f6ce0dbf02204340efb1e2733dfa9d1ca9b7bedf1f58baf025"
+  },
+  {
+   "file": "2812_history.csv",
+   "sha256": "58f184974bad2eb010ca706a96144b92d9be8ac3de21de8c16d872eabf3e2b8b"
+  },
+  {
+   "file": "2816_history.csv",
+   "sha256": "dee77228b2015db09d4fd1f2d3ea6d92fc21ebc39c210d30ca85007ae6f19d7d"
+  },
+  {
+   "file": "2832_history.csv",
+   "sha256": "e6a340033e72d1a3c98fcf2afe47ee87aa22f5849e567c64e560185f3e4f12fc"
+  },
+  {
+   "file": "2851_history.csv",
+   "sha256": "3e66c75448652897c8a88a5b9a049ac00bcc4b8173100ff29929834202b46021"
+  },
+  {
+   "file": "2852_history.csv",
+   "sha256": "d2ed8fa2c649daa852124a3c6dfb5f9438050aade885e3b698df4e25dad7a961"
+  },
+  {
+   "file": "2855_history.csv",
+   "sha256": "ddb1229ae9f383204866da273a4d0cce25f5235a23519b81c491a8aff97d9727"
+  },
+  {
+   "file": "2880_history.csv",
+   "sha256": "87969c2fd0a475326f0df6e4222341e607ad2b5b4f10d012b92d38fb0ca2bc4d"
+  },
+  {
+   "file": "2884_history.csv",
+   "sha256": "9a68fcb948e2fc6cf8f494e1a732a2ffa0fcbf9d14a50b1cae0d791c8b206ac6"
+  },
+  {
+   "file": "2885_history.csv",
+   "sha256": "07a54e5eb8f4cfd35d9d96176c36edb0d16bb8dd44d00ea34cb13005dad9f5ca"
+  },
+  {
+   "file": "2886_history.csv",
+   "sha256": "65e9c902bbbd072785065f64e611ed817da3e65de7402e54f3bd3b6cc37aa161"
+  },
+  {
+   "file": "4906_history.csv",
+   "sha256": "5290f956386a87fd3c8dc78daa363bf7e9b9d9ef0996857dea9f35e7e2cdb83a"
+  },
+  {
+   "file": "4916_history.csv",
+   "sha256": "7eca6908ca5cc4c019dd9ab4955bca1e849f3de504038ed175dcf3948824f20c"
+  },
+  {
+   "file": "4927_history.csv",
+   "sha256": "8312531c511bb7674582ff7d19d735bce18c0e47b47bb8e26b00f2d248a18c00"
+  },
+  {
+   "file": "4930_history.csv",
+   "sha256": "449efbfe3ae5aec58c3457912c8b041a3d85eb447e68d4f38051deb170e4edda"
+  },
+  {
+   "file": "4935_history.csv",
+   "sha256": "38a9ae6aa076b0789bd8a5c467236f3e9cfdedc6364013bb7e28dda44552dd25"
+  },
+  {
+   "file": "4942_history.csv",
+   "sha256": "f233d8087666c0f32049f1032f6f8457986769314abcb79e6c3b2b15c951d268"
+  },
+  {
+   "file": "4952_history.csv",
+   "sha256": "fdb6df0abd7ef37bdae770a5bf5723d8bb6f8da38289257788b921ced83ec272"
+  },
+  {
+   "file": "4956_history.csv",
+   "sha256": "fccec0cc6fc0454b3bceac1321f7f984e3b2cb7f3d87e3d3bf1aed18ded40256"
+  },
+  {
+   "file": "4976_history.csv",
+   "sha256": "04644b250190b18e790fb67c643e6db0471020ce1c7f2f0363ba10b1b1e3811b"
+  },
+  {
+   "file": "4999_history.csv",
+   "sha256": "a516c2b9a6ee052fc56284cd48d44682abd59bd13e5499e04ab3c35b4b72042d"
+  },
+  {
+   "file": "5215_history.csv",
+   "sha256": "f3a8bd8811606807534f422d522a4e375cd4a6811979680279cb4795fd37e8b0"
+  },
+  {
+   "file": "5244_history.csv",
+   "sha256": "c9e7ee947a9e05f1771282b640535425c7db7376a54e36c72cda172f2963b81d"
+  },
+  {
+   "file": "5285_history.csv",
+   "sha256": "ffe0733ce3e4ffe59165db39d9a6181914bba511e7e7dd50581649174917c4e8"
+  },
+  {
+   "file": "5471_history.csv",
+   "sha256": "ef5636508f050d80fead987c07c569328d6bbd4c0ecd6262e26418b434ab1992"
+  },
+  {
+   "file": "5515_history.csv",
+   "sha256": "126062d4152a3055cf650532f4d19a472e8f1234def64aa939518d44b67545dc"
+  },
+  {
+   "file": "5519_history.csv",
+   "sha256": "52acd1016a79c2ceffd5e726b5d53920105f6a21bb61e0596dd52bf7287d78b4"
+  },
+  {
+   "file": "5525_history.csv",
+   "sha256": "e1ed584f2dafcf8e3178512fb0df4f557642b9fd168ef84743de4d1cfd639b23"
+  },
+  {
+   "file": "5538_history.csv",
+   "sha256": "b758bd1187347a8ad744fdb02ab3c4d942b7c58dbe2c19b9648f619f353d7554"
+  },
+  {
+   "file": "5546_history.csv",
+   "sha256": "8094879de12e509b9fc3b3c1b13334b0dc711b9551d5d8d9542ae643c9e41c2c"
+  },
+  {
+   "file": "5607_history.csv",
+   "sha256": "669f94421d8a2b37bf48301eb2ec4367ee0c22d8722e026983bd122a531edacf"
+  },
+  {
+   "file": "5876_history.csv",
+   "sha256": "3ecd54e6c0b54a9b3f4a622173ab9a8ddee720cb1a3d415da5c7af9c0c1e20f0"
+  },
+  {
+   "file": "5880_history.csv",
+   "sha256": "b701f31f5c3b5bac74c7bf33da7e8ce4b08612a706c8299e1756a01ba5caf212"
+  },
+  {
+   "file": "5906_history.csv",
+   "sha256": "3464e5ad9f996a2f514eec92d480bfd4504f6f59decc1646e5cf1a1d266e8895"
+  },
+  {
+   "file": "6005_history.csv",
+   "sha256": "05bd6160840ca91abe42fb7ef653ef55848029b2079fcfbc23e19b87ca93128d"
+  },
+  {
+   "file": "6024_history.csv",
+   "sha256": "b853958a86e161a64148796c53a3af98b88efcd75c76128bf6771566d409adc7"
+  },
+  {
+   "file": "6128_history.csv",
+   "sha256": "260cd49af5a465f76ace5c2f9e9da665809bcae47726b2f06baf183184030bfd"
+  },
+  {
+   "file": "6136_history.csv",
+   "sha256": "694ce8ca5ed876bc1d335fb2dfdbb029e6c163213eb1185c7059565dfd947301"
+  },
+  {
+   "file": "6155_history.csv",
+   "sha256": "5729a1c2aaca2e97c9c5bde734a79579ad6c9ae9ba7a385a55d299449c8bb04e"
+  },
+  {
+   "file": "6177_history.csv",
+   "sha256": "771b702047660318cee4b4d0353961d1608b197e380cbd7e8815319d6e20dd9e"
+  },
+  {
+   "file": "6202_history.csv",
+   "sha256": "3d2738b341658ea2a797b39ad25042e50e79ce0db1186f7484d13d710b2a76e3"
+  },
+  {
+   "file": "6205_history.csv",
+   "sha256": "3405f9337758164d18e14db6ac7e6e52cbd53d9851025cc1790d2d7cd6cb17ec"
+  },
+  {
+   "file": "6209_history.csv",
+   "sha256": "fb2291757ee9ebd2b77ca27d7a57a1119f9b0af122cc12e1142bd50d02ce0e5b"
+  },
+  {
+   "file": "6216_history.csv",
+   "sha256": "5be0e907166cf178cf4412bd4cfc5ec6b13825ea7060c936e0179fe44d5ac407"
+  },
+  {
+   "file": "6224_history.csv",
+   "sha256": "084b1f975f494a80ce2d896b3093bed0d8f37cd2ab056681838c4420030be44b"
+  },
+  {
+   "file": "6243_history.csv",
+   "sha256": "1392392e0fc81c80512012ff55482c99941e0fc25f302c08b5ad21b743fc1c3d"
+  },
+  {
+   "file": "6282_history.csv",
+   "sha256": "093657f62e0e21ea0aa9c9099512c5672feaab24a6c6c58376214cbd20bbfb48"
+  },
+  {
+   "file": "6283_history.csv",
+   "sha256": "e0bede7acc10ede3efa03aa054692b786f644cd86769cc8e50e31229a3cd544f"
+  },
+  {
+   "file": "6405_history.csv",
+   "sha256": "1252d186ec23b21bfbfe78b26067c278258b99be2f657b1c48179bfd37b7c523"
+  },
+  {
+   "file": "6456_history.csv",
+   "sha256": "738e6c3d06217e5c26d7d4d441121c3a1d3b05321d6214534a79f3ff4ed59a67"
+  },
+  {
+   "file": "6477_history.csv",
+   "sha256": "5b14e389a4bdc2060b24e6ef7f2a007f7ec5bc61c1c88890f4b75232fe246d9f"
+  },
+  {
+   "file": "6505_history.csv",
+   "sha256": "6087f090d13f28875efa9ad93faa9071192b9abd8f37c5928bb660f511604c82"
+  },
+  {
+   "file": "6552_history.csv",
+   "sha256": "d08ba2975292b0365b88a8a284bf60f327f197078ead32b2a3c7473ede126d58"
+  },
+  {
+   "file": "6582_history.csv",
+   "sha256": "3b9ed37387429da419ade8f4850e26ea8841724941b3bc0f682eb41c5edba8e1"
+  },
+  {
+   "file": "6606_history.csv",
+   "sha256": "e47d37800895d611a51073d970cd0f0684b1e8adc8957b23c5263b3761d0fec9"
+  },
+  {
+   "file": "6641_history.csv",
+   "sha256": "d8648922eadd0d4d159a963494983ffee38b3640a2e5b4f86a613e24a2c75ac2"
+  },
+  {
+   "file": "6666_history.csv",
+   "sha256": "44fbaa57a804ddbea86d9492cad3ab8ba22158e8272a19e5187c31857442ebfb"
+  },
+  {
+   "file": "6668_history.csv",
+   "sha256": "9e421e8d2732c3565c718c305a5ddde09e411def23b33aadd57dc427670132fa"
+  },
+  {
+   "file": "6671_history.csv",
+   "sha256": "c61098f0cb2f106c38fde35ce09d3964b7a035f129bafd499d900c4564c9c80c"
+  },
+  {
+   "file": "6674_history.csv",
+   "sha256": "1511da7d74842d35c5015796412d922d46234b8592c246b4e881ad8ed735f195"
+  },
+  {
+   "file": "6695_history.csv",
+   "sha256": "d6a94e445fb8f8b46ef4f285ceb58380ff2bda51165313de137930f50dfa74a6"
+  },
+  {
+   "file": "6698_history.csv",
+   "sha256": "ef2ddd9d1b8e85e12da6a12fcec3cfa287407fecc667bdaa22002f2119154e34"
+  },
+  {
+   "file": "6743_history.csv",
+   "sha256": "73b4f2ee229b9162b31b2a0813cf86b224ff2c0aca78e64d1e939b1e015c871b"
+  },
+  {
+   "file": "6790_history.csv",
+   "sha256": "71ea5d8b9fc5639041330b6bad720891eaa3b62bc295daf04d9e63233adc2b94"
+  },
+  {
+   "file": "6834_history.csv",
+   "sha256": "a62558d93ab30ec13f49f41db7327ce00495599745e89b568bd95d4894bf73d0"
+  },
+  {
+   "file": "6835_history.csv",
+   "sha256": "b5a99b825c7cdf52a3e1781307d4882131cad6307001afb19f23034abb4f3d3a"
+  },
+  {
+   "file": "6838_history.csv",
+   "sha256": "23b9aa581a78f6aeb3ab2064bfce3bc4b75282c4429be1f71030de53fef59fe9"
+  },
+  {
+   "file": "6861_history.csv",
+   "sha256": "eaa2cd3687e4f55b426c8561b4cd97b33f77738461873d0a6b58284e3dcb1e94"
+  },
+  {
+   "file": "6885_history.csv",
+   "sha256": "e0040f4a054c8f6ce336a681126b6bec8955d183c95c14769b0e0dc922f034d4"
+  },
+  {
+   "file": "6901_history.csv",
+   "sha256": "6545db0e08eb81969dd6ee0c0386407aa79eb34d9b39d41a828eafb19eb15905"
+  },
+  {
+   "file": "6916_history.csv",
+   "sha256": "b1ad19ab199394401447acde0ba2875ac9a406262308cc2b4e79930f55d5763b"
+  },
+  {
+   "file": "6928_history.csv",
+   "sha256": "03db583facd92cdafb535083b37aef443a8a63d569af7f6be85b9ea605995499"
+  },
+  {
+   "file": "6952_history.csv",
+   "sha256": "1ed464b9de89e729194a2be15efade0d84941dab2324f359bf1bcc9d39f3a3fb"
+  },
+  {
+   "file": "6958_history.csv",
+   "sha256": "b5ac08283da84a3722c3239b30aa2e4def99133e9505075b688aae94d97b2456"
+  },
+  {
+   "file": "8011_history.csv",
+   "sha256": "c40f4c3405eb0dc3bfa3f3ff8ac4a0ddffc52735ff9b8ee6a4d937dce2bc583e"
+  },
+  {
+   "file": "8021_history.csv",
+   "sha256": "35ea7d6cfdba8fcb16e51c1d774cb40cf65b3b251b138af10a8b95232901a4ee"
+  },
+  {
+   "file": "8039_history.csv",
+   "sha256": "43a1b3077bee0e67b405aae1b12dc311712e73d44149aba0ab6069abf420b75e"
+  },
+  {
+   "file": "8070_history.csv",
+   "sha256": "c08661ca61ccabc71a6897c736963e096720d775e0565e7ba72efc2b2b4516bb"
+  },
+  {
+   "file": "8072_history.csv",
+   "sha256": "94d27749709b73c0ba903dda9ce1337bce6e21802326bf5d1981eb12521a1159"
+  },
+  {
+   "file": "8103_history.csv",
+   "sha256": "2e19bf1c4fef072f1ccca94ccbbd0e80ab62a3661a4c9343cd81fcbfaf447607"
+  },
+  {
+   "file": "8104_history.csv",
+   "sha256": "cb62e35b5e0e3df5c9405903c4f3b25d05332c1764b12e0bd5a98f4ba92b58c9"
+  },
+  {
+   "file": "8112_history.csv",
+   "sha256": "7bebad118ec78f23e37e41b0009ce672828ae68cadd53610fcbaa4f61afc5207"
+  },
+  {
+   "file": "8131_history.csv",
+   "sha256": "066a6b7a0db53e9da4a68fcde7d303d8ad2271b17fea517d8f3930937bfe5183"
+  },
+  {
+   "file": "8150_history.csv",
+   "sha256": "30b26785ce967abb214507382c1ae758df509f726222cf5acc429f2645856362"
+  },
+  {
+   "file": "8163_history.csv",
+   "sha256": "f5a5261ac79ce804495ab6be0ff3bd6fc5ccee7c1be1ac746f434556e0b90469"
+  },
+  {
+   "file": "8213_history.csv",
+   "sha256": "98736466e0319988f061ba604cd362b82e3b2026a495fba9352d45030753b643"
+  },
+  {
+   "file": "8215_history.csv",
+   "sha256": "de14b262957ac77c7645bae0afa438cb6a614839efcff794661db262565b035c"
+  },
+  {
+   "file": "8367_history.csv",
+   "sha256": "9f3d41b4eab33395c9807a9d26c44b53068efe9fd854b6f511f492dbeb0e7048"
+  },
+  {
+   "file": "8404_history.csv",
+   "sha256": "ac2d159493d4885b2a7e91767f4060a57c0403205fb0756704c8a857419d9af1"
+  },
+  {
+   "file": "8438_history.csv",
+   "sha256": "b3e0d1884045a6060fb1244b5135725a1b5504169080262d0217dbc2fd784f44"
+  },
+  {
+   "file": "8463_history.csv",
+   "sha256": "57dd469e2163e06fbd3977cb16d8f167d8cefd974fb487cd3398c55d7e5406ad"
+  },
+  {
+   "file": "8466_history.csv",
+   "sha256": "6729752169f16f230e9de6e5958a46a0efae6a20cf7f1ba7c3d6de7aded82293"
+  },
+  {
+   "file": "8473_history.csv",
+   "sha256": "74dad362f89d91086ee7d7429e3b07a591e2655ca246ad6b01fce86510e9323f"
+  },
+  {
+   "file": "8476_history.csv",
+   "sha256": "5e92136a85c3ef28ec6f11eb8944310a1ad22ebed05b4422659bdd56c51da803"
+  },
+  {
+   "file": "8481_history.csv",
+   "sha256": "6110eb0abd279f966c5e763025171e565530337e1ad932dc347ec9b9cc48f998"
+  },
+  {
+   "file": "8926_history.csv",
+   "sha256": "d5bc79f62c406b4d0bfd99259bb68b91bfe9e540c819a5b6cd5e6cb934fb0614"
+  },
+  {
+   "file": "8940_history.csv",
+   "sha256": "fd8d127180eb8e6a9554b768ba25c2eed290618b0583c609d90e4ea75fb48b4d"
+  },
+  {
+   "file": "9904_history.csv",
+   "sha256": "615909e21186916e8b08c607ced4f3343a5c609048b62b32bb49d4ef3f5578bf"
+  },
+  {
+   "file": "9905_history.csv",
+   "sha256": "78e6a2cdfe6b59c7faa34ff0a45ee5d98a0d063bc8e4de556a43f72a14ade026"
+  },
+  {
+   "file": "9908_history.csv",
+   "sha256": "586c6b15112679b18c761839b40c3d7faaf2088a9bc9b1c2c8d1c4acd78549e2"
+  },
+  {
+   "file": "9918_history.csv",
+   "sha256": "fa97556485eb1f7cb96a90cce741653576a05a98d8f3f4f23b2fff6b8da68abb"
+  },
+  {
+   "file": "9924_history.csv",
+   "sha256": "49d7bb63d6303cc9d0429db3106d078d5aad3ca9b7c9e9a28ff2006b1af8ae81"
+  },
+  {
+   "file": "9925_history.csv",
+   "sha256": "e3fa08781ce2b8fb7160b06436b3a61846d81a4eb2a48c2108f4cc1dcbe5012d"
+  },
+  {
+   "file": "9931_history.csv",
+   "sha256": "a8f45255ffa493d31998a78c738cec28b2d3a03016bea7c3641b8ea032bcb66b"
+  },
+  {
+   "file": "9933_history.csv",
+   "sha256": "833f8639755f2bf59d4e8d597f35150926cf92572e541b905452cb96600be1bc"
+  },
+  {
+   "file": "9935_history.csv",
+   "sha256": "bdc494d942c5258a717b03bed91a6de86733785f0aedb076edecfbb3fd76839e"
+  },
+  {
+   "file": "9940_history.csv",
+   "sha256": "acae1395d1df8800d57a0a16f97cb64911d894fde3b0bae7e269cae6ea1c4b8d"
+  },
+  {
+   "file": "9945_history.csv",
+   "sha256": "cc6fb5783bb407cac3be0a7c05728f80b18fbdafea4e70290acbc37de061e87d"
+  },
+  {
+   "file": "9946_history.csv",
+   "sha256": "5bef0fa79c9bf88c6ea034f28943c1102090041f27b9f7ff2946175b6992a13f"
+  },
+  {
+   "file": "9955_history.csv",
+   "sha256": "fab6320859cd96aef8188b84ccf6f70ba65eee7b0c1429e35be7d6dc450baa9e"
+  }
+ ]
+}

@@ -1,0 +1,28 @@
+# UNIVERSE — SQS-THC tradable universe (TS-007 / ART-07, CH18).
+# Source authority: SSOT/SQS-THC_P0-CIP-PACK_v2026.08.06-r2.md §17 TS-007, CH18.
+universe_id: sqs-thc-universe-001
+schema_version: 1.0.0
+universe_version: v1.0.0
+owner_id: Investment Mission and Universe Owner
+source_locator: SSOT/SQS-THC_P0-CIP-PACK_v2026.08.06-r2.md#CH18
+entries:
+  - id: tw-2330
+    symbol: '2330'
+    name: TSMC
+    tradable: true
+    data_source: XQ_TWSE_DAILY
+  - id: tw-2317
+    symbol: '2317'
+    name: Hon Hai Precision
+    tradable: true
+    data_source: XQ_TWSE_DAILY
+  - id: tw-2454
+    symbol: '2454'
+    name: MediaTek
+    tradable: true
+    data_source: XQ_TWSE_DAILY
+  - id: tw-2603
+    symbol: '2603'
+    name: Evergreen Marine
+    tradable: true
+    data_source: XQ_TWSE_DAILY

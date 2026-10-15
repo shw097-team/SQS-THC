@@ -1,0 +1,28 @@
+{
+  "manifest_id": "manifest-ts014",
+  "schema_version": "1.0.0",
+  "spec_ref": "TS-014/SPEC-34",
+  "self_hash_policy": "DETACHED_FINAL_DELIVERY_RECEIPT",
+  "package": [
+    {
+      "path": "STATUS_VECTOR.json",
+      "bytes": 1643,
+      "sha256": "2f1ab64ee6a282445270a28ccc0830892f5e84cb770e8b121f57f894f662496b"
+    },
+    {
+      "path": "release/checksums/CHECKSUMS.sha256",
+      "bytes": 281,
+      "sha256": "310003db037cc95c20ab1413f605f0c9215ae2242701f76a2cc1bceb2a74a348"
+    },
+    {
+      "path": "release/readback/READBACK_REPORT.md",
+      "bytes": 3002,
+      "sha256": "515612018a0d8ea59c87f3f268f4a7e2ae70345aa658e6dda5d06dc8c65a3a25"
+    },
+    {
+      "path": "scripts/validate-package.py",
+      "bytes": 13650,
+      "sha256": "fc4eee4411a54acef3298ed6a5f442a539ea4253de9c854e7d8eaba004e81916"
+    }
+  ]
+}

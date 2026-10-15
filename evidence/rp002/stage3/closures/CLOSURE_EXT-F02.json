@@ -1,0 +1,17 @@
+{
+  "finding": "EXT-F02",
+  "classification": "TIMESTAMP_PROVENANCE_ANOMALY",
+  "status": "CLOSED",
+  "smallest_repair": "REAL_WALL_CLOCK_RUN_START_RUN_END_RECORDED",
+  "focused_retest": {
+    "run_start": "2026-08-13T11:13:11+0800",
+    "run_end": "2026-08-13T11:16:00+0800",
+    "timezone": "Asia/Taipei (+0800)",
+    "generator": "wall-clock via datetime.now(tz) at execution time",
+    "manual_future_timestamp_used": false
+  },
+  "bound_into": [
+    "RP002_FABRIC_AUTONOMOUS_SELF_EVOLUTION_EXTERNAL_EVIDENCE_CLOSURE.md"
+  ],
+  "verdict": "CLOSED"
+}

@@ -1,0 +1,6 @@
+# EDGE fixture — mission missing required field 'mandate' (rejected).
+mission_id: sqs-thc-mission-incomplete-001
+schema_version: 1.0.0
+non_goals:
+  - NO_BROKER_WRITE
+claim_ceiling: LOCAL_DELIVERY

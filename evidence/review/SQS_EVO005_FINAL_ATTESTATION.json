@@ -1,0 +1,30 @@
+{
+ "schema": "HGK-EVO005-FINAL-ATTESTATION/1",
+ "attestation_version": "EVO005-FINAL-ATTESTATION-1",
+ "captured_at_utc": "2026-08-11T12:42:29.540698+00:00",
+ "oracle_version": "EVO005-ORACLE-V1",
+ "oracle_digest": "501732af709e3e789572c9edcba7b9fc01704c12cf743cdba081a613221d19ed",
+ "subject_version": "EVO005-SUBJECT-V1",
+ "subject_digest": "e546cc2c4eacf0cb4bbb259d717c1728b89ac6c579de94262db0f450f36eefc1",
+ "graph_generation_id": "GEN-2f6a46fc3c56",
+ "graph_root_digest": "6535d9cd214a8d3e33869c955c42450f92ed6e42b6c1581cca0cc971d1aad621",
+ "verification_receipt_id": "VR-EVO005-FINAL-001",
+ "verification_receipt_sha256": "c3e31da9e2ca371e0e71e3c1bb78d9348d9fecef3a789feb3ddaf9ab639eb490",
+ "verifier_version": "EVO005-FINAL-VERIFIER-1.0",
+ "verifier_result": "PASS",
+ "package_filename": "C:\\Projects\\Agent_Workspace\\SQS-THC\\release\\SQS-THC_EVO005F_LOCAL_DELIVERY.zip",
+ "package_bytes": 1655972692,
+ "package_sha256": "3936aadf83c1fcec8bd537af30f50404487085df2e27db55138f448a68bc7501",
+ "package_readback": "PASS",
+ "claim_scope_verdicts": {
+  "PRODUCT_LOCAL_DELIVERY": "SQS-THC_TW-ICT_FSDT_STACK_LOCAL_DELIVERY_PASS",
+  "REFERENCE_PROJECT_EVOLUTION_COMPLETE": "HGK_REFERENCE_PROJECT_001_COMPLETE",
+  "KNOWLEDGE_BASELINE_READY": "PASS",
+  "VECTOR_PROVIDER_READINESS": "ADMITTED_DISABLED",
+  "GRAPH_PROVIDER_READINESS": "INSTALL_PROFILE_READY",
+  "PRODUCTION": "NOT_CLAIMED",
+  "LIVE_TRADING": "NOT_AUTHORIZED"
+ },
+ "blocking_tt": 0,
+ "attestation_digest": "8c9ed513b7a0f43afed40e0e2c3f949c0218e016fedd48cc1c2cadf4da5c25b6"
+}

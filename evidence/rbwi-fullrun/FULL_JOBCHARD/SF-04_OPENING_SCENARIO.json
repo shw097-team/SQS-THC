@@ -1,0 +1,39 @@
+{
+  "schema": "RBWI-SF-04-RECEIPT/1",
+  "sf": "SF-04",
+  "run_id": "RUN-RBWI-FULLRUN-20260820-001",
+  "candidate_id": "CAND-RBWI-20260814",
+  "outputs": {
+    "ScenarioTree": {
+      "branches": [
+        "BASE_MIXED",
+        "BULL_CONTINUATION",
+        "BEAR_EXTENSION",
+        "RANGE_BOUND",
+        "TAIL_EVENT"
+      ],
+      "selected": "BASE_MIXED"
+    },
+    "ScenarioTransition": {
+      "old_branch": "BASE_MIXED",
+      "new_branch": "BASE_MIXED",
+      "reason": "8/20 breadth up=106 dn=49; no single-direction break; append-only (no overwrite)",
+      "branch_confirmations": {
+        "BASE_MIXED": "hold",
+        "BULL_CONTINUATION": "not-confirmed",
+        "BEAR_EXTENSION": "not-confirmed"
+      }
+    },
+    "no_change": "ACK"
+  },
+  "gates": "GATE-06/07 PASS",
+  "sim_clock": {
+    "mode": "SIM_FASTEST_ACCEL",
+    "trade_date": "2026-08-20",
+    "dataset": "DSV-DAILY-2026-08-21-r1",
+    "note": "full-automatic sim per user decision 2026-08-21; intraday measured = qualification-proxy; no FDA/XQ realtime"
+  },
+  "financial_boundary": "LOCAL_PAPER_SIMULATION_ONLY",
+  "broker_write": false,
+  "filled": 0
+}

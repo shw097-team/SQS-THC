@@ -1,0 +1,26 @@
+# XQ READ-WATCH ADAPTER - adapters/xq-read-watch.yaml (TS-010 / ART-10, CH28 / MC-24).
+# The XQ/XS/XScript surface is a READ-ONLY watch adapter: it may observe
+# host/data/script/radar/visual state and emit watch receipts, but it has NO
+# order write path of any kind. watch_only:true / write:false are mandatory;
+# any adapter that would write (write:true, a submit/cancel/modify/replace
+# operation, or any order_path other than HITL_ONLY) is NACK'd with exact
+# error ERR_AUTONOMOUS_ORDER_PATH (fail-closed, no mutation, no broker write).
+adapter_id: xq-read-watch
+spec_ref: TS-010/CH28
+kind: read_watch
+watch_only: true
+write: false
+broker_write: false
+autonomous_order_submission: false
+order_path: HITL_ONLY
+mode: RADAR_ONLY
+operations:
+  - watch
+  - read
+  - compile
+  - radar
+forbidden_operations:
+  - submit
+  - cancel
+  - modify
+  - replace

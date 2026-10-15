@@ -1,0 +1,24 @@
+{
+  "finding": "EXT-F06",
+  "classification": "FRESH_CANARY_EVIDENCE_GAP",
+  "status": "CLOSED",
+  "smallest_repair": "POINTER_RICH_CANARY_RECEIPT",
+  "focused_retest": {
+    "canary_run_id": "CANARY-RP2-ECL-001",
+    "receipt_path": "C:/Projects/Agent_Workspace/SQS-THC/evidence/rp002/stage3/closures/CANARY_RECEIPT.txt",
+    "receipt_sha256": "09bbfc40d0b3f8965c178a72bd258d6142b9ef832dc027f43fee025dc9b4e0da",
+    "run_start": "2026-08-13T11:15:47+0800",
+    "run_end": "2026-08-13T11:15:48+0800",
+    "sqs_suite": "231 tests OK",
+    "risk_probe": "5 hard limits + 5 guards (VETO/BLOCK/STOP_LINE/ABSTAIN)",
+    "no_live_write": true,
+    "live_broker_writes": 0,
+    "ft_mutation": 0,
+    "production_side_effect": 0,
+    "breakglass": 0
+  },
+  "bound_into": [
+    "RP002_FABRIC_AUTONOMOUS_SELF_EVOLUTION_EXTERNAL_EVIDENCE_CLOSURE.md"
+  ],
+  "verdict": "CLOSED"
+}

@@ -1,0 +1,23 @@
+{
+  "officer": "Acceptance Officer (RBWI Q2-Q4 8/20 sim-clock VERIFY_ONLY, fresh context)",
+  "lane": "deleg_10561585 (fresh VERIFY_ONLY)",
+  "verdict": "PASS-with-observation",
+  "blocking": [],
+  "items_passed": 7,
+  "items_checked": 7,
+  "nonclaims_verified": [
+    "42 份收據全文掃描：無 live / production / real fill / broker_write:true / filled:1 字樣",
+    "filled==0、broker_write==False、LOCAL_PAPER_SIMULATION_ONLY、SIM_FASTEST_ACCEL（42/42 一致）",
+    "Q2 全 intent==NO_TRADE、HUMAN_ENTRY_APPROVAL_NOT_MINTED、PAPER_ONLY",
+    "Q4 reconciliation BREAK=0、overnight=FLAT_PENDING_HITL、sim_trades=0 —— 零 live/PAPER-XQ 成交宣稱",
+    "與 USER_DECISION claim ceiling（SIM only / 禁 production / live XQ & PAPER 維持 PENDING）完全相符"
+  ],
+  "observations": [
+    "replay_hash 存在且逐日資料相依，但 32-bit 演算法無法以常見 canonical hash 逐字重現（task 已容許以 163==163 列數為準）",
+    "2026-08-11、08-13 replay_rows=162（非 163），但 duckdb 對應日 daily_bars 亦為 162 —— 交易日樣本差，非不一致",
+    "daily_bars 欄位實為 date（asof 為保留字）；8/20 兩欄皆 163、distinct symbol=163 與 replay_rows 完全吻合，Q2 38 個意向標的為該集合子集",
+    "Q2 收據僅列 38 筆意向（=risk_approved=38），s1_qualified=41 —— 篩選鏈合理遞減"
+  ],
+  "summary": "獨立驗收（唯讀，未改動任何檔案）：42/42 收據完整性、誠實不變量、Q2 NO_TRADE、Q3 FORBIDDEN+cutoff、Q4 BREAK=0+hash、8/20 資料層 163 對帳、非宣稱驗證——7/7 全數通過，無 blocking；僅二項由資料層對帳解釋的良性觀察。",
+  "recorded_at": "2026-08-21T11:40+08:00"
+}

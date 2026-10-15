@@ -1,0 +1,168 @@
+{
+  "schema": "RW-V200-DAILY-PACK",
+  "date": "2026-08-20",
+  "week": "2026-W34",
+  "generated_at": "2026-08-20T21:40+08:00",
+  "candidate": "CAND-SPARTOI-W34-20260820",
+  "bias_d_draft": {
+    "direction": "BEAR_MILD",
+    "state": "draft"
+  },
+  "bias_d_final": {
+    "direction": "BEAR_MILD",
+    "three_scenarios": [
+      "BASE",
+      "BULL",
+      "BEAR"
+    ],
+    "confidence": "LOW_MEDIUM",
+    "weekly_parent": "BULL",
+    "invalidations": {
+      "D-DR-break-above": 418.5,
+      "D-DR-break-below": 13.6
+    }
+  },
+  "D-DR/EQ50": {
+    "high": 418.5,
+    "low": 13.6,
+    "eq50": 216.05
+  },
+  "IL/EL": {
+    "internal_liquidity": "eq50-focus",
+    "external_liquidity": "prev-range-h/l below/above",
+    "proxy": "daily-OHLCV"
+  },
+  "A_list": [
+    {
+      "symbol": "2344",
+      "px": 176.5,
+      "liq": 149809828
+    },
+    {
+      "symbol": "2303",
+      "px": 115.5,
+      "liq": 101840408
+    },
+    {
+      "symbol": "2634",
+      "px": 72.3,
+      "liq": 79873677
+    },
+    {
+      "symbol": "1303",
+      "px": 186.0,
+      "liq": 73242172
+    },
+    {
+      "symbol": "2324",
+      "px": 38.5,
+      "liq": 66894669
+    },
+    {
+      "symbol": "2337",
+      "px": 122.0,
+      "liq": 48743476
+    },
+    {
+      "symbol": "1101",
+      "px": 24.8,
+      "liq": 44229818
+    },
+    {
+      "symbol": "8039",
+      "px": 283.0,
+      "liq": 43646872
+    },
+    {
+      "symbol": "1402",
+      "px": 29.2,
+      "liq": 37826090
+    },
+    {
+      "symbol": "2886",
+      "px": 46.4,
+      "liq": 31911647
+    },
+    {
+      "symbol": "2884",
+      "px": 37.35,
+      "liq": 31116788
+    },
+    {
+      "symbol": "2885",
+      "px": 62.1,
+      "liq": 25642789
+    }
+  ],
+  "A_list_count": 12,
+  "S1_candidates": [
+    {
+      "symbol": "2344",
+      "px": 176.5,
+      "liq": 149809828
+    },
+    {
+      "symbol": "2303",
+      "px": 115.5,
+      "liq": 101840408
+    },
+    {
+      "symbol": "2634",
+      "px": 72.3,
+      "liq": 79873677
+    },
+    {
+      "symbol": "1303",
+      "px": 186.0,
+      "liq": 73242172
+    },
+    {
+      "symbol": "2324",
+      "px": 38.5,
+      "liq": 66894669
+    },
+    {
+      "symbol": "2337",
+      "px": 122.0,
+      "liq": 48743476
+    },
+    {
+      "symbol": "1101",
+      "px": 24.8,
+      "liq": 44229818
+    },
+    {
+      "symbol": "8039",
+      "px": 283.0,
+      "liq": 43646872
+    },
+    {
+      "symbol": "1402",
+      "px": 29.2,
+      "liq": 37826090
+    },
+    {
+      "symbol": "2886",
+      "px": 46.4,
+      "liq": 31911647
+    }
+  ],
+  "story_card_final": {
+    "market": "MIXED regime (weekly BULL)",
+    "weekly_direction": "BULL",
+    "daily_direction": "BEAR_MILD",
+    "swings": [
+      "base",
+      "bull_reclaim",
+      "bear_fail"
+    ],
+    "entry_plan_ref": "pending-SF03/live preopen",
+    "risk_ref": "risk/limits.yaml"
+  },
+  "mutation_flags": {
+    "method": false,
+    "risk": false,
+    "wiki": false,
+    "broker_write": false
+  }
+}

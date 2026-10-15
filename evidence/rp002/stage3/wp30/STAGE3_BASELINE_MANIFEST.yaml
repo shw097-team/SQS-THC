@@ -1,0 +1,101 @@
+schema: RP002-STAGE3-BASELINE-MANIFEST/1
+project_id: HGK-REFERENCE-PROJECT-002
+stage_id: RP002-STAGE-SQS
+frozen_at: 2026-08-13T01:20:00+08:00
+
+entry_guard:
+  - item: Master r2
+    locator: 知識庫/實作相關DOC/Fabric/RP-002_v2.0_DOC/RP-002_v2.0_Master_Blueprint_2026-08-12_r2.md
+    sha256: 3bc4ad6c4bfe028e3686484f452d5fd015536e5e18b19c10ac978b2203c2087a
+    status: EXACT
+  - item: Stage-3 r2 owner document
+    locator: 知識庫/實作相關DOC/Fabric/RP-002_v2.0_DOC/RP-002_v2.0_STAGE-3_SQS_PROFILEIZATION_AND_CROSS-STACK_EVOLUTION_2026-08-12_r2.md
+    sha256: 02eda9b247f228a66e94e14db6ae8922b6c3733cb915aff2c05e6a43b7d30a32
+    status: EXACT
+  - item: Prompt Compiler SKILL (current identity)
+    locator: 知識庫/實作相關DOC/HG-KSEOS/construction-acceptance-prompt-compiler/construction-acceptance-prompt-compiler/construction-acceptance-prompt-compiler_SKILL.md
+    sha256: 48a3fdc5a0c65d4279c27ebc7586e747ba86c4bde82535cad2512d43547b4acb
+    status: EXACT
+  - item: Stage-2 external acceptance receipt
+    locator: Fabric/stage/RP002-STAGE-HGK/EXTERNAL_ACCEPTANCE_RECEIPT_STAGE2.yaml
+    sha256: 199cd760a5632eefab353d275c1f6b5606b9ff1aef09fac569fe1a61e54cf105
+    status: EXACT
+  - item: Repaired Stage-2 seal
+    locator: Fabric/stage/RP002-STAGE-HGK/STAGE-2-SEAL-REPAIRED.yaml
+    sha256: 12da14ac7f7933c0b4cd51720f5bebf3bf2ced2c6f41f36f951c2200b3c51d51
+    status: EXACT
+  - item: Repaired Stage2→Stage3 handoff
+    locator: Fabric/stage/RP002-STAGE-HGK/STAGE2_TO_STAGE3_HANDOFF_REPAIRED.yaml
+    sha256: 93a7da2640adcb8f502729bb8f452a7466a0ed9f406720fabf9d495b92e847ec
+    status: EXACT
+  - item: Stage-2 external bundle MD
+    locator: Fabric/evidence/review/RP002_STAGE-2_KG1_EVIDENCE_FOR_EXTERNAL_REVIEW.md
+    sha256: 104d4cf281cd229fc6af901896ac3745b0ffe55fd1f2199cd582d92e429f6b34
+    status: EXACT
+  - item: Stage-3 entry checkpoint
+    locator: Fabric/stage/RP002-STAGE-HGK/RESUME_CHECKPOINT_STAGE3_ENTRY.yaml
+    sha256: 7d6659705b4859278315bc0dba50208e3d17e4de025bbac88f8aeb7f1f842bcd
+    status: EXACT
+  - item: Stage-3 compiled contract
+    locator: SQS-THC/var/rp002-stage3/stage3_contract.json
+    sha256: ca6acc0f3cd8660f1efdc61c639d9e6029acf5cc3acbca5e476ab07f59a359f7
+    status: PROMPT_COMPILE_PASS
+  - item: Fabric AGENTS.md
+    locator: Fabric/AGENTS.md
+    sha256: 8e0068e4260bac2be3c3750f4596a21482c3335c89ee3b3d96dd71aaa11fb68e
+    status: EXACT
+  - item: HGK AGENTS.md
+    locator: HG-KSEOS/AGENTS.md
+    sha256: 7c8879fd636ed670df810f249e62795aff7d789fea07d30a284f11deceee813c
+    status: EXACT
+  - item: HGK Hermes binding
+    locator: HG-KSEOS/config/hermes.json
+    sha256: 2c182542ff46b7dda62326ac7bcb32d4f3ab736a2b8d2b0902f50e10274794c0
+    status: EXACT
+  - item: HGK Stack Manifest
+    locator: HG-KSEOS/HGK/HGK_STACK_MANIFEST.yaml
+    sha256: 0004ed73151e0c56af077800549fbcab10518dce87b2301dc7c2c10f8749e14b
+    status: EXACT
+  - item: SQS README
+    locator: SQS-THC/README.md
+    sha256: 8b6be6a286c35907b81f76f6ffcc3c981dc59066d4d2f00c561762be25b275ae
+    status: EXACT
+  - item: SQS STATUS_VECTOR (RP-001 era)
+    locator: SQS-THC/STATUS_VECTOR.json
+    sha256: 2f1ab64ee6a282445270a28ccc0830892f5e84cb770e8b121f57f894f662496b
+    status: HISTORICAL_READBACK
+  - item: SQS risk limits
+    locator: SQS-THC/risk/limits.yaml
+    sha256: 3290b7784396620605a15aa4442f2e221b60ac921f8b5a8a3f073b60669d253e
+    status: EXACT
+  - item: SQS survival guards
+    locator: SQS-THC/survival/guards.yaml
+    sha256: a21f34b7617667cff50c1d708f9e22de2eeb7b6eced0de65bcf51f268007fe96
+    status: EXACT
+  - item: Fabric Change Class Router
+    locator: Fabric/control/CHANGE_CLASS_ROUTER.yaml
+    sha256: 0839ead509ed269c2a7aa1c0f0cda47cc4f703008cb0c09694d3dd9bb2dec2b6
+    status: EXACT
+  - item: Fabric Acceptance Schema
+    locator: Fabric/assurance/ACCEPTANCE_SCHEMA.yaml
+    sha256: 76f89f534c475a82b96084b448de05e8d0c9104b7bd5f2b852ddbd063ca4a899
+    status: EXACT
+
+roots:
+  SQS: {root: C:\Projects\Agent_Workspace\SQS-THC, mode: READ_WRITE_FOR_STAGE3_APPROVED_CHANGESET}
+  Fabric: {root: C:\Projects\Agent_Workspace\Fabric, mode: TRANSACTIONAL_GOVERNANCE_WRITE_ONLY}
+  HGK: {root: C:\Projects\Agent_Workspace\HG-KSEOS, mode: WORKORDER_BOUND_ENGINEERING_AND_GOVERNED_EVOLUTION_ONLY}
+  知識庫: {root: C:\Projects\Agent_Workspace\知識庫, mode: SOURCE_READ + GOVERNED_DERIVED_PROJECTION}
+
+shared_spine:
+  requirement: REQ-RP2-STAGE3-001 FROZEN v1 (EVT-165f02335423056c)
+  workorders:
+    - {id: WO-RP2-STAGE3-SQP1, writer: codex, state: CREATED}
+    - {id: WO-RP2-STAGE3-S1, writer: codex, state: CREATED}
+    - {id: WO-RP2-STAGE3-E1E2, writer: codex, state: CREATED}
+    - {id: WO-RP2-STAGE3-R1, writer: codex, state: CREATED}
+
+knowledge_families:
+  SQS-THC_工程開發文檔: {file_count: 13}
+  TW-ICT_FSDT-Stack_專業技術文檔: {file_count: 30}
+engineering_base: {root: 知識庫/工程基座, material_items: 17}

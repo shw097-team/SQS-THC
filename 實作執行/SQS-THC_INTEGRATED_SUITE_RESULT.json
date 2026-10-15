@@ -1,0 +1,55 @@
+{
+ "schema": "SQS-THC-INTEGRATED-SUITE/1",
+ "reference_project_id": "HGK-REFERENCE-PROJECT-001",
+ "suites_total": 5,
+ "suites_pass": 5,
+ "suites_fail": 0,
+ "suites": [
+  {
+   "suite": "TS-REF-02_fsdt",
+   "worktree": "ts-ref-02",
+   "exit_code": 0,
+   "ran": 8,
+   "expected": 8,
+   "pass": true,
+   "tail": "alidate (tests.test_fsdt_kernel.CH04PositiveTests.test_pos_003_normalize_then_pit_validate)\nRAW -> NORMALIZED -> PIT_VALIDATED transition chain. ... ok\n\n----------------------------------------------------------------------\nRan 8 tests in 0.001s\n\nOK\n"
+  },
+  {
+   "suite": "TS-REF-03_temporal",
+   "worktree": "ts-ref-03",
+   "exit_code": 0,
+   "ran": 7,
+   "expected": 7,
+   "pass": true,
+   "tail": "clock_ordering_preserved (tests.test_temporal.CH06PositiveTests.test_pos_002_clock_ordering_preserved)\nFive clocks remain ordered after binding. ... ok\n\n----------------------------------------------------------------------\nRan 7 tests in 0.001s\n\nOK\n"
+  },
+  {
+   "suite": "TS-REF-04_knowledge",
+   "worktree": "ts-ref-04",
+   "exit_code": 0,
+   "ran": 7,
+   "expected": 7,
+   "pass": true,
+   "tail": "_grounded_citation (tests.test_knowledge.CH10PositiveTests.test_pos_002_grounded_citation)\nRetrieved chunk carries resolvable provenance anchor. ... ok\n\n----------------------------------------------------------------------\nRan 7 tests in 0.001s\n\nOK\n"
+  },
+  {
+   "suite": "TS-REF-05_harness",
+   "worktree": "ts-ref-05",
+   "exit_code": 0,
+   "ran": 8,
+   "expected": 8,
+   "pass": true,
+   "tail": "handoff_merge (tests.test_harness.CH15PositiveTests.test_pos_002_dispatch_handoff_merge)\ndispatch -> handoff(ACK) -> merge under HUMAN_REVIEWED. ... ok\n\n----------------------------------------------------------------------\nRan 8 tests in 0.001s\n\nOK\n"
+  },
+  {
+   "suite": "TS-REF-06_capability",
+   "worktree": "ts-ref-06",
+   "exit_code": 0,
+   "ran": 7,
+   "expected": 7,
+   "pass": true,
+   "tail": "nalize_allowed (tests.test_capability.CH16PositiveTests.test_pos_002_finalize_allowed)\ndisposition ALLOWED + QUALIFIED + exit manifest -> final. ... ok\n\n----------------------------------------------------------------------\nRan 7 tests in 0.000s\n\nOK\n"
+  }
+ ],
+ "verdict": "INTEGRATED_GREEN"
+}

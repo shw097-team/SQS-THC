@@ -1,0 +1,2 @@
+# EDGE FIXTURE - an empty hard-limit list is a valid state.
+limits: []

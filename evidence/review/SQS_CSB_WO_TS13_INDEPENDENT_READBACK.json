@@ -1,0 +1,16 @@
+{
+ "schema": "SQS-CSB-WO-TS13-INDEPENDENT/1",
+ "changeset": "CS-B-SQS-TWICT-WAVE2-FULL-PROJECT-CLOSURE",
+ "workorder": "WO-TS-REF-13",
+ "checker": "INDEPENDENT_CHECKER (fresh read-only subprocess)",
+ "suite": {
+  "exit_code": 0,
+  "ran": "171",
+  "ok": true
+ },
+ "targets": [
+  "migration/donor-matrix.yaml",
+  "deprecation/records.yaml"
+ ],
+ "verdict": "INDEPENDENT_CASE_PASS"
+}

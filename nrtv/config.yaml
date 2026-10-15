@@ -1,0 +1,13 @@
+# NRTV CONFIG - nrtv/config.yaml (TS-012 / ART-12, CH35 / MC-27).
+# NRTV is target-only and independent: frozen question set, blind run,
+# no-return-to-source proof, retrieval locator accuracy, semantic parity and
+# an independent evaluator identity. Each config carries id, runtime_window
+# and condition. A self-judged NRTV pass is rejected (ERR_NRTV_SELF_JUDGE /
+# ERR_SELF_NRTV); nothing here claims a run happened.
+nrtv_id: nrtv-config-ts012
+schema_version: "1.0.0"
+spec_ref: TS-012/SPEC-35
+configs:
+  - id: NRTV-012-001
+    runtime_window: corpus_revision
+    condition: independent evaluator identity present AND no-return-to-source proof AND retrieval locator accuracy verified

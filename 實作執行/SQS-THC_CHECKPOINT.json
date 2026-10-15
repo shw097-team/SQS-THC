@@ -1,0 +1,20 @@
+{
+  "schema": "SQS-THC-CHECKPOINT/1",
+  "reference_project_id": "HGK-REFERENCE-PROJECT-001",
+  "captured_at_utc": "2026-08-10T12:10:00Z",
+  "project_state": "EXECUTING",
+  "gates": {
+    "G0": "PASS - doctor blocking=[]; TT ledger sync; HEAD d39ab32",
+    "G1": "PASS - inventory 161,099 files/8.8GB hashed; Knowledge Preload 354/376 promoted (22 quarantined security-example, 0 failed); eng-base disposition 6/6",
+    "G2": "PASS - Kanban board sqs-thc-ref-001 + 15 cards; gstack plan-eng-review real invocation (advisory NOT_READY); route readback deepseek-v4-flash via ocx :10100; hermes v0.20/codex 0.147/ocx 2.11 identity",
+    "G3": "IN_PROGRESS - WO-TS-REF-02 FSDT kernel: maker 8/8 + INDEPENDENT_CASE_PASS (b40bb28); WO-TS-REF-03 temporal kernel: Codex running",
+    "G4": "PENDING",
+    "G5": "PENDING",
+    "G6": "PENDING"
+  },
+  "evolution_signals": [
+    {"signal_id": "EVO-SIG-32D2CAA8", "type": "WORKFLOW_GAP", "detail": "lifecycle.admit_workorders req_id=REQ-{tail} collides with existing REQ-001; except catches InvariantViolation only"},
+    {"signal_id": "EVO-SIG-509F4856", "type": "ORCHESTRATION_GAP", "detail": "_derive_tasks keyword-match misses CJK goals; Chinese goal produced only 2 generic tasks"}
+  ],
+  "next_action": "await WO-TS-REF-03 (temporal); independent recheck; then WO-TS-REF-04 knowledge; then acceptance/reducer/package/User Guide"
+}

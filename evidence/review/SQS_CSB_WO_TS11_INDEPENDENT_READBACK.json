@@ -1,0 +1,18 @@
+{
+ "schema": "SQS-CSB-WO-TS11-INDEPENDENT/1",
+ "changeset": "CS-B-SQS-TWICT-WAVE2-FULL-PROJECT-CLOSURE",
+ "workorder": "WO-TS-REF-11",
+ "checker": "INDEPENDENT_CHECKER (fresh read-only subprocess)",
+ "suite": {
+  "exit_code": 0,
+  "ran": "142",
+  "ok": true
+ },
+ "targets": [
+  "docs/DOC-11.md",
+  "maturity/maturity-model.yaml",
+  "sre/slos.yaml",
+  "security/policies.yaml"
+ ],
+ "verdict": "INDEPENDENT_CASE_PASS"
+}

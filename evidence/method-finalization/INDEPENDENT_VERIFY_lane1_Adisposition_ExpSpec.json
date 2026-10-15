@@ -1,0 +1,13 @@
+{
+  "lane": "deleg_fdbb3afd/task-1",
+  "verdict": "PASS",
+  "blocking": [],
+  "verified": [
+    "NEGATIVE_RESULT REJECTED+finding -581,939/43%<50%/6.64x",
+    "DOC-20 失敗是資產 no overfit-rescue",
+    "ExperimentSpec candidate rf-overnight+anti-overfit+cost 68.5bp+acceptance(gross>0 first)+nonclaim",
+    "DOC-25 獨立驗證不 reuse maker cache",
+    "positive PnL != acceptance",
+    "全鏈無 PAPER/live 宣稱"
+  ]
+}

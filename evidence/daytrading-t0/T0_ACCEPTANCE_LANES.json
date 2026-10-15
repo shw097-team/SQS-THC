@@ -1,0 +1,5 @@
+{
+  "lane0": "VERIFIED_REPRODUCIBLE_AND_HONEST (5243 trades, hash d0ded75d, IS/OOS match)",
+  "lane1": "PASS (T0 method contract self-consistent, cost 68.5 ok, no self-claim, DOC-20 證偽)",
+  "codex": "CONCERNS->FIXED (cost_model breakdown + FORCED_FLATTEN label + representativeness)"
+}

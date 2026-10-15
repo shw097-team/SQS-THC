@@ -1,0 +1,64 @@
+# SQS-THC data plane — provider profile (G1, RP001-WAVE3)
+# Source: 實作執行/實作方案、評估/Shioaji-first_..._藍圖_2026-08-11_r1.md §5.1
+# Status: ADMISSION_PENDING -> QUALIFIED (G1 empirical read-only login)
+version: 1
+mode: fail_closed
+
+shioaji:
+  version: "1.7.2"          # official-probed current stable at G1 time
+  historical:
+    state: QUALIFIED_READ_ONLY
+    auth_profile: SJ_DATA_READ
+    permissions_required: [Market_Data]
+    production_environment: false
+    trading_permission: false
+    account_permission: false
+    simulation: true
+    allowed_ip_required: true
+    max_kbar_window_days: 30
+  realtime:
+    state: ADMISSION_PENDING
+    auth_profile: SJ_DATA_READ
+    quote_types: [tick, bid_ask]
+  simulation:
+    state: ADMISSION_PENDING
+    auth_profile: SJ_SIM_EXEC
+    production_environment: false
+    trading_permission: true
+  live:
+    state: BLOCKED
+    auth_profile: null
+
+finmind:
+  state: CONDITIONAL_NOT_REQUIRED
+  activation_gate: FINMIND_ACTIVATION_DECISION
+
+official_reference:
+  TWSE: {state: REQUIRED_REFERENCE}
+  TPEx: {state: REQUIRED_REFERENCE}
+
+daily_layer:
+  state: ACTIVE
+  dataset_version: DSV-DAILY-2026-08-13-r2
+  market_scope: TWSE_LISTED_COMMON_STOCK_ONLY
+  provider: TWSE_OFFICIAL
+  source_endpoint: TWSE_STOCK_DAY
+  rows: 221349
+  symbols: 258
+  external_acceptance: GRANTED_2026-08-13
+  accepted_claim: DAILY_OHLCV_LOCAL_BACKTEST_DATA_LAYER_PASS
+  update_cadence: DAILY
+  update_mechanism: backfill_daily.update_incremental
+  corporate_action_state: RAW_UNADJUSTED_ONLY
+  rights_receipt: RIGHTS-DAILY-2026-08-13-002
+  evidence_locator: evidence/rp002/daily-ohlcv/
+
+xq:
+  role: PARITY_AND_HITL_SURFACE
+  runtime_parity: NOT_RUN
+
+credential_boundary:
+  key_source: "實作執行/Shioaji API/Shioaji API Key .txt"   # local-only, never committed
+  pfx: "實作執行/Shioaji API/Sinopac.pfx"                   # trading cert — NOT required for data read
+  rule: DATA_READ_USES_API_KEY_SECRET_ONLY; pfx NEVVER loaded in data lane
+  storage: env-var at runtime (SJ_API_KEY / SJ_SEC_KEY); never in code/log/evidence

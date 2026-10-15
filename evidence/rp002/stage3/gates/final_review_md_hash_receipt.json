@@ -1,0 +1,8 @@
+{
+ "schema": "RP002-FINAL-REVIEW-MD-HASH-RECEIPT/1",
+ "final_review_md_sha256": "ba287aee32c20b867bdca39002945e9573a5c6be86815d9d3616a80a5e5d1348",
+ "sqs_canonical": "ba287aee32c20b867bdca39002945e9573a5c6be86815d9d3616a80a5e5d1348",
+ "fabric_mirror": "ba287aee32c20b867bdca39002945e9573a5c6be86815d9d3616a80a5e5d1348",
+ "hgk_mirror": "ba287aee32c20b867bdca39002945e9573a5c6be86815d9d3616a80a5e5d1348",
+ "mirror_byte_identical": true
+}

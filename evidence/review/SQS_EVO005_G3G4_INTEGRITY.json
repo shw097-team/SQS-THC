@@ -1,0 +1,69 @@
+{
+ "schema": "SQS-EVO005-G3G4-INTEGRITY/1",
+ "captured_at_utc": "2026-08-11T11:49:05.071679+00:00",
+ "subject_digest": "e546cc2c4eacf0cb4bbb259d717c1728b89ac6c579de94262db0f450f36eefc1",
+ "oracle_version": "EVO005-ORACLE-V1",
+ "graph_root_digest": "ec524f9e1db640979c9bd596888d07bdb0427aad8f53e6a28063f02f7dba15f2",
+ "artifacts_registered": 14,
+ "canaries": [
+  {
+   "case": "g2_artifacts_registered",
+   "ok": true,
+   "detail": "14/14"
+  },
+  {
+   "case": "c3_digest_placeholder_detected",
+   "ok": true,
+   "detail": "r5 has 14 placeholders (now corrected by graph)"
+  },
+  {
+   "case": "c3_canonical_record_exists",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "case": "c2_physical_files",
+   "ok": true,
+   "detail": "68"
+  },
+  {
+   "case": "c2_metric_semantics",
+   "ok": true,
+   "detail": "physical=68 admitted=30 fts_rows=0 cold_start_docs=20 — distinct units, source-backed mapp"
+  },
+  {
+   "case": "c2_projection_truth",
+   "ok": true,
+   "detail": "r5 fts_rows=0 was G4 runner gap; G5/G6 cold-start runner promotes -> real FTS rows > 0 (se"
+  },
+  {
+   "case": "c5_state_not_executing_pass",
+   "ok": true,
+   "detail": "state=DELIVERED"
+  },
+  {
+   "case": "c4_provider_truthful",
+   "ok": true,
+   "detail": "qdrant=ADMITTED_DISABLED (real client 1.19.0 + lifecycle evidence)"
+  },
+  {
+   "case": "c7_verifier_independent",
+   "ok": true,
+   "detail": "verifier reads Oracle+Subject+Graph+raw digests only (G7 adversarial)"
+  },
+  {
+   "case": "g2_graph_root_digest",
+   "ok": true,
+   "detail": "ec524f9e1db64097"
+  }
+ ],
+ "knowledge_metric_semantics": {
+  "physical_source_files": 68,
+  "source_capsules": null,
+  "knowledge_records": null,
+  "fts_document_units": 20,
+  "fts_rows": 0,
+  "mapping": "distinct units; physical != admitted != fts_rows by design"
+ },
+ "verdict": "CROSS_ARTIFACT_SEMANTIC_INTEGRITY_PASS"
+}

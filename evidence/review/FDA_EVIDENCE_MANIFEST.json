@@ -1,0 +1,336 @@
+{
+  "artifact_id": "FDA_EVIDENCE_MANIFEST",
+  "schema": "FDA-EVIDENCE-MANIFEST/3",
+  "version": "FINAL_RR4_POST_REORG",
+  "generated_at_utc": "2026-08-14T03:21:39Z",
+  "subject_root": {
+    "repo": "Fabric",
+    "git_head": "e7b289449775ba9be622d69c0547e7bad1256c18",
+    "note": "FINAL post-folder-reorg frozen HEAD (RR4 Track A)"
+  },
+  "exact_set": {
+    "manifest_row_count": 54,
+    "payload_file_count": 54,
+    "bundle_file_count": 76,
+    "reducer_in_manifest": false,
+    "manifest_self_entry": false,
+    "note": "manifest_row_count == payload_file_count == number of rows; every row = exactly one filesystem path; reducer MD and manifest itself are EXCLUDED (reducer_in_manifest=false, manifest_self_entry=false); bundle_file_count includes non-payload support files (manifest, index, readbacks, reducer MD)."
+  },
+  "checker": {
+    "script": "Fabric/fabric-desktop-automation/independent_checker.py",
+    "verdict": "PASS",
+    "checks": 179,
+    "failed": 0,
+    "note": "single fresh run on final HEAD (RR4 Track C); historical denominators 144/174/175/176 superseded — see checker_history"
+  },
+  "checker_history": [
+    {
+      "checks": 144,
+      "status": "HISTORICAL",
+      "subject": "pre-XQ-patch",
+      "superseded_by": "176"
+    },
+    {
+      "checks": 174,
+      "status": "HISTORICAL",
+      "subject": "XQ build-aware + T160-T177",
+      "superseded_by": "176"
+    },
+    {
+      "checks": 175,
+      "status": "HISTORICAL",
+      "subject": "folder-reorg path checks (interim)",
+      "superseded_by": "176"
+    },
+    {
+      "checks": 176,
+      "status": "HISTORICAL",
+      "subject": "post-reorg stable (RR3)",
+      "superseded_by": "179"
+    },
+    {
+      "checks": 179,
+      "status": "CURRENT",
+      "subject": "post-reorg final HEAD e7b289449775"
+    }
+  ],
+  "dod_counts": {
+    "PASS": 36,
+    "PARTIAL": 0,
+    "BLOCKED": 0
+  },
+  "artifacts": [
+    {
+      "path": "Fabric/fabric-desktop-automation/DOC/FDA_USER_GUIDE.md",
+      "sha256": "81271eb745b7f37ab577182a0f675f0ce4a0ec4ab7bda7eb69c7884ac7f04367",
+      "size": 20138
+    },
+    {
+      "path": "Fabric/fabric-desktop-automation/FDA_DESKTOP_CAPABILITY_MATRIX.yaml",
+      "sha256": "9406456db853e9e6597c30ed400240808c7b0c777dd49c34eb611bf4c863d6c4",
+      "size": 11110
+    },
+    {
+      "path": "Fabric/fabric-desktop-automation/FDA_DIRECTORY_TREE.txt",
+      "sha256": "57ceaf69fb27c21da59fff188e3c1cf90575da7e7861a19d7387b191e5767c98",
+      "size": 2174
+    },
+    {
+      "path": "Fabric/fabric-desktop-automation/FDA_EXECUTION_BINDING.json",
+      "sha256": "6a3269202d0dba0ba6c8bb0d6656e592dcda4042a0dc88e63fba732e3335b095",
+      "size": 3308
+    },
+    {
+      "path": "Fabric/fabric-desktop-automation/FDA_FOLDER_REORGANIZATION_RECEIPT.json",
+      "sha256": "00d690f94a05aabc644e9c9cafc4664fc98602eeaa5e28f54d17ae6ee7e58cbe",
+      "size": 777
+    },
+    {
+      "path": "Fabric/fabric-desktop-automation/TEAM.md",
+      "sha256": "c524945c90c836b048ee07084bcac75adba8a01b1ca0ae16b8a742ac388afc5b",
+      "size": 4048
+    },
+    {
+      "path": "Fabric/fabric-desktop-automation/WO_FDA_XQ_002.yaml",
+      "sha256": "6c80ff03511753175a627b501ae5a72fa9e5195bc3830d438e88a6bf979b3c87",
+      "size": 1588
+    },
+    {
+      "path": "Fabric/fabric-desktop-automation/evidence/FDA_DIRECTORY_TREE.txt",
+      "sha256": "57ceaf69fb27c21da59fff188e3c1cf90575da7e7861a19d7387b191e5767c98",
+      "size": 2174
+    },
+    {
+      "path": "Fabric/fabric-desktop-automation/evidence/FDA_FOLDER_REORGANIZATION_RECEIPT.json",
+      "sha256": "00d690f94a05aabc644e9c9cafc4664fc98602eeaa5e28f54d17ae6ee7e58cbe",
+      "size": 777
+    },
+    {
+      "path": "Fabric/fabric-desktop-automation/evidence/FDA_MIRROR_READBACK_20260814_RR3.json",
+      "sha256": "beb62f115a2466894d0f141f7bd6d841888f8259022607f1cc1e8a094a597621",
+      "size": 452
+    },
+    {
+      "path": "Fabric/fabric-desktop-automation/evidence/receipts/FDA_BOUNDED_CONTROL_LIVE_PROBE.json",
+      "sha256": "51559903556f3910d6286974a349b8515d8498a6870d727532cd7f5f016b623e",
+      "size": 586
+    },
+    {
+      "path": "Fabric/fabric-desktop-automation/evidence/receipts/FDA_C0_READBACK_RECEIPT.json",
+      "sha256": "ca905aba1e02a8df4b1a6d2b41764df448bbd53353422c2a81b5b2750562b414",
+      "size": 5838
+    },
+    {
+      "path": "Fabric/fabric-desktop-automation/evidence/receipts/FDA_C2_CUA_QUALIFICATION_RECEIPT.json",
+      "sha256": "c181ef51b2066b1ffc9b185355b42653c00ee245048ebe84483fde2393c54362",
+      "size": 3380
+    },
+    {
+      "path": "Fabric/fabric-desktop-automation/evidence/receipts/FDA_C3_UFO2_EFFECTIVE_LOAD_RECEIPT.json",
+      "sha256": "1d7d149ac6cd1ed0616ab1fa25f804cc20f33808663d7d1d32b4040ab8d97781",
+      "size": 1811
+    },
+    {
+      "path": "Fabric/fabric-desktop-automation/evidence/receipts/FDA_C3_UFO2_QUALIFICATION_RECEIPT.json",
+      "sha256": "048b151f462384310eabb9018e7d5ecb012677473b47667be49be84c03492e6d",
+      "size": 1800
+    },
+    {
+      "path": "Fabric/fabric-desktop-automation/evidence/receipts/FDA_C4_XQ_QUALIFICATION_RECEIPT.json",
+      "sha256": "cf86b05f71c0cf734dcc2684cd0bb1542c82e151ea7edf1df5132236189b6543",
+      "size": 3636
+    },
+    {
+      "path": "Fabric/fabric-desktop-automation/evidence/receipts/FDA_C5_LEASE_CONCURRENCY_RECEIPT.json",
+      "sha256": "357a9650a045d7485ff93270f98268946d740980da156d6f280e995b2364d0a8",
+      "size": 825
+    },
+    {
+      "path": "Fabric/fabric-desktop-automation/evidence/receipts/FDA_F01_LIVE_FIXTURE_RECEIPT.json",
+      "sha256": "36fff6f57cffa10bc8f6c753295147c644a1b000ea35c58de8f848a1dc8d8697",
+      "size": 3912
+    },
+    {
+      "path": "Fabric/fabric-desktop-automation/evidence/receipts/FDA_F03_LIVE_FIXTURE_RECEIPT.json",
+      "sha256": "cbf60ef9cd5cab761ce3e6ccdd13236d5107a4d41f3a52482dc396dae31b1055",
+      "size": 1337
+    },
+    {
+      "path": "Fabric/fabric-desktop-automation/evidence/receipts/FDA_F04_LIVE_FIXTURE_RECEIPT.json",
+      "sha256": "5d9bd84beae406f06206bc7d8b3bf1288ff38b2f54f34dcdf2947da3905647d8",
+      "size": 1183
+    },
+    {
+      "path": "Fabric/fabric-desktop-automation/evidence/receipts/FDA_F06_CLOSURE_V3_RECEIPT.json",
+      "sha256": "fe2d736f49865b9a7d2abfa3b28794764bae32c17d60d559623fe3a77a39980b",
+      "size": 1263
+    },
+    {
+      "path": "Fabric/fabric-desktop-automation/evidence/receipts/FDA_F06_CLOSURE_V4_RECEIPT.json",
+      "sha256": "e149fdeb258a422a7983722c2ae2315d4e77a32317574a2c9a2c61da79edd47b",
+      "size": 1125
+    },
+    {
+      "path": "Fabric/fabric-desktop-automation/evidence/receipts/FDA_F06_CLOSURE_V5_RECEIPT.json",
+      "sha256": "249c016a3a3a7b68a2439469cc5a31c24ace8d198e9f968177c9d89e3f018792",
+      "size": 1139
+    },
+    {
+      "path": "Fabric/fabric-desktop-automation/evidence/receipts/FDA_F06_CLOSURE_V6_RECEIPT.json",
+      "sha256": "0462d34b16705535b2c293bdecc2359ad910fae7b74986c9328c94efdaa6be47",
+      "size": 1558
+    },
+    {
+      "path": "Fabric/fabric-desktop-automation/evidence/receipts/FDA_F06_CLOSURE_V7_RECEIPT.json",
+      "sha256": "774454d0faeed6c0ae0af92f4c959378be87afa63a15a3e5b0cb952131ec0b6f",
+      "size": 1603
+    },
+    {
+      "path": "Fabric/fabric-desktop-automation/evidence/receipts/FDA_F06_CLOSURE_V8_RECEIPT.json",
+      "sha256": "a16a4bb3852ddb30460ba19e4979e32d1b5263ed66e946fc076c614e96ea72b7",
+      "size": 1352
+    },
+    {
+      "path": "Fabric/fabric-desktop-automation/evidence/receipts/FDA_F06_COMPILE_RECEIPT.json",
+      "sha256": "94cfccad36dabc5e91eb32eb4259f8232c160f674a018cbdb0a6ca14dadac569",
+      "size": 1380
+    },
+    {
+      "path": "Fabric/fabric-desktop-automation/evidence/receipts/FDA_F06_COMPILE_TOOLBAR_RECEIPT.json",
+      "sha256": "7977c24d7fe9576b89e1edc2eab20bbba26397e5d9985edd4dfa9e007e92bdae",
+      "size": 972
+    },
+    {
+      "path": "Fabric/fabric-desktop-automation/evidence/receipts/FDA_F06_EXPORT_RECEIPT.json",
+      "sha256": "f03dd33cbca58b70d51c7c5a1425d830a59aeaf53fdbe21de457cffcac1aa083",
+      "size": 768
+    },
+    {
+      "path": "Fabric/fabric-desktop-automation/evidence/receipts/FDA_F06_F07_LIVE_FIXTURE_RECEIPT.json",
+      "sha256": "353b639f2a789f6c6116b8225262af1325178adb9354be553670461f21273bef",
+      "size": 1460
+    },
+    {
+      "path": "Fabric/fabric-desktop-automation/evidence/receipts/FDA_F06_LIVE_FIXTURE_RECEIPT.json",
+      "sha256": "f10b9c5497fb763fdfafd7eb1659c93df4f3835f5a9026870fc4d75d11a27ade",
+      "size": 1272
+    },
+    {
+      "path": "Fabric/fabric-desktop-automation/evidence/receipts/FDA_F06_SYSTEM_PATH_RECEIPT.json",
+      "sha256": "7407a237fd1127474e692b5d564dc8420330ed58c7fdf0fa366d7cb53d93a345",
+      "size": 1257
+    },
+    {
+      "path": "Fabric/fabric-desktop-automation/evidence/receipts/FDA_F06_TEN_RUN_RECEIPT.json",
+      "sha256": "17353bfbbde9e9dd59f67d0be08e8075530b68d950a8a66d7ce70b5b00f5d97c",
+      "size": 2535
+    },
+    {
+      "path": "Fabric/fabric-desktop-automation/evidence/receipts/FDA_F09B_PAPER_RUNTIME_RECEIPT.json",
+      "sha256": "a57f730465c3d023145e2481fb274bddc87c62c6d5b6e1f576d2edd42fa41f78",
+      "size": 2002
+    },
+    {
+      "path": "Fabric/fabric-desktop-automation/evidence/receipts/FDA_F09_RADAR_RECEIPT.json",
+      "sha256": "0c9adabdbac434953007bd8dcba0bbf7c8aacd1b267343f02c6e1b4d721f1ee5",
+      "size": 1089
+    },
+    {
+      "path": "Fabric/fabric-desktop-automation/evidence/receipts/FDA_F10_F11_READBACK_RECEIPT.json",
+      "sha256": "7d471b12739d9e2f4dce9980cd8e8171c43bed3b0df723775ee380894eb2323b",
+      "size": 1373
+    },
+    {
+      "path": "Fabric/fabric-desktop-automation/evidence/receipts/FDA_XQ_BUILD_FINGERPRINT_RECEIPT.json",
+      "sha256": "b23ddca238b99378988c731036b9fe01742a1a5fbbc0fd9ba3d8223eb484e9be",
+      "size": 946
+    },
+    {
+      "path": "Fabric/fabric-desktop-automation/evidence/receipts/FDA_XQ_NATIVE_QUALIFICATION_RECEIPT.json",
+      "sha256": "d676c68f05f9560af6f5aae31408cee66308adc9d18d50bda150dce6d7f8fa13",
+      "size": 551
+    },
+    {
+      "path": "Fabric/fabric-desktop-automation/evidence/receipts/FDA_XQ_PAPER_RUNTIME_RECEIPT.json",
+      "sha256": "1730e4162c1f10b606af7e850c494df799cc96e3e2ef46c93a4466f8e3905a74",
+      "size": 4587
+    },
+    {
+      "path": "Fabric/fabric-desktop-automation/fda_lease.py",
+      "sha256": "856580b533b547a82772de8624c78792d669cb11bb9cb99551c7141a06594db2",
+      "size": 2510
+    },
+    {
+      "path": "Fabric/fabric-desktop-automation/fda_router.py",
+      "sha256": "c3d64650a6e0c6fd3d99b5236c30c4cb03b7621be9763299e335ac1c6ed95e6c",
+      "size": 1115
+    },
+    {
+      "path": "Fabric/fabric-desktop-automation/governance/FDA_DEFERRED_SEMIAUTO_CONTRACT.yaml",
+      "sha256": "6e1c808e278592f2b4d75c6296b4b81d9e227a2f21e188c9594b18085bbf0f8f",
+      "size": 2995
+    },
+    {
+      "path": "Fabric/fabric-desktop-automation/governance/FDA_INTEROP_DISPOSITION.yaml",
+      "sha256": "9fac4d255030443f8031a5bfe62d8e204698cf664ada2b06a65986f347c7ee5e",
+      "size": 3487
+    },
+    {
+      "path": "Fabric/fabric-desktop-automation/governance/FDA_ROUTE_CHECK.yaml",
+      "sha256": "05256d982f8634fe25a5cf6d6e85685ca8fdcd54163c913a4cb689f6d922a909",
+      "size": 2188
+    },
+    {
+      "path": "Fabric/fabric-desktop-automation/governance/FDA_XQ_PAPER_FIXTURE_MANIFEST.yaml",
+      "sha256": "6a108d3a8c25221541c1eb9ac72d192412a9f0690d219f8dab0acf0694a4a2cf",
+      "size": 1848
+    },
+    {
+      "path": "Fabric/fabric-desktop-automation/independent_checker.py",
+      "sha256": "8a9b761087d01cc99d35be14cc4a495f35636793552fe62400ea76d45de96dbe",
+      "size": 12475
+    },
+    {
+      "path": "Fabric/fabric-desktop-automation/test_xq_action_router.py",
+      "sha256": "e8778f2d73349905455e7254a9f2e0f5f3a7195cd6503093aa6c54504d615c2c",
+      "size": 2478
+    },
+    {
+      "path": "Fabric/fabric-desktop-automation/test_xq_build_drift.py",
+      "sha256": "cf234c66e389900b517d437a6d2ec4d69977104876fc4ab898a6f4df1aaf8eb9",
+      "size": 3215
+    },
+    {
+      "path": "Fabric/fabric-desktop-automation/test_xq_native_adapter.py",
+      "sha256": "89566c1a2c5070d524c74fd34a5e164cce5f2a888ee4abcaac6df1af4ac9f060",
+      "size": 1899
+    },
+    {
+      "path": "Fabric/fabric-desktop-automation/tests/test_fda_lease.py",
+      "sha256": "8caeb1dba6715af44f038e095eccc2287eebc817dac6782a0eb29bd742383ee6",
+      "size": 4015
+    },
+    {
+      "path": "Fabric/fabric-desktop-automation/tests/test_fda_router.py",
+      "sha256": "64a52a017d0ef757fbc725afb6fdfb71bf2b41829723743345e123643b45ba13",
+      "size": 4028
+    },
+    {
+      "path": "Fabric/fabric-desktop-automation/tests/test_fda_router_integration.py",
+      "sha256": "654df5de873b6e71ec1b73bbfb3ca9a92ff4b4758ab558b3784a2f68452d6b97",
+      "size": 4001
+    },
+    {
+      "path": "Fabric/fabric-desktop-automation/tests/test_fda_security.py",
+      "sha256": "6b0e2f19268db5fb0507fd6b39034db36e46922a42a93dfa3e5eff6004c359b3",
+      "size": 7512
+    },
+    {
+      "path": "Fabric/fabric-desktop-automation/xq_native_adapter.py",
+      "sha256": "89cd614b63562514ece4fac503f7d54b2d0f02ca7398a39cd468b86f4c76bde2",
+      "size": 5045
+    }
+  ],
+  "artifact_count": 54,
+  "missing_artifacts": []
+}

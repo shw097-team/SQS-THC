@@ -1,0 +1,73 @@
+schema: RP002-STAGE3-GATE-RECEIPT/1
+gate: SQP1
+stage: RP002-STAGE-SQS
+project: HGK-REFERENCE-PROJECT-002
+verdict: PASS
+observed_at: 2026-08-13T01:55:00+08:00
+
+workorder:
+  id: WO-RP2-STAGE3-SQP1
+  writer: codex
+  batches:
+    - batch: 1
+      evidence: "31 files materialized byte-exact from staged pack; Codex exit 0; 30/30 staged-file SHA-256 readback identical; git porcelain 25 -> 38 (only expected additions)"
+    - batch: 2
+      evidence: "test fixture ordering repair (real defect found by Codex batch 1); 11/11 SQP1 tests OK; canonical suite 222 OK"
+
+materialized:
+  profiles:
+    - "agents/profiles/sqs-orchestrator (distribution.yaml RP002-PROFILE-RUNTIME-CONTRACT/2, SOUL.md, config.yaml, mcp.json, fixtures/, README.runtime-contract.md)"
+    - "agents/profiles/sqs-data-analysis (same set)"
+    - "agents/profiles/sqs-risk (same set)"
+  team: "TEAM.md (SQS-TEAM/1)"
+  stack: "SQS_STACK_MANIFEST.yaml (RP002-STACK-MANIFEST/2)"
+  mapping: SQS_RUNTIME_ABSTRACTION_MAPPING.yaml
+  marca: SQS_MARCA_ROLE_CATALOG.yaml
+  topology: "SQS_TASK_TOPOLOGY_POLICY.yaml (SQS-TASK-TOPOLOGY-POLICY/1 + FAST_LOOP guard)"
+  runtime_pack: "SQS/TWICT_RUNTIME_PACK_MANIFEST.yaml (TWICT-FINANCIAL-RUNTIME-PACK/1; DOC-00..29 mapped to M00-M16; alias_count=0)"
+  capability_import: "SQS_TWICT_PRODUCT_CAPABILITY_IMPORT.yaml (138 rows - SQS 67 + TWICT 71; distinct canonical = 119)"
+  role_disposition: "SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml (223 rows - SQS 108 + TWICT 115; unresolved = 0)"
+  selected_skills: "SQS_SELECTED_SKILL_SET.yaml (4 pinned - hgk-governed-execution, construction-acceptance-prompt-compiler, gstack-method-donor, openspec-route)"
+  assurance_pack: "SQS_ASSURANCE_PACK_MANIFEST.yaml (TWICT_DOC21_INDEPENDENT_VALIDATION + TWICT_DOC27_EVIDENCE_NRTV)"
+  engineering_base_disposition: "SQS_ENGINEERING_BASE_DISPOSITION.yaml (17 items; REUSE/ADAPT/QUARANTINE; no parallel base)"
+  tests: "tests/test_rp002_stage3_sqp1.py (S3-T001..T011)"
+
+acceptance_predicates:
+  exact_persistent_profiles: "3 (sqs-orchestrator, sqs-data-analysis, sqs-risk) - L2 C1/C8 PASS; unittest t001/t008"
+  distributions_exact_bound: "PASS - L2 C2 (schema RP002-PROFILE-RUNTIME-CONTRACT/2 + profile_id + stack_id)"
+  fresh_session_effective_load: "PASS - distributions + SOUL/config/mcp/fixtures present per profile; L2 C1; 30/30 byte readback"
+  team_consumed: "PASS - L2 C3 (TEAM.md SQS-TEAM/1 + 3 profile names)"
+  stack_exact_set: "PASS - L2 C4 (authority unchanged; persistent_profiles_p0 = 3)"
+  twict_doc00_29_mapping: "COMPLETE - 30/30 DOC files present; M00-M16 binding in runtime pack manifest"
+  role_catalog_orphans: "0 for selected P0 scope"
+  role_to_profile_mapping: "VALID - role disposition crosswalk host bindings"
+  financial_truth_ownership_unchanged: "PASS - SQS_OWNER_BOUND_CONTROL_CORPUS (fsdt); L2 C4"
+  risk_authority_unchanged: "PASS - risk/limits.yaml + survival/guards.yaml untouched"
+  acceptance_officer_external: "PASS - L2 ran as fresh-context VERIFY_ONLY leaf (acceptance-officer-L2-sqp1)"
+  fourth_profile_absent: "PASS - unittest t008; L2 C8"
+  live_broker_write_blocked: "PASS - only adapter xq-read-watch.yaml (watch_only: true, write: false); L2 C9"
+  fast_loop_guard: "PASS - FAST_LOOP_TOOL_INSTALL/UPGRADE/PROVIDER_MUTATION/PROFILE/SKILL mutation all FORBIDDEN"
+
+negative_tests:
+  - "t009: profile cannot promote Financial Truth - PASS (denied list contains FINANCIAL_SPEC_MUTATION + PROMOTION_TRANSACTION)"
+  - "t010: sqs-risk cannot emit Fabric AcceptanceReceipt - PASS (FABRIC_ACCEPTANCE_RECEIPT denied)"
+  - "t008: 4th profile without receipt - expected FAIL -> absent (PASS)"
+  - "S3-T080/T081/T082 knowledge negatives: enforced at KG surface (receipt ref)"
+
+denominators:
+  capability_import: "{sqs: 67, twict: 71, total: 138, distinct_canonical: 119, unresolved: 0}"
+  role_disposition: "{sqs: 108, twict: 115, total: 223, unresolved: 0, persistent_profiles: 3}"
+
+l2_acceptance:
+  checker: acceptance-officer-L2-sqp1
+  mode: VERIFY_ONLY_FRESH_CONTEXT
+  result: "PASS (10/10 checks C1-C10)"
+  checksum_evidence: "delegation subagent-summary-0-20260813_011345_351643.txt"
+  candidate_digests:
+    profile_tree_digest: "30/30 staged files byte-identical (readback script, mismatches=0)"
+    capability_import_rows: 138
+    role_disposition_rows: 223
+
+rollback:
+  target: "PREVIOUS_DISTRIBUTION_IF_EXISTS_ELSE_NONE (no prior SQS profile distributions existed; rollback = remove new files)"
+  pointer: RB-WO-RP2-STAGE3-SQP1

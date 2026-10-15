@@ -1,0 +1,13 @@
+{
+  "schema": "SPARTOI-SF-12/1",
+  "sf": "SF-12",
+  "recon": "BREAK=0 (0 SIM fills)",
+  "overnight": "FLAT_PENDING_HITL",
+  "sim_clock": {
+    "mode": "SIM_FASTEST_ACCEL",
+    "trade_date": "2026-08-20",
+    "intraday_measured": "qualification-proxy (no FDA/XQ realtime)"
+  },
+  "broker_write": false,
+  "filled": 0
+}

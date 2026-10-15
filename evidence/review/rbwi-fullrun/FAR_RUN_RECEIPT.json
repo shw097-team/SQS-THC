@@ -1,0 +1,32 @@
+{
+  "schema": "FAR-RUN-RECEIPT/1",
+  "run_id": "RUN-RBWI-FULLRUN-20260820-001-FAR1",
+  "candidate_id": "CAND-RBWI-20260814",
+  "route": "R0_ADMISSION->R1_PLAN->R2_TRI_SOURCE->R3_EXTRACTION->R4_FIT_GAP->R5_CHALLENGE(cond)->R6_SYNTHESIS->R7_CANDIDATE_PACKAGE->R8_HANDOFF",
+  "request": "Weekly regime context for RBWI 2026-08-20 qualification run (data-derived context only)",
+  "sources": [
+    {
+      "family": "internal governed corpus",
+      "locator": "DSV-DAILY + STATUS_VECTOR_DAILY.json",
+      "status": "SNAPSHOT_HASH_BOUND"
+    },
+    {
+      "family": "legacy knowledge base",
+      "locator": "知識庫/SQS-THC資料庫",
+      "status": "READ_ONLY"
+    }
+  ],
+  "output_class": "CandidateResearch/CandidateKnowledge",
+  "self_promotion": "DENIED",
+  "artifacts": [
+    "FAR_SOURCE_DENOMINATOR.tsv",
+    "FAR_QUERY_LEDGER.jsonl",
+    "FAR_SOURCE_SNAPSHOT_MANIFEST.json",
+    "FAR_EXTRACTION_LEDGER.jsonl",
+    "FAR_CLAIM_LEDGER.tsv",
+    "FAR_COUNTEREVIDENCE_LEDGER.tsv",
+    "FAR_DISAGREEMENT_LEDGER.tsv",
+    "FAR_RUN_RECEIPT.json"
+  ],
+  "status": "R8_HANDOFF_COMPLETE"
+}

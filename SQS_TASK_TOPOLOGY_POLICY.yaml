@@ -1,0 +1,57 @@
+schema: SQS-TASK-TOPOLOGY-POLICY/1
+FAST_LOOP:
+  topology: DIRECT_OR_BOUNDED_DAG
+  swarm: false
+  latency_priority: high
+DAILY_PREP:
+  topology: BOUNDED_DAG
+  swarm: conditional
+RESEARCH:
+  topology: ADAPTIVE_DAG
+  swarm: eligible
+BACKTEST:
+  topology: ADAPTIVE_DAG
+  swarm: eligible
+EVIDENCE_SYNTHESIS:
+  topology: SWARM_ELIGIBLE
+PORTFOLIO_TCA:
+  topology: PARALLEL_ANALYTICAL_DAG
+  swarm: conditional
+INCIDENT:
+  topology: TRANSIENT_ROLE_DAG
+  swarm: false
+RISK_AUTHORIZATION:
+  topology: DIRECT_FAIL_CLOSED
+  voting: FORBIDDEN
+EXECUTION:
+  topology: DETERMINISTIC
+  autonomous_swarm: FORBIDDEN
+  live_write: FORBIDDEN_FOR_RP002_STAGE3
+fast_loop_hard_mutation_boundary:
+  FAST_LOOP_TOOL_INSTALL: FORBIDDEN
+  FAST_LOOP_TOOL_UPGRADE: FORBIDDEN
+  FAST_LOOP_PROVIDER_MUTATION: FORBIDDEN
+  FAST_LOOP_PROVIDER_REBIND: FORBIDDEN
+  FAST_LOOP_PROFILE_DISTRIBUTION_CHANGE: FORBIDDEN
+  FAST_LOOP_SKILL_CHANGE: FORBIDDEN
+  FAST_LOOP_FINANCIALSPEC_CHANGE: FORBIDDEN
+  FAST_LOOP_RISK_LIMIT_CHANGE: FORBIDDEN
+  FAST_LOOP_KNOWLEDGE_PROMOTION: FORBIDDEN
+  FAST_LOOP_EVALUATOR_CHANGE: FORBIDDEN
+  FAST_LOOP_LIVE_BROKER_WRITE: FORBIDDEN
+deterministic_admission_inputs:
+  - atomicity
+  - parallelizability
+  - write_set_independence
+  - domain_diversity
+  - risk
+  - verification_need
+  - latency_cost_resource_budget
+swarm_eligibility_minimum:
+  independent_read_mostly_subtasks_gte: 2
+  bounded_inputs_outputs: true
+  non_overlapping_canonical_write_sets: true
+  join_rule_known_before_spawn: true
+  budget_time_limit_known: true
+  worker_count_bounded: true
+  failure_reclaim_semantics_known: true

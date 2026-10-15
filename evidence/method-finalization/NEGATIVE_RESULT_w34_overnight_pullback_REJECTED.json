@@ -1,0 +1,14 @@
+{
+  "schema": "NEGATIVE-RESULT/1",
+  "method_id": "m-w34-overnight-pullback",
+  "version": "1.0.0",
+  "determination": "REJECTED",
+  "determined_at": "2026-08-20T23:5x+08:00",
+  "determination_by": "FAR research + independent lanes (deleg_7e1e92d2 lane0/lane1/lane2)",
+  "hypothesis_evaluated": "Overnight pullback to prior-range EQ50 reverts long",
+  "finding": "Hypothesis FALSIFIED: gross-only PnL -581,939 (negative pre-cost), gross win 43% < breakeven 50%, cost amplifies 6.64x; IS+OOS both strongly negative same mechanism.",
+  "disposition_per_design": "Per DOC-20 research state machine: REJECTED terminal; failure is an asset (NegativeResult/CounterEvidence). No overfit-rescue, no silent param re-run.",
+  "next": "Supersede via Slow-Loop MethodChange -> rf-overnight (new ExperimentSpec)",
+  "evidence_ref": "evidence/far-negative-pnl/FAR_NEGATIVE_PNL_RESEARCH_RESULT.json",
+  "nonclaim": "LOCAL/RESEARCH; not production/live"
+}

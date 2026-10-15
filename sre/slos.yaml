@@ -1,0 +1,19 @@
+# SERVICE LEVEL OBJECTIVES - sre/slos.yaml (TS-011 / ART-11, CH31 / MC-26).
+# Each SLO: id, slo_target (0 < target <= 1), runbook_ref (must resolve to a
+# runbook id in sre/runbooks.yaml). A dangling runbook_ref, a non-numeric
+# target, or a runbook with a mismatched slo_target is rejected (fail-closed,
+# no broker write, no network).
+spec_ref: TS-011/CH31
+slos:
+  - id: slo-core-availability
+    slo_target: 0.999
+    runbook_ref: sre/runbooks.yaml#runbook-core-availability-incident
+  - id: slo-order-flow-latency
+    slo_target: 0.99
+    runbook_ref: sre/runbooks.yaml#runbook-order-flow-latency-incident
+  - id: slo-reconciliation-completeness
+    slo_target: 0.999
+    runbook_ref: sre/runbooks.yaml#runbook-reconciliation-incident
+  - id: slo-backup-restore
+    slo_target: 0.995
+    runbook_ref: sre/runbooks.yaml#runbook-backup-restore-dr

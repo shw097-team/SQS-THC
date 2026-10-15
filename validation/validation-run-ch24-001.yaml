@@ -1,0 +1,4 @@
+# VALIDATION RUN - independent backtest / OOS reproduction (CH24, MC-21).
+id: validation-run-ch24-001
+spec_ref: TS-009/CH24
+result: PASS

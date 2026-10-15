@@ -1,0 +1,11 @@
+# FACTOR — liquidity (TS-007 / ART-07, CH20).
+id: factor-liquidity
+schema_version: 1.0.0
+source: SSOT/SQS-THC_P0-CIP-PACK_v2026.08.06-r2.md#CH20
+definition:
+  - Cross-sectional average daily turnover rank
+  - Volume and spread measured on frozen lookback
+  - Capacity budget nonnegative per candidate
+guard:
+  - Illiquid names excluded from tradable set
+  - Tradability gate checked before ranking

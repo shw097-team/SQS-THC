@@ -1,0 +1,27 @@
+# EVIDENCE LEDGER - evidence/ledger.yaml (TS-012 / ART-12, CH33 / MC-27).
+# Append-only, hash-linked evidence ledger (SPEC-16). Each entry carries id,
+# sha256 (EOL-normalized SHA-256 hex of the artifact at ref) and ref
+# (repo-relative path). The ledger is the single evidence truth for this
+# work order: a file whose content no longer matches its recorded sha256
+# fails closed with ERR_CHECKSUM_MISMATCH; existing entries are never edited
+# or deleted, only new entries appended. No broker write, no network, no
+# runtime receipt.
+ledger_id: evidence-ledger-ts012
+schema_version: "1.0.0"
+spec_ref: TS-012/SPEC-16
+entries:
+  - id: EV-012-001
+    sha256: b25b9360401871ecf796c21b3b8fdd3758a0e9f228834a105d2618d6d95c166f
+    ref: docs/DOC-12.md
+  - id: EV-012-002
+    sha256: 914f55dcdb6c607906c1ee8bdfe7af661b325a5c2b48713d48f779844f3cf37e
+    ref: release/gates.yaml
+  - id: EV-012-003
+    sha256: dc3864dd26f3fb6b1ce88fd6a799a6c872d554534a46df678c076cd8fe2f9313
+    ref: migration/plans.yaml
+  - id: EV-012-004
+    sha256: 4d4af1048a4be64c995fe9d8aab8969e54f3ca9264f6f29e42d474902fb741ea
+    ref: nrtv/config.yaml
+  - id: EV-012-005
+    sha256: 09eaa002f078e2684d6b6aae8bd26c6e16229bdadea5fd3d7f35da96d1eac666
+    ref: training/runs.yaml

@@ -1,0 +1,26 @@
+{
+  "finding": "EXT-F01",
+  "classification": "FINAL_EVIDENCE_SEMANTIC_STALENESS",
+  "status": "CLOSED",
+  "smallest_repair": "FRESH_BOARD_READBACK_RENDERED_INTO_CLOSURE_MD",
+  "focused_retest": {
+    "board": "rp002-fabric-evo",
+    "readback_method": "hermes kanban list (fresh, post-closure)",
+    "tasks": {
+      "E0": "done",
+      "E1": "done",
+      "E2": "done",
+      "E3": "done",
+      "E4": "done",
+      "E5": "done",
+      "E6": "done"
+    },
+    "done_count": 7,
+    "pending_count": 0,
+    "stale_wording_removed": true
+  },
+  "bound_into": [
+    "RP002_FABRIC_AUTONOMOUS_SELF_EVOLUTION_EXTERNAL_EVIDENCE_CLOSURE.md"
+  ],
+  "verdict": "CLOSED"
+}

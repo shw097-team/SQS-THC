@@ -1,0 +1,58 @@
+{
+  "schema": "RBWI-MODEL-RUN-RECEIPT/1",
+  "model_id": "model-ml-rf-overnight",
+  "stage": "REAL_RF_TRAIN",
+  "data_window": "2023-01-03..2026-08-13 (DSV-DAILY-2026-08-13-r2)",
+  "train_test_split": {
+    "kind": "temporal_in_window",
+    "train_pct": 0.6,
+    "oos_pct": 0.4,
+    "honest_caveat": "model card 2020-2022 train 超出資料範圍 → 資料內窗口重切",
+    "split_cutoff_date": "2025-03-14",
+    "fixes": [
+      "per-symbol row slice → 全域 date 時序切",
+      "gap 對映 → 精確 (symbol,date) key"
+    ]
+  },
+  "model": {
+    "algorithm": "RandomForestClassifier",
+    "n_estimators": 200,
+    "max_depth": 6,
+    "class_weight": "balanced",
+    "random_state": 42,
+    "feature_importance": {
+      "ret5": 0.0632,
+      "ret1": 0.0431,
+      "range": 0.3803,
+      "close": 0.0647,
+      "vol_mean": 0.4488
+    },
+    "oos_auc": "computed_auc_below"
+  },
+  "oos_positive_rate_baseline": 0.5028,
+  "signal_oos": {
+    "n": 32626,
+    "gross_sum_pct": 11805.587,
+    "net_sum_pct": -10543.223,
+    "net_win_pct": 34.9,
+    "baseline_avg_gap_bp": 22.0,
+    "avg_gross_bp": 36.18,
+    "avg_net_bp": -32.32,
+    "gross_edge_over_baseline_bp": 14.18
+  },
+  "cost_model": {
+    "fee_bps": 14.25,
+    "tax_bps": 30.0,
+    "slippage_bps": 5.0,
+    "round_trip_bps": 68.5
+  },
+  "nonclaim": "LOCAL/RESEARCH; model card split 超出資料 → 資料內窗口; 需獨立驗證+Paper/Shadow 才升級; positive PnL != acceptance",
+  "honest_assessment": {
+    "finding": "Real RF overnight-long (true chronological split, precise per-(symbol,date) gap): gross +36.18bp vs baseline 22.0bp (REAL edge +14.18bp); net -32.32bp/trade after 68.5bp cost; net -10543% over 32626 OOS; win 34.9%. 扣成本後仍負.",
+    "revised_root_cause": "信號有真實 edge(+14.18bp) 但 TWSE 隔夜 round-trip 成本 68.5bp 大於 edge → cost-adjusted 無正期望",
+    "determination": "HYPOTHESIS_NOT_ESTABLISHED_FOR_PAPER_SHADOW",
+    "paper_shadow": "NOT_INITIATED — 缺成本後正期望; 依 DOC-20/25 不強推",
+    "defect_fixes": "① split per-symbol→chronological(cutoff 2025-03-14); ② gap date-collision→(symbol,date); Codex+SWARM lane0 抓出並已修; 根因由'無edge'修正為'有edge但成本吃掉'",
+    "no_overclaim": "未進 Paper; 未聲稱獲利; ceiling RESEARCH_ONLY; positive PnL != acceptance"
+  }
+}

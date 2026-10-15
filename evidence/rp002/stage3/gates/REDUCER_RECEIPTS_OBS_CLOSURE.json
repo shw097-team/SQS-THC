@@ -1,0 +1,26 @@
+{
+ "schema": "RP002-REDUCER-RECEIPT/1",
+ "run": "OBS_CLOSURE_RERUN",
+ "stage": "RP002-STAGE-SQS",
+ "supersedes": "REDUCER_RECEIPTS.json (historical local run, preserved immutable)",
+ "child_reducer": {
+  "inputs": {
+   "obsidian_human_visibility": true,
+   "final_evidence_class_09": true
+  },
+  "result": {
+   "verdict": "STAGE3_SQS_PASS_ELIGIBLE_FOR_MASTER_R1_REDUCTION"
+  }
+ },
+ "master_reducer": {
+  "inputs": {
+   "obsidian_human_visibility": true,
+   "final_evidence_class_09": true
+  },
+  "result": {
+   "verdict": "RP002_LOCAL_ACCEPTANCE_PASS"
+  }
+ },
+ "obsidian_receipt_sha256": "de062b3c8aa77cae5ea72760093e3cb2e5791caf045773b68acb28f82c88eaae",
+ "rerun_at": "2026-08-13T03:10:00+08:00"
+}

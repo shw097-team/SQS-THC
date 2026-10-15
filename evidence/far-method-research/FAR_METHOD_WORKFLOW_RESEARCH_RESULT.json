@@ -1,0 +1,41 @@
+{
+  "schema": "FAR-RESEARCH-RESULT/1",
+  "family": "SQS_METHOD_WORKFLOW_ADOPTION_RESEARCH",
+  "date": "2026-08-20",
+  "lanes": [
+    "SQS工程文檔(doc0)",
+    "FSDT-STACK+TW-ICTv3.0(doc1)",
+    "RBWI+SPARTOI(doc2)"
+  ],
+  "delegation": "deleg_7f504a6a",
+  "swarm_parallel": 3,
+  "kanban_req": true,
+  "sources": [
+    "SQS-THC_工程開發文檔",
+    "TW-ICT_FSDT-Stack_專業技術文檔",
+    "TW-ICT_v3.0_專業技術文檔",
+    "TW-ICT_RBWI_v3.0.0_r2",
+    "Spartoi RUNBOOK&WI v2.0.0",
+    "Spartoi P1 執行手冊 v2.1.0"
+  ],
+  "conclusions": {
+    "has_method_workflow": true,
+    "has_daytrading_ict_reference": true,
+    "method_workflow_summary": "多份文檔都制定了方法/策略制定→開發→定案流程：SQS工程 DOC-07 WF-09(Research Admission→MethodCard)→WF-10(Independent Validation)→WF-11(Risk)→WF-08(Decision Compiler) 不可逆；MethodCard/ResearchAdmission state=DRAFT→REGISTERED→DATA_FROZEN→CHALLENGED→RESEARCH_ONLY/REJECTED(ceiling=RESEARCH_ONLY)；MethodSpec(DOC-02 OBJ-007) state=DRAFT→VALIDATED→ADMITTED→SUSPENDED→RETIRED；RBWI §6 MethodChange Slow-Loop 生命週期(PROPOSED→…→ACTIVATED→DRIFTED/REVOKED)；Spartoi RUNBOOK SF-01 c/f 草案→回測→修補→定案 + P1 SF-05/06 CA-METHOD/CA-BACKTEST；DOC-09 CH24.4 BacktestProfile DRAFT→VALIDATED→ACTIVE(需G06/G09/G11) + 雙引擎(reference replay 為最終基線)。",
+    "daytrading_reference_summary": "明文指定要參考的當沖技術：ICT 股票分析總表 #1~#107（Spartoi 方法欄位鍵 ICT-M001~107；P1 附錄A/B/C、RUNBOOK 附錄A/B/C Crosswalk）；Spartoi DOC-13(ICT→台股當沖證據閉環)、XQ DOC-07(盤中微結構/當沖)、XQ DOC-09(回測)、AQT DOC-07/12(獨立驗證/FactorSpec)；RBWI 採納 TW-ICT DOC-00~11(ADOPT_OWNER_TRUTH)+ICT總表(MIGRATION_BASELINE)。",
+    "gap": "現有 SQS research/ml 的策略(yaml)停在 RESEARCH_ONLY/無 status，尚未走完 WF-09→10→11→08 與 BacktestProfile VALIDATED→ACTIVE 的實際回測定案；缺策略級回測 PnL/IS-OOS 證據（現有 receipts 為環境/資料資格）。"
+  },
+  "recommended_plan": {
+    "option_A": "循 SQS工程 DOC-07 WF-09→10→11→08 將 1 個候選方法走完整定案閉環（MethodCard DRAFT→DATA_FROZEN→CHALLENGED→RESEARCH_ONLY），產 MethodSpec",
+    "option_B": "循 DOC-09 CH24.4 BacktestProfile：建 BacktestProfile(DRAFT→VALIDATED→ACTIVE,過G06/G09/G11)+雙引擎 reference replay，產含策略 PnL/IS-OOS 的 BacktestRunReceipt",
+    "option_C": "循 Spartoi SF-01/05/06：CA-METHOD 建 methodcards.jsonl(≥3卡,綁ICT-M001~107)+CA-BACKTEST 回測定案",
+    "option_D": "組合：先 A(方法定案 contract)→B(環境回測profile)→C(執行回測 PnL)三合一，產含證據閉環的策略級定案"
+  },
+  "nonclaim": "LOCAL/RESEARCH; no live order; 結論基於三條 fresh lane 讀取實際文檔 bytes; lane1 async summary 途中有部分轉義但核心經 search_files 佐證",
+  "cross_source_nuance": {
+    "lane1_DOC29_disposition": "FSDT-Stack DOC-29 CH-D29-29 將 Spartoi/SEM8/SEM³/AgentOS 裁決為 legacy donor（不得 re-enter 為 global SSOT/policy brain）；Spartoi RUNBOOK&WI v2.0.0 + P1 執行手冊 判 ADOPT_DOC29_SUPPORT（僅工具資格參考，非方法權威）。",
+    "method_authority_map": "方法權威層級：TW-ICT v3.0 DOC-05（方法執行鏈 Universe→CandidatePool→MTF Bias→Scenario→TradeHypothesis + SOP）與 FSDT-Stack DOC-14/20（MethodSpec Slow-Loop 定案）為主權威；Spartoi（CA-METHOD/MethodCard）為支持/工具資格層；SQS 工程 WF-09→10→11→08 為 SQS 本地方法定案契約。",
+    "daytrading_authority": "DOC-29 明文：ICT 1~107 = legacy semantic corpus + calibration reference（method/TA/translate），不拆 107 個 owner 模組；當沖原典另列(ICT台股當沖總表v1.7.0/細部v2/藍圖v2.3/當沖框架1014/OBI v3.1)",
+    "recommendation_refinement": "方案 D 應以 TW-ICT v3.0 DOC-05 + FSDT-Stack DOC-14/20 為方法定案主權威，Spartoi CA-METHOD 為支持；不可將 Spartoi 當方法 SSOT。"
+  }
+}

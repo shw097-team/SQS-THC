@@ -1,0 +1,38 @@
+{
+  "schema": "SQS-THC-GSTACK-EVIDENCE/1",
+  "reference_project_id": "HGK-REFERENCE-PROJECT-001",
+  "router": "hg_kseos.named_methods.route",
+  "flow": "plan",
+  "route_decision": {
+    "provider": "gstack.plan-eng-review",
+    "state": "CERTIFIED",
+    "fallback": "hgk_native_plan_review",
+    "route": "GSTACK",
+    "final_authority": false
+  },
+  "invocation": {
+    "mode": "HERMES_AGENT_LOADS_GSTACK_SKILL_AND_RUNS_WORKFLOW",
+    "skill": "gstack-plan-eng-review (external_dirs: C:\\Users\\user\\AppData\\Local\\Temp\\hgk-nm-qual\\gstack\\repo\\.hermes\\skills)",
+    "preamble_probe": {
+      "gstack_config_proactive": "true",
+      "gstack_session_kind": "interactive",
+      "gstack_slug": "garrytan-gstack",
+      "gstack_review_read": "NO_REVIEWS (clean)",
+      "pinned_commit": "94993f74012782fd94416dd44b8314f6363a13a4"
+    },
+    "workflow_executed": ["Step0_Scope_Challenge", "Section1_Architecture", "Section2_CodeQuality", "Section3_Tests", "Section4_Performance"],
+    "headless": true
+  },
+  "findings": [
+    {"id": "G1", "severity": "P2", "finding": "Kanban board lacks dependency edges between the 15 WorkOrders; recommend linking kernel->downstream before parallel execution"},
+    {"id": "A1", "severity": "P2", "finding": "Package include/exclude list needed to keep 1.2GB ICT-OBI duckdb and market-data CSVs out of the local delivery package"},
+    {"id": "Q1", "severity": "P1", "finding": "Codex Windows sandbox cannot create new files - pre-seed skeleton files in worktree base commit"},
+    {"id": "T1", "severity": "P1", "finding": "Acceptance executors must be depth-calibrated (real runtime probes), not symbol-presence checks"}
+  ],
+  "verdict": "NOT_READY (advisory)",
+  "final_authority": false,
+  "release_authority_escape": 0,
+  "report": "C:\\Projects\\Agent_Workspace\\SQS-THC\\實作執行\\GSTACK_PLAN_ENG_REVIEW_REPORT.md",
+  "fake_invocation": 0,
+  "silent_fallback": 0
+}

@@ -1,0 +1,21 @@
+{
+ "schema": "SQS-CSB-WO-TS01-INDEPENDENT/1",
+ "changeset": "CS-B-SQS-TWICT-WAVE2-FULL-PROJECT-CLOSURE",
+ "workorder": "WO-TS-REF-01",
+ "checker": "INDEPENDENT_CHECKER (fresh read-only subprocess)",
+ "head": "a60440632d7810f671199a8a805476b3bde13f33",
+ "suite": {
+  "exit_code": 0,
+  "ran": "53",
+  "ok": true
+ },
+ "targets": [
+  "docs/DOC-00.md",
+  "docs/DOC-01.md",
+  "requirements/MC_REGISTRY.yaml",
+  "architecture/DOC_CH_OWNER_MAP.yaml",
+  "contracts/product/PRODUCT_CONSTITUTION.yaml",
+  "tests/test_ts001_product_constitution.py"
+ ],
+ "verdict": "INDEPENDENT_CASE_PASS"
+}

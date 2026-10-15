@@ -1,0 +1,377 @@
+{
+  "segment_id": "Q2_OPENING_S1",
+  "trade_date": "2026-08-19",
+  "sim_clock": {
+    "mode": "SIM_FASTEST_ACCEL",
+    "trade_date": "2026-08-19",
+    "dataset": "DSV-DAILY-2026-08-21-r1",
+    "note": "already-elapsed date; jumped to full day data, no real-time tick"
+  },
+  "sf03_pool": {
+    "tier_counts": {
+      "PRIMARY": 103,
+      "EXCLUDE": 60
+    },
+    "primary": 103
+  },
+  "sf04_scenario": {
+    "selected": "BASE_MIXED",
+    "up": 105,
+    "down": 51,
+    "note": "fastest-accel sim of already-elapsed 2026-08-19; opening auction tape = qualification-proxy"
+  },
+  "sf05_s1_obs_rows": 103,
+  "sf06_s1_qualified": 50,
+  "sf15_risk_approved": 49,
+  "sf17_order_intent": [
+    {
+      "symbol": "1218",
+      "side": "LONG",
+      "intent": "NO_TRADE",
+      "reason": "HITL_HUMAN_ENTRY_APPROVAL_NOT_MINTED_SIM_PENDING",
+      "account_mode": "PAPER_ONLY"
+    },
+    {
+      "symbol": "1301",
+      "side": "SHORT",
+      "intent": "NO_TRADE",
+      "reason": "HITL_HUMAN_ENTRY_APPROVAL_NOT_MINTED_SIM_PENDING",
+      "account_mode": "PAPER_ONLY"
+    },
+    {
+      "symbol": "1303",
+      "side": "SHORT",
+      "intent": "NO_TRADE",
+      "reason": "HITL_HUMAN_ENTRY_APPROVAL_NOT_MINTED_SIM_PENDING",
+      "account_mode": "PAPER_ONLY"
+    },
+    {
+      "symbol": "1437",
+      "side": "LONG",
+      "intent": "NO_TRADE",
+      "reason": "HITL_HUMAN_ENTRY_APPROVAL_NOT_MINTED_SIM_PENDING",
+      "account_mode": "PAPER_ONLY"
+    },
+    {
+      "symbol": "1605",
+      "side": "LONG",
+      "intent": "NO_TRADE",
+      "reason": "HITL_HUMAN_ENTRY_APPROVAL_NOT_MINTED_SIM_PENDING",
+      "account_mode": "PAPER_ONLY"
+    },
+    {
+      "symbol": "1608",
+      "side": "LONG",
+      "intent": "NO_TRADE",
+      "reason": "HITL_HUMAN_ENTRY_APPROVAL_NOT_MINTED_SIM_PENDING",
+      "account_mode": "PAPER_ONLY"
+    },
+    {
+      "symbol": "1609",
+      "side": "LONG",
+      "intent": "NO_TRADE",
+      "reason": "HITL_HUMAN_ENTRY_APPROVAL_NOT_MINTED_SIM_PENDING",
+      "account_mode": "PAPER_ONLY"
+    },
+    {
+      "symbol": "1618",
+      "side": "LONG",
+      "intent": "NO_TRADE",
+      "reason": "HITL_HUMAN_ENTRY_APPROVAL_NOT_MINTED_SIM_PENDING",
+      "account_mode": "PAPER_ONLY"
+    },
+    {
+      "symbol": "1708",
+      "side": "LONG",
+      "intent": "NO_TRADE",
+      "reason": "HITL_HUMAN_ENTRY_APPROVAL_NOT_MINTED_SIM_PENDING",
+      "account_mode": "PAPER_ONLY"
+    },
+    {
+      "symbol": "1717",
+      "side": "LONG",
+      "intent": "NO_TRADE",
+      "reason": "HITL_HUMAN_ENTRY_APPROVAL_NOT_MINTED_SIM_PENDING",
+      "account_mode": "PAPER_ONLY"
+    },
+    {
+      "symbol": "1727",
+      "side": "LONG",
+      "intent": "NO_TRADE",
+      "reason": "HITL_HUMAN_ENTRY_APPROVAL_NOT_MINTED_SIM_PENDING",
+      "account_mode": "PAPER_ONLY"
+    },
+    {
+      "symbol": "1907",
+      "side": "LONG",
+      "intent": "NO_TRADE",
+      "reason": "HITL_HUMAN_ENTRY_APPROVAL_NOT_MINTED_SIM_PENDING",
+      "account_mode": "PAPER_ONLY"
+    },
+    {
+      "symbol": "2009",
+      "side": "LONG",
+      "intent": "NO_TRADE",
+      "reason": "HITL_HUMAN_ENTRY_APPROVAL_NOT_MINTED_SIM_PENDING",
+      "account_mode": "PAPER_ONLY"
+    },
+    {
+      "symbol": "2027",
+      "side": "LONG",
+      "intent": "NO_TRADE",
+      "reason": "HITL_HUMAN_ENTRY_APPROVAL_NOT_MINTED_SIM_PENDING",
+      "account_mode": "PAPER_ONLY"
+    },
+    {
+      "symbol": "2303",
+      "side": "LONG",
+      "intent": "NO_TRADE",
+      "reason": "HITL_HUMAN_ENTRY_APPROVAL_NOT_MINTED_SIM_PENDING",
+      "account_mode": "PAPER_ONLY"
+    },
+    {
+      "symbol": "2312",
+      "side": "LONG",
+      "intent": "NO_TRADE",
+      "reason": "HITL_HUMAN_ENTRY_APPROVAL_NOT_MINTED_SIM_PENDING",
+      "account_mode": "PAPER_ONLY"
+    },
+    {
+      "symbol": "2324",
+      "side": "LONG",
+      "intent": "NO_TRADE",
+      "reason": "HITL_HUMAN_ENTRY_APPROVAL_NOT_MINTED_SIM_PENDING",
+      "account_mode": "PAPER_ONLY"
+    },
+    {
+      "symbol": "2328",
+      "side": "LONG",
+      "intent": "NO_TRADE",
+      "reason": "HITL_HUMAN_ENTRY_APPROVAL_NOT_MINTED_SIM_PENDING",
+      "account_mode": "PAPER_ONLY"
+    },
+    {
+      "symbol": "2329",
+      "side": "LONG",
+      "intent": "NO_TRADE",
+      "reason": "HITL_HUMAN_ENTRY_APPROVAL_NOT_MINTED_SIM_PENDING",
+      "account_mode": "PAPER_ONLY"
+    },
+    {
+      "symbol": "2337",
+      "side": "LONG",
+      "intent": "NO_TRADE",
+      "reason": "HITL_HUMAN_ENTRY_APPROVAL_NOT_MINTED_SIM_PENDING",
+      "account_mode": "PAPER_ONLY"
+    },
+    {
+      "symbol": "2338",
+      "side": "LONG",
+      "intent": "NO_TRADE",
+      "reason": "HITL_HUMAN_ENTRY_APPROVAL_NOT_MINTED_SIM_PENDING",
+      "account_mode": "PAPER_ONLY"
+    },
+    {
+      "symbol": "2344",
+      "side": "LONG",
+      "intent": "NO_TRADE",
+      "reason": "HITL_HUMAN_ENTRY_APPROVAL_NOT_MINTED_SIM_PENDING",
+      "account_mode": "PAPER_ONLY"
+    },
+    {
+      "symbol": "2352",
+      "side": "LONG",
+      "intent": "NO_TRADE",
+      "reason": "HITL_HUMAN_ENTRY_APPROVAL_NOT_MINTED_SIM_PENDING",
+      "account_mode": "PAPER_ONLY"
+    },
+    {
+      "symbol": "2353",
+      "side": "LONG",
+      "intent": "NO_TRADE",
+      "reason": "HITL_HUMAN_ENTRY_APPROVAL_NOT_MINTED_SIM_PENDING",
+      "account_mode": "PAPER_ONLY"
+    },
+    {
+      "symbol": "2355",
+      "side": "LONG",
+      "intent": "NO_TRADE",
+      "reason": "HITL_HUMAN_ENTRY_APPROVAL_NOT_MINTED_SIM_PENDING",
+      "account_mode": "PAPER_ONLY"
+    },
+    {
+      "symbol": "2356",
+      "side": "LONG",
+      "intent": "NO_TRADE",
+      "reason": "HITL_HUMAN_ENTRY_APPROVAL_NOT_MINTED_SIM_PENDING",
+      "account_mode": "PAPER_ONLY"
+    },
+    {
+      "symbol": "2367",
+      "side": "LONG",
+      "intent": "NO_TRADE",
+      "reason": "HITL_HUMAN_ENTRY_APPROVAL_NOT_MINTED_SIM_PENDING",
+      "account_mode": "PAPER_ONLY"
+    },
+    {
+      "symbol": "2402",
+      "side": "LONG",
+      "intent": "NO_TRADE",
+      "reason": "HITL_HUMAN_ENTRY_APPROVAL_NOT_MINTED_SIM_PENDING",
+      "account_mode": "PAPER_ONLY"
+    },
+    {
+      "symbol": "2427",
+      "side": "SHORT",
+      "intent": "NO_TRADE",
+      "reason": "HITL_HUMAN_ENTRY_APPROVAL_NOT_MINTED_SIM_PENDING",
+      "account_mode": "PAPER_ONLY"
+    },
+    {
+      "symbol": "2457",
+      "side": "LONG",
+      "intent": "NO_TRADE",
+      "reason": "HITL_HUMAN_ENTRY_APPROVAL_NOT_MINTED_SIM_PENDING",
+      "account_mode": "PAPER_ONLY"
+    },
+    {
+      "symbol": "2484",
+      "side": "LONG",
+      "intent": "NO_TRADE",
+      "reason": "HITL_HUMAN_ENTRY_APPROVAL_NOT_MINTED_SIM_PENDING",
+      "account_mode": "PAPER_ONLY"
+    },
+    {
+      "symbol": "2605",
+      "side": "LONG",
+      "intent": "NO_TRADE",
+      "reason": "HITL_HUMAN_ENTRY_APPROVAL_NOT_MINTED_SIM_PENDING",
+      "account_mode": "PAPER_ONLY"
+    },
+    {
+      "symbol": "2855",
+      "side": "SHORT",
+      "intent": "NO_TRADE",
+      "reason": "HITL_HUMAN_ENTRY_APPROVAL_NOT_MINTED_SIM_PENDING",
+      "account_mode": "PAPER_ONLY"
+    },
+    {
+      "symbol": "4906",
+      "side": "LONG",
+      "intent": "NO_TRADE",
+      "reason": "HITL_HUMAN_ENTRY_APPROVAL_NOT_MINTED_SIM_PENDING",
+      "account_mode": "PAPER_ONLY"
+    },
+    {
+      "symbol": "4916",
+      "side": "LONG",
+      "intent": "NO_TRADE",
+      "reason": "HITL_HUMAN_ENTRY_APPROVAL_NOT_MINTED_SIM_PENDING",
+      "account_mode": "PAPER_ONLY"
+    },
+    {
+      "symbol": "4976",
+      "side": "LONG",
+      "intent": "NO_TRADE",
+      "reason": "HITL_HUMAN_ENTRY_APPROVAL_NOT_MINTED_SIM_PENDING",
+      "account_mode": "PAPER_ONLY"
+    },
+    {
+      "symbol": "5876",
+      "side": "LONG",
+      "intent": "NO_TRADE",
+      "reason": "HITL_HUMAN_ENTRY_APPROVAL_NOT_MINTED_SIM_PENDING",
+      "account_mode": "PAPER_ONLY"
+    },
+    {
+      "symbol": "6155",
+      "side": "LONG",
+      "intent": "NO_TRADE",
+      "reason": "HITL_HUMAN_ENTRY_APPROVAL_NOT_MINTED_SIM_PENDING",
+      "account_mode": "PAPER_ONLY"
+    },
+    {
+      "symbol": "6243",
+      "side": "LONG",
+      "intent": "NO_TRADE",
+      "reason": "HITL_HUMAN_ENTRY_APPROVAL_NOT_MINTED_SIM_PENDING",
+      "account_mode": "PAPER_ONLY"
+    },
+    {
+      "symbol": "6282",
+      "side": "SHORT",
+      "intent": "NO_TRADE",
+      "reason": "HITL_HUMAN_ENTRY_APPROVAL_NOT_MINTED_SIM_PENDING",
+      "account_mode": "PAPER_ONLY"
+    },
+    {
+      "symbol": "6456",
+      "side": "LONG",
+      "intent": "NO_TRADE",
+      "reason": "HITL_HUMAN_ENTRY_APPROVAL_NOT_MINTED_SIM_PENDING",
+      "account_mode": "PAPER_ONLY"
+    },
+    {
+      "symbol": "6505",
+      "side": "SHORT",
+      "intent": "NO_TRADE",
+      "reason": "HITL_HUMAN_ENTRY_APPROVAL_NOT_MINTED_SIM_PENDING",
+      "account_mode": "PAPER_ONLY"
+    },
+    {
+      "symbol": "6668",
+      "side": "LONG",
+      "intent": "NO_TRADE",
+      "reason": "HITL_HUMAN_ENTRY_APPROVAL_NOT_MINTED_SIM_PENDING",
+      "account_mode": "PAPER_ONLY"
+    },
+    {
+      "symbol": "8021",
+      "side": "LONG",
+      "intent": "NO_TRADE",
+      "reason": "HITL_HUMAN_ENTRY_APPROVAL_NOT_MINTED_SIM_PENDING",
+      "account_mode": "PAPER_ONLY"
+    },
+    {
+      "symbol": "8039",
+      "side": "LONG",
+      "intent": "NO_TRADE",
+      "reason": "HITL_HUMAN_ENTRY_APPROVAL_NOT_MINTED_SIM_PENDING",
+      "account_mode": "PAPER_ONLY"
+    },
+    {
+      "symbol": "8103",
+      "side": "LONG",
+      "intent": "NO_TRADE",
+      "reason": "HITL_HUMAN_ENTRY_APPROVAL_NOT_MINTED_SIM_PENDING",
+      "account_mode": "PAPER_ONLY"
+    },
+    {
+      "symbol": "8150",
+      "side": "LONG",
+      "intent": "NO_TRADE",
+      "reason": "HITL_HUMAN_ENTRY_APPROVAL_NOT_MINTED_SIM_PENDING",
+      "account_mode": "PAPER_ONLY"
+    },
+    {
+      "symbol": "8163",
+      "side": "LONG",
+      "intent": "NO_TRADE",
+      "reason": "HITL_HUMAN_ENTRY_APPROVAL_NOT_MINTED_SIM_PENDING",
+      "account_mode": "PAPER_ONLY"
+    },
+    {
+      "symbol": "8215",
+      "side": "SHORT",
+      "intent": "NO_TRADE",
+      "reason": "HITL_HUMAN_ENTRY_APPROVAL_NOT_MINTED_SIM_PENDING",
+      "account_mode": "PAPER_ONLY"
+    }
+  ],
+  "filled": 0,
+  "financial_boundary": "LOCAL_PAPER_SIMULATION_ONLY",
+  "broker_write": false,
+  "hitl_approval_ref": "REQUIRED_HITL-APPROVAL/1 (not minted in SIM)",
+  "schema": "RBWI-SEG-SIM-RECEIPT/1",
+  "generated_at": "2026-08-21T12:10+08:00"
+}

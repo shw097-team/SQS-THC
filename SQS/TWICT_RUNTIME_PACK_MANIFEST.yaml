@@ -1,0 +1,35 @@
+schema: TWICT-FINANCIAL-RUNTIME-PACK/1
+pack_id: TWICT_FINANCIAL_RUNTIME_PACK
+owner_stack: SQS_FINANCIAL
+runtime_target: HERMES_PROFILE_TEAM
+profile_team_count: 0
+financial_authority_owner: SQS_OWNER_BOUND_CONTROL_CORPUS
+canonical_path_aliases: 0
+doc_family: 知識庫/專業技術文檔/TW-ICT_FSDT-Stack_專業技術文檔 (DOC-00..29, 30 files inventoried + hashed)
+modules:
+  M00: Authority / Claim / Survival -> DOC-00..01
+  M01: Object / Interface / Clock / Error contracts -> DOC-02..03
+  M02: Financial Profile & Permission configuration -> DOC-04..05
+  M03: PIT/Data/Market/Regime/Evidence/Universe/Scenario/ICT/Risk -> DOC-06..12
+  M04: RBWI/JobCard/Handoff -> DOC-13..14
+  M05: MARCA Role Router / Skills -> DOC-15..16
+  M06: Harness Runtime / Repo / CI -> DOC-17..18
+  M07: ResearchWorkOrder / bounded multi-agent / deterministic merge -> DOC-19..20
+  M08: Independent Validation / counter-evidence -> DOC-21..22
+  M09: Incident/SRE/Security/Kill/Recovery -> DOC-23..24
+  M10: Knowledge/RAG/Memory/KG bindings -> DOC-25..26
+  M11: Capability Certification / Replay / Training -> DOC-27..28
+  M12: LearningCandidate / Promotion / Paper-Shadow / Rollback -> DOC-25 (promotion lane)
+  M13: AIKD/source-to-prose compiler bindings -> DOC-28
+  M14: Evidence/NRTV/SoD/Package readback -> DOC-27
+  M15: Portfolio/TCA bounded harness -> DOC-29
+  M16: Tool Qualification/Migration/Exit -> DOC-29
+non_goals:
+  - TWICT_RUNTIME_PACK != PROFILE_TEAM
+  - TWICT_RUNTIME_PACK != ORCHESTRATOR
+  - TWICT_RUNTIME_PACK != KANBAN_BOARD
+  - TWICT_RUNTIME_PACK != FINANCIAL_AUTHORITY
+  - TWICT_RUNTIME_PACK != KNOWLEDGE_PLATFORM
+assurance_packs:
+  - TWICT_DOC21_INDEPENDENT_VALIDATION
+  - TWICT_DOC27_EVIDENCE_NRTV

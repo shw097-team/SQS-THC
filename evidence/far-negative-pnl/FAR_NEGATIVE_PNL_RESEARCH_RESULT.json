@@ -1,0 +1,61 @@
+{
+  "schema": "FAR-RESEARCH-RESULT/1",
+  "family": "NEGATIVE_PNL_STRATEGY_DISPOSITION_RESEARCH",
+  "date": "2026-08-20T23:5x+08:00",
+  "lanes": [
+    "lane0_PnL根因量化(duckdb重跑)",
+    "lane1_候選策略盤點+因子可行性",
+    "lane2_六文檔處置契約"
+  ],
+  "delegation": "deleg_7e1e92d2",
+  "codex_cli": "deleg maker-side analysis (EXIT=0, opencode-go)",
+  "kanban": [
+    "t_7d2a7a6c",
+    "t_23d6f482",
+    "t_311d3d91",
+    "t_3f4d469f"
+  ],
+  "root_cause": {
+    "verdict": "NEGATIVE_PNL_ROOTCAUSED",
+    "primary": "SIGNAL/STRATEGY defect — 信號在零成本下 gross -581,939（gross win 43% < 50% breakeven）",
+    "amplifier": "COST 6.64x (total cost 3.86M; tax 43.8%+fee 41.6%+slip 14.6%; round-trip 68.5bp)",
+    "secondary": [
+      "over-trading(203 trades/symbol-yr, 2-bar EQ50 whipsaw)",
+      "3%/3% stop-target+TWSE稅負使net breakeven ~53%",
+      "85.6% close-exit avg gross -0.156%",
+      "20/20 symbols all negative"
+    ],
+    "not_causes": [
+      "NOT param-optimization",
+      "NOT regime (IS+OOS both strong-neg same mechanism)",
+      "NOT cost-alone (cost can't explain negative gross)"
+    ],
+    "recommendation": "DO NOT param-tune/overfit-rescue (WF contract blocks). Hypothesis falsified: pullback-to-2bar-EQ50 long has no edge pre-cost. Kill/redesign via Slow-Loop method engineering."
+  },
+  "candidate_strategy": {
+    "momentum_ret5_topq_longonly_fwd1": "0.0565%/day t=1.27 (statistically NOT significant)",
+    "reversal_ret1low_topq_longonly_fwd1": "0.0536%/day t=1.32 (statistically NOT significant)",
+    "note": "現有 research/ml(3 ML) 與 factors(momentum/reversal) 皆 RESEARCH_ONLY 且簡易因子 t<2; 尚無顯著 edge 候選可直接替換"
+  },
+  "design_disposition": {
+    "negative_pnl_handling": "Fast Loop 原樣承接凍結包→BLOCKED 記 NegativeResult→EmergencyRiskChange 降級 NO_TRADE; 負 PnL 落為 REJECTED/QUARANTINED 終端且『失敗是資產』",
+    "method_change": "Slow-Loop MethodChange only (PROPOSED→…→INDEPENDENT_VALIDATION→PAPER_SHADOW→ACTIVATED/REJECTED); Fast/Slow Loop 穿透禁止; 盤中不可改方法",
+    "selection_authority": "Universe→CandidatePool→MTF Bias→Scenario→TradeHypothesis (TW-ICT v3.0 DOC-05); Spartoi CA-METHOD→CA-BACKTEST→GATE-BACKTEST-PASS",
+    "upgrade_gate": "MethodSpec RESEARCH_ONLY→… 需 independent validation(另派 checker, 不 reuse maker cache) + Paper/Shadow; positive PnL != acceptance",
+    "overfit_rescue_guard": "禁止刪除失敗工件重跑至成功(DOC-20); 負面結果是資產"
+  },
+  "recommended_best_solution": {
+    "step1": "查理根因已定: 此 overnight-pullback 信號(2-bar EQ50)為假說失敗 → 依文檔標 REJECTED/NegativeResult 入庫(非調參救)",
+    "step2": "不直接『換策略重跑』(現有候選無顯著 edge + Fast Loop 禁止直接 replace); 改走 Slow-Loop MethodChange 提新 ExperimentSpec",
+    "step3": "新候選方向(經 Slow-Loop, 非直接換): (a) 真實 multi-bar prior-range/liquidity EQ50 + trend filter; (b) 目標 gross win>=55% 或非對稱風報(momentum-confirmed entry); (c) hold-to-target 非 daily close; (d) 先確認 gross>0 再層 68.5bp cost",
+    "step4": "每次變更均獨立驗證+Paper/Shadow(不 reuse maker cache); 通過才 RESEARCH_ONLY→…逐步升級",
+    "verdict": "負 PnL 策略『不直接另一候選重跑』; 以 Slow-Loop Method Engineering 重新設計信號, 現有候選(純研究/因子 t<2)不構成立刻替代的顯著 edge"
+  },
+  "nonclaim": "LOCAL/RESEARCH; 無 live; 結論基於 3 條 fresh lane 讀取磁碟+資料重算+Codex CLI 分析; lane0 summary 檔曾遭錯位污染(誤為 env 審計), 已改由 log 取正確量化JSON",
+  "lane1_refinement": {
+    "verdict_lane1": "NO_RERUN_AS_IS + NO_SILENT_SWITCH",
+    "factor_check": "momentum ret5 topQ excess +11bps/day (t=1.65) & reversal ret5 +2.6~5.4bps/day (t~1.0-1.3) 皆遠低於 49.25bps round-trip cost; ret20 '+3.58%/day' 確認為除權/飆股(6861)構件、非真 alpha",
+    "ml_check": "rf-overnight (AUC 0.612) 是唯一與隔日沖 scope 直接吻合者, 但未接回測管線; LSTM-volume/RL-sizing 屬執行/sizing 輔助層; 3 ML 皆 RESEARCH_ONLY",
+    "viable_path": "保留 overnight-pullback 主幹 → Slow-Loop 方法工程將 rf-overnight 分類信號接成可回測管線 → 先證 cost-adjusted 正期望 → 才談『另選候選』前提"
+  }
+}

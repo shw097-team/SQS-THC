@@ -1,0 +1,20 @@
+# SURVIVAL GUARDS - survival/guards.yaml (TS-009 / ART-09, CH26 / MC-23).
+# Each guard: id, condition, action. Allowed actions: VETO, BLOCK,
+# STOP_LINE, ABSTAIN. Action SKIP (or any action outside the allowlist) is a
+# guard bypass and raises ERR_VETO_BYPASS (fail-closed, no mutation).
+guards:
+  - id: guard-ruin-barrier
+    condition: ruin_probability_bound >= 0.05
+    action: VETO
+  - id: guard-unknown-exposure
+    condition: unknown_exposure is unbounded
+    action: VETO
+  - id: guard-fragility-mandate
+    condition: fragility_score > 0.35
+    action: STOP_LINE
+  - id: guard-blast-radius
+    condition: max_single_position_pct > 0.15
+    action: BLOCK
+  - id: guard-optionality
+    condition: irreversible_action_proposed
+    action: ABSTAIN

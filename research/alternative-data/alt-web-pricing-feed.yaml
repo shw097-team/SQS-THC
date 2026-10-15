@@ -1,0 +1,6 @@
+# ALT DATA - web pricing crawl for consumer electronics (TS-008 / ART-08, CH22).
+id: alt-web-pricing-feed
+schema_version: 1.0.0
+license: WEBSITE_TERMS_OF_USE_RESTRICTED
+source: SSOT/SQS-THC_P0-CIP-PACK_v2026.08.06-r2.md#CH22
+description: Channel pricing crawl for ICT device demand signals; crawl rights scoped

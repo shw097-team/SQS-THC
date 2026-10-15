@@ -1,0 +1,25 @@
+schema: RP002-STAGE3-CR-OPEN/1
+# CR ledger from Stage-3 r2 §35, refreshed at WP3.0
+blocking_at_r1_requires_zero_open: true
+rows:
+  - {cr_id: CR-S3-001, title: "STAGE-2-SEAL exact current digest missing from artifact", state: CLOSED, closure_note: "fresh read 12da14ac == expected"}
+  - {cr_id: CR-S3-002, title: "current SQS HEAD/tree/manifest not read", state: CLOSED, closure_note: "HEAD 9a70501a + manifests read at WP3.0"}
+  - {cr_id: CR-S3-003, title: "current SQS Financial Truth/Risk owner exact refs not read", state: CLOSED, closure_note: "src/kernel/fsdt + risk/limits.yaml + survival/guards.yaml readback"}
+  - {cr_id: CR-S3-004, title: "3 Hermes SQS Distributions not yet runtime-proven", state: OPEN, closure_note: "SQP1 effective-load canaries"}
+  - {cr_id: CR-S3-005, title: "profile-aware project Kanban routing not Stage-3 proven", state: OPEN, closure_note: "S1 real task/worker/join evidence"}
+  - {cr_id: CR-S3-006, title: "exact current Hermes build/profile/Kanban behavior may drift", state: OPEN, closure_note: "execution-day CLI/process readback"}
+  - {cr_id: CR-S3-007, title: "current OpenSpec/gstack/Matt effective-load state must match imported tool ledger", state: OPEN, closure_note: "affected SQP1/E2 negative canary"}
+  - {cr_id: CR-S3-008, title: "OpenCodex/OpenCode/provider route exact current IDs unknown", state: CLOSED, closure_note: "imported Stage-2 tool matrix + hermes.json route readback"}
+  - {cr_id: CR-S3-009, title: "Qdrant/Neo4j current states not read", state: CLOSED, closure_note: "README boundaries: ADMITTED_DISABLED / INSTALL_PROFILE_READY, default OFF"}
+  - {cr_id: CR-S3-010, title: "ContextForge/OASF current promoted projection not read", state: CLOSED, closure_note: "CF1/ACCEPTANCE_RECEIPT_CF1_REPAIRED.yaml consumed"}
+  - {cr_id: CR-S3-011, title: "real S1 task not selected/run", state: OPEN, closure_note: "S1 selection card + execution"}
+  - {cr_id: CR-S3-012, title: "real E1 defect not yet observed", state: OPEN, closure_note: "E1 real defect or explicit alternative"}
+  - {cr_id: CR-S3-013, title: "E2 behavior subject not yet selected/run", state: OPEN, closure_note: "E2 selection card + fresh-session evolution"}
+  - {cr_id: CR-S3-014, title: "E3 applicability unknown", state: OPEN, closure_note: "E3 determination at E2 close"}
+  - {cr_id: CR-S3-015, title: "project database full recursive denominator unavailable", state: CLOSED, closure_note: "local recursive manifest at entry (wp30_inventory.json)"}
+  - {cr_id: CR-S3-016, title: "L3 Codex Desktop clean-room availability not proven", state: NOT_APPLICABLE, closure_note: "L2 remains ordinary formal path; Codex Desktop optional"}
+  - {cr_id: CR-S3-017, title: "SQS 67 / TWICT 71 product capability source imports not built", state: OPEN, closure_note: "SQS_TWICT_PRODUCT_CAPABILITY_IMPORT.yaml at SQP1"}
+  - {cr_id: CR-S3-018, title: "SQS 108 / TWICT 115 role disposition crosswalk not built", state: OPEN, closure_note: "SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml at SQP1"}
+  - {cr_id: CR-S3-019, title: "工程基座 material-content disposition not current-read", state: CLOSED, closure_note: "SQS_ENGINEERING_BASE_DISPOSITION.yaml (17 items)"}
+  - {cr_id: CR-S3-020, title: "current selected Matt/Agent Skills exact set not read", state: OPEN, closure_note: "SQS_SELECTED_SKILL_SET.yaml at SQP1"}
+  - {cr_id: CR-S3-021, title: "current product provider/tool routes not exact-read", state: OPEN, closure_note: "capability import + runtime readback"}

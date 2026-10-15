@@ -1,0 +1,38 @@
+{
+  "receipt_id": "AO-RECEIPT-RP2-ECL-001",
+  "finding": "EXT-F03",
+  "classification": "INDEPENDENT_ACCEPTANCE_REPLAYABILITY_GAP",
+  "status": "CLOSED",
+  "smallest_repair": "FRESH_AO_RE_RUN_IMMUTABLE_RECEIPT",
+  "run": {
+    "delegation_id": "deleg_7479d12e",
+    "lane_type": "delegate_task fresh-context leaf",
+    "role": "acceptance-officer",
+    "fresh_context": true,
+    "verify_only": true,
+    "read_only_proof": "no files created or modified (lane self-report); read-only tools only (read_file/sha256sum/python yaml.safe_load)",
+    "maker_checker_separation": "maker=construction-commander/hermes-orchestrator; checker=acceptance-officer (distinct)",
+    "no_repair": true,
+    "no_workorder_creation": true,
+    "no_promotion": true,
+    "run_start": "2026-08-13T11:15:30+0800",
+    "run_end": "2026-08-13T11:16:14+0800",
+    "timezone": "Asia/Taipei",
+    "duration_s": 44
+  },
+  "checks": [
+    {"id": 1, "item": "start time recorded", "verdict": "PASS", "observed": "2026-08-13T11:15:30+0800"},
+    {"id": 2, "item": "FINAL_PACKAGE_MANIFEST_SUPERSEDING.yaml parses; schema + full sha256", "verdict": "PASS", "observed": "schema=RP002-FINAL-PACKAGE-MANIFEST/2-SUPERSEDING; sha256=999983fd207d744b971612a3e587e81bb37ad3af75150ab44650198e32ad8353"},
+    {"id": 3, "item": "manifest E2_BEHAVIOR_SUBJECT_SELECTION.yaml entry sha256", "verdict": "PASS", "observed": "d4f93610a46a6ca15992f2dbb14d97b7ea10c47c18a9a71b900fd6a975c72384"},
+    {"id": 4, "item": "on-disk E2_BEHAVIOR_SUBJECT_SELECTION.yaml sha256", "verdict": "PASS", "observed": "d4f93610a46a6ca15992f2dbb14d97b7ea10c47c18a9a71b900fd6a975c72384"},
+    {"id": 5, "item": "accepted original FINAL_PACKAGE_MANIFEST.yaml unchanged", "verdict": "PASS", "observed": "68867e08f010c7c0c10b521bf71c9dc8f75f71f4741769401a520240b1f0c532"},
+    {"id": 6, "item": "E1_E2_EVOLUTION_RECEIPTS_SUPERSEDING.yaml parses; selection_card_sha256; full sha256", "verdict": "PASS", "observed": "selection_card_sha256=d4f93610a46a6ca15992f2dbb14d97b7ea10c47c18a9a71b900fd6a975c72384; sha256=b89edb2fbf98ffe1c508f2efcc6804353b7de7f0d8a33679c8e64d337d42cc5f"},
+    {"id": 7, "item": "accepted original E1_E2_EVOLUTION_RECEIPTS.yaml unchanged", "verdict": "PASS", "observed": "8d8d7f427f9f6d4aa3036d190df52cc9face0f46d6b00e4d5a85a3a7fb22262b"},
+    {"id": 8, "item": "other manifest entries match on-disk bytes", "verdict": "PASS", "observed": "12 checked, 12 matches, 0 mismatches"},
+    {"id": 9, "item": "no *SUPERSEDING* under evidence\\rp02 typo dir", "verdict": "PASS", "observed": "evidence/rp02 does not exist"},
+    {"id": 10, "item": "end time recorded", "verdict": "PASS", "observed": "2026-08-13T11:16:14+0800"}
+  ],
+  "summary": "All 10 checks PASS; repair closure meets immutable-replayable-receipt requirement; subject entry d4f93610 matches current bytes and accepted review MD; accepted originals byte-preserved; single-direction supersede semantics respected.",
+  "verdict": "PASS",
+  "bound_into": ["RP002_FABRIC_AUTONOMOUS_SELF_EVOLUTION_EXTERNAL_EVIDENCE_CLOSURE.md", "raw evidence index"]
+}

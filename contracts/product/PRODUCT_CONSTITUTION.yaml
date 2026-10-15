@@ -1,0 +1,39 @@
+# PRODUCT_CONSTITUTION — SPEC-01 ProductIdentitySpec materialized for SQS-THC.
+# Source authority: SSOT/SQS-THC_P0-CIP-PACK_v2026.08.06-r2.md §11 SPEC-01.
+# Work order: WO-TS-REF-01 (TS-001) · Owner: F01-01.
+schema_version: 1.0.0
+spec_id: SPEC-01
+contract_name: ProductIdentitySpec
+product_id: SQS-THC
+formal_name: 'SQS-THC & TW-ICT FSDT Stack'
+internal_name: sqs_thc
+namespace: sqs.ict.twhc
+version: 2026.08.10-r1
+supersedes: null
+aliases: []
+non_goals:
+  - NO_AUTONOMOUS_ORDER_SUBMISSION
+  - NO_BROKER_WRITE
+  - NO_PRODUCTION_APPROVAL
+  - NO_UNSCOPED_NETWORK_OR_SECRET_ACCESS
+  - NO_RUNTIME_OR_TOOL_ACTIVATION_WITHOUT_AUTHORIZATION
+required_fields:
+  - product_id
+  - formal_name
+  - internal_name
+  - namespace
+  - version
+  - supersedes
+  - aliases
+  - non_goals
+domain_invariant: NAME_UNIQUE_AND_DEPRECATED_ALIAS_NOT_PROMOTABLE_AS_NEW_ID
+invalid_predicate: DUPLICATE_NAMESPACE_FAILS_G00
+exact_error: ERR_PRODUCT_ID_COLLISION
+state_model:
+  - PROPOSED
+  - IDENTITY_UNIQUE
+  - HUMAN_RATIFIED
+  - ACTIVE
+  - SUPERSEDED
+owner: F01-01
+source_authority: SSOT/SQS-THC_P0-CIP-PACK_v2026.08.06-r2.md

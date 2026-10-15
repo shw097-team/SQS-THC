@@ -1,0 +1,39 @@
+schema: RP002-PROFILE-RUNTIME-CONTRACT/2
+profile_id: sqs-risk
+stack_id: SQS_FINANCIAL
+distribution:
+  repo_or_source: SQS-THC agents/profiles (canonical SQS profile root)
+  version_or_tag: v2.0-stage3-2026.08.12-r2
+  full_commit: 9a70501ad4bbf315c675894a7a58c0f98bf18f47
+  package_digest: RESOLVED_BY_READBACK_AT_SQP1_ACCEPTANCE
+artifacts:
+  soul: SOUL.md
+  config: config.yaml
+  skills: []
+  preloads: []
+  mcp: mcp.json
+  fixtures_dir: fixtures/
+  runtime_contract: README.runtime-contract.md
+runtime:
+  engine: hermes
+  toolset: ["terminal", "file", "python"]
+  model_provider_route: opencode-go/deepseek-v4-flash
+  mcp_bindings: []
+  a2a_binding: null
+  terminal_cwd_policy: BOUNDED
+  process_identity_readback: REQUIRED
+permissions:
+  read: ["SQS-THC/risk/*", "SQS-THC/survival/*", "SQS-THC/sre/*", "SQS-THC/src/kernel/fsdt/*"]
+  write: ["SQS-THC/evidence/rp002/stage3/*", "SQS-THC/var/rp002-stage3/*"]
+  denied: ["LIVE_BROKER_WRITE", "FINANCIAL_SPEC_MUTATION", "FABRIC_ACCEPTANCE_RECEIPT", "PROMOTION_TRANSACTION", "SECRETS_ACCESS"]
+  secrets_policy: deny_by_default
+inputs: []
+outputs: []
+acceptance:
+  fresh_session: true
+  effective_load: true
+  positive_fixtures:
+    - fixtures/positive-effective-load.md
+  negative_fixtures:
+    - fixtures/negative-authority-ceiling.md
+  rollback_target: PREVIOUS_DISTRIBUTION_IF_EXISTS_ELSE_NONE

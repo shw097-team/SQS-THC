@@ -1,0 +1,61 @@
+{
+ "schema": "SQS-WAVE4-G5-MULTIAGENT/1",
+ "captured_at_utc": "2026-08-11T04:22:44.365701+00:00",
+ "codex_route_probe": {
+  "catalog_present": true,
+  "config_present": true,
+  "models": [
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null
+  ],
+  "model_count": 24,
+  "config_model": [
+   "model = \"gpt-5.6-sol\"",
+   "model_reasoning_effort = \"high\"",
+   "model_catalog_json = \"C:\\\\Users\\\\user\\\\.codex\\\\opencodex-catalog.json\""
+  ]
+ },
+ "codex_subagent_verdict": "QUALIFIED",
+ "codex_subagent_mode": "bounded card-local subagents (exploration/test analysis); main = sole writer; depth 1; writes_by_children=0",
+ "hermes_kanban": {
+  "board": "sqs-thc-ref-001",
+  "card_lines": 27,
+  "sample": [
+   "Board: sqs-thc-ref-001 (1 other board — `hermes kanban boards list`)",
+   "▶ t_9ee57ed7  ready     (unassigned)          TS-REF-01: SQS-THC P0-CIP TaskSpec family construction",
+   "✓ t_232e788b  done      (unassigned)          TS-REF-02: SQS-THC P0-CIP TaskSpec family construction",
+   "✓ t_74964888  done      (unassigned)          TS-REF-03: SQS-THC P0-CIP TaskSpec family construction",
+   "✓ t_5e4ad56b  done      (unassigned)          TS-REF-04: SQS-THC P0-CIP TaskSpec family construction",
+   "✓ t_fd5a3c2a  done      (unassigned)          TS-REF-05: SQS-THC P0-CIP TaskSpec family construction",
+   "✓ t_98d8e098  done      (unassigned)          TS-REF-06: SQS-THC P0-CIP TaskSpec family construction",
+   "▶ t_0fd6d4c3  ready     (unassigned)          TS-REF-07: SQS-THC P0-CIP TaskSpec family construction",
+   "▶ t_457ea512  ready     (unassigned)          TS-REF-08: SQS-THC P0-CIP TaskSpec family construction",
+   "▶ t_b2b39328  ready     (unassigned)          TS-REF-09: SQS-THC P0-CIP TaskSpec family construction",
+   "▶ t_8522a03b  ready     (unassigned)          TS-REF-10: SQS-THC P0-CIP TaskSpec family construction",
+   "▶ t_49b1d3c7  ready     (unassigned)          TS-REF-11: SQS-THC P0-CIP TaskSpec family construction"
+  ]
+ },
+ "hermes_fanout": {
+  "applicable": true,
+  "pattern": "root -> independent read workers (legacy profiling) -> join -> verifier (G1/G2 scripts) -> synthesizer (r3 evidence)",
+  "runtime": "G1 legacy profile + G2 disposition executed as separate read workers; results joined in evidence/review/",
+  "hard_invariants": {
+   "double_writer": 0,
+   "second_orchestrator": 0,
+   "unauthorized_effect": 0,
+   "duplicate_effect": 0,
+   "lost_handoff": 0,
+   "stale_lease_unrecovered": 0,
+   "secret_cross_profile": 0,
+   "release_authority_escape": 0,
+   "unbounded_agent_recursion": 0,
+   "silent_provider_fallback": 0
+  }
+ }
+}

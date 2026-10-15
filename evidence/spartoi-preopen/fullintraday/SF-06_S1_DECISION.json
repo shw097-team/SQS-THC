@@ -1,0 +1,18 @@
+{
+  "schema": "SPARTOI-SF-06/1",
+  "sf": "SF-06",
+  "qualified": 66,
+  "risk": "SF-15 fresh",
+  "hitl": "NOT_MINTED_SIM",
+  "order_intent": {
+    "all": "NO_TRADE",
+    "filled": 0
+  },
+  "sim_clock": {
+    "mode": "SIM_FASTEST_ACCEL",
+    "trade_date": "2026-08-20",
+    "intraday_measured": "qualification-proxy (no FDA/XQ realtime)"
+  },
+  "broker_write": false,
+  "filled": 0
+}

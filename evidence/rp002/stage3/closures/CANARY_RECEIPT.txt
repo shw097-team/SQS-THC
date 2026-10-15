@@ -1,0 +1,13 @@
+canary_run_id: CANARY-RP2-ECL-001
+run_start: 2026-08-13T11:15:47+0800
+task: LOCAL/PAPER cross-stack canary (EVIDENCE_ONLY closure re-verification)
+mode: LOCAL_PAPER | live write: 0 | FT mutation: 0 | production: 0 | BreakGlass: 0
+--- SQS suite ---
+Ran 231 tests in 0.418s
+
+OK
+--- risk probe ---
+limits: 5 | hard:true: 5
+guards: 5 | actions: ['ABSTAIN', 'BLOCK', 'STOP_LINE', 'VETO']
+no_live_write_guard: no broker adapter file; handoff packs no_broker_write: true
+run_end: 2026-08-13T11:15:48+0800

@@ -1,0 +1,123 @@
+{
+  "schema": "RW-V200-RUN-COVERAGE",
+  "candidate": "CAND-SPARTOI-W34-20260820",
+  "week": "2026-W34",
+  "date": "2026-08-20",
+  "generated_at": "2026-08-20T21:45+08:00",
+  "runbook": "Spartoi｜台股當沖隔日沖_RUNBOOK&WI_v2.0.0",
+  "manual": "Spartoi｜P1_執行手冊_v2.1.0",
+  "reference_docs": [
+    "TW-ICT_v3.0_專業技術文檔(DOC-05)",
+    "ICT&SMC_專業技術文檔",
+    "台股當沖_專業技術文檔_v3.0",
+    "市場資訊&台股趨勢_專業技術文檔_v2.0"
+  ],
+  "span": "收盤後 + 開盤前 + 補做上周收盤後~本週開盤前周級分析",
+  "sf_deliverables": [
+    {
+      "sf": "SF-01",
+      "name": "週級分析",
+      "deliverables": [
+        "weekly_pack.json"
+      ],
+      "status": "DONE"
+    },
+    {
+      "sf": "SF-02",
+      "name": "盤前分析",
+      "deliverables": [
+        "daily_pack.json"
+      ],
+      "status": "DONE"
+    },
+    {
+      "sf": "SF-03",
+      "name": "盤前選股",
+      "deliverables": [
+        "S1_final_list.json",
+        "xs_watchlist.xs",
+        "preopen_risk_report.json"
+      ],
+      "status": "DONE(qualification-proxy)"
+    },
+    {
+      "sf": "SF-13",
+      "name": "盤後復盤",
+      "deliverables": [
+        "daily_report.json",
+        "weekly_report.json",
+        "feedback_to_method.json"
+      ],
+      "status": "DONE(structural)"
+    },
+    {
+      "sf": "SF-14",
+      "name": "資料管理",
+      "deliverables": [
+        "version_manifest.json"
+      ],
+      "status": "DONE"
+    }
+  ],
+  "artifacts": [
+    {
+      "artifact": "sf01_weekly.py",
+      "sha256": "acf5242cda8b6d9e4eed101056b7d694fdaf0a68a646a8953babf120e49a42c6",
+      "bytes": 8099
+    },
+    {
+      "artifact": "sf020314_executor.py",
+      "sha256": "c22b761fb96d1a2fd44a668b3ce1e3d1065b8a39ddf3ba6c92492883f532dd6b",
+      "bytes": 8573
+    },
+    {
+      "artifact": "archive/version_manifest.json",
+      "sha256": "a1ad5b8d414f106b479645547b17ba1ada3ccbcca5d3436e152d45ba9b6a7f20",
+      "bytes": 1900
+    },
+    {
+      "artifact": "dayflow/2026-08-20/daily_pack.json",
+      "sha256": "34579ff34da8d624e8322e683d599125df179c10b46b6248686e581513f0f709",
+      "bytes": 3106
+    },
+    {
+      "artifact": "dayflow/2026-08-20/daily_report.json",
+      "sha256": "e3159bdb3a2aa2673734e0f71d78d1f0acf03300ccc559bfb0c6a606a406d41d",
+      "bytes": 672
+    },
+    {
+      "artifact": "dayflow/2026-08-20/feedback_to_method.json",
+      "sha256": "077ef71f58921d20c3cd1b358156743ca5d783dcc1668fc0ad1fbc50284c709a",
+      "bytes": 160
+    },
+    {
+      "artifact": "dayflow/2026-08-20/preopen_risk_report.json",
+      "sha256": "12a65d2873255e0338cae8e01048597baed3a950997ead729b8db87964baf138",
+      "bytes": 243
+    },
+    {
+      "artifact": "dayflow/2026-08-20/S1_final_list.json",
+      "sha256": "fbac54bc558a53ed9935edab1cc5b6c82b3b0392f2858e2b3dd3804ae12a930a",
+      "bytes": 919
+    },
+    {
+      "artifact": "dayflow/2026-08-20/xs_watchlist.xs",
+      "sha256": "1dea0d1e8e7763f7ec70c92c8777ba3a8dfd17f7818fd86a0c2dd52912681356",
+      "bytes": 429
+    },
+    {
+      "artifact": "spartoi_flow/2026-W34/weekly_pack.json",
+      "sha256": "6fc44a225632d44f57cf94eee047aae263d2dbf06d53e390fcd6c2700afc1a36",
+      "bytes": 11447
+    },
+    {
+      "artifact": "spartoi_flow/2026-W34/weekly_report.json",
+      "sha256": "8551b3b69639049dee2ade94b33c8a051b1c51f56b6a01b082c1ce9d8da48c9a",
+      "bytes": 289
+    }
+  ],
+  "artifact_count": 11,
+  "nonclaim": "LOCAL/PAPER qualification; no live order; SF-03 live preopen pending Q2/XQ; SF-13 KPI N/A(no live exec)",
+  "ao_verdict": "PASS-with-observation",
+  "tool_code_note": "version_manifest excludes executor .py (tool code, not runtime deliverable); runtime artifacts complete"
+}

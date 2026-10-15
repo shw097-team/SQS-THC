@@ -1,0 +1,11 @@
+schema: RP002-STAGE3-OBSIDIAN-COVERAGE-CLOSURE/1
+finding: S3-EXT-001
+schema: "RP002-STAGE3-OBSIDIAN-COVERAGE-CLOSURE/1"
+finding: "S3-EXT-001"
+C5_obsidian_runtime_readiness: "PASS — obs contract (51fee805) runtime_readiness.obsidian-workbench row; receipt de062b3c8aa77cae5ea72760093e3cb2e5791caf045773b68acb28f82c88eaae"
+C6_J3_knowledge_backed_journey: "PASS — J3-KNOWLEDGE-BACKED journey acceptance edge (obs contract); visible-readback evidence in receipt; operator opens vault note"
+C7_obsidian_acceptance_edge: "PASS — OBSIDIAN_HUMAN_VISIBILITY blocking acceptance edge (AC-CAP-obsidian-workbench L4) + L2 focused recheck"
+C8_obsidian_evidence_binding: "PASS — final external evidence class 09 = real (projection path/SHA/bytes/vault/visibility) in regenerated review MD"
+dogfood_rows: "CAP-08/CAP-17/CAP-18 updated with obs evidence refs (FABRIC_TEAM_STAGE3_DOGFOOD_ACCEPTANCE_MATRIX.yaml)"
+reducer_blocking_predicate: "PASS — reduce_stage3 + reduce_master now require obsidian_human_visibility + final_evidence_class_09 (normative wiring fix; E3 remains N/A per §6.7)"
+evaluator_meta_check: "PENDING_INDEPENDENT (separate meta-checker reviews the reducer wiring patch)"

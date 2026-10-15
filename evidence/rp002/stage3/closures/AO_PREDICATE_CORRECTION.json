@@ -1,0 +1,10 @@
+{
+ "note_id": "AO-PREDICATE-CORRECTION-001",
+ "finding": "First AO lane (deleg_0ff36c2f) returned ACCEPTANCE_OFFICER_VERDICT=FAIL as specified, but root cause = maker-set CJK count thresholds (>1000 README / >3000 UG) were unrealistic for compact operational docs; all content strings, strict UTF-8, U+FFFD=0, mojibake markers=0, and suite 231 OK all PASSED.",
+ "classification": "CHECK_PREDICATE_ERROR (maker side; not a document defect)",
+ "correction": "Corrected predicate: content strings present + strict UTF-8 + zero mojibake + suite green; CJK counts reported as sanity facts (README 342, UG 350) not hard thresholds.",
+ "corrective_lane": "deleg_04612179",
+ "bound_into": [
+  "RP002_SQS_DOCS_UPGRADE_EVIDENCE.md"
+ ]
+}

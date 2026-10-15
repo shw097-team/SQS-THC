@@ -1,0 +1,31 @@
+{
+  "schema": "RBWI-SEGMENT-EXECUTION-BINDING/1",
+  "parent_run_id": "RUN-RBWI-FULLRUN-20260820-001",
+  "parent_workorder_id": "WO-RBWI-FULLRUN-001",
+  "segment_id": "Q2_OPENING_S1",
+  "segment_task_id": "K6b-sub-Q2",
+  "segment_execution_binding_id": "BIND-RBWI-Q2-20260820-001",
+  "child_workorder_id": {
+    "mode": "OPTIONAL_BY_CURRENT_HGK_SCHEMA",
+    "parent": "WO-RBWI-FULLRUN-001"
+  },
+  "kanban_board_id": "rbwi-fullrun-2026-08-14",
+  "candidate_id": "CAND-RBWI-20260814",
+  "canonical_rbwi_hash": "a94b2ec00cf4ae9d24f77bb548e799ffac7fad3eb0e84198129e131121a74c0e",
+  "overlay_path_hash": "7913048ee67d99d04278ff99a466277e645d263e10ab69f1d1e6e6fa49d2a6e6",
+  "thin_prompt_path_hash": "3986d8bb4930af8a42def8add2cc2ec5a0090ca8b134674480f13617296c83c1",
+  "segment_denominator_path": "SEGMENT_DENOMINATOR_Q2_OPENING_S1.tsv",
+  "segment_denominator_digest": "PENDING_AT_SEGMENT_ADMISSION",
+  "execution_binding_receipt": "REQ-BIND-Q2-20260820-001",
+  "admission_receipt": "ADM-BIND-Q2-20260820-001",
+  "resume_key": "BIND-RBWI-Q2-20260820-001",
+  "generated_at": "2026-08-20T20:50+08:00",
+  "status": "BOUND_PENDING_Q1_VALID_AND_LIVE_SESSION",
+  "note": "requires next trading day live XQ/PAPER session + HITL for entry",
+  "hitl_approval": "REQUIRED_HITL-APPROVAL/1 at runtime",
+  "financial_auth": {
+    "live_broker": "NOT_AUTHORIZED",
+    "account_mode": "PAPER_ONLY",
+    "order_path": "HITL_ONLY"
+  }
+}

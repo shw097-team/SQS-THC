@@ -1,0 +1,160 @@
+schema: SQS-ENGINEERING-BASE-DISPOSITION/1
+# PRIMARY_ENGINEERING_BASELINE resolution: owner doc path C:\Projects\Agent_Workspace\SQS-THC\工程基座 does not exist at WP3.0;
+# user reorganization (2026-08-12) relocated engineering bases to C:\Projects\Agent_Workspace\知識庫\工程基座 (Fabric git deletions of Oracle\工程基座 + HGK README/AGENTS relocation records).
+# Current authoritative root used for disposition: 知識庫\工程基座 (single shared engineering base; no duplicate product root created).
+no_material_content_without_disposition: true
+no_parallel_implementation_base_created: true
+items:
+  - name: AI_Knowledge_Distillation_工程師_KnowledgePack_and_GPT_Builder_合冊_v3.0
+    path: C:\Projects\Agent_Workspace\知識庫\工程基座\AI_Knowledge_Distillation_工程師_KnowledgePack_and_GPT_Builder_合冊_v3.0
+    file_count: 49
+    tree_digest: ed87d2a7739c6dbb99b7a841fbbecb1a09ff59c254a74029f1c0b17837df000d
+    disposition: REUSE
+    reason: knowledge distillation methodology pack; Stage-3 knowledge distillation reuses its approach
+    target: SQS-THC knowledge distillation WP
+    owner: HGK_ENGINEERING_SHARED_BASE
+    evidence: wp30_inventory.json
+  - name: construction-acceptance-prompt-compiler
+    path: C:\Projects\Agent_Workspace\知識庫\工程基座\construction-acceptance-prompt-compiler
+    file_count: 22
+    tree_digest: c1a76d96ad617910fd6717a7e2e3a44ca4cdaaa0079bb3fcb81d6bb55bb6ae33
+    disposition: REUSE
+    reason: current compiler actively used (SKILL 48a3fdc5); the compiler itself
+    target: all gates
+    owner: HGK_ENGINEERING_SHARED_BASE
+    evidence: wp30_inventory.json
+  - name: GPTs_GENIEMAKER_AI產品經理_and_設計開發工程師_KnowledgePack_and_GPT_Builder_合冊
+    path: C:\Projects\Agent_Workspace\知識庫\工程基座\GPTs_GENIEMAKER_AI產品經理_and_設計開發工程師_KnowledgePack_and_GPT_Builder_合冊
+    file_count: 45
+    tree_digest: 90a99be35f135c6ca4e4c724bf54bdb047687c7922f03aab244d9ea6c57be1d4
+    disposition: REUSE
+    reason: KP pack for AIKD/product+design; supports selected-skill context
+    target: SQP1/E2
+    owner: HGK_ENGINEERING_SHARED_BASE
+    evidence: wp30_inventory.json
+  - name: GPTs_GENIEMAKER_開發實作+驗收指揮官_KP_Builder_ReleasePack_v2026.06.03-r2
+    path: C:\Projects\Agent_Workspace\知識庫\工程基座\GPTs_GENIEMAKER_開發實作+驗收指揮官_KP_Builder_ReleasePack_v2026.06.03-r2
+    file_count: 33
+    tree_digest: aa12825bfb0b6524425d451b448515f814ae3cb108522752e4ee74b47a8f6e09
+    disposition: REUSE
+    reason: commander KP release pack; acceptance/commander context
+    target: SQP1/E1
+    owner: HGK_ENGINEERING_SHARED_BASE
+    evidence: wp30_inventory.json
+  - name: GRP_PORTABLE_DISTRIBUTION_SET_13
+    path: C:\Projects\Agent_Workspace\知識庫\工程基座\GRP_PORTABLE_DISTRIBUTION_SET_13
+    file_count: 13
+    tree_digest: cb3dcc3219b0376afefbd5fd4ddc1e641fe8b9763be6040fc6f4f65940f6ec57
+    disposition: REUSE
+    reason: portable distribution set; precedent for SQS profile Distribution layout
+    target: SQP1
+    owner: HGK_ENGINEERING_SHARED_BASE
+    evidence: wp30_inventory.json
+  - name: ICT-OBI
+    path: C:\Projects\Agent_Workspace\知識庫\工程基座\ICT-OBI
+    file_count: 371
+    tree_digest: d8576fe1da42600f49c94221e70e5b5770813ceaf4fbe010aca685f98a12d8fe
+    disposition: ADAPT
+    reason: OBI base corpus; ICT semantics adapted into TWICT runtime pack / S1 source
+    target: S1/SQP1
+    owner: HGK_ENGINEERING_SHARED_BASE
+    evidence: wp30_inventory.json
+  - name: ICT‑OBI v3.1‑Ω
+    path: C:\Projects\Agent_Workspace\知識庫\工程基座\ICT‑OBI v3.1‑Ω
+    file_count: 871
+    tree_digest: d72910d41e10df4c5c0b1a3f4e715b29fe07edd62e4f359b3813d6609b7361b9
+    disposition: REUSE
+    reason: current OBI version for ICT/SMC semantics
+    target: S1
+    owner: HGK_ENGINEERING_SHARED_BASE
+    evidence: wp30_inventory.json
+  - name: ICT文檔蒸餾
+    path: C:\Projects\Agent_Workspace\知識庫\工程基座\ICT文檔蒸餾
+    file_count: 2037
+    tree_digest: 4baa2981b0e2209dcbfa759d4a083d0743928bc8677d3013a4b743ea94c18b66
+    disposition: REUSE
+    reason: distilled ICT corpus; S1 task source candidate + knowledge distillation input
+    target: S1/g5
+    owner: HGK_ENGINEERING_SHARED_BASE
+    evidence: wp30_inventory.json
+  - name: sdlc-prw-formal
+    path: C:\Projects\Agent_Workspace\知識庫\工程基座\sdlc-prw-formal
+    file_count: 840
+    tree_digest: 6e8550d5de04422b027f44edd12e76486b380796186445c9a971c03d76b1fceb
+    disposition: REUSE
+    reason: SDLC PRW formal base; SQS engineering docs methodology
+    target: SQP1 docs
+    owner: HGK_ENGINEERING_SHARED_BASE
+    evidence: wp30_inventory.json
+  - name: sdlc-prw-hlpe-formal
+    path: C:\Projects\Agent_Workspace\知識庫\工程基座\sdlc-prw-hlpe-formal
+    file_count: 638
+    tree_digest: 9658d5fde902d0fa555f7e585ee9943d9b91c959a6aade4fe38ca86eb2ece75d
+    disposition: REUSE
+    reason: current engineering base consumed as-is
+    target: Stage-3
+    owner: HGK_ENGINEERING_SHARED_BASE
+    evidence: wp30_inventory.json
+  - name: sdlc-prw-hlpe-plugin
+    path: C:\Projects\Agent_Workspace\知識庫\工程基座\sdlc-prw-hlpe-plugin
+    file_count: 63
+    tree_digest: 41d36d829e2d4579cd471775046b34d7964297c98afce6ff6df8a23770c1ec7b
+    disposition: REUSE
+    reason: HLPE plugin surface
+    target: HGK engineering
+    owner: HGK_ENGINEERING_SHARED_BASE
+    evidence: wp30_inventory.json
+  - name: SDLC_PRW_HLPE
+    path: C:\Projects\Agent_Workspace\知識庫\工程基座\SDLC_PRW_HLPE
+    file_count: 5149
+    tree_digest: 45e4c793b04948f36dfd918914238a41b2e4dbc655a3c7949092665dd086047a
+    disposition: QUARANTINE
+    reason: superseded original tree; sdlc-prw-hlpe-formal is the current target — preserved as historical
+    target: none
+    owner: HGK_ENGINEERING_SHARED_BASE
+    evidence: wp30_inventory.json
+  - name: Spartoi Development
+    path: C:\Projects\Agent_Workspace\知識庫\工程基座\Spartoi Development
+    file_count: 5733
+    tree_digest: 3578b2a6e525ea721c022bc9f859e3b9cc8622c5d28a2a8b1176751a49bd1f6d
+    disposition: QUARANTINE
+    reason: out-of-Stage-3 product base; preserved, not selected
+    target: none
+    owner: HGK_ENGINEERING_SHARED_BASE
+    evidence: wp30_inventory.json
+  - name: Spartoi-AgentOS_總系統級_實作
+    path: C:\Projects\Agent_Workspace\知識庫\工程基座\Spartoi-AgentOS_總系統級_實作
+    file_count: 176
+    tree_digest: b7ca8a26ab2306316c101389b3cdf6f17a6bce297543c1d90702765c876ea8ac
+    disposition: QUARANTINE
+    reason: out-of-Stage-3 product base; preserved
+    target: none
+    owner: HGK_ENGINEERING_SHARED_BASE
+    evidence: wp30_inventory.json
+  - name: spartoi-total-system
+    path: C:\Projects\Agent_Workspace\知識庫\工程基座\spartoi-total-system
+    file_count: 2127
+    tree_digest: a5c553560ef4cb24a6b1b5be2cc1766f942b9313a2eb9ed7dd70a574a3c6ff56
+    disposition: QUARANTINE
+    reason: out-of-Stage-3 product base; preserved
+    target: none
+    owner: HGK_ENGINEERING_SHARED_BASE
+    evidence: wp30_inventory.json
+  - name: sru-orochi-formal
+    path: C:\Projects\Agent_Workspace\知識庫\工程基座\sru-orochi-formal
+    file_count: 1075
+    tree_digest: 54315e002e8045ee76ca58867476679b72850d5ac59bfd4962a8a138b8bf2ede
+    disposition: QUARANTINE
+    reason: out-of-Stage-3 product base; preserved
+    target: none
+    owner: HGK_ENGINEERING_SHARED_BASE
+    evidence: wp30_inventory.json
+  - name: TriRAG
+    path: C:\Projects\Agent_Workspace\知識庫\工程基座\TriRAG
+    file_count: 651
+    tree_digest: 725a54e7b0c10dcbb0291781ae5a8a5690eaac87806ae137c72f9857540d0aa4
+    disposition: ADAPT
+    reason: TriRAG ops incl. stage3 validation scripts; adapted for knowledge/RAG governance evidence
+    target: g5/kg
+    owner: HGK_ENGINEERING_SHARED_BASE
+    evidence: wp30_inventory.json

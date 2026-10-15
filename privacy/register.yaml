@@ -1,0 +1,15 @@
+# PRIVACY REGISTER - privacy/register.yaml (TS-011 / ART-11, CH32 / MC-26).
+# Each entry: id, scope. The register records the bounded privacy scope of
+# every data surface; anything outside a registered scope is not collected,
+# retained or linked. An entry missing id or scope is rejected
+# (field-naming error).
+spec_ref: TS-011/CH32
+register:
+  - id: privacy-execution-facts
+    scope: Broker execution facts only; no identity linkage, no derived personal data; retention bounded by reconciliation horizon.
+  - id: privacy-research-corpus
+    scope: Public market research corpus only; no personal data, no private communications; reuse limited to approved research purposes.
+  - id: privacy-operator-sessions
+    scope: Operator session metadata only; no keystroke capture, no screen content; access logged and limited to operators on duty.
+  - id: privacy-rights-erasure
+    scope: Registered rights holders may request erasure within the retention boundary; erasure is logged and never silently skipped.

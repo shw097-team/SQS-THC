@@ -1,0 +1,231 @@
+{
+ "schema": "HGK-EVO005-ACCEPTANCE-ORACLE/1",
+ "oracle_version": "EVO005-ORACLE-V1",
+ "frozen_at_utc": "2026-08-11T11:16:27.586042+00:00",
+ "claim_scopes": [
+  "PRODUCT_LOCAL_DELIVERY",
+  "REFERENCE_PROJECT_EVOLUTION_COMPLETE",
+  "KNOWLEDGE_BASELINE_READY",
+  "VECTOR_PROVIDER_READINESS",
+  "GRAPH_PROVIDER_READINESS",
+  "PRODUCTION",
+  "LIVE_TRADING"
+ ],
+ "requirements": [
+  {
+   "requirement_id": "REQ-EVO005-ORACLE",
+   "source_locator": "RESUME_..._EVO-005_r1.md#6/G0",
+   "claim_scope": "REFERENCE_PROJECT_EVOLUTION_COMPLETE",
+   "required": true,
+   "blocking": true,
+   "applicability_rule": "always",
+   "acceptance_predicate": "Oracle versioned+frozen before mutation; in-place mutation=0",
+   "evidence_depth": "runtime+digest",
+   "independent_checker_required": true,
+   "allowed_reuse": "no",
+   "terminal_states": [
+    "FROZEN"
+   ]
+  },
+  {
+   "requirement_id": "REQ-EVO005-SUBJECT",
+   "source_locator": "RESUME_..._EVO-005_r1.md#6/G1",
+   "claim_scope": "REFERENCE_PROJECT_EVOLUTION_COMPLETE",
+   "required": true,
+   "blocking": true,
+   "applicability_rule": "always",
+   "acceptance_predicate": "Subject Manifest deterministic; Subject Digest bound; stale=0",
+   "evidence_depth": "runtime+digest",
+   "independent_checker_required": true,
+   "allowed_reuse": "no",
+   "terminal_states": [
+    "FROZEN"
+   ]
+  },
+  {
+   "requirement_id": "REQ-EVO005-GRAPH",
+   "source_locator": "RESUME_..._EVO-005_r1.md#6/G2",
+   "claim_scope": "REFERENCE_PROJECT_EVOLUTION_COMPLETE",
+   "required": true,
+   "blocking": true,
+   "applicability_rule": "always",
+   "acceptance_predicate": "Canonical Evidence Graph; artifact full digest once; duplicate truth fields=0",
+   "evidence_depth": "runtime",
+   "independent_checker_required": true,
+   "allowed_reuse": "no",
+   "terminal_states": [
+    "PASS"
+   ]
+  },
+  {
+   "requirement_id": "REQ-EVO005-INTEGRITY",
+   "source_locator": "RESUME_..._EVO-005_r1.md#6/G3",
+   "claim_scope": "REFERENCE_PROJECT_EVOLUTION_COMPLETE",
+   "required": true,
+   "blocking": true,
+   "applicability_rule": "always",
+   "acceptance_predicate": "cross-artifact semantic checks; r5 canaries all catch",
+   "evidence_depth": "runtime",
+   "independent_checker_required": true,
+   "allowed_reuse": "no",
+   "terminal_states": [
+    "PASS"
+   ]
+  },
+  {
+   "requirement_id": "REQ-EVO005-R5-TRUTH",
+   "source_locator": "RESUME_..._EVO-005_r1.md#6/G4",
+   "claim_scope": "REFERENCE_PROJECT_EVOLUTION_COMPLETE",
+   "required": true,
+   "blocking": true,
+   "applicability_rule": "always",
+   "acceptance_predicate": "68/30/0 reconciled; project state terminal consistent",
+   "evidence_depth": "runtime",
+   "independent_checker_required": true,
+   "allowed_reuse": "no",
+   "terminal_states": [
+    "PASS"
+   ]
+  },
+  {
+   "requirement_id": "REQ-EVO005-RBWI",
+   "source_locator": "RESUME_..._EVO-005_r1.md#6/G5",
+   "claim_scope": "PRODUCT_LOCAL_DELIVERY",
+   "required": true,
+   "blocking": true,
+   "applicability_rule": "TW-ICT RBWI applicable",
+   "acceptance_predicate": "current-subject full applicable RBWI acceptance",
+   "evidence_depth": "runtime",
+   "independent_checker_required": true,
+   "allowed_reuse": "affected-only",
+   "terminal_states": [
+    "PASS"
+   ]
+  },
+  {
+   "requirement_id": "REQ-EVO005-CALIBRATION",
+   "source_locator": "RESUME_..._EVO-005_r1.md#6/G6",
+   "claim_scope": "KNOWLEDGE_BASELINE_READY",
+   "required": true,
+   "blocking": false,
+   "applicability_rule": "claim-scope applicable",
+   "acceptance_predicate": "provider/multi-agent truthful claim states; no overclaim",
+   "evidence_depth": "runtime",
+   "independent_checker_required": true,
+   "allowed_reuse": "affected-only",
+   "terminal_states": [
+    "PASS",
+    "NOT_REQUIRED_FOR_CLAIM"
+   ]
+  },
+  {
+   "requirement_id": "REQ-EVO005-VERIFIER",
+   "source_locator": "RESUME_..._EVO-005_r1.md#6/G7",
+   "claim_scope": "REFERENCE_PROJECT_EVOLUTION_COMPLETE",
+   "required": true,
+   "blocking": true,
+   "applicability_rule": "always",
+   "acceptance_predicate": "independent verifier reads Oracle+Subject+Graph+raw only; adversarial fixtures pass",
+   "evidence_depth": "runtime",
+   "independent_checker_required": true,
+   "allowed_reuse": "no",
+   "terminal_states": [
+    "PASS"
+   ]
+  },
+  {
+   "requirement_id": "REQ-EVO005-ATTESTATION",
+   "source_locator": "RESUME_..._EVO-005_r1.md#6/G8",
+   "claim_scope": "REFERENCE_PROJECT_EVOLUTION_COMPLETE",
+   "required": true,
+   "blocking": true,
+   "applicability_rule": "always",
+   "acceptance_predicate": "Subject Attestation + derived views consistent with graph",
+   "evidence_depth": "runtime",
+   "independent_checker_required": true,
+   "allowed_reuse": "no",
+   "terminal_states": [
+    "PASS"
+   ]
+  },
+  {
+   "requirement_id": "REQ-EVO005-RELEASE",
+   "source_locator": "RESUME_..._EVO-005_r1.md#6/G9",
+   "claim_scope": "REFERENCE_PROJECT_EVOLUTION_COMPLETE",
+   "required": true,
+   "blocking": true,
+   "applicability_rule": "always",
+   "acceptance_predicate": "package bound to subject digest; readback PASS; r6 rendered from graph",
+   "evidence_depth": "runtime",
+   "independent_checker_required": true,
+   "allowed_reuse": "no",
+   "terminal_states": [
+    "PASS"
+   ]
+  },
+  {
+   "requirement_id": "REQ-PROD-LOCAL-DELIVERY",
+   "source_locator": "HGK-REFERENCE-PROJECT-001 r1-r5 lineage",
+   "claim_scope": "PRODUCT_LOCAL_DELIVERY",
+   "required": true,
+   "blocking": true,
+   "applicability_rule": "always",
+   "acceptance_predicate": "SQS full suite + HGK full suite + acceptance 161/161 + denominator all-0",
+   "evidence_depth": "runtime",
+   "independent_checker_required": true,
+   "allowed_reuse": "affected-only",
+   "terminal_states": [
+    "PASS"
+   ]
+  },
+  {
+   "requirement_id": "REQ-KNOWLEDGE-BASELINE",
+   "source_locator": "RESUME_..._EVO-005_r1.md#6/G4",
+   "claim_scope": "KNOWLEDGE_BASELINE_READY",
+   "required": true,
+   "blocking": false,
+   "applicability_rule": "five-family corpus required",
+   "acceptance_predicate": "five-family projection semantic reconciliation; FTS actual rows>0; retrieval receipt",
+   "evidence_depth": "runtime",
+   "independent_checker_required": true,
+   "allowed_reuse": "affected-only",
+   "terminal_states": [
+    "PASS"
+   ]
+  },
+  {
+   "requirement_id": "REQ-QDRANT",
+   "source_locator": "RESUME_..._EVO-005_r1.md#6/G6",
+   "claim_scope": "VECTOR_PROVIDER_READINESS",
+   "required": false,
+   "blocking": false,
+   "applicability_rule": "benchmark/admission trigger",
+   "acceptance_predicate": "truthful lifecycle state (ADMITTED_DISABLED only with full lifecycle)",
+   "evidence_depth": "runtime",
+   "independent_checker_required": true,
+   "allowed_reuse": "affected-only",
+   "terminal_states": [
+    "PASS",
+    "DEGRADED_TRUTHFUL"
+   ]
+  },
+  {
+   "requirement_id": "REQ-NEO4J",
+   "source_locator": "RESUME_..._EVO-005_r1.md#6/G6",
+   "claim_scope": "GRAPH_PROVIDER_READINESS",
+   "required": false,
+   "blocking": false,
+   "applicability_rule": "relation-heavy trigger",
+   "acceptance_predicate": "truthful install-profile state",
+   "evidence_depth": "runtime",
+   "independent_checker_required": true,
+   "allowed_reuse": "affected-only",
+   "terminal_states": [
+    "PASS",
+    "INSTALL_PROFILE_READY"
+   ]
+  }
+ ],
+ "mutation_policy": "in-place mutation forbidden; corrections -> new version + GCF",
+ "oracle_digest": "501732af709e3e789572c9edcba7b9fc01704c12cf743cdba081a613221d19ed"
+}

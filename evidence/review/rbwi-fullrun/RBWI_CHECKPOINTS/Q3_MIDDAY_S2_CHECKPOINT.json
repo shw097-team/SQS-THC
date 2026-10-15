@@ -1,0 +1,24 @@
+{
+  "schema": "RBWI-SEGMENT-CHECKPOINT/2",
+  "parent_run_id": "RUN-RBWI-FULLRUN-20260820-001",
+  "parent_workorder_id": "WO-RBWI-FULLRUN-001",
+  "segment_id": "Q3_MIDDAY_S2",
+  "candidate_id": "CAND-RBWI-20260814",
+  "sim_clock": {
+    "mode": "SIM",
+    "trade_date": "2026-08-20",
+    "dataset": "DSV-DAILY-2026-08-21-r1"
+  },
+  "segment_denominator_path": "SEGMENT_DENOMINATOR_Q3_MIDDAY_S2.tsv",
+  "segment_denominator_digest": "b8518eeaddbfcf0505edd4195195937ee8b33114b6ecccbac4d92fd15926c898",
+  "rows": 32,
+  "orphan_rows": 0,
+  "status": "SEGMENT_PASS_AND_FROZEN_SIM",
+  "financial_boundary": "LOCAL_PAPER_SIMULATION_ONLY",
+  "broker_write": false,
+  "hitl_approval_ref": "REQUIRED_HITL-APPROVAL/1 NOT_MINTED_SIM_PENDING",
+  "evidence_ref": "Q3_MIDDAY_S2_sim_receipt.json",
+  "filled": 0,
+  "note": "8/20 simulated clock per USER_DECISION; intraday=qualification-proxy",
+  "generated_at": "2026-08-21T11:40+08:00"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "BASELINE-MACHINE-STATE/1",
+  "generated_at": "2026-08-20T20:38:37.698250+08:00",
+  "hostname": "DESKTOP-57EO414",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "python": "3.11.9",
+  "hermes_version": [
+    "Hermes Agent v0.20.0 (2026.8.3)",
+    "Install directory: C:\\Users\\user\\AppData\\Local\\hermes\\hermes-agent"
+  ],
+  "codex_version": [
+    "codex-cli 0.147.0-alpha.6.5"
+  ],
+  "xq_running": false,
+  "local_time_asia_taipei": "2026-08-20T20:38:38.191637+08:00",
+  "market_session": "CLOSED_20260820_1330_TWSE"
+}

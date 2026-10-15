@@ -1,0 +1,18 @@
+{
+  "schema": "BASELINE-DATASET-INVENTORY/1",
+  "generated_at": "2026-08-20T20:38:37.698250+08:00",
+  "status_vector": "status-vector-daily-ohlcv-2026-08-13",
+  "dataset_version": "DSV-DAILY-2026-08-13-r2",
+  "symbols": 258,
+  "rows": 221349,
+  "date_range": "2023-01-03..2026-08-13",
+  "provider": "TWSE_OFFICIAL",
+  "pit": {
+    "five_clocks": "QUALIFIED",
+    "negative_canary": "PASS",
+    "same_day_eod_lookahead": "BLOCKED"
+  },
+  "acceptance": "PASS",
+  "duckdb_path": "C:\\Projects\\Agent_Workspace\\SQS-THC\\data_plane\\data\\backtest.duckdb",
+  "duckdb_exists": true
+}

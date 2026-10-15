@@ -1,0 +1,18 @@
+{
+ "schema": "SQS-EVO005-FINAL-GRAPH/1",
+ "captured_at_utc": "2026-08-11T12:41:18.613269+00:00",
+ "oracle_digest": "501732af709e3e789572c9edcba7b9fc01704c12cf743cdba081a613221d19ed",
+ "subject_digest": "e546cc2c4eacf0cb4bbb259d717c1728b89ac6c579de94262db0f450f36eefc1",
+ "graph_generation_id": "GEN-2f6a46fc3c56",
+ "graph_lifecycle": "FROZEN",
+ "artifact_count": 20,
+ "verification_count": 0,
+ "final_root_digest": "6535d9cd214a8d3e33869c955c42450f92ed6e42b6c1581cca0cc971d1aad621",
+ "historical_roots": {
+  "32bf12225372442ab8b01126bdd4c2a6e67803cb4ff1f2d0c82b5e77b1723925": "HISTORICAL_INTERMEDIATE (prior attestation/r6 root)",
+  "ec524f9e1db640979c9bd596888d07bdb0427aad8f53e6a28063f02f7dba15f2": "HISTORICAL_INTERMEDIATE (per-runner G3G4 graph)",
+  "3444451ccccdcfc9df94c68d39ea46c7f4546741572e9c52d1d173b9acf85405": "HISTORICAL_INTERMEDIATE (per-runner G7 graph)",
+  "37869f8789a1dd0c240c2f90ae398dccae78af1d99bee3a700f7ee3bea03f132": "STALE (pre-fix r6 render root)"
+ },
+ "verdict": "FINAL_GRAPH_FROZEN"
+}

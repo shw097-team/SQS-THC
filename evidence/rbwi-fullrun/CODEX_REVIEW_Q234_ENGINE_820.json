@@ -1,0 +1,29 @@
+{
+  "schema": "CODEX-TRACKED-WRITER-RECEIPT/1",
+  "workorder": "WO-RBWI-FULLRUN-001",
+  "codex_version": "codex-cli 0.147.0-alpha.6.5",
+  "lane": "codex-hermes (sealed, ACTIVE_FAIL_CLOSED)",
+  "provider": "opencode-go",
+  "model": "deepseek-v4-flash",
+  "endpoint": "ws://127.0.0.1:10101/v1/responses",
+  "sandbox": "read-only",
+  "subject": "var/rbwi-fullrun/q234_engine.py",
+  "mode": "static read-only review (codex cannot run unittest in read-only sandbox; this is the canonical tracked-deliverable pattern)",
+  "verdict": {
+    "review_passed": true,
+    "blocked": false
+  },
+  "findings": [
+    "DB opened read_only=True; only local evidence/TSV writes; every segment broker_write:False",
+    "filled:0 throughout; BREAK=0 reconciliation; no PnL computed; state FLAT_PENDING_HITL/PAPER_ONLY",
+    "every order_intent NO_TRADE with HITL_HUMAN_ENTRY_APPROVAL_NOT_MINTED_SIM_PENDING; no HUMAN_ENTRY_APPROVAL minted",
+    "only duckdb+polars imports; no broker client, no network, no secrets"
+  ],
+  "usage": {
+    "input_tokens": 93123,
+    "cached_input_tokens": 75008,
+    "output_tokens": 1062
+  },
+  "note": "transient websocket 426 + 'model metadata fallback' warnings observed but exec completed with verdict",
+  "recorded_at": "2026-08-21T12:22+08:00"
+}

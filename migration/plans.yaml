@@ -1,0 +1,22 @@
+# MIGRATION PLANS - migration/plans.yaml (TS-012 / ART-12, CH34 / MC-27).
+# Controlled learning changes travel PROPOSED -> COMPATIBILITY_ANALYZED ->
+# DUAL_RUN -> CUTOVER -> SUNSET/ROLLBACK (SPEC-31). Each plan carries id,
+# from, to and status; a plan without an explicit rollback path is rejected
+# (ERR_MIGRATION_NO_ROLLBACK, fail-closed). No migration activates without
+# consumer ACK and a rehearsed previous-active rollback.
+migration_id: migration-plans-ts012
+schema_version: "1.0.0"
+spec_ref: TS-012/SPEC-31
+plans:
+  - id: MIG-012-001
+    from: legacy-donor-provisional
+    to: canonical-append-only-ledger
+    status: PROPOSED
+  - id: MIG-012-002
+    from: provisional-release-views
+    to: gate-checked-release-manifest
+    status: COMPATIBILITY_ANALYZED
+  - id: MIG-012-003
+    from: adhoc-training-copies
+    to: nrtv-gated-training-packets
+    status: DUAL_RUN

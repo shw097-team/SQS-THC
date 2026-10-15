@@ -1,0 +1,104 @@
+{
+ "schema": "SQS-EVO004-R5-G5G6-COLD-START/1",
+ "captured_at_utc": "2026-08-11T08:29:50.241315+00:00",
+ "cold_start_state": {
+  "session_memory": "empty",
+  "task_memory": "empty",
+  "chat_memory": "none",
+  "web": "not approved",
+  "model_memory": "not substituted"
+ },
+ "corpus": {
+  "families": 5,
+  "fixture_docs": 20
+ },
+ "results": [
+  {
+   "case": "cold_start_empty_memory",
+   "ok": true,
+   "detail": "no prior memory in session/task scope"
+  },
+  {
+   "case": "g5_ict_context",
+   "ok": true,
+   "detail": "1 hits"
+  },
+  {
+   "case": "g5_twict_method",
+   "ok": true,
+   "detail": "1 hits"
+  },
+  {
+   "case": "g5_daytrade",
+   "ok": true,
+   "detail": "3 hits"
+  },
+  {
+   "case": "g5_market_trend",
+   "ok": true,
+   "detail": "3 hits"
+  },
+  {
+   "case": "g5_wrong_anchor",
+   "ok": true,
+   "detail": "ABSTAIN fail-closed"
+  },
+  {
+   "case": "g5_hgk_private_deny",
+   "ok": true,
+   "detail": "ABSTAIN (no cross-namespace)"
+  },
+  {
+   "case": "g5_missing_family_fails",
+   "ok": true,
+   "detail": "['FAM-5']"
+  },
+  {
+   "case": "g6_no_prior_memory",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "case": "g6_corpus_context",
+   "ok": true,
+   "detail": "20 docs"
+  },
+  {
+   "case": "g6_exact_anchors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "case": "g6_market_facts_not_stale_docs",
+   "ok": true,
+   "detail": "market facts route = DSV-2026-08-11-r1 current data; docs are context only"
+  },
+  {
+   "case": "g6_no_auto_promote",
+   "ok": true,
+   "detail": "ERR_PROMOTION_EVIDENCE_REQUIRED"
+  },
+  {
+   "case": "g6_unsupported_abstain",
+   "ok": true,
+   "detail": "ABSTAIN"
+  },
+  {
+   "case": "g6_no_live_write",
+   "ok": true,
+   "detail": "LOCAL/PAPER/NO-LIVE-WRITE only"
+  },
+  {
+   "case": "g6_deterministic",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "case": "g6_independent_checker",
+   "ok": true,
+   "detail": "assertions made externally"
+  }
+ ],
+ "verdict_g5": "TWICT_COLD_START_RETRIEVAL_PASS",
+ "verdict_g6": "TWICT_RBWI_COLD_START_KNOWLEDGE_PASS"
+}

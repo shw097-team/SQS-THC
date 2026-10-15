@@ -1,0 +1,24 @@
+{
+  "officer": "Acceptance-Officer (VERIFY_ONLY, fresh context)",
+  "lane": "deleg_6bd8efcb",
+  "verdict": "PASS-with-observation",
+  "blocking": [],
+  "items_passed": 33,
+  "items_checked": 33,
+  "nonclaims_verified": [
+    "broker_write=false 於全部 18 張 RBWI 收據與 9 張 Spartoi 收據",
+    "filled=0（或無 filled 欄位 SF-00/01/02/14）於全部收據",
+    "sim_clock.mode=SIM_FASTEST_ACCEL 於全部收據",
+    "FULL_JOBCHARD_SUMMARY: fills_total=0, broker_write=false, live=false, intraday_measured=qualification-proxy",
+    "關鍵字掃描（real/live fill、executed、production）於兩資料夾 0 命中",
+    "SF-14 archive manifest 14 筆 sha256 逐一與實際檔案相符",
+    "SF-06 訂單意向 38 筆全為 NO_TRADE，count==qualified 一致"
+  ],
+  "observations": [
+    "SF-14 DailyArchive 清單僅含 SF-00..SF-13（14 筆），未含 SF-14..SF-17 自身與後續階段；屬『截至執行點快照』解讀，覆蓋範圍與目錄檔數不完全一致（非阻斷）",
+    "SF-17 HITL 引 COV-11-06 為未鑄造理由；SF-16 fda_xq=NOT_ENGAGED_SIM；皆證實 SIM 延後，非缺漏",
+    "Spartoi S1 qualified=66 與 RBWI S1 qualified=41 差異大，判兩套框架各自獨立，非同一鏈不一致"
+  ],
+  "summary": "Part A RBWI FULL 18 JobCard + Part B Spartoi SF-04..12 全部存在且實質，無薄板佔位。先前 MISSING 之 SF-05/09/10/11/14 現皆有真實輸出。誠實旗標全綠、規範鍵齊備、無 live/成交宣稱、成員數鏈一致遞減。本輪交付『完整的 JobCard/資格代理產出且誠實』可驗證成立；此為 SIM/qualification-proxy，非實盤成交、無 FDA/XQ realtime、無 broker 寫入。唯一觀察（SF-14 manifest 覆蓋範圍）不阻擋。",
+  "recorded_at": "2026-08-21T16:07+08:00"
+}

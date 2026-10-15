@@ -1,0 +1,111 @@
+{
+ "schema": "SQS-HOUSEKEEPING-VALIDATION/1",
+ "captured_at_utc": "2026-08-11T13:38:59.975485+00:00",
+ "checks": {
+  "guide_present": {
+   "ok": true,
+   "detail": "r3 guide present"
+  },
+  "guide_has_MILESTONE_CLOSED": {
+   "ok": true,
+   "detail": "MILESTONE_CLOSED"
+  },
+  "guide_has_SQS-THC_TW-ICT_FSDT_STACK_LOCAL_DELIVERY_PASS": {
+   "ok": true,
+   "detail": "SQS-THC_TW-ICT_FSDT_STACK_LOCAL_DELIVERY_PASS"
+  },
+  "guide_has_274": {
+   "ok": true,
+   "detail": "274"
+  },
+  "guide_has_EVO-005F": {
+   "ok": true,
+   "detail": "EVO-005F"
+  },
+  "guide_has_Qdrant": {
+   "ok": true,
+   "detail": "Qdrant"
+  },
+  "guide_has_Neo4j": {
+   "ok": true,
+   "detail": "Neo4j"
+  },
+  "guide_has_execute → test → repair → continue": {
+   "ok": true,
+   "detail": "execute → test → repair → continue"
+  },
+  "guide_ref_kernel": {
+   "ok": true,
+   "detail": "src/kernel"
+  },
+  "guide_ref_tests": {
+   "ok": true,
+   "detail": "tests"
+  },
+  "guide_ref_review": {
+   "ok": true,
+   "detail": "evidence/review"
+  },
+  "guide_ref_data_plane": {
+   "ok": true,
+   "detail": "data_plane"
+  },
+  "guide_ref_package": {
+   "ok": true,
+   "detail": "EVO005F_PACKAGE_MANIFEST.json (ZIP retired per WORKSPACE_LOCAL)"
+  },
+  "guide_ref_r7": {
+   "ok": true,
+   "detail": "SQS-THC_REFERENCE_PROJECT_001_FINAL_EVIDENCE_FOR_REVIEW_r7.md"
+  },
+  "sqs_suite": {
+   "ok": true,
+   "detail": "exit=0"
+  },
+  "essential_src": {
+   "ok": true,
+   "detail": "src"
+  },
+  "essential_contracts": {
+   "ok": true,
+   "detail": "contracts"
+  },
+  "essential_docs": {
+   "ok": true,
+   "detail": "docs"
+  },
+  "essential_tests": {
+   "ok": true,
+   "detail": "tests"
+  },
+  "essential_data_plane": {
+   "ok": true,
+   "detail": "data_plane"
+  },
+  "essential_evidence": {
+   "ok": true,
+   "detail": "evidence"
+  },
+  "essential_技術資料庫": {
+   "ok": true,
+   "detail": "技術資料庫"
+  },
+  "essential_工程基座": {
+   "ok": true,
+   "detail": "工程基座"
+  },
+  "essential_SSOT": {
+   "ok": true,
+   "detail": "SSOT"
+  },
+  "no_dup_root": {
+   "ok": true,
+   "detail": "實作執行 has no duplicate product root"
+  },
+  "sqs_tree_clean": {
+   "ok": true,
+   "detail": ""
+  }
+ },
+ "verdict": "PASS"
+}

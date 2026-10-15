@@ -1,0 +1,63 @@
+{
+  "segment_id": "Q4_CLOSE_POSTMARKET",
+  "run_id": "RUN-RBWI-FULLRUN-20260820-001",
+  "candidate_id": "CAND-RBWI-20260814",
+  "sim_clock": {
+    "mode": "SIM",
+    "trade_date": "2026-08-20",
+    "dataset": "DSV-DAILY-2026-08-21-r1"
+  },
+  "sf12_reconciliation": {
+    "position_cash_known_state": {
+      "position": "FLAT",
+      "cash_delta": 0,
+      "source": "SIM ledger (0 fills)"
+    },
+    "reconciliation_result": "BREAK=0; consistent (no SIM fills -> no break)",
+    "q2_q3_order_intents": {
+      "count": 38,
+      "filled": 0,
+      "pending_hitl": 38,
+      "note": "all NO_TRADE PENDING_HITL; nothing to reconcile"
+    }
+  },
+  "sf13_postmarket_review": {
+    "daily_report": {
+      "sim_trades": 0,
+      "sim_pnl": 0.0,
+      "kpi": {
+        "filled": 0
+      }
+    },
+    "feedback_to_method": "SIM: no structural data gap in daily layer for 8/20; minute-layer gap is data-availability (not method) - recorded"
+  },
+  "sf14_data_management": {
+    "version_manifest": {
+      "sim_dataset": "DSV-DAILY-2026-08-21-r1",
+      "trade_date": "2026-08-20",
+      "segments_completed": [
+        "Q2",
+        "Q3",
+        "Q4"
+      ],
+      "filled": 0
+    }
+  },
+  "sf16_deterministic_replay": {
+    "scope": "daily_bars date=2026-08-20 filtered",
+    "rows": 163,
+    "monotonic": true,
+    "deterministic": true,
+    "seed": "none (pure SQL/math)",
+    "result": "replay-consistent",
+    "hash": "3222b311327ffc76"
+  },
+  "sf11_overnight": {
+    "decision": "FLAT_PENDING_HITL",
+    "note": "no SIM position to carry"
+  },
+  "financial_boundary": "LOCAL_PAPER_SIMULATION_ONLY",
+  "broker_write": false,
+  "schema": "RBWI-Q4-SIM-RECEIPT/1",
+  "generated_at": "2026-08-21T11:40+08:00"
+}

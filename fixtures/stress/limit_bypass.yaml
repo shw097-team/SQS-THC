@@ -1,0 +1,8 @@
+# NEGATIVE FIXTURE - hard limit carrying a forbidden bypass flag
+# -> ERR_VETO_BYPASS (fail-closed, no mutation).
+limits:
+  - id: limit-gross-exposure
+    metric: gross_exposure
+    max: 1.50
+    hard: true
+    bypass: true

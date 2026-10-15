@@ -1,0 +1,8 @@
+{
+ "package": "release\\SQS-THC_WAVE4_LOCAL_DELIVERY.zip",
+ "bytes": 103453120,
+ "sha256": "096a508375b932dbb4c6ec2bd99c16d90c49d643660fffa8cad99b597941a528",
+ "payload_files": 871,
+ "candidate": "SQS HEAD c051130 + HGK f962db2",
+ "dataset_version": "DSV-2026-08-11-r1"
+}

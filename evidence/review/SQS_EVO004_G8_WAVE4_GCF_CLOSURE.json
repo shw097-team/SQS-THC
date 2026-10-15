@@ -1,0 +1,258 @@
+{
+ "schema": "SQS-EVO004-G8-WAVE4-GCF/1",
+ "captured_at_utc": "2026-08-11T07:27:38.766763+00:00",
+ "identity": {
+  "hgk_head": "0654348695c1f15bb6a2e73e68d77b9fa532169d",
+  "sqs_head": "c29ef1b759af1e9ec04ecca610e7edbc252d70e2",
+  "package_sha": "096a508375b9... (WAVE4, frozen)",
+  "dataset_version": "DSV-2026-08-11-r1"
+ },
+ "capsules": [
+  {
+   "requirement_id": "WAVE4-G1-LEGACY",
+   "edge": "WAVE4/EVO004 required edge",
+   "source_locator": "evidence/review/SQS_WAVE4_LEGACY_ADMISSION_PROFILE.json",
+   "verdict": "PASS",
+   "candidate": "SQS c29ef1b759af + HGK 0654348695c1",
+   "raw": {
+    "path": "evidence/review/SQS_WAVE4_LEGACY_ADMISSION_PROFILE.json",
+    "bytes": 74998,
+    "sha256": "3969fba473c8ec929d84a9196c445ad0c6b18684e2b8af7bb49aeefdfa3fd646",
+    "key_result": "legacy 602,069 files profiled; Stock List 263 crosswalk"
+   },
+   "checker": {
+    "name": "EVO004-INDEPENDENT-AGGREGATOR",
+    "result": "PASS"
+   },
+   "trace_id": "EVO004-WAVE4-G1-LEGACY"
+  },
+  {
+   "requirement_id": "WAVE4-G2-DISPOSITION",
+   "edge": "WAVE4/EVO004 required edge",
+   "source_locator": "evidence/review/SQS_WAVE4_LEGACY_DISPOSITION.json",
+   "verdict": "PASS",
+   "candidate": "SQS c29ef1b759af + HGK 0654348695c1",
+   "raw": {
+    "path": "evidence/review/SQS_WAVE4_LEGACY_DISPOSITION.json",
+    "bytes": 52743,
+    "sha256": "6f6403676365313998deac67f6c1450fe2aecdbc77430a282d3091d37ef899e7",
+    "key_result": "quarantine-first; no successor DSV; DSV-r1 immutable"
+   },
+   "checker": {
+    "name": "EVO004-INDEPENDENT-AGGREGATOR",
+    "result": "PASS"
+   },
+   "trace_id": "EVO004-WAVE4-G2-DISPOSITION"
+  },
+  {
+   "requirement_id": "WAVE4-G3-MODELRISK",
+   "edge": "WAVE4/EVO004 required edge",
+   "source_locator": "evidence/review/SQS_WAVE4_G3_MODEL_RISK_LEDGER.json",
+   "verdict": "PASS",
+   "candidate": "SQS c29ef1b759af + HGK 0654348695c1",
+   "raw": {
+    "path": "evidence/review/SQS_WAVE4_G3_MODEL_RISK_LEDGER.json",
+    "bytes": 2044,
+    "sha256": "2dee3a6b3707dcba3a6af1c4d7cfc9b4c59e9be657b1bba43efbc5429dd44eb2",
+    "key_result": "walk_forward PASS; embargo/slippage/TCA source-N/A"
+   },
+   "checker": {
+    "name": "EVO004-INDEPENDENT-AGGREGATOR",
+    "result": "PASS"
+   },
+   "trace_id": "EVO004-WAVE4-G3-MODELRISK"
+  },
+  {
+   "requirement_id": "WAVE4-G4-COMPLETION",
+   "edge": "WAVE4/EVO004 required edge",
+   "source_locator": "evidence/review/SQS_WAVE4_G4_COMPLETION_TRUTH.json",
+   "verdict": "PASS",
+   "candidate": "SQS c29ef1b759af + HGK 0654348695c1",
+   "raw": {
+    "path": "evidence/review/SQS_WAVE4_G4_COMPLETION_TRUTH.json",
+    "bytes": 1099,
+    "sha256": "9eca44fed330615b4d70c5e492d8d1451881c198be66a86305544ac022368d45",
+    "key_result": "EVO-003 6/6 resolved by G0"
+   },
+   "checker": {
+    "name": "EVO004-INDEPENDENT-AGGREGATOR",
+    "result": "PASS"
+   },
+   "trace_id": "EVO004-WAVE4-G4-COMPLETION"
+  },
+  {
+   "requirement_id": "WAVE4-G5-MULTIAGENT",
+   "edge": "WAVE4/EVO004 required edge",
+   "source_locator": "evidence/review/SQS_WAVE4_G5_MULTIAGENT.json",
+   "verdict": "PASS",
+   "candidate": "SQS c29ef1b759af + HGK 0654348695c1",
+   "raw": {
+    "path": "evidence/review/SQS_WAVE4_G5_MULTIAGENT.json",
+    "bytes": 2693,
+    "sha256": "2d9240387cddde069332a975e26f97f2a9acda76cc3bf486818801d05b6c441a",
+    "key_result": "Codex QUALIFIED; Hermes fan-out/join; 10 invariants 0"
+   },
+   "checker": {
+    "name": "EVO004-INDEPENDENT-AGGREGATOR",
+    "result": "PASS"
+   },
+   "trace_id": "EVO004-WAVE4-G5-MULTIAGENT"
+  },
+  {
+   "requirement_id": "WAVE4-G6-FINSPEC",
+   "edge": "WAVE4/EVO004 required edge",
+   "source_locator": "evidence/review/SQS_WAVE4_G6_FINANCIAL_SPEC.json",
+   "verdict": "PASS",
+   "candidate": "SQS c29ef1b759af + HGK 0654348695c1",
+   "raw": {
+    "path": "evidence/review/SQS_WAVE4_G6_FINANCIAL_SPEC.json",
+    "bytes": 4479,
+    "sha256": "9ae78d2a9f7312db19b7a198023680a7287b46ae151dc72e09cc5c84b1230b4f",
+    "key_result": "CFSES-FIN-01/02/03 PASS"
+   },
+   "checker": {
+    "name": "EVO004-INDEPENDENT-AGGREGATOR",
+    "result": "PASS"
+   },
+   "trace_id": "EVO004-WAVE4-G6-FINSPEC"
+  },
+  {
+   "requirement_id": "WAVE4-G7G8-RBWI",
+   "edge": "WAVE4/EVO004 required edge",
+   "source_locator": "evidence/review/SQS_WAVE4_G7G8_RECONCILIATION.json",
+   "verdict": "PASS",
+   "candidate": "SQS c29ef1b759af + HGK 0654348695c1",
+   "raw": {
+    "path": "evidence/review/SQS_WAVE4_G7G8_RECONCILIATION.json",
+    "bytes": 4455,
+    "sha256": "5b5904a5cec4e88b6bb66457495d5d8d79bd2d8eddb09b9f17ceafd63c273044",
+    "key_result": "RBWI composite PASS (market-time source-N/A)"
+   },
+   "checker": {
+    "name": "EVO004-INDEPENDENT-AGGREGATOR",
+    "result": "PASS"
+   },
+   "trace_id": "EVO004-WAVE4-G7G8-RBWI"
+  },
+  {
+   "requirement_id": "EVO004-G0-COMPILER",
+   "edge": "WAVE4/EVO004 required edge",
+   "source_locator": "HG-KSEOS/實作執行/construction-acceptance-prompt-compiler/construction-acceptance-prompt-compiler/scripts/evo004_contract.json",
+   "verdict": "PASS",
+   "candidate": "SQS c29ef1b759af + HGK 0654348695c1",
+   "raw": {
+    "path": "HG-KSEOS/實作執行/construction-acceptance-prompt-compiler/construction-acceptance-prompt-compiler/scripts/evo004_contract.json",
+    "bytes": 38689,
+    "sha256": "c75171c6e38c35b77b75a07373eb993a00645e27ba462dee8639b43e5a372304",
+    "key_result": "PROMPT_COMPILE_PASS c75171c6 + activation/acceptance clean"
+   },
+   "checker": {
+    "name": "EVO004-INDEPENDENT-AGGREGATOR",
+    "result": "PASS"
+   },
+   "trace_id": "EVO004-EVO004-G0-COMPILER"
+  },
+  {
+   "requirement_id": "EVO004-G4-G6-KNOWLEDGE",
+   "edge": "WAVE4/EVO004 required edge",
+   "source_locator": "evidence/review/SQS_WAVE4_G45G6_EVO004_KNOWLEDGE.json",
+   "verdict": "PASS",
+   "candidate": "SQS c29ef1b759af + HGK 0654348695c1",
+   "raw": {
+    "path": "evidence/review/SQS_WAVE4_G45G6_EVO004_KNOWLEDGE.json",
+    "bytes": 1190,
+    "sha256": "98a440afac494893d2d18bc8add737c09dcb35a021cc47135ec447442649f812",
+    "key_result": "namespace isolation + FTS5 runtime + P1 readiness"
+   },
+   "checker": {
+    "name": "EVO004-INDEPENDENT-AGGREGATOR",
+    "result": "PASS"
+   },
+   "trace_id": "EVO004-EVO004-G4-G6-KNOWLEDGE"
+  },
+  {
+   "requirement_id": "EVO004-G7-NRTV",
+   "edge": "WAVE4/EVO004 required edge",
+   "source_locator": "evidence/review/SQS_WAVE4_G7_KNOWLEDGE_NRTV.json",
+   "verdict": "PASS",
+   "candidate": "SQS c29ef1b759af + HGK 0654348695c1",
+   "raw": {
+    "path": "evidence/review/SQS_WAVE4_G7_KNOWLEDGE_NRTV.json",
+    "bytes": 1330,
+    "sha256": "3fc2efb70d4db750fbfdb22170abc2597a22b57402ee4f8b5a105250f5084a72",
+    "key_result": "INDEPENDENT_KNOWLEDGE_NRTV_PASS"
+   },
+   "checker": {
+    "name": "EVO004-INDEPENDENT-AGGREGATOR",
+    "result": "PASS"
+   },
+   "trace_id": "EVO004-EVO004-G7-NRTV"
+  }
+ ],
+ "reducer": {
+  "missing_capsules": 0,
+  "independent_receipt_missing": 0,
+  "candidate_binding_errors": 0,
+  "stale_evidence": 0,
+  "raw_path_only_claims": 0,
+  "verdict": "PASS"
+ },
+ "gcf": {
+  "old_candidate": {
+   "verdict": "TEMP_CLOSED",
+   "open_edges": [
+    "external_market=TEMP_CLOSED"
+   ],
+   "parts": {
+    "local_paper": "PASS",
+    "external_market": "TEMP_CLOSED",
+    "tool_coverage": "PASS",
+    "user_journey": "PASS",
+    "negative_degraded": "PASS",
+    "replay": "PASS"
+   }
+  },
+  "new_candidate": {
+   "verdict": "PASS",
+   "open_edges": [],
+   "parts": {
+    "local_paper": "PASS",
+    "external_market": "SOURCE_VALID_NOT_REQUIRED_FOR_LOCAL_DELIVERY",
+    "tool_coverage": "PASS",
+    "user_journey": "PASS",
+    "negative_degraded": "PASS",
+    "replay": "PASS"
+   }
+  }
+ },
+ "full_project_aggregation": {
+  "acceptances_open": [],
+  "acceptances_open_count": 0,
+  "acceptances_total": 1,
+  "denominator_available": true,
+  "guard_required_workorders_terminal": true,
+  "project_id": "HGK-REFERENCE-PROJECT-001",
+  "required_active_capabilities": [
+   "openspec",
+   "gstack.plan-eng-review",
+   "gstack.review",
+   "gstack.qa",
+   "gstack.cso",
+   "gstack.ship",
+   "gstack.office-hours",
+   "gstack.retro"
+  ],
+  "required_active_capabilities_open": [],
+  "required_active_capabilities_open_count": 0,
+  "required_active_capabilities_total": 8,
+  "required_local_scope_open": 0,
+  "requirements_frozen": 1,
+  "requirements_total": 1,
+  "state": "EXECUTING",
+  "taskspecs_total": 15,
+  "workorders_open": [],
+  "workorders_open_count": 0,
+  "workorders_total": 15
+ },
+ "verdict": "WAVE4_GCF_AND_EVIDENCE_CLOSURE_PASS"
+}

@@ -1,0 +1,25 @@
+{
+  "schema": "RBWI-PREOPEN-STEP/1",
+  "step_id": "W-05",
+  "title": "建立週候選池",
+  "run_id": "RUN-RBWI-FULLRUN-20260820-001",
+  "candidate_id": "CAND-RBWI-20260814",
+  "segment_binding_id": "BIND-RBWI-Q1-20260820-001",
+  "trading_date": "2026-08-14",
+  "week": "2026-W33",
+  "generated_at": "2026-08-20T21:10+08:00",
+  "owner": "ROLE-CANDIDATE-OWNER",
+  "checker": "ROLE-CONTEXT-CHECKER",
+  "veto": "ROLE-CLAIM-VETO",
+  "purpose": "Weekly 建立週候選池 (開盤前 freeze)",
+  "action": "逐標的 Gate-04, tier 分類, 空池合法",
+  "inputs": {
+    "weekly_universe": 258,
+    "capacity_policy": "MIN_CLOSE=5/MIN_VOL20=5e5"
+  },
+  "outputs": "CandidatePool(WEEKLY)",
+  "state_machine": "DRAFT->CHECKED->ACKED->ACTIVE",
+  "consumer_ack": true,
+  "reason_code": "W_COMPLETE",
+  "security_surface": "read-only data; no broker write"
+}

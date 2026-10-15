@@ -1,0 +1,57 @@
+{
+  "schema": "SQS-THC-CHECKPOINT-CSB/1",
+  "reference_project_id": "HGK-REFERENCE-PROJECT-001",
+  "captured_at_utc": "2026-08-10T16:05:00Z",
+  "status": "PARTIAL / RESUMABLE",
+  "project_level_local_delivery_pass": "FORBIDDEN (open required items)",
+  "current_route": "CS-B",
+  "barrier_a": "PASS (receipt 7bca9a1, 8/8 conditions)",
+  "hgk_baseline": {
+    "head": "e2bd3118cab32817d643e8b4461253764081e676",
+    "current_changeset": "HGK-CS-A-APL-FULL-PROJECT-GATE-REPAIR-001",
+    "package_sha256": "69162fcb66aab6ed23dbd7e15bd861f41c117748c15d43e2568a8f415e21fdd1",
+    "acceptance": "161/161 HG-KSEOS_LOCAL_DELIVERY_PASS - EXTERNAL FINAL ACCEPTED",
+    "final_suite": "238/238 OK"
+  },
+  "cs_b_completed": {
+    "step6_rebind": "PASS (project EXECUTING, compensating event for Wave-1 wrong DELIVERED)",
+    "step7_denominator": "PASS (lifecycle.denominator; 15 taskspecs / 6 workorders verified / 9 open)",
+    "step8_canonical_root": "PASS (48 dirs per P0-CIP 16, 5 kernels migrated src/kernel/*, 37/37 contract tests, ROOT_MATERIALIZATION_GATE ALL_PASS)",
+    "step9_spartoi": "PASS (inventory 1,798 files/37MB, 13 SP-TS authority docs hashed, 10 capabilities crosswalk FIT-GAP)",
+    "step10_wave2_first": "WO-TS-REF-01 DELIVERED (53/53 tests, INDEPENDENT_CASE_PASS, commit 5b8d269, Kanban t_c823464d done)"
+  },
+  "multi_agent_runtime_obligation": {
+    "kanban_coordination": "fresh CS-B evidence (board sqs-thc-ref-001, WO-TS-REF-01 card created/assigned/claimed/completed)",
+    "gstack_router_invocation": "fresh CS-B evidence (route(plan)->gstack.plan-eng-review CERTIFIED; advisory NOT_READY 2 findings; final_authority=false)",
+    "wave1_receipts_reused": false
+  },
+  "open_required_items": {
+    "workorders_open": 9,
+    "workorders_open_ids": ["WO-TS-REF-02..06 SEALED_ACCEPTED_REUSE(5)", "WO-TS-REF-01 VERIFIED(1)", "open: WO-TS-REF-07..15 + WO-TS-REF-01..06 remainder"],
+    "acceptances_open": ["ACC-REF-001"],
+    "required_active_capabilities_open": 8,
+    "required_active_capabilities_open_ids": ["openspec", "gstack.plan-eng-review", "gstack.review", "gstack.qa", "gstack.cso", "gstack.ship", "gstack.office-hours", "gstack.retro"],
+    "xq_xs": "NOT_STARTED (applicability assessment pending)",
+    "tw_ict_rbwi_runtime_acceptance": "NOT_RUN",
+    "root_layout_requirements": 0,
+    "engineering_base_integration_open": "spartoi capability extraction WOs pending (10 capabilities, REUSE/ADAPTER-first)",
+    "full_regression": "NOT_RUN (partial: 37/37 canonical + 53/53 TS-01)"
+  },
+  "resume": {
+    "resume_gate": "G3-WAVE2",
+    "last_pass": "CS-B Step 10 first WorkOrder (WO-TS-REF-01 INDEPENDENT_CASE_PASS)",
+    "next_route": "CS-B wave2 (owner-backed WorkOrders from P0-CIP 17 TS-002..TS-015)",
+    "next_workorders": ["WO-TS-REF-02(FSDT kernel contracts)", "WO-TS-REF-03(time/data/microstructure)", "WO-TS-REF-04(Knowledge/RAG/AgentOS)", "WO-TS-REF-05(requirement/prompt/host/harness)", "WO-TS-REF-06(tool lifecycle)", "WO-TS-REF-07..15(domain packs)"],
+    "blocked_edge": "NONE (no HITL required so far; XQ/XS may need credential HITL when reached)"
+  },
+  "evidence": {
+    "single_md_current": "C:\\Projects\\Agent_Workspace\\SQS-THC\\evidence\\review\\SQS-THC_REFERENCE_PROJECT_001_FINAL_EVIDENCE_FOR_REVIEW.md (NOT_YET_MATERIALIZED - pending CS-B completion)",
+    "csb_receipts": [
+      "實作執行/SQS_ROOT_LAYOUT_CROSSWALK.json",
+      "實作執行/SQS_SPARTOI_INTEGRATION_CROSSWALK.json",
+      "evidence/review/GSTACK_CSB_WAVE2_PLAN_REVIEW_REPORT.md",
+      "evidence/review/SQS_CSB_GSTACK_EVIDENCE.json",
+      "evidence/review/SQS_CSB_WO_TS01_INDEPENDENT_READBACK.json"
+    ]
+  }
+}

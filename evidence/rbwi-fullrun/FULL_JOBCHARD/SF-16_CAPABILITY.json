@@ -1,0 +1,27 @@
+{
+  "schema": "RBWI-SF-16-RECEIPT/1",
+  "sf": "SF-16",
+  "run_id": "RUN-RBWI-FULLRUN-20260820-001",
+  "candidate_id": "CAND-RBWI-20260814",
+  "outputs": {
+    "CapabilityAdmission": {
+      "hgk": "PASS",
+      "hermes": "PASS",
+      "duckdb": "PASS",
+      "polars": "PASS",
+      "fda_xq": "NOT_ENGAGED_SIM (needs ACTIVE route + HITL for real desktop)",
+      "codex_writer": "BOUND_ON_REPAIR",
+      "broker": "DENY"
+    },
+    "preflight": "PASS (except FDA/XQ realtime which is SIM-deferred)"
+  },
+  "sim_clock": {
+    "mode": "SIM_FASTEST_ACCEL",
+    "trade_date": "2026-08-20",
+    "dataset": "DSV-DAILY-2026-08-21-r1",
+    "note": "full-automatic sim per user decision 2026-08-21; intraday measured = qualification-proxy; no FDA/XQ realtime"
+  },
+  "financial_boundary": "LOCAL_PAPER_SIMULATION_ONLY",
+  "broker_write": false,
+  "filled": 0
+}

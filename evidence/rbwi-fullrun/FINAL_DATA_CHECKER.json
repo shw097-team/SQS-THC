@@ -1,0 +1,9 @@
+{
+  "schema": "RBWI-FINAL-DATA-CHECKER/1",
+  "pit_violations_known_at_le_asof": 0,
+  "pit_struct_known_at_ne_asof_plus1": 0,
+  "pass": true,
+  "dataset": "DSV-DAILY-2026-08-21-r1",
+  "rows_8_20": 163,
+  "symbols_8_20": 163
+}

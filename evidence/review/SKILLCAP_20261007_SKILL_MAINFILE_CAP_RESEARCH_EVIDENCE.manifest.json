@@ -1,0 +1,90 @@
+{
+  "schema": "SKILLCAP-EVIDENCE-MANIFEST/1",
+  "workorder": "WO-SKILLCAP-20261007-001",
+  "requirement": "REQ-SKILLCAP-20261007-001",
+  "as_of_utc": "2026-10-07T02:30:00Z",
+  "subject": {
+    "path": "skills/software-development/hgk-governed-execution/SKILL.md",
+    "sha256": "174df0185026de09c673b92d1df5b8f01dcb35cf0cf7facbbdf095b368fdf9e4",
+    "governed_chars": 99996,
+    "cap": 100000,
+    "headroom": 4
+  },
+  "document": {
+    "path": "06_evidence.md",
+    "sha256": "a3bf322d999c164e119d2b5ded5baf3ad453779bfe1aa9db31186de942e8cbf1"
+  },
+  "artifacts": [
+    {
+      "path": "00_admission.json",
+      "bytes": 450,
+      "sha256": "9770edef34c22639670e6b48f64026871ef9448bfa16f816bb8c84dd99f213c6"
+    },
+    {
+      "path": "02_route_check.json",
+      "bytes": 4447,
+      "sha256": "1cc7a4767c645fe6efa33b1486024e2a602b778920567440774a37029508795f"
+    },
+    {
+      "path": "03_structural_forensics.json",
+      "bytes": 12937,
+      "sha256": "650a0d128aec44de3248acfe7a1967514e36f0cb002e10b66acefd765a43c1ca"
+    },
+    {
+      "path": "04_reconciled_forensics.json",
+      "bytes": 6130,
+      "sha256": "3926bf2ae84bb3fe5e8cf02d7c9cb33c33cad93549ce3301542766cf7b645559"
+    },
+    {
+      "path": "05_recommendation.md",
+      "bytes": 9918,
+      "sha256": "ce5a9ce82cf689a80823543a72a3a900dcacc9f6020f77b3e8edad2d05f848a5"
+    },
+    {
+      "path": "06_evidence.md",
+      "bytes": 3613,
+      "sha256": "a3bf322d999c164e119d2b5ded5baf3ad453779bfe1aa9db31186de942e8cbf1"
+    },
+    {
+      "path": "admit_01.py",
+      "bytes": 3120,
+      "sha256": "f4d0a515fef9682c7237b47618c0993e301fdb41260bc31701bf81f685c6307c"
+    },
+    {
+      "path": "cap_semantics_03b.py",
+      "bytes": 1595,
+      "sha256": "10e8324eb37cb9be411768506c23b62ef50f21995e6c6ffbaaf9757445972611"
+    },
+    {
+      "path": "forensics_03.py",
+      "bytes": 2763,
+      "sha256": "77632756304a164fa913a65ba168548b85f4d3e722a762177cb71df1dc9959c2"
+    },
+    {
+      "path": "reconcile_04.py",
+      "bytes": 6083,
+      "sha256": "3d2270255b48d824351956fcacb1f104886dd599f125585760848d51f2819bb3"
+    },
+    {
+      "path": "route_02.py",
+      "bytes": 1985,
+      "sha256": "cd37199dc189772761ceefe176fe372652bdc9b6a65f1fff511ef85161f840c7"
+    },
+    {
+      "path": "route_02b.py",
+      "bytes": 967,
+      "sha256": "bc9b1101ad82785196b34fa233827ffab72d6a7184447d77c772a0f3a275c17e"
+    }
+  ],
+  "artifact_count": 12,
+  "excluded_by_construction": [
+    "07_manifest.json",
+    "install_08.py"
+  ],
+  "post_build_writes": [
+    "07_manifest.json",
+    "install_08.py",
+    "mirror copies under the three review roots"
+  ],
+  "mirrors": []
+}

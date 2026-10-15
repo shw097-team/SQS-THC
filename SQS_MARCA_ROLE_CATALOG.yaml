@@ -1,0 +1,55 @@
+schema: SQS-MARCA-ROLE-CATALOG/1
+persistent_profile_count: 3
+role_is_profile: false
+maker_final_checker_same_candidate: forbidden
+roles:
+  ORCHESTRATION:
+    - operational_coordinator
+    - rbwi_jobcard_router
+    - research_workorder_compiler
+    - topology_admission
+    - join_replay_coordinator
+    - incident_coordinator
+  DATA_ANALYSIS:
+    - pit_five_clocks_analyst
+    - market_microstructure_analyst
+    - regime_context_analyst
+    - industry_fundamental_event_flow_analyst
+    - universe_candidate_analyst
+    - scenario_hypothesis_analyst
+    - ict_smc_method_analyst
+    - quant_feature_researcher
+    - model_ml_llm_altdata_researcher
+    - backtest_robustness_analyst
+    - counter_evidence_researcher
+    - cost_liquidity_capacity_analyst
+    - portfolio_optimizer
+    - tca_analyst
+    - evidence_synthesizer
+    - reconciliation_read_only_operator
+  MARCA:
+    - marca_maker
+    - marca_checker
+    - marca_rework
+  RISK:
+    - survival_analyst
+    - ruin_sizing_analyst
+    - capacity_stress_analyst
+    - risk_veto
+    - kill_recovery_risk_checker
+  TRANSIENT_INCIDENT:
+    - incident_commander
+    - sre_operator
+    - security_operator
+    - reconciliation_operator
+  EXTERNAL_TO_SQS_TEAM:
+    - fabric_acceptance_officer
+    - construction_commander
+    - human_financial_authority
+role_host_map:
+  ORCHESTRATION: sqs-orchestrator
+  DATA_ANALYSIS: sqs-data-analysis
+  MARCA: sqs-data-analysis (checker separated per independence predicate)
+  RISK: sqs-risk
+  TRANSIENT_INCIDENT: sqs-orchestrator + task-selected workers
+  EXTERNAL_TO_SQS_TEAM: acceptance-officer / commander / human

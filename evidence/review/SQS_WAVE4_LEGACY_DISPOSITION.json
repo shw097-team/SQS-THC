@@ -1,0 +1,1888 @@
+{
+ "schema": "SQS-WAVE4-G2-LEGACY-DISPOSITION/1",
+ "captured_at_utc": "2026-08-11T04:21:35.454238+00:00",
+ "rights_adjudication": {
+  "status": "RESTRICTED_RESEARCH_NO_LICENSE_FILE",
+  "decision": "NOT_ADMITTED_TO_ACCEPTED_DSV",
+  "rule": "G1: no rights/provenance -> no accepted DatasetVersion write",
+  "source": "legacy corpus (FinMind-derived + Taiwan STOCK dumps, research-only)"
+ },
+ "dispositions": {
+  "finmind_kbar_1m": "PARITY_ONLY",
+  "finmind_daily": "PARITY_ONLY",
+  "taiwan_stock_daily": "PARITY_ONLY",
+  "finmind_index_5s": "SOURCE_VALID_NOT_APPLICABLE",
+  "finmind_index_kbar": "SOURCE_VALID_NOT_APPLICABLE",
+  "finmind_obt_5s": "SOURCE_VALID_NOT_APPLICABLE",
+  "finmind_tse_5s": "SOURCE_VALID_NOT_APPLICABLE"
+ },
+ "kbar_coverage": {
+  "symbols_full_history": 263,
+  "symbols_thin_or_partial": 16,
+  "thin_examples": {
+   "1103": 1,
+   "2207": 10,
+   "2317": 10,
+   "2330": 9,
+   "2382": 10,
+   "2408": 10,
+   "2412": 10,
+   "2454": 10,
+   "2881": 10,
+   "2882": 10
+  }
+ },
+ "stock_list_crosswalk": {
+  "count": 263,
+  "entries": [
+   {
+    "legacy_symbol": "1101",
+    "in_shioaji_universe": true,
+    "in_sqs_backtest_db": true,
+    "current_state": "SQS_UNIVERSE",
+    "disposition": "SEED_CANDIDATE"
+   },
+   {
+    "legacy_symbol": "1102",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "1104",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "1203",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "1218",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "1225",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "1227",
+    "in_shioaji_universe": true,
+    "in_sqs_backtest_db": true,
+    "current_state": "SQS_UNIVERSE",
+    "disposition": "SEED_CANDIDATE"
+   },
+   {
+    "legacy_symbol": "1229",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "1233",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "1234",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "1236",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "1301",
+    "in_shioaji_universe": true,
+    "in_sqs_backtest_db": true,
+    "current_state": "SQS_UNIVERSE",
+    "disposition": "SEED_CANDIDATE"
+   },
+   {
+    "legacy_symbol": "1303",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "1307",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "1321",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "1325",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "1326",
+    "in_shioaji_universe": true,
+    "in_sqs_backtest_db": true,
+    "current_state": "SQS_UNIVERSE",
+    "disposition": "SEED_CANDIDATE"
+   },
+   {
+    "legacy_symbol": "1402",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "1410",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "1418",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "1423",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "1437",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "1438",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "1439",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "1443",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "1446",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "1470",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "1473",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "1475",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "1504",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "1515",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "1521",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "1522",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "1524",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "1527",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "1529",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "1530",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "1532",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "1533",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "1539",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "1540",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "1541",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "1603",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "1604",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "1605",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "1608",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "1609",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "1612",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "1614",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "1616",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "1618",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "1702",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "1708",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "1712",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "1717",
+    "in_shioaji_universe": true,
+    "in_sqs_backtest_db": true,
+    "current_state": "SQS_UNIVERSE",
+    "disposition": "SEED_CANDIDATE"
+   },
+   {
+    "legacy_symbol": "1725",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "1727",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "1731",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "1732",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "1733",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "1734",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "1737",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "1752",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "1762",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "1808",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "1817",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "1907",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "2008",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "2009",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "2013",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "2020",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "2027",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "2029",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "2031",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "2034",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "2101",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "2102",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "2105",
+    "in_shioaji_universe": true,
+    "in_sqs_backtest_db": true,
+    "current_state": "SQS_UNIVERSE",
+    "disposition": "SEED_CANDIDATE"
+   },
+   {
+    "legacy_symbol": "2106",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "2107",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "2108",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "2115",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "2201",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "2239",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "2241",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "2303",
+    "in_shioaji_universe": true,
+    "in_sqs_backtest_db": true,
+    "current_state": "SQS_UNIVERSE",
+    "disposition": "SEED_CANDIDATE"
+   },
+   {
+    "legacy_symbol": "2312",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "2324",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "2328",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "2329",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "2337",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "2338",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "2340",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "2342",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "2344",
+    "in_shioaji_universe": true,
+    "in_sqs_backtest_db": true,
+    "current_state": "SQS_UNIVERSE",
+    "disposition": "SEED_CANDIDATE"
+   },
+   {
+    "legacy_symbol": "2352",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "2353",
+    "in_shioaji_universe": true,
+    "in_sqs_backtest_db": true,
+    "current_state": "SQS_UNIVERSE",
+    "disposition": "SEED_CANDIDATE"
+   },
+   {
+    "legacy_symbol": "2355",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "2356",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "2362",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "2363",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "2365",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "2367",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "2371",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "2387",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "2402",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "2414",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "2415",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "2417",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "2419",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "2423",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "2425",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "2427",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "2430",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "2434",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "2442",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "2450",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "2457",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "2462",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "2477",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "2478",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "2484",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "2488",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "2495",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "2497",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "2498",
+    "in_shioaji_universe": true,
+    "in_sqs_backtest_db": true,
+    "current_state": "SQS_UNIVERSE",
+    "disposition": "SEED_CANDIDATE"
+   },
+   {
+    "legacy_symbol": "2504",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "2505",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "2524",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "2527",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "2528",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "2530",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "2534",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "2536",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "2542",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "2545",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "2605",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "2607",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "2608",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "2610",
+    "in_shioaji_universe": true,
+    "in_sqs_backtest_db": true,
+    "current_state": "SQS_UNIVERSE",
+    "disposition": "SEED_CANDIDATE"
+   },
+   {
+    "legacy_symbol": "2611",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "2612",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "2613",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "2617",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "2618",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "2630",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "2633",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "2634",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "2642",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "2646",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "2704",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "2722",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "2739",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "2748",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "2812",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "2816",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "2832",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "2851",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "2852",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "2855",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "2880",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "2884",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "2885",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "2886",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "4906",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "4916",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "4927",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "4930",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "4935",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "4942",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "4952",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "4956",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "4976",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "4999",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "5215",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "5244",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "5285",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "5471",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "5515",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "5519",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "5525",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "5538",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "5546",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "5607",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "5876",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "5880",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "5906",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "6005",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "6024",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "6128",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "6136",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "6155",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "6177",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "6202",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "6205",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "6209",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "6216",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "6224",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "6243",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "6282",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "6283",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "6405",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "6456",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "6477",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "6505",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "6552",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "6582",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "6606",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "6641",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "6666",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "6668",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "6671",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "6674",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "6695",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "6698",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "6743",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "6790",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "6834",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "6835",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "6838",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "6861",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "6885",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "6901",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "6916",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "6928",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "6952",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "6958",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "8011",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "8021",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "8039",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "8070",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "8072",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "8103",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "8104",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "8112",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "8131",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "8150",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "8163",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "8213",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "8215",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "8367",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "8404",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "8438",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "8463",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "8466",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "8473",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "8476",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "8481",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "8926",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "8940",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "9904",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "9905",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "9908",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "9918",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "9924",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "9925",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "9931",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "9933",
+    "in_shioaji_universe": true,
+    "in_sqs_backtest_db": true,
+    "current_state": "SQS_UNIVERSE",
+    "disposition": "SEED_CANDIDATE"
+   },
+   {
+    "legacy_symbol": "9935",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "9940",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "9945",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "9946",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   },
+   {
+    "legacy_symbol": "9955",
+    "in_shioaji_universe": false,
+    "in_sqs_backtest_db": false,
+    "current_state": "LEGACY_ONLY",
+    "disposition": "LEGACY_SEED_NOT_ADMITTED"
+   }
+  ],
+  "in_shioaji_universe": 12,
+  "in_sqs_backtest_db": 12
+ },
+ "successor_dsv": {
+  "created": false,
+  "parent": "DSV-2026-08-11-r1 (immutable, unchanged)",
+  "reason": "no qualified legacy data admitted (rights-constrained)"
+ }
+}

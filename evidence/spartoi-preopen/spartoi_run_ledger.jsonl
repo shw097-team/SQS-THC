@@ -1,0 +1,2 @@
+{"ts": "2026-08-21T16:25+08:00", "event": "SPARTOI_FULL_INTRADAY_SIM_FASTACCEL", "candidate": "CAND-SPARTOI-820SIMS-20260821", "sim_date": "2026-08-20", "segments": ["SF-04..12"], "fills": 0, "broker_write": false, "intraday": "qualification-proxy", "hitl": "NOT_MINTED_SIM"}
+{"ts": "2026-08-21T16:25+08:00", "event": "SPARTOI_FULL_INTRADAY_SIM_FASTACCEL", "candidate": "CAND-SPARTOI-820SIMS-20260821", "sim_date": "2026-08-20", "segments": ["SF-04..12"], "fills": 0, "broker_write": false, "intraday": "qualification-proxy", "hitl": "NOT_MINTED_SIM"}

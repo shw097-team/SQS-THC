@@ -1,0 +1,29 @@
+{
+  "schema": "RBWI-SF-12-RECEIPT/1",
+  "sf": "SF-12",
+  "run_id": "RUN-RBWI-FULLRUN-20260820-001",
+  "candidate_id": "CAND-RBWI-20260814",
+  "outputs": {
+    "ReconciliationResult_OR_Break": {
+      "break": 0,
+      "reason": "0 SIM fills -> nothing to reconcile"
+    },
+    "PositionCashKnownState": {
+      "position": "FLAT",
+      "cash_delta": 0
+    },
+    "OvernightDecision_OR_FLAT": {
+      "decision": "FLAT_PENDING_HITL",
+      "note": "no SIM position carried"
+    }
+  },
+  "sim_clock": {
+    "mode": "SIM_FASTEST_ACCEL",
+    "trade_date": "2026-08-20",
+    "dataset": "DSV-DAILY-2026-08-21-r1",
+    "note": "full-automatic sim per user decision 2026-08-21; intraday measured = qualification-proxy; no FDA/XQ realtime"
+  },
+  "financial_boundary": "LOCAL_PAPER_SIMULATION_ONLY",
+  "broker_write": false,
+  "filled": 0
+}

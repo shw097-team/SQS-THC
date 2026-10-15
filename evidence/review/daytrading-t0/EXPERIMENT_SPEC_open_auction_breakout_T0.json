@@ -1,0 +1,22 @@
+{
+  "schema": "EXPERIMENT-SPEC/1",
+  "experiment_id": "EXP-RBWI-OPENAUCTIONBREAKOUT-T0-20260821",
+  "axis": "DAYTRADING_T0_INTRADAY",
+  "candidate": "Open-Auction Breakout (開盤競價突破)",
+  "hypothesis": "開盤首15分鐘突破前15分鐘 high 為強勢訊號, 當日盤中做多, 尾盤 13:25 前平倉 (T0, 不留隔夜)",
+  "data": "minute_bars (49 symbols, 2025-08-11..2026-08-10, 09:00-13:30)",
+  "intraday_flow": [
+    "09:00-09:15 建立 OpeningRange high/low 錨點",
+    "09:15 後 minute close 突破 high -> 做多(next min open fill)",
+    "停損 跌破 OpeningRange low 或 2R",
+    "13:20 時間退出 / 13:25 FORCED_FLATTEN"
+  ],
+  "cost_model": {
+    "fee_bps": 14.25,
+    "tax_bps": 30.0,
+    "slippage_bps": 5.0,
+    "round_trip_bps": 68.5
+  },
+  "acceptance": "先證 gross>0; cost-adjusted net>0 才 preliminary; 需 independent validation+Paper/Shadow 才升級",
+  "nonclaim": "LOCAL/RESEARCH intraday backtest; not live; T0 當沖非隔夜"
+}

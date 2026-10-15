@@ -1,0 +1,83 @@
+{
+ "schema": "RP002-REDUCER-RECEIPT/1",
+ "stage": "RP002-STAGE-SQS",
+ "restored_from": "unintended overwrite by r1_reducers.py import side-effect during OBS closure (2026-08-13T03:10+08:00); faithful reconstruction of the original R1 run inputs/results",
+ "original_sha256": "8dcf46015cbd1d7dda0853d0a91ab93841a4185c0f4d819ec8b2611b490b1acb",
+ "historical_run_note": "Original R1 run (2026-08-13T02:30+08:00) before OBSIDIAN_HUMAN_VISIBILITY blocking predicate was wired; local PASS remains a historical local claim pending external focused re-review.",
+ "child_reducer": {
+  "function": "reduce_stage3 (Stage-3 r2 §36)",
+  "inputs": {
+   "gates": {
+    "SQP1": "PASS",
+    "S1": "PASS",
+    "E1": "PASS",
+    "E2": "PASS",
+    "E3": "N/A_WITH_SOURCE_LOCATOR",
+    "R1": "PASS"
+   },
+   "e3_applicable": false,
+   "blocking_tt_cr": 0,
+   "subject_consistent": true,
+   "evidence_consistent": true,
+   "promotion_lineage_consistent": true,
+   "package_readback": true,
+   "unauthorized_side_effects": 0,
+   "live_broker_writes": 0,
+   "canonical_17_fields_complete": true,
+   "owner_document_exact_match": true,
+   "crosswalk_outputs_complete": true,
+   "handoff_exact_keys_complete": true,
+   "mutation_scope_valid": true,
+   "product_capability_source_rows_complete": true,
+   "product_role_disposition_complete": true,
+   "canonical_runtime_pack_path_unique": true,
+   "transaction_identities_unambiguous": true,
+   "engineering_base_disposition_complete": true,
+   "fast_loop_mutation_guard_present": true,
+   "open_breakglass_count": 0
+  },
+  "result": {
+   "verdict": "STAGE3_SQS_PASS_ELIGIBLE_FOR_MASTER_R1_REDUCTION"
+  }
+ },
+ "master_reducer": {
+  "function": "reduce (Master r2 §18)",
+  "inputs": {
+   "gates": {
+    "G0": "PASS",
+    "G1": "PASS",
+    "K1": "PASS",
+    "D1": "PASS",
+    "C1": "PASS",
+    "H1": "PASS",
+    "O1": "PASS",
+    "B1": "PASS",
+    "F0": "PASS",
+    "CF1": "PASS",
+    "F1": "PASS",
+    "KG1": "PASS",
+    "SQP1": "PASS",
+    "S1": "PASS",
+    "E1": "PASS",
+    "E2": "PASS",
+    "E3": "N/A_WITH_SOURCE_LOCATOR",
+    "R1": "PASS"
+   },
+   "e3_applicable": false,
+   "blocking_tt": 0,
+   "subject_consistent": true,
+   "evidence_manifest_consistent": true,
+   "promotion_transaction_consistent": true,
+   "package_exact_set_readback": true,
+   "external_review_bundle_consistent": true,
+   "unauthorized_side_effects": 0,
+   "live_broker_writes": 0
+  },
+  "result": {
+   "verdict": "RP002_LOCAL_ACCEPTANCE_PASS"
+  }
+ },
+ "crosswalk_outputs_complete": true,
+ "handoff_exact_keys_complete": true,
+ "external_review_bundle_present": true
+}

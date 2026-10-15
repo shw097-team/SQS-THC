@@ -1,0 +1,18 @@
+{
+  "schema": "RBWI-SELF-REPAIR-RECEIPT/1",
+  "repair_id": "RBWI-MIRROR-GAP-2026-08-21-001",
+  "detected_at": "2026-08-21T15:15+08:00",
+  "detected_by": "Hermes orchestrator fresh-source mirror scan",
+  "defect": "Cross-session mirror gap: 57 artifacts (42 sim receipts + 9 checkpoints + AO/Codex/FINAL checkers + USER_DECISION + SWARM/ROUTE receipts) present in primary home SQS-THC/evidence/rbwi-fullrun yet never mirrored to 3 roots; RBWI_RUN_LEDGER.jsonl diffs on all roots (stale).",
+  "prior_claim": "asserted 'mirror 3-root byte-identical' in morning session",
+  "root_cause": "morning run mirrored an earlier snapshot; later artifacts appended to primary home without re-mirror",
+  "fix": "re-mirrored all 112 primary artifacts to HG-KSEOS + SQS-THC + Fabric evidence/review/rbwi-fullrun (byte-identical, copy2)",
+  "post_verify": {
+    "identical": 112,
+    "missing": 0,
+    "diff": 0,
+    "per_root": 3
+  },
+  "status": "CLOSED",
+  "workorder": "WO-RBWI-FULLRUN-001"
+}

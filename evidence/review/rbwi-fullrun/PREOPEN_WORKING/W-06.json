@@ -1,0 +1,25 @@
+{
+  "schema": "RBWI-PREOPEN-STEP/1",
+  "step_id": "W-06",
+  "title": "建立 MTF 與 Bias",
+  "run_id": "RUN-RBWI-FULLRUN-20260820-001",
+  "candidate_id": "CAND-RBWI-20260814",
+  "segment_binding_id": "BIND-RBWI-Q1-20260820-001",
+  "trading_date": "2026-08-14",
+  "week": "2026-W33",
+  "generated_at": "2026-08-20T21:10+08:00",
+  "owner": "ROLE-BIAS-OWNER",
+  "checker": "ROLE-CONTEXT-CHECKER",
+  "veto": "ROLE-CLAIM-VETO",
+  "purpose": "Weekly 建立 MTF 與 Bias (開盤前 freeze)",
+  "action": "週/日/盤中責任 + 可反駁 BiasHypotheses",
+  "inputs": {
+    "context": "W-02",
+    "candidate": "W-05"
+  },
+  "outputs": "BiasHypothesis[]",
+  "state_machine": "DRAFT->CHECKED->ACKED->ACTIVE",
+  "consumer_ack": true,
+  "reason_code": "W_COMPLETE",
+  "security_surface": "read-only data; no broker write"
+}

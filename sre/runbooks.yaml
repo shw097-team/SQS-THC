@@ -1,0 +1,19 @@
+# RUNBOOKS - sre/runbooks.yaml (TS-011 / ART-11, CH31 / MC-26).
+# Each runbook: id, slo_target (the SLO target it defends, equal to the SLO
+# that references it), runbook_ref (procedure anchor: Observe -> Bound ->
+# Contain -> Restore -> Reconcile). A runbook without a defending SLO or with
+# a mismatched target is rejected (fail-closed).
+spec_ref: TS-011/CH31
+runbooks:
+  - id: runbook-core-availability-incident
+    slo_target: 0.999
+    runbook_ref: TS-011/CH31#observe-bound-contain-restore-reconcile
+  - id: runbook-order-flow-latency-incident
+    slo_target: 0.99
+    runbook_ref: TS-011/CH31#observe-bound-contain-restore-reconcile
+  - id: runbook-reconciliation-incident
+    slo_target: 0.999
+    runbook_ref: TS-011/CH31#observe-bound-contain-restore-reconcile
+  - id: runbook-backup-restore-dr
+    slo_target: 0.995
+    runbook_ref: TS-011/CH31#observe-bound-contain-restore-reconcile

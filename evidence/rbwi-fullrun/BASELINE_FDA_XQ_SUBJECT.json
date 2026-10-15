@@ -1,0 +1,11 @@
+{
+  "schema": "BASELINE-FDA-XQ-SUBJECT/1",
+  "generated_at": "2026-08-20T20:38:37.698250+08:00",
+  "matrix_path": "C:\\Projects\\Agent_Workspace\\Fabric\\fabric-desktop-automation\\FDA_DESKTOP_CAPABILITY_MATRIX.yaml",
+  "matrix_exists": true,
+  "asset_registry": true,
+  "route_registry_status": "ACTIVE(ROUTE-SQS-XQ-GLOBALWINNER-001, expires 2026-12-31)",
+  "xq_process_running": false,
+  "xq_build_fingerprint": "XQ_NOT_RUNNING_AT_20260820_2023",
+  "note": "XQ/PAPER desktop actions are Q2-Q4 scope; require live market session + FDA route + HITL where policy requires"
+}

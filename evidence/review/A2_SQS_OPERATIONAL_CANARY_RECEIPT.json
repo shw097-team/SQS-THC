@@ -1,0 +1,104 @@
+{
+ "schema": "SQS-A2-OPERATIONAL-CANARY/1",
+ "captured_at_utc": "2026-08-12T05:49:23.151579+00:00",
+ "mode": "LOCAL/PAPER/NO-LIVE-WRITE",
+ "workorder_id": "WO-HGK-A2-DIAG-001",
+ "kanban_task_id": "t_7b198099",
+ "domain_path": "FinancialSpec(fsdt) -> Temporal/PIT -> Risk(limits+guards) -> Session/Harness -> Capability -> Receipt+Replay",
+ "results": [
+  {
+   "case": "fsdt_contract_valid",
+   "ok": true,
+   "detail": "CONTRACT_VALID"
+  },
+  {
+   "case": "fsdt_currency_negative",
+   "ok": true,
+   "detail": "ERR_CURRENCY_MISMATCH"
+  },
+  {
+   "case": "fsdt_normalize_pit_value",
+   "ok": true,
+   "detail": "value=1000000.0"
+  },
+  {
+   "case": "temporal_bind_clocks",
+   "ok": true,
+   "detail": "clocks bound"
+  },
+  {
+   "case": "temporal_quality_pass",
+   "ok": true,
+   "detail": "PIT quality pass"
+  },
+  {
+   "case": "risk_limits_present",
+   "ok": true,
+   "detail": "sha=3290b7784396"
+  },
+  {
+   "case": "risk_guards_present",
+   "ok": true,
+   "detail": "sha=a21f34b76176"
+  },
+  {
+   "case": "risk_limit_ids",
+   "ok": true,
+   "detail": "limit-gross-exposure,limit-net-exposure,limit-liquidity-usage,limit-stress-loss,limit-concentration"
+  },
+  {
+   "case": "risk_guard_ids",
+   "ok": true,
+   "detail": "guard-ruin-barrier,guard-unknown-exposure,guard-fragility-mandate,guard-blast-radius,guard-optionality"
+  },
+  {
+   "case": "risk_fail_closed_posture",
+   "ok": true,
+   "detail": "canonical suite encodes ERR_VETO_BYPASS fail-closed"
+  },
+  {
+   "case": "harness_loop_dispatch",
+   "ok": true,
+   "detail": "dispatch ok, iteration=0"
+  },
+  {
+   "case": "harness_handoff",
+   "ok": true,
+   "detail": "ACK"
+  },
+  {
+   "case": "capability_lifecycle",
+   "ok": true,
+   "detail": "QUALIFIED/ALLOWED"
+  },
+  {
+   "case": "no_broker_adapter",
+   "ok": true,
+   "detail": "no live XQ adapter present"
+  },
+  {
+   "case": "no_live_write_config",
+   "ok": true,
+   "detail": "handoff pack declares no_broker_write"
+  },
+  {
+   "case": "mode_local_paper",
+   "ok": true,
+   "detail": "maturity model includes paper mode"
+  },
+  {
+   "case": "deterministic_replay",
+   "ok": true,
+   "detail": "1000000.0 == 1000000.0"
+  }
+ ],
+ "pass_count": 17,
+ "fail_count": 0,
+ "verdict": "SQS_A2_OPERATIONAL_CANARY_PASS",
+ "negative_invariants": {
+  "live_broker_write": 0,
+  "production_effect": 0,
+  "remote_deploy": 0,
+  "network_used": 0
+ }
+}

@@ -1,0 +1,18 @@
+{
+ "schema": "SQS-CSB-WO-TS10-INDEPENDENT/1",
+ "changeset": "CS-B-SQS-TWICT-WAVE2-FULL-PROJECT-CLOSURE",
+ "workorder": "WO-TS-REF-10",
+ "checker": "INDEPENDENT_CHECKER (fresh read-only subprocess)",
+ "suite": {
+  "exit_code": 0,
+  "ran": "124",
+  "ok": true
+ },
+ "targets": [
+  "docs/DOC-10.md",
+  "adapters/xq-read-watch.yaml",
+  "schemas/execution-fact.schema.json",
+  "reducers/book-of-record.yaml"
+ ],
+ "verdict": "INDEPENDENT_CASE_PASS"
+}

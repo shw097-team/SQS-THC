@@ -1,0 +1,22 @@
+{
+  "finding": "EXT-F04",
+  "classification": "HASH_COMPLETENESS_GAP",
+  "status": "CLOSED",
+  "smallest_repair": "FULL_64HEX_FRESH_HASHES",
+  "focused_retest": {
+    "FINAL_PACKAGE_MANIFEST_SUPERSEDING.yaml": {
+      "sha256": "999983fd207d744b971612a3e587e81bb37ad3af75150ab44650198e32ad8353",
+      "bytes": 2167,
+      "path": "C:/Projects/Agent_Workspace/SQS-THC/evidence/rp002/stage3/gates/FINAL_PACKAGE_MANIFEST_SUPERSEDING.yaml"
+    },
+    "E1_E2_EVOLUTION_RECEIPTS_SUPERSEDING.yaml": {
+      "sha256": "b89edb2fbf98ffe1c508f2efcc6804353b7de7f0d8a33679c8e64d337d42cc5f",
+      "bytes": 1327,
+      "path": "C:/Projects/Agent_Workspace/SQS-THC/evidence/rp002/stage3/gates/E1_E2_EVOLUTION_RECEIPTS_SUPERSEDING.yaml"
+    }
+  },
+  "bound_into": [
+    "RP002_FABRIC_AUTONOMOUS_SELF_EVOLUTION_EXTERNAL_EVIDENCE_CLOSURE.md"
+  ],
+  "verdict": "CLOSED"
+}

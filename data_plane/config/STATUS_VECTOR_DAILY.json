@@ -1,0 +1,48 @@
+{
+  "status_vector_id": "status-vector-daily-ohlcv-2026-08-13",
+  "schema_version": "1.0.0",
+  "domain": "daily_ohlcv_data_layer",
+  "work_orders": ["WO-RP2-DAILY-001", "WO-RP2-DAILY-002", "WO-RP2-DAILY-003", "WO-RP2-DAILY-004"],
+  "external_acceptance": {
+    "report": "WO-RP2-DAILY-001_002_003_EXTERNAL_FINAL_ACCEPTANCE_REPORT_2026-08-13_r4.md",
+    "verdict": "PASS",
+    "final_acceptance": "GRANTED",
+    "accepted_claim": "DAILY_OHLCV_LOCAL_BACKTEST_DATA_LAYER_PASS",
+    "promotion_conditions": "7/7 PASS",
+    "blocking_findings": 0
+  },
+  "dataset": {
+    "current_version": "DSV-DAILY-2026-08-13-r2",
+    "symbols": 258,
+    "rows": 221349,
+    "market_scope": "TWSE_LISTED_COMMON_STOCK_ONLY",
+    "tpex_symbols": 0,
+    "provider": "TWSE_OFFICIAL",
+    "source_endpoint": "TWSE_STOCK_DAY",
+    "date_range": "2023-01-03..2026-08-13",
+    "corporate_action_state": "RAW_UNADJUSTED_ONLY_WITH_TYPED_BLOCK",
+    "pit": {"five_clocks": "QUALIFIED", "negative_canary": "PASS", "same_day_eod_lookahead": "BLOCKED"}
+  },
+  "update": {
+    "mechanism": "backfill_daily.update_incremental() + daily cron (daily_twse_update.py)",
+    "cadence": "DAILY 20:00 Asia/Taipei",
+    "dsv_versioning": "date-stamped new version per update with new rows (parent lineage in manifest)",
+    "no_change_behavior": "NO_CHANGE report, DSV untouched",
+    "verification": "check_daily 11/11 after every update; FAIL -> alert"
+  },
+  "claim_ceiling": {
+    "authorized": "DAILY_OHLCV_LOCAL_BACKTEST_DATA_LAYER_PASS",
+    "not_authorized": [
+      "STRATEGY_PROFITABILITY_PASS", "IS_OOS_PASS", "TCA_PASS", "PORTFOLIO_MODEL_PASS",
+      "PRODUCTION_AUTONOMY_PASS", "LIVE_TRADING_AUTHORIZATION", "BROKER_RUNTIME_QUALIFIED",
+      "REMOTE_DEPLOYMENT_PASS", "ADJUSTED_TOTAL_RETURN_SERIES_PASS", "TPEX_DATA_LAYER_PASS"
+    ],
+    "production_autonomy": "NOT_CLAIMED",
+    "sqs_live_trading": "NOT_AUTHORIZED",
+    "remote_deployment": "NOT_CLAIMED",
+    "broker_runtime_qualification": "NOT_RUN"
+  },
+  "related_status": {
+    "ts014_package_vector": "STATUS_VECTOR.json (TT-TS014-001 BLOCKING unchanged - package/runtime domain, out of daily-layer scope)"
+  }
+}

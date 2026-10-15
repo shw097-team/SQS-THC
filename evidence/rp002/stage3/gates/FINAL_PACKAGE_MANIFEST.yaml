@@ -1,0 +1,18 @@
+schema: RP002-FINAL-PACKAGE-MANIFEST/1
+stage: RP002-STAGE-SQS
+policy: WORKSPACE_LOCAL (no ZIP for appearance)
+entries:
+  - {path: agents/profiles/sqs-orchestrator/distribution.yaml, sha256: 897aa70208cf29f6feaace75af587c30f1677d62f35452e2fbad5c4d2457c5f8}
+  - {path: agents/profiles/sqs-orchestrator/SOUL.md, sha256: 62b22fc06f0c5022c6ce39620f368275b57a40d0743f504a669f9116b34d1299}
+  - {path: agents/profiles/sqs-data-analysis/distribution.yaml, sha256: f7e7c9a4951fb178f810092972da5aed71f5b2176ceee23040a3993ffe3b907f}
+  - {path: agents/profiles/sqs-data-analysis/SOUL.md, sha256: 759f74dc66fb67e85fa0e335cbe1aa576ea13690451274c2c2c1b9e68873a026}
+  - {path: agents/profiles/sqs-risk/distribution.yaml, sha256: f9dceff3bb35951d100e7a1380bd9403ca7dd27f39f8e6a2f5bf410c9d69f2fc}
+  - {path: agents/profiles/sqs-risk/SOUL.md, sha256: 3842658ad4a794378d345c877241d3d07fac8bf2b3e5f63d95b55ea4bb412d1b}
+  - {path: TEAM.md, sha256: 2b4226f4eff000d506d74e6461d5ba5b488b00c29036f573dff46fc001ca95a5}
+  - {path: SQS_STACK_MANIFEST.yaml, sha256: 6f5ea69c20216772b143008e904e96760221406175d1df1e19e7baed51298cbd}
+  - {path: SQS/TWICT_RUNTIME_PACK_MANIFEST.yaml, sha256: ec4245d5a5d57a525045f6c34b5a51371fd0942a89112db2d6c65222e7e75ca6}
+  - {path: S1_TASK_SELECTION_CARD.yaml, sha256: 74ff77c70a7a6a598a9d814a00cbb90d6cdf670e4494e237ef355eb0729d2f34}
+  - {path: E2_BEHAVIOR_SUBJECT_SELECTION.yaml, sha256: fe824e1795e2808f7c35e6e2692c19f7bc0cd78f059707a9944001d15c38659b}
+  - {path: SQS_TWICT_PRODUCT_CAPABILITY_IMPORT.yaml, sha256: 1e451847cbc1087b4be2375e5ed057b2063209e56fb3f6d240b2af4c45c6df2c}
+  - {path: SQS_TWICT_ROLE_DISPOSITION_CROSSWALK.yaml, sha256: d78ee52805c7a82508790c4151d8997e4d6b90f39bd29eafa0dad660eb15b1bd}
+package_exact_set_readback: true

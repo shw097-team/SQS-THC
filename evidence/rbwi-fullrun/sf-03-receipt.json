@@ -1,0 +1,3045 @@
+{
+  "schema": "RBWI-SF-03-RECEIPT/1",
+  "sf": "SF-03",
+  "run_id": "RUN-RBWI-FULLRUN-20260820-001",
+  "candidate_id": "CAND-RBWI-20260814",
+  "segment_binding_id": "BIND-RBWI-Q1-20260820-001",
+  "status": "ACTIVE(EMPTY_OK)",
+  "generated_at": "2026-08-20T20:40+08:00",
+  "outputs": {
+    "SessionCandidatePool-S1": [
+      {
+        "symbol": "8021",
+        "tier": "PRIMARY",
+        "reason": "passes_price_liquidity_notional",
+        "last_close": 429.0,
+        "vol20": 5163650,
+        "notional_est": 2215205786
+      },
+      {
+        "symbol": "8039",
+        "tier": "PRIMARY",
+        "reason": "passes_price_liquidity_notional",
+        "last_close": 249.5,
+        "vol20": 29212003,
+        "notional_est": 7288394798
+      },
+      {
+        "symbol": "6861",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 220.5,
+        "vol20": 424215,
+        "notional_est": 93539374
+      },
+      {
+        "symbol": "1303",
+        "tier": "PRIMARY",
+        "reason": "passes_price_liquidity_notional",
+        "last_close": 189.0,
+        "vol20": 96141914,
+        "notional_est": 18170821689
+      },
+      {
+        "symbol": "2344",
+        "tier": "PRIMARY",
+        "reason": "passes_price_liquidity_notional",
+        "last_close": 177.0,
+        "vol20": 139366630,
+        "notional_est": 24667893598
+      },
+      {
+        "symbol": "2337",
+        "tier": "PRIMARY",
+        "reason": "passes_price_liquidity_notional",
+        "last_close": 136.5,
+        "vol20": 82975131,
+        "notional_est": 11326105347
+      },
+      {
+        "symbol": "2478",
+        "tier": "PRIMARY",
+        "reason": "passes_price_liquidity_notional",
+        "last_close": 130.0,
+        "vol20": 7140402,
+        "notional_est": 928252286
+      },
+      {
+        "symbol": "2303",
+        "tier": "PRIMARY",
+        "reason": "passes_price_liquidity_notional",
+        "last_close": 124.5,
+        "vol20": 200948280,
+        "notional_est": 25018060885
+      },
+      {
+        "symbol": "6834",
+        "tier": "PRIMARY",
+        "reason": "passes_price_liquidity_notional",
+        "last_close": 107.5,
+        "vol20": 4563460,
+        "notional_est": 490571988
+      },
+      {
+        "symbol": "4916",
+        "tier": "PRIMARY",
+        "reason": "passes_price_liquidity_notional",
+        "last_close": 101.5,
+        "vol20": 4668700,
+        "notional_est": 473873020
+      },
+      {
+        "symbol": "8112",
+        "tier": "PRIMARY",
+        "reason": "passes_price_liquidity_notional",
+        "last_close": 97.8,
+        "vol20": 20647753,
+        "notional_est": 2019350268
+      },
+      {
+        "symbol": "8150",
+        "tier": "PRIMARY",
+        "reason": "passes_price_liquidity_notional",
+        "last_close": 92.9,
+        "vol20": 52751394,
+        "notional_est": 4900604517
+      },
+      {
+        "symbol": "8103",
+        "tier": "PRIMARY",
+        "reason": "passes_price_liquidity_notional",
+        "last_close": 80.1,
+        "vol20": 882690,
+        "notional_est": 70703509
+      },
+      {
+        "symbol": "5285",
+        "tier": "PRIMARY",
+        "reason": "passes_price_liquidity_notional",
+        "last_close": 79.6,
+        "vol20": 1007872,
+        "notional_est": 80226575
+      },
+      {
+        "symbol": "1717",
+        "tier": "PRIMARY",
+        "reason": "passes_price_liquidity_notional",
+        "last_close": 78.2,
+        "vol20": 13713240,
+        "notional_est": 1072375341
+      },
+      {
+        "symbol": "2423",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 77.3,
+        "vol20": 241358,
+        "notional_est": 18656977
+      },
+      {
+        "symbol": "1727",
+        "tier": "PRIMARY",
+        "reason": "passes_price_liquidity_notional",
+        "last_close": 76.4,
+        "vol20": 2145919,
+        "notional_est": 163948192
+      },
+      {
+        "symbol": "2484",
+        "tier": "PRIMARY",
+        "reason": "passes_price_liquidity_notional",
+        "last_close": 75.9,
+        "vol20": 22575835,
+        "notional_est": 1713505873
+      },
+      {
+        "symbol": "6209",
+        "tier": "PRIMARY",
+        "reason": "passes_price_liquidity_notional",
+        "last_close": 70.6,
+        "vol20": 5827284,
+        "notional_est": 411406265
+      },
+      {
+        "symbol": "1504",
+        "tier": "PRIMARY",
+        "reason": "passes_price_liquidity_notional",
+        "last_close": 70.4,
+        "vol20": 8164835,
+        "notional_est": 574804388
+      },
+      {
+        "symbol": "6505",
+        "tier": "PRIMARY",
+        "reason": "passes_price_liquidity_notional",
+        "last_close": 69.8,
+        "vol20": 54063260,
+        "notional_est": 3773615531
+      },
+      {
+        "symbol": "2885",
+        "tier": "PRIMARY",
+        "reason": "passes_price_liquidity_notional",
+        "last_close": 69.7,
+        "vol20": 31748490,
+        "notional_est": 2212869729
+      },
+      {
+        "symbol": "2356",
+        "tier": "PRIMARY",
+        "reason": "passes_price_liquidity_notional",
+        "last_close": 68.8,
+        "vol20": 36118441,
+        "notional_est": 2484948768
+      },
+      {
+        "symbol": "8438",
+        "tier": "PRIMARY",
+        "reason": "passes_price_liquidity_notional",
+        "last_close": 68.6,
+        "vol20": 682673,
+        "notional_est": 46831392
+      },
+      {
+        "symbol": "6456",
+        "tier": "PRIMARY",
+        "reason": "passes_price_liquidity_notional",
+        "last_close": 67.3,
+        "vol20": 3659509,
+        "notional_est": 246284969
+      },
+      {
+        "symbol": "8131",
+        "tier": "PRIMARY",
+        "reason": "passes_price_liquidity_notional",
+        "last_close": 66.0,
+        "vol20": 5730258,
+        "notional_est": 378197038
+      },
+      {
+        "symbol": "2634",
+        "tier": "PRIMARY",
+        "reason": "passes_price_liquidity_notional",
+        "last_close": 64.2,
+        "vol20": 47832932,
+        "notional_est": 3070874206
+      },
+      {
+        "symbol": "6155",
+        "tier": "PRIMARY",
+        "reason": "passes_price_liquidity_notional",
+        "last_close": 63.5,
+        "vol20": 2263635,
+        "notional_est": 143740813
+      },
+      {
+        "symbol": "6205",
+        "tier": "PRIMARY",
+        "reason": "passes_price_liquidity_notional",
+        "last_close": 63.3,
+        "vol20": 543233,
+        "notional_est": 34386639
+      },
+      {
+        "symbol": "6224",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 62.6,
+        "vol20": 474639,
+        "notional_est": 29712373
+      },
+      {
+        "symbol": "6202",
+        "tier": "PRIMARY",
+        "reason": "passes_price_liquidity_notional",
+        "last_close": 62.0,
+        "vol20": 3755402,
+        "notional_est": 232834908
+      },
+      {
+        "symbol": "6024",
+        "tier": "PRIMARY",
+        "reason": "passes_price_liquidity_notional",
+        "last_close": 61.6,
+        "vol20": 569558,
+        "notional_est": 35084757
+      },
+      {
+        "symbol": "1326",
+        "tier": "PRIMARY",
+        "reason": "passes_price_liquidity_notional",
+        "last_close": 59.5,
+        "vol20": 48925236,
+        "notional_est": 2911051515
+      },
+      {
+        "symbol": "2832",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 58.7,
+        "vol20": 202274,
+        "notional_est": 11873493
+      },
+      {
+        "symbol": "5471",
+        "tier": "PRIMARY",
+        "reason": "passes_price_liquidity_notional",
+        "last_close": 58.1,
+        "vol20": 2814107,
+        "notional_est": 163499599
+      },
+      {
+        "symbol": "1301",
+        "tier": "PRIMARY",
+        "reason": "passes_price_liquidity_notional",
+        "last_close": 57.5,
+        "vol20": 43501825,
+        "notional_est": 2501354920
+      },
+      {
+        "symbol": "8926",
+        "tier": "PRIMARY",
+        "reason": "passes_price_liquidity_notional",
+        "last_close": 55.8,
+        "vol20": 4973648,
+        "notional_est": 277529567
+      },
+      {
+        "symbol": "2402",
+        "tier": "PRIMARY",
+        "reason": "passes_price_liquidity_notional",
+        "last_close": 55.3,
+        "vol20": 1816372,
+        "notional_est": 100445374
+      },
+      {
+        "symbol": "2434",
+        "tier": "PRIMARY",
+        "reason": "passes_price_liquidity_notional",
+        "last_close": 55.2,
+        "vol20": 605279,
+        "notional_est": 33411379
+      },
+      {
+        "symbol": "2363",
+        "tier": "PRIMARY",
+        "reason": "passes_price_liquidity_notional",
+        "last_close": 54.4,
+        "vol20": 6910307,
+        "notional_est": 375920676
+      },
+      {
+        "symbol": "2612",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 53.7,
+        "vol20": 320977,
+        "notional_est": 17236443
+      },
+      {
+        "symbol": "2414",
+        "tier": "PRIMARY",
+        "reason": "passes_price_liquidity_notional",
+        "last_close": 52.8,
+        "vol20": 667846,
+        "notional_est": 35262279
+      },
+      {
+        "symbol": "5607",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 52.2,
+        "vol20": 492448,
+        "notional_est": 25705762
+      },
+      {
+        "symbol": "6695",
+        "tier": "PRIMARY",
+        "reason": "passes_price_liquidity_notional",
+        "last_close": 51.5,
+        "vol20": 873784,
+        "notional_est": 44999861
+      },
+      {
+        "symbol": "2027",
+        "tier": "PRIMARY",
+        "reason": "passes_price_liquidity_notional",
+        "last_close": 50.4,
+        "vol20": 21954580,
+        "notional_est": 1106510835
+      },
+      {
+        "symbol": "5515",
+        "tier": "PRIMARY",
+        "reason": "passes_price_liquidity_notional",
+        "last_close": 50.4,
+        "vol20": 711666,
+        "notional_est": 35867971
+      },
+      {
+        "symbol": "2488",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 50.1,
+        "vol20": 180773,
+        "notional_est": 9056717
+      },
+      {
+        "symbol": "2607",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 49.9,
+        "vol20": 490581,
+        "notional_est": 24480004
+      },
+      {
+        "symbol": "4952",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 49.8,
+        "vol20": 436858,
+        "notional_est": 21755526
+      },
+      {
+        "symbol": "1708",
+        "tier": "PRIMARY",
+        "reason": "passes_price_liquidity_notional",
+        "last_close": 49.3,
+        "vol20": 3388911,
+        "notional_est": 167073312
+      },
+      {
+        "symbol": "6928",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 49.3,
+        "vol20": 345650,
+        "notional_est": 17040557
+      },
+      {
+        "symbol": "8070",
+        "tier": "PRIMARY",
+        "reason": "passes_price_liquidity_notional",
+        "last_close": 48.95,
+        "vol20": 2774651,
+        "notional_est": 135819162
+      },
+      {
+        "symbol": "2630",
+        "tier": "PRIMARY",
+        "reason": "passes_price_liquidity_notional",
+        "last_close": 48.3,
+        "vol20": 5945053,
+        "notional_est": 287146048
+      },
+      {
+        "symbol": "6282",
+        "tier": "PRIMARY",
+        "reason": "passes_price_liquidity_notional",
+        "last_close": 48.15,
+        "vol20": 12829305,
+        "notional_est": 617731016
+      },
+      {
+        "symbol": "2362",
+        "tier": "PRIMARY",
+        "reason": "passes_price_liquidity_notional",
+        "last_close": 47.9,
+        "vol20": 2341942,
+        "notional_est": 112179022
+      },
+      {
+        "symbol": "2855",
+        "tier": "PRIMARY",
+        "reason": "passes_price_liquidity_notional",
+        "last_close": 47.35,
+        "vol20": 4661586,
+        "notional_est": 220726104
+      },
+      {
+        "symbol": "6177",
+        "tier": "PRIMARY",
+        "reason": "passes_price_liquidity_notional",
+        "last_close": 47.35,
+        "vol20": 1464607,
+        "notional_est": 69349123
+      },
+      {
+        "symbol": "2497",
+        "tier": "PRIMARY",
+        "reason": "passes_price_liquidity_notional",
+        "last_close": 47.0,
+        "vol20": 792688,
+        "notional_est": 37256317
+      },
+      {
+        "symbol": "2704",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 46.55,
+        "vol20": 123943,
+        "notional_est": 5769551
+      },
+      {
+        "symbol": "2542",
+        "tier": "PRIMARY",
+        "reason": "passes_price_liquidity_notional",
+        "last_close": 46.4,
+        "vol20": 8695513,
+        "notional_est": 403471815
+      },
+      {
+        "symbol": "2328",
+        "tier": "PRIMARY",
+        "reason": "passes_price_liquidity_notional",
+        "last_close": 46.3,
+        "vol20": 2721570,
+        "notional_est": 126008672
+      },
+      {
+        "symbol": "1203",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 46.0,
+        "vol20": 40446,
+        "notional_est": 1860509
+      },
+      {
+        "symbol": "2031",
+        "tier": "PRIMARY",
+        "reason": "passes_price_liquidity_notional",
+        "last_close": 45.95,
+        "vol20": 1859478,
+        "notional_est": 85442993
+      },
+      {
+        "symbol": "2886",
+        "tier": "PRIMARY",
+        "reason": "passes_price_liquidity_notional",
+        "last_close": 45.85,
+        "vol20": 36140427,
+        "notional_est": 1657038592
+      },
+      {
+        "symbol": "2527",
+        "tier": "PRIMARY",
+        "reason": "passes_price_liquidity_notional",
+        "last_close": 45.8,
+        "vol20": 1571015,
+        "notional_est": 71952496
+      },
+      {
+        "symbol": "8473",
+        "tier": "PRIMARY",
+        "reason": "passes_price_liquidity_notional",
+        "last_close": 45.55,
+        "vol20": 693396,
+        "notional_est": 31584206
+      },
+      {
+        "symbol": "2417",
+        "tier": "PRIMARY",
+        "reason": "passes_price_liquidity_notional",
+        "last_close": 45.45,
+        "vol20": 1377941,
+        "notional_est": 62627414
+      },
+      {
+        "symbol": "2367",
+        "tier": "PRIMARY",
+        "reason": "passes_price_liquidity_notional",
+        "last_close": 45.0,
+        "vol20": 8589555,
+        "notional_est": 386529966
+      },
+      {
+        "symbol": "2329",
+        "tier": "PRIMARY",
+        "reason": "passes_price_liquidity_notional",
+        "last_close": 44.6,
+        "vol20": 3712571,
+        "notional_est": 165580660
+      },
+      {
+        "symbol": "6243",
+        "tier": "PRIMARY",
+        "reason": "passes_price_liquidity_notional",
+        "last_close": 43.9,
+        "vol20": 5686487,
+        "notional_est": 249636768
+      },
+      {
+        "symbol": "2355",
+        "tier": "PRIMARY",
+        "reason": "passes_price_liquidity_notional",
+        "last_close": 43.1,
+        "vol20": 3702239,
+        "notional_est": 159566505
+      },
+      {
+        "symbol": "6666",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 42.65,
+        "vol20": 42333,
+        "notional_est": 1805511
+      },
+      {
+        "symbol": "5876",
+        "tier": "PRIMARY",
+        "reason": "passes_price_liquidity_notional",
+        "last_close": 42.25,
+        "vol20": 13327193,
+        "notional_est": 563073915
+      },
+      {
+        "symbol": "9933",
+        "tier": "PRIMARY",
+        "reason": "passes_price_liquidity_notional",
+        "last_close": 42.2,
+        "vol20": 2926380,
+        "notional_est": 123493238
+      },
+      {
+        "symbol": "2425",
+        "tier": "PRIMARY",
+        "reason": "passes_price_liquidity_notional",
+        "last_close": 41.95,
+        "vol20": 7533694,
+        "notional_est": 316038484
+      },
+      {
+        "symbol": "2013",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 41.3,
+        "vol20": 119065,
+        "notional_est": 4917366
+      },
+      {
+        "symbol": "1229",
+        "tier": "PRIMARY",
+        "reason": "passes_price_liquidity_notional",
+        "last_close": 41.3,
+        "vol20": 2770342,
+        "notional_est": 114415106
+      },
+      {
+        "symbol": "8481",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 41.1,
+        "vol20": 24692,
+        "notional_est": 1014845
+      },
+      {
+        "symbol": "2618",
+        "tier": "PRIMARY",
+        "reason": "passes_price_liquidity_notional",
+        "last_close": 41.0,
+        "vol20": 41692363,
+        "notional_est": 1709386865
+      },
+      {
+        "symbol": "1618",
+        "tier": "PRIMARY",
+        "reason": "passes_price_liquidity_notional",
+        "last_close": 40.95,
+        "vol20": 769258,
+        "notional_est": 31501095
+      },
+      {
+        "symbol": "2338",
+        "tier": "PRIMARY",
+        "reason": "passes_price_liquidity_notional",
+        "last_close": 40.7,
+        "vol20": 1859899,
+        "notional_est": 75697904
+      },
+      {
+        "symbol": "6405",
+        "tier": "PRIMARY",
+        "reason": "passes_price_liquidity_notional",
+        "last_close": 40.65,
+        "vol20": 773561,
+        "notional_est": 31445251
+      },
+      {
+        "symbol": "8367",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 40.25,
+        "vol20": 25293,
+        "notional_est": 1018029
+      },
+      {
+        "symbol": "2498",
+        "tier": "PRIMARY",
+        "reason": "passes_price_liquidity_notional",
+        "last_close": 40.1,
+        "vol20": 4260202,
+        "notional_est": 170834100
+      },
+      {
+        "symbol": "9925",
+        "tier": "PRIMARY",
+        "reason": "passes_price_liquidity_notional",
+        "last_close": 40.0,
+        "vol20": 633638,
+        "notional_est": 25345500
+      },
+      {
+        "symbol": "5215",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 39.9,
+        "vol20": 87148,
+        "notional_est": 3477197
+      },
+      {
+        "symbol": "2009",
+        "tier": "PRIMARY",
+        "reason": "passes_price_liquidity_notional",
+        "last_close": 39.7,
+        "vol20": 2331525,
+        "notional_est": 92561529
+      },
+      {
+        "symbol": "2495",
+        "tier": "PRIMARY",
+        "reason": "passes_price_liquidity_notional",
+        "last_close": 39.7,
+        "vol20": 2070189,
+        "notional_est": 82186503
+      },
+      {
+        "symbol": "1817",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 39.45,
+        "vol20": 59890,
+        "notional_est": 2362680
+      },
+      {
+        "symbol": "1605",
+        "tier": "PRIMARY",
+        "reason": "passes_price_liquidity_notional",
+        "last_close": 39.3,
+        "vol20": 32370946,
+        "notional_est": 1272178180
+      },
+      {
+        "symbol": "2324",
+        "tier": "PRIMARY",
+        "reason": "passes_price_liquidity_notional",
+        "last_close": 39.3,
+        "vol20": 63995548,
+        "notional_est": 2515025042
+      },
+      {
+        "symbol": "2342",
+        "tier": "PRIMARY",
+        "reason": "passes_price_liquidity_notional",
+        "last_close": 39.25,
+        "vol20": 2623976,
+        "notional_est": 102991046
+      },
+      {
+        "symbol": "1712",
+        "tier": "PRIMARY",
+        "reason": "passes_price_liquidity_notional",
+        "last_close": 39.15,
+        "vol20": 1038211,
+        "notional_est": 40645961
+      },
+      {
+        "symbol": "2880",
+        "tier": "PRIMARY",
+        "reason": "passes_price_liquidity_notional",
+        "last_close": 39.1,
+        "vol20": 30982761,
+        "notional_est": 1211425939
+      },
+      {
+        "symbol": "2748",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 38.45,
+        "vol20": 130837,
+        "notional_est": 5030673
+      },
+      {
+        "symbol": "6952",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 38.4,
+        "vol20": 32959,
+        "notional_est": 1265631
+      },
+      {
+        "symbol": "9924",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 38.35,
+        "vol20": 232062,
+        "notional_est": 8899582
+      },
+      {
+        "symbol": "6790",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 38.0,
+        "vol20": 180422,
+        "notional_est": 6856017
+      },
+      {
+        "symbol": "2851",
+        "tier": "PRIMARY",
+        "reason": "passes_price_liquidity_notional",
+        "last_close": 37.85,
+        "vol20": 1790410,
+        "notional_est": 67767005
+      },
+      {
+        "symbol": "1609",
+        "tier": "PRIMARY",
+        "reason": "passes_price_liquidity_notional",
+        "last_close": 37.75,
+        "vol20": 4244937,
+        "notional_est": 160246362
+      },
+      {
+        "symbol": "2884",
+        "tier": "PRIMARY",
+        "reason": "passes_price_liquidity_notional",
+        "last_close": 37.3,
+        "vol20": 44358692,
+        "notional_est": 1654579206
+      },
+      {
+        "symbol": "4976",
+        "tier": "PRIMARY",
+        "reason": "passes_price_liquidity_notional",
+        "last_close": 37.05,
+        "vol20": 4955889,
+        "notional_est": 183615700
+      },
+      {
+        "symbol": "2387",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 36.95,
+        "vol20": 455512,
+        "notional_est": 16831170
+      },
+      {
+        "symbol": "1608",
+        "tier": "PRIMARY",
+        "reason": "passes_price_liquidity_notional",
+        "last_close": 36.8,
+        "vol20": 6302966,
+        "notional_est": 231949143
+      },
+      {
+        "symbol": "4906",
+        "tier": "PRIMARY",
+        "reason": "passes_price_liquidity_notional",
+        "last_close": 36.6,
+        "vol20": 4923781,
+        "notional_est": 180210370
+      },
+      {
+        "symbol": "6668",
+        "tier": "PRIMARY",
+        "reason": "passes_price_liquidity_notional",
+        "last_close": 36.4,
+        "vol20": 917743,
+        "notional_est": 33405838
+      },
+      {
+        "symbol": "2739",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 35.8,
+        "vol20": 110977,
+        "notional_est": 3972987
+      },
+      {
+        "symbol": "1423",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 35.5,
+        "vol20": 102792,
+        "notional_est": 3649104
+      },
+      {
+        "symbol": "4935",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 35.35,
+        "vol20": 102183,
+        "notional_est": 3612171
+      },
+      {
+        "symbol": "2524",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 35.3,
+        "vol20": 102940,
+        "notional_est": 3633789
+      },
+      {
+        "symbol": "1762",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 35.1,
+        "vol20": 248626,
+        "notional_est": 8726787
+      },
+      {
+        "symbol": "6477",
+        "tier": "PRIMARY",
+        "reason": "passes_price_liquidity_notional",
+        "last_close": 34.8,
+        "vol20": 4253002,
+        "notional_est": 148004482
+      },
+      {
+        "symbol": "4927",
+        "tier": "PRIMARY",
+        "reason": "passes_price_liquidity_notional",
+        "last_close": 34.55,
+        "vol20": 3607252,
+        "notional_est": 124630550
+      },
+      {
+        "symbol": "2545",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 34.45,
+        "vol20": 353752,
+        "notional_est": 12186765
+      },
+      {
+        "symbol": "1612",
+        "tier": "PRIMARY",
+        "reason": "passes_price_liquidity_notional",
+        "last_close": 34.3,
+        "vol20": 1211406,
+        "notional_est": 41551221
+      },
+      {
+        "symbol": "2101",
+        "tier": "PRIMARY",
+        "reason": "passes_price_liquidity_notional",
+        "last_close": 34.25,
+        "vol20": 1889365,
+        "notional_est": 64710767
+      },
+      {
+        "symbol": "1234",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 33.95,
+        "vol20": 147794,
+        "notional_est": 5017591
+      },
+      {
+        "symbol": "5244",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 33.95,
+        "vol20": 180412,
+        "notional_est": 6124981
+      },
+      {
+        "symbol": "5538",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 33.8,
+        "vol20": 122034,
+        "notional_est": 4124754
+      },
+      {
+        "symbol": "2816",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 33.55,
+        "vol20": 221685,
+        "notional_est": 7437522
+      },
+      {
+        "symbol": "2241",
+        "tier": "PRIMARY",
+        "reason": "passes_price_liquidity_notional",
+        "last_close": 33.3,
+        "vol20": 880169,
+        "notional_est": 29309634
+      },
+      {
+        "symbol": "4942",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 33.3,
+        "vol20": 149239,
+        "notional_est": 4969645
+      },
+      {
+        "symbol": "8213",
+        "tier": "PRIMARY",
+        "reason": "passes_price_liquidity_notional",
+        "last_close": 33.3,
+        "vol20": 693125,
+        "notional_est": 23081074
+      },
+      {
+        "symbol": "2312",
+        "tier": "PRIMARY",
+        "reason": "passes_price_liquidity_notional",
+        "last_close": 33.15,
+        "vol20": 17585801,
+        "notional_est": 582969305
+      },
+      {
+        "symbol": "1808",
+        "tier": "PRIMARY",
+        "reason": "passes_price_liquidity_notional",
+        "last_close": 33.1,
+        "vol20": 1487554,
+        "notional_est": 49238039
+      },
+      {
+        "symbol": "1702",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 32.85,
+        "vol20": 270817,
+        "notional_est": 8896350
+      },
+      {
+        "symbol": "1527",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 32.75,
+        "vol20": 218850,
+        "notional_est": 7167341
+      },
+      {
+        "symbol": "1321",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 32.35,
+        "vol20": 136264,
+        "notional_est": 4408129
+      },
+      {
+        "symbol": "2605",
+        "tier": "PRIMARY",
+        "reason": "passes_price_liquidity_notional",
+        "last_close": 32.3,
+        "vol20": 5799451,
+        "notional_est": 187322258
+      },
+      {
+        "symbol": "8163",
+        "tier": "PRIMARY",
+        "reason": "passes_price_liquidity_notional",
+        "last_close": 32.15,
+        "vol20": 1184853,
+        "notional_est": 38093035
+      },
+      {
+        "symbol": "6698",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 32.1,
+        "vol20": 228812,
+        "notional_est": 7344868
+      },
+      {
+        "symbol": "1533",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 32.05,
+        "vol20": 136328,
+        "notional_est": 4369304
+      },
+      {
+        "symbol": "1752",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 32.0,
+        "vol20": 51208,
+        "notional_est": 1638664
+      },
+      {
+        "symbol": "1737",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 32.0,
+        "vol20": 153961,
+        "notional_est": 4926744
+      },
+      {
+        "symbol": "1734",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 31.85,
+        "vol20": 382821,
+        "notional_est": 12192862
+      },
+      {
+        "symbol": "1102",
+        "tier": "PRIMARY",
+        "reason": "passes_price_liquidity_notional",
+        "last_close": 31.7,
+        "vol20": 12231671,
+        "notional_est": 387743974
+      },
+      {
+        "symbol": "8104",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 31.6,
+        "vol20": 475826,
+        "notional_est": 15036092
+      },
+      {
+        "symbol": "6582",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 31.55,
+        "vol20": 54034,
+        "notional_est": 1704759
+      },
+      {
+        "symbol": "2353",
+        "tier": "PRIMARY",
+        "reason": "passes_price_liquidity_notional",
+        "last_close": 31.55,
+        "vol20": 23387845,
+        "notional_est": 737886503
+      },
+      {
+        "symbol": "1437",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 31.5,
+        "vol20": 219077,
+        "notional_est": 6900911
+      },
+      {
+        "symbol": "6835",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 31.4,
+        "vol20": 44225,
+        "notional_est": 1388673
+      },
+      {
+        "symbol": "2340",
+        "tier": "PRIMARY",
+        "reason": "passes_price_liquidity_notional",
+        "last_close": 31.4,
+        "vol20": 3463380,
+        "notional_est": 108750123
+      },
+      {
+        "symbol": "2365",
+        "tier": "PRIMARY",
+        "reason": "passes_price_liquidity_notional",
+        "last_close": 31.25,
+        "vol20": 2230138,
+        "notional_est": 69691800
+      },
+      {
+        "symbol": "2504",
+        "tier": "PRIMARY",
+        "reason": "passes_price_liquidity_notional",
+        "last_close": 31.15,
+        "vol20": 2331222,
+        "notional_est": 72617550
+      },
+      {
+        "symbol": "1733",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 31.1,
+        "vol20": 231743,
+        "notional_est": 7207212
+      },
+      {
+        "symbol": "1725",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 31.1,
+        "vol20": 59198,
+        "notional_est": 1841067
+      },
+      {
+        "symbol": "4956",
+        "tier": "PRIMARY",
+        "reason": "passes_price_liquidity_notional",
+        "last_close": 31.1,
+        "vol20": 1617173,
+        "notional_est": 50294088
+      },
+      {
+        "symbol": "2008",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 31.05,
+        "vol20": 32878,
+        "notional_est": 1020856
+      },
+      {
+        "symbol": "1614",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 30.8,
+        "vol20": 55794,
+        "notional_est": 1718449
+      },
+      {
+        "symbol": "2105",
+        "tier": "PRIMARY",
+        "reason": "passes_price_liquidity_notional",
+        "last_close": 30.7,
+        "vol20": 10750651,
+        "notional_est": 330044990
+      },
+      {
+        "symbol": "6005",
+        "tier": "PRIMARY",
+        "reason": "passes_price_liquidity_notional",
+        "last_close": 30.6,
+        "vol20": 10279777,
+        "notional_est": 314561188
+      },
+      {
+        "symbol": "1307",
+        "tier": "PRIMARY",
+        "reason": "passes_price_liquidity_notional",
+        "last_close": 30.55,
+        "vol20": 742934,
+        "notional_est": 22696626
+      },
+      {
+        "symbol": "1515",
+        "tier": "PRIMARY",
+        "reason": "passes_price_liquidity_notional",
+        "last_close": 30.5,
+        "vol20": 2326531,
+        "notional_est": 70959192
+      },
+      {
+        "symbol": "2108",
+        "tier": "PRIMARY",
+        "reason": "passes_price_liquidity_notional",
+        "last_close": 30.3,
+        "vol20": 1035812,
+        "notional_est": 31385104
+      },
+      {
+        "symbol": "1603",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 30.15,
+        "vol20": 260960,
+        "notional_est": 7867953
+      },
+      {
+        "symbol": "1907",
+        "tier": "PRIMARY",
+        "reason": "passes_price_liquidity_notional",
+        "last_close": 29.9,
+        "vol20": 1907177,
+        "notional_est": 57024597
+      },
+      {
+        "symbol": "2415",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 29.6,
+        "vol20": 306900,
+        "notional_est": 9084233
+      },
+      {
+        "symbol": "9908",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 29.1,
+        "vol20": 207934,
+        "notional_est": 6050894
+      },
+      {
+        "symbol": "1530",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 29.05,
+        "vol20": 67453,
+        "notional_est": 1959511
+      },
+      {
+        "symbol": "1227",
+        "tier": "PRIMARY",
+        "reason": "passes_price_liquidity_notional",
+        "last_close": 28.9,
+        "vol20": 1362613,
+        "notional_est": 39379527
+      },
+      {
+        "symbol": "2617",
+        "tier": "PRIMARY",
+        "reason": "passes_price_liquidity_notional",
+        "last_close": 28.8,
+        "vol20": 735413,
+        "notional_est": 21179889
+      },
+      {
+        "symbol": "1439",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 28.75,
+        "vol20": 63438,
+        "notional_est": 1823832
+      },
+      {
+        "symbol": "2352",
+        "tier": "PRIMARY",
+        "reason": "passes_price_liquidity_notional",
+        "last_close": 28.7,
+        "vol20": 7830988,
+        "notional_est": 224749341
+      },
+      {
+        "symbol": "2201",
+        "tier": "PRIMARY",
+        "reason": "passes_price_liquidity_notional",
+        "last_close": 28.7,
+        "vol20": 2696403,
+        "notional_est": 77386779
+      },
+      {
+        "symbol": "2608",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 28.55,
+        "vol20": 306465,
+        "notional_est": 8749583
+      },
+      {
+        "symbol": "2450",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 28.25,
+        "vol20": 139391,
+        "notional_est": 3937794
+      },
+      {
+        "symbol": "1522",
+        "tier": "PRIMARY",
+        "reason": "passes_price_liquidity_notional",
+        "last_close": 27.95,
+        "vol20": 605234,
+        "notional_est": 16916289
+      },
+      {
+        "symbol": "5519",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 27.75,
+        "vol20": 344983,
+        "notional_est": 9573270
+      },
+      {
+        "symbol": "1233",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 27.6,
+        "vol20": 23140,
+        "notional_est": 638656
+      },
+      {
+        "symbol": "6606",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 27.2,
+        "vol20": 151837,
+        "notional_est": 4129962
+      },
+      {
+        "symbol": "9945",
+        "tier": "PRIMARY",
+        "reason": "passes_price_liquidity_notional",
+        "last_close": 27.1,
+        "vol20": 6161296,
+        "notional_est": 166971111
+      },
+      {
+        "symbol": "1402",
+        "tier": "PRIMARY",
+        "reason": "passes_price_liquidity_notional",
+        "last_close": 26.95,
+        "vol20": 18806468,
+        "notional_est": 506834303
+      },
+      {
+        "symbol": "2852",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 26.95,
+        "vol20": 340601,
+        "notional_est": 9179190
+      },
+      {
+        "symbol": "1524",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 26.95,
+        "vol20": 447881,
+        "notional_est": 12070386
+      },
+      {
+        "symbol": "6743",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 26.85,
+        "vol20": 343965,
+        "notional_est": 9235467
+      },
+      {
+        "symbol": "1104",
+        "tier": "PRIMARY",
+        "reason": "passes_price_liquidity_notional",
+        "last_close": 26.55,
+        "vol20": 638538,
+        "notional_est": 16953185
+      },
+      {
+        "symbol": "8072",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 26.4,
+        "vol20": 152127,
+        "notional_est": 4016157
+      },
+      {
+        "symbol": "1732",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 26.35,
+        "vol20": 488973,
+        "notional_est": 12884444
+      },
+      {
+        "symbol": "2371",
+        "tier": "PRIMARY",
+        "reason": "passes_price_liquidity_notional",
+        "last_close": 26.25,
+        "vol20": 8616391,
+        "notional_est": 226180273
+      },
+      {
+        "symbol": "1325",
+        "tier": "PRIMARY",
+        "reason": "passes_price_liquidity_notional",
+        "last_close": 26.0,
+        "vol20": 766903,
+        "notional_est": 19939487
+      },
+      {
+        "symbol": "1410",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 26.0,
+        "vol20": 110407,
+        "notional_est": 2870585
+      },
+      {
+        "symbol": "1475",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 25.95,
+        "vol20": 26015,
+        "notional_est": 675101
+      },
+      {
+        "symbol": "2633",
+        "tier": "PRIMARY",
+        "reason": "passes_price_liquidity_notional",
+        "last_close": 25.95,
+        "vol20": 5163033,
+        "notional_est": 133980713
+      },
+      {
+        "symbol": "2107",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 25.6,
+        "vol20": 231944,
+        "notional_est": 5937764
+      },
+      {
+        "symbol": "1521",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 25.55,
+        "vol20": 21261,
+        "notional_est": 543211
+      },
+      {
+        "symbol": "1443",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 25.55,
+        "vol20": 17541,
+        "notional_est": 448173
+      },
+      {
+        "symbol": "6136",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 25.4,
+        "vol20": 163251,
+        "notional_est": 4146582
+      },
+      {
+        "symbol": "8215",
+        "tier": "PRIMARY",
+        "reason": "passes_price_liquidity_notional",
+        "last_close": 25.2,
+        "vol20": 710072,
+        "notional_est": 17893802
+      },
+      {
+        "symbol": "6552",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 25.15,
+        "vol20": 154137,
+        "notional_est": 3876539
+      },
+      {
+        "symbol": "9955",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 24.9,
+        "vol20": 307626,
+        "notional_est": 7659875
+      },
+      {
+        "symbol": "2419",
+        "tier": "PRIMARY",
+        "reason": "passes_price_liquidity_notional",
+        "last_close": 24.9,
+        "vol20": 659912,
+        "notional_est": 16431796
+      },
+      {
+        "symbol": "5880",
+        "tier": "PRIMARY",
+        "reason": "passes_price_liquidity_notional",
+        "last_close": 24.2,
+        "vol20": 28466625,
+        "notional_est": 688892331
+      },
+      {
+        "symbol": "1101",
+        "tier": "PRIMARY",
+        "reason": "passes_price_liquidity_notional",
+        "last_close": 24.05,
+        "vol20": 27392005,
+        "notional_est": 658777715
+      },
+      {
+        "symbol": "1470",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 24.0,
+        "vol20": 12614,
+        "notional_est": 302741
+      },
+      {
+        "symbol": "9904",
+        "tier": "PRIMARY",
+        "reason": "passes_price_liquidity_notional",
+        "last_close": 23.9,
+        "vol20": 19951823,
+        "notional_est": 476848566
+      },
+      {
+        "symbol": "2457",
+        "tier": "PRIMARY",
+        "reason": "passes_price_liquidity_notional",
+        "last_close": 23.65,
+        "vol20": 1944642,
+        "notional_est": 45990773
+      },
+      {
+        "symbol": "1604",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 23.15,
+        "vol20": 377907,
+        "notional_est": 8748545
+      },
+      {
+        "symbol": "6838",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 23.05,
+        "vol20": 132510,
+        "notional_est": 3054365
+      },
+      {
+        "symbol": "2115",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 23.0,
+        "vol20": 83590,
+        "notional_est": 1922575
+      },
+      {
+        "symbol": "6671",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 22.9,
+        "vol20": 57208,
+        "notional_est": 1310054
+      },
+      {
+        "symbol": "6216",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 22.5,
+        "vol20": 154656,
+        "notional_est": 3479751
+      },
+      {
+        "symbol": "1438",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 22.4,
+        "vol20": 56512,
+        "notional_est": 1265873
+      },
+      {
+        "symbol": "1532",
+        "tier": "PRIMARY",
+        "reason": "passes_price_liquidity_notional",
+        "last_close": 21.9,
+        "vol20": 540326,
+        "notional_est": 11833149
+      },
+      {
+        "symbol": "5525",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 21.85,
+        "vol20": 178247,
+        "notional_est": 3894696
+      },
+      {
+        "symbol": "2722",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 21.85,
+        "vol20": 54519,
+        "notional_est": 1191250
+      },
+      {
+        "symbol": "2427",
+        "tier": "PRIMARY",
+        "reason": "passes_price_liquidity_notional",
+        "last_close": 21.75,
+        "vol20": 615748,
+        "notional_est": 13392521
+      },
+      {
+        "symbol": "1541",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 21.7,
+        "vol20": 22021,
+        "notional_est": 477864
+      },
+      {
+        "symbol": "2536",
+        "tier": "PRIMARY",
+        "reason": "passes_price_liquidity_notional",
+        "last_close": 21.45,
+        "vol20": 1428115,
+        "notional_est": 30633066
+      },
+      {
+        "symbol": "9905",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 21.45,
+        "vol20": 176918,
+        "notional_est": 3794888
+      },
+      {
+        "symbol": "2029",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 21.4,
+        "vol20": 271639,
+        "notional_est": 5813076
+      },
+      {
+        "symbol": "2477",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 21.4,
+        "vol20": 159328,
+        "notional_est": 3409620
+      },
+      {
+        "symbol": "9940",
+        "tier": "PRIMARY",
+        "reason": "passes_price_liquidity_notional",
+        "last_close": 21.15,
+        "vol20": 594728,
+        "notional_est": 12578506
+      },
+      {
+        "symbol": "6885",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 21.0,
+        "vol20": 251660,
+        "notional_est": 5284857
+      },
+      {
+        "symbol": "2020",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 21.0,
+        "vol20": 299005,
+        "notional_est": 6279098
+      },
+      {
+        "symbol": "1731",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 21.0,
+        "vol20": 417048,
+        "notional_est": 8758016
+      },
+      {
+        "symbol": "8463",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 20.65,
+        "vol20": 64260,
+        "notional_est": 1326968
+      },
+      {
+        "symbol": "6128",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 20.65,
+        "vol20": 82078,
+        "notional_est": 1694911
+      },
+      {
+        "symbol": "9935",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 20.55,
+        "vol20": 407402,
+        "notional_est": 8372117
+      },
+      {
+        "symbol": "2528",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 20.4,
+        "vol20": 486381,
+        "notional_est": 9922168
+      },
+      {
+        "symbol": "2646",
+        "tier": "PRIMARY",
+        "reason": "passes_price_liquidity_notional",
+        "last_close": 20.4,
+        "vol20": 6061578,
+        "notional_est": 123656195
+      },
+      {
+        "symbol": "2613",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 20.35,
+        "vol20": 256909,
+        "notional_est": 5228103
+      },
+      {
+        "symbol": "2642",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 20.35,
+        "vol20": 53469,
+        "notional_est": 1088097
+      },
+      {
+        "symbol": "2610",
+        "tier": "PRIMARY",
+        "reason": "passes_price_liquidity_notional",
+        "last_close": 20.1,
+        "vol20": 46585969,
+        "notional_est": 936377978
+      },
+      {
+        "symbol": "6283",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 20.1,
+        "vol20": 146477,
+        "notional_est": 2944197
+      },
+      {
+        "symbol": "8476",
+        "tier": "PRIMARY",
+        "reason": "passes_price_liquidity_notional",
+        "last_close": 20.05,
+        "vol20": 831692,
+        "notional_est": 16675419
+      },
+      {
+        "symbol": "2034",
+        "tier": "PRIMARY",
+        "reason": "passes_price_liquidity_notional",
+        "last_close": 20.05,
+        "vol20": 1551509,
+        "notional_est": 31107762
+      },
+      {
+        "symbol": "1473",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 19.95,
+        "vol20": 66883,
+        "notional_est": 1334311
+      },
+      {
+        "symbol": "1616",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 19.7,
+        "vol20": 466655,
+        "notional_est": 9193099
+      },
+      {
+        "symbol": "2442",
+        "tier": "PRIMARY",
+        "reason": "passes_price_liquidity_notional",
+        "last_close": 19.55,
+        "vol20": 1347163,
+        "notional_est": 26337042
+      },
+      {
+        "symbol": "2462",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 19.55,
+        "vol20": 241725,
+        "notional_est": 4725720
+      },
+      {
+        "symbol": "2530",
+        "tier": "PRIMARY",
+        "reason": "passes_price_liquidity_notional",
+        "last_close": 19.5,
+        "vol20": 898128,
+        "notional_est": 17513494
+      },
+      {
+        "symbol": "2239",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 19.4,
+        "vol20": 105267,
+        "notional_est": 2042184
+      },
+      {
+        "symbol": "1540",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 19.2,
+        "vol20": 336127,
+        "notional_est": 6453645
+      },
+      {
+        "symbol": "9946",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 19.0,
+        "vol20": 315766,
+        "notional_est": 5999555
+      },
+      {
+        "symbol": "4999",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 19.0,
+        "vol20": 74680,
+        "notional_est": 1418916
+      },
+      {
+        "symbol": "2102",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 18.9,
+        "vol20": 282853,
+        "notional_est": 5345925
+      },
+      {
+        "symbol": "2812",
+        "tier": "PRIMARY",
+        "reason": "passes_price_liquidity_notional",
+        "last_close": 18.65,
+        "vol20": 23495840,
+        "notional_est": 438197409
+      },
+      {
+        "symbol": "6916",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 18.65,
+        "vol20": 52406,
+        "notional_est": 977371
+      },
+      {
+        "symbol": "1418",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 18.0,
+        "vol20": 18427,
+        "notional_est": 331690
+      },
+      {
+        "symbol": "2505",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 17.95,
+        "vol20": 245585,
+        "notional_est": 4408259
+      },
+      {
+        "symbol": "6641",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 17.8,
+        "vol20": 62492,
+        "notional_est": 1112362
+      },
+      {
+        "symbol": "2106",
+        "tier": "PRIMARY",
+        "reason": "passes_price_liquidity_notional",
+        "last_close": 17.6,
+        "vol20": 1392074,
+        "notional_est": 24500510
+      },
+      {
+        "symbol": "6958",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 17.55,
+        "vol20": 70984,
+        "notional_est": 1245775
+      },
+      {
+        "symbol": "6901",
+        "tier": "PRIMARY",
+        "reason": "passes_price_liquidity_notional",
+        "last_close": 17.35,
+        "vol20": 2845959,
+        "notional_est": 49377383
+      },
+      {
+        "symbol": "2430",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 17.25,
+        "vol20": 133383,
+        "notional_est": 2300857
+      },
+      {
+        "symbol": "1529",
+        "tier": "PRIMARY",
+        "reason": "passes_price_liquidity_notional",
+        "last_close": 17.0,
+        "vol20": 535854,
+        "notional_est": 9109510
+      },
+      {
+        "symbol": "2534",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 16.9,
+        "vol20": 447642,
+        "notional_est": 7565146
+      },
+      {
+        "symbol": "8466",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 16.25,
+        "vol20": 45998,
+        "notional_est": 747472
+      },
+      {
+        "symbol": "8404",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 16.2,
+        "vol20": 237963,
+        "notional_est": 3855007
+      },
+      {
+        "symbol": "4930",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 16.1,
+        "vol20": 102263,
+        "notional_est": 1646427
+      },
+      {
+        "symbol": "1539",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 16.1,
+        "vol20": 98697,
+        "notional_est": 1589017
+      },
+      {
+        "symbol": "8011",
+        "tier": "PRIMARY",
+        "reason": "passes_price_liquidity_notional",
+        "last_close": 16.1,
+        "vol20": 764800,
+        "notional_est": 12313285
+      },
+      {
+        "symbol": "1218",
+        "tier": "PRIMARY",
+        "reason": "passes_price_liquidity_notional",
+        "last_close": 15.55,
+        "vol20": 1466372,
+        "notional_est": 22802078
+      },
+      {
+        "symbol": "8940",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 15.15,
+        "vol20": 57032,
+        "notional_est": 864038
+      },
+      {
+        "symbol": "6674",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 15.05,
+        "vol20": 21407,
+        "notional_est": 322175
+      },
+      {
+        "symbol": "2611",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 14.6,
+        "vol20": 270681,
+        "notional_est": 3951946
+      },
+      {
+        "symbol": "1446",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 14.0,
+        "vol20": 212690,
+        "notional_est": 2977667
+      },
+      {
+        "symbol": "5546",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 13.35,
+        "vol20": 34774,
+        "notional_est": 464232
+      }
+    ],
+    "tier_counts": {
+      "PRIMARY": 138,
+      "EXCLUDE": 120
+    },
+    "exclusion_records": [
+      {
+        "symbol": "6861",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 220.5,
+        "vol20": 424215,
+        "notional_est": 93539374
+      },
+      {
+        "symbol": "2423",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 77.3,
+        "vol20": 241358,
+        "notional_est": 18656977
+      },
+      {
+        "symbol": "6224",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 62.6,
+        "vol20": 474639,
+        "notional_est": 29712373
+      },
+      {
+        "symbol": "2832",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 58.7,
+        "vol20": 202274,
+        "notional_est": 11873493
+      },
+      {
+        "symbol": "2612",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 53.7,
+        "vol20": 320977,
+        "notional_est": 17236443
+      },
+      {
+        "symbol": "5607",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 52.2,
+        "vol20": 492448,
+        "notional_est": 25705762
+      },
+      {
+        "symbol": "2488",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 50.1,
+        "vol20": 180773,
+        "notional_est": 9056717
+      },
+      {
+        "symbol": "2607",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 49.9,
+        "vol20": 490581,
+        "notional_est": 24480004
+      },
+      {
+        "symbol": "4952",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 49.8,
+        "vol20": 436858,
+        "notional_est": 21755526
+      },
+      {
+        "symbol": "6928",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 49.3,
+        "vol20": 345650,
+        "notional_est": 17040557
+      },
+      {
+        "symbol": "2704",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 46.55,
+        "vol20": 123943,
+        "notional_est": 5769551
+      },
+      {
+        "symbol": "1203",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 46.0,
+        "vol20": 40446,
+        "notional_est": 1860509
+      },
+      {
+        "symbol": "6666",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 42.65,
+        "vol20": 42333,
+        "notional_est": 1805511
+      },
+      {
+        "symbol": "2013",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 41.3,
+        "vol20": 119065,
+        "notional_est": 4917366
+      },
+      {
+        "symbol": "8481",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 41.1,
+        "vol20": 24692,
+        "notional_est": 1014845
+      },
+      {
+        "symbol": "8367",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 40.25,
+        "vol20": 25293,
+        "notional_est": 1018029
+      },
+      {
+        "symbol": "5215",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 39.9,
+        "vol20": 87148,
+        "notional_est": 3477197
+      },
+      {
+        "symbol": "1817",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 39.45,
+        "vol20": 59890,
+        "notional_est": 2362680
+      },
+      {
+        "symbol": "2748",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 38.45,
+        "vol20": 130837,
+        "notional_est": 5030673
+      },
+      {
+        "symbol": "6952",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 38.4,
+        "vol20": 32959,
+        "notional_est": 1265631
+      },
+      {
+        "symbol": "9924",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 38.35,
+        "vol20": 232062,
+        "notional_est": 8899582
+      },
+      {
+        "symbol": "6790",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 38.0,
+        "vol20": 180422,
+        "notional_est": 6856017
+      },
+      {
+        "symbol": "2387",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 36.95,
+        "vol20": 455512,
+        "notional_est": 16831170
+      },
+      {
+        "symbol": "2739",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 35.8,
+        "vol20": 110977,
+        "notional_est": 3972987
+      },
+      {
+        "symbol": "1423",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 35.5,
+        "vol20": 102792,
+        "notional_est": 3649104
+      },
+      {
+        "symbol": "4935",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 35.35,
+        "vol20": 102183,
+        "notional_est": 3612171
+      },
+      {
+        "symbol": "2524",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 35.3,
+        "vol20": 102940,
+        "notional_est": 3633789
+      },
+      {
+        "symbol": "1762",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 35.1,
+        "vol20": 248626,
+        "notional_est": 8726787
+      },
+      {
+        "symbol": "2545",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 34.45,
+        "vol20": 353752,
+        "notional_est": 12186765
+      },
+      {
+        "symbol": "1234",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 33.95,
+        "vol20": 147794,
+        "notional_est": 5017591
+      },
+      {
+        "symbol": "5244",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 33.95,
+        "vol20": 180412,
+        "notional_est": 6124981
+      },
+      {
+        "symbol": "5538",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 33.8,
+        "vol20": 122034,
+        "notional_est": 4124754
+      },
+      {
+        "symbol": "2816",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 33.55,
+        "vol20": 221685,
+        "notional_est": 7437522
+      },
+      {
+        "symbol": "4942",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 33.3,
+        "vol20": 149239,
+        "notional_est": 4969645
+      },
+      {
+        "symbol": "1702",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 32.85,
+        "vol20": 270817,
+        "notional_est": 8896350
+      },
+      {
+        "symbol": "1527",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 32.75,
+        "vol20": 218850,
+        "notional_est": 7167341
+      },
+      {
+        "symbol": "1321",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 32.35,
+        "vol20": 136264,
+        "notional_est": 4408129
+      },
+      {
+        "symbol": "6698",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 32.1,
+        "vol20": 228812,
+        "notional_est": 7344868
+      },
+      {
+        "symbol": "1533",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 32.05,
+        "vol20": 136328,
+        "notional_est": 4369304
+      },
+      {
+        "symbol": "1752",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 32.0,
+        "vol20": 51208,
+        "notional_est": 1638664
+      },
+      {
+        "symbol": "1737",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 32.0,
+        "vol20": 153961,
+        "notional_est": 4926744
+      },
+      {
+        "symbol": "1734",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 31.85,
+        "vol20": 382821,
+        "notional_est": 12192862
+      },
+      {
+        "symbol": "8104",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 31.6,
+        "vol20": 475826,
+        "notional_est": 15036092
+      },
+      {
+        "symbol": "6582",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 31.55,
+        "vol20": 54034,
+        "notional_est": 1704759
+      },
+      {
+        "symbol": "1437",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 31.5,
+        "vol20": 219077,
+        "notional_est": 6900911
+      },
+      {
+        "symbol": "6835",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 31.4,
+        "vol20": 44225,
+        "notional_est": 1388673
+      },
+      {
+        "symbol": "1733",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 31.1,
+        "vol20": 231743,
+        "notional_est": 7207212
+      },
+      {
+        "symbol": "1725",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 31.1,
+        "vol20": 59198,
+        "notional_est": 1841067
+      },
+      {
+        "symbol": "2008",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 31.05,
+        "vol20": 32878,
+        "notional_est": 1020856
+      },
+      {
+        "symbol": "1614",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 30.8,
+        "vol20": 55794,
+        "notional_est": 1718449
+      },
+      {
+        "symbol": "1603",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 30.15,
+        "vol20": 260960,
+        "notional_est": 7867953
+      },
+      {
+        "symbol": "2415",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 29.6,
+        "vol20": 306900,
+        "notional_est": 9084233
+      },
+      {
+        "symbol": "9908",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 29.1,
+        "vol20": 207934,
+        "notional_est": 6050894
+      },
+      {
+        "symbol": "1530",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 29.05,
+        "vol20": 67453,
+        "notional_est": 1959511
+      },
+      {
+        "symbol": "1439",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 28.75,
+        "vol20": 63438,
+        "notional_est": 1823832
+      },
+      {
+        "symbol": "2608",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 28.55,
+        "vol20": 306465,
+        "notional_est": 8749583
+      },
+      {
+        "symbol": "2450",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 28.25,
+        "vol20": 139391,
+        "notional_est": 3937794
+      },
+      {
+        "symbol": "5519",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 27.75,
+        "vol20": 344983,
+        "notional_est": 9573270
+      },
+      {
+        "symbol": "1233",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 27.6,
+        "vol20": 23140,
+        "notional_est": 638656
+      },
+      {
+        "symbol": "6606",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 27.2,
+        "vol20": 151837,
+        "notional_est": 4129962
+      },
+      {
+        "symbol": "2852",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 26.95,
+        "vol20": 340601,
+        "notional_est": 9179190
+      },
+      {
+        "symbol": "1524",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 26.95,
+        "vol20": 447881,
+        "notional_est": 12070386
+      },
+      {
+        "symbol": "6743",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 26.85,
+        "vol20": 343965,
+        "notional_est": 9235467
+      },
+      {
+        "symbol": "8072",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 26.4,
+        "vol20": 152127,
+        "notional_est": 4016157
+      },
+      {
+        "symbol": "1732",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 26.35,
+        "vol20": 488973,
+        "notional_est": 12884444
+      },
+      {
+        "symbol": "1410",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 26.0,
+        "vol20": 110407,
+        "notional_est": 2870585
+      },
+      {
+        "symbol": "1475",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 25.95,
+        "vol20": 26015,
+        "notional_est": 675101
+      },
+      {
+        "symbol": "2107",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 25.6,
+        "vol20": 231944,
+        "notional_est": 5937764
+      },
+      {
+        "symbol": "1521",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 25.55,
+        "vol20": 21261,
+        "notional_est": 543211
+      },
+      {
+        "symbol": "1443",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 25.55,
+        "vol20": 17541,
+        "notional_est": 448173
+      },
+      {
+        "symbol": "6136",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 25.4,
+        "vol20": 163251,
+        "notional_est": 4146582
+      },
+      {
+        "symbol": "6552",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 25.15,
+        "vol20": 154137,
+        "notional_est": 3876539
+      },
+      {
+        "symbol": "9955",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 24.9,
+        "vol20": 307626,
+        "notional_est": 7659875
+      },
+      {
+        "symbol": "1470",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 24.0,
+        "vol20": 12614,
+        "notional_est": 302741
+      },
+      {
+        "symbol": "1604",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 23.15,
+        "vol20": 377907,
+        "notional_est": 8748545
+      },
+      {
+        "symbol": "6838",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 23.05,
+        "vol20": 132510,
+        "notional_est": 3054365
+      },
+      {
+        "symbol": "2115",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 23.0,
+        "vol20": 83590,
+        "notional_est": 1922575
+      },
+      {
+        "symbol": "6671",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 22.9,
+        "vol20": 57208,
+        "notional_est": 1310054
+      },
+      {
+        "symbol": "6216",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 22.5,
+        "vol20": 154656,
+        "notional_est": 3479751
+      },
+      {
+        "symbol": "1438",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 22.4,
+        "vol20": 56512,
+        "notional_est": 1265873
+      },
+      {
+        "symbol": "5525",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 21.85,
+        "vol20": 178247,
+        "notional_est": 3894696
+      },
+      {
+        "symbol": "2722",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 21.85,
+        "vol20": 54519,
+        "notional_est": 1191250
+      },
+      {
+        "symbol": "1541",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 21.7,
+        "vol20": 22021,
+        "notional_est": 477864
+      },
+      {
+        "symbol": "9905",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 21.45,
+        "vol20": 176918,
+        "notional_est": 3794888
+      },
+      {
+        "symbol": "2029",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 21.4,
+        "vol20": 271639,
+        "notional_est": 5813076
+      },
+      {
+        "symbol": "2477",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 21.4,
+        "vol20": 159328,
+        "notional_est": 3409620
+      },
+      {
+        "symbol": "6885",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 21.0,
+        "vol20": 251660,
+        "notional_est": 5284857
+      },
+      {
+        "symbol": "2020",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 21.0,
+        "vol20": 299005,
+        "notional_est": 6279098
+      },
+      {
+        "symbol": "1731",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 21.0,
+        "vol20": 417048,
+        "notional_est": 8758016
+      },
+      {
+        "symbol": "8463",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 20.65,
+        "vol20": 64260,
+        "notional_est": 1326968
+      },
+      {
+        "symbol": "6128",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 20.65,
+        "vol20": 82078,
+        "notional_est": 1694911
+      },
+      {
+        "symbol": "9935",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 20.55,
+        "vol20": 407402,
+        "notional_est": 8372117
+      },
+      {
+        "symbol": "2528",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 20.4,
+        "vol20": 486381,
+        "notional_est": 9922168
+      },
+      {
+        "symbol": "2613",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 20.35,
+        "vol20": 256909,
+        "notional_est": 5228103
+      },
+      {
+        "symbol": "2642",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 20.35,
+        "vol20": 53469,
+        "notional_est": 1088097
+      },
+      {
+        "symbol": "6283",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 20.1,
+        "vol20": 146477,
+        "notional_est": 2944197
+      },
+      {
+        "symbol": "1473",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 19.95,
+        "vol20": 66883,
+        "notional_est": 1334311
+      },
+      {
+        "symbol": "1616",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 19.7,
+        "vol20": 466655,
+        "notional_est": 9193099
+      },
+      {
+        "symbol": "2462",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 19.55,
+        "vol20": 241725,
+        "notional_est": 4725720
+      },
+      {
+        "symbol": "2239",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 19.4,
+        "vol20": 105267,
+        "notional_est": 2042184
+      },
+      {
+        "symbol": "1540",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 19.2,
+        "vol20": 336127,
+        "notional_est": 6453645
+      },
+      {
+        "symbol": "9946",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 19.0,
+        "vol20": 315766,
+        "notional_est": 5999555
+      },
+      {
+        "symbol": "4999",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 19.0,
+        "vol20": 74680,
+        "notional_est": 1418916
+      },
+      {
+        "symbol": "2102",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 18.9,
+        "vol20": 282853,
+        "notional_est": 5345925
+      },
+      {
+        "symbol": "6916",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 18.65,
+        "vol20": 52406,
+        "notional_est": 977371
+      },
+      {
+        "symbol": "1418",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 18.0,
+        "vol20": 18427,
+        "notional_est": 331690
+      },
+      {
+        "symbol": "2505",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 17.95,
+        "vol20": 245585,
+        "notional_est": 4408259
+      },
+      {
+        "symbol": "6641",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 17.8,
+        "vol20": 62492,
+        "notional_est": 1112362
+      },
+      {
+        "symbol": "6958",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 17.55,
+        "vol20": 70984,
+        "notional_est": 1245775
+      },
+      {
+        "symbol": "2430",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 17.25,
+        "vol20": 133383,
+        "notional_est": 2300857
+      },
+      {
+        "symbol": "2534",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 16.9,
+        "vol20": 447642,
+        "notional_est": 7565146
+      },
+      {
+        "symbol": "8466",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 16.25,
+        "vol20": 45998,
+        "notional_est": 747472
+      },
+      {
+        "symbol": "8404",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 16.2,
+        "vol20": 237963,
+        "notional_est": 3855007
+      },
+      {
+        "symbol": "4930",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 16.1,
+        "vol20": 102263,
+        "notional_est": 1646427
+      },
+      {
+        "symbol": "1539",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 16.1,
+        "vol20": 98697,
+        "notional_est": 1589017
+      },
+      {
+        "symbol": "8940",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 15.15,
+        "vol20": 57032,
+        "notional_est": 864038
+      },
+      {
+        "symbol": "6674",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 15.05,
+        "vol20": 21407,
+        "notional_est": 322175
+      },
+      {
+        "symbol": "2611",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 14.6,
+        "vol20": 270681,
+        "notional_est": 3951946
+      },
+      {
+        "symbol": "1446",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 14.0,
+        "vol20": 212690,
+        "notional_est": 2977667
+      },
+      {
+        "symbol": "5546",
+        "tier": "EXCLUDE",
+        "reason": "liquidity_below_floor",
+        "last_close": 13.35,
+        "vol20": 34774,
+        "notional_est": 464232
+      }
+    ]
+  },
+  "gate04": "PASS (no relaxation for count)",
+  "note": "pre-open proxy from daily layer; Q2 uses live pre-open/XQ data"
+}

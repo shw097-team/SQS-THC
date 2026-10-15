@@ -1,0 +1,48 @@
+{
+  "schema": "CODEX-PROVIDER-RECEIPT/1",
+  "note": "most recent usage.jsonl rows",
+  "entries": [
+    {
+      "timestamp": 1787240043163,
+      "provider": "opencode-go",
+      "model": "deepseek-v4-flash",
+      "status": 200,
+      "requestId": "ocx-mt1okr6j-z"
+    },
+    {
+      "timestamp": 1787240051958,
+      "provider": "opencode-go",
+      "model": "deepseek-v4-flash",
+      "status": 200,
+      "requestId": "ocx-mt1okxyu-10"
+    },
+    {
+      "timestamp": 1787240063749,
+      "provider": "opencode-go",
+      "model": "deepseek-v4-flash",
+      "status": 200,
+      "requestId": "ocx-mt1ol72d-11"
+    },
+    {
+      "timestamp": 1787240066730,
+      "provider": "opencode-go",
+      "model": "deepseek-v4-flash",
+      "status": 200,
+      "requestId": "ocx-mt1ol9d6-12"
+    },
+    {
+      "timestamp": 1787240077321,
+      "provider": "opencode-go",
+      "model": "deepseek-v4-flash",
+      "status": 200,
+      "requestId": "ocx-mt1olhjd-13"
+    },
+    {
+      "timestamp": 1787240079814,
+      "provider": "opencode-go",
+      "model": "deepseek-v4-flash",
+      "status": 200,
+      "requestId": "ocx-mt1oljgm-14"
+    }
+  ]
+}

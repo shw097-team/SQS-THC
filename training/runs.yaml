@@ -1,0 +1,15 @@
+# TRAINING RUNS - training/runs.yaml (TS-012 / ART-12, CH35 / MC-27).
+# A training run is recorded only after NRTV qualification of the source
+# packet; each run carries id, model_ref and status. Training status is never
+# self-declared PASS; NOT_RUN / DESIGN_CLOSED_NOT_RUN are the honest ceilings
+# until an independent run produces an external receipt.
+training_id: training-runs-ts012
+schema_version: "1.0.0"
+spec_ref: TS-012/CH35
+runs:
+  - id: TRAIN-012-001
+    model_ref: ch35-training-packet-001
+    status: NOT_RUN
+  - id: TRAIN-012-002
+    model_ref: ch35-training-packet-002
+    status: DESIGN_CLOSED_NOT_RUN

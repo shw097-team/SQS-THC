@@ -1,0 +1,62 @@
+{
+  "schema": "RBWI-BACKTEST-RUN-RECEIPT/1",
+  "method_id": "m-w34-overnight-pullback",
+  "candidate_id": "CAND-SPARTOI-W34-20260820",
+  "profile_id": "BP-W34-01",
+  "profile_state": "ACTIVE",
+  "engine_identity": "duckdb+polars",
+  "engine_version": "1.5.5/1.43.2",
+  "method_spec_ref": "schemas/method-spec.schema.json",
+  "method_provenance": {
+    "wf_chain": [
+      "WF-09",
+      "WF-10",
+      "WF-11",
+      "WF-08"
+    ],
+    "admission_state": "RESEARCH_ONLY",
+    "spec_state": "VALIDATED",
+    "ceiling": "RESEARCH_ONLY"
+  },
+  "dataset_version": "DSV-DAILY-2026-08-13-r2",
+  "dataset_symbols_used": 20,
+  "deterministic_result_hash": "b38da6146c5eb9a73d804e05d9f2539dfcf49758f681acc297ce02acdcb40207",
+  "replay_result_hash": "b38da6146c5eb9a73d804e05d9f2539dfcf49758f681acc297ce02acdcb40207",
+  "deterministic_equivalence": true,
+  "validation_split_ref": "WALK_FORWARD",
+  "IS_window": "<=2024-08-20",
+  "OOS_window": ">2024-08-20",
+  "IS": {
+    "n": 5095,
+    "win_rate": 0.2141,
+    "avg_pnl": -295.08,
+    "total_pnl": -1503422.53,
+    "sum_abs": 2220415.93
+  },
+  "OOS": {
+    "n": 4986,
+    "win_rate": 0.2621,
+    "avg_pnl": -261.71,
+    "total_pnl": -1304905.65,
+    "sum_abs": 2697728.89
+  },
+  "total_trades": 10081,
+  "cost_model": {
+    "fee_bps": 14.25,
+    "tax_bps": 30.0,
+    "slippage_bps": 5.0
+  },
+  "slippage": "5bps proxy",
+  "pit_receipt": {
+    "known_at_le_asof_rows": 0,
+    "semantics": "daily T+1"
+  },
+  "nonclaim": "LOCAL/PAPER research receipt; positive PnL != acceptance; not production/live",
+  "honest_interpretation": {
+    "method_finalization_contract": "WF-09->10->11->08 chain executed; BacktestProfile VALIDATED->ACTIVE; deterministic+PIT+parity verified",
+    "empirical_outcome": "Overnight-pullback signal NEGATIVE PnL on W34 candidates (IS -1.50M / OOS -1.30M, win ~21-26%)",
+    "verdict": "RESEARCH_ONLY (positive PnL != acceptance; negative PnL blocks self-admission to VALIDATED/ADMITTED)",
+    "note": "流程有效性≠策略獲利性; this proves the finalized backtest closure runs, not that the strategy is profitable",
+    "recommendation": "策略參數/信號需實驗 (but NOT overfit-rescue); requires method engineering change via Slow-Loop WF, not silent param-tune"
+  }
+}

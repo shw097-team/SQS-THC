@@ -1,0 +1,27 @@
+{
+ "finding": "EXT-F03",
+ "classification": "INDEPENDENT_ACCEPTANCE_REPLAYABILITY_GAP",
+ "status": "CLOSED",
+ "smallest_repair": "FRESH_AO_RE_RUN_AND_IMMUTABLE_RECEIPT",
+ "focused_retest": {
+  "delegation_id": "deleg_7479d12e",
+  "run_start": "2026-08-13T11:15:30+0800",
+  "run_end": "2026-08-13T11:16:14+0800",
+  "checks_total": 10,
+  "checks_pass": 10,
+  "verdict": "PASS",
+  "read_only": "no files created or modified",
+  "fresh_context": true,
+  "verify_only": true,
+  "maker_checker_separation": "maker=construction-commander/hermes-orchestrator != checker=acceptance-officer",
+  "receipt_artifact": {
+   "path": "C:/Projects/Agent_Workspace/SQS-THC/evidence/rp002/stage3/closures/ACCEPTANCE_OFFICER_RECEIPT.json",
+   "sha256": "40ec7d8fdd132dfd79b4d07a90f915634df8a4352b1e327651db83ff9d8cc71d",
+   "bytes": 3058
+  }
+ },
+ "bound_into": [
+  "RP002_FABRIC_AUTONOMOUS_SELF_EVOLUTION_EXTERNAL_EVIDENCE_CLOSURE.md"
+ ],
+ "verdict": "CLOSED"
+}

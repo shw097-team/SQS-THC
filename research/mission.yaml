@@ -1,0 +1,20 @@
+# MISSION — SQS-THC investment mission (TS-007 / ART-07).
+# Source authority: SSOT/SQS-THC_P0-CIP-PACK_v2026.08.06-r2.md §17 TS-007, CH18.
+mission_id: sqs-thc-investment-mission-001
+schema_version: 1.0.0
+mission_name: TW-ICT Investment Mission and Factor Research
+owner_id: Investment Mission and Universe Owner
+source_locator: SSOT/SQS-THC_P0-CIP-PACK_v2026.08.06-r2.md#CH18
+mandate:
+  - Research universe confined to TW-ICT tradable securities
+  - Research candidates must belong to universe_version
+  - mandate_constraints satisfied and capacity_budget nonnegative
+  - committee_decision active before research promotion
+non_goals:
+  - NO_AUTONOMOUS_ORDER_SUBMISSION
+  - NO_BROKER_WRITE
+  - NO_PRODUCTION_APPROVAL
+  - NO_UNSCOPED_NETWORK_OR_SECRET_ACCESS
+claim_ceiling: LOCAL_DELIVERY
+invalid_predicate: FACTOR_WITHOUT_SOURCE_OR_UNIVERSE_ENTRY_WITHOUT_TRADABLE
+exact_error: ERR_MANDATE_VIOLATION

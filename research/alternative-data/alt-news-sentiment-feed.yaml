@@ -1,0 +1,6 @@
+# ALT DATA - licensed news sentiment feed (TS-008 / ART-08, CH22).
+id: alt-news-sentiment-feed
+schema_version: 1.0.0
+license: VENDOR_AGREEMENT_NON_REDISTRIBUTABLE
+source: SSOT/SQS-THC_P0-CIP-PACK_v2026.08.06-r2.md#CH22
+description: Vendor sentiment scores over TW-ICT news; redistribution prohibited

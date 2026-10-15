@@ -1,0 +1,18 @@
+{
+  "segment_id": "Q4_CLOSE_POSTMARKET",
+  "trade_date": "2026-08-20",
+  "sim_clock": {
+    "mode": "SIM_FASTEST_ACCEL",
+    "trade_date": "2026-08-20",
+    "dataset": "DSV-DAILY-2026-08-21-r1"
+  },
+  "reconciliation_result": "BREAK=0; consistent (0 SIM fills)",
+  "replay_rows": 163,
+  "replay_hash": "3222b311327ffc76",
+  "overnight": "FLAT_PENDING_HITL",
+  "financial_boundary": "LOCAL_PAPER_SIMULATION_ONLY",
+  "broker_write": false,
+  "filled": 0,
+  "schema": "RBWI-SEG-SIM-RECEIPT/1",
+  "generated_at": "2026-08-21T12:10+08:00"
+}

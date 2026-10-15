@@ -1,0 +1,19 @@
+schema: RP002-STAGE3-CROSSWALK-OUTPUT/1
+output_id: E1_E2_EVOLUTION_RECEIPTS
+E1:
+  defect: E1-KD-001 (KNOWLEDGE_DEFECT)
+  reproduction_sha256: 9e36655b26d0d85b5f87de73cc6274462428f421e8352c3ef10088d761c053db
+  acceptance_sha256: 5458d3bbddc8b9a6cf0f1e0ee312f719370dc37b9ced02a09349e5fd2fe57e99
+  repair: README L66 + UserGuide L168 currentized via Codex
+  promotion: TX-RP2-S3-PROMO-001 (candidate E1-KD-001-REPAIR)
+  replay: fresh read + tests rerun OK
+E2:
+  subject: E2-BS-001 (SQS_STACK_MANIFEST.yaml knowledge_namespace)
+  selection_card_sha256: fe824e1795e2808f7c35e6e2692c19f7bc0cd78f059707a9944001d15c38659b
+  acceptance_sha256: 2c8c393cafeaa9dd0a19e588a55e42cec93c2c513772082b8aef655d4d4e8ea1
+  fresh_session_canary: sqs-orchestrator-fresh-session-e2 (PASS)
+  promotion: TX-RP2-S3-PROMO-001 (candidate E2-BS-001-EVOLUTION)
+  replay: authority fields intact
+E3:
+  verdict: N/A_WITH_SOURCE_LOCATOR
+  receipt_sha256: 7ece12e7d44efbbfd4f10ca8bd87445c57f0a253797f03b794bbb1d31ed64ff7

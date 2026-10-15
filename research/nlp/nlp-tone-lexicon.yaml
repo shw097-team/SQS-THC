@@ -1,0 +1,6 @@
+# NLP ASSET - TW financial news tone lexicon (TS-008 / ART-08, CH23).
+id: nlp-tone-lexicon
+schema_version: 1.0.0
+source: SSOT/SQS-THC_P0-CIP-PACK_v2026.08.06-r2.md#CH23
+purpose: Polarity lexicon for traditional-Chinese ICT-sector news headlines
+kind: LEXICON

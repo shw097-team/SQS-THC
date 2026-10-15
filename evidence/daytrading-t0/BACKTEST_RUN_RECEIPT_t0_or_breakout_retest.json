@@ -1,0 +1,53 @@
+{
+  "schema": "RBWI-BACKTEST-RUN-RECEIPT/1",
+  "method_id": "m-t0-or-breakout-retest",
+  "experiment": "EXP-RBWI-ORBREAKOUTRETEST-T0-20260821",
+  "axis": "DAYTRADING_T0 (非隔夜)",
+  "data": "minute_bars 49 權值股 2025-08-11..2026-08-10",
+  "enhancements": [
+    "vol filter (開盤波動>=1%)",
+    "trailing stop (新高-1% trail)",
+    "top-liquidity (日成交額>=5億)",
+    "slippage 重估 2.5bp"
+  ],
+  "cost_model": {
+    "fee_bps": 14.25,
+    "tax_bps": 30.0,
+    "slippage_bps": 2.5,
+    "round_trip_bps": 63.5,
+    "note": "當沖 63.5bp (tax 30 + fee 28.5 + slip 5) / decimal 0.00635"
+  },
+  "IS": {
+    "n": 819,
+    "gross_sum_pct": -85.127,
+    "net_sum_pct": -605.192,
+    "avg_gross_bp": -10.39,
+    "avg_net_bp": -73.89,
+    "net_win_pct": 13.7
+  },
+  "OOS": {
+    "n": 1477,
+    "gross_sum_pct": -136.314,
+    "net_sum_pct": -1074.209,
+    "avg_gross_bp": -9.23,
+    "avg_net_bp": -72.73,
+    "net_win_pct": 14.6
+  },
+  "all": {
+    "n": 2296,
+    "gross_sum_pct": -221.442,
+    "net_sum_pct": -1679.402,
+    "avg_gross_bp": -9.64,
+    "avg_net_bp": -73.14,
+    "net_win_pct": 14.3
+  },
+  "deterministic_result_hash": "32ea1ee6861298b42d1933225f1f9b88a7832d57f170853241dbd6654710a6ff",
+  "replay_hash": "32ea1ee6861298b42d1933225f1f9b88a7832d57f170853241dbd6654710a6ff",
+  "deterministic_equivalence": true,
+  "honest": "OR-breakout-retest 強化版(vol/trailing/top-liquid/低slip) 是否翻過成本牆視 IS/OOS net",
+  "no_overclaim": "NOT_ACCEPTANCE; T0 intraday; not live",
+  "pit_fix": "top-liquidity gate 由全日成交額(未來leak) 改為 09:01-09:15 開盤範圍成交額(PIT-clean) - Codex 抓出, 已修; 修正後 gross 更負, 結論更穩健",
+  "honest_conclusion": "C1 OR-Breakout-Retest 強化版(PIT-clean: vol filter+trailing+開盤15分top-liquid+slip 2.5bp) 實測: IS gross -10.39bp / OOS -9.23bp avg => gross 負, 未翻過 63.5bp 成本牆. lane1 OR 延展+151bp 是 OR_hi->day_hi potential(不可交易最大值), 可交易進出場為負 => paper edge != tradable edge. 判 HYPOTHESIS_NOT_ESTABLISHED_T0; REJECTED; 下周 NO_TRADE default",
+  "determination": "HYPOTHESIS_NOT_ESTABLISHED_T0 (PIT-clean gross 負, 不可交易)",
+  "paper_shadow": "NOT_INITIATED"
+}

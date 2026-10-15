@@ -1,0 +1,26 @@
+{
+  "schema": "RW-V200-RUN-COVERAGE",
+  "candidate": "CAND-SPARTOI-820SIMS-20260821",
+  "round": "RBWI_Q234_820_SIMCLOCK_SPARTOI_AUG_BACKFILL",
+  "generated_at": "2026-08-21T12:25+08:00",
+  "runbook": "Spartoi｜台股當沖隔日沖_RUNBOOK&WI_v2.0.0",
+  "manual": "Spartoi｜P1_執行手冊_v2.1.0",
+  "mode": "SIM_FASTEST_ACCEL",
+  "user_decision": "USER_DECISION_RBWI_Q234_0820_SIMCLOCK_2026-08-21-001",
+  "workorder": "WO-RBWI-FULLRUN-001",
+  "span": "fastest-acceleration simulated backfill over ALL 2026-08 trading days (already-elapsed dates)",
+  "dates": ["2026-08-03","2026-08-04","2026-08-05","2026-08-06","2026-08-07","2026-08-10",
+            "2026-08-11","2026-08-12","2026-08-13","2026-08-14","2026-08-17","2026-08-18",
+            "2026-08-19","2026-08-20"],
+  "date_count": 14,
+  "sf_deliverables": [
+    {"sf":"SF-02","deliverables":["daily_pack.json"],"status":"DONE (per day, sim)"},
+    {"sf":"SF-03","deliverables":["S1_final_list.json","xs_watchlist.xs","preopen_risk_report.json"],"status":"DONE (per day, qualification-proxy)"},
+    {"sf":"SF-13","deliverables":["daily_report.json","weekly_report.json","feedback_to_method.json"],"status":"DONE (structural; N_A KPI)"},
+    {"sf":"SF-14","deliverables":["version_manifest.json"],"status":"DONE (per day under archive/)"}
+  ],
+  "artifact_count": 98,
+  "check": {"script": "check_spartoi_aug_corpus.py", "verdict": "PASS", "checks_passed": 129, "checks_total": 129},
+  "honesty": {"fills":0,"broker_write":false,"live":false,"preopen":"qualification-proxy","sim_mode":"SIM_FASTEST_ACCEL"},
+  "claim_ceiling": "SIM-only simulated backfill of already-elapsed dates; NO live/production/live-broker claim; live XQ/PAPER remains PENDING (needs HITL + live TWD window)"
+}

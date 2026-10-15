@@ -1,0 +1,13 @@
+{
+  "method_id": "m-t0-open-auction-breakout",
+  "wf_chain": [
+    "WF-09",
+    "WF-10",
+    "WF-11",
+    "WF-08"
+  ],
+  "admission_state": "RESEARCH_ONLY",
+  "spec_state": "VALIDATED",
+  "compiled_pos": 4,
+  "ceiling": "RESEARCH_ONLY"
+}

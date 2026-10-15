@@ -1,0 +1,50 @@
+{
+  "schema": "RW-V200-S1-FINAL",
+  "date": "2026-08-20",
+  "S1_final": [
+    {
+      "symbol": "2344",
+      "px": 177.0,
+      "liq": 225014000
+    },
+    {
+      "symbol": "2324",
+      "px": 39.3,
+      "liq": 210331000
+    },
+    {
+      "symbol": "2303",
+      "px": 124.5,
+      "liq": 199006000
+    },
+    {
+      "symbol": "1303",
+      "px": 189.0,
+      "liq": 95171000
+    },
+    {
+      "symbol": "2337",
+      "px": 136.5,
+      "liq": 87627000
+    },
+    {
+      "symbol": "8150",
+      "px": 92.9,
+      "liq": 72593049
+    },
+    {
+      "symbol": "2886",
+      "px": 45.85,
+      "liq": 71796604
+    },
+    {
+      "symbol": "2880",
+      "px": 39.1,
+      "liq": 71483000
+    }
+  ],
+  "count": 8,
+  "rollback": "ROLLBACK_S1->S1_candidates",
+  "hidden_if_empty": "KS-S1-EMPTY",
+  "preopen_note": "候選經 daily-proxy；Q2/XQ live preopen 將覆核"
+}

@@ -1,0 +1,45 @@
+{
+  "schema": "RBWI-SF-02-RECEIPT/1",
+  "sf": "SF-02",
+  "run_id": "RUN-RBWI-FULLRUN-20260820-001",
+  "candidate_id": "CAND-RBWI-20260814",
+  "segment_binding_id": "BIND-RBWI-Q1-20260820-001",
+  "status": "FROZEN",
+  "generated_at": "2026-08-20T20:40+08:00",
+  "outputs": {
+    "DailyRunExecutionPackage": {
+      "daily_run_id": "RUN-RBWI-FULLRUN-20260820-001",
+      "trading_date": "2026-08-13",
+      "session_timing_policy_ref": "SessionTimingPolicy+MarketCalendar (qualification jump to semantic boundary)",
+      "method_refs": [
+        "kanban=rbwi-fullrun-2026-08-14",
+        "swarm=bounded-fanout",
+        "gstack=plan-eng-review+slice",
+        "openspec=N/A(no brownfield)",
+        "codex=writer-on-repair"
+      ],
+      "snapshot_hashes": {
+        "dataset": "DSV-DAILY-2026-08-13-r2",
+        "daily_rows": 221349,
+        "symbols": 258
+      },
+      "mutation_flags": {
+        "method_mutation": false,
+        "risk_mutation": false,
+        "wiki_mutation": false,
+        "broker_write": false
+      },
+      "risk_policy_ref": "risk/limits.yaml + survival/guards.yaml",
+      "hitl_contract_ref": "MASTER#8 HITL-APPROVAL/1 (unused in Q1; required Q2-Q4 financial side effects)"
+    },
+    "PlanSnapshot": {
+      "plan": "Q1->Q2->Q3->Q4->final E2E"
+    }
+  },
+  "four_mutation_writes_false": [
+    true,
+    true,
+    true,
+    true
+  ]
+}

@@ -1,0 +1,239 @@
+{
+ "schema": "SQS-THC-ENGINEERING-BASE-DISPOSITION/1",
+ "reference_project_id": "HGK-REFERENCE-PROJECT-001",
+ "primary_engineering_baseline": "C:\\Projects\\Agent_Workspace\\SQS-THC\\工程基座",
+ "subsystems": [
+  {
+   "subsystem": "ICT‑OBI v3.1‑Ω",
+   "disposition": "PATCH",
+   "reason": "Design package (ARCH/SRS v1.1, 6-wave plan); patch to current FSDT contract, then reuse",
+   "mc_domain_projection": [
+    "MC-19"
+   ],
+   "composition": {
+    "total_files": 871,
+    "total_bytes": 19829166,
+    "by_ext": {
+     ".applied": 1,
+     ".docx": 1,
+     ".json": 39,
+     ".lock": 1,
+     ".md": 155,
+     ".ps1": 2,
+     ".py": 10,
+     ".txt": 662
+    }
+   },
+   "identity_readback": []
+  },
+  {
+   "subsystem": "ICT-OBI",
+   "disposition": "ADAPT",
+   "reason": "Real operational ICT-OBI system (1.2GB incl duckdb); reuse runners/scripts/pods, adapt to SQS-THC contract kernel",
+   "mc_domain_projection": [
+    "MC-19"
+   ],
+   "composition": {
+    "total_files": 373,
+    "total_bytes": 1217676660,
+    "by_ext": {
+     "(none)": 3,
+     ".applied": 1,
+     ".backup": 6,
+     ".backup_20250930_082231": 1,
+     ".backup_20250930_082258": 1,
+     ".bak": 2,
+     ".before_bom_fix": 1,
+     ".before_final_pass": 1,
+     ".broken": 1,
+     ".csv": 14,
+     ".duckdb": 2,
+     ".flag": 3,
+     ".icpl": 1,
+     ".json": 160,
+     ".jsonl": 2,
+     ".lock": 2,
+     ".log": 5,
+     ".md": 73,
+     ".ndjson": 4,
+     ".ps1": 28,
+     ".ps1(b)": 1,
+     ".py": 25,
+     ".pyc": 2,
+     ".sha256": 1,
+     ".sql": 5,
+     ".txt": 26,
+     ".yaml": 2
+    }
+   },
+   "identity_readback": [
+    "ARCHITECTURE.md :: **ICT‑OBI v3.1 Ω — ARCHITECTURE\\_v1.3‑RCC‑U8（PASS‑on‑attach｜Full‑Expanded｜ASCII‑safe｜PS5.1/Python OK）**",
+    "KANBAN.md :: **ICT‑OBI v3.1 Ω — KANBAN（Full‑Expanded｜WIP=1｜ASCII‑safe｜U8F Aligned）**",
+    "README.md :: **ICT Day‑Trade AI System — OBI v3.1 Ω（Zero‑Legacy Deep Rebuild）**"
+   ]
+  },
+  {
+   "subsystem": "ICT文檔蒸餾",
+   "disposition": "MIGRATE",
+   "reason": "P2WP1~12 distilled docs corpus (2037 files); migrate selected P0-controlled docs into knowledge projection",
+   "mc_domain_projection": [
+    "MC-08",
+    "MC-10",
+    "MC-19"
+   ],
+   "composition": {
+    "total_files": 2037,
+    "total_bytes": 46349945,
+    "by_ext": {
+     ".json": 61,
+     ".lnk": 2,
+     ".md": 266,
+     ".md(old)": 1,
+     ".ps1": 64,
+     ".ps1(back)": 1,
+     ".py": 47,
+     ".txt": 1595
+    }
+   },
+   "identity_readback": [
+    "TriRAG_FB‑P2L_v1.1.0.md :: WP: WP00"
+   ]
+  },
+  {
+   "subsystem": "Spartoi Development",
+   "disposition": "QUARANTINE",
+   "reason": "5743 files incl legacy/OLD/archives; quarantine until MC-11 Spartoi AgentOS scope is active in current P0",
+   "mc_domain_projection": [
+    "MC-11"
+   ],
+   "composition": {
+    "total_files": 5736,
+    "total_bytes": 360318408,
+    "by_ext": {
+     "(none)": 2,
+     ".csv": 2,
+     ".db": 1,
+     ".docx": 1,
+     ".ini": 1,
+     ".j2": 4,
+     ".json": 533,
+     ".jsonl": 2,
+     ".lnk": 11,
+     ".log": 2,
+     ".md": 2595,
+     ".ndjson": 2,
+     ".ndjsonl": 1,
+     ".pdf": 7,
+     ".png": 7,
+     ".ps1": 3,
+     ".py": 53,
+     ".pyc": 5,
+     ".sh": 5,
+     ".sha256": 57,
+     ".sqlite": 2,
+     ".tgz": 1,
+     ".tpl": 3,
+     ".tsv": 379,
+     ".txt": 2009,
+     ".xs": 1,
+     ".yaml": 19,
+     ".yml": 4,
+     ".zip": 24
+    }
+   },
+   "identity_readback": [
+    "Spartoi-OMOC 工程實作指南.md :: **Spartoi-OMOC 工程實作指南**",
+    "Spartoi｜P1_LBP-B(ICD)_v5.0.1.md :: 文件"
+   ]
+  },
+  {
+   "subsystem": "Spartoi-AgentOS_總系統級_實作",
+   "disposition": "REUSE",
+   "reason": "RBWI + evidence formal implementation pack; maps to MC-02/05/11 governance scope",
+   "mc_domain_projection": [
+    "MC-11"
+   ],
+   "composition": {
+    "total_files": 176,
+    "total_bytes": 11015783,
+    "by_ext": {
+     ".diff": 1,
+     ".json": 14,
+     ".jsonl": 5,
+     ".md": 133,
+     ".py": 1,
+     ".sha256": 14,
+     ".txt": 7,
+     ".yaml": 1
+    }
+   },
+   "identity_readback": []
+  },
+  {
+   "subsystem": "TriRAG",
+   "disposition": "REUSE",
+   "reason": "TriRAG RAG store + runbook; maps to MC-10 knowledge pipeline (source RAG engine)",
+   "mc_domain_projection": [
+    "MC-08",
+    "MC-10"
+   ],
+   "composition": {
+    "total_files": 653,
+    "total_bytes": 170778651,
+    "by_ext": {
+     "(none)": 3,
+     ".backup": 1,
+     ".backup_20251029_185827": 1,
+     ".backup_20251030_213209": 1,
+     ".bak": 10,
+     ".bak_20251006_225312": 1,
+     ".bak_20251006_231448": 1,
+     ".bak_20251007_181410": 1,
+     ".bak_20251007_182757": 1,
+     ".bak_20251007_183922": 1,
+     ".bak_20251008_002900": 1,
+     ".bak_20251008_153200": 1,
+     ".bak_20251008_153859": 1,
+     ".bak_20251008_153950": 1,
+     ".bak_20251015_201611": 1,
+     ".bak_20251018_163202": 1,
+     ".bak_20251018_163232": 1,
+     ".broken": 1,
+     ".csv": 23,
+     ".db": 1,
+     ".ini": 1,
+     ".json": 248,
+     ".jsonl": 58,
+     ".md": 11,
+     ".ndjson": 20,
+     ".old": 9,
+     ".pdf": 5,
+     ".pine": 2,
+     ".ps1": 98,
+     ".psd1": 1,
+     ".py": 52,
+     ".pyc": 2,
+     ".sha256": 2,
+     ".sql": 3,
+     ".tag": 1,
+     ".toml": 3,
+     ".txt": 78,
+     ".with_bom": 1,
+     ".yaml": 4,
+     ".zip": 1
+    }
+   },
+   "identity_readback": []
+  }
+ ],
+ "summary": {
+  "subsystem_count": 6,
+  "by_disposition": {
+   "ADAPT": 1,
+   "MIGRATE": 1,
+   "PATCH": 1,
+   "QUARANTINE": 1,
+   "REUSE": 2
+  }
+ }
+}

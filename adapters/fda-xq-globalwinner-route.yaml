@@ -1,0 +1,66 @@
+# SQS -> XQ 全球贏家 FDA 條件 2 常設路由綁定 (adapters/fda-xq-globalwinner-route.yaml)
+# Work order: WO-SQS-FDA-XQ-ROUTE-001 (shared spine, state=CREATED, writer=codex)
+# Registry:  FDA_ROUTE_REGISTRY.json -> ROUTE-SQS-XQ-GLOBALWINNER-001 (schema FDA-ROUTE-REGISTRY/1)
+# 消費契約: Fabric/fabric-desktop-automation/governance/FDA_DEFERRED_SEMIAUTO_CONTRACT.yaml
+#           (SQS_LIVE_TRADING=NOT_AUTHORIZED, FDA_V1=LOCAL/PAPER/SHADOW/NO-LIVE-WRITE)
+route_id: ROUTE-SQS-XQ-GLOBALWINNER-001
+binding_wo: WO-SQS-FDA-XQ-ROUTE-001
+binding_ref: SQS-THC/adapters/fda-xq-globalwinner-route.yaml
+registry_ref: hgk-governed-execution/references/FDA_ROUTE_REGISTRY.json
+contract_ref: FDA_DEFERRED_SEMIAUTO_CONTRACT.yaml (schema FDA-DEFERRED-SEMIAUTO-CONTRACT/1)
+owner: SQS
+app: XQ
+status: ACTIVE
+expires: "2026-12-31"
+
+# ---- 操作邊界 (NO-LIVE-WRITE 鐵律) ----
+scope: "SQS 以 FDA 操作 XQ 全球贏家（PAPER/SHADOW 唯讀+設定，NO-LIVE-WRITE，ACTIVE_POSITION 需 HUMAN_ENTRY_APPROVAL）"
+mode: PAPER_SHADOW_READONLY_PLUS_CONFIG
+live_write: false            # 與 FDA_DEFERRED_SEMIAUTO_CONTRACT SQS_LIVE_TRADING=NOT_AUTHORIZED 一致
+broker_write: false          # 任何 broker/live 寫入路徑皆禁止（ERR_AUTONOMOUS_ORDER_PATH 語義）
+autonomous_order_submission: false
+active_position_authorization: HUMAN_ENTRY_APPROVAL   # ACTIVE_POSITION 需用戶逐筆核准，FDA/Hermes 不得代批
+entry_approval_binding:
+  - script_digest
+  - FinancialSpec_or_approved_scenario_ref
+  - RiskAuthorization_ref
+  - instrument_or_symbol
+  - side
+  - account_profile_ref
+  - session_id_or_validity_interval
+  - max_initial_size
+  - max_total_size
+  - risk_ceiling
+  - scale_in_out_stop_take_profit_flatten_policy_refs
+
+# ---- FDA 授權條件 2（本路由） ----
+authorization_conditions:
+  condition: "2 - registered governed route (ACTIVE, unexpired)"
+  invocation_rule: "所有 FDA 操作必須經 fda_preflight.py --action-class <CLASS> --route-id ROUTE-SQS-XQ-GLOBALWINNER-001 取得 PASS，且僅限下列 action_classes 與 allowed_scripts"
+  hook_gate: "pre_tool_call guard hook (fda_guard_hook.py, fail_closed) 以 ROUTE-SQS-XQ-GLOBALWINNER-001 放行"
+  expires: "2026-12-31"
+
+# ---- 允許的操作類別 (action_classes) ----
+action_classes:
+  - XQ_LAUNCH_LOCATE            # XQ 啟動/定位（唯讀 locate）
+  - XQ_PAPER_CONFIG             # PAPER/SHADOW 設定（非 live 下單設定）
+  - XQ_LOG_EXPORT_READBACK      # 日誌匯出/讀回（唯讀）
+  - XS_COMPILE_PASS             # XScript 編譯通過驗證
+  - XS_COMPILE_FAIL_READBACK    # XScript 編譯失敗讀回（唯讀）
+
+# ---- 允許執行的腳本 (allowed_scripts, glob) ----
+allowed_scripts:
+  - "**/fda_run.py"
+  - "**/fda_preflight.py"
+  - "**/screen_state_check.py"
+  - "**/xq_native_adapter.py"
+
+# ---- 禁止 (fail-closed) ----
+forbidden:
+  - live_order_submit            # 任何 live 下單
+  - live_order_cancel_modify     # live 單取消/改單
+  - live_broker_write            # broker 寫入
+  - autonomous_position_entry    # 未經 HUMAN_ENTRY_APPROVAL 的建倉
+  - foreground_input             # cua foreground / bring_to_front / 滑鼠搶焦點（零滑鼠硬路由）
+  - unregistered_script          # 非 allowed_scripts 之 FDA 腳本
+  - registry_mutation            # 本路由文件不授權修改 FDA_ROUTE_REGISTRY.json（mutation_authority=ADMITTED_HGK_WORKORDER_ONLY）

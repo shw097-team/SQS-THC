@@ -1,0 +1,9 @@
+{
+  "schema": "RBWI-FINAL-RISK-CHECKER/1",
+  "no_live_writes": true,
+  "no_fills": true,
+  "hitl_not_minted": true,
+  "boundary": "LOCAL_PAPER_SIMULATION_ONLY",
+  "pass": true,
+  "note": "SIM run asserted zero fills/broker-write; independent risk gate considers this within policy"
+}

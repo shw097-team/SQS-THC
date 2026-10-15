@@ -1,0 +1,22 @@
+# LEGACY REGRESSION CASES - tests/legacy-regression/regression-cases.yaml
+# (TS-013 / ART-13). Each case carries id, a test description and the recorded
+# result; a missing required field is rejected (fail-closed).
+regression_id: legacy-regression-ts013
+schema_version: "1.0.0"
+spec_ref: TS-013/LGR-13
+cases:
+  - id: LGR-013-001
+    test: donor matrix maps each donor_id to exactly one target (single truth)
+    result: PASS
+  - id: LGR-013-002
+    test: cutover plan carries id, ordered steps and an explicit rollback path
+    result: PASS
+  - id: LGR-013-003
+    test: duplicate donor_id mapped to two targets is rejected ERR_SECOND_TRUTH_REINTRODUCED
+    result: PASS
+  - id: LGR-013-004
+    test: empty migration (no donors) is a valid deterministic state
+    result: PASS
+  - id: LGR-013-005
+    test: missing required field is rejected fail-closed
+    result: PASS

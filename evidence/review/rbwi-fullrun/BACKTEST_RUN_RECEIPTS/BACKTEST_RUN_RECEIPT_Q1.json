@@ -1,0 +1,46 @@
+{
+  "run_id": "RUN-RBWI-FULLRUN-20260820-001-BT1",
+  "candidate_id": "CAND-RBWI-20260814",
+  "rbwi_edge_ids": [
+    "SF-01",
+    "SF-02",
+    "SF-03"
+  ],
+  "method_spec_ref": "SQS_STACK_MANIFEST.yaml",
+  "method_spec_hash": "6f5ea69c20216772b143008e904e96760221406175d1df1e19e7baed51298cbd",
+  "financial_spec_ref": "contracts/rbwi/CANONICAL_OBJECTS.yaml",
+  "financial_spec_hash": "ae65052448db614f0b85711c6e7c9a2559f250219b13bdaba7e34c7cf99302d7",
+  "dataset_version": "DSV-DAILY-2026-08-13-r2",
+  "dataset_hash": "bound-in-BASELINE_DATASET_INVENTORY.json",
+  "rights_receipt": "RIGHTS-DAILY-2026-08-13-002",
+  "PIT_receipt": {
+    "known_at_le_asof_rows": 0,
+    "known_at_not_plus1d_rows": 0,
+    "pass": true,
+    "semantics": "daily T+1: known_at == asof+1d"
+  },
+  "validation_split_ref": "WALK_FORWARD",
+  "IS_or_train_window": "<=2024-08-20",
+  "OOS_or_validation_window": ">2024-08-20",
+  "fee_model_ref": "TWSE_FEE_0.1425pct_tax_0.3pct_sell",
+  "slippage_model_ref": "5bps_execution_cost_proxy",
+  "capacity_liquidity_ref": "SF-03 vol20 notional floors",
+  "scenario_ref": "BASE_MIXED",
+  "invalidation_ref": "MASTER#16 dependency invalidation (dataset change => requalify)",
+  "risk_survival_receipt": "risk/limits.yaml 5 hard limits + survival/guards.yaml (veto not triggered in read-only Q1)",
+  "engine_identity": "duckdb+polars via SQS data plane",
+  "engine_version_hash": "duckdb-1.5.5+polars-1.43.2",
+  "config_hash": "6337760660255f45e58142bee0299efed93bc7bd29da29a32f133d7f043495ec",
+  "stdout_hash": "n/a-qualification-receipt",
+  "stderr_hash": "n/a-qualification-receipt",
+  "metrics_hash": "29653165c52bd9389e229865dbc4b6c040c802b754a9d3fc62592fbdf9a0e674",
+  "result_hash": "f377976ba0c58a501e29ce90f3f1d4c8103d2c3c59ea5d81f1cb3deb7c4d2b35",
+  "replay_result_hash": "f377976ba0c58a501e29ce90f3f1d4c8103d2c3c59ea5d81f1cb3deb7c4d2b35",
+  "deterministic_equivalence": true,
+  "provenance_manifest": {
+    "source": "TWSE_STOCK_DAY official",
+    "receipts": "daily_acquisition_receipts.jsonl",
+    "catalog": "metadata/catalog.sqlite"
+  },
+  "elapsed_seconds": 0.019
+}

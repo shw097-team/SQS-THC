@@ -1,0 +1,6 @@
+# NEGATIVE fixture - alternative data source without a license -> ERR_MODEL_LEAKAGE
+# (unlicensed data cannot be proven leakage/PIT-safe, fail-closed).
+id: alt-data-no-license-001
+schema_version: 1.0.0
+source: SSOT/SQS-THC_P0-CIP-PACK_v2026.08.06-r2.md#CH22
+description: Vendor feed with undefined usage rights

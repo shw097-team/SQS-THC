@@ -1,0 +1,16 @@
+{
+  "schema": "RW-V200-DAILY-REPORT-REAL",
+  "date": "2026-08-21",
+  "week": "2026-W35",
+  "candidate": "CAND-SPARTOI-W35-REAL-20260821",
+  "generated_at": "2026-08-21T16:25+08:00",
+  "market_close": {
+    "index_note": "8/21 TWSE close captured",
+    "bars": 95
+  },
+  "kpi": {
+    "note": "no live intraday execution this week (SIM/qualification only); real intraday KPI needs live XQ run next week"
+  },
+  "review": "weekly bias=MIXED W35 closed; preparing W36 first trading day",
+  "claim_ceiling": "data-layer review; intraday KPI N_A until live XQ run"
+}

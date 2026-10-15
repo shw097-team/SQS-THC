@@ -1,0 +1,339 @@
+{
+ "schema": "SQS-EVO004-R5-G4-CORPUS/1",
+ "captured_at_utc": "2026-08-11T08:29:49.289444+00:00",
+ "corpus_root": "C:\\Projects\\Agent_Workspace\\SQS-THC\\技術資料庫\\專業技術文檔\\TW-ICT_當沖技術系列",
+ "families": {
+  "ICT&SMC_專業技術文檔": {
+   "actual_paths": "C:\\Projects\\Agent_Workspace\\SQS-THC\\技術資料庫\\專業技術文檔\\TW-ICT_當沖技術系列\\ICT&SMC_專業技術文檔",
+   "files_total": 12,
+   "bytes_total": 15633164,
+   "hash_manifest_sample": [
+    {
+     "name": "ICT&SMC_專業技術文檔_DOC-00_2026-07-26_r1.md",
+     "bytes": 758056,
+     "sha256": "36937e90335a3222"
+    },
+    {
+     "name": "ICT&SMC_專業技術文檔_DOC-01_r2.md",
+     "bytes": 2137061,
+     "sha256": "a60d1033806a4192"
+    },
+    {
+     "name": "ICT&SMC_專業技術文檔_DOC-02_r2.md",
+     "bytes": 219852,
+     "sha256": "1aa3b211a3635caa"
+    },
+    {
+     "name": "ICT&SMC_專業技術文檔_DOC-03_r2.md",
+     "bytes": 2184447,
+     "sha256": "6ced246b91df552e"
+    },
+    {
+     "name": "ICT&SMC_專業技術文檔_DOC-04_r2.md",
+     "bytes": 267659,
+     "sha256": "df98f16fe488bfb3"
+    },
+    {
+     "name": "ICT&SMC_專業技術文檔_DOC-05_r2.md",
+     "bytes": 2251056,
+     "sha256": "1fee92072a276099"
+    },
+    {
+     "name": "ICT&SMC_專業技術文檔_DOC-06_r2.md",
+     "bytes": 1239244,
+     "sha256": "1812af1e33396547"
+    },
+    {
+     "name": "ICT&SMC_專業技術文檔_DOC-07_2026-07-26_r2.md",
+     "bytes": 355981,
+     "sha256": "774dd2b09626252a"
+    }
+   ],
+   "manifest_full_count": 12,
+   "authority_source_ids": [
+    "SRC-FAM-1",
+    "SRC-FAM-2",
+    "SRC-FAM-3",
+    "SRC-FAM-4",
+    "SRC-FAM-5"
+   ],
+   "version": "v2.0",
+   "rights": "RESEARCH_CORPUS_LOCAL (no external redistribution)",
+   "namespace": "sqs:twict:ICT&SMC",
+   "admitted": 12,
+   "quarantined": 0,
+   "promoted": 12,
+   "fts_indexed": 12,
+   "reconciliation": "physical=12 == admitted=12 + quarantined=0"
+  },
+  "ICT_專業技術文檔_v6.0": {
+   "actual_paths": "C:\\Projects\\Agent_Workspace\\SQS-THC\\技術資料庫\\專業技術文檔\\TW-ICT_當沖技術系列\\ICT_專業技術文檔_v6.0",
+   "files_total": 14,
+   "bytes_total": 11831706,
+   "hash_manifest_sample": [
+    {
+     "name": "ICT_專業技術文檔_v6.0_DOC-00_r2.md",
+     "bytes": 90561,
+     "sha256": "86662c9b8fbb248d"
+    },
+    {
+     "name": "ICT_專業技術文檔_v6.0_DOC-01_2026-07-25_r1.md",
+     "bytes": 915843,
+     "sha256": "1a1cd390d1e74460"
+    },
+    {
+     "name": "ICT_專業技術文檔_v6.0_DOC-02_2026-07-25_r1.md",
+     "bytes": 1516849,
+     "sha256": "8cbac40e5cb87d36"
+    },
+    {
+     "name": "ICT_專業技術文檔_v6.0_DOC-03_2026-07-25_r1.md",
+     "bytes": 529814,
+     "sha256": "1e447b4be051b143"
+    },
+    {
+     "name": "ICT_專業技術文檔_v6.0_DOC-04_2026-07-25_r1.md",
+     "bytes": 470135,
+     "sha256": "8cb93e303e49e56f"
+    },
+    {
+     "name": "ICT_專業技術文檔_v6.0_DOC-05_2026-07-25_r1.md",
+     "bytes": 1209227,
+     "sha256": "bc6dac1242adddae"
+    },
+    {
+     "name": "ICT_專業技術文檔_v6.0_DOC-06_2026-07-25_r1.md",
+     "bytes": 390831,
+     "sha256": "e14031ba7975cfee"
+    },
+    {
+     "name": "ICT_專業技術文檔_v6.0_DOC-07_2026-07-25_r1.md",
+     "bytes": 607169,
+     "sha256": "d3c0170d8c0100f8"
+    }
+   ],
+   "manifest_full_count": 14,
+   "authority_source_ids": [
+    "SRC-FAM-1",
+    "SRC-FAM-2",
+    "SRC-FAM-3",
+    "SRC-FAM-4",
+    "SRC-FAM-5"
+   ],
+   "version": "v6.0",
+   "rights": "RESEARCH_CORPUS_LOCAL (no external redistribution)",
+   "namespace": "sqs:twict:ICT",
+   "admitted": 14,
+   "quarantined": 0,
+   "promoted": 14,
+   "fts_indexed": 14,
+   "reconciliation": "physical=14 == admitted=14 + quarantined=0"
+  },
+  "TW-ICT_v3.0_專業技術文檔": {
+   "actual_paths": "C:\\Projects\\Agent_Workspace\\SQS-THC\\技術資料庫\\專業技術文檔\\TW-ICT_當沖技術系列\\TW-ICT_v3.0_專業技術文檔",
+   "files_total": 12,
+   "bytes_total": 5261021,
+   "hash_manifest_sample": [
+    {
+     "name": "TW-ICT_專業技術文檔_v3.0_DOC-00_r2_2026-07-29.md",
+     "bytes": 1439671,
+     "sha256": "47ba4ff4c4aacb1e"
+    },
+    {
+     "name": "TW-ICT_專業技術文檔_v3.0_DOC-01_r2.md",
+     "bytes": 167318,
+     "sha256": "082816dcab0a70db"
+    },
+    {
+     "name": "TW-ICT_專業技術文檔_v3.0_DOC-02_2026-07-29_r2.md",
+     "bytes": 447907,
+     "sha256": "c57fb7de0cc204e3"
+    },
+    {
+     "name": "TW-ICT_專業技術文檔_v3.0_DOC-03_2026-07-29_r2.md",
+     "bytes": 320954,
+     "sha256": "c8734c66a6ac9e51"
+    },
+    {
+     "name": "TW-ICT_專業技術文檔_v3.0_DOC-04_2026-07-29_r2.md",
+     "bytes": 306997,
+     "sha256": "75936e46be1300ac"
+    },
+    {
+     "name": "TW-ICT_專業技術文檔_v3.0_DOC-05_2026-07-29_r2.md",
+     "bytes": 469932,
+     "sha256": "605bb30eefbff6d8"
+    },
+    {
+     "name": "TW-ICT_專業技術文檔_v3.0_DOC-06_2026-07-29_r2.md",
+     "bytes": 351576,
+     "sha256": "baf882b7eec67eb8"
+    },
+    {
+     "name": "TW-ICT_專業技術文檔_v3.0_DOC-07_2026-07-29_r2.md",
+     "bytes": 182485,
+     "sha256": "47f4255a32fcd5ac"
+    }
+   ],
+   "manifest_full_count": 12,
+   "authority_source_ids": [
+    "SRC-FAM-1",
+    "SRC-FAM-2",
+    "SRC-FAM-3",
+    "SRC-FAM-4",
+    "SRC-FAM-5"
+   ],
+   "version": "v3.0",
+   "rights": "RESEARCH_CORPUS_LOCAL (no external redistribution)",
+   "namespace": "sqs:twict:TW-ICT",
+   "admitted": 12,
+   "quarantined": 0,
+   "promoted": 12,
+   "fts_indexed": 12,
+   "reconciliation": "physical=12 == admitted=12 + quarantined=0"
+  },
+  "台股當沖_專業技術文檔_v3.0": {
+   "actual_paths": "C:\\Projects\\Agent_Workspace\\SQS-THC\\技術資料庫\\專業技術文檔\\TW-ICT_當沖技術系列\\台股當沖_專業技術文檔_v3.0",
+   "files_total": 14,
+   "bytes_total": 16439297,
+   "hash_manifest_sample": [
+    {
+     "name": "台股當沖_專業技術文檔_v3.0_DOC-00_2026-07-27_r1.md",
+     "bytes": 1275800,
+     "sha256": "6f69241cfb21b218"
+    },
+    {
+     "name": "台股當沖_專業技術文檔_v3.0_DOC-01_2026-07-27_r1.md",
+     "bytes": 911332,
+     "sha256": "59a2fdb8415e6710"
+    },
+    {
+     "name": "台股當沖_專業技術文檔_v3.0_DOC-02_2026-07-27_r1.md",
+     "bytes": 806021,
+     "sha256": "280792eb012b46ab"
+    },
+    {
+     "name": "台股當沖_專業技術文檔_v3.0_DOC-03_2026-07-27_r1.md",
+     "bytes": 1718619,
+     "sha256": "b8005faabfcd6e8a"
+    },
+    {
+     "name": "台股當沖_專業技術文檔_v3.0_DOC-04_2026-07-27_r1.md",
+     "bytes": 774836,
+     "sha256": "faff1bbf0ec81b86"
+    },
+    {
+     "name": "台股當沖_專業技術文檔_v3.0_DOC-05_2026-07-27_r1.md",
+     "bytes": 1823023,
+     "sha256": "c5d3106922b8714d"
+    },
+    {
+     "name": "台股當沖_專業技術文檔_v3.0_DOC-06_2026-07-27_r1.md",
+     "bytes": 963206,
+     "sha256": "cfb81b37b08dfa38"
+    },
+    {
+     "name": "台股當沖_專業技術文檔_v3.0_DOC-07_2026-07-27_r1.md",
+     "bytes": 576685,
+     "sha256": "5801fcd0fc662710"
+    }
+   ],
+   "manifest_full_count": 14,
+   "authority_source_ids": [
+    "SRC-FAM-1",
+    "SRC-FAM-2",
+    "SRC-FAM-3",
+    "SRC-FAM-4",
+    "SRC-FAM-5"
+   ],
+   "version": "v3.0",
+   "rights": "RESEARCH_CORPUS_LOCAL (no external redistribution)",
+   "namespace": "sqs:twict:台股當沖",
+   "admitted": 14,
+   "quarantined": 0,
+   "promoted": 14,
+   "fts_indexed": 14,
+   "reconciliation": "physical=14 == admitted=14 + quarantined=0"
+  },
+  "市場資訊&台股趨勢_專業技術文檔_v2.0": {
+   "actual_paths": "C:\\Projects\\Agent_Workspace\\SQS-THC\\技術資料庫\\專業技術文檔\\TW-ICT_當沖技術系列\\市場資訊&台股趨勢_專業技術文檔_v2.0",
+   "files_total": 16,
+   "bytes_total": 19537469,
+   "hash_manifest_sample": [
+    {
+     "name": "台股市場&趨勢_專業技術文檔_v2.0_DOC-00_2026-07-25_r1.md",
+     "bytes": 962697,
+     "sha256": "d116c6c8a062a4f2"
+    },
+    {
+     "name": "台股市場&趨勢_專業技術文檔_v2.0_DOC-01_2026-07-25_r1.md",
+     "bytes": 727835,
+     "sha256": "a6d10b83beb4d2a7"
+    },
+    {
+     "name": "台股市場&趨勢_專業技術文檔_v2.0_DOC-02_2026-07-25_r1.md",
+     "bytes": 2044798,
+     "sha256": "6cd0ee18e6209289"
+    },
+    {
+     "name": "台股市場&趨勢_專業技術文檔_v2.0_DOC-03_2026-07-25_r1.md",
+     "bytes": 1402987,
+     "sha256": "9c27096a7ea964ff"
+    },
+    {
+     "name": "台股市場&趨勢_專業技術文檔_v2.0_DOC-04_2026-07-25_r1.md",
+     "bytes": 694932,
+     "sha256": "7acc821a0180ecd2"
+    },
+    {
+     "name": "台股市場&趨勢_專業技術文檔_v2.0_DOC-05_2026-07-25_r1.md",
+     "bytes": 545845,
+     "sha256": "c49e1af98d6835af"
+    },
+    {
+     "name": "台股市場&趨勢_專業技術文檔_v2.0_DOC-06_2026-07-25_r1.md",
+     "bytes": 1383907,
+     "sha256": "810a010c817b0c10"
+    },
+    {
+     "name": "台股市場&趨勢_專業技術文檔_v2.0_DOC-07_2026-07-25_r1.md",
+     "bytes": 1523526,
+     "sha256": "5add27336d62c7c7"
+    }
+   ],
+   "manifest_full_count": 16,
+   "authority_source_ids": [
+    "SRC-FAM-1",
+    "SRC-FAM-2",
+    "SRC-FAM-3",
+    "SRC-FAM-4",
+    "SRC-FAM-5"
+   ],
+   "version": "v2.0",
+   "rights": "RESEARCH_CORPUS_LOCAL (no external redistribution)",
+   "namespace": "sqs:twict:市場資訊&台股趨勢",
+   "admitted": 16,
+   "quarantined": 0,
+   "promoted": 16,
+   "fts_indexed": 16,
+   "reconciliation": "physical=16 == admitted=16 + quarantined=0"
+  }
+ },
+ "physical_denominator": {
+  "files_total": 68,
+  "bytes_total": 68702657
+ },
+ "neg14_gate": {
+  "verdict": "PASS",
+  "missing_families": [],
+  "reasons": []
+ },
+ "fts_projection": {
+  "admitted": 30,
+  "promoted": 30,
+  "quarantined": 0,
+  "fts_rows": 0,
+  "substrate": "HGK KnowledgeFactory (reused)"
+ },
+ "verdict": "TWICT_COLD_START_CORPUS_DENOMINATOR_PASS"
+}

@@ -1,0 +1,22 @@
+schema: RP002-STAGE3-CROSSWALK-OUTPUT/1-SUPERSEDING
+supersedes:
+  path: evidence/rp002/stage3/gates/E1_E2_EVOLUTION_RECEIPTS.yaml
+  sha256: 8d8d7f427f9f6d4aa3036d190df52cc9face0f46d6b00e4d5a85a3a7fb22262b
+repair_workorder: WO-RP2-PCIV-REPAIR-001
+selection_card_sha256_superseded: fe824e1795e2808f7c35e6e2692c19f7bc0cd78f059707a9944001d15c38659b
+selection_card_sha256: d4f93610a46a6ca15992f2dbb14d97b7ea10c47c18a9a71b900fd6a975c72384
+E1:
+  defect: E1-KD-001 (KNOWLEDGE_DEFECT)
+  reproduction_sha256: 9e36655b26d0d85b5f87de73cc6274462428f421e8352c3ef10088d761c053db
+  acceptance_sha256: 5458d3bbddc8b9a6cf0f1e0ee312f719370dc37b9ced02a09349e5fd2fe57e99
+  repair: README L66 + UserGuide L168 currentized via Codex
+  promotion: TX-RP2-S3-PROMO-001 (candidate E1-KD-001-REPAIR)
+  replay: fresh read + tests rerun OK
+E2:
+  subject: E2-BS-001 (SQS_STACK_MANIFEST.yaml knowledge_namespace)
+  selection_card_sha256: d4f93610a46a6ca15992f2dbb14d97b7ea10c47c18a9a71b900fd6a975c72384
+  acceptance_sha256: 2c8c393cafeaa9dd0a19e588a55e42cec93c2c513772082b8aef655d4d4e8ea1
+  fresh_session_canary: sqs-orchestrator-fresh-session-e2 (PASS)
+  promotion: TX-RP2-S3-PROMO-001 (candidate E2-BS-001-EVOLUTION)
+  replay: authority fields intact
+  note: selection_card updated by PCIV-F01 closure, superseded digest preserved above

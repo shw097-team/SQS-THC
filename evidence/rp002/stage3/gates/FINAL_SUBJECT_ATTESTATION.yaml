@@ -1,0 +1,11 @@
+schema: RP002-FINAL-SUBJECT-ATTESTATION/1
+project: HGK-REFERENCE-PROJECT-002
+stage: RP002-STAGE-SQS
+subject: SQS Profile Team + TW-ICT Financial Runtime Pack + Stage-3 evidence set
+persistent_profiles: [sqs-orchestrator, sqs-data-analysis, sqs-risk]
+stack_manifest_sha256: 6f5ea69c20216772b143008e904e96760221406175d1df1e19e7baed51298cbd
+profile_team_runtime_sha256: 81033a005b317cbd5223bec33156aaaeaabfe1c6a9c23907684c8c1dd9d48ba0
+attested_by: hermes-runtime (orchestrator) + acceptance-officer L2 (SQP1/S1/E1/E2)
+financial_truth_owner: SQS_OWNER_BOUND_CONTROL_CORPUS (unchanged)
+live_trading: NOT_AUTHORIZED
+production_autonomy: NOT_CLAIMED

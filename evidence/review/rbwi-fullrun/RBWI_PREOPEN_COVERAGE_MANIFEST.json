@@ -1,0 +1,104 @@
+{
+  "schema": "RBWI-PREOPEN-COVERAGE/1",
+  "generated_at": "2026-08-20T21:10+08:00",
+  "run_id": "RUN-RBWI-FULLRUN-20260820-001",
+  "segment_binding_id": "BIND-RBWI-Q1-20260820-001",
+  "trading_date": "2026-08-14",
+  "week": "2026-W33",
+  "weekly_W_done": 9,
+  "daily_D_done": 10,
+  "module_steps": 3,
+  "total_step_receipts": 22,
+  "steps": [
+    [
+      "W-00",
+      "1ba1ac8221b3c8c5693042527b7eb0691124d33fc0360127328379799efe9248"
+    ],
+    [
+      "W-01",
+      "337a9a4a8e14cf005a3c428fb5199d4b2a521c393b84e898c3df1e651bb556f5"
+    ],
+    [
+      "W-02",
+      "00b53af679e2483b9d859e3aa0d7cd0c86fda6146a90b2ebde442ae7eabf4692"
+    ],
+    [
+      "W-03",
+      "11a6294c1a93fbfc4f9a398e4ebcbc467f2334a677da3f65f31271c5eac38651"
+    ],
+    [
+      "W-04",
+      "4aed63702955889fc56a293c60a0a9bd3660f5e128abc8ebac74cc6cf1e19f6b"
+    ],
+    [
+      "W-05",
+      "68056ee7b6c2ee2dc6691ce56f8c45b71c394e11487f71b4a00bc5cf059cc858"
+    ],
+    [
+      "W-06",
+      "ce133be147fc738ea9e83e51753557a8b7943c092f5f9fc3a80c1390e103ff1d"
+    ],
+    [
+      "W-07",
+      "730affb9ee42050ac6db00870fbdca50aefc87b6761097c71b802345fee36bb9"
+    ],
+    [
+      "W-08",
+      "765b613de407ce1079b5fd0dcc50cfab7050bb4035a0074016878abef191f57b"
+    ],
+    [
+      "D-00",
+      "c1d23135baf4998e425a7a857567c5c0cca16c7705089fe54e9b92345ec6368f"
+    ],
+    [
+      "D-01",
+      "fa260f8af0989e851537ef06ba064c3b51909024affeabad03253106e34d7221"
+    ],
+    [
+      "D-02",
+      "329f5f38983e5d26cd82eae42cd9db61d4971f8eb517e63e2fe1ed4de06cd8b5"
+    ],
+    [
+      "D-03",
+      "d2cf7ddd93423364f76d4007b5d0c5bc2c488abed63ae67567a824155a4503fc"
+    ],
+    [
+      "D-04",
+      "7bc9d5a7b7c15e8b1eb87e5639a0d17774cfb11640faab49f0e123be45bdfb27"
+    ],
+    [
+      "D-05",
+      "cdbac09808c65e943f5f0dfaafd0ddafc9aa549ee8d5bb935664cf191ced0b4a"
+    ],
+    [
+      "D-06",
+      "6a0451adfabb3cff3ce78f7cf1b6520cd12f7ec833f2608d4f23ada31db81124"
+    ],
+    [
+      "D-07",
+      "38c8e7174c1e268b79ea1f4f99590a89bcfff0eac55ed0d349fdc142f144db84"
+    ],
+    [
+      "D-08",
+      "6e9ce217297a29f608509ef727cfae449225ba304e70997273acc160ae635444"
+    ],
+    [
+      "D-09",
+      "6baee1567b871ba215e15998ebe2320dff7728329c2787c86c0894697b97ae5e"
+    ],
+    [
+      "SF-16",
+      "f8cecb82f19923713f476d1cc1876dc8bbed42c29811a602962d4af562aa6797"
+    ],
+    [
+      "SF-00",
+      "be8e06d21661b55f2e1b838ff07483aeaef80384a026a57fad43067f4a492e50"
+    ],
+    [
+      "SF-17",
+      "997c81c9987987b22e3f2cfb9eb63a0bc61bdbaa615b58ed8e25ecb31633519b"
+    ]
+  ],
+  "coverage_note": "100% 開盤前工作事項 receipts 已物化; D-09 試撮 live part 標示需 Q2/XQ window",
+  "semantics": "SIM_BACKTEST_CLOCK qualification (jump to semantic boundary); no live broker write"
+}

@@ -1,0 +1,15 @@
+{
+  "run_id": "RUN-RBWI-FULLRUN-20260820-001",
+  "candidate_id": "CAND-RBWI-20260814",
+  "trade_date": "2026-08-20",
+  "dataset": "DSV-DAILY-2026-08-21-r1",
+  "mode": "SIM_FASTEST_ACCEL",
+  "jobcards": {
+    "SF-00..SF-17": 18,
+    "emitted_fine": true
+  },
+  "fills_total": 0,
+  "broker_write": false,
+  "live": false,
+  "intraday_measured": "qualification-proxy (no FDA/XQ realtime; SIM clock)"
+}

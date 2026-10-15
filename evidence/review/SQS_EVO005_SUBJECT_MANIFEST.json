@@ -1,0 +1,65 @@
+{
+ "schema": "HGK-EVO005-SUBJECT-MANIFEST/1",
+ "subject_version": "EVO005-SUBJECT-V1",
+ "frozen_at_utc": "2026-08-11T11:16:45.608567+00:00",
+ "product_head_full": "c8b0f63d71b2eb7c961ca02e38a3ab8b673bef6e",
+ "control_head_full": "c16c40ae633e1b2ba48c05a9b26b1672708d6066",
+ "required_config_digests": {
+  "hgk_meta_gates": {
+   "path": "C:\\Projects\\Agent_Workspace\\HG-KSEOS\\src\\hg_kseos\\meta_gates.py",
+   "sha256": "df9ea8cb070cfab391301492d0f64e7238411f80504efe99d108f6ab73a723d2"
+  },
+  "hgk_lifecycle": {
+   "path": "C:\\Projects\\Agent_Workspace\\HG-KSEOS\\src\\hg_kseos\\lifecycle.py",
+   "sha256": "5581ea00470739c5c6f3a0f36b37b03804978b28a8e8d1fd2e20e00dba92cff4"
+  },
+  "hgk_knowledge": {
+   "path": "C:\\Projects\\Agent_Workspace\\HG-KSEOS\\src\\hg_kseos\\knowledge.py",
+   "sha256": "7fe784947cad5df36bb8815fbc93356a3a3f1dc17cbd386950de4517caa8dee1"
+  },
+  "sqs_data_policy": {
+   "path": "data_plane\\config\\data_policy.yaml",
+   "sha256": "c369fabcad3e90d2c6b42a9124f0e6b73ac71066b6c99d3ef444125f74e14dbb"
+  },
+  "sqs_provider_profile": {
+   "path": "data_plane\\config\\provider_profile.yaml",
+   "sha256": "0e31087c3a4c36d521a5dd744b9d60265413ab4b39aaf2c419eed02bc9be8815"
+  },
+  "oracle_v1": {
+   "path": "evidence\\review\\SQS_EVO005_ACCEPTANCE_ORACLE_V1.json",
+   "sha256": "4fa9fb1cbc5a0c39bafc9b1b9ce8ef10cb4c08a00032c68983d7e19d62e9828b"
+  }
+ },
+ "dataset_version": {
+  "dataset_version": "DSV-2026-08-11-r1",
+  "manifest_digest": "62b1008494312564fb8825bb205c612c552ae55037897b1ed633dab04b02f06d"
+ },
+ "required_tool_profile_digests": {
+  "qdrant": {
+   "state": "ADMITTED_DISABLED"
+  },
+  "neo4j": {
+   "state": "INSTALL_PROFILE_READY"
+  },
+  "codex": {
+   "state": "APPLICABLE_BOUNDED"
+  },
+  "gstack": {
+   "state": "ADVISORY"
+  }
+ },
+ "required_knowledge_profile_digest": {
+  "five_family_files": 68,
+  "corpus_root": "技術資料庫/專業技術文檔/TW-ICT_當沖技術系列"
+ },
+ "claim_scopes": [
+  "PRODUCT_LOCAL_DELIVERY",
+  "REFERENCE_PROJECT_EVOLUTION_COMPLETE",
+  "KNOWLEDGE_BASELINE_READY",
+  "VECTOR_PROVIDER_READINESS",
+  "GRAPH_PROVIDER_READINESS",
+  "PRODUCTION",
+  "LIVE_TRADING"
+ ],
+ "subject_digest": "e546cc2c4eacf0cb4bbb259d717c1728b89ac6c579de94262db0f450f36eefc1"
+}

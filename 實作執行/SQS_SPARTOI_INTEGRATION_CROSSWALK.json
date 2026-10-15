@@ -1,0 +1,199 @@
+{
+ "schema": "SQS-SPARTOI-INTEGRATION-CROSSWALK/1",
+ "reference_project_id": "HGK-REFERENCE-PROJECT-001",
+ "base": "C:\\Projects\\Agent_Workspace\\SQS-THC\\工程基座\\spartoi-total-system",
+ "role": "NEW_ENGINEERING_BASE_CANDIDATE (PRIMARY_ENGINEERING_BASELINE member)",
+ "inventory": {
+  "total_files": 1798,
+  "total_bytes": 37477654,
+  "files_hashed": 1798
+ },
+ "authority_lock": [
+  {
+   "path": "docs/sp-ts/Spartoi_總系統級&7-child-PRW_總藍圖.md",
+   "bytes": 115421,
+   "sha256": "a1664f15544708efafad108e52f0cc630d7e121f6492c2ed172bbe4c6899453b"
+  },
+  {
+   "path": "docs/sp-ts/Spartoi_總系統級_SP-TS-00.md",
+   "bytes": 218591,
+   "sha256": "cf7c393ea9fb739dfc8140252063d2f427ad30f16a1f7485a7d377c4656113d3"
+  },
+  {
+   "path": "docs/sp-ts/Spartoi_總系統級_SP-TS-01.md",
+   "bytes": 436046,
+   "sha256": "f9c1620afea5dcb8e939c99226f663a27aef4a8376263e7c29463be4c9b10c72"
+  },
+  {
+   "path": "docs/sp-ts/Spartoi_總系統級_SP-TS-02.md",
+   "bytes": 174393,
+   "sha256": "ff15257269c9fffa0a6d4c978a24225cfae4d2185bfad32d2aec9ac38584a62c"
+  },
+  {
+   "path": "docs/sp-ts/Spartoi_總系統級_SP-TS-03.md",
+   "bytes": 148587,
+   "sha256": "3b93e448a2a6f62cb400eeae9425021084cc64a99e176e71729f02d32b8676c6"
+  },
+  {
+   "path": "docs/sp-ts/Spartoi_總系統級_SP-TS-04.md",
+   "bytes": 390240,
+   "sha256": "fd9d9874abbd637b5664b5fba8a571da4dbef34388a1fefbee3fbd3f13ab47af"
+  },
+  {
+   "path": "docs/sp-ts/Spartoi_總系統級_SP-TS-05.md",
+   "bytes": 196924,
+   "sha256": "b095b64b49b8217694d583535746f86db715f8f4f48b7c788ef857d3fd1561cc"
+  },
+  {
+   "path": "docs/sp-ts/Spartoi_總系統級_SP-TS-06.md",
+   "bytes": 227516,
+   "sha256": "84d44b7ac2e9cbd2101cee66c164723eced00509ab9876072ee3e29988369e62"
+  },
+  {
+   "path": "docs/sp-ts/Spartoi_總系統級_SP-TS-07.md",
+   "bytes": 160369,
+   "sha256": "87592cae2e78909b40cb23fdcb7dbfff8061550c85926fee1ddea5532cf9f9fd"
+  },
+  {
+   "path": "docs/sp-ts/Spartoi_總系統級_SP-TS-08.md",
+   "bytes": 312616,
+   "sha256": "48683ba8332d9e2fcad04b24b4179db631bc40c4dd3cf1a18d00b7514be425bb"
+  },
+  {
+   "path": "docs/sp-ts/Spartoi_總系統級_SP-TS-09.md",
+   "bytes": 95785,
+   "sha256": "47c532dca41862333ac6a154b5fd0087958a44e12388ebabfe06e387e41363b5"
+  },
+  {
+   "path": "docs/sp-ts/Spartoi_總系統級_SP-TS-10.md",
+   "bytes": 381741,
+   "sha256": "0ad7ea12816abbb59e21b5c305572dd323c0e4af6de81e955c1f30f4e789e5fb"
+  },
+  {
+   "path": "docs/sp-ts/Spartoi_總系統級_實作前開發系列文檔_總藍圖.md",
+   "bytes": 343283,
+   "sha256": "0973d50a04f310b783e0ff92d0cdc1a02a6dcc37ea06f61991a2617b19cf73c9"
+  }
+ ],
+ "authority_readback": {
+  "blueprint_title": "Spartoi_總系統級&7-child-PRW_總藍圖",
+  "sp_ts_00_title": "《Spartoi_總系統級_實作前開發系列文檔_Source Authority & Patch Control》",
+  "sp_ts_00_goal": "",
+  "sp_ts_01_goal": ""
+ },
+ "capability_crosswalk": [
+  {
+   "capability": "agentos_kernel_interface",
+   "package_dir": "packages/agentos_kernel_interface",
+   "python_files": 3,
+   "purpose_hint": "agentos_kernel_interface"
+  },
+  {
+   "capability": "eval_regression",
+   "package_dir": "packages/eval_regression",
+   "python_files": 2,
+   "purpose_hint": "eval_regression"
+  },
+  {
+   "capability": "evidence_control_plane",
+   "package_dir": "packages/evidence_control_plane",
+   "python_files": 1,
+   "purpose_hint": "evidence_control_plane"
+  },
+  {
+   "capability": "hitl_acceptance",
+   "package_dir": "packages/hitl_acceptance",
+   "python_files": 2,
+   "purpose_hint": "hitl_acceptance"
+  },
+  {
+   "capability": "opencode_bridge",
+   "package_dir": "packages/opencode_bridge",
+   "python_files": 2,
+   "purpose_hint": "opencode_bridge"
+  },
+  {
+   "capability": "operator_runbook",
+   "package_dir": "packages/operator_runbook",
+   "python_files": 1,
+   "purpose_hint": "operator_runbook"
+  },
+  {
+   "capability": "policy_permission",
+   "package_dir": "packages/policy_permission",
+   "python_files": 2,
+   "purpose_hint": "policy_permission"
+  },
+  {
+   "capability": "rag_index",
+   "package_dir": "packages/rag_index",
+   "python_files": 3,
+   "purpose_hint": "rag_index"
+  },
+  {
+   "capability": "release_packager",
+   "package_dir": "packages/release_packager",
+   "python_files": 1,
+   "purpose_hint": "release_packager"
+  },
+  {
+   "capability": "security_guard",
+   "package_dir": "packages/security_guard",
+   "python_files": 1,
+   "purpose_hint": "security_guard"
+  }
+ ],
+ "fit_gap": [
+  {
+   "capability": "agentos_kernel_interface",
+   "fit": "REUSE_ADAPTER_FIRST",
+   "python_files": 3
+  },
+  {
+   "capability": "eval_regression",
+   "fit": "REUSE_ADAPTER_FIRST",
+   "python_files": 2
+  },
+  {
+   "capability": "evidence_control_plane",
+   "fit": "REUSE_ADAPTER_FIRST",
+   "python_files": 1
+  },
+  {
+   "capability": "hitl_acceptance",
+   "fit": "REUSE_ADAPTER_FIRST",
+   "python_files": 2
+  },
+  {
+   "capability": "opencode_bridge",
+   "fit": "REUSE_ADAPTER_FIRST",
+   "python_files": 2
+  },
+  {
+   "capability": "operator_runbook",
+   "fit": "REUSE_ADAPTER_FIRST",
+   "python_files": 1
+  },
+  {
+   "capability": "policy_permission",
+   "fit": "REUSE_ADAPTER_FIRST",
+   "python_files": 2
+  },
+  {
+   "capability": "rag_index",
+   "fit": "REUSE_ADAPTER_FIRST",
+   "python_files": 3
+  },
+  {
+   "capability": "release_packager",
+   "fit": "REUSE_ADAPTER_FIRST",
+   "python_files": 1
+  },
+  {
+   "capability": "security_guard",
+   "fit": "REUSE_ADAPTER_FIRST",
+   "python_files": 1
+  }
+ ],
+ "disposition_note": "REUSE/ADAPTER-first; no wholesale import; no second orchestrator/authority; only SQS/TW-ICT-required capabilities extracted via owner-backed WorkOrders."
+}

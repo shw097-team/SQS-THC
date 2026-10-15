@@ -1,0 +1,23 @@
+{
+  "schema": "EXPERIMENT-SPEC/1",
+  "experiment_id": "EXP-RBWI-RFOVERNIGHT-20260820",
+  "head_method": "m-w34-overnight-pullback (REJECTED)",
+  "supersedes_via": "Slow-Loop MethodChange",
+  "new_candidate": "model-ml-rf-overnight (rf-overnight, ML_TABULAR, oos_auc 0.612, RESEARCH_ONLY)",
+  "hypothesis": "Overnight gap return for TW-ICT liquid constituents is classifiable with cost-adjusted positive expectancy",
+  "test_design": {
+    "universe": "DSV-DAILY-2026-08-13-r2 258 TWSE symbols, >=5Yi liquidity gate, long-only",
+    "signal": "rf-overnight classification -> next-open long entry / close exit (隔日沖)",
+    "split": "train 2020-01-01..2022-12-31 / test 2023-01-01..2024-06-30 (temporal, per model card); extend walk-forward",
+    "cost_model": {
+      "fee_bps": 14.25,
+      "tax_bps": 30.0,
+      "slippage_bps": 5.0,
+      "round_trip_est": 68.5,
+      "note": "0.685% round-trip"
+    },
+    "acceptance": "EARN preliminary PASS only if cost-adjusted net expectancy > 0 (gross>0 first); then independent validation + Paper/Shadow per DOC-25; positive PnL != acceptance"
+  },
+  "anti_overfit": "Per DOC-20/25: new ExperimentSpec+run lineage, NO reuse maker cache as sole evidence, independent checker, no deletion of failed artifacts",
+  "nonclaim": "LOCAL/RESEARCH; not live; not production"
+}

@@ -1,0 +1,37 @@
+{
+  "schema": "SWARM-MULTILANE-RECEIPT/1",
+  "delegation_id": "deleg_d5dc47cf",
+  "workorder": "WO-RBWI-FULLRUN-001",
+  "board": "rbwi-fullrun-2026-08-14",
+  "subject": "RBWI Q2-Q4 8/20 sim-clock backfill evidence closure (full-Aug corpus)",
+  "lanes": 2,
+  "overlap_note": "two independent read-only leaf lanes dispatched in parallel (delegate_task tasks=[...]); HGK lane duration 49.39s, SQS lane duration 77.5s — concurrent live window",
+  "results": [
+    {
+      "lane": "HGK-TRACE",
+      "verdict": "PASS",
+      "items_verified": [
+        "USER_DECISION_RBWI_Q234_0820_SIMCLOCK_2026-08-21-001.md exists + ACTIVE; claim ceiling complete (SIM only / LOCAL_PAPER_SIMULATION_ONLY / no live-production / qualification-proxy not treated as real fill / live XQ+PAPER PENDING)",
+        "single evidence MD exists; sha256=49df2fb7c446... at SQS-THC, HG-KSEOS, Fabric 3 review roots (byte-identical)",
+        "run ledger RBWI_RUN_LEDGER.jsonl documents sim-clock backfill events",
+        "AO verdict AO_VERDICT_Q234_SIM_820.json = PASS-with-observation",
+        "route receipt ROUTE_GSTACK_OPENSPEC_RBWI_Q234_820.json = selected_route NATIVE + gstack/openspec ACTIVE_SELECTED"
+      ],
+      "blocking": [],
+      "nonclaims": ["evidence mirror byte-identical", "no fabricated live claim"]
+    },
+    {
+      "lane": "SQS-DOMAIN",
+      "verdict": "PASS",
+      "blocking": [],
+      "domain_checked": [
+        "3 x 8/20 receipts exist with trade_date=2026-08-20; Q4 replay_rows=163",
+        "Q2 qualified(41) >= approved(38); sf17_order_intent length 38 == approved 38; all 38 intent NO_TRADE (HITL_HUMAN_ENTRY_APPROVAL_NOT_MINTED_SIM_PENDING, PAPER_ONLY)",
+        "filled==0 / broker_write==False / financial_boundary==LOCAL_PAPER_SIMULATION_ONLY / sim_clock.mode==SIM_FASTEST_ACCEL all true in Q2/Q3/Q4 8/20 receipts",
+        "duckdb cross-check: daily_bars date=2026-08-20 count matches receipts (163)"
+      ],
+      "data_crosscheck": "8/20 daily_bars count == receipts replay count (163)"
+    }
+  ],
+  "recorded_at": "2026-08-21T12:25+08:00"
+}

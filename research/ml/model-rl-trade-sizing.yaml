@@ -1,0 +1,18 @@
+# MODEL CARD - RL trade-sizing policy (TS-008 / ART-08, CH21/CH22).
+id: model-rl-trade-sizing
+schema_version: 1.0.0
+source_locator: SSOT/SQS-THC_P0-CIP-PACK_v2026.08.06-r2.md#CH22
+family: RL_POLICY
+purpose: Sizing policy trained in paper/shadow only; never autonomous submission
+status: RESEARCH_ONLY
+leakage_guard:
+  train_start: 2019-01-01
+  train_end: 2023-06-30
+  test_start: 2023-07-01
+  test_end: 2024-12-31
+  guard_kind: TEMPORAL_SPLIT
+metrics:
+  - name: paper_sharpe
+    value: 0.41
+  - name: paper_max_dd
+    value: 0.087

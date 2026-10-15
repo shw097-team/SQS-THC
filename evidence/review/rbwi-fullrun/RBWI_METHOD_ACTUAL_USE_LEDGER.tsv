@@ -1,0 +1,8 @@
+method_id	version_hash	segment	route	receipt	status
+KANBAN	rbwi-fullrun-2026-08-14/K0	Q1	CLAIMED+COMPLETED	t_9e4a92c1
+KANBAN	rbwi-fullrun-2026-08-14/K1-K5	PREP	DONE_REVALIDATED	t_4c192d35..t_90be59a2
+KANBAN	rbwi-fullrun-2026-08-14/K6b	BINDINGS	CREATED	t_6056daa0
+SWARM	delegate_task dual-lane	Q1	SCHEDULED_FOR_Q1_READBACK	delegation batch Q1
+GSTACK	plan-eng-review + slice	Q1	ROUTE_CONFIRMED_CERTIFIED_ACTIVE_SELECTED_SLICES	named_methods:gstack.plan-eng-review
+OPENSPEC	N/A	Q1	NOT_TRIGGERED_NO_BROWNFIELD	named_methods:openspec
+CODEX	writer=WO-RBWI-FULLRUN-001	Q1	BOUND_ON_REPAIR	spine WO state CREATED

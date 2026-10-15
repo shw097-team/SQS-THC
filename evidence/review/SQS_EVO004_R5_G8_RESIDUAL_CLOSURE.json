@@ -1,0 +1,69 @@
+{
+ "schema": "SQS-EVO004-R5-G8-RESIDUAL/1",
+ "captured_at_utc": "2026-08-11T08:29:50.898868+00:00",
+ "candidate": "SQS-823af358f9cd-HGK-c16c40ae633e",
+ "codex_subagent": {
+  "applicability": "bounded coding card (read-heavy data quality)",
+  "evidence": "data_plane\\reports\\data_quality_report.md",
+  "children_writes": "0 (sole writer pattern)",
+  "verdict": "APPLICABLE"
+ },
+ "swarm_calibration": {
+  "claim": "single-vs-parallel benefit calibrated",
+  "evidence": "Kanban fan-out/join exercised (WAVE4 G5); single kept where atomic",
+  "benefit": "no forced swarm for atomic work",
+  "verdict": "CALIBRATED"
+ },
+ "legacy_rights_stocklist": {
+  "rights": "RESTRICTED_RESEARCH_NO_LICENSE_FILE",
+  "stock_list_count": 263,
+  "source": "evidence/review/SQS_WAVE4_LEGACY_DISPOSITION.json",
+  "verdict": "QUARANTINE_FIRST"
+ },
+ "spartoi_delta": {
+  "previous_10": "item-by-item disposition recorded in G7G8 reconciliation",
+  "source": "evidence/review/SQS_WAVE4_G7G8_RECONCILIATION.json",
+  "verdict": "DISPOSITIONED"
+ },
+ "rbwi_gcf": {
+  "normative_source": "TW-ICT_RBWI_v3.0.0_r2 market lane + A0 WAVE4 prompt §6 G8",
+  "old_candidate": "TEMP_CLOSED",
+  "new_candidate": "PASS",
+  "negative_fixture": "TEMP_CLOSED still blocks (evaluator semantics preserved)",
+  "verdict": "GCF_PASS"
+ },
+ "neg13_embedding_enforced": {
+  "required_claim_ids": 10,
+  "rule": "r5 must embed all claim capsules (enforced by single_md_embedding_gate)"
+ },
+ "full_project_aggregation": {
+  "acceptances_open": [],
+  "acceptances_open_count": 0,
+  "acceptances_total": 1,
+  "denominator_available": true,
+  "guard_required_workorders_terminal": true,
+  "project_id": "HGK-REFERENCE-PROJECT-001",
+  "required_active_capabilities": [
+   "openspec",
+   "gstack.plan-eng-review",
+   "gstack.review",
+   "gstack.qa",
+   "gstack.cso",
+   "gstack.ship",
+   "gstack.office-hours",
+   "gstack.retro"
+  ],
+  "required_active_capabilities_open": [],
+  "required_active_capabilities_open_count": 0,
+  "required_active_capabilities_total": 8,
+  "required_local_scope_open": 0,
+  "requirements_frozen": 1,
+  "requirements_total": 1,
+  "state": "EXECUTING",
+  "taskspecs_total": 15,
+  "workorders_open": [],
+  "workorders_open_count": 0,
+  "workorders_total": 15
+ },
+ "verdict": "WAVE4_EVO004_REMAINING_EVIDENCE_PASS"
+}

@@ -1,0 +1,39 @@
+{
+ "schema": "SQS-WAVE4-G4-COMPLETION-TRUTH/1",
+ "hgk_head": "60820e5",
+ "captured_at_utc": "2026-08-11T04:22:24.313504+00:00",
+ "findings": [
+  {
+   "symptom": "S1_gate_terminal_but_open",
+   "resolved": true,
+   "detail": "wo_open=4 sweep_auto=5"
+  },
+  {
+   "symptom": "S3_conditional_classification",
+   "resolved": true,
+   "detail": "classes=['auto_local', 'blocked_hitl', 'temp_external', 'non_blocking_debt']"
+  },
+  {
+   "symptom": "S5_seal_above_child",
+   "resolved": true,
+   "detail": "composite=TEMP_CLOSED"
+  },
+  {
+   "symptom": "S2_proxy_closed_requirement",
+   "resolved": true,
+   "detail": "reqs=2 wos=5"
+  },
+  {
+   "symptom": "S4_per_wo_substitute",
+   "resolved": true,
+   "detail": "guard_required_workorders_terminal + required_local_scope_open present"
+  },
+  {
+   "symptom": "S6_temp_external_resume",
+   "resolved": true,
+   "detail": "G0 D1 continuation semantics present (auto_local self-continues; TEMP_EXTERNAL persists condition)"
+  }
+ ],
+ "verdict": "EVO-003_EDGES_RESOLVED_BY_G0",
+ "decision": "NO_NEW_HGK_MUTATION_REQUIRED"
+}

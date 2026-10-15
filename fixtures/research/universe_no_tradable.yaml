@@ -1,0 +1,9 @@
+# NEGATIVE fixture — universe entry without tradable flag (ERR_MANDATE_VIOLATION).
+universe_id: sqs-thc-universe-negative-001
+schema_version: 1.0.0
+universe_version: v1.0.0
+entries:
+  - id: tw-9999
+    symbol: '9999'
+    name: Untradable Holding
+    data_source: XQ_TWSE_DAILY

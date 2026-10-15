@@ -1,0 +1,11 @@
+# FACTOR — short-term reversal (TS-007 / ART-07, CH20).
+id: factor-reversal
+schema_version: 1.0.0
+source: SSOT/SQS-THC_P0-CIP-PACK_v2026.08.06-r2.md#CH20
+definition:
+  - Cross-sectional 5-day return reversal rank
+  - Requires liquid tradable constituents only
+  - Signal uses bars available at signal_time
+guard:
+  - Bid-ask and cost-adjusted returns
+  - No lookahead beyond decision_time

@@ -1,0 +1,17 @@
+{
+ "schema": "SQS-CSB-WO-TS12-INDEPENDENT/1",
+ "changeset": "CS-B-SQS-TWICT-WAVE2-FULL-PROJECT-CLOSURE",
+ "workorder": "WO-TS-REF-12",
+ "checker": "INDEPENDENT_CHECKER (fresh read-only subprocess)",
+ "suite": {
+  "exit_code": 0,
+  "ran": "158",
+  "ok": true
+ },
+ "targets": [
+  "docs/DOC-12.md",
+  "release/gates.yaml",
+  "nrtv/config.yaml"
+ ],
+ "verdict": "INDEPENDENT_CASE_PASS"
+}

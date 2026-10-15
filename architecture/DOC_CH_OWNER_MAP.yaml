@@ -1,0 +1,117 @@
+# DOC_CH_OWNER_MAP — chapter -> owner map, CH00..CH35 (36 protected H1).
+# Owners transcribed from SSOT/SQS-THC_P0-CIP-PACK_v2026.08.06-r2.md
+# (Publication DOC Preamble Owner DOC／Owner Truth lines).
+schema_version: 1.0.0
+map_name: DOC_CH_OWNER_MAP
+product_id: SQS-THC
+source_authority: SSOT/SQS-THC_P0-CIP-PACK_v2026.08.06-r2.md
+chapters:
+  - chapter: CH00
+    doc: DOC-00
+    owner: Documentation Contract Owner
+  - chapter: CH01
+    doc: DOC-01
+    owner: Product Constitution Owner
+  - chapter: CH02
+    doc: DOC-01
+    owner: Authority and SoD Owner
+  - chapter: CH03
+    doc: DOC-01
+    owner: Modular Architecture Owner
+  - chapter: CH04
+    doc: DOC-02
+    owner: FSDT Financial Kernel Owner
+  - chapter: CH05
+    doc: DOC-02
+    owner: RBWI Operational Contract Owner
+  - chapter: CH06
+    doc: DOC-03
+    owner: Temporal and Data Quality Owner
+  - chapter: CH07
+    doc: DOC-03
+    owner: Taiwan Market Microstructure and XQ Domain Owner
+  - chapter: CH08
+    doc: DOC-03
+    owner: Financial Ontology and DSL Owner
+  - chapter: CH09
+    doc: DOC-03
+    owner: Data Platform and Rights Owner
+  - chapter: CH10
+    doc: DOC-04
+    owner: Knowledge and Provenance Owner
+  - chapter: CH11
+    doc: DOC-04
+    owner: Spartoi AgentOS Control Truth Owner
+  - chapter: CH12
+    doc: DOC-05
+    owner: Requirement Engineering Owner
+  - chapter: CH13
+    doc: DOC-05
+    owner: Prompt and Role Contract Owner
+  - chapter: CH14
+    doc: DOC-05
+    owner: Host and Worker Integration Owner
+  - chapter: CH15
+    doc: DOC-05
+    owner: Harness and Multi-agent Workflow Owner
+  - chapter: CH16
+    doc: DOC-06
+    owner: Tool and Capability Lifecycle Owner
+  - chapter: CH17
+    doc: DOC-06
+    owner: SDLC and Windows Delivery Owner
+  - chapter: CH18
+    doc: DOC-07
+    owner: Investment Mission and Universe Owner
+  - chapter: CH19
+    doc: DOC-07
+    owner: ICT and Technical Pattern Engineering Owner
+  - chapter: CH20
+    doc: DOC-07
+    owner: Fundamental and Factor Engineering Owner
+  - chapter: CH21
+    doc: DOC-08
+    owner: Statistical and ML Research Owner
+  - chapter: CH22
+    doc: DOC-08
+    owner: Financial NLP and Event Alpha Owner
+  - chapter: CH23
+    doc: DOC-08
+    owner: Alternative Data and Cross-asset Owner
+  - chapter: CH24
+    doc: DOC-09
+    owner: Independent Validation Owner (F22)
+  - chapter: CH25
+    doc: DOC-09
+    owner: Portfolio Risk Authority (F24)
+  - chapter: CH26
+    doc: DOC-09
+    owner: Talebian Survival Authority (F24 Survival Unit)
+  - chapter: CH27
+    doc: DOC-10
+    owner: Decision Compiler Owner
+  - chapter: CH28
+    doc: DOC-10
+    owner: XQ/XS Operations Adapter Owner
+  - chapter: CH29
+    doc: DOC-10
+    owner: Execution Truth and Reconciliation Owner
+  - chapter: CH30
+    doc: DOC-11
+    owner: Maturity and Promotion Owner
+  - chapter: CH31
+    doc: DOC-11
+    owner: SRE and Operator Continuity Owner
+  - chapter: CH32
+    doc: DOC-11
+    owner: Security, Privacy and Rights Veto Owner
+  - chapter: CH33
+    doc: DOC-12
+    owner: Evidence and Release Integrity Owner
+  - chapter: CH34
+    doc: DOC-12
+    owner: Controlled Learning and Migration Owner
+  - chapter: CH35
+    doc: DOC-12
+    owner: AIKD and NRTV Owner
+

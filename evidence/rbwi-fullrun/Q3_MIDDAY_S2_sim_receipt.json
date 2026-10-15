@@ -1,0 +1,256 @@
+{
+  "segment_id": "Q3_MIDDAY_S2",
+  "run_id": "RUN-RBWI-FULLRUN-20260820-001",
+  "candidate_id": "CAND-RBWI-20260814",
+  "sim_clock": {
+    "mode": "SIM",
+    "trade_date": "2026-08-20",
+    "dataset": "DSV-DAILY-2026-08-21-r1"
+  },
+  "sf07_midday_reassessment": {
+    "context_revision": "BASE_MIXED -> BASE_MIXED (no regime flip in sim)",
+    "append_only": true
+  },
+  "sf08_s2_candidate_pool": {
+    "SessionCandidatePool-S2": {
+      "rows": 104,
+      "sample": [
+        {
+          "symbol": "8103",
+          "open": 83.8,
+          "high": 91.9,
+          "low": 83.8,
+          "close": 91.9,
+          "vol20": 1230944.65,
+          "intraday_pct": 9.665871121718395
+        },
+        {
+          "symbol": "6224",
+          "open": 66.4,
+          "high": 72.1,
+          "low": 66.4,
+          "close": 72.1,
+          "vol20": 514493.45,
+          "intraday_pct": 8.584337349397565
+        },
+        {
+          "symbol": "1515",
+          "open": 31.8,
+          "high": 34.5,
+          "low": 31.8,
+          "close": 34.5,
+          "vol20": 2357082.35,
+          "intraday_pct": 8.490566037735835
+        }
+      ]
+    }
+  },
+  "sf09_s2_fresh_observation": {
+    "mode": "FRESH_S2_DAILY_SNAPSHOT",
+    "trade_date": "2026-08-20",
+    "s1_reuse": "FORBIDDEN/not-applied",
+    "rows": 104,
+    "sample": [
+      {
+        "symbol": "8103",
+        "open": 83.8,
+        "high": 91.9,
+        "low": 83.8,
+        "close": 91.9,
+        "vol20": 1230944.65,
+        "intraday_pct": 9.665871121718395
+      },
+      {
+        "symbol": "6224",
+        "open": 66.4,
+        "high": 72.1,
+        "low": 66.4,
+        "close": 72.1,
+        "vol20": 514493.45,
+        "intraday_pct": 8.584337349397565
+      },
+      {
+        "symbol": "1515",
+        "open": 31.8,
+        "high": 34.5,
+        "low": 31.8,
+        "close": 34.5,
+        "vol20": 2357082.35,
+        "intraday_pct": 8.490566037735835
+      },
+      {
+        "symbol": "6456",
+        "open": 67.1,
+        "high": 71.6,
+        "low": 66.6,
+        "close": 71.2,
+        "vol20": 3490108.2,
+        "intraday_pct": 6.110283159463492
+      },
+      {
+        "symbol": "2634",
+        "open": 69.1,
+        "high": 75.4,
+        "low": 69.0,
+        "close": 72.3,
+        "vol20": 48599265.8,
+        "intraday_pct": 4.630969609261948
+      }
+    ],
+    "intraday_tape": "qualification-proxy (no minute layer for 8/20)"
+  },
+  "sf10_s2_qualification": {
+    "qualified": 53,
+    "sample": [
+      {
+        "symbol": "8103",
+        "open": 83.8,
+        "high": 91.9,
+        "low": 83.8,
+        "close": 91.9,
+        "vol20": 1230944.65,
+        "intraday_pct": 9.665871121718395,
+        "qualification": "Q",
+        "qual_reason": "midday_momentum"
+      },
+      {
+        "symbol": "6224",
+        "open": 66.4,
+        "high": 72.1,
+        "low": 66.4,
+        "close": 72.1,
+        "vol20": 514493.45,
+        "intraday_pct": 8.584337349397565,
+        "qualification": "Q",
+        "qual_reason": "midday_momentum"
+      },
+      {
+        "symbol": "1515",
+        "open": 31.8,
+        "high": 34.5,
+        "low": 31.8,
+        "close": 34.5,
+        "vol20": 2357082.35,
+        "intraday_pct": 8.490566037735835,
+        "qualification": "Q",
+        "qual_reason": "midday_momentum"
+      },
+      {
+        "symbol": "6456",
+        "open": 67.1,
+        "high": 71.6,
+        "low": 66.6,
+        "close": 71.2,
+        "vol20": 3490108.2,
+        "intraday_pct": 6.110283159463492,
+        "qualification": "Q",
+        "qual_reason": "midday_momentum"
+      },
+      {
+        "symbol": "2634",
+        "open": 69.1,
+        "high": 75.4,
+        "low": 69.0,
+        "close": 72.3,
+        "vol20": 48599265.8,
+        "intraday_pct": 4.630969609261948,
+        "qualification": "Q",
+        "qual_reason": "midday_momentum"
+      }
+    ],
+    "freshness": {
+      "s1_reuse": "FORBIDDEN"
+    }
+  },
+  "sf15_fresh_risk": {
+    "approved": 50,
+    "sample": [
+      {
+        "symbol": "8103",
+        "open": 83.8,
+        "high": 91.9,
+        "low": 83.8,
+        "close": 91.9,
+        "vol20": 1230944.65,
+        "intraday_pct": 9.665871121718395,
+        "qualification": "Q",
+        "qual_reason": "midday_momentum",
+        "risk": "VETO",
+        "risk_reason": "outside_risk_bounds"
+      },
+      {
+        "symbol": "6224",
+        "open": 66.4,
+        "high": 72.1,
+        "low": 66.4,
+        "close": 72.1,
+        "vol20": 514493.45,
+        "intraday_pct": 8.584337349397565,
+        "qualification": "Q",
+        "qual_reason": "midday_momentum",
+        "risk": "VETO",
+        "risk_reason": "outside_risk_bounds"
+      },
+      {
+        "symbol": "1515",
+        "open": 31.8,
+        "high": 34.5,
+        "low": 31.8,
+        "close": 34.5,
+        "vol20": 2357082.35,
+        "intraday_pct": 8.490566037735835,
+        "qualification": "Q",
+        "qual_reason": "midday_momentum",
+        "risk": "VETO",
+        "risk_reason": "outside_risk_bounds"
+      },
+      {
+        "symbol": "6456",
+        "open": 67.1,
+        "high": 71.6,
+        "low": 66.6,
+        "close": 71.2,
+        "vol20": 3490108.2,
+        "intraday_pct": 6.110283159463492,
+        "qualification": "Q",
+        "qual_reason": "midday_momentum",
+        "risk": "APPROVE",
+        "risk_reason": "within_risk_bounds"
+      },
+      {
+        "symbol": "2634",
+        "open": 69.1,
+        "high": 75.4,
+        "low": 69.0,
+        "close": 72.3,
+        "vol20": 48599265.8,
+        "intraday_pct": 4.630969609261948,
+        "qualification": "Q",
+        "qual_reason": "midday_momentum",
+        "risk": "APPROVE",
+        "risk_reason": "within_risk_bounds"
+      }
+    ],
+    "s1_risk_reuse": "FORBIDDEN"
+  },
+  "sf17_hitl": {
+    "minted": false,
+    "note": "NO HUMAN_ENTRY_APPROVAL in SIM"
+  },
+  "sf10_cutoff": {
+    "semantic_window": "MIDDAY_TO_S2_ENTRY_CUTOFF",
+    "cutoff_event": "2026-08-20 13:10 TW (sim)",
+    "new_entry_cutoff_enforced": true,
+    "post_cutoff_state": "MANAGE_ONLY"
+  },
+  "position_state": {
+    "sidecar": "SF-11",
+    "state": "FLAT_PENDING_HITL_SIM",
+    "note": "no position created in SIM (Q2 NO_TRADE); manage-only semantics recorded"
+  },
+  "financial_boundary": "LOCAL_PAPER_SIMULATION_ONLY",
+  "broker_write": false,
+  "filled": 0,
+  "schema": "RBWI-Q3-SIM-RECEIPT/1",
+  "generated_at": "2026-08-21T11:40+08:00"
+}

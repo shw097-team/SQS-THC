@@ -1,0 +1,242 @@
+schema: RP002-FABRIC-TEAM-STAGE3-DOGFOOD-ACCEPTANCE-MATRIX/1
+stage: RP002-STAGE-SQS
+project: HGK-REFERENCE-PROJECT-002
+rows:
+  - capability_id: FABRIC-CAP-01
+    name: Authority routing
+    applicability: REQUIRED
+    source_locator: "知識庫/實作相關DOC/Fabric/RP-002_v2.0_DOC/RP-002_v2.0_STAGE-3_SQS_PROFILEIZATION_AND_CROSS-STACK_EVOLUTION_2026-08-12_r2.md#3 + evidence/rp002/stage3/wp30/STAGE3_AUTHORITY_RESOLUTION.yaml"
+    gate_or_journey_binding: "C2 authority; J2"
+    runtime_subject: "A0-A9 resolution (user/master/stage3/S2-lineage/Fabric/HGK/SQS/TWICT/knowledge/compiler)"
+    positive_evidence: "STAGE3_AUTHORITY_RESOLUTION.yaml 10-rank order; contract authority block ca6acc0f; Stage-2 lineage all EXACT"
+    negative_evidence: "no support-to-norm promotion; no equal-rank conflict (conflicts=[])"
+    producer: hermes-runtime
+    checker: acceptance-officer (L2 SQP1/S1)
+    candidate_digest: ca6acc0f3cd8660f1efdc61c639d9e6029acf5cc3acbca5e476ab07f59a359f7
+    rollback: n/a (read-only resolution)
+    verdict: PASS
+  - capability_id: FABRIC-CAP-02
+    name: Commander compile/admission
+    applicability: REQUIRED
+    source_locator: "compiler SKILL 48a3fdc5 + var/rp002-stage3/stage3_contract.json"
+    gate_or_journey_binding: "compiler gate; J2"
+    runtime_subject: "construction-acceptance-prompt-compiler C0-C9"
+    positive_evidence: "PROMPT_COMPILE_PASS lint/activation/acceptance/compile 0 errors; duplication 0.0; contract ca6acc0f; receipt+report+thin-prompt emitted"
+    negative_evidence: "PL-001..PL-018 rules exercised (no violations); blocked compile would emit no prompt"
+    producer: construction-commander
+    checker: acceptance-officer (compile receipt audit)
+    candidate_digest: ca6acc0f
+    rollback: n/a (compile output)
+    verdict: PASS
+  - capability_id: FABRIC-CAP-03
+    name: HGK engineering delegation
+    applicability: REQUIRED
+    source_locator: "HG-KSEOS var/shared-spine/hg-kseos.db + AGENTS.md#Admission"
+    gate_or_journey_binding: "admission chain; J2"
+    runtime_subject: "SharedSpine typed API"
+    positive_evidence: "REQ-RP2-STAGE3-001 FROZEN v1 (EVT-165f02335423056c); 4 TS ADMITTED; 4 WO CREATED writer=codex; SQP1+S1 VERIFIED with evidence"
+    negative_evidence: "no free-form mutation; idempotency keys used (FRZ-REQ-RP2-STAGE3-001)"
+    producer: hermes-runtime
+    checker: acceptance-officer
+    candidate_digest: "REQ v1 / WO states VERIFIED"
+    rollback: "RB-WO-RP2-STAGE3-*"
+    verdict: PASS
+  - capability_id: FABRIC-CAP-04
+    name: Codex bounded implementation
+    applicability: REQUIRED
+    source_locator: "config/hermes-codex-lane.json + var/rp002-stage3/codex-*-report.json"
+    gate_or_journey_binding: "SQP1/E1/E2 WorkOrders; J2/J4"
+    runtime_subject: "codex CLI 0.147.0-alpha.6.5 sealed lane (opencodex proxy 127.0.0.1:10101)"
+    positive_evidence: "4 Codex runs exit 0 (SQP1 batch1 31 files, batch2 test repair, E1 docs fix, E2 manifest); byte-verified copies; no git ops; provider opencode-go/deepseek-v4-flash"
+    negative_evidence: "workspace-write forced read-only (10-probe prior); prompts narrow; no files outside list"
+    producer: codex
+    checker: acceptance-officer + maker readback (30/30 SHA-256)
+    candidate_digest: "SQP1 30/30 byte-identical; E1 rollback 8b6be6a2; E2 backup A0F3362E"
+    rollback: "e1-before/ e2-before/ byte copies"
+    verdict: PASS
+  - capability_id: FABRIC-CAP-05
+    name: Profile effective-load
+    applicability: REQUIRED
+    source_locator: "SQS-THC agents/profiles/* + SQP1_ACCEPTANCE_RECEIPT.yaml"
+    gate_or_journey_binding: SQP1; J1
+    runtime_subject: "3 Hermes Profile Distributions (RP002-PROFILE-RUNTIME-CONTRACT/2)"
+    positive_evidence: "L2 C1/C2 (3 profiles, schema valid, files present); 11/11 SQP1 tests; 30/30 byte readback"
+    negative_evidence: "t009/t010 authority-ceiling negatives; 4th profile absent"
+    producer: codex (writer) + hermes (orchestrator)
+    checker: acceptance-officer-L2-sqp1
+    candidate_digest: "profile tree 30/30 identical"
+    rollback: "PREVIOUS_DISTRIBUTION_IF_EXISTS_ELSE_NONE"
+    verdict: PASS
+  - capability_id: FABRIC-CAP-06
+    name: Kanban durable coordination
+    applicability: REQUIRED
+    source_locator: "hermes kanban board rp002-stage3-sqs (DB path kanban/boards/rp002-stage3-sqs/kanban.db)"
+    gate_or_journey_binding: all gates; J2
+    runtime_subject: "project-scoped Kanban board + DAG"
+    positive_evidence: "9-card gate DAG + 4 S1 lane cards; claim/heartbeat/complete events; S3-ENTRY/WP30/SQP1/S1 completed with results"
+    negative_evidence: "child-context mutation guard (HERMES_DELEGATED_CHILD_CONTEXT) respected"
+    producer: hermes-runtime
+    checker: acceptance-officer (board audit)
+    candidate_digest: "board state + task_events"
+    rollback: n/a (coordination state)
+    verdict: PASS
+  - capability_id: FABRIC-CAP-07
+    name: bounded Swarm when justified
+    applicability: REQUIRED_CONDITIONAL
+    source_locator: "SQS_TASK_TOPOLOGY_POLICY.yaml#swarm_eligibility + S1 receipts"
+    gate_or_journey_binding: S1; J2
+    runtime_subject: "3-lane real parallel Swarm (deleg_a1fddc53)"
+    positive_evidence: "lanes B/C/A alive simultaneously 17:15:39..17:15:48Z (transcript timestamps); isolated write scopes; deterministic join; raw lane receipts + SHA-256"
+    negative_evidence: "no sequential faking; SWARM_NOT_SELECTED path documented for ineligible tasks"
+    producer: hermes-runtime (admission) + lane workers
+    checker: acceptance-officer-L2-s1
+    candidate_digest: "S1 receipts a3972648/dd884428/fd011ddc/39a3d567"
+    rollback: "regenerable from frozen scripts"
+    verdict: PASS
+  - capability_id: FABRIC-CAP-08
+    name: Memory/RAG/KG consumption
+    obsidian_closure_evidence: "STAGE3_OBSIDIAN_PROJECTION_RECEIPT.yaml (de062b3c) + vault registration e7167d18 + visible-readback PASS + final class-09 real"
+    applicability: REQUIRED
+    source_locator: "evidence/rp002/stage3/knowledge/STAGE3_KNOWLEDGE_RUNTIME_USAGE_RECEIPT.yaml"
+    gate_or_journey_binding: knowledge surface; J3
+    runtime_subject: "HGK Memory + SQLite/FTS5 + KG1 namespace (Qdrant/Neo4j default OFF)"
+    positive_evidence: "43-file denominator; distillation ledger/crosswalk; retrieval queries Q1-Q4; namespace enforcement; provider states preserved"
+    negative_evidence: "FinancialTruth auto-promotion DENIED; cross-namespace read DENY; poisoned source as DATA"
+    producer: hermes-runtime
+    checker: acceptance-officer
+    candidate_digest: "6 knowledge artifacts (hashes in R1 index)"
+    rollback: n/a (read/projection)
+    verdict: PASS
+  - capability_id: FABRIC-CAP-09
+    name: Policy actual consumption
+    applicability: REQUIRED
+    source_locator: "evidence/rp002/stage3/wp30/STAGE3_POLICY_CONSUMER_TRACE.json (F0 pattern)"
+    gate_or_journey_binding: entry; J2
+    runtime_subject: "Fabric control policies (CHANGE_CLASS_ROUTER/ACCEPTANCE/SOD/RISK/PROMOTION/KNOWLEDGE/EVOLUTION/BREAK_GLASS/RELEASE)"
+    positive_evidence: "6-step chain: policy digest -> HGK consumer -> classification UPGRADE -> WO -> Kanban -> evidence; decisions_taken recorded"
+    negative_evidence: "yaml_presence_alone: NOT_ACCEPTED"
+    producer: hermes-runtime
+    checker: acceptance-officer
+    candidate_digest: "trace JSON"
+    rollback: n/a
+    verdict: PASS
+  - capability_id: FABRIC-CAP-10
+    name: real defect detection
+    applicability: REQUIRED
+    source_locator: "evidence/rp002/stage3/gates/E1_DEFECT_REPRODUCTION.yaml"
+    gate_or_journey_binding: E1; J4
+    runtime_subject: "stale K1/KG1 DEFERRED_TO_RP002 claims (README L66/UserGuide L168) + Codex batch-1 test fixture ordering defect"
+    positive_evidence: "E1-KD-001 reproduced with frozen readback + contradicting KG1/F1/CF1 receipts; real not synthetic"
+    negative_evidence: "fault injection NOT used as real E1"
+    producer: hermes-runtime (discovery) + codex (batch-1 finding)
+    checker: acceptance-officer-L2-e1
+    candidate_digest: "E1_DEFECT_REPRODUCTION.yaml"
+    rollback: n/a (finding)
+    verdict: PASS
+  - capability_id: FABRIC-CAP-11
+    name: governed repair
+    applicability: REQUIRED
+    source_locator: "E1_ACCEPTANCE_RECEIPT.yaml + codex-e1-report.json"
+    gate_or_journey_binding: E1; J4
+    runtime_subject: "README/UserGuide currentness repair"
+    positive_evidence: "classify KNOWLEDGE_DEFECT -> WO -> Codex bounded edit -> 4 focused tests -> regression 226 OK -> L2 -> residue cleanup"
+    negative_evidence: "no scope creep; only 2 claim lines changed"
+    producer: codex
+    checker: acceptance-officer-L2-e1
+    candidate_digest: "post-repair README/UserGuide bytes"
+    rollback: "e1-before/ (README 8b6be6a2)"
+    verdict: PASS
+  - capability_id: FABRIC-CAP-12
+    name: independent acceptance
+    applicability: REQUIRED
+    source_locator: "L2 receipts (SQP1/S1/E1/E2) + delegation subagent-summaries"
+    gate_or_journey_binding: all gates; J2/J4/J5
+    runtime_subject: "acceptance-officer fresh-context VERIFY_ONLY leaves"
+    positive_evidence: "4 L2 acceptances: SQP1 10/10, S1 7/7, E1 6/6, E2 (in flight); all read-only, no candidate write"
+    negative_evidence: "maker != checker; officer candidate-write DENY"
+    producer: acceptance-officer (L2)
+    checker: hermes-runtime (verifies officer output binding)
+    candidate_digest: "L2 summaries"
+    rollback: n/a
+    verdict: PASS
+  - capability_id: FABRIC-CAP-13
+    name: promotion
+    applicability: REQUIRED
+    source_locator: "Fabric/rp002/RP002_PROMOTION_TRANSACTION.yaml (TX-RP2-S3-PROMO-001)"
+    gate_or_journey_binding: E1/E2; R1
+    runtime_subject: "accepted candidate promotion (E1 repair + E2 stack evolution)"
+    positive_evidence: "transaction binds same candidate lineage; L2 acceptances referenced; PROMOTION_POLICY consumed"
+    negative_evidence: "maker self-promotion absent; promotion != interop promotion"
+    producer: hermes-runtime
+    checker: acceptance-officer
+    candidate_digest: "TX-RP2-S3-PROMO-001"
+    rollback: "pre-promotion bytes in e1-before/e2-before"
+    verdict: PASS
+  - capability_id: FABRIC-CAP-14
+    name: rollback
+    applicability: REQUIRED
+    source_locator: "var/rp002-stage3/e1-before/ + e2-before/ + RB-WO-RP2-STAGE3-*"
+    gate_or_journey_binding: E1/E2; R1
+    runtime_subject: "pre-edit byte preservation + SharedSpine rollback pointers"
+    positive_evidence: "e1-before/README.md sha256 8b6be6a2 (pre-edit); e2-before/SQS_STACK_MANIFEST.yaml sha256 A0F3362E; RB pointers on all WOs"
+    negative_evidence: "no silent artifact rewrite"
+    producer: codex (backups) + hermes
+    checker: acceptance-officer (L2 E1C3/E2C3)
+    candidate_digest: "backup hashes"
+    rollback: n/a (this IS the rollback record)
+    verdict: PASS
+  - capability_id: FABRIC-CAP-15
+    name: same-task replay
+    applicability: REQUIRED
+    source_locator: "E1_ACCEPTANCE_RECEIPT.yaml#exact_replay + S1 replay_fixture_ref"
+    gate_or_journey_binding: E1; S1
+    runtime_subject: "exact original behavior/task replay after repair/promotion"
+    positive_evidence: "E1: fresh re-read README/UserGuide + rerun tests after residue cleanup (20/20 OK); S1: replay fixture ref in selection card + regenerable scripts"
+    negative_evidence: "old-session evidence invalid (E2)"
+    producer: hermes-runtime
+    checker: acceptance-officer
+    candidate_digest: "post-replay bytes"
+    rollback: n/a
+    verdict: PASS
+  - capability_id: FABRIC-CAP-16
+    name: fresh-session behavior evolution
+    applicability: REQUIRED
+    source_locator: "E2_ACCEPTANCE_RECEIPT.yaml + subagent-summary-0-20260813_012509_534001.txt"
+    gate_or_journey_binding: E2; J5
+    runtime_subject: "SQS_STACK_MANIFEST.yaml namespace contract evolution"
+    positive_evidence: "fresh-session leaf (no history) loaded new manifest; positive 5/5 + negative fixture + replay PASS; Codex write; L2"
+    negative_evidence: "old-session evidence rejected; authority_delta NONE enforced"
+    producer: codex (writer) + fresh-session leaf (canary)
+    checker: acceptance-officer-L2-e2
+    candidate_digest: "manifest 1713B (backup A0F3362E)"
+    rollback: "e2-before/"
+    verdict: PASS
+  - capability_id: FABRIC-CAP-17
+    name: cross-stack knowledge governance
+    obsidian_closure_evidence: "DERIVED_ONLY authority boundary + candidate/approved/revoked semantics in projection + Financial Truth auto-promotion false (negative fixture PASS)"
+    applicability: REQUIRED
+    source_locator: "STAGE3_KNOWLEDGE_RUNTIME_USAGE_RECEIPT.yaml + E2 selection card"
+    gate_or_journey_binding: knowledge surface; J3
+    runtime_subject: "namespace enforcement across SQS/HGK/Fabric + KG1 states + revoked exclusion"
+    positive_evidence: "candidate/approved/revoked/runtime namespaces; revoked exclusion declared + negative fixture; KG1 provider states preserved; Obsidian projection created"
+    negative_evidence: "FinancialTruth auto-promotion DENIED; cross-namespace unauthorized read DENY"
+    producer: hermes-runtime
+    checker: acceptance-officer
+    candidate_digest: "receipts"
+    rollback: n/a
+    verdict: PASS
+  - capability_id: FABRIC-CAP-18
+    name: evidence/release reduction
+    obsidian_closure_evidence: "final evidence class-09 present + REDUCER_RECEIPTS_OBS_CLOSURE.json + regenerated review MD with mirrors"
+    applicability: REQUIRED
+    source_locator: "R1: child reducer -> Master reducer -> RP002_STAGE3_HANDOFF.yaml -> RP002_R1_EVIDENCE_FOR_EXTERNAL_REVIEW.md"
+    gate_or_journey_binding: R1
+    runtime_subject: "Stage-3 child reducer + Master r2 final reducer + single external review MD"
+    positive_evidence: "R1 receipt set (SQS_PROFILE_TEAM_RUNTIME/S1_CANARY_RECEIPT/E1_E2_EVOLUTION_RECEIPTS/R1_FINAL_RECEIPT) + handoff exact keys + 42-section review MD with raw SHA-256 index"
+    negative_evidence: "no second reducer; only Master may output RP002_LOCAL_ACCEPTANCE_PASS"
+    producer: hermes-runtime + master-reducer
+    checker: acceptance-officer
+    candidate_digest: "R1 receipts"
+    rollback: "rollback checkpoint"
+    verdict: PASS
+final_meta_result: "FABRIC_TEAM_STAGE3_DOGFOOD_ACCEPTANCE = PASS (all 18 rows PASS; no config/file/summary proxy closure)"

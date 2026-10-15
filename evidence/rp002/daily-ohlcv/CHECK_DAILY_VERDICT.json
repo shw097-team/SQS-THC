@@ -1,0 +1,19 @@
+{
+  "checker": "check_daily",
+  "dataset_version": "DSV-DAILY-2026-08-13-r1",
+  "checks": [
+    {"id": "C1", "pass": true, "observed": "core_dirs=258 bars_symbols=258"},
+    {"id": "C2", "pass": true, "observed": "min=2023-01-03 max=2026-08-13"},
+    {"id": "C3", "pass": true, "observed": "violations=0"},
+    {"id": "C4", "pass": true, "observed": "duplicate_rows=0"},
+    {"id": "C5", "pass": true, "observed": "max_gap_days=14 symbols_over_14=0"},
+    {"id": "C6", "pass": true, "observed": "lines=13332 sampled=50 mismatches=0"},
+    {"id": "C7", "pass": true, "observed": "receipts=221349 core=221349 bars=221349"},
+    {"id": "C8", "pass": true, "observed": "registered=221349 bars=221349"},
+    {"id": "C9", "pass": true, "observed": "samples=20 matched=11630/11630 overall=1.0000"},
+    {"id": "C10", "pass": true, "observed": "missing_cols=[] nulls=0"}
+  ],
+  "verdict": "PASS",
+  "run_at_utc": "2026-08-13T08:10:00Z",
+  "workorder": "WO-RP2-DAILY-001"
+}

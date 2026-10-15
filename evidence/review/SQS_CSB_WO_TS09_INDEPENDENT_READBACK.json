@@ -1,0 +1,17 @@
+{
+ "schema": "SQS-CSB-WO-TS09-INDEPENDENT/1",
+ "changeset": "CS-B-SQS-TWICT-WAVE2-FULL-PROJECT-CLOSURE",
+ "workorder": "WO-TS-REF-09",
+ "checker": "INDEPENDENT_CHECKER (fresh read-only subprocess)",
+ "suite": {
+  "exit_code": 0,
+  "ran": "103",
+  "ok": true
+ },
+ "targets": [
+  "docs/DOC-09.md",
+  "risk/limits.yaml",
+  "survival/guards.yaml"
+ ],
+ "verdict": "INDEPENDENT_CASE_PASS"
+}

@@ -1,0 +1,62 @@
+{
+ "schema": "RP002-F0-POLICY-CONSUMER-TRACE/1",
+ "stage": "RP002-STAGE-SQS",
+ "chain": [
+  {
+   "step": 1,
+   "element": "frozen Fabric policy",
+   "artifact": "Fabric/control/CHANGE_CLASS_ROUTER.yaml",
+   "sha256": "0839ead509ed269c2a7aa1c0f0cda47cc4f703008cb0c09694d3dd9bb2dec2b6",
+   "evidence": "policy frozen in Stage-1 Contract Exact Set (SHA f179f54a); consumed to classify Stage-3 as UPGRADE + route E1 defect classes"
+  },
+  {
+   "step": 2,
+   "element": "HGK APL / owning consumer",
+   "artifact": "hg_kseos.named_methods.route + SharedSpine",
+   "evidence": "REQ-RP2-STAGE3-001 FROZEN (EVT-165f02335423056c); route(flow=stage3-full-cycle) invoked"
+  },
+  {
+   "step": 3,
+   "element": "admission/classification decision",
+   "artifact": "router output + compiler contract",
+   "evidence": "ChangeSet=UPGRADE; contract ca6acc0f PROMPT_COMPILE_PASS; stage3 contract C0-C9 compiled"
+  },
+  {
+   "step": 4,
+   "element": "WorkOrder / ExecutionBinding",
+   "artifact": "WO-RP2-STAGE3-{SQP1,S1,E1E2,R1}",
+   "evidence": "4 WOs CREATED writer=codex with rollback pointers RB-WO-RP2-STAGE3-*"
+  },
+  {
+   "step": 5,
+   "element": "Hermes dispatch",
+   "artifact": "kanban board rp002-stage3-sqs",
+   "evidence": "9-card gate DAG created; S3-ENTRY completed; S3-WP30 claimed with heartbeat"
+  },
+  {
+   "step": 6,
+   "element": "evidence",
+   "artifact": "evidence/rp002/stage3/wp30/*",
+   "evidence": "WP3.0 projections + worker logs + gate receipts"
+  }
+ ],
+ "yaml_presence_alone": "NOT_ACCEPTED",
+ "consumed_policies": [
+  "CHANGE_CLASS_ROUTER.yaml",
+  "ACCEPTANCE_POLICY.yaml",
+  "SOD_POLICY.yaml",
+  "RISK_POLICY.yaml",
+  "PROMOTION_POLICY.yaml",
+  "KNOWLEDGE_POLICY.yaml",
+  "EVOLUTION_POLICY.yaml",
+  "BREAK_GLASS_POLICY.yaml",
+  "RELEASE_POLICY.yaml"
+ ],
+ "decisions_taken": [
+  "Stage-3 class = UPGRADE (baseline Stage-1/2 accepted + frozen; SQS RP-001 closed)",
+  "tracked writer = codex for all 4 WorkOrders (no non-Codex exception issued)",
+  "topology = project-scoped Kanban backbone with DIRECT/DAG/on-demand Swarm admission",
+  "Financial Truth/Risk ownership unchanged; acceptance officer stays external VERIFY_ONLY",
+  "claim ceiling = LOCAL until Master final reducer; external meta acceptance PENDING"
+ ]
+}

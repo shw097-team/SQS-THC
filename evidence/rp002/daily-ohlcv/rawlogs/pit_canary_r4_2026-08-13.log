@@ -1,0 +1,172 @@
+{
+ "p1_wrong_clock": 0,
+ "p2": {
+  "same_day_rows_visible": 0,
+  "prev_day_rows_visible": 257,
+  "total_visible": 220834
+ },
+ "p3": {
+  "bars_date_20260813_total": 257,
+  "visible_at_0813_0930": 0,
+  "visible_at_0814_0900": 257
+ },
+ "p4_describe": [
+  [
+   "symbol",
+   "VARCHAR",
+   "YES",
+   null,
+   null,
+   null
+  ],
+  [
+   "date",
+   "DATE",
+   "YES",
+   null,
+   null,
+   null
+  ],
+  [
+   "open",
+   "DOUBLE",
+   "YES",
+   null,
+   null,
+   null
+  ],
+  [
+   "high",
+   "DOUBLE",
+   "YES",
+   null,
+   null,
+   null
+  ],
+  [
+   "low",
+   "DOUBLE",
+   "YES",
+   null,
+   null,
+   null
+  ],
+  [
+   "close",
+   "DOUBLE",
+   "YES",
+   null,
+   null,
+   null
+  ],
+  [
+   "volume",
+   "BIGINT",
+   "YES",
+   null,
+   null,
+   null
+  ],
+  [
+   "amount",
+   "DOUBLE",
+   "YES",
+   null,
+   null,
+   null
+  ],
+  [
+   "provider",
+   "VARCHAR",
+   "YES",
+   null,
+   null,
+   null
+  ],
+  [
+   "venue",
+   "VARCHAR",
+   "YES",
+   null,
+   null,
+   null
+  ],
+  [
+   "source_identity",
+   "VARCHAR",
+   "YES",
+   null,
+   null,
+   null
+  ],
+  [
+   "retrieved_at",
+   "TIMESTAMP WITH TIME ZONE",
+   "YES",
+   null,
+   null,
+   null
+  ],
+  [
+   "asof",
+   "DATE",
+   "YES",
+   null,
+   null,
+   null
+  ],
+  [
+   "known_at",
+   "DATE",
+   "YES",
+   null,
+   null,
+   null
+  ]
+ ],
+ "p4_text_financial_cols": [],
+ "p5": {
+  "gated_rerun_identical": true,
+  "gated_hash": "ee43bc9757cbaf929df58822edb5b365cebfa74ef614dfd0e0cdd1563463422e",
+  "ungated_hash": "2b987908954002348e59a89a3ae4ae5cc391914dc437708966441d2680051052",
+  "gate_changes_result": true,
+  "series_len": 870,
+  "sample_rows": [
+   [
+    "2023-01-03",
+    33.5,
+    false,
+    0.0
+   ],
+   [
+    "2023-01-04",
+    33.5,
+    false,
+    0.0
+   ],
+   [
+    "2023-01-05",
+    34.45,
+    false,
+    0.0
+   ],
+   [
+    "2026-08-12",
+    24.45,
+    false,
+    0.0
+   ],
+   [
+    "2026-08-13",
+    24.05,
+    false,
+    0.0
+   ]
+  ]
+ },
+ "p6": {
+  "sampled": 30,
+  "mismatches": 0
+ },
+ "VERDICT": "PASS"
+}

@@ -1,0 +1,25 @@
+# HARD RISK LIMITS - risk/limits.yaml (TS-009 / ART-09, CH25 / MC-22).
+# Each limit: id, metric, max, hard:true. Hard limits are never overridable:
+# a bypass flag or hard demoted from true raises ERR_VETO_BYPASS (fail-closed,
+# no mutation). An empty limit list is a valid state.
+limits:
+  - id: limit-gross-exposure
+    metric: gross_exposure
+    max: 1.50
+    hard: true
+  - id: limit-net-exposure
+    metric: net_exposure
+    max: 0.80
+    hard: true
+  - id: limit-liquidity-usage
+    metric: liquidity_usage
+    max: 0.30
+    hard: true
+  - id: limit-stress-loss
+    metric: stress_loss_pct
+    max: 0.10
+    hard: true
+  - id: limit-concentration
+    metric: max_position_pct
+    max: 0.15
+    hard: true

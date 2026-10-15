@@ -1,0 +1,21 @@
+{
+  "schema": "BASELINE-REQUIRED-CAPABILITY-PREFLIGHT/1",
+  "generated_at": "2026-08-20T20:38:37.698250+08:00",
+  "items": {
+    "Hermes_runtime": "REQUIRED_PRESENT_OK",
+    "Kanban_parent_board": "REQUIRED_PRESENT_OK(rbwi-fullrun-2026-08-14)",
+    "Swarm_route": "REQUIRED_PRESENT_OK(delegate_task)",
+    "multi_subagent_identity_route": "REQUIRED_PRESENT_OK",
+    "Codex_tracked_writer_route": "REQUIRED_PRESENT_OK(0.147.0-alpha.6.5 sealed lane)",
+    "gstack_exact_identity_and_certification": "REQUIRED_CERTIFIED_ACTIVE_SELECTED_SLICES",
+    "OpenSpec_identity_and_certification": "REQUIRED_IF_BROWNFIELD_TRIGGERED(CERTIFIED_ACTIVE_BROWNFIELD)",
+    "SQS_three_profiles": "REQUIRED_PRESENT_OK(sqs-orchestrator/sq s-data-analysis/sqs-risk)",
+    "FAR_route": "REQUIRED_PRESENT_OK(far_router.py + tri-source + evidence manifest)",
+    "FDA_provider_action_matrix": "REQUIRED_PRESENT_OK(matrix yaml + asset registry + ACTIVE route)",
+    "XQ_subject": "REQUIRED_PRESENT_UNDEFINED(XQ not running; Q2-Q4 needs live session)",
+    "XS_subject": "REQUIRED_IF_CANONICAL_XSCRIPT_PATH(ROUTE ACTIVE)",
+    "backtest_engine_identity": "REQUIRED_PRESENT_OK(backtest.duckdb daily_bars + kernel)",
+    "AcceptanceOfficer_fresh_lane": "REQUIRED_AVAILABLE(fresh-context VERIFY_ONLY lane)"
+  },
+  "g0_verdict": "G0_PASS_CONDITIONAL_Q2Q4_PENDING_LIVE_SESSION"
+}

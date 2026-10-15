@@ -1,0 +1,4 @@
+# VALIDATION RUN - hard risk limits and stress (CH25, MC-22).
+id: validation-run-ch25-001
+spec_ref: TS-009/CH25
+result: PASS

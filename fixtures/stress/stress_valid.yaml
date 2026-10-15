@@ -1,0 +1,22 @@
+# STRESS FIXTURE - flash-crash scenario that must survive (CH25 / MC-22).
+id: stress-flash-crash-001
+spec_ref: TS-009/CH25
+scenario: flash_crash_10pct
+portfolio:
+  gross_exposure: 1.20
+  net_exposure: 0.60
+  liquidity_usage: 0.25
+  stress_loss_pct: 0.08
+  max_position_pct: 0.12
+limits:
+  - metric: gross_exposure
+    max: 1.50
+  - metric: net_exposure
+    max: 0.80
+  - metric: liquidity_usage
+    max: 0.30
+  - metric: stress_loss_pct
+    max: 0.10
+  - metric: max_position_pct
+    max: 0.15
+expected: SURVIVES

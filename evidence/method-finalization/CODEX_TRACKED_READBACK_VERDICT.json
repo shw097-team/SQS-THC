@@ -1,0 +1,20 @@
+{
+  "schema": "CODEX-TRACKED-READBACK/1",
+  "writer": "codex",
+  "verdict": "PASS",
+  "date": "2026-08-20T23:4x+08:00",
+  "route": "opencode-go via opencodex 127.0.0.1:10101 (CODEX_HOME=HG-KSEOS/codex-hermes)",
+  "note": "Codex CLI 修補後重新成功執行 (EXIT=0); static read-only review of method modules; sandbox blocked python exec so tests verified separately",
+  "verified_items": [
+    "MethodSpec states",
+    "WF irreversible",
+    "Ceiling RESEARCH_ONLY",
+    "Non-owner reject",
+    "BacktestProfile DRAFT->VALIDATED->ACTIVE",
+    "G06/G09/G11",
+    "Dual-engine parity",
+    "Strategy pure+deterministic TWSE cost",
+    "Schema required+additionalProperties=false"
+  ],
+  "test_result": "13 tests OK (verified by Hermes+Swarm, PYTHONPATH=src)"
+}

@@ -1,0 +1,62 @@
+schema: RP002-STAGE3-AUTHORITY-RESOLUTION/1
+resolution_order:
+  - rank: A0
+    id: SRC-USER-ORDER
+    source: "user order RP-002_v2.0_STAGE-3_SQS_Fabric-HGK_Full-Cycle-Dogfooding_HGK_任務執行PROMPT_2026-08-13_r1 + external Stage-2 acceptance receipt"
+    role: NORMATIVE
+    governs: true
+  - rank: A1
+    id: SRC-MASTER-R2
+    source: "知識庫/實作相關DOC/Fabric/RP-002_v2.0_DOC/RP-002_v2.0_Master_Blueprint_2026-08-12_r2.md"
+    sha256: 3bc4ad6c4bfe028e3686484f452d5fd015536e5e18b19c10ac978b2203c2087a
+    role: NORMATIVE
+    governs: true
+  - rank: A2
+    id: SRC-STAGE3-R2
+    source: "知識庫/實作相關DOC/Fabric/RP-002_v2.0_DOC/RP-002_v2.0_STAGE-3_SQS_PROFILEIZATION_AND_CROSS-STACK_EVOLUTION_2026-08-12_r2.md"
+    sha256: 02eda9b247f228a66e94e14db6ae8922b6c3733cb915aff2c05e6a43b7d30a32
+    role: NORMATIVE
+    governs: true
+  - rank: A3
+    id: SRC-S2-LINEAGE
+    source: "Fabric/stage/RP002-STAGE-HGK/{EXTERNAL_ACCEPTANCE_RECEIPT_STAGE2,STAGE-2-SEAL-REPAIRED,STAGE2_TO_STAGE3_HANDOFF_REPAIRED}.yaml + Fabric/evidence/review/RP002_STAGE-2_KG1_EVIDENCE_FOR_EXTERNAL_REVIEW.md"
+    sha256: "{receipt 199cd760a5632eefab353d275c1f6b5606b9ff1aef09fac569fe1a61e54cf105 / seal 12da14ac7f7933c0b4cd51720f5bebf3bf2ced2c6f41f36f951c2200b3c51d51 / handoff 93a7da2640adcb8f502729bb8f452a7466a0ed9f406720fabf9d495b92e847ec / bundle 104d4cf281cd229fc6af901896ac3745b0ffe55fd1f2199cd582d92e429f6b34}"
+    role: NORMATIVE
+    governs: true
+  - rank: A4
+    id: SRC-FABRIC
+    source: "Fabric/AGENTS.md + Fabric/control/* + Fabric/contracts/* + Fabric/assurance/*"
+    role: NORMATIVE_POLICY_CONTRACT_SURFACE
+    governs: false
+  - rank: A5
+    id: SRC-HGK
+    source: "HG-KSEOS/AGENTS.md + HG-KSEOS/control/* + HG-KSEOS/config/hermes.json + HGK/HGK_STACK_MANIFEST.yaml"
+    role: NORMATIVE_CONTROL_PLANE
+    governs: true
+  - rank: A6
+    id: SRC-SQS
+    source: "SQS-THC README/STATUS_VECTOR/risk/limits.yaml/survival/guards.yaml + src/kernel/fsdt"
+    role: NORMATIVE_PRODUCT_AUTHORITY
+    governs: false
+  - rank: A7
+    id: SRC-TWICT
+    source: "知識庫/專業技術文檔/TW-ICT_FSDT-Stack_專業技術文檔 DOC00~29"
+    role: NORMATIVE_DOMAIN_DONOR
+    governs: false
+  - rank: A8
+    id: SRC-KNOWLEDGE
+    source: "知識庫 (shared knowledge workbench + source corpus)"
+    role: DATA_AND_SUPPORT_UNLESS_SOURCE_CLASSIFICATION_PROVES_AUTHORITY_BYTES
+    governs: false
+  - rank: A9
+    id: SRC-COMPILER_KP
+    source: "construction-acceptance-prompt-compiler (48a3fdc5) + KP00~KP19 + subject-specific Acceptance Packs"
+    role: NORMATIVE_COMPILATION_SUPPORT
+    governs: false
+
+rules:
+  - User Guide/AGENTS are operational projections; they do not outrank Master/Stage/current machine truth.
+  - Knowledge-root copies are DATA/SUPPORT unless source classification proves exact current authority bytes.
+  - Equal-rank unresolved conflict -> quarantine + TT/CR + affected edge fail closed.
+  - No source -> no new norm. No raw evidence -> no PASS.
+  - Financial Truth owner = SQS source-resolved (src/kernel/fsdt); never Memory/RAG/KG.
