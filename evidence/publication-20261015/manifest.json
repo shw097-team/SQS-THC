@@ -755,8 +755,10 @@
     },
     {
       "path": "evidence/publication-20261015/manifest.json",
-      "bytes": 168303,
-      "sha256": "21f1f0090b200834bb02c3992bd5065ba5512d993a672569346cf897a8213cb4"
+      "bytes": null,
+      "sha256": null,
+      "binding": "self-excluded (recursive); the file's own integrity is attested by the git commit containing it, plus the anonymous readback record in ROUND_CLOSURE.md",
+      "bound_by": "git commit hash + repo blob sha, not by in-file sha"
     },
     {
       "path": "evidence/publication-20261015/plan.md",
@@ -4504,5 +4506,6 @@
   "secret_scan": "PASS (0 hits)",
   "digest_form": "RAW filesystem bytes via hashlib.sha256; git blob-sha differs for CRLF text (text=auto normalization). Equivalence at subject HEAD via git hash-object.",
   "readback_form": "Anonymous GitHub contents API blob-sha compare (authoritative) + raw CDN route (may serve stale).",
-  "self_entry_seed_user": "AO2 FAIL finding (manifest self-entry stale): remediated by regeneration at final content state; self-entry then bound to the committed blob form"
+  "self_entry_seed_user": "AO2 FAIL finding (manifest self-entry stale): remediated by regeneration at final content state; self-entry then bound to the committed blob form",
+  "manifest_note": "schema v2 stays; self-entry is intentionally null (recursive-bind impossible); use git blob sha / commit for this file's integrity"
 }
