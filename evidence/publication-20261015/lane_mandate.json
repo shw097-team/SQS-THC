@@ -1,0 +1,28 @@
+{
+  "schema": "HGK-ROLE-MANDATE/1",
+  "round": "SQS-THC-PUBLICATION-20261015",
+  "declared_by": "owner order 2026-10-15 (per-turn lane chain): PLAN & Orchestrator in HERMES, model GPT 6.1 SOL-MEDIUM (OPEN AI OAuth) with fallback GLM(GO) then DS(GO); per-turn observed serving arm for the orchestrator chat = opencode-go/glm-5.3-flash (runtime metadata, no config mutation); Codex bounded writer / EXECUTE via CODEX CLI, provider/model DeepSeek V4.1 Flash (OPENCODE GO); Independent Acceptance Officer / VERIFY / SECURITY via CODEX CLI, checker model GLM-5.3-Flash (OPENCODE GO)",
+  "roles": {
+    "PLAN": {
+      "provider": "opencode-go",
+      "model": "glm-5.3-flash",
+      "surface": "Hermes session (in-process PLAN + orchestrator; per-turn observed fallback arm)",
+      "chain": ["openai-codex/gpt-6.1-sol", "opencode-go/glm-5.3-flash", "opencode-go/deepseek-v4.1-flash"]
+    },
+    "EXECUTE": {
+      "provider": "opencode-go",
+      "model": "deepseek-v4.1-flash",
+      "surface": "Codex CLI via existing HGK dispatcher",
+      "chain": ["opencode-go/deepseek-v4.1-flash", "openai-codex/gpt-6-luna", "nvidia/deepseek-ai/deepseek-v4.1-flash"]
+    },
+    "VERIFY_SECURITY": {
+      "provider": "opencode-go",
+      "model": "glm-5.3-flash",
+      "surface": "Codex CLI via existing HGK dispatcher",
+      "chain": ["openai-codex/gpt-6.1-sol", "opencode-go/glm-5.3-flash", "opencode-go/deepseek-v4.1-flash"]
+    }
+  },
+  "no_silent_substitution": true,
+  "note": "per-round mandate for SQS-THC-PUBLICATION-20261015: PLAN observed fallback (no Hermes config mutation by the round); EXECUTE default DS(GO); VERIFY/cchecker takes owner-ordered GLM-5.3-flash; per-turn adjustability via chain + dispatcher --require-arm/--force-rank",
+  "consumer": "scripts/runtime_role_binding_assert.py (pre-dispatch fail-closed) + hgk-lane-dispatch.py require_arm==served_arm (receipt-level)"
+}

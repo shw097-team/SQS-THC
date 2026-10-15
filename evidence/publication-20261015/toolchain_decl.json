@@ -1,0 +1,9 @@
+{
+  "schema": "HGK-CODEX-LANE-TOOLCHAIN/1",
+  "lane_toolchain": "codex-cli",
+  "codex_executable": "C:/Users/user/AppData/Local/OpenAI/Codex/bin/9614f1d9b40d9c4f/codex.exe",
+  "codex_version": "0.162.0-alpha.17.2",
+  "codex_sha256": "E98C516F1C8935789AABE9122EE7E05EC4C3EFD1BA6ACF179242E031C495B99E",
+  "declared_by": "SQS-THC-PUBLICATION-20261015 task-local declaration",
+  "note": "canonical pin in config/hermes-codex-lane.json points at a version-hashed dir replaced by an app update; task-local override per skill guidance"
+}
